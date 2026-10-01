@@ -403,9 +403,38 @@ def generate_voice(
 
     # Concatenate all parts (silences + speech) into a single WAV.
     _emit(cb, "Concatenating generated audio...")
+    concat_path = config.TEMP_DIR / f"{run_id}_concat.wav"
+    _concat_wavs(part_paths, concat_path)
+
+    # Optional mastering pass: denoise, smooth clicks, normalize loudness.
     out_path = config.TEMP_DIR / f"{run_id}_generated.wav"
-    _concat_wavs(part_paths, out_path)
+    if config.ENABLE_AUDIO_CLEANUP and config.AUDIO_FILTER_CHAIN.strip():
+        _emit(cb, "Cleaning up audio (denoise + smooth + normalize)...")
+        _master_audio(concat_path, out_path)
+    else:
+        _copy_wav(concat_path, out_path)
     return str(out_path)
+
+
+def _master_audio(src: Path, dst: Path) -> None:
+    """Apply the configured mastering filter chain to smooth/clean the audio.
+
+    Falls back to copying the source if the filter pass fails, so a bad filter
+    never breaks a run.
+    """
+    try:
+        (
+            ffmpeg.input(str(src))
+            .output(str(dst), af=config.AUDIO_FILTER_CHAIN,
+                    acodec="pcm_s16le", ac=1, ar=config.SAMPLE_RATE)
+            .overwrite_output()
+            .run(quiet=True)
+        )
+    except ffmpeg.Error as exc:  # pragma: no cover
+        stderr = exc.stderr.decode(errors="ignore") if exc.stderr else str(exc)
+        logger.warning("Audio cleanup failed (%s); using unprocessed audio.",
+                       stderr.splitlines()[-1] if stderr else exc)
+        _copy_wav(src, dst)
 
 
 def _concat_wavs(parts: List[Path], out_path: Path) -> None:

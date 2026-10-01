@@ -158,6 +158,25 @@ MIN_TEMPO: float = 1.0 / 1.12    # slowest allowed (generated shorter than slot)
 FIT_MIN_DELTA_S: float = 0.05
 
 # --------------------------------------------------------------------------- #
+# Audio cleanup / mastering (smoother, cleaner output)
+# --------------------------------------------------------------------------- #
+# After the cloned voice is generated, run a light mastering pass to remove
+# hiss/rumble, smooth clicks at segment joins, and normalize loudness so the
+# result sounds clean and consistent instead of raw/noisy.
+ENABLE_AUDIO_CLEANUP: bool = True
+
+# ffmpeg filter chain applied to the generated audio. Tuned to be gentle:
+#   highpass=f=70        remove low rumble/hum
+#   afftdn=nf=-25        FFT denoiser (removes steady hiss; -25dB noise floor)
+#   adeclick             smooth transient clicks/pops (e.g. at segment joins)
+#   loudnorm=...         EBU R128 loudness normalization (broadcast-consistent)
+# If cleanup ever muffles the voice, soften it (e.g. drop afftdn) or set
+# ENABLE_AUDIO_CLEANUP = False.
+AUDIO_FILTER_CHAIN: str = (
+    "highpass=f=70,afftdn=nf=-25,adeclick,loudnorm=I=-16:TP=-1.5:LRA=11"
+)
+
+# --------------------------------------------------------------------------- #
 # Speaker diarization (optional)
 # --------------------------------------------------------------------------- #
 # When enabled, the audio is split by speaker so that multi-person videos clone
