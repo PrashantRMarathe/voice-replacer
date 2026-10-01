@@ -387,6 +387,14 @@ def generate_voice(
             _copy_wav(raw_path, seg_path)
             fitted_dur = _wav_duration(str(seg_path))
 
+        if not seg_path.is_file():
+            raise RuntimeError(
+                f"Segment audio file disappeared right after being written: "
+                f"{seg_path}. Something outside this process (antivirus, cloud "
+                f"sync, a temp-file cleaner) is deleting files from "
+                f"'{config.TEMP_DIR}' while generation is running. Exclude that "
+                f"folder from real-time scanning/sync and try again."
+            )
         part_paths.append(seg_path)
         timeline_pos += fitted_dur
 
@@ -405,6 +413,18 @@ def _concat_wavs(parts: List[Path], out_path: Path) -> None:
 
     Uses ffmpeg's concat demuxer for robustness across sample rates/codecs.
     """
+    missing = [p for p in parts if not p.is_file()]
+    if missing:
+        names = ", ".join(p.name for p in missing[:5])
+        more = f" (+{len(missing) - 5} more)" if len(missing) > 5 else ""
+        raise RuntimeError(
+            f"{len(missing)} generated audio part(s) are missing just before "
+            f"concatenation: {names}{more}. They existed when written, so "
+            f"something outside this process (antivirus, cloud sync, a "
+            f"temp-file cleaner) is deleting files from '{config.TEMP_DIR}' "
+            f"while generation runs. Exclude that folder from real-time "
+            f"scanning/sync and try again."
+        )
     list_file = out_path.with_suffix(".txt")
     with open(list_file, "w", encoding="utf-8") as fh:
         for p in parts:

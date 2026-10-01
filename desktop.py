@@ -30,7 +30,7 @@ logger = logging.getLogger("desktop")
 
 HOST = "127.0.0.1"
 PORT = 7860
-WINDOW_TITLE = "Voice Replacer — Monika Edition"
+WINDOW_TITLE = "Voice Replacer"
 
 
 def _port_is_open(host: str, port: int) -> bool:

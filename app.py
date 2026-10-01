@@ -1,4 +1,4 @@
-"""Voice Replacer — Monika Edition (Gradio UI + main flow).
+"""Voice Replacer (Gradio UI + main flow).
 
 HOW TO LAUNCH
 -------------
@@ -281,8 +281,8 @@ def build_ui() -> gr.Blocks:
         "f5": "TTS engine: **F5-TTS** (MIT / commercial-OK · mainly EN/ZH)",
     }.get(backend_name, f"TTS engine: **{backend_name}**")
 
-    with gr.Blocks(title="Voice Replacer — Monika Edition") as demo:
-        gr.Markdown("# Voice Replacer — Monika Edition")
+    with gr.Blocks(title="Voice Replacer") as demo:
+        gr.Markdown("# Voice Replacer")
         gr.Markdown(device_note)
         gr.Markdown(tts_note)
 
