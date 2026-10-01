@@ -263,6 +263,41 @@ def _reference_exists(path: str) -> bool:
     return Path(path).is_file()
 
 
+def on_create(
+    document_file: Optional[str],
+    reference_file: Optional[str],
+    status: str,
+) -> Tuple[Optional[str], Optional[str], str]:
+    """Mode 2: turn an uploaded document into a narrated infographic video."""
+    import create
+
+    log_lines: List[str] = status.splitlines() if status else []
+
+    def cb(msg: str) -> None:
+        log_lines.append(f"  {msg}")
+
+    if not document_file:
+        log_lines.append("[!] Please upload a document (.txt/.docx/.pdf) first.")
+        return None, None, "\n".join(log_lines)
+
+    reference = reference_file or str(config.DEFAULT_REFERENCE_SAMPLE)
+    if not _reference_exists(reference):
+        log_lines.append(f"[!] Reference voice not found: {reference}.")
+        return None, None, "\n".join(log_lines)
+
+    try:
+        t0 = time.time()
+        log_lines.append("=== Create from Document ===")
+        out = create.create_from_document(document_file, reference_file, cb=cb)
+        log_lines.append(f"[ok] Done in {time.time()-t0:.1f}s -> {out}")
+        return out, out, "\n".join(log_lines)
+    except Exception as exc:  # noqa: BLE001
+        logger.error("Create failed", exc_info=True)
+        log_lines.append(f"[ERROR] {exc}")
+        log_lines.append(traceback.format_exc())
+        return None, None, "\n".join(log_lines)
+
+
 # --------------------------------------------------------------------------- #
 # UI definition
 # --------------------------------------------------------------------------- #
@@ -281,8 +316,8 @@ def build_ui() -> gr.Blocks:
         "f5": "TTS engine: **F5-TTS** (MIT / commercial-OK · mainly EN/ZH)",
     }.get(backend_name, f"TTS engine: **{backend_name}**")
 
-    with gr.Blocks(title="Voice Replacer") as demo:
-        gr.Markdown("# Voice Replacer")
+    with gr.Blocks(title="AI Video Studio") as demo:
+        gr.Markdown("# AI Video Studio")
         gr.Markdown(device_note)
         gr.Markdown(tts_note)
 
@@ -298,7 +333,8 @@ def build_ui() -> gr.Blocks:
             (name, code) for code, name in config.LANGUAGES.items()
         ]
 
-        with gr.Row():
+        with gr.Tab("🎙️ Dub / Replace Voice"):
+          with gr.Row():
             with gr.Column():
                 video_in = gr.Video(label="Input video (MP4)")
                 reference_in = gr.Audio(
@@ -337,6 +373,30 @@ def build_ui() -> gr.Blocks:
                 video_out = gr.Video(label="Final output")
                 download_out = gr.File(label="Download final MP4")
 
+        with gr.Tab("📄 Create from Document"):
+          with gr.Row():
+            with gr.Column():
+                document_in = gr.File(
+                    label="Document (.txt / .md / .docx / .pdf)",
+                    file_types=[".txt", ".md", ".docx", ".pdf"],
+                    type="filepath",
+                )
+                create_reference_in = gr.Audio(
+                    label="Narration voice sample (MP3/WAV)",
+                    type="filepath",
+                    value=str(config.DEFAULT_REFERENCE_SAMPLE)
+                    if config.DEFAULT_REFERENCE_SAMPLE.is_file() else None,
+                )
+                create_btn = gr.Button("Create Video", variant="primary")
+                gr.Markdown(
+                    "_Turns your writing into a narrated infographic video. "
+                    "Best on GPU/Colab; on CPU set `KEN_BURNS=False` & "
+                    "`ENABLE_LLM_BRAIN=False` in config.py for speed._"
+                )
+            with gr.Column():
+                create_video_out = gr.Video(label="Created video")
+                create_download_out = gr.File(label="Download video")
+
         status_box = gr.Textbox(
             label="Status log",
             lines=12,
@@ -356,6 +416,11 @@ def build_ui() -> gr.Blocks:
                     source_lang_in, target_lang_in, detected_lang_state,
                     lipsync_in, audio_path_state, status_box],
             outputs=[video_out, download_out, status_box],
+        )
+        create_btn.click(
+            fn=on_create,
+            inputs=[document_in, create_reference_in, status_box],
+            outputs=[create_video_out, create_download_out, status_box],
         )
 
     return demo
