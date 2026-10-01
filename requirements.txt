@@ -29,6 +29,12 @@ deep-translator
 # Optional — keep original background music/SFX under the new voice (Demucs
 # source separation). Heavy; runs best on a GPU. Enable with PRESERVE_BACKGROUND.
 #   pip install demucs
+# Mode 2 (Create from Document): render infographics + read docs.
+playwright          # HTML -> image (run once: playwright install chromium)
+python-docx         # read .docx documents
+pypdf               # read .pdf documents
+# The AI brain uses `transformers` (already above) + a model downloaded at
+# runtime; it runs on a GPU. Set ENABLE_LLM_BRAIN=False for a CPU heuristic.
 # REST API (api.py). uvicorn serves it; python-multipart handles file uploads.
 fastapi
 uvicorn[standard]

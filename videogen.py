@@ -9,6 +9,7 @@ Pure ffmpeg — no GPU needed. Subtitles are handled separately by subtitles.py.
 from __future__ import annotations
 
 import logging
+import uuid
 from pathlib import Path
 from typing import Callable, List, Optional, Tuple
 
@@ -26,17 +27,26 @@ def _emit(cb: ProgressCb, msg: str) -> None:
         cb(msg)
 
 
-def _ken_burns_clip(image_path: str, duration: float, out_path: Path,
-                    width: int = 1920, height: int = 1080, fps: int = 30) -> None:
-    """Make a silent video clip of ``image_path`` with a slow zoom (Ken Burns)."""
-    frames = max(1, int(duration * fps))
-    # Scale up first (so zoompan has pixels to work with), then slow zoom-in.
-    vf = (
-        f"scale={width*2}:-1,"
-        f"zoompan=z='min(zoom+0.0005,1.15)':d={frames}:"
-        f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={width}x{height}:fps={fps},"
-        f"setsar=1"
-    )
+def _slide_clip(image_path: str, duration: float, out_path: Path,
+                width: int = 1920, height: int = 1080, fps: int = 30,
+                ken_burns: bool = True) -> None:
+    """Make a silent video clip of ``image_path`` for ``duration`` seconds.
+
+    With ``ken_burns`` a slow zoom is applied (nice, but slow on CPU). Without
+    it, the image is shown statically (fast — recommended CPU path).
+    """
+    if ken_burns:
+        frames = max(1, int(duration * fps))
+        vf = (
+            f"scale={width*2}:-1,"
+            f"zoompan=z='min(zoom+0.0005,1.15)':d={frames}:"
+            f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={width}x{height}:fps={fps},"
+            f"setsar=1"
+        )
+    else:
+        # Static: just fit the image onto the frame. Very fast to encode.
+        vf = (f"scale={width}:{height}:force_original_aspect_ratio=decrease,"
+              f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={fps}")
     (
         ffmpeg.input(image_path, loop=1, t=duration)
         .output(str(out_path), vf=vf, pix_fmt="yuv420p", r=fps, an=None)
@@ -69,15 +79,17 @@ def build_video(
         raise ValueError("No slides to build a video from.")
 
     _emit(cb, f"Building video from {len(slides)} slide(s)...")
+    ken_burns = getattr(config, "KEN_BURNS", True)
     tmp = Path(config.TEMP_DIR)
+    uid = uuid.uuid4().hex[:8]  # unique prefix so concurrent runs never collide
     clip_paths: List[Path] = []
     for i, (img, dur) in enumerate(slides):
-        clip = tmp / f"vg_clip_{i:03d}.mp4"
-        _ken_burns_clip(img, max(0.5, dur), clip, width, height, fps)
+        clip = tmp / f"vg_{uid}_clip_{i:03d}.mp4"
+        _slide_clip(img, max(0.5, dur), clip, width, height, fps, ken_burns)
         clip_paths.append(clip)
 
     # Concatenate the clips (video only), then add the narration audio.
-    list_file = tmp / "vg_list.txt"
+    list_file = tmp / f"vg_{uid}_list.txt"
     with open(list_file, "w", encoding="utf-8") as fh:
         for c in clip_paths:
             fh.write(f"file '{str(c).replace(chr(92), '/')}'\n")

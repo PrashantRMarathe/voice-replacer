@@ -198,6 +198,24 @@ VOICE_GAIN: float = 1.0        # cloned-voice level in the mix
 BACKGROUND_GAIN: float = 0.8   # music/SFX level (slightly under the voice)
 
 # --------------------------------------------------------------------------- #
+# Mode 2 — Create from Document (document -> infographic -> narrated video)
+# --------------------------------------------------------------------------- #
+# The AI "brain" (a free local LLM) organizes the document into the infographic
+# content + narration. It needs a GPU to be practical and downloads a model on
+# first use. Set this False (e.g. for a quick CPU test) to use the fast built-in
+# heuristic instead — the whole pipeline still runs, just with simpler content.
+ENABLE_LLM_BRAIN: bool = True
+LLM_MODEL: str = "Qwen/Qwen2.5-3B-Instruct"
+
+# Ken Burns = slow zoom/pan on the infographic. It looks nice but is SLOW on CPU
+# (GPU-less). Set False for a fast static slide (recommended for CPU); True adds
+# the motion (fine on a GPU/Colab).
+KEN_BURNS: bool = True
+VIDEO_WIDTH: int = 1920
+VIDEO_HEIGHT: int = 1080
+VIDEO_FPS: int = 30
+
+# --------------------------------------------------------------------------- #
 # Subtitles (optional)
 # --------------------------------------------------------------------------- #
 # Write subtitle files next to the output video, timed from the transcript.

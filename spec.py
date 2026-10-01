@@ -61,6 +61,8 @@ def is_llm_available() -> Tuple[bool, str]:
     """Return ``(available, reason)`` for the LLM brain."""
     import importlib.util
 
+    if not getattr(config, "ENABLE_LLM_BRAIN", True):
+        return False, "LLM brain disabled (ENABLE_LLM_BRAIN=False)."
     try:
         if importlib.util.find_spec("transformers") is None:
             return False, "transformers not installed."
