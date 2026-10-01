@@ -42,20 +42,29 @@ def html_to_png(
     if not available:
         raise RuntimeError(f"HTML rendering unavailable: {reason}")
 
-    from playwright.sync_api import sync_playwright
-
     url = Path(html_path).resolve().as_uri()
-    with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--no-sandbox"])
-        page = browser.new_page(viewport={"width": width, "height": 900},
-                                device_scale_factor=scale)
-        page.goto(url, wait_until="networkidle")
-        page.wait_for_timeout(200)  # let fonts settle
-        # Screenshot the .page element if present, else the full page.
-        el = page.query_selector(".page")
-        if el is not None:
-            el.screenshot(path=png_path)
-        else:
-            page.screenshot(path=png_path, full_page=full_page)
-        browser.close()
+
+    def _render() -> None:
+        from playwright.sync_api import sync_playwright
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(args=["--no-sandbox"])
+            page = browser.new_page(viewport={"width": width, "height": 900},
+                                    device_scale_factor=scale)
+            page.goto(url, wait_until="networkidle")
+            page.wait_for_timeout(200)  # let fonts settle
+            el = page.query_selector(".page")
+            if el is not None:
+                el.screenshot(path=png_path)
+            else:
+                page.screenshot(path=png_path, full_page=full_page)
+            browser.close()
+
+    # Playwright's sync API refuses to run inside a running asyncio loop (as in
+    # Jupyter/Colab). Running it in a worker thread sidesteps that — the thread
+    # has no running loop — and works identically outside notebooks too.
+    import concurrent.futures
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as ex:
+        ex.submit(_render).result()
     return png_path
