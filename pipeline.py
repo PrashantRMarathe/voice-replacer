@@ -406,13 +406,30 @@ def generate_voice(
     concat_path = config.TEMP_DIR / f"{run_id}_concat.wav"
     _concat_wavs(part_paths, concat_path)
 
-    # Optional mastering pass: denoise, smooth clicks, normalize loudness.
+    # Stage 1 (optional): deep voice enhancement (DeepFilterNet).
+    stage_in = concat_path
+    if config.ENABLE_VOICE_ENHANCE:
+        import enhance as voice_enhance
+
+        available, reason = voice_enhance.is_available()
+        if available:
+            try:
+                enhanced_path = config.TEMP_DIR / f"{run_id}_enhanced.wav"
+                voice_enhance.enhance_audio(str(concat_path),
+                                            str(enhanced_path), cb)
+                stage_in = enhanced_path
+            except Exception as exc:  # noqa: BLE001 - never fail the whole run
+                _emit(cb, f"Voice enhancement failed ({exc}); skipping it.")
+        else:
+            _emit(cb, f"Voice enhancement skipped: {reason}")
+
+    # Stage 2 (optional): ffmpeg mastering (smooth clicks + normalize loudness).
     out_path = config.TEMP_DIR / f"{run_id}_generated.wav"
     if config.ENABLE_AUDIO_CLEANUP and config.AUDIO_FILTER_CHAIN.strip():
-        _emit(cb, "Cleaning up audio (denoise + smooth + normalize)...")
-        _master_audio(concat_path, out_path)
+        _emit(cb, "Mastering audio (smooth + normalize)...")
+        _master_audio(stage_in, out_path)
     else:
-        _copy_wav(concat_path, out_path)
+        _copy_wav(stage_in, out_path)
     return str(out_path)
 
 

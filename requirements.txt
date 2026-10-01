@@ -23,6 +23,9 @@ torchaudio
 # offline translation, install argostranslate instead and set
 # translate.TRANSLATE_BACKEND = "argos".
 deep-translator
+# Optional — studio-grade deep voice enhancement (DeepFilterNet). Heavy; runs
+# best on a GPU. Enabled automatically when installed (ENABLE_VOICE_ENHANCE).
+#   pip install deepfilternet
 # REST API (api.py). uvicorn serves it; python-multipart handles file uploads.
 fastapi
 uvicorn[standard]

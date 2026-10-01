@@ -333,6 +333,24 @@ Speed, biggest lever first:
 5. **First run is slow once.** Models download (~2 GB) on the first run only;
    later runs reuse the cache.
 
+## Studio-grade voice cleanup
+
+Two cleanup stages run after synthesis for clean, professional output:
+
+1. **Deep voice enhancement (DeepFilterNet)** — a deep-learning speech enhancer
+   that removes noise/hiss/reverb and makes the voice crisp. Optional and heavy;
+   runs best on a GPU. Enable by installing it (auto-activates when present):
+   ```bash
+   pip install deepfilternet
+   ```
+   Toggle with `ENABLE_VOICE_ENHANCE` in `config.py`. Skipped gracefully if not
+   installed.
+2. **ffmpeg mastering** — high-pass, denoise, de-click, and EBU R128 loudness
+   normalization (`AUDIO_FILTER_CHAIN`, `ENABLE_AUDIO_CLEANUP`).
+
+Still the biggest factor: a **clean reference sample** (quiet, single speaker,
+15-30s). The cleaner the reference, the cleaner the clone.
+
 ## Tuning voice quality
 
 If the output sounds **robotic or sped-up**, or the **timing feels off**, these

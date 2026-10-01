@@ -160,6 +160,14 @@ FIT_MIN_DELTA_S: float = 0.05
 # --------------------------------------------------------------------------- #
 # Audio cleanup / mastering (smoother, cleaner output)
 # --------------------------------------------------------------------------- #
+# Deep voice enhancement (studio-grade). When enabled, a deep-learning speech
+# enhancer (DeepFilterNet) cleans the generated voice far more thoroughly than
+# the ffmpeg filters below — removing noise/hiss and making it sound crisp and
+# professional. Runs best on a GPU. Requires `pip install deepfilternet`; if not
+# installed it is skipped gracefully. Applied BEFORE the mastering pass.
+ENABLE_VOICE_ENHANCE: bool = True
+VOICE_ENHANCE_BACKEND: str = "deepfilternet"  # "deepfilternet" or "none"
+
 # After the cloned voice is generated, run a light mastering pass to remove
 # hiss/rumble, smooth clicks at segment joins, and normalize loudness so the
 # result sounds clean and consistent instead of raw/noisy.
