@@ -1,0 +1,27 @@
+# Virtualenv and caches — never copy into the image
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data — mounted as volumes instead of baked in
+input/*
+output/*
+temp/*
+!input/.gitkeep
+!output/.gitkeep
+!temp/.gitkeep
+
+# Large reference/sample media (mount or add at runtime)
+samples/*.mp3
+samples/*.wav
+
+# Model caches (downloaded at runtime into a mounted volume)
+*.pth
+*.ckpt
+
+# Dev / VCS
+.git/
+.gitignore
+*.md
+!README.md

@@ -1,0 +1,36 @@
+# Verified working set on Windows + Python 3.10 (CPU) as of 2026-10-01.
+# Notes:
+#  - coqui-tts (maintained fork) replaces the original unmaintained "TTS",
+#    which has no Windows wheel and needs a C++ compiler. The import path and
+#    XTTS v2 model are identical (from TTS.api import TTS).
+#  - The [codec] extra pulls torchcodec, required by torch >= 2.9 for audio I/O.
+#  - transformers is pinned < 5 because coqui-tts imports isin_mps_friendly,
+#    which was removed in transformers 5.x.
+# faster-whisper (CTranslate2) is the default transcription backend: ~4x faster
+# and lighter than openai-whisper. openai-whisper is kept as a fallback backend.
+faster-whisper
+openai-whisper
+coqui-tts[codec]
+transformers<5
+ffmpeg-python
+gradio
+# Native desktop window wrapper (desktop.py). Uses the OS webview (Edge
+# WebView2 on Windows), so the app runs in a real window instead of a browser.
+pywebview
+torch
+torchaudio
+# Translation for the dubbing flow (free, no API key, online). For fully
+# offline translation, install argostranslate instead and set
+# translate.TRANSLATE_BACKEND = "argos".
+deep-translator
+# REST API (api.py). uvicorn serves it; python-multipart handles file uploads.
+fastapi
+uvicorn[standard]
+python-multipart
+# Optional — speaker diarization (multi-speaker auto-cloning). Heavy, and its
+# model is gated on Hugging Face (needs a free token + accepted license). Enable
+# by installing it and setting config.ENABLE_DIARIZATION / HF_TOKEN. See README.
+#   pip install pyannote.audio
+# Optional — F5-TTS backend (MIT / commercially usable, mainly EN/ZH). Enable by
+# installing it and setting config.TTS_BACKEND = "f5". XTTS stays the default.
+#   pip install f5-tts

@@ -1,0 +1,36 @@
+# Convenience orchestration for the Voice Replacer platform.
+#
+#   docker compose up api   # REST API on :8000
+#   docker compose up ui    # Gradio UI on :7860
+#
+# Both services share one model-cache volume so Whisper/XTTS download only once.
+# samples/ and output/ are bind-mounted so your reference voice and results live
+# on the host.
+
+services:
+  api:
+    build: .
+    image: voice-replacer
+    ports:
+      - "8000:8000"
+    volumes:
+      - models:/root/.cache
+      - ./samples:/app/samples
+      - ./output:/app/output
+    # default CMD (uvicorn api:app) is used
+
+  ui:
+    build: .
+    image: voice-replacer
+    ports:
+      - "7860:7860"
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0
+    volumes:
+      - models:/root/.cache
+      - ./samples:/app/samples
+      - ./output:/app/output
+    command: ["python", "app.py"]
+
+volumes:
+  models:

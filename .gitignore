@@ -1,0 +1,33 @@
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Runtime data (regenerated; don't version)
+input/*
+output/*
+temp/*
+!input/.gitkeep
+!output/.gitkeep
+!temp/.gitkeep
+
+# Reference voice samples (personal; add your own locally / upload in Colab)
+samples/*.mp3
+samples/*.wav
+
+# Model checkpoints / weights (downloaded at runtime)
+*.pth
+*.ckpt
+*.onnx
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
