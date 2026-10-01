@@ -26,6 +26,9 @@ deep-translator
 # Optional — studio-grade deep voice enhancement (DeepFilterNet). Heavy; runs
 # best on a GPU. Enabled automatically when installed (ENABLE_VOICE_ENHANCE).
 #   pip install deepfilternet
+# Optional — keep original background music/SFX under the new voice (Demucs
+# source separation). Heavy; runs best on a GPU. Enable with PRESERVE_BACKGROUND.
+#   pip install demucs
 # REST API (api.py). uvicorn serves it; python-multipart handles file uploads.
 fastapi
 uvicorn[standard]

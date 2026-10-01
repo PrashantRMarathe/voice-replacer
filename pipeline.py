@@ -433,6 +433,36 @@ def generate_voice(
     return str(out_path)
 
 
+def mix_audio(
+    voice_path: str,
+    background_path: str,
+    run_id: str,
+    voice_gain: float = 1.0,
+    background_gain: float = 0.8,
+) -> str:
+    """Mix the cloned ``voice`` over the ``background`` music/SFX stem.
+
+    Both are leveled by their gains and summed. The output length follows the
+    longer input so trailing music isn't cut. Returns the mixed WAV path.
+    """
+    out_path = config.TEMP_DIR / f"{run_id}_mixed.wav"
+    v = ffmpeg.input(voice_path).audio.filter("volume", voice_gain)
+    b = ffmpeg.input(background_path).audio.filter("volume", background_gain)
+    try:
+        (
+            ffmpeg.filter([v, b], "amix", inputs=2, duration="longest",
+                          dropout_transition=0, normalize=0)
+            .output(str(out_path), acodec="pcm_s16le", ac=1,
+                    ar=config.SAMPLE_RATE)
+            .overwrite_output()
+            .run(quiet=True)
+        )
+    except ffmpeg.Error as exc:  # pragma: no cover
+        stderr = exc.stderr.decode(errors="ignore") if exc.stderr else str(exc)
+        raise RuntimeError(f"ffmpeg failed to mix audio: {stderr}") from exc
+    return str(out_path)
+
+
 def _master_audio(src: Path, dst: Path) -> None:
     """Apply the configured mastering filter chain to smooth/clean the audio.
 
@@ -559,8 +589,13 @@ def cleanup(run_id: str, cb: ProgressCb = None) -> None:
     removed = 0
     for path in config.TEMP_DIR.glob(f"{run_id}_*"):
         try:
-            path.unlink()
+            if path.is_dir():
+                import shutil
+
+                shutil.rmtree(path, ignore_errors=True)
+            else:
+                path.unlink()
             removed += 1
         except OSError:
             logger.warning("Could not remove temp file: %s", path)
-    _emit(cb, f"Cleaned up {removed} temp file(s).")
+    _emit(cb, f"Cleaned up {removed} temp item(s).")

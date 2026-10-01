@@ -185,6 +185,26 @@ AUDIO_FILTER_CHAIN: str = (
 )
 
 # --------------------------------------------------------------------------- #
+# Background music / SFX preservation (optional)
+# --------------------------------------------------------------------------- #
+# Normally the whole audio track is replaced by the cloned voice, so any
+# background music or sound effects are lost. When enabled, the original audio
+# is split by AI (Demucs) into voice vs. everything-else; the ISOLATED music/SFX
+# stem (clean, no voice bleed) is kept and the cloned voice is laid over it.
+# Requires `pip install demucs`; runs best on a GPU. Skipped gracefully if not
+# installed. If your videos have no background music, leave this off.
+PRESERVE_BACKGROUND: bool = False
+VOICE_GAIN: float = 1.0        # cloned-voice level in the mix
+BACKGROUND_GAIN: float = 0.8   # music/SFX level (slightly under the voice)
+
+# --------------------------------------------------------------------------- #
+# Subtitles (optional)
+# --------------------------------------------------------------------------- #
+# Write subtitle files next to the output video, timed from the transcript.
+GENERATE_SUBTITLES: bool = True
+SUBTITLE_FORMAT: str = "both"  # "srt", "vtt", or "both"
+
+# --------------------------------------------------------------------------- #
 # Speaker diarization (optional)
 # --------------------------------------------------------------------------- #
 # When enabled, the audio is split by speaker so that multi-person videos clone

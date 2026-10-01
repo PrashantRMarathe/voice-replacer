@@ -30,6 +30,12 @@ Generate cloned voice (XTTS v2)  ->  Merge with video  ->  Download MP4
 - **UI, CLI, and REST API** — use the Gradio web UI, batch-process folders from
   the command line (`cli.py`), or run it as a background-job HTTP service
   (`api.py`). All three share one headless pipeline (`core.py`).
+- **Keep background music/SFX (optional)** — instead of wiping the original
+  audio, split it with AI (Demucs) into voice vs. music, keep the isolated clean
+  music/SFX, and lay the cloned voice over it. Enable with `PRESERVE_BACKGROUND`
+  (`pip install demucs`).
+- **Auto subtitles** — writes timed `.srt` / `.vtt` files next to the output
+  video from the transcript (`GENERATE_SUBTITLES`, `SUBTITLE_FORMAT`).
 - **Editable transcript step** — fix Whisper mistakes before synthesis.
 - **Timing preservation + anti-drift** — audio is generated per-segment using
   the original timestamps, and each synthesized segment is time-stretched

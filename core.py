@@ -21,6 +21,8 @@ import config
 import diarize
 import lipsync
 import pipeline
+import separate
+import subtitles
 import translate
 from pipeline import Segment
 
@@ -143,6 +145,22 @@ def process_video(
         generated = pipeline.generate_voice(
             segments, reference, run_id, xtts_lang, cb, speaker_refs)
 
+        # Optional: keep the original background music/SFX under the new voice.
+        if config.PRESERVE_BACKGROUND:
+            available, reason = separate.is_available()
+            if available:
+                try:
+                    bg = separate.separate_background(audio_path, run_id, cb)
+                    generated = pipeline.mix_audio(
+                        generated, bg, run_id,
+                        voice_gain=config.VOICE_GAIN,
+                        background_gain=config.BACKGROUND_GAIN)
+                    _emit("Mixed cloned voice over original background.")
+                except RuntimeError as exc:
+                    _emit(f"Background preservation failed ({exc}); voice only.")
+            else:
+                _emit(f"Background preservation skipped: {reason}")
+
         # Lip-sync or plain merge.
         final_path = None
         if use_lipsync:
@@ -158,6 +176,15 @@ def process_video(
         if final_path is None:
             final_path = pipeline.merge_audio_video(
                 video_path, generated, run_id, cb)
+
+        # Optional: write subtitle files next to the output video.
+        if config.GENERATE_SUBTITLES:
+            try:
+                paths = subtitles.write_subtitles(
+                    segments, final_path, config.SUBTITLE_FORMAT)
+                _emit(f"Subtitles written: {', '.join(Path(p).name for p in paths)}")
+            except Exception as exc:  # noqa: BLE001 - subtitles are a nice-to-have
+                _emit(f"Subtitle generation failed ({exc}); skipping.")
 
         return final_path
     finally:
