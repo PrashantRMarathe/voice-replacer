@@ -56,16 +56,17 @@ XTTS_MODEL: str = "tts_models/multilingual/multi-dataset/xtts_v2"
 #   XTTS_SPEED              global speaking rate (1.0 = natural)
 #   XTTS_ENABLE_TEXT_SPLITTING  split long lines into sentences so the voice
 #                               breathes naturally instead of rushing one breath
-# Tuned for a SOFT, natural delivery:
-#   - lower repetition_penalty (2.0, XTTS's own default) = smoother, less clipped
-#   - slightly slower speed (0.92) = calmer, gentler
-#   - a touch more temperature (0.80) = warmer, less flat
-XTTS_TEMPERATURE: float = 0.80
+# Pushed to the SOFT limit (max gentle delivery before it degrades):
+#   - repetition_penalty 2.0 = smoothest natural flow
+#   - speed 0.86 = slow/calm/soft (going below ~0.85 starts to drag/slur)
+#   - temperature 0.85 = warm/soft (going above starts to wobble/unstable)
+# If it ever sounds dragged or unstable, nudge speed up (0.9) or temp down (0.8).
+XTTS_TEMPERATURE: float = 0.85
 XTTS_REPETITION_PENALTY: float = 2.0
 XTTS_LENGTH_PENALTY: float = 1.0
 XTTS_TOP_K: int = 50
 XTTS_TOP_P: float = 0.85
-XTTS_SPEED: float = 0.92
+XTTS_SPEED: float = 0.86
 XTTS_ENABLE_TEXT_SPLITTING: bool = True
 
 # Voice-match vs speed. XTTS_FAST_PATH caches a fingerprint from a TRIMMED
