@@ -173,10 +173,12 @@ FIT_MIN_DELTA_S: float = 0.05
 ENABLE_VOICE_ENHANCE: bool = False
 VOICE_ENHANCE_BACKEND: str = "deepfilternet"  # "deepfilternet" or "none"
 
-# After the cloned voice is generated, run a light mastering pass to remove
-# hiss/rumble, smooth clicks at segment joins, and normalize loudness so the
-# result sounds clean and consistent instead of raw/noisy.
-ENABLE_AUDIO_CLEANUP: bool = True
+# Default OFF to PRESERVE the natural softness of the cloned voice. The mastering
+# loudness pass (loudnorm) compresses dynamics and makes the voice sound harder
+# and flatter than the reference. The raw XTTS voice is already clean and soft,
+# so we leave it untouched by default. Turn this on only if you specifically want
+# broadcast-leveled loudness and accept slightly reduced softness.
+ENABLE_AUDIO_CLEANUP: bool = False
 
 # ffmpeg filter chain applied to the generated audio. Kept GENTLE on purpose:
 # the TTS voice is already clean, so we ONLY normalize loudness (no denoiser),
