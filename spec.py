@@ -110,6 +110,24 @@ def _extract_json(reply: str) -> dict:
     return json.loads(m.group(0))
 
 
+def unload_llm() -> None:
+    """Free the LLM from GPU/RAM (call after the spec is built to save memory)."""
+    global _llm
+    if _llm is not None:
+        try:
+            del _llm
+            _llm = None
+            import gc
+
+            gc.collect()
+            import torch
+
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+        except Exception:  # noqa: BLE001
+            _llm = None
+
+
 def build_spec(
     text: str, cb: ProgressCb = None
 ) -> Tuple[Dict, str]:

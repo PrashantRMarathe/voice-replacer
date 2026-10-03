@@ -92,6 +92,9 @@ def create_from_document(
 
         # AI brain: content spec + narration script.
         spec_dict, narration = spec_mod.build_spec(text, cb)
+        # Free the LLM before loading the voice model — avoids out-of-memory
+        # (which shows up as a Colab 'runtime disconnected').
+        spec_mod.unload_llm()
 
         # Render the infographic to an image.
         _emit("Rendering infographic...")
