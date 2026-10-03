@@ -39,11 +39,12 @@ for _d in (SAMPLES_DIR, INPUT_DIR, OUTPUT_DIR, TEMP_DIR):
 WHISPER_MODEL = "small"
 
 # Text-to-speech backend (voice cloning engine):
-#   "xtts" -> Coqui XTTS v2: 17 languages, but NON-COMMERCIAL license. Default.
-#   "f5"   -> F5-TTS: MIT (commercial-OK), but the base model covers mainly
-#             English + Chinese. Best when you need a commercially-usable engine.
+#   "f5"   -> F5-TTS: MIT (commercial-OK), softest/most natural for English.
+#             DEFAULT — chosen for the best soft English narration.
+#   "xtts" -> Coqui XTTS v2: 17 languages, non-commercial license. Use this if
+#             you need a language F5 doesn't cover.
 # If the chosen backend can't be imported, the other is used automatically.
-TTS_BACKEND: str = "xtts"
+TTS_BACKEND: str = "f5"
 
 XTTS_MODEL: str = "tts_models/multilingual/multi-dataset/xtts_v2"
 
