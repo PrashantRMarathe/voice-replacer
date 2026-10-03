@@ -132,8 +132,10 @@ class _XttsBackend:
         self._load()
         spoken = _expand_numbers(text, language)
 
-        # Fast path: reuse the cached voice fingerprint and run inference directly.
-        if self._xtts is not None:
+        # Fast path (opt-in): reuse a cached voice fingerprint from a trimmed
+        # reference. Faster, but the shorter reference can weaken the voice
+        # match, so it's OFF by default. Enable with config.XTTS_FAST_PATH.
+        if getattr(config, "XTTS_FAST_PATH", False) and self._xtts is not None:
             try:
                 gpt_cond_latent, speaker_embedding = self._get_latents(speaker_wav)
                 out = self._xtts.inference(
@@ -145,9 +147,10 @@ class _XttsBackend:
                 logger.warning("XTTS fast path failed (%s); using standard API.",
                                exc)
 
-        # Standard path (re-encodes the reference each call).
+        # Standard high-quality path: clone from the FULL reference for the best
+        # voice match (this is what makes the output sound like the sample).
         self._model.tts_to_file(
-            text=spoken, speaker_wav=self._trim_reference(speaker_wav),
+            text=spoken, speaker_wav=speaker_wav,
             language=language, file_path=out_path, **self._gen_kwargs())
 
     @staticmethod

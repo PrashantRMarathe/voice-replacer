@@ -64,10 +64,12 @@ XTTS_TOP_P: float = 0.85
 XTTS_SPEED: float = 1.0
 XTTS_ENABLE_TEXT_SPLITTING: bool = True
 
-# Speed: XTTS computes the voice fingerprint from the WHOLE reference clip on
-# every segment, so a long reference is very slow for no quality gain. Trim the
-# reference to this many seconds before cloning (~6-20s is ideal for XTTS).
-XTTS_MAX_REF_SECONDS: float = 20.0
+# Voice-match vs speed. XTTS_FAST_PATH caches a fingerprint from a TRIMMED
+# reference (faster, but can make the output sound less like the sample). Leave
+# it False for the best voice match; set True only if you need max speed and the
+# clone quality is acceptable. XTTS_MAX_REF_SECONDS only applies to the fast path.
+XTTS_FAST_PATH: bool = False
+XTTS_MAX_REF_SECONDS: float = 30.0
 
 # F5-TTS model to load (see the f5-tts package for available model names). The
 # default base model is English-centric.
