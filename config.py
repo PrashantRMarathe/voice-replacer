@@ -56,12 +56,16 @@ XTTS_MODEL: str = "tts_models/multilingual/multi-dataset/xtts_v2"
 #   XTTS_SPEED              global speaking rate (1.0 = natural)
 #   XTTS_ENABLE_TEXT_SPLITTING  split long lines into sentences so the voice
 #                               breathes naturally instead of rushing one breath
-XTTS_TEMPERATURE: float = 0.75
-XTTS_REPETITION_PENALTY: float = 5.0
+# Tuned for a SOFT, natural delivery:
+#   - lower repetition_penalty (2.0, XTTS's own default) = smoother, less clipped
+#   - slightly slower speed (0.92) = calmer, gentler
+#   - a touch more temperature (0.80) = warmer, less flat
+XTTS_TEMPERATURE: float = 0.80
+XTTS_REPETITION_PENALTY: float = 2.0
 XTTS_LENGTH_PENALTY: float = 1.0
 XTTS_TOP_K: int = 50
 XTTS_TOP_P: float = 0.85
-XTTS_SPEED: float = 1.0
+XTTS_SPEED: float = 0.92
 XTTS_ENABLE_TEXT_SPLITTING: bool = True
 
 # Voice-match vs speed. XTTS_FAST_PATH caches a fingerprint from a TRIMMED
@@ -147,7 +151,7 @@ FIT_SEGMENT_TIMING: bool = True
 # Don't stretch at all unless a segment is off by more than this fraction of its
 # slot. 0.15 = ignore up to ±15% mismatch, so the vast majority of segments play
 # at XTTS's natural pace and only badly-off ones get a gentle nudge.
-FIT_TOLERANCE_RATIO: float = 0.15
+FIT_TOLERANCE_RATIO: float = 0.25
 
 # Clamp the time-stretch factor. Kept gentle (1.12 = at most 12% faster/slower)
 # so corrections are inaudible rather than "chipmunk". Segments needing more are
