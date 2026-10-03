@@ -27,6 +27,17 @@ _backend = None  # cached Backend instance
 _DIGIT_RE = re.compile(r"\d+(?:[.,]\d+)?")
 
 
+def _audio_duration(path: str) -> float:
+    """Return the duration of an audio file in seconds (0.0 if unknown)."""
+    try:
+        import ffmpeg
+
+        info = ffmpeg.probe(path)
+        return float(info["format"]["duration"])
+    except Exception:  # noqa: BLE001
+        return 0.0
+
+
 def _expand_numbers(text: str, lang: str) -> str:
     """Spell out digit sequences as words.
 
@@ -83,34 +94,43 @@ class _XttsBackend:
                 getattr(self._model, "synthesizer", None), "tts_model", None)
         return self._model
 
-    def _trim_reference(self, speaker_wav: str) -> str:
-        """Return a short trimmed copy of the reference (cached per source)."""
+    def _prepare_reference(self, speaker_wav: str) -> str:
+        """Return a cleaned, ~ideal-length reference for best cloning (cached).
+
+        XTTS clones best from ~15-30s of clean, well-leveled speech. A very long
+        or quiet clip clones poorly. This takes a window of the reference and
+        normalizes loudness + removes rumble, producing the strongest clone.
+        """
         if speaker_wav in self._trimmed:
             return self._trimmed[speaker_wav]
-        max_s = getattr(config, "XTTS_MAX_REF_SECONDS", 0) or 0
-        if max_s <= 0:
-            self._trimmed[speaker_wav] = speaker_wav
-            return speaker_wav
+        max_s = getattr(config, "XTTS_MAX_REF_SECONDS", 30) or 30
         try:
             import ffmpeg
 
+            dur = _audio_duration(speaker_wav)
+            # Skip a short intro on long clips, then take a `max_s` window.
+            offset = 3.0 if dur > (max_s + 6) else 0.0
+            inp = ffmpeg.input(speaker_wav, ss=offset, t=max_s)
             out = config.TEMP_DIR / f"xtts_ref_{abs(hash(speaker_wav)) & 0xffffff:06x}.wav"
             (
-                ffmpeg.input(speaker_wav, t=max_s)
-                .output(str(out), acodec="pcm_s16le", ac=1, ar=config.SAMPLE_RATE)
+                inp.output(
+                    str(out),
+                    af="highpass=f=60,dynaudnorm=f=200:g=11",  # clean + even out level
+                    acodec="pcm_s16le", ac=1, ar=config.SAMPLE_RATE,
+                )
                 .overwrite_output()
                 .run(quiet=True)
             )
             self._trimmed[speaker_wav] = str(out)
-        except Exception as exc:  # noqa: BLE001 - trimming is best-effort
-            logger.warning("Reference trim failed (%s); using full clip.", exc)
+        except Exception as exc:  # noqa: BLE001 - preparation is best-effort
+            logger.warning("Reference prep failed (%s); using original clip.", exc)
             self._trimmed[speaker_wav] = speaker_wav
         return self._trimmed[speaker_wav]
 
     def _get_latents(self, speaker_wav: str):
         """Compute (and cache) the conditioning latents for a reference."""
         if speaker_wav not in self._latents:
-            ref = self._trim_reference(speaker_wav)
+            ref = self._prepare_reference(speaker_wav)
             self._latents[speaker_wav] = self._xtts.get_conditioning_latents(
                 audio_path=[ref])
         return self._latents[speaker_wav]
@@ -147,10 +167,10 @@ class _XttsBackend:
                 logger.warning("XTTS fast path failed (%s); using standard API.",
                                exc)
 
-        # Standard high-quality path: clone from the FULL reference for the best
-        # voice match (this is what makes the output sound like the sample).
+        # Standard high-quality path: clone from the PREPARED reference (clean,
+        # ideal-length, normalized) — this is what makes the output match best.
         self._model.tts_to_file(
-            text=spoken, speaker_wav=speaker_wav,
+            text=spoken, speaker_wav=self._prepare_reference(speaker_wav),
             language=language, file_path=out_path, **self._gen_kwargs())
 
     @staticmethod
