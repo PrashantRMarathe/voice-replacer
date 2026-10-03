@@ -214,7 +214,10 @@ BACKGROUND_GAIN: float = 0.8   # music/SFX level (slightly under the voice)
 # first use. Set this False (e.g. for a quick CPU test) to use the fast built-in
 # heuristic instead — the whole pipeline still runs, just with simpler content.
 ENABLE_LLM_BRAIN: bool = True
-LLM_MODEL: str = "Qwen/Qwen2.5-3B-Instruct"
+# Smaller = faster download (~3GB) and quicker inference, so the "Create" step
+# doesn't sit for minutes looking frozen while a big model downloads. 1.5B is
+# plenty for organizing a document into infographic sections + a script.
+LLM_MODEL: str = "Qwen/Qwen2.5-1.5B-Instruct"
 
 # Ken Burns = slow zoom/pan on the infographic. It looks nice but is SLOW on CPU
 # (GPU-less). Set False for a fast static slide (recommended for CPU); True adds
