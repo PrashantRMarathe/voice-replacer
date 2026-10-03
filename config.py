@@ -167,7 +167,10 @@ FIT_MIN_DELTA_S: float = 0.05
 # the ffmpeg filters below — removing noise/hiss and making it sound crisp and
 # professional. Runs best on a GPU. Requires `pip install deepfilternet`; if not
 # installed it is skipped gracefully. Applied BEFORE the mastering pass.
-ENABLE_VOICE_ENHANCE: bool = True
+# Default OFF: the TTS voice is already clean, and denoisers (DeepFilterNet,
+# afftdn) can alter/degrade a clean clone and make it sound less like the
+# reference. Only turn this on for genuinely noisy source audio.
+ENABLE_VOICE_ENHANCE: bool = False
 VOICE_ENHANCE_BACKEND: str = "deepfilternet"  # "deepfilternet" or "none"
 
 # After the cloned voice is generated, run a light mastering pass to remove
@@ -175,16 +178,12 @@ VOICE_ENHANCE_BACKEND: str = "deepfilternet"  # "deepfilternet" or "none"
 # result sounds clean and consistent instead of raw/noisy.
 ENABLE_AUDIO_CLEANUP: bool = True
 
-# ffmpeg filter chain applied to the generated audio. Tuned to be gentle:
-#   highpass=f=70        remove low rumble/hum
-#   afftdn=nf=-25        FFT denoiser (removes steady hiss; -25dB noise floor)
-#   adeclick             smooth transient clicks/pops (e.g. at segment joins)
-#   loudnorm=...         EBU R128 loudness normalization (broadcast-consistent)
-# If cleanup ever muffles the voice, soften it (e.g. drop afftdn) or set
-# ENABLE_AUDIO_CLEANUP = False.
-AUDIO_FILTER_CHAIN: str = (
-    "highpass=f=70,afftdn=nf=-25,adeclick,loudnorm=I=-16:TP=-1.5:LRA=11"
-)
+# ffmpeg filter chain applied to the generated audio. Kept GENTLE on purpose:
+# the TTS voice is already clean, so we ONLY normalize loudness (no denoiser),
+# which keeps the voice sounding exactly like the clone. If you process noisy
+# source audio and want denoise, you can add "afftdn" back — but it can alter a
+# clean voice, so it's intentionally left out here.
+AUDIO_FILTER_CHAIN: str = "loudnorm=I=-16:TP=-1.5:LRA=11"
 
 # --------------------------------------------------------------------------- #
 # Background music / SFX preservation (optional)
