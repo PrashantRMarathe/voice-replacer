@@ -38,6 +38,20 @@ def _audio_duration(path: str) -> float:
         return 0.0
 
 
+def _is_audible(path: str) -> bool:
+    """Return True if the WAV has real signal (not all silence)."""
+    try:
+        import numpy as np
+        import soundfile as sf
+
+        data, _ = sf.read(path)
+        if data is None or len(data) == 0:
+            return False
+        return float(np.max(np.abs(data))) > 1e-4
+    except Exception:  # noqa: BLE001
+        return True  # if we can't check, assume ok rather than block
+
+
 def _expand_numbers(text: str, lang: str) -> str:
     """Spell out digit sequences as words.
 
@@ -103,29 +117,36 @@ class _XttsBackend:
         """
         if speaker_wav in self._trimmed:
             return self._trimmed[speaker_wav]
+
+        result = speaker_wav  # safe default: the original clip
         max_s = getattr(config, "XTTS_MAX_REF_SECONDS", 30) or 30
         try:
             import ffmpeg
 
             dur = _audio_duration(speaker_wav)
-            # Skip a short intro on long clips, then take a `max_s` window.
-            offset = 3.0 if dur > (max_s + 6) else 0.0
-            inp = ffmpeg.input(speaker_wav, ss=offset, t=max_s)
+            # Skip a short intro only on clearly-long clips; otherwise take from
+            # the start so we never land in trailing silence.
+            offset = 2.0 if dur > (max_s + 10) else 0.0
             out = config.TEMP_DIR / f"xtts_ref_{abs(hash(speaker_wav)) & 0xffffff:06x}.wav"
+            # Plain extract only: just a window at mono/24k. NO loudness filter —
+            # loudnorm/dynaudnorm can output pure silence on some ffmpeg builds
+            # (this silenced the reference and broke cloning). XTTS levels the
+            # reference internally, so a plain window is all we need.
             (
-                inp.output(
-                    str(out),
-                    af="highpass=f=60,dynaudnorm=f=200:g=11",  # clean + even out level
-                    acodec="pcm_s16le", ac=1, ar=config.SAMPLE_RATE,
-                )
+                ffmpeg.input(speaker_wav, ss=offset, t=max_s)
+                .output(str(out), acodec="pcm_s16le", ac=1, ar=config.SAMPLE_RATE)
                 .overwrite_output()
                 .run(quiet=True)
             )
-            self._trimmed[speaker_wav] = str(out)
+            result = str(out) if _is_audible(str(out)) else speaker_wav
+            if result == speaker_wav:
+                logger.warning("Prepared reference was silent; using original clip.")
         except Exception as exc:  # noqa: BLE001 - preparation is best-effort
             logger.warning("Reference prep failed (%s); using original clip.", exc)
-            self._trimmed[speaker_wav] = speaker_wav
-        return self._trimmed[speaker_wav]
+            result = speaker_wav
+
+        self._trimmed[speaker_wav] = result
+        return result
 
     def _get_latents(self, speaker_wav: str):
         """Compute (and cache) the conditioning latents for a reference."""
