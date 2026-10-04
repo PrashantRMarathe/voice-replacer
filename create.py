@@ -96,6 +96,16 @@ def create_from_document(
         # (which shows up as a Colab 'runtime disconnected').
         spec_mod.unload_llm()
 
+        # Cap the narration length so TTS stays fast (long scripts = many slow
+        # TTS batches). Keep the first ~max words at a sentence boundary.
+        max_words = getattr(config, "MAX_NARRATION_WORDS", 180)
+        words = narration.split()
+        if len(words) > max_words:
+            trimmed = " ".join(words[:max_words])
+            cut = max(trimmed.rfind("."), trimmed.rfind("!"), trimmed.rfind("?"))
+            narration = trimmed[:cut + 1] if cut > 40 else trimmed
+            _emit(f"Narration trimmed to ~{max_words} words for speed.")
+
         # Render the infographic to an image.
         _emit("Rendering infographic...")
         html_path = config.TEMP_DIR / f"{run_id}_info.html"

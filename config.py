@@ -219,6 +219,10 @@ ENABLE_LLM_BRAIN: bool = True
 # plenty for organizing a document into infographic sections + a script.
 LLM_MODEL: str = "Qwen/Qwen2.5-1.5B-Instruct"
 
+# Cap narration length. Long scripts = many TTS batches = very slow (and huge
+# videos). ~180 words ≈ ~75-90s of speech, a tight professional narration.
+MAX_NARRATION_WORDS: int = 180
+
 # Ken Burns = slow zoom/pan on the infographic. It looks nice but is SLOW on CPU
 # (GPU-less). Set False for a fast static slide (recommended for CPU); True adds
 # the motion (fine on a GPU/Colab).
