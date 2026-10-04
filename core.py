@@ -14,6 +14,7 @@ or a stage fails, it falls back to the simpler behavior instead of aborting.
 from __future__ import annotations
 
 import logging
+import os
 from pathlib import Path
 from typing import Callable, List, Optional
 
@@ -177,14 +178,23 @@ def process_video(
             final_path = pipeline.merge_audio_video(
                 video_path, generated, run_id, cb)
 
-        # Optional: write subtitle files next to the output video.
+        # Optional: write subtitle files, and optionally burn them into the video.
         if config.GENERATE_SUBTITLES:
             try:
                 paths = subtitles.write_subtitles(
                     segments, final_path, config.SUBTITLE_FORMAT)
                 _emit(f"Subtitles written: {', '.join(Path(p).name for p in paths)}")
+                if config.BURN_SUBTITLES:
+                    srt = next((p for p in paths if p.endswith(".srt")), None)
+                    if srt:
+                        _emit("Burning subtitles into the video...")
+                        burned = str(Path(final_path).with_name(
+                            Path(final_path).stem + "_sub.mp4"))
+                        subtitles.burn_into_video(final_path, srt, burned)
+                        os.replace(burned, final_path)
+                        _emit("Subtitles burned in.")
             except Exception as exc:  # noqa: BLE001 - subtitles are a nice-to-have
-                _emit(f"Subtitle generation failed ({exc}); skipping.")
+                _emit(f"Subtitles step issue ({exc}); continuing.")
 
         return final_path
     finally:

@@ -127,8 +127,18 @@ def create_from_document(
                     paths = subtitles.write_subtitles(
                         segs, out_path, config.SUBTITLE_FORMAT)
                     _emit(f"Subtitles: {', '.join(Path(p).name for p in paths)}")
+                    if config.BURN_SUBTITLES:
+                        srt = next((p for p in paths if p.endswith(".srt")), None)
+                        if srt:
+                            _emit("Burning subtitles into the video...")
+                            burned = str(Path(out_path).with_name(
+                                Path(out_path).stem + "_sub.mp4"))
+                            subtitles.burn_into_video(out_path, srt, burned)
+                            import os
+                            os.replace(burned, out_path)
+                            _emit("Subtitles burned in.")
             except Exception as exc:  # noqa: BLE001
-                _emit(f"Subtitle generation skipped ({exc}).")
+                _emit(f"Subtitles step issue ({exc}); continuing.")
 
         _emit(f"Done -> {out_path}")
         return out_path

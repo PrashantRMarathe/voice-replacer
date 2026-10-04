@@ -234,6 +234,17 @@ VIDEO_FPS: int = 30
 GENERATE_SUBTITLES: bool = True
 SUBTITLE_FORMAT: str = "both"  # "srt", "vtt", or "both"
 
+# Burn subtitles INTO the video picture (always visible, for social media).
+# Timing is exact because subtitles come from transcribing the final audio.
+# The .srt/.vtt files are still written too. Re-encodes the video.
+BURN_SUBTITLES: bool = True
+# libass style: white text, black outline, bottom-centered, readable size.
+SUBTITLE_STYLE: str = (
+    "FontName=Arial,FontSize=18,PrimaryColour=&H00FFFFFF&,"
+    "OutlineColour=&H00000000&,BorderStyle=1,Outline=2,Shadow=1,"
+    "Alignment=2,MarginV=30"
+)
+
 # --------------------------------------------------------------------------- #
 # Speaker diarization (optional)
 # --------------------------------------------------------------------------- #
