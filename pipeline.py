@@ -279,7 +279,10 @@ def _fit_duration(src: Path, dst: Path, target_s: float) -> float:
         _copy_wav(src, dst)
         return actual
     # Within the tolerance band -> play at XTTS's natural pace (no stretch).
-    if abs(actual - target_s) <= config.FIT_TOLERANCE_RATIO * target_s:
+    # Only a line that finishes EARLY may be left alone within the tolerance band.
+    # A line that runs LONG must be pulled in, or the error carries into every line
+    # after it and the voice drifts away from the video.
+    if actual <= target_s and (target_s - actual) <= config.FIT_TOLERANCE_RATIO * target_s:
         _copy_wav(src, dst)
         return actual
 
@@ -382,10 +385,15 @@ def generate_voice(
         )
 
         seg_path = config.TEMP_DIR / f"{run_id}_seg_{i:04d}.wav"
+        # Budget = time left until this line's original end, measured from where
+        # the audio really is now (after any earlier overrun). If earlier lines ran
+        # long, this line gets less room and is pulled in to recover the lost time.
+        # Once the audio is back on schedule, the budget equals the normal slot.
         slot = seg.end - seg.start
+        budget = max(seg.end - timeline_pos, 0.2 * slot)
         if config.FIT_SEGMENT_TIMING and slot > 0:
             raw_dur = _wav_duration(str(raw_path))
-            fitted_dur = _fit_duration(raw_path, seg_path, slot)
+            fitted_dur = _fit_duration(raw_path, seg_path, budget)
             total_stretch += abs(raw_dur - fitted_dur)
         else:
             _copy_wav(raw_path, seg_path)
