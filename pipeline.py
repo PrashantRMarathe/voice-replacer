@@ -318,6 +318,7 @@ def generate_voice(
     language: Optional[str] = None,
     cb: ProgressCb = None,
     speaker_refs: Optional[dict] = None,
+    placed_times: Optional[List[Tuple[float, float]]] = None,
 ) -> str:
     """Generate cloned-voice audio for ``segments`` and concatenate it.
 
@@ -335,6 +336,9 @@ def generate_voice(
         speaker_refs: Optional ``{speaker_label: reference_wav}`` map. When a
             segment's ``speaker`` has an entry, that per-speaker reference is
             used so multi-speaker videos clone each voice separately.
+        placed_times: Optional list. When given, it is filled with one
+            ``(start, end)`` pair per segment giving where that cloned line
+            actually lands in the output audio (after any drift and stretching).
 
     Returns:
         Path to the concatenated WAV file in the cloned voice.
@@ -396,6 +400,8 @@ def generate_voice(
                 f"folder from real-time scanning/sync and try again."
             )
         part_paths.append(seg_path)
+        if placed_times is not None:
+            placed_times.append((timeline_pos, timeline_pos + fitted_dur))
         timeline_pos += fitted_dur
 
     if config.FIT_SEGMENT_TIMING:
