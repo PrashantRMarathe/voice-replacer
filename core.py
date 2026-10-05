@@ -143,8 +143,10 @@ def process_video(
             except RuntimeError as exc:
                 _emit(f"Speaker reference build failed ({exc}); using default voice.")
 
+        placed: list = []
         generated = pipeline.generate_voice(
-            segments, reference, run_id, xtts_lang, cb, speaker_refs)
+            segments, reference, run_id, xtts_lang, cb, speaker_refs,
+            placed_times=placed)
 
         # Optional: keep the original background music/SFX under the new voice.
         if config.PRESERVE_BACKGROUND:
@@ -181,8 +183,14 @@ def process_video(
         # Optional: write subtitle files, and optionally burn them into the video.
         if config.GENERATE_SUBTITLES:
             try:
+                # Time each subtitle to where its cloned line actually plays,
+                # so captions stay in sync even when the dub drifts.
+                dubbed_segments = [
+                    Segment(start=s, end=e, text=seg.text, speaker=seg.speaker)
+                    for seg, (s, e) in zip(segments, placed)
+                ]
                 paths = subtitles.write_subtitles(
-                    segments, final_path, config.SUBTITLE_FORMAT)
+                    dubbed_segments, final_path, config.SUBTITLE_FORMAT)
                 _emit(f"Subtitles written: {', '.join(Path(p).name for p in paths)}")
                 if config.BURN_SUBTITLES:
                     srt = next((p for p in paths if p.endswith(".srt")), None)
