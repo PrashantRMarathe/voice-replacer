@@ -49,7 +49,8 @@ def _slide_clip(image_path: str, duration: float, out_path: Path,
               f"pad={width}:{height}:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={fps}")
     (
         ffmpeg.input(image_path, loop=1, t=duration)
-        .output(str(out_path), vf=vf, pix_fmt="yuv420p", r=fps, an=None)
+        .output(str(out_path), vf=vf, pix_fmt="yuv420p", r=fps, an=None,
+                vcodec="libx264", crf=18, preset="slow")
         .overwrite_output()
         .run(quiet=True)
     )
@@ -100,7 +101,7 @@ def build_video(
         (
             ffmpeg.output(video.video, audio.audio, out_path,
                           vcodec="libx264", acodec="aac", pix_fmt="yuv420p",
-                          shortest=None, r=fps)
+                          crf=18, preset="slow", shortest=None, r=fps)
             .overwrite_output()
             .run(quiet=True)
         )
