@@ -1,0 +1,4 @@
+# Dependencies and build artifacts — regenerable, large, not committed.
+node_modules/
+out/
+.remotion/

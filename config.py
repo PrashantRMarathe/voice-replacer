@@ -226,7 +226,7 @@ MAX_NARRATION_WORDS: int = 180
 # Ken Burns = slow zoom/pan on the infographic. It looks nice but is SLOW on CPU
 # (GPU-less). Set False for a fast static slide (recommended for CPU); True adds
 # the motion (fine on a GPU/Colab).
-KEN_BURNS: bool = True
+KEN_BURNS: bool = False
 VIDEO_WIDTH: int = 1920
 VIDEO_HEIGHT: int = 1080
 VIDEO_FPS: int = 30
