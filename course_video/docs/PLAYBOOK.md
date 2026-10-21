@@ -114,11 +114,13 @@ Remotion = `ceil(seconds*30) + pad_frames`.
 Copy `src/lessons/EightWastes.tsx` to `src/lessons/FiveS.tsx`. For each scene:
 - Build the visual (reuse `GlowCard`, icons, diagrams, characters).
 - Place scenes on a timeline with `<Sequence from={..} durationInFrames={..}>`.
-- Inside each Sequence add: the scene, `<Audio src={narr("<scene>.mp3")} />`,
-  `<Audio src={sfx("whoosh")} />`, and `{Cap(words)}` (captions toggle).
-- Add `<Audio src={narr("music.mp3")} volume={0.16} loop />` at the top.
+- Inside each Sequence add: the scene, `<Audio src={narr("<scene>.mp3")} />`, and
+  the sentence captions (behind the `captions` prop).
+- **No music and no SFX `<Audio>`.** Narration voice only.
+- Insert **2 quiz blocks** (`QuizScene`) — one mid-lesson, one before the outro.
+- Add `<BrandMark />` at the top level (after the scenes).
 - Add the `captions` prop (default true) so a Dub variant can turn it off.
-- Export `FIVES_DURATION` = total frames.
+- Export `FIVES_DURATION` = total frames (include the 2 `quizDuration(...)`).
 
 ### Step 5 — Register it
 In `src/Root.tsx` add two `<Composition>`s: `FiveS` and `FiveSDub`
@@ -140,26 +142,54 @@ losing music.
 
 ---
 
-## 5. Voice, captions, music, SFX
-- **Voice:** `en-US-ChristopherNeural`, `rate="-6%"` (edge-tts). Change `VOICE`
-  for a different narrator. Good alternates: `en-IN-NeerjaNeural` (Indian female),
-  `en-IN-PrabhatNeural` (Indian male), `en-US-AriaNeural`.
-- **Captions:** generated from word timings; `Captions.tsx` highlights the active
-  word. If you change the voice, regenerate word timings so captions stay in sync.
-- **Music/SFX:** regenerate with `make_music.py` / `make_sfx.py` (numpy,
-  royalty-free — no license risk). Keep music quiet.
+## 5. Voice, captions, sound
+- **Draft voice (for timing):** `en-US-ChristopherNeural`, `rate="-6%"`
+  (edge-tts, `boundary="WordBoundary"`). Used to scout timing / previews.
+- **Final voice = CLONED** (see §6). This is the standard.
+- **Captions:** `Captions.tsx` shows the **whole active sentence**, no per-word
+  highlight (word-highlight looks desynced on approximate timings). Caption
+  timings are written per scene as `src/captions/<lesson>/<key>.words.json`.
+- **Pure voice-only.** No background music and NO sound effects (no whoosh, no
+  ding). The only audio is the narration. `make_music.py` / `make_sfx.py` still
+  exist but are not used.
 
 ---
 
-## 6. Changing / cloning the voice (dubbing)
-Two ways:
-1. **Simplest swap:** change `VOICE` in the generator, regenerate, re-render.
-2. **Cloned voice:** dub the **voice stem** (`narration.wav`), not the mixed
-   video — then mix the new voice with the music+SFX stem and mux onto the
-   no-caption video. Full steps in `DUB_WORKFLOW.md`.
-   ⚠️ If you dub the whole mixed video with the Colab dub tool, its Demucs step
-   can DROP the quiet music. Fix: layer the music stem back under the result
-   (ffmpeg `amix`). Prefer dubbing the stem to avoid this.
+## 6. Voice = CLONE-ONLY pipeline (the reliable way)
+Do NOT use the full Colab dub tool on the finished video. It transcribes and
+re-times (guesses), which caused **repeated sentences** and **lost music**.
+Instead:
+
+1. **Draft the script** → `scripts.json` per lesson (`key` → narration text).
+   The generators also voice it with edge-tts to scout scene timing. Then hand
+   the user a copy named `<lesson>.json` to upload (course content stays OFF
+   GitHub — only the engine code is in the repo).
+2. **Clone on Colab (`colab_clone_voice.ipynb`)** — the user uploads their voice
+   clip and their lesson `.json` file(s) (many at once = batch). The notebook
+   loads the voice model once and speaks each scene in the uploaded voice. No
+   Whisper, no Demucs, no video upload, no lessons pulled from GitHub. Outputs
+   `clones/<lesson>/<key>.wav`, one folder per lesson, in `clones.zip`.
+3. **Import the clips** → convert to `public/audio/<lesson>/<key>.mp3`, measure
+   each one, and **rewrite `timings.json`** to the cloned durations so every
+   page's audio fits its own scene (no drift, no repeats — structurally
+   impossible to cross pages).
+4. **Caption timings:** spread each scene's words evenly across its cloned clip
+   duration → `src/captions/<lesson>/<key>.words.json` (captions are shown
+   per-sentence, so this stays well-synced per page).
+5. **Render** the normal (captioned) and `...Dub` (no-caption) compositions.
+
+This gives: cloned voice, perfect per-page sync, no repeats, no music to lose.
+
+---
+
+## 6b. Quizzes (required: 2 per lesson)
+Use `QuizScene` from `src/components/Quiz.tsx`. Each quiz: `{num, question,
+options[], correct, explanation, think}`. It shows the question + options, a
+`Think… N` countdown (give time to think), then highlights the correct option
+and shows the explanation (with a soft `ding`). Insert as blocks in the
+composition: **one mid-lesson, one just before the outro** (see how
+`ZeroDefects.tsx` inserts `quiz("quiz1", …)` and `quiz("quiz2", …)`). Quiz
+blocks have a fixed duration (`quizDuration(FPS, think)`), no narration.
 
 ---
 
