@@ -81,6 +81,11 @@ XTTS_MAX_REF_SECONDS: float = 30.0
 # default base model is English-centric.
 F5_MODEL: str = "F5TTS_v1_Base"
 
+# Fixed F5 random seed: the same text + voice clip + F5 version always gives the
+# same delivery (without it, emphasis and pauses vary a little per run). None =
+# a new random seed every call.
+F5_SEED: int | None = 1019
+
 # Transcription backend:
 #   "faster"  -> faster-whisper (CTranslate2): ~4x faster, lower VRAM. Default.
 #   "openai"  -> the original openai-whisper reference implementation.

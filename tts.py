@@ -227,9 +227,13 @@ class _F5Backend:  # pragma: no cover - requires the f5-tts model download
         # F5-TTS infers the reference transcript itself when ref_text is "".
         # It is reference-driven rather than language-coded, so ``language`` is
         # not passed; coverage depends on the loaded model. Pass the soft speed
-        # setting when the installed F5 version supports it.
+        # setting when the installed F5 version supports it, and the fixed seed
+        # so the same text always comes out the same way.
         model = self._load()
         kwargs = dict(ref_file=speaker_wav, ref_text="", gen_text=text)
+        seed = getattr(config, "F5_SEED", None)
+        if seed is not None:
+            kwargs["seed"] = seed
         try:
             wav, sr, _ = model.infer(speed=getattr(config, "XTTS_SPEED", 1.0), **kwargs)
         except TypeError:
