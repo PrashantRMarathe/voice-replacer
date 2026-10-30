@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A draft OPL covers connector insertion, screw torque, label checks and ESD on one page. What's the problem?",
+      "options": [
+        "It needs more text",
+        "It has too many points — split it into separate OPLs",
+        "It should be in colour only"
+      ],
+      "correct": 1,
+      "explanation": "An OPL teaches ONE point. Four topics on one page dilute the message — make four focused OPLs instead.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Everyone signed the OPL two weeks ago, but the same defect is back. What should the supervisor do FIRST?",
+      "options": [
+        "Make everyone sign it again",
+        "Observe the work and check the standard, method and lesson",
+        "Blame the operators who signed",
+        "Remove the OPL from the line"
+      ],
+      "correct": 1,
+      "explanation": "Signatures don't prove learning. Go and observe: is the method followed, is the standard right, is the OPL clear? Then fix the cause.",
+      "think": 15
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What a One Point Lesson Is",
+      "example": "Ravi's first OPL, connector insertion: the right grip, the wrong grip, and the click to listen for.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "One thing",
+            "icon": "check"
+          },
+          {
+            "label": "Minutes to learn",
+            "icon": "clock"
+          },
+          {
+            "label": "Visual",
+            "icon": "camera"
+          },
+          {
+            "label": "At the workplace",
+            "icon": "wrench"
+          }
+        ]
+      },
+      "bullets": [
+        "One thing, on one page",
+        "Short: learned in minutes",
+        "Visual: good and bad examples",
+        "Taught at the workplace"
+      ],
+      "at": [
+        5.378,
+        7.877,
+        12.361,
+        18.215
+      ],
+      "exampleAt": 21.08
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "What an OPL Is Not",
+      "example": "Ravi's connector lesson sits beside the SOP and points to the exact step it supports.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Replacing the SOP",
+            "sub": "or cramming a big topic",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Beside the SOP",
+            "sub": "Points to the exact step",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Never replaces your SOP",
+        "No big topic squeezed onto one page",
+        "Reinforces one critical point"
+      ],
+      "at": [
+        0.807,
+        10.674,
+        16.771
+      ],
+      "exampleAt": 22.017
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Why OPLs Pay Off",
+      "example": "Night shift cracked 14 connectors a week; day shift cracked 2. Same SOP, different know-how.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Night shift",
+          "value": 14
+        },
+        "after": {
+          "label": "Day shift",
+          "value": 2
+        },
+        "unit": "cracked connectors a week",
+        "note": "Same SOP, different know-how",
+        "with": "example"
+      },
+      "bullets": [
+        "Closes skill gaps between shifts",
+        "New people learn faster",
+        "Lessons from defects shared quickly",
+        "Skilled operators become trainers"
+      ],
+      "at": [
+        1.296,
+        20.606,
+        23.005,
+        28.021
+      ],
+      "exampleAt": 5.905
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Types of OPL",
+      "example": "Ravi's cracked-connector lesson is a problem type.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Basic knowledge",
+            "icon": "chip",
+            "with": 0
+          },
+          {
+            "label": "Problem",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Improvement",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Safety",
+            "icon": "shield",
+            "with": 3
+          },
+          {
+            "label": "Quality",
+            "icon": "check",
+            "with": 3
+          },
+          {
+            "label": "Maintenance",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Basic knowledge, e.g. ESD handling",
+        "Problem: defect, cause and fix",
+        "Improvement: a better method from Kaizen",
+        "Safety · Quality · Maintenance"
+      ],
+      "at": [
+        4.017,
+        11.326,
+        16.915,
+        21.903
+      ],
+      "exampleAt": 27.288
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "When to Create One",
+      "example": "Ravi's trigger: the cause of the cracked connectors was found — now the fix had to reach every shift.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Repeat defect solved",
+            "icon": "check"
+          },
+          {
+            "label": "New product or jig",
+            "icon": "box"
+          },
+          {
+            "label": "Misunderstood step",
+            "icon": "search"
+          },
+          {
+            "label": "Near miss, or a trick",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "A repeat defect just solved",
+        "New product, machine or jig",
+        "A step keeps being misunderstood",
+        "A near miss or a skilled person's trick"
+      ],
+      "at": [
+        6.229,
+        9.503,
+        13.588,
+        17.631
+      ],
+      "exampleAt": 24.409
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Structure of a Good OPL",
+      "example": "The page should make sense at a glance — could your newest operator read it in a minute?",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "OPL-012 · Connector insertion · Rev B",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Key point: push until it clicks",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "",
+            "icon": "goodbad",
+            "with": 2
+          },
+          {
+            "label": "Caution: never force it",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Owner · approved · trained",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Number, title, revision, date",
+        "Why it matters + the one key point",
+        "Visuals, steps, caution",
+        "Owner, approval, training record"
+      ],
+      "at": [
+        6.783,
+        12.713,
+        17.288,
+        24.907
+      ],
+      "exampleAt": 30.348
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "How to Prepare It",
+      "example": "Ravi photographed the real connector, at the real station.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "One learning objective",
+            "icon": "search"
+          },
+          {
+            "label": "Go to the gemba",
+            "sub": "Verify the standard",
+            "icon": "walk"
+          },
+          {
+            "label": "Simple words, real photos",
+            "icon": "camera"
+          },
+          {
+            "label": "Check, then approve",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Define one learning objective",
+        "Go to the gemba, verify the standard",
+        "Simple words, real photos, good vs bad",
+        "Check, then approve"
+      ],
+      "at": [
+        1.687,
+        4.995,
+        12.846,
+        25.456
+      ],
+      "exampleAt": 31.345
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Visual Communication",
+      "example": "Ravi's OPL shows a tick, a cross, and the words good and not good.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Real photos, arrows",
+            "icon": "camera",
+            "with": 0
+          },
+          {
+            "label": "Good and bad side by side",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Large text, space",
+            "icon": "label",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Colour only",
+              "sub": "Not everyone sees it",
+              "icon": "warning"
+            },
+            {
+              "label": "Tick, cross + words",
+              "sub": "Good / not good",
+              "icon": "check"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Real photos, arrows on the exact spot",
+        "Good and bad side by side",
+        "Large text, plenty of space",
+        "Never use colour as the only signal"
+      ],
+      "at": [
+        9.6,
+        15.046,
+        17.97,
+        24.514
+      ],
+      "exampleAt": 27.443
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Delivering at the Gemba",
+      "example": "Ravi teaches each lesson in 5 minutes at shift start, then watches every operator do it.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Explain why it matters",
+            "icon": "person"
+          },
+          {
+            "label": "Show, demonstrate, compare",
+            "icon": "camera"
+          },
+          {
+            "label": "Ask, then let them try",
+            "icon": "hand"
+          },
+          {
+            "label": "A signature proves nothing",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Explain why it matters",
+        "Show, demonstrate, compare",
+        "Ask questions, let them try",
+        "A signature alone proves nothing"
+      ],
+      "at": [
+        3.883,
+        8.604,
+        15.049,
+        32.057
+      ],
+      "exampleAt": 24.11
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "OPLs for Box Build & Quality",
+      "example": "Wrong PCB prevention: where to read the board number, how to match the model, what to do on a mismatch.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Boards",
+            "sub": "AOI false call vs real defect",
+            "icon": "chip"
+          },
+          {
+            "label": "Assembly",
+            "sub": "Screw sequence, connector locking",
+            "icon": "screw"
+          },
+          {
+            "label": "Test",
+            "sub": "Firmware version check",
+            "icon": "test"
+          },
+          {
+            "label": "Packing",
+            "sub": "Label and accessories",
+            "icon": "label"
+          }
+        ]
+      },
+      "bullets": [
+        "Boards: AOI false call vs real defect",
+        "Assembly: screw sequence, connector locking",
+        "Test: firmware version check",
+        "Packing: label and accessory checks"
+      ],
+      "at": [
+        5.019,
+        11.56,
+        16.076,
+        19.922
+      ],
+      "exampleAt": 24.777
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "OPLs and Other Lean Tools",
+      "example": "New fixture → an OPL on how to load it, and what the red light means.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kaizen",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "5S + TPM",
+            "icon": "tray"
+          },
+          {
+            "label": "Root cause",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "After a Kaizen: the new method",
+        "After a Poka Yoke: what its alarm means",
+        "5S standards and machine care",
+        "Lessons from root cause analysis"
+      ],
+      "at": [
+        5.674,
+        10.065,
+        17.033,
+        23.704
+      ],
+      "exampleAt": 27.263
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Control and Revisions",
+      "example": "When the connector supplier changed, Ravi revised the lesson and pulled every old copy.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Number, owner, approver",
+            "icon": "label"
+          },
+          {
+            "label": "Linked to its SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Reviewed on every change",
+            "icon": "sequence"
+          },
+          {
+            "label": "Old copies removed",
+            "icon": "trash",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Number, owner, approver",
+        "Linked to the SOP it supports",
+        "Reviewed whenever anything changes",
+        "Old copies removed from the line"
+      ],
+      "at": [
+        6.773,
+        10.809,
+        14.317,
+        19.356
+      ],
+      "exampleAt": 23.005
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Measuring Effectiveness",
+      "example": "Night shift: 14 cracked connectors a week → 1 a week, six weeks after the lesson.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Changed behaviour",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "A few questions",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Watch, days later",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 14
+          },
+          "after": {
+            "label": "6 weeks after",
+            "value": 1
+          },
+          "unit": "cracked connectors a week, night shift",
+          "note": "The lesson changed behaviour",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Changed behaviour is the result",
+        "Check knowledge with questions",
+        "Watch the method days later",
+        "Track the targeted defect"
+      ],
+      "at": [
+        6.209,
+        8.587,
+        11.998,
+        16.596
+      ],
+      "exampleAt": 19.707
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Common Mistakes",
+      "example": "Ravi's first draft covered four topics. He split it into four lessons.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Too much?",
+            "sub": "Split it",
+            "icon": "stack"
+          },
+          {
+            "label": "Text only?",
+            "sub": "Add real photos",
+            "icon": "camera"
+          },
+          {
+            "label": "Signature only?",
+            "sub": "Observe the work",
+            "icon": "hand"
+          },
+          {
+            "label": "Old version?",
+            "sub": "Revision control",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Too much content → split it",
+        "Text only → add real photos",
+        "Signature only → demonstrate and observe",
+        "Old version on the wall → revision control"
+      ],
+      "at": [
+        3.391,
+        6.805,
+        11.508,
+        17.157
+      ],
+      "exampleAt": 29.475
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Roadmap & Creator Checklist",
+      "example": "Before release, ask: Is it correct? Is the point obvious?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Template + numbering",
+            "with": 0
+          },
+          {
+            "label": "Pilot on big defects",
+            "with": 1
+          },
+          {
+            "label": "Train the trainers",
+            "with": 2
+          },
+          {
+            "label": "Use at the gemba",
+            "with": 2
+          },
+          {
+            "label": "Measure the effect",
+            "with": 3
+          },
+          {
+            "label": "Build a library",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan template, numbering, approval",
+        "Pilot on the biggest defects or risks",
+        "Train the trainers, use at the gemba",
+        "Measure the effect, build a library"
+      ],
+      "at": [
+        4.047,
+        8.232,
+        13.564,
+        23.003
+      ],
+      "exampleAt": 27.381
+    }
+  ]
+}

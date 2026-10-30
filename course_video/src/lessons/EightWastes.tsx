@@ -6,6 +6,7 @@ import { WASTE_ICONS } from "../components/icons";
 import { Scene } from "../scenes/Scene";
 import { Captions, Word } from "../components/Captions";
 import { Guide, Worker } from "../components/characters";
+import { BrandMark } from "../components/BrandMark";
 import { theme } from "../theme";
 import "../fonts";
 
@@ -14,8 +15,6 @@ import w02 from "../captions/02_acronym.words.json";
 import w03 from "../captions/03_flow.words.json";
 import w04 from "../captions/04_grid.words.json";
 import w05 from "../captions/05_outro.words.json";
-
-const sfx = (f: string) => staticFile(`audio/sfx/${f}.mp3`);
 
 const WASTES = [
   { l: "D", name: "Defects", desc: "Errors that need rework or scrap." },
@@ -182,7 +181,7 @@ const OutroScene: React.FC = () => {
 // Narration audio per scene (durations measured from the generated files).
 const narr = (f: string) => staticFile(`audio/${f}`);
 
-// `captions`: burn karaoke captions (off for a dub-ready master so the dub tool
+// `captions`: burn sentence captions (off for a dub-ready master so the dub tool
 // can add its own, timing-correct subtitles).
 export const EightWastes: React.FC<{ captions?: boolean }> = ({ captions = true }) => {
   const Cap = (words: Word[]) => (captions ? <Captions words={words} /> : null);
@@ -190,40 +189,34 @@ export const EightWastes: React.FC<{ captions?: boolean }> = ({ captions = true 
     <AbsoluteFill style={{ background: theme.colors.bg }}>
       <Background />
 
-      {/* soft background music under the whole lesson */}
-      <Audio src={narr("music.mp3")} volume={0.16} />
+      {/* VOICE-ONLY: narration is the only audio (no music, no SFX). */}
 
       <Sequence durationInFrames={500}>
         <TitleScene />
         <Audio src={narr("01_title.mp3")} />
-        <Audio src={sfx("whoosh")} volume={0.5} />
         {Cap(w01 as Word[])}
       </Sequence>
       <Sequence from={500} durationInFrames={300}>
         <AcronymScene />
         <Audio src={narr("02_acronym.mp3")} />
-        <Audio src={sfx("whoosh")} volume={0.5} />
-        <Audio src={sfx("ding")} volume={0.35} />
         {Cap(w02 as Word[])}
       </Sequence>
       <Sequence from={800} durationInFrames={485}>
         <FlowScene />
         <Audio src={narr("03_flow.mp3")} />
-        <Audio src={sfx("whoosh")} volume={0.5} />
         {Cap(w03 as Word[])}
       </Sequence>
       <Sequence from={1285} durationInFrames={550}>
         <WastesGridScene />
         <Audio src={narr("04_grid.mp3")} />
-        <Audio src={sfx("whoosh")} volume={0.5} />
         {Cap(w04 as Word[])}
       </Sequence>
       <Sequence from={1835} durationInFrames={350}>
         <OutroScene />
         <Audio src={narr("05_outro.mp3")} />
-        <Audio src={sfx("whoosh")} volume={0.5} />
         {Cap(w05 as Word[])}
       </Sequence>
+      <BrandMark />
     </AbsoluteFill>
   );
 };

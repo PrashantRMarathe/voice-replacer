@@ -1,0 +1,694 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What TAKT Time Is",
+      "example": "420 net minutes ÷ 840 cameras = one camera every 30 seconds.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Takt = beat",
+            "icon": "wave",
+            "with": 0
+          },
+          {
+            "label": "The pace demand sets",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Net time ÷ demand",
+            "icon": "count",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "one camera every 30 seconds",
+          "unit": "420 net minutes ÷ 840 cameras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Takt: German for beat, or rhythm",
+        "The pace that meets customer demand",
+        "TAKT = net available time ÷ demand"
+      ],
+      "at": [
+        3.309,
+        7.943,
+        16.12
+      ],
+      "exampleAt": 19.788
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why TAKT Matters",
+      "example": "Rohan's assembly built 1,000 cameras ahead of test. Utilization looked great; the trucks still left late.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "1,000 built ahead of test",
+            "sub": "Busy stations, late trucks",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "One shared pace",
+            "sub": "Staffing, balance, materials",
+            "icon": "clock",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Links your customer to the shop floor",
+        "No shared pace → overproduction, WIP",
+        "Plan staffing, balance work, pace materials"
+      ],
+      "at": [
+        1.306,
+        4.893,
+        29.163
+      ],
+      "exampleAt": 19.567
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Net Available Time",
+      "example": "480 min shift − breaks − a short meeting = 430 net minutes.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "480 min shift",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "− breaks, meeting, cleaning",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "= 430 net minutes",
+            "sub": "Random downtime is not taken off here",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Start with shift length",
+        "Subtract planned breaks, meetings, cleaning",
+        "Don't subtract random downtime here",
+        "Write down your assumptions"
+      ],
+      "at": [
+        4.303,
+        6.483,
+        23.397,
+        32.595
+      ],
+      "exampleAt": 11.375
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Customer Demand",
+      "example": "Daily demand with one shift's time = nonsense.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Daily demand ÷ one shift",
+            "sub": "Gives nonsense",
+            "icon": "cross",
+            "with": "example"
+          },
+          {
+            "label": "Same period for both",
+            "sub": "Good units, not units started",
+            "icon": "calendar",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Demand and time: same period",
+        "Good units needed, not units started",
+        "Mixed models: check each one",
+        "Recalculate when demand or shifts change"
+      ],
+      "at": [
+        1.017,
+        15.765,
+        21.101,
+        30.273
+      ],
+      "exampleAt": 10.184
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "TAKT vs Cycle vs Lead Time",
+      "example": "Final test 38 s vs TAKT 30 s: it needed improvement, or a second tester.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "The pace you need",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Cycle time",
+            "sub": "What a station takes",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Lead time",
+            "sub": "The whole journey",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Test can't keep up: improve it, or add a tester",
+          "unit": "seconds per camera",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Final test",
+              "value": 38,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: the pace you need",
+        "Cycle time: what a station takes",
+        "Lead time: the whole journey",
+        "Cycle > TAKT = can't keep up"
+      ],
+      "at": [
+        4.067,
+        6.62,
+        12.846,
+        17.991
+      ],
+      "exampleAt": 23.362
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Pitch, UPH and UPPH",
+      "example": "TAKT 24 s → 150 units an hour. Pack of 20 → a pitch of 8 minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "UPH",
+            "sub": "Hourly rate needed",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Pitch",
+            "sub": "Time to fill a pack",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "UPPH",
+            "sub": "Good output per person-hour",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT 24 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "= 150 units an hour",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Pack of 20 = pitch of 8 min",
+              "icon": "box",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "UPH: the hourly rate you need",
+        "Pitch: time to fill one pack",
+        "UPPH: good output per person-hour",
+        "Theory isn't output"
+      ],
+      "at": [
+        4.352,
+        9.787,
+        25.333,
+        29.898
+      ],
+      "exampleAt": 13.355
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Balancing with Yamazumi",
+      "example": "TAKT 40 s: Operator A has 52 s of work, Operator B only 25 s.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Time each element",
+            "icon": "clock"
+          },
+          {
+            "label": "Stack each operator",
+            "icon": "stack"
+          },
+          {
+            "label": "Draw the TAKT line",
+            "icon": "sequence"
+          },
+          {
+            "label": "Move work, safely",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 40,
+          "suffix": " s",
+          "note": "A is overloaded",
+          "unit": "seconds of work per operator",
+          "with": "example",
+          "items": [
+            {
+              "label": "Operator A",
+              "value": 52,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Operator B",
+              "value": 25,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Time each work element",
+        "Stack each operator's work as a bar",
+        "Draw the TAKT line across",
+        "Move or redesign within safety & skill"
+      ],
+      "at": [
+        3.799,
+        8.905,
+        12.35,
+        29.486
+      ],
+      "exampleAt": 18.23
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Minimum Operators",
+      "example": "310 s of work ÷ 40 s TAKT = 7.75 → at least 8 operators.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Work ÷ TAKT, round up",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "A starting point",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Stable time study",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 8,
+          "icon": "person",
+          "label": "operators, at least",
+          "unit": "310 s of work ÷ 40 s TAKT = 7.75, rounded up",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Work content ÷ TAKT, round up",
+        "A starting point only",
+        "Use a stable time study"
+      ],
+      "at": [
+        3.753,
+        23.001,
+        31.332
+      ],
+      "exampleAt": 8.594
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Bottlenecks & Parallel Stations",
+      "example": "Two testers at 50 s = 144 attempts an hour → about 127 good units after uptime and yield.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "The bottleneck",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "3,600 ÷ cycle time",
+            "icon": "count"
+          },
+          {
+            "label": "Uptime × yield",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Evidence first",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2 testers at 50 s",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "144 attempts an hour",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "≈ 127 good after uptime, yield",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "The bottleneck limits good output",
+        "Capacity = 3,600 ÷ cycle time",
+        "Apply uptime and first pass yield",
+        "Evidence before buying a machine"
+      ],
+      "at": [
+        3.378,
+        6.911,
+        25.693,
+        33.648
+      ],
+      "exampleAt": 14.397
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Mixed Models & Heijunka",
+      "example": "60% Model A, 40% Model B with a longer test: schedule all the Bs together and test drowns.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "All the Bs together",
+            "sub": "Test drowns",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "Level the mix",
+            "sub": "Heijunka + SMED",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "One TAKT doesn't fit every model",
+        "Check each model's station times",
+        "Heijunka: level volume and mix",
+        "SMED: cut changeover losses"
+      ],
+      "at": [
+        1.301,
+        23.135,
+        26.151,
+        31.168
+      ],
+      "exampleAt": 5.274
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Material Flow & Kanban",
+      "example": "TAKT 30 s, tote of 40 → lasts 20 minutes; replenishment must beat that.",
+      "visual": {
+        "type": "stat",
+        "value": 20,
+        "suffix": " min",
+        "icon": "box",
+        "label": "a tote of 40 parts lasts",
+        "unit": "at a 30 s TAKT: replenishment must beat it",
+        "with": "example"
+      },
+      "bullets": [
+        "TAKT sets the material rhythm",
+        "Kanban: lead time, container size",
+        "WIP limits between processes",
+        "Don't release work just to stay busy"
+      ],
+      "at": [
+        1.328,
+        18.732,
+        23.561,
+        29.926
+      ],
+      "exampleAt": 4.666
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Hourly Plan vs Actual",
+      "example": "TAKT 30 s → 120 planned an hour. Made 108 = 90%, a gap of 12.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "90%: a gap of 12. Record why.",
+        "unit": "good cameras in one hour, TAKT 30 s",
+        "items": [
+          {
+            "label": "Planned",
+            "value": 120,
+            "with": "example"
+          },
+          {
+            "label": "Made",
+            "value": 108,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Planned = net seconds ÷ TAKT",
+        "Compare actual with plan",
+        "Record why: downtime, rejects, material",
+        "Don't blame operator speed"
+      ],
+      "at": [
+        5.057,
+        16.657,
+        23.035,
+        28.915
+      ],
+      "exampleAt": 10.803
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Camera Plant",
+      "example": "2 testers = 400 attempts/hour on paper → ≈ 353 good with real uptime and yield. Target: 360.",
+      "visual": {
+        "type": "stat",
+        "value": 10,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "TAKT for 7,200 good cameras a day",
+        "unit": "1,200 net minutes ÷ 7,200 cameras",
+        "with": 1,
+        "then": {
+          "type": "bars",
+          "label": "Target",
+          "value": 360,
+          "unit": "good cameras an hour, two testers",
+          "with": 3,
+          "items": [
+            {
+              "label": "On paper",
+              "value": 400,
+              "with": 3
+            },
+            {
+              "label": "Real",
+              "value": 353,
+              "tone": "bad",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "7,200 good cameras a day, 1,200 net min",
+        "TAKT = 10 seconds",
+        "Test takes 18 s — the constraint",
+        "Two testers ≈ 353 good/hour vs 360"
+      ],
+      "at": [
+        1.16,
+        12.743,
+        19.032,
+        22.432
+      ],
+      "exampleAt": 26.909
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Common Mistakes",
+      "example": "Rohan improved tester uptime and trimmed the test cycle before buying a third tester.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Approved demand + net time",
+            "icon": "check",
+            "tone": "good"
+          },
+          {
+            "label": "Update when things change",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Not cycle time",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Never skip tests or breaks",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "DO use approved demand & net time",
+        "DO update TAKT when things change",
+        "DON'T confuse it with cycle time",
+        "DON'T skip tests, steps or breaks"
+      ],
+      "at": [
+        11.921,
+        16.066,
+        20.393,
+        26.176
+      ],
+      "exampleAt": 1.34
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Roadmap",
+      "example": "Reliable good output at the customer's pace — not keeping every station busy.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Demand, net time, cycle times",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Yamazumi, hourly boards",
+            "sub": "31–60",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Verify output and yield, scale",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–30: demand, net time, cycle times",
+        "Days 31–60: Yamazumi, hourly boards",
+        "Days 61–90: verify output & yield, scale",
+        "Aim: reliable good output"
+      ],
+      "at": [
+        5.49,
+        14.344,
+        22.85,
+        29.936
+      ],
+      "exampleAt": 31.534
+    }
+  ]
+}

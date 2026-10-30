@@ -1,0 +1,780 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Uniform Production Means",
+      "example": "Kavya's plant builds phones, boxes and audio devices — in small, repeating sequences, not all phones first.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "All phones first",
+            "sub": "Then boxes, then audio",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Small repeating sequences",
+            "sub": "Matched to real demand",
+            "icon": "sequence",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Leveling — Heijunka",
+        "Smooth volume and mix",
+        "A steady release pattern",
+        "Match real demand, not equal amounts"
+      ],
+      "at": [
+        2.583,
+        8.751,
+        15.608,
+        23.748
+      ],
+      "exampleAt": 32.06
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why Leveling Matters",
+      "example": "A big phone order landed on Monday. Kavya spread it across the week, as the delivery date allowed.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Demand is uneven",
+            "icon": "wave"
+          },
+          {
+            "label": "Chasing spikes",
+            "sub": "Overtime, stock",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Level the releases",
+            "icon": "sequence"
+          },
+          {
+            "label": "Some buffer",
+            "icon": "box"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Build it all Monday",
+              "sub": "Overtime, rushed test",
+              "icon": "stack"
+            },
+            {
+              "label": "Spread across the week",
+              "sub": "Due date allowed it",
+              "icon": "calendar"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Demand never arrives evenly",
+        "Chasing spikes: overtime, stock, shaky quality",
+        "Leveling smooths within a planning window",
+        "You still need some buffer"
+      ],
+      "at": [
+        1.052,
+        4.401,
+        14.118,
+        22.259
+      ],
+      "exampleAt": 24.843
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Mura, Muri & Muda",
+      "example": "Tester handles ~1,000 good units a day; assembly released 1,600 in one day — a queue piled up at test.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Uneven releases make peaks",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Muri",
+            "sub": "Peaks overload people, machines",
+            "icon": "weight",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muda",
+            "sub": "Defects, waiting, inventory",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "A queue piles up at test",
+          "unit": "units in one day",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tester can do",
+              "value": 1000,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Released",
+              "value": 1600,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mura: unevenness",
+        "Muri: overburden",
+        "Muda: waste"
+      ],
+      "at": [
+        3.314,
+        5.29,
+        7.577
+      ],
+      "exampleAt": 23.248
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Volume Leveling",
+      "example": "12,000 units of net need over 5 days = a steady 2,400 good units a day.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "A sensible horizon",
+            "icon": "calendar"
+          },
+          {
+            "label": "Net demand",
+            "icon": "count"
+          },
+          {
+            "label": "÷ production days",
+            "icon": "sequence"
+          },
+          {
+            "label": "Check it can hold",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2400,
+          "icon": "chartUp",
+          "label": "good units a day, every day",
+          "unit": "12,000 units of net need ÷ 5 days",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Spread output across a horizon",
+        "Net demand = demand + end stock − stock",
+        "Divide by production days",
+        "Check materials, yield, uptime, staff"
+      ],
+      "at": [
+        3.152,
+        8.645,
+        19.74,
+        37.723
+      ],
+      "exampleAt": 23.779
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Mix Leveling",
+      "example": "3,000 phones, 2,000 boxes, 1,000 audio → 3 : 2 : 1 → Phone–Box–Phone–Audio–Box–Phone.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Phone",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Box",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Phone",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Audio",
+            "sub": "A",
+            "with": "example"
+          },
+          {
+            "label": "Box",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Phone",
+            "sub": "P",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Small repeating patterns that follow demand",
+        "Ratio from demand",
+        "Check changeovers, fixtures, parts"
+      ],
+      "at": [
+        3.288,
+        18.446,
+        34.579
+      ],
+      "exampleAt": 11.812
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "TAKT Time & Pitch",
+      "example": "A unit every 4.2 seconds → a 100-unit pitch of 7 minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "The customer's pace",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Net time ÷ good units",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Pitch",
+            "sub": "Time to release one batch",
+            "icon": "box",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "One unit every 4.2 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "× a 100-unit batch",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "= a 7-minute pitch",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: the pace the customer demands",
+        "Net time ÷ good units required",
+        "Pitch: time to release one batch",
+        "Average TAKT ≠ every model keeps up"
+      ],
+      "at": [
+        3.69,
+        7.299,
+        18.218,
+        33.652
+      ],
+      "exampleAt": 23.526
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "The Leveling Box",
+      "example": "Every 30 minutes Kavya's board releases the next lot; kits are prepared in that order.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Leveling box · shared line",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "08:00  Phone · Box · Phone",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "08:30  Audio · Box · Phone",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "09:00  Next lot: kits ready",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Missed slot? Visible at once",
+            "icon": "warning",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A visual schedule",
+        "Time slots across, products down",
+        "Cards: what to release, how many",
+        "Misses and shortages visible"
+      ],
+      "at": [
+        3.087,
+        5.552,
+        11.204,
+        25.737
+      ],
+      "exampleAt": 16.151
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "EPEI & Changeover",
+      "example": "6 daily changeovers: 20 → 8 minutes = 72 minutes back every day.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "More changeovers",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "EPEI",
+            "sub": "Every part every interval",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "SMED",
+            "sub": "Setup outside stopped time",
+            "icon": "wrench",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 20
+          },
+          "after": {
+            "label": "After SMED",
+            "value": 8
+          },
+          "suffix": " min",
+          "unit": "per changeover, six a day",
+          "note": "72 minutes back every day",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Small patterns = more changeovers",
+        "EPEI: every part every interval",
+        "SMED: setup outside stopped time"
+      ],
+      "at": [
+        1.202,
+        3.931,
+        23.739
+      ],
+      "exampleAt": 31.762
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Bottlenecks & Mixed Models",
+      "example": "40% of units need a 12-second test = 240 tests/hour vs one tester's ~300 before losses. Tight.",
+      "visual": {
+        "type": "bars",
+        "label": "One tester",
+        "value": 300,
+        "note": "tight, before any losses",
+        "unit": "tests an hour (40% of units need a 12 s test)",
+        "items": [
+          {
+            "label": "Tests needed",
+            "value": 240,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Leveling can't beat a capacity limit",
+        "Load stations from the actual mix",
+        "Don't block the slowest model"
+      ],
+      "at": [
+        3.758,
+        7.668,
+        30.562
+      ],
+      "exampleAt": 15.989
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Kanban & WIP Control",
+      "example": "A set-top box kit was short — the team logged it and followed the approved reschedule rule.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kanban signals",
+            "icon": "label"
+          },
+          {
+            "label": "FIFO lanes",
+            "icon": "sequence"
+          },
+          {
+            "label": "WIP limits",
+            "icon": "stack"
+          },
+          {
+            "label": "Kitting to the pitch",
+            "icon": "tray"
+          }
+        ]
+      },
+      "bullets": [
+        "Kanban: what to replenish, when",
+        "Standard containers, first-in, first-out lanes",
+        "WIP limits stop overproduction",
+        "Kitting matched to pitch and mix"
+      ],
+      "at": [
+        5.137,
+        10.347,
+        16.844,
+        21.449
+      ],
+      "exampleAt": 25.18
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Handling Demand Changes",
+      "example": "500 audio devices wanted early: Kavya checked due dates, stock, parts and test capacity first.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "A frozen window",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Floor rescheduling",
+            "sub": "Causes chaos",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Who approves",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "500 audio wanted early",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Check dates, stock, parts, test",
+              "icon": "search",
+              "with": "example"
+            },
+            {
+              "label": "Then change the next slots",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "A frozen near-term window",
+        "Floor rescheduling causes chaos",
+        "Decide who approves changes"
+      ],
+      "at": [
+        3.68,
+        11.731,
+        15.62
+      ],
+      "exampleAt": 20.049
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Leveling KPIs",
+      "example": "95% of scheduled units done. 4,800 units of WIP = 2 days of output.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Output + stability",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Schedule adherence",
+            "icon": "check"
+          },
+          {
+            "label": "WIP days",
+            "icon": "clock"
+          },
+          {
+            "label": "FPY, downtime, overtime",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 95,
+          "suffix": "%",
+          "icon": "check",
+          "label": "of scheduled units completed",
+          "unit": "4,800 units of WIP = 2 days of output",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Track output and stability together",
+        "Schedule adherence",
+        "WIP days",
+        "Plus FPY, downtime, overtime"
+      ],
+      "at": [
+        4.189,
+        7.851,
+        19.025,
+        28.252
+      ],
+      "exampleAt": 13.707
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Shared Line",
+      "example": "One pattern about every four minutes in theory — but her setups were too slow for that pace.",
+      "visual": {
+        "type": "stat",
+        "value": 4.2,
+        "decimals": 1,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "average TAKT, mix 3 : 2 : 1",
+        "unit": "phones : set-top boxes : audio",
+        "with": 0,
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "One pattern about every 4 minutes",
+          "unit": "units in a 60-unit pattern",
+          "with": 1,
+          "items": [
+            {
+              "label": "Phones",
+              "value": 30,
+              "with": 1
+            },
+            {
+              "label": "Boxes",
+              "value": 20,
+              "with": 1
+            },
+            {
+              "label": "Audio",
+              "value": 10,
+              "with": 1
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mix 3 : 2 : 1, TAKT 4.2 s",
+        "60-unit pattern: 30 · 20 · 10",
+        "Check routing, tooling, test limits",
+        "Faster changeovers, no shortcuts"
+      ],
+      "at": [
+        5.017,
+        11.217,
+        24.058,
+        36.99
+      ],
+      "exampleAt": 19.719
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Common Mistakes",
+      "example": "Firmware testers down while the board called for boxes: more WIP only moves the bottleneck. Escalate.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gross time",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Equal quantities",
+            "icon": "scale",
+            "tone": "bad"
+          },
+          {
+            "label": "Over-planning",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Skipping first-off",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Leveling on gross time",
+        "Equal quantities for an unequal mix",
+        "More output than the line can make",
+        "Skipping first-off checks to catch up"
+      ],
+      "at": [
+        8.541,
+        14.244,
+        19.486,
+        40.881
+      ],
+      "exampleAt": 23.879
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Roadmap",
+      "example": "Planning sets releases, Production builds, Engineering checks capacity, Quality protects controls, Materials keeps kits ready.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Demand, mix, TAKT, setups",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Pilot board, kitting, changeovers",
+            "sub": "31–60",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Verify, standardize, expand",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Planning",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Production",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Engineering",
+              "icon": "gear",
+              "with": "example"
+            },
+            {
+              "label": "Quality",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Materials",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "One family, one horizon",
+        "Days 1–30: demand, mix, TAKT, setups",
+        "Days 31–60: pilot board, kitting, changeovers",
+        "Days 61–90: verify, standardize, expand"
+      ],
+      "at": [
+        1.059,
+        6.304,
+        14.441,
+        21.164
+      ],
+      "exampleAt": 31.656
+    }
+  ]
+}

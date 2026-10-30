@@ -1,0 +1,760 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What QRQC Is",
+      "example": "Line 4: QRQC starts by isolating the work order — not by resetting the tester.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detect, make it visible",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Contain: protect the customer",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Cause with facts, prove the fix",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Reset the tester",
+              "sub": "and run on",
+              "icon": "power"
+            },
+            {
+              "label": "Isolate the work order",
+              "sub": "QRQC starts here",
+              "icon": "lock"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Detect it and make it visible",
+        "Contain it to protect the customer",
+        "Find the cause with facts, prove the fix",
+        "Speed never replaces evidence"
+      ],
+      "at": [
+        11.945,
+        15.114,
+        19.017,
+        23.606
+      ],
+      "exampleAt": 27.676
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Core Principles",
+      "example": "Farhan's huddle starts with the failed camera on the table, next to its records.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Real place, real parts",
+            "icon": "walk"
+          },
+          {
+            "label": "Facts, never blame",
+            "icon": "search"
+          },
+          {
+            "label": "React at once",
+            "icon": "warning"
+          },
+          {
+            "label": "Containment is not the fix",
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "Real place, real parts",
+        "Verified facts, never blame",
+        "React at once to customer or safety risk",
+        "Containment ≠ permanent fix"
+      ],
+      "at": [
+        7.886,
+        12.079,
+        16.845,
+        20.844
+      ],
+      "exampleAt": 26.798
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Three Escalation Levels",
+      "example": "Your site sets the escalation timings, based on risk.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Level 1: line or shift",
+            "sub": "Stop, segregate, log",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Level 2: cross-functional team",
+            "sub": "Investigate and act",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Level 3: plant leaders",
+            "sub": "Resources, the customer",
+            "icon": "shield",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Level 1: line or shift reacts",
+        "Level 2: cross-functional team",
+        "Level 3: plant leaders, customer",
+        "Escalate at once: safety, repeat escape"
+      ],
+      "at": [
+        4.907,
+        12.871,
+        18.289,
+        24.968
+      ],
+      "exampleAt": 29.577
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "The First 30 Minutes",
+      "example": "Never restart a critical process on a verbal okay.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Detect, find station and lot, isolate",
+            "sub": "0–5",
+            "span": 5,
+            "icon": "sensor"
+          },
+          {
+            "label": "Tell the lead and Quality, keep samples",
+            "sub": "Next",
+            "span": 8,
+            "icon": "person"
+          },
+          {
+            "label": "Find the last known good point",
+            "sub": "Then",
+            "span": 7,
+            "icon": "search"
+          },
+          {
+            "label": "Quarantine, record, assign",
+            "sub": "By 30",
+            "span": 10,
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "0–5 min: detect, find station & lot, isolate",
+        "Then: tell lead & Quality, keep samples",
+        "Then: find the last known good point",
+        "By 30 min: quarantine, record, assign"
+      ],
+      "at": [
+        4.212,
+        12.455,
+        19.269,
+        22.827
+      ],
+      "exampleAt": 30.072
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "5W2H: Define the Problem",
+      "example": "Line 4: 18 of 600 cameras failed focus between 10:00 and noon, right after a lens fixture changeover.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "What, where, when, who",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "How detected, how many",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Rejects vs suspects",
+            "icon": "stack",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 18,
+          "suffix": " of 600",
+          "icon": "camera",
+          "label": "cameras failed focus",
+          "unit": "10:00 to noon, right after a lens fixture changeover",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "What, where, when, who",
+        "How detected, how many",
+        "Confirmed rejects vs suspect population"
+      ],
+      "at": [
+        5.59,
+        10.64,
+        14.96
+      ],
+      "exampleAt": 21.986
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Containment & Reconciliation",
+      "example": "2,000 suspect cameras: screened good + failed + waiting must add up exactly. No unit may disappear.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Find the scope",
+            "icon": "search"
+          },
+          {
+            "label": "Hold it",
+            "icon": "lock"
+          },
+          {
+            "label": "Screen by risk",
+            "icon": "test"
+          },
+          {
+            "label": "Reconcile",
+            "icon": "count"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2,000 suspect cameras",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Good + failed + waiting",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "= 2,000: none missing",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Find the suspect scope",
+        "Hold it: physically and in the system",
+        "Screen based on risk",
+        "Reconcile every unit"
+      ],
+      "at": [
+        4.648,
+        9.76,
+        14.19,
+        16.479
+      ],
+      "exampleAt": 19.537
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "The QRQC Board & Huddle",
+      "example": "Farhan's 15-minute huddle: new problems, then containment, then actions and escalations.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Open",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Verifying",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Proven",
+            "sub": "Only then: green",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "New problems",
+              "icon": "warning",
+              "with": "example"
+            },
+            {
+              "label": "Containment",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Actions, escalations",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Risk, containment, cause, action, owner, date",
+        "Red open · amber verifying · green proven",
+        "Bring real samples and trend charts",
+        "Nothing 'done' without proof"
+      ],
+      "at": [
+        4.859,
+        11.487,
+        30.043,
+        33.348
+      ],
+      "exampleAt": 18.373
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Root Cause with Evidence",
+      "example": "A fishbone alone isn't enough: each competing idea has to be tested.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "People",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Method",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Measurement",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Environment",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Five whys = a hypothesis, not proof",
+        "Reproduce the failure safely",
+        "Brainstorm across the 6M",
+        "Happened · escaped · system allowed"
+      ],
+      "at": [
+        4.475,
+        8.948,
+        12.106,
+        22.645
+      ],
+      "exampleAt": 19.825
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Corrective Action & Change Control",
+      "example": "A verbal 'check the fixture' became a scan: each fixture linked to its approved recipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Happened + escaped",
+            "icon": "search"
+          },
+          {
+            "label": "Engineered controls",
+            "icon": "key"
+          },
+          {
+            "label": "Cycle time, safety",
+            "icon": "clock"
+          },
+          {
+            "label": "FMEA, SOP, training",
+            "icon": "clipboard"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Check the fixture”",
+              "sub": "A verbal reminder",
+              "icon": "person"
+            },
+            {
+              "label": "Fixture scan",
+              "sub": "Linked to its approved recipe",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Fix how it happened and how it escaped",
+        "Engineered controls over reminders",
+        "Check cycle time, safety, false rejects",
+        "Update FMEA, SOP, training"
+      ],
+      "at": [
+        3.877,
+        7.941,
+        15.693,
+        20.529
+      ],
+      "exampleAt": 24.891
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Closure Criteria",
+      "example": "Farhan's rule: ten production days with no repeat before the board turns green.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Installed is not proven",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Challenge it",
+            "icon": "test"
+          },
+          {
+            "label": "Across shifts, models",
+            "icon": "sequence"
+          },
+          {
+            "label": "Every unit decided",
+            "icon": "check"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 10,
+          "suffix": " days",
+          "icon": "calendar",
+          "label": "of production with no repeat",
+          "unit": "before the board turns green",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Installed ≠ proven",
+        "Challenge: good, bad, borderline parts",
+        "Across shifts, models, changeovers",
+        "Every suspect unit decided, then sign-off"
+      ],
+      "at": [
+        3.263,
+        8.072,
+        13.532,
+        21.822
+      ],
+      "exampleAt": 29.204
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "QRQC KPIs",
+      "example": "95% of suspect units found = not done: 5% are still out there.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Response time",
+            "icon": "clock"
+          },
+          {
+            "label": "Containment coverage",
+            "icon": "count"
+          },
+          {
+            "label": "Yield, defect rate",
+            "icon": "chartUp"
+          },
+          {
+            "label": "On-time closure",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "suffix": "%",
+          "icon": "warning",
+          "label": "of suspect units still out there",
+          "unit": "Finding 95% is not done",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Response time: detection → containment",
+        "Containment coverage %",
+        "First pass yield and defect rate",
+        "On-time action closure"
+      ],
+      "at": [
+        4.559,
+        10.565,
+        16.712,
+        20.882
+      ],
+      "exampleAt": 26.505
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Case Study: Focus Failure",
+      "example": "The wrong spacer reproduced the failure on controlled samples. Only then was it called the cause.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "24 of 800 fail focus",
+            "sub": "Normal: under 0.5%",
+            "icon": "camera",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hold since the last good setup",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Compare fixture, recipe, trend",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Wrong spacer reproduced it",
+            "sub": "Only then: the cause",
+            "icon": "test",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "24 of 800 fail focus vs < 0.5% normal",
+        "Hold work order + output since last good setup",
+        "Compare fixture, recipe, focus trend",
+        "Test the spacer hypothesis"
+      ],
+      "at": [
+        3.265,
+        13.84,
+        19.859,
+        25.547
+      ],
+      "exampleAt": 29.472
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Label Mismatch",
+      "example": "Root cause: the MES match was switched off during a printer fault, and nobody logged it.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Carton label ≠ device",
+            "icon": "label",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hold the pallet, match serials",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "MES match switched off",
+            "sub": "During a printer fault, not logged",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Forced serial-to-SKU match",
+            "sub": "Every bypass logged",
+            "icon": "barcode",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Carton label ≠ device inside",
+        "Hold the pallet, match every serial",
+        "Trace scans and printer jobs",
+        "Force serial-to-SKU match, log bypasses"
+      ],
+      "at": [
+        4.078,
+        16.446,
+        22.334,
+        33.24
+      ],
+      "exampleAt": 26.411
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "90-Day Deployment",
+      "example": "Roll out QRQC like an operating system, not a standalone form.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Triggers, levels, board",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Train leaders, run huddles",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Audit, link to FMEA, expand",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Pilot one high-risk area first",
+        "Days 1–30: triggers, levels, board",
+        "Days 31–60: train leaders, run huddles",
+        "Days 61–90: audit, link to FMEA, expand"
+      ],
+      "at": [
+        7.011,
+        13.393,
+        18.899,
+        24.354
+      ],
+      "exampleAt": 1.594
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "The Issue Record & Roles",
+      "example": "The test: could someone rebuild the whole event from your record alone?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Plant head",
+            "sub": "Sponsors",
+            "icon": "person"
+          },
+          {
+            "label": "Quality",
+            "sub": "The method",
+            "icon": "shield"
+          },
+          {
+            "label": "Production",
+            "sub": "The reaction",
+            "icon": "wrench"
+          },
+          {
+            "label": "Engineering",
+            "sub": "The fixes",
+            "icon": "gear"
+          },
+          {
+            "label": "One record",
+            "sub": "Every issue",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Plant head sponsors",
+        "Quality owns the method",
+        "Production owns the reaction",
+        "Engineering owns the technical fixes",
+        "One record for every issue"
+      ],
+      "at": [
+        1.056,
+        3.611,
+        6.046,
+        9.247,
+        12.969
+      ],
+      "exampleAt": 30.355
+    }
+  ]
+}

@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "remotion studio",
     "render": "remotion render",
-    "upgrade": "remotion upgrade"
+    "check": "tsc --noEmit -p . && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check.ts && python narration/lint_scripts.py",
+    "srt": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/srt.ts",
+    "upgrade": "remotion upgrade",
+    "lint:scripts": "python narration/lint_scripts.py",
+    "youtube": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/youtube.ts"
   },
   "dependencies": {
     "@remotion/cli": "4.0.380",

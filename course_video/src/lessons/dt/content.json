@@ -1,0 +1,685 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Design Thinking Is",
+      "example": "Pooja's packing station: infusion pumps, labels, and packers nobody had asked.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Empathize",
+            "with": 1
+          },
+          {
+            "label": "Define",
+            "with": 1
+          },
+          {
+            "label": "Ideate",
+            "with": 1
+          },
+          {
+            "label": "Prototype",
+            "with": 2
+          },
+          {
+            "label": "Test",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Start with the people in the process",
+        "Empathize, define, ideate",
+        "Prototype and test, then repeat"
+      ],
+      "at": [
+        4.909,
+        13.611,
+        21.934
+      ],
+      "exampleAt": 28.148
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Design Thinking and Lean",
+      "example": "Last year's new packing method lasted two weeks. The packers went back to the old way.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Lean tools stay",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Right problem first",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Owned by the users",
+            "icon": "hand",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Imposed method",
+              "sub": "Gone in two weeks",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Co-designed method",
+              "sub": "People keep it",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "It doesn't replace Lean tools",
+        "It finds the right problem first",
+        "People adopt what they help design"
+      ],
+      "at": [
+        1.164,
+        5.991,
+        21.008
+      ],
+      "exampleAt": 24.118
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Working Principles",
+      "example": "Pooja's rule: “Show me” before “tell me”.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observe",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Facts first",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Small trials",
+            "icon": "shape",
+            "with": 2
+          },
+          {
+            "label": "Acceptance",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observe without assuming",
+        "Separate facts from opinions",
+        "Prototype small before big changes",
+        "Measure results and acceptance"
+      ],
+      "at": [
+        4.51,
+        8.622,
+        17.574,
+        23.846
+      ],
+      "exampleAt": 29.633
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "What It Prevents",
+      "example": "The faster printer: a big spend, on a problem nobody had checked.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Automating a mess",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Symptom only",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Can't be followed",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Big spend, no test",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Automating a broken process",
+        "Fixing only the visible symptom",
+        "Solutions people can't follow",
+        "Big spending before testing"
+      ],
+      "at": [
+        6.606,
+        11.446,
+        14.526,
+        19.367
+      ],
+      "exampleAt": 24.061
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Five Stages, One Loop",
+      "example": "Pooja's gate: no ideas until she had real observations and a baseline.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Empathize",
+            "with": 0
+          },
+          {
+            "label": "Define",
+            "with": 0
+          },
+          {
+            "label": "Ideate",
+            "with": 0
+          },
+          {
+            "label": "Prototype",
+            "with": 1
+          },
+          {
+            "label": "Test",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": 2,
+          "items": [
+            {
+              "label": "Desirable",
+              "sub": "Users need it",
+              "icon": "person",
+              "with": 2
+            },
+            {
+              "label": "Feasible",
+              "sub": "We can do it",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Viable",
+              "sub": "Worth the cost",
+              "icon": "scale",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Empathize · Define · Ideate",
+        "Prototype · Test",
+        "Desirable, feasible, viable",
+        "Move on with evidence, not meetings"
+      ],
+      "at": [
+        4.937,
+        14.993,
+        20.947,
+        25.303
+      ],
+      "exampleAt": 30.406
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Empathize at the Gemba",
+      "example": "Pooja watched ten cycles on each shift, then spoke with five packers.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observe",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Interview",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Shadow",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Say · think · do · feel",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observe across shifts",
+        "Interview after you observe",
+        "Shadow one role end to end",
+        "Empathy map: say, think, do, feel"
+      ],
+      "at": [
+        3.542,
+        7.576,
+        13.249,
+        18.297
+      ],
+      "exampleAt": 25.02
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "What Pooja Saw",
+      "example": "“I'm not slow. I'm searching.” A packer, on the night shift.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Walk to the rack",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Look-alike labels",
+            "icon": "label",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Wait for the printer",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Walking to fetch labels",
+        "Two look-alike labels side by side",
+        "Waiting for the printer"
+      ],
+      "at": [
+        3.382,
+        8.102,
+        13.664
+      ],
+      "exampleAt": 17.548
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Define the Need",
+      "example": "Packers need the right label at hand, because look-alike labels and walking cause errors. Now: 52 s vs 45 s TAKT, 12 errors per 1,000.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "User: the packers",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Need: the right label at hand",
+            "icon": "label",
+            "with": "example"
+          },
+          {
+            "label": "Insight: look-alikes and walking",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Baseline: 52 s vs 45 s, 12 per 1,000",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "User · need · insight",
+        "No solution inside the statement",
+        "A baseline you can measure"
+      ],
+      "at": [
+        4.699,
+        7.772,
+        20.681
+      ],
+      "exampleAt": 10.456
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Ideate: Go Wide First",
+      "example": "Pooja's team: 23 ideas in 30 minutes, from packers, quality and stores.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Brainwriting",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "How might we…?",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "SCAMPER, 8 wastes",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "key",
+          "label": "ideas in 30 minutes",
+          "unit": "packers, quality and stores",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Brainwrite before you discuss",
+        "Ask “How might we…?”",
+        "SCAMPER and the waste lens"
+      ],
+      "at": [
+        4.561,
+        14.236,
+        18.371
+      ],
+      "exampleAt": 22.904
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Select With a Scorecard",
+      "example": "Label slots + scan check: 4.15. New printer at the station: 4.10.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "New printer",
+            "sub": "Score 4.10 of 5",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Label slots + scan check",
+            "sub": "Score 4.15 of 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Weight each criterion",
+        "Rate each concept, add the scores",
+        "Safety and quality are gates"
+      ],
+      "at": [
+        3.604,
+        10.436,
+        16.072
+      ],
+      "exampleAt": 23.77
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Prototype Small and Cheap",
+      "example": "Cardboard label slots, one per model, taped beside the packer.",
+      "visual": {
+        "type": "ladder",
+        "top": "CHEAPEST",
+        "bottom": "BIGGEST",
+        "items": [
+          {
+            "label": "Paper, cardboard, tape",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "One-station pilot",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Line trial",
+            "icon": "sequence",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1,
+          "suffix": " slot per model",
+          "icon": "label",
+          "label": "cardboard, taped by the packer",
+          "unit": "scanner within reach",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Paper, cardboard or tape first",
+        "One station before the line",
+        "Hours, not months"
+      ],
+      "at": [
+        4.881,
+        9.482,
+        14.037
+      ],
+      "exampleAt": 17.456
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Plan the Test",
+      "example": "Hypothesis: label slots + scan check cut label time below 2 s, with zero errors in 500 pumps.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Hypothesis",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Scope and metrics",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Adopt · adapt · stop",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "A clear hypothesis",
+        "Scope, metrics and comparison",
+        "A decision rule agreed up front"
+      ],
+      "at": [
+        3.735,
+        8.986,
+        13.97
+      ],
+      "exampleAt": 19.35
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "The Results",
+      "example": "18 of 20 packers used the new method: 90% adoption.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 12
+        },
+        "after": {
+          "label": "Trial",
+          "value": 2
+        },
+        "unit": "label errors per 1,000 pumps",
+        "note": "Cycle 52 s → 44 s · 500 → 610 good pumps",
+        "with": 2,
+        "then": {
+          "type": "stat",
+          "value": 90,
+          "suffix": "%",
+          "icon": "person",
+          "label": "adoption",
+          "unit": "18 of 20 packers",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Cycle time: 52 s down to 44 s",
+        "Good pumps per shift: 500 up to 610",
+        "Label errors: 12 down to 2 per 1,000",
+        "Walking: 4 m down to 1.2 m"
+      ],
+      "at": [
+        3.68,
+        10.645,
+        16.597,
+        21.133
+      ],
+      "exampleAt": 24.14
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Adapt Before You Roll Out",
+      "example": "The two packers worked on the left. The slots were on the right. Mirror the layout.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Ask why",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Mirror the layout",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Check the model mix",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Then standardize",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Not 100% adoption? Find out why",
+        "Simplify the hard step, test again",
+        "Check other factors didn't cause it"
+      ],
+      "at": [
+        2.864,
+        14.172,
+        20.753
+      ],
+      "exampleAt": 7.87
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Measure, Standardize, Start",
+      "example": "Pooja's 90-day review: errors held at 2 per 1,000, adoption at 100%.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Standardize, train",
+            "sub": "Day 0",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Review",
+            "sub": "30 · 60",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Errors held at 2",
+            "sub": "90 days",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Outcome, process, adoption, balance",
+        "Standardize, train, review at 30/60/90",
+        "Start tomorrow: 10 cycles, 3 people"
+      ],
+      "at": [
+        0.983,
+        10.271,
+        25.239
+      ],
+      "exampleAt": 17.299
+    }
+  ]
+}

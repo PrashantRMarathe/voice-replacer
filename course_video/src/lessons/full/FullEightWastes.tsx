@@ -10,6 +10,7 @@ import {
   IconTransport, IconInventory, IconMotion, IconProcessing,
 } from "../../components/icons";
 import { Scene } from "../../scenes/Scene";
+import { BrandMark } from "../../components/BrandMark";
 import { theme, fps as FPS } from "../../theme";
 import timings from "./timings.json";
 import content from "./content.json";
@@ -200,41 +201,47 @@ const OutroScene: React.FC = () => (
 // ---------- Assemble ----------
 const audio = (f: string) => staticFile(`audio/full/${f}.mp3`);
 
-type Block = { key: string; pad: number; node: React.ReactNode };
+// Scene order + hold per scene. The duration below is derived from this same
+// list, so the composition length always matches what renders.
+const ORDER: { key: string; pad: number }[] = [
+  { key: "intro", pad: PAD },
+  { key: "value", pad: PAD },
+  { key: "mmm", pad: PAD },
+  ...WASTES.map((w) => ({ key: `waste_${w.l}`, pad: DEEP_PAD })),
+  { key: "summary", pad: PAD },
+  { key: "outro", pad: PAD },
+];
 
 export const FullEightWastes: React.FC = () => {
-  const blocks: Block[] = [
-    { key: "intro", pad: PAD, node: <IntroScene /> },
-    { key: "value", pad: PAD, node: <ValueScene /> },
-    { key: "mmm", pad: PAD, node: <MMMScene /> },
-    ...WASTES.map((w, i) => ({
-      key: `waste_${w.l}`, pad: DEEP_PAD, node: <DeepDive w={w} n={i + 1} />,
-    })),
-    { key: "summary", pad: PAD, node: <SummaryScene /> },
-    { key: "outro", pad: PAD, node: <OutroScene /> },
-  ];
+  const node = (key: string): React.ReactNode => {
+    if (key === "intro") return <IntroScene />;
+    if (key === "value") return <ValueScene />;
+    if (key === "mmm") return <MMMScene />;
+    if (key === "summary") return <SummaryScene />;
+    if (key === "outro") return <OutroScene />;
+    const i = WASTES.findIndex((w) => `waste_${w.l}` === key);
+    return <DeepDive w={WASTES[i]} n={i + 1} />;
+  };
 
   let from = 0;
   return (
     <AbsoluteFill style={{ background: theme.colors.bg }}>
       <Background />
-      <Audio src={staticFile("audio/music.mp3")} volume={0.14} loop />
-      {blocks.map((b) => {
+      {/* VOICE-ONLY: narration is the only audio (no music, no SFX). */}
+      {ORDER.map((b) => {
         const dur = frames(sec(b.key) + b.pad);
         const el = (
           <Sequence key={b.key} from={from} durationInFrames={dur}>
-            {b.node}
+            {node(b.key)}
             <Audio src={audio(b.key)} />
           </Sequence>
         );
         from += dur;
         return el;
       })}
+      <BrandMark />
     </AbsoluteFill>
   );
 };
 
-export const FULL_DURATION = Math.ceil(
-  (Object.values(timings as Record<string, number>).reduce((a, b) => a + b, 0)
-    + 3 * PAD + 8 * DEEP_PAD + 2 * PAD) * FPS
-);
+export const FULL_DURATION = ORDER.reduce((acc, b) => acc + frames(sec(b.key) + b.pad), 0);

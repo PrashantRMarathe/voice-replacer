@@ -47,7 +47,7 @@ const WaitingAct: React.FC = () => {
         <div style={{ display: "flex", alignItems: "flex-end", gap: 80, marginTop: 40, height: 460 }}>
           {/* the idle worker, arms crossed, tired, bobbing */}
           <div style={{ position: "relative" }}>
-            <Worker size={360} delay={10} pose="CrossedArmsWB" face="Tired" />
+            <Worker size={360} delay={10} pose="crossed" expr="tired" />
             <div style={{
               position: "absolute", top: -10, right: -30,
               transform: `scale(${tag})`, opacity: tag,
@@ -81,7 +81,7 @@ const WaitingAct: React.FC = () => {
         </div>
         {/* guide reacts in the corner */}
         <div style={{ position: "absolute", right: 40, bottom: 20 }}>
-          <Guide size={230} delay={30} fromX={160} face="Concerned" />
+          <Guide size={230} delay={30} fromX={160} expr="concerned" />
         </div>
       </div>
     </Scene>

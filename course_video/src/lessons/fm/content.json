@@ -1,0 +1,606 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What FMEA Is",
+      "example": "Asha's target: the housing gasket on an outdoor 5G small cell.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "How could it fail?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "What's the effect?",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Act first",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "How could it fail, and why?",
+        "What would the effect be?",
+        "Act before it reaches the customer"
+      ],
+      "at": [
+        6.62,
+        12.198,
+        19.184
+      ],
+      "exampleAt": 26.647
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "The Key Words",
+      "example": "Mode: gasket twisted. Effect: water inside. Cause: no seating check.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Failure mode",
+            "sub": "How it fails",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Effect",
+            "sub": "What it causes",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Cause",
+            "sub": "Why it happens",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Control, action",
+            "sub": "What stops it",
+            "icon": "shield",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Failure mode: how it fails",
+        "Effect: what the customer suffers",
+        "Cause: why it could happen",
+        "Control and action"
+      ],
+      "at": [
+        3.336,
+        7.241,
+        12.664,
+        15.78
+      ],
+      "exampleAt": 22.685
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Types of FMEA",
+      "example": "Asha's scope: from gasket pick-up to the sealed, tested housing.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "System",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Design",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Process",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Boundaries",
+            "icon": "pin",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "System and design FMEA",
+        "Process FMEA: manufacturing steps",
+        "Clear start and end boundaries"
+      ],
+      "at": [
+        3.654,
+        13.6,
+        22.006
+      ],
+      "exampleAt": 26.518
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "When to Start or Update",
+      "example": "Asha updated hers the day the six wet radios came back.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "New product or process",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Any change",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Complaint or escape",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "New product or process",
+        "Any change: material, tool, layout",
+        "After a complaint or escape"
+      ],
+      "at": [
+        1.944,
+        5.456,
+        15.823
+      ],
+      "exampleAt": 27.964
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "The Team and the Inputs",
+      "example": "At the gemba, Asha saw two gasket sizes sharing one bin.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cross-functional",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Operators",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Data and flow",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Gemba first",
+            "icon": "walk",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A cross-functional team",
+        "Experienced operators",
+        "Flow chart, data, work instructions",
+        "Visit the gemba before scoring"
+      ],
+      "at": [
+        1.149,
+        8.419,
+        11.262,
+        20.384
+      ],
+      "exampleAt": 29.658
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "The Seven Steps",
+      "example": "Asha's team: one requirement and one failure chain at a time.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Plan",
+            "with": 0
+          },
+          {
+            "label": "Structure",
+            "with": 0
+          },
+          {
+            "label": "Function",
+            "with": 0
+          },
+          {
+            "label": "Failure",
+            "with": 1
+          },
+          {
+            "label": "Risk",
+            "with": 2
+          },
+          {
+            "label": "Optimize",
+            "with": 3
+          },
+          {
+            "label": "Document",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan, structure, function",
+        "Failure analysis",
+        "Risk analysis",
+        "Optimize and document"
+      ],
+      "at": [
+        4.127,
+        10.656,
+        12.371,
+        14.929
+      ],
+      "exampleAt": 21.985
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Write Clear Functions",
+      "example": "Weak: “Fit gasket.” Strong: “Place the correct gasket fully in the groove, with no twist or damage.”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "“Fit gasket”",
+            "sub": "Vague",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "“Correct gasket, fully seated, no twist”",
+            "sub": "Measurable",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "An action verb plus a requirement",
+        "Measurable, not vague"
+      ],
+      "at": [
+        2.56,
+        7.029
+      ],
+      "exampleAt": 12.715
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "The Failure Chain",
+      "example": "Cause: two gasket sizes in one bin, and no check that it's seated.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Effect",
+            "sub": "Water ingress",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Failure mode",
+            "sub": "Missing or twisted",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Cause",
+            "sub": "Mixed bin, no seating check",
+            "icon": "search",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Effect: water ingress, field failure",
+        "Mode: gasket missing or twisted",
+        "Cause: something you can control"
+      ],
+      "at": [
+        3.063,
+        8.401,
+        14.42
+      ],
+      "exampleAt": 21.381
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Severity, Occurrence, Detection",
+      "example": "Gasket risk: Severity 8, Occurrence 5, Detection 6.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Severity · Occurrence · Detection, 1 to 10",
+        "with": "example",
+        "items": [
+          {
+            "label": "Sev.",
+            "value": 8,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Occ.",
+            "value": 5,
+            "with": "example"
+          },
+          {
+            "label": "Det.",
+            "value": 6,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Severity: how bad the effect is",
+        "Occurrence: how often the cause happens",
+        "Detection: how likely we catch it",
+        "Every score needs evidence"
+      ],
+      "at": [
+        5.261,
+        9.524,
+        14.883,
+        24.227
+      ],
+      "exampleAt": 27.786
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Risk Priority Number",
+      "example": "Gasket RPN: 240, the highest on Asha's sheet.",
+      "visual": {
+        "type": "stat",
+        "value": 240,
+        "icon": "warning",
+        "label": "RPN for the gasket",
+        "unit": "8 × 5 × 6",
+        "with": 1
+      },
+      "bullets": [
+        "RPN = Severity × Occurrence × Detection",
+        "8 × 5 × 6 = 240",
+        "A guide, not a verdict"
+      ],
+      "at": [
+        1.234,
+        10.832,
+        16.878
+      ],
+      "exampleAt": 13.46
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Severity Comes First",
+      "example": "A safety risk with RPN 90 can matter more than a cosmetic one at 200.",
+      "visual": {
+        "type": "ladder",
+        "top": "HIGH",
+        "bottom": "LOW",
+        "items": [
+          {
+            "label": "Act, or justify why not",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Review and improve",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Maintain and monitor",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "High severity needs action anyway",
+        "High, medium, low action priority",
+        "Ask: is prevention or detection weak?"
+      ],
+      "at": [
+        3.263,
+        8.864,
+        19.264
+      ],
+      "exampleAt": 24.573
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Prevention vs Detection",
+      "example": "Asha's only control: a final visual check. Detection, and a weak one.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Detection",
+            "sub": "Final visual check",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prevention",
+            "sub": "Stop the cause",
+            "icon": "key",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Prevention: stop the cause happening",
+        "Detection: catch it before release",
+        "Automatic beats human judgement"
+      ],
+      "at": [
+        5.012,
+        11.971,
+        25.263
+      ],
+      "exampleAt": 30.112
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Choose Strong Actions",
+      "example": "Asha's actions: one gasket per keyed tray, a groove fixture, a presence sensor and a leak test.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST",
+        "bottom": "WEAKEST",
+        "items": [
+          {
+            "label": "Eliminate by design",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Prevent: key, lock",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Detect automatically",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Train, checklist",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Eliminate the cause",
+        "Prevent it: lock, key, interlock",
+        "Improve detection",
+        "Training and checklists last"
+      ],
+      "at": [
+        3.964,
+        8.578,
+        16.451,
+        20.467
+      ],
+      "exampleAt": 26.663
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Verify, Then Rescore",
+      "example": "Proof first: the sensor caught every bad sample in a 500-unit trial.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 240
+        },
+        "after": {
+          "label": "After",
+          "value": 32
+        },
+        "unit": "RPN for the gasket",
+        "note": "Occurrence 5 → 2 · Detection 6 → 2",
+        "with": 3
+      },
+      "bullets": [
+        "Prove it under real conditions",
+        "Severity stays 8: same effect",
+        "Occurrence 5 → 2, Detection 6 → 2",
+        "RPN 240 → 32"
+      ],
+      "at": [
+        5.405,
+        16.638,
+        23.16,
+        27.591
+      ],
+      "exampleAt": 9.854
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Keep It Alive",
+      "example": "Asha's team copied the keyed tray to two other outdoor units.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Control plan, SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Weekly risk review",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Copy to similar units",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Update control plan, SOP, training",
+        "Review high risks every week",
+        "Copy lessons to similar products"
+      ],
+      "at": [
+        6.359,
+        12.943,
+        19.829
+      ],
+      "exampleAt": 23.291
+    }
+  ]
+}

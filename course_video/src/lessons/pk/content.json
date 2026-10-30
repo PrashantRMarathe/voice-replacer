@@ -1,0 +1,628 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Poka Yoke Is",
+      "example": "Divya replaced a 'check orientation' sticker with a keyed connector. A sticker warns. A key prevents.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "A sticker warns",
+            "sub": "'Check orientation'",
+            "icon": "sticker",
+            "with": "example"
+          },
+          {
+            "label": "A key prevents",
+            "sub": "Fits only one way",
+            "icon": "key",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Japanese for mistake-proofing",
+        "Don't rely on memory",
+        "Wrong action impossible, or seen instantly"
+      ],
+      "at": [
+        3.088,
+        7.338,
+        11.991
+      ],
+      "exampleAt": 19.26
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Error vs Defect",
+      "example": "End-of-line inspection finds problems after the labour and parts are spent.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 0,
+          "label": "STOP HERE",
+          "with": 3
+        },
+        "items": [
+          {
+            "label": "Error",
+            "sub": "The wrong action",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Defect",
+            "sub": "The bad product",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Found at end of line",
+            "sub": "Labour and parts already spent",
+            "icon": "search",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "From the Toyota Production System",
+        "Error: the wrong action",
+        "Defect: the bad product that follows",
+        "Stop the error before it's a defect"
+      ],
+      "at": [
+        1.384,
+        14.886,
+        20.244,
+        24.329
+      ],
+      "exampleAt": 28.245
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "The Control Hierarchy",
+      "example": "Choose controls by how reliably they stop errors — not by how easy they are to install.",
+      "visual": {
+        "type": "ladder",
+        "items": [
+          {
+            "label": "Eliminate",
+            "icon": "pin"
+          },
+          {
+            "label": "Prevent",
+            "icon": "barcode"
+          },
+          {
+            "label": "Detect and stop",
+            "icon": "sensor"
+          },
+          {
+            "label": "Warn",
+            "icon": "warning"
+          },
+          {
+            "label": "Inspect later",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "1 Eliminate: asymmetric locating pins",
+        "2 Prevent: barcode interlock",
+        "3 Detect and stop: missing-screw sensor",
+        "4 Warn: an alarm",
+        "5 Inspect later — weakest"
+      ],
+      "at": [
+        6.377,
+        12.132,
+        17.058,
+        22.362,
+        25.204
+      ],
+      "exampleAt": 28.547
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Engineering Rules",
+      "example": "Divya pulled the sensor cable during a trial. The fixture stayed locked.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Positive pass",
+            "icon": "check"
+          },
+          {
+            "label": "Fail safe",
+            "icon": "power"
+          },
+          {
+            "label": "Bypass logged",
+            "icon": "lock"
+          },
+          {
+            "label": "Test wrong cases",
+            "icon": "test"
+          }
+        ]
+      },
+      "bullets": [
+        "A positive pass signal, not 'no alarm'",
+        "Fail safe on power or sensor loss",
+        "Bypass: rare, logged, time-limited",
+        "Test it with wrong conditions"
+      ],
+      "at": [
+        3.714,
+        9.675,
+        16.841,
+        22.893
+      ],
+      "exampleAt": 28.699
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Three Methods",
+      "example": "Orientation problem → contact. Missing part → fixed value. Scan, program, test, label in order → motion step.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Contact",
+            "sub": "Shape, size, position",
+            "icon": "shape"
+          },
+          {
+            "label": "Fixed value",
+            "sub": "The right count",
+            "icon": "count"
+          },
+          {
+            "label": "Motion step",
+            "sub": "The right order",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Contact: shape, size, position",
+        "Fixed value: the right count",
+        "Motion step: the right sequence"
+      ],
+      "at": [
+        4.425,
+        14.067,
+        20.212
+      ],
+      "exampleAt": 30.924
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Human Error Is Predictable",
+      "example": "Wrong firmware → similar recipe names → model chosen by hand → MES scan not linked to the programmer.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Similar recipe names",
+            "icon": "sticker",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Model chosen by hand",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Wrong firmware",
+            "icon": "chip",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Fix: link the MES scan",
+            "sub": "to the programmer",
+            "icon": "barcode",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Human errors are predictable",
+        "Skip, wrong part, reversed, out of order",
+        "Ask what made it possible, not who"
+      ],
+      "at": [
+        1.344,
+        6.62,
+        17.995
+      ],
+      "exampleAt": 23.429
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "An 8-Step Design Method",
+      "example": "Agree success before installing: wrong parts rejected, good parts pass, pace still holds.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Define",
+            "with": 0
+          },
+          {
+            "label": "Observe",
+            "with": 0
+          },
+          {
+            "label": "Measure",
+            "with": 0
+          },
+          {
+            "label": "Find the cause",
+            "with": 0
+          },
+          {
+            "label": "Choose an idea",
+            "with": 1
+          },
+          {
+            "label": "Prototype",
+            "with": 2
+          },
+          {
+            "label": "Challenge it",
+            "with": 2
+          },
+          {
+            "label": "Standardise",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define, observe, measure, find the cause",
+        "Choose the simplest robust idea",
+        "Prototype and challenge with bad parts",
+        "Update the SOP, train, monitor"
+      ],
+      "at": [
+        5.597,
+        16.574,
+        19.79,
+        24.71
+      ],
+      "exampleAt": 30.013
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Assembly Applications",
+      "example": "Missing screws: 18 in 10,000 → 1 in 10,000, about 94% fewer.",
+      "visual": {
+        "type": "assembly",
+        "label": "Divya's NVR line: the fixture counts every screw",
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 18
+          },
+          "after": {
+            "label": "After",
+            "value": 1
+          },
+          "unit": "missing screws per 10,000 units",
+          "note": "about 94% fewer"
+        }
+      },
+      "bullets": [
+        "Torque signal linked to the work order",
+        "Fixture releases only when every screw is good",
+        "Keyed connectors, gasket sensor"
+      ],
+      "at": [
+        7.87,
+        13.503,
+        30.832
+      ],
+      "exampleAt": 22.125
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "SMT and Test Applications",
+      "example": "Divya's tester can't print a label without a pass record for that serial.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 2,
+          "label": "NO PASS, NO LABEL",
+          "with": "example"
+        },
+        "items": [
+          {
+            "label": "Reel scanned vs BOM",
+            "icon": "barcode",
+            "with": 0
+          },
+          {
+            "label": "Program version checked",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Pass record per serial",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Label prints",
+            "icon": "label",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Every feeder reel scanned against the BOM",
+        "Program version checked before start",
+        "Serial bound to model, firmware, pass record",
+        "Network drop must never 'pass'"
+      ],
+      "at": [
+        7.445,
+        12.47,
+        18.182,
+        28.505
+      ],
+      "exampleAt": 23.902
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Packing and Dispatch",
+      "example": "A wrong adapter weighed the same as the right one — a shaped kit tray caught it.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Weight check",
+            "sub": "Wrong adapter, same weight",
+            "icon": "scale",
+            "with": "example"
+          },
+          {
+            "label": "Shaped kit tray",
+            "sub": "Wrong adapter can't fit",
+            "icon": "tray",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Serial scan + carton label match",
+        "Accessories counted before closing",
+        "Weight checks have blind spots",
+        "Barcodes can be defeated"
+      ],
+      "at": [
+        5.865,
+        10.535,
+        14.259,
+        28.956
+      ],
+      "exampleAt": 18.577
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Low-Cost & Safe",
+      "example": "Divya's best device cost ₹1,200: two pins that stop the rear panel going on upside down.",
+      "visual": {
+        "type": "stat",
+        "value": 1200,
+        "prefix": "₹",
+        "icon": "pin",
+        "label": "Two locating pins",
+        "unit": "No more rear panels fitted upside down"
+      },
+      "bullets": [
+        "Simple: pins, guides, switches, trays",
+        "Never create a pinch point",
+        "Quality sensors aren't safety systems",
+        "Plan cleaning and calibration"
+      ],
+      "at": [
+        5.139,
+        23.077,
+        26.841,
+        31.581
+      ],
+      "exampleAt": 11.566
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "FMEA, Control Plan & Audits",
+      "example": "Divya feeds every device a known bad sample, every shift.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "FMEA",
+            "sub": "The failure mode",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Control plan",
+            "sub": "Method and reaction",
+            "icon": "shield"
+          },
+          {
+            "label": "Standard work",
+            "sub": "Pass signal, who resets",
+            "icon": "person"
+          },
+          {
+            "label": "Audit",
+            "sub": "A known bad sample",
+            "icon": "test",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA: link to the failure mode",
+        "Control plan: method and reaction",
+        "Standard work: pass signal, who resets",
+        "Audit with a known bad sample"
+      ],
+      "at": [
+        5.165,
+        10.429,
+        15.29,
+        26.461
+      ],
+      "exampleAt": 31.781
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPIs & Savings",
+      "example": "60,000 units/month, defects cut from 0.8% to 0.2% ≈ ₹65,000 saved a month, minus running cost.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 0.8
+        },
+        "after": {
+          "label": "After",
+          "value": 0.2
+        },
+        "suffix": "%",
+        "decimals": 1,
+        "unit": "defect rate, 60,000 units a month",
+        "note": "≈ ₹65,000 saved a month"
+      },
+      "bullets": [
+        "Defect PPM and escapes down",
+        "First pass yield up",
+        "Watch false rejects"
+      ],
+      "at": [
+        5.084,
+        9.994,
+        12.093
+      ],
+      "exampleAt": 20.963
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "90-Day Roadmap",
+      "example": "Test every wrong condition you know during the pilot.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Failure modes + baseline",
+            "sub": "W1–2",
+            "span": 2,
+            "icon": "search"
+          },
+          {
+            "label": "Design options, agree logic",
+            "sub": "W3–4",
+            "span": 2,
+            "icon": "gear"
+          },
+          {
+            "label": "Pilot one station",
+            "sub": "Month 2",
+            "span": 4,
+            "icon": "test"
+          },
+          {
+            "label": "Document, train, copy",
+            "sub": "Month 3",
+            "span": 4,
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Weeks 1–2: top failure modes + baseline",
+        "Weeks 3–4: design options, agree logic",
+        "Month 2: pilot one station",
+        "Month 3: document, train, copy"
+      ],
+      "at": [
+        4.202,
+        13.29,
+        18.408,
+        26.136
+      ],
+      "exampleAt": 22.864
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Release Checklist",
+      "example": "Production owns the station. Engineering designs it. Quality challenge-tests it.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Production",
+            "sub": "Owns the station",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Engineering",
+            "sub": "Designs it",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Quality",
+            "sub": "Challenge-tests it",
+            "icon": "shield",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Failure mode clear, with a baseline",
+        "Safety and ergonomics reviewed",
+        "Bad samples tested on every model",
+        "Power loss, offline, bypass handled"
+      ],
+      "at": [
+        14.099,
+        17.369,
+        20.927,
+        24.52
+      ],
+      "exampleAt": 1.186
+    }
+  ]
+}

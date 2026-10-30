@@ -1,0 +1,580 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Go and See",
+      "example": "Manoj's rule: no decision on shift B until he'd held a failed earbud.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Real place",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Real thing",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Real facts",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Gemba: the real place",
+        "Genbutsu: the real thing",
+        "Genjitsu: the real facts"
+      ],
+      "at": [
+        11.633,
+        16.539,
+        21.02
+      ],
+      "exampleAt": 23.666
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why Reports Aren't Enough",
+      "example": "The dashboard showed shift B's failures. It didn't show why.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Dashboard",
+            "sub": "Shows symptoms",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "The real place",
+            "sub": "Shows causes",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Dashboards show symptoms",
+        "Reports hide the context",
+        "Facts stop the blame"
+      ],
+      "at": [
+        4.552,
+        8.631,
+        20.9
+      ],
+      "exampleAt": 26.674
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "3G in One View",
+      "example": "Line 2 · audio test · left earbud · 22 of 1,100 on shift B",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Where?",
+            "sub": "Line 2, audio test",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "What?",
+            "sub": "Left earbud",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "What occurred?",
+            "sub": "22 of 1,100",
+            "icon": "count",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Where did it happen?",
+        "What exactly was affected?",
+        "What actually occurred?"
+      ],
+      "at": [
+        3.539,
+        9.283,
+        16.195
+      ],
+      "exampleAt": 23.187
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Gemba: The Real Place",
+      "example": "Manoj's question: what's different at audio test on shift B?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Clear question",
+            "with": 0
+          },
+          {
+            "label": "Owner, PPE, ESD",
+            "with": 1
+          },
+          {
+            "label": "Watch full cycles",
+            "with": 2
+          },
+          {
+            "label": "Compare with standard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Have a clear question",
+        "Tell the area owner, wear the PPE",
+        "Watch several full cycles",
+        "Compare with the standard"
+      ],
+      "at": [
+        1.168,
+        5.745,
+        12.199,
+        16.565
+      ],
+      "exampleAt": 27.291
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Gemba Manners",
+      "example": "Manoj stayed through a full shift B hour, and asked: “What makes this job hard?”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Surprise inspection",
+            "sub": "Hunting for blame",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Respectful visit",
+            "sub": "“What makes this hard?”",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Not a surprise inspection",
+        "Listen before suggesting",
+        "Never judge from one cycle"
+      ],
+      "at": [
+        2.227,
+        7.913,
+        14.198
+      ],
+      "exampleAt": 19.777
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Genbutsu: The Real Thing",
+      "example": "Failed left earbuds: dull, grainy solder on the speaker wire. Good ones: bright and smooth.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Failed earbud",
+            "sub": "Dull, grainy joint",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Good earbud",
+            "sub": "Bright, smooth joint",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "The failed unit, the part, the tool",
+        "Record model, lot, time, station",
+        "Compare bad with good"
+      ],
+      "at": [
+        3.373,
+        8.555,
+        18.107
+      ],
+      "exampleAt": 25.197
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Safety Comes First",
+      "example": "Manoj asked the technician to cool and lock out the iron before checking it.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "No bypassed interlocks",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Lockout first",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "ESD protection",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Never bypass an interlock",
+        "Lockout before opening equipment",
+        "ESD handling for electronics"
+      ],
+      "at": [
+        3.783,
+        9.844,
+        14.9
+      ],
+      "exampleAt": 23.631
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Genjitsu: The Real Facts",
+      "example": "Shift B: 22 of 1,100 (2.0%). Shift A: 9 of 1,050 (0.9%).",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Failures per 1,000 earbuds: a signal, not proof",
+        "with": "example",
+        "items": [
+          {
+            "label": "Shift A",
+            "value": 9,
+            "with": "example"
+          },
+          {
+            "label": "Shift B",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Facts, not opinions",
+        "Counts with a denominator",
+        "A signal isn't proof"
+      ],
+      "at": [
+        1.147,
+        12.42,
+        27.086
+      ],
+      "exampleAt": 17.857
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "One Connected Investigation",
+      "example": "Manoj held suspect earbuds from shift B before anything else.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Define and contain",
+            "with": 0
+          },
+          {
+            "label": "Place",
+            "with": 1
+          },
+          {
+            "label": "Thing",
+            "with": 1
+          },
+          {
+            "label": "Facts",
+            "with": 1
+          },
+          {
+            "label": "Test causes",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Define and contain first",
+        "Place, thing, facts, together",
+        "Test causes before fixing"
+      ],
+      "at": [
+        8.14,
+        14.247,
+        20.201
+      ],
+      "exampleAt": 25.872
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "What the Place Showed",
+      "example": "Shift B's iron had a larger tip from the spares crib. Not the standard one.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Shift B tip",
+            "sub": "Larger, from the spares crib",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Standard tip",
+            "sub": "Shift A",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Same people, same method",
+        "A different soldering tip",
+        "Changed on Monday night"
+      ],
+      "at": [
+        4.179,
+        11.85,
+        18.775
+      ],
+      "exampleAt": 21.674
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "What the Facts Showed",
+      "example": "Trial: standard tip 1 failure in 300. Larger tip: 7 in 300.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Controlled trial: failures in 300 earbuds",
+        "with": "example",
+        "items": [
+          {
+            "label": "Standard tip",
+            "value": 1,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Larger tip",
+            "value": 7,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Failures by station and time",
+        "Started right after the tip change",
+        "A controlled trial confirmed it"
+      ],
+      "at": [
+        1.304,
+        6.551,
+        12.428
+      ],
+      "exampleAt": 18.482
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "3G Feeds Root Cause",
+      "example": "Root cause: the spares crib stocked the wrong tip, and the standard didn't name it.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Weak solder joints",
+            "with": 0
+          },
+          {
+            "label": "Larger tip, too little heat",
+            "with": 0
+          },
+          {
+            "label": "Wrong tip in the spares crib",
+            "with": "example"
+          },
+          {
+            "label": "Tip type not on the standard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Every why backed by evidence",
+        "Never end at “operator error”",
+        "Ask what made the error possible"
+      ],
+      "at": [
+        7.948,
+        12.749,
+        17.288
+      ],
+      "exampleAt": 21.698
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fix and Verify",
+      "example": "Failures: 20 per 1,000 down to 5 per 1,000, on both shifts.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 20
+        },
+        "after": {
+          "label": "After",
+          "value": 5
+        },
+        "unit": "failures per 1,000 earbuds",
+        "note": "Both shifts, verified over 5 shifts",
+        "with": "example"
+      },
+      "bullets": [
+        "Correct tip, named on the standard",
+        "Tip check at every shift start",
+        "Verified over five shifts"
+      ],
+      "at": [
+        4.583,
+        10.382,
+        15.471
+      ],
+      "exampleAt": 21.127
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "The 30-Minute Gemba Walk",
+      "example": "Manoj's question at every stop: “What's the standard, and what's actually happening?”",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Safety, gap, purpose",
+            "sub": "0–5",
+            "icon": "shield",
+            "with": 0,
+            "span": 5
+          },
+          {
+            "label": "Observe",
+            "sub": "5–15",
+            "icon": "walk",
+            "with": 1,
+            "span": 10
+          },
+          {
+            "label": "Thing and data",
+            "sub": "15–22",
+            "icon": "search",
+            "with": 1,
+            "span": 7
+          },
+          {
+            "label": "Causes, owner",
+            "sub": "22–30",
+            "icon": "person",
+            "tone": "good",
+            "with": 2,
+            "span": 8
+          }
+        ]
+      },
+      "bullets": [
+        "Purpose and safety first",
+        "Observe, then check the thing and data",
+        "Agree containment and an owner"
+      ],
+      "at": [
+        5.617,
+        10.086,
+        21.713
+      ],
+      "exampleAt": 26.318
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Mistakes to Avoid",
+      "example": "Manoj now spends his first 30 minutes of every shift at the gemba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Dashboard only",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "One sample",
+            "icon": "count",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Closed after training",
+            "icon": "clipboard",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Managing from the dashboard",
+        "Treating one sample as the truth",
+        "Closing after training"
+      ],
+      "at": [
+        4.295,
+        11.655,
+        21.534
+      ],
+      "exampleAt": 26.599
+    }
+  ]
+}

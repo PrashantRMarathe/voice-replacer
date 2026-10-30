@@ -1,0 +1,683 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Waste Really Is",
+      "example": "Deepak's line: 1,500 soundbars reworked every month.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "No customer value",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Not one-off cuts",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Remove the cause",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1500,
+          "icon": "wave",
+          "label": "soundbars reworked every month",
+          "unit": "Deepak's line",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Uses resources, adds no customer value",
+        "Not one-time cost cutting",
+        "Remove the cause, prevent it returning"
+      ],
+      "at": [
+        3.302,
+        13.849,
+        19.59
+      ],
+      "exampleAt": 23.697
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "The Value Test",
+      "example": "Fitting the speaker: value. Re-fitting it after a rattle: pure waste.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Changes the product",
+            "with": 0
+          },
+          {
+            "label": "Customer would pay",
+            "with": 1
+          },
+          {
+            "label": "Right first time",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Re-fit after a rattle",
+              "sub": "Pure waste",
+              "icon": "wrench",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Fit the speaker",
+              "sub": "Value",
+              "icon": "wave",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Changes the product",
+        "The customer would pay for it",
+        "Done right, the first time",
+        "Else: necessary, or pure waste"
+      ],
+      "at": [
+        8.145,
+        10.55,
+        13.911,
+        17.096
+      ],
+      "exampleAt": 24.122
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Why It Matters",
+      "example": "Deepak's target: free capacity for a new model, without adding a shift.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Faster flow",
+            "icon": "chartDown",
+            "with": 0
+          },
+          {
+            "label": "Fewer defects",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Capacity freed",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "People's ideas",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Faster flow, shorter lead time",
+        "Fewer defects and less rework",
+        "Capacity released, no new spend",
+        "Ideas from the people doing the work"
+      ],
+      "at": [
+        6.403,
+        10.299,
+        14.803,
+        21.426
+      ],
+      "exampleAt": 24.929
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Three Guardrails",
+      "example": "The final audio test stays. It protects the customer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Keep safety & quality checks",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Don't shift waste",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "People aren't waste",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Safety and quality checks aren't waste",
+        "Don't push waste onto someone else",
+        "People are never the waste"
+      ],
+      "at": [
+        5.026,
+        12.29,
+        19.868
+      ],
+      "exampleAt": 24.173
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "The Eight Wastes",
+      "example": "Remember them as TIMWOODS.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Transport",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Inventory",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Motion",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Waiting",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Overproduction",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Overprocessing",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Defects",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Unused skills",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport, inventory, motion, waiting",
+        "Overproduction, overprocessing",
+        "Defects, unused skills"
+      ],
+      "at": [
+        6.925,
+        11.898,
+        20.078
+      ],
+      "exampleAt": 22.822
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "The Waste Walk",
+      "example": "Fact: “Four operators waited 12 minutes for missing grilles.” Opinion: “Stores is always late.”",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Normal production",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Facts, no blame",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Where · how long · how often",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Stores is always late”",
+              "sub": "Opinion",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "“4 waited 12 min for grilles”",
+              "sub": "Fact",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Go to the gemba during normal work",
+        "Record facts, never blame",
+        "Where, what, how long, how often"
+      ],
+      "at": [
+        2.801,
+        7.644,
+        11.868
+      ],
+      "exampleAt": 21.183
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "What Deepak Found",
+      "example": "Rework was the biggest: 1,500 buzzing soundbars a month.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Late kits",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Reaching for tools",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Double scan",
+            "icon": "barcode",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Buzzing soundbars",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Waiting for late kits",
+        "Reaching and walking for tools",
+        "A duplicate barcode scan",
+        "Rework: buzzing soundbars"
+      ],
+      "at": [
+        5.232,
+        9.321,
+        14.874,
+        20.22
+      ],
+      "exampleAt": 20.22
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Measure the Flow",
+      "example": "A soundbar spends 4 hours in the plant. Only 18 minutes change it.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Lead time",
+          "value": 240
+        },
+        "after": {
+          "label": "Value-added",
+          "value": 18
+        },
+        "unit": "minutes per soundbar",
+        "note": "Flow efficiency 7.5%",
+        "with": 1
+      },
+      "bullets": [
+        "Flow efficiency = value time ÷ lead time",
+        "18 min of value in 240 min",
+        "Only 7.5% of the time adds value"
+      ],
+      "at": [
+        2.916,
+        14.333,
+        19.777
+      ],
+      "exampleAt": 8.851
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Find the Root Cause",
+      "example": "Root cause: no fixed route for the speaker wire, so it touched the cone.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Soundbars buzz",
+            "with": 1
+          },
+          {
+            "label": "Wire touches the cone",
+            "with": 1
+          },
+          {
+            "label": "No fixed wire route",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pareto: pick the biggest loss",
+        "Ask why, with evidence",
+        "Fix the cause, not the symptom"
+      ],
+      "at": [
+        0.956,
+        7.401,
+        26.062
+      ],
+      "exampleAt": 15.809
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Countermeasures: ECRS",
+      "example": "A wire-routing clip, kit carts at the line, one scan instead of two.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminate",
+            "with": 0
+          },
+          {
+            "label": "Combine",
+            "with": 1
+          },
+          {
+            "label": "Rearrange",
+            "with": 2
+          },
+          {
+            "label": "Simplify",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Wire-routing clip",
+              "icon": "shape",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Hourly kit carts",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "One scan, not two",
+              "icon": "barcode",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminate the unnecessary",
+        "Combine tasks or checks",
+        "Rearrange sequence or layout",
+        "Simplify what's left"
+      ],
+      "at": [
+        3.311,
+        5.492,
+        9.109,
+        12.384
+      ],
+      "exampleAt": 16.231
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "The Cost of Defects",
+      "example": "Rework: ₹42 per soundbar, 1,500 a month.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Internal",
+            "sub": "Scrap, rework, retest",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "External",
+            "sub": "Returns, warranty",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Hidden",
+            "sub": "Handling, waiting, paperwork",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 42,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "per rework",
+          "unit": "1,500 reworks a month",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Internal: scrap, rework, retest",
+        "External: returns, warranty, freight",
+        "Every repair hides more waste"
+      ],
+      "at": [
+        4.135,
+        10.345,
+        16.263
+      ],
+      "exampleAt": 28.672
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "The Results",
+      "example": "Same people, same shift. Room for the new model.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 1500
+        },
+        "after": {
+          "label": "After",
+          "value": 300
+        },
+        "unit": "soundbars reworked a month",
+        "note": "FPY 99% · tool reach 22 s → 13 s",
+        "with": 0
+      },
+      "bullets": [
+        "Rework: 1,500 down to 300 a month",
+        "First pass yield up to 99%",
+        "Reaching for tools: 22 s down to 13 s"
+      ],
+      "at": [
+        4.526,
+        10.405,
+        17.266
+      ],
+      "exampleAt": 23.208
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Proving the Money",
+      "example": "1,200 fewer reworks × ₹42 × 12 months ≈ ₹6 lakh. Minus ₹1.2 lakh for the fix: ≈ ₹4.8 lakh net.",
+      "visual": {
+        "type": "stat",
+        "value": 4.8,
+        "decimals": 1,
+        "prefix": "₹",
+        "suffix": " lakh",
+        "icon": "chartUp",
+        "label": "net benefit, first year",
+        "unit": "₹6 lakh avoided − ₹1.2 lakh for the fix",
+        "with": "example"
+      },
+      "bullets": [
+        "Savings = avoided cost − cost of the fix",
+        "Separate hard savings from capacity",
+        "Finance confirms the numbers"
+      ],
+      "at": [
+        1.106,
+        26.963,
+        31.341
+      ],
+      "exampleAt": 6.391
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Make It Stick",
+      "example": "Deepak's day-30 audit: one line had dropped the clip. Fixed the same day.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Standard updated",
+            "sub": "Day 0",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Audit",
+            "sub": "Day 7",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Drift caught",
+            "sub": "Day 30",
+            "icon": "warning",
+            "with": "example"
+          },
+          {
+            "label": "Audit",
+            "sub": "Day 90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Update SOP, layout, training",
+        "Daily board: target, actual, gap, action",
+        "Audit at 7, 30 and 90 days"
+      ],
+      "at": [
+        3.617,
+        8.159,
+        15.177
+      ],
+      "exampleAt": 21.614
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Your 30-Day Plan",
+      "example": "Then share it: other lines copy what worked, after checking it fits.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Walk and map",
+            "sub": "Days 1–7",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Cause and pilot",
+            "sub": "Days 8–18",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prove and hold",
+            "sub": "Days 19–30",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–7: pick a product, walk, map",
+        "Days 8–18: Pareto, root cause, pilot",
+        "Days 19–30: measure, standardize, audit"
+      ],
+      "at": [
+        5.093,
+        11.686,
+        19.184
+      ],
+      "exampleAt": 25.869
+    }
+  ]
+}

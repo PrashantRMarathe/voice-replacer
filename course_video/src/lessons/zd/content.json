@@ -1,0 +1,772 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Meaning & Philosophy",
+      "example": "Priya's line: a station now confirms the connector is seated before electrical test.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Every defect preventable",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Right the first time",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Design the process",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "A discipline",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Connector seated?",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Then electrical test",
+              "icon": "test",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Every defect is preventable",
+        "Right the first time",
+        "Design and control the process",
+        "A discipline, not a promise"
+      ],
+      "at": [
+        4.432,
+        11.112,
+        16.297,
+        21.451
+      ],
+      "exampleAt": 26.979
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "History & Business Value",
+      "example": "To win leaders' support, you need to show the money.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Quality = meeting requirements",
+            "sub": "Crosby, 1960s",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Built-in quality, mistake-proofing",
+            "sub": "Modern Lean",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Fix the system, not the person",
+            "sub": "Today",
+            "icon": "gear",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Crosby, 1960s: quality = meeting requirements",
+        "Lean adds built-in quality & mistake-proofing",
+        "Fix the system, not the person",
+        "Leaders remove barriers; operators stop & react"
+      ],
+      "at": [
+        1.676,
+        13.431,
+        23.86,
+        27.952
+      ],
+      "exampleAt": 34.124
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Cost of Poor Quality",
+      "example": "Priya's line: 400 reworked phones = ₹32,000 of direct rework — before a single late shipment.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Internal",
+            "sub": "Scrap, rework, retest",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "External",
+            "sub": "Warranty, returns",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Hidden",
+            "sub": "Delays, handling, capacity",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 32000,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "of direct rework",
+          "unit": "400 phones reworked in one month",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Internal failure: scrap, rework, retest",
+        "External failure: warranty, returns",
+        "Hidden: delays, handling, lost capacity",
+        "Prevention costs far less"
+      ],
+      "at": [
+        4.296,
+        9.192,
+        13.967,
+        32.562
+      ],
+      "exampleAt": 20.697
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "FTR, FPY & RTY",
+      "example": "Three stages at 98% each give only about 94% together.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "First Time Right",
+            "sub": "No correction at all",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "First Pass Yield",
+            "sub": "Pass a step first time",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Rolled Throughput Yield",
+            "sub": "Multiply every step",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "98% × 98% × 98% ≈ 94%",
+          "suffix": "%",
+          "with": "example",
+          "items": [
+            {
+              "label": "Stage 1",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Stage 2",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Stage 3",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Together",
+              "value": 94,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "First Time Right: no correction at all",
+        "First Pass Yield: pass a step first time",
+        "Rolled Throughput Yield: multiply every step"
+      ],
+      "at": [
+        4.456,
+        10.73,
+        16.893
+      ],
+      "exampleAt": 23.505
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "PPM, DPMO & Targets",
+      "example": "Priya found 25 bad phones in 50,000 = 500 PPM.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "PPM",
+            "sub": "Defective units per million",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "DPMO",
+            "sub": "Defects per million opportunities",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 500,
+          "suffix": " PPM",
+          "icon": "count",
+          "label": "25 bad phones in 50,000",
+          "unit": "Always report sample size and scope",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "PPM: defective units per million",
+        "DPMO: defects per million opportunities",
+        "Report sample size and scope",
+        "Never compare PPM with DPMO"
+      ],
+      "at": [
+        4.82,
+        8.331,
+        24.778,
+        27.929
+      ],
+      "exampleAt": 17.738
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Quality at Source",
+      "example": "Set-top box line: operators check the thermal pad and screw torque before a unit moves on.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Own your output",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Next station = customer",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Inputs, setup, SOP",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Stop, segregate, escalate",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Every operation owns its output",
+        "Next station = your customer",
+        "Check inputs and setup, follow the SOP",
+        "Wrong? Stop, segregate, escalate"
+      ],
+      "at": [
+        2.904,
+        6.739,
+        10.183,
+        15.854
+      ],
+      "exampleAt": 22.366
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Poka Yoke",
+      "example": "Priya's battery-connector fixture only fits one way; the phone can't move on until the check is recorded.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST",
+        "bottom": "WEAKEST",
+        "items": [
+          {
+            "label": "Make it impossible",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Catch it instantly",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Warning label",
+            "icon": "warning",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Fixture fits one way",
+              "icon": "shape",
+              "with": "example"
+            },
+            {
+              "label": "Check recorded",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Only then the phone moves on",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Poka Yoke = mistake-proofing",
+        "Make errors impossible, or catch them",
+        "Prevention beats a warning label",
+        "Challenge with good & bad samples"
+      ],
+      "at": [
+        3.29,
+        7.206,
+        14.065,
+        30.832
+      ],
+      "exampleAt": 20.436
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Jidoka, Andon & Response",
+      "example": "An audio tester flags repeated channel imbalance: the line stops and suspect units are held.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Abnormality detected",
+            "sub": "Jidoka",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Andon: make it visible",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Stop, hold suspects",
+            "icon": "lock",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Restart when controlled",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Jidoka: the process stops itself",
+        "Andon makes the problem visible",
+        "Clear stop criteria, a named owner",
+        "Restart only when the cause is controlled"
+      ],
+      "at": [
+        0.881,
+        7.291,
+        13.775,
+        31.654
+      ],
+      "exampleAt": 20.073
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Standard Work & Audits",
+      "example": "Firmware release needs the approved image, a recipe match and a checksum.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Standard work · Firmware station",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "First unit verified after changeover",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Approved image + recipe match",
+            "icon": "chip",
+            "with": "example"
+          },
+          {
+            "label": "Checksum before release",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "Layered audit: controls, not paperwork",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Standard work: best, safest method",
+        "Verify the first unit after changeover",
+        "Layered audits confirm controls",
+        "Audit controls, not paperwork"
+      ],
+      "at": [
+        4.969,
+        16.174,
+        20.676,
+        26.793
+      ],
+      "exampleAt": 30.442
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "SPC & Process Capability",
+      "example": "Screw torque on Priya's line: tight, centered variation gives Cpk ≈ 1.33. That's capable.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Noise vs real signal",
+            "icon": "wave",
+            "with": 0
+          },
+          {
+            "label": "Cp: spread vs spec",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Cpk: centred too",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Stable process, calibrated gauge",
+            "icon": "gear",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1.33,
+          "decimals": 2,
+          "icon": "screw",
+          "label": "Cpk on screw torque",
+          "unit": "Tight, centred variation: capable",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "SPC: normal variation vs real signals",
+        "Cp: spread vs specification",
+        "Cpk: also checks centering",
+        "Only with a stable process & calibrated gauge"
+      ],
+      "at": [
+        4.862,
+        10.41,
+        15.101,
+        20.455
+      ],
+      "exampleAt": 27.241
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "PFMEA & Control Plans",
+      "example": "Missing insulation pad can cause a short → presence interlock + stop-and-hold rule.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "PFMEA: how it can fail",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Control Plan: real checks",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Method · frequency · owner · reaction",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Missing insulation pad",
+              "sub": "Can cause a short",
+              "icon": "warning",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Presence interlock",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Stop-and-hold rule",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "PFMEA: how each step can fail, and why",
+        "Control Plan turns it into real checks",
+        "Method · frequency · owner · reaction",
+        "Update both after real failures"
+      ],
+      "at": [
+        3.929,
+        10.388,
+        14.397,
+        32.497
+      ],
+      "exampleAt": 20.006
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Root Cause Analysis",
+      "example": "Priya's team traced their charging failures to loose connector seating.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Define precisely",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Contain suspect stock",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Facts, five whys, tests",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Why made? Why not stopped?",
+            "icon": "search",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define the problem precisely",
+        "Contain suspect stock first",
+        "Facts, five whys, controlled tests",
+        "Why did it happen? Why wasn't it stopped?"
+      ],
+      "at": [
+        7.236,
+        10.772,
+        13.575,
+        19.599
+      ],
+      "exampleAt": 28.431
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Mobile Phone",
+      "example": "Failures fell to 0.5% — an 83% reduction.",
+      "visual": {
+        "type": "stat",
+        "value": 3,
+        "suffix": "%",
+        "icon": "power",
+        "label": "failed the first charging test",
+        "unit": "1,200 of 40,000 phones",
+        "with": 0,
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 3
+          },
+          "after": {
+            "label": "After",
+            "value": 0.5
+          },
+          "decimals": 1,
+          "suffix": "%",
+          "unit": "phones failing the first charging test",
+          "note": "An 83% reduction",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "1,200 of 40,000 failed: 3%",
+        "Data split by lot, fixture, station, shift",
+        "Keyed fixture + automatic seating check",
+        "FMEA and SOP updated"
+      ],
+      "at": [
+        4.034,
+        12.308,
+        22.246,
+        36.335
+      ],
+      "exampleAt": 28.152
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Set-Top Box & Audio",
+      "example": "Set-top box: firmware, power, labels. Audio: polarity, sealing, channel balance.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Set-top box",
+            "sub": "Firmware matched to SKU",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Audio",
+            "sub": "Keyed connectors, golden units",
+            "icon": "wave",
+            "with": 2
+          },
+          {
+            "label": "Packing",
+            "sub": "Serial matched to carton",
+            "icon": "barcode",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Same thinking, tailored controls",
+        "Set-top box: firmware matched to SKU",
+        "Audio: keyed connectors, golden units",
+        "Packing: serial matched to carton"
+      ],
+      "at": [
+        5.117,
+        13.38,
+        25.295,
+        30.342
+      ],
+      "exampleAt": 7.623
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPIs & 90-Day Roadmap",
+      "example": "Last 30 days: verify the gains and deploy them on every line.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Baseline and contain",
+            "sub": "Days 1–30",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Root causes, pilot Poka Yoke",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 3
+          },
+          {
+            "label": "Verify gains, deploy everywhere",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Lagging: FPY, PPM, cost of poor quality",
+        "Leading: challenge tests, audit scores",
+        "Days 1–30: baseline and contain",
+        "Days 31–60: root causes, pilot Poka Yoke",
+        "Days 61–90: verify gains, deploy everywhere"
+      ],
+      "at": [
+        4.322,
+        11.824,
+        21.457,
+        25.8,
+        30.986
+      ],
+      "exampleAt": 30.986
+    }
+  ]
+}

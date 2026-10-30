@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Before adding any automation to a manual step, what should you do first?",
+      "options": [
+        "Buy the fastest machine available",
+        "Simplify it with ECRS, and eliminate waste",
+        "Ask operators to work faster"
+      ],
+      "correct": 1,
+      "explanation": "Simplify first: eliminate, combine, rearrange and simplify. Automated waste is still waste, just faster and harder to change.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A new LCA station saves 6 seconds on paper, but jams ten times a shift. What should the team do?",
+      "options": [
+        "Roll it out: the cycle time is better",
+        "Measure real output with the stops, and fix reliability first",
+        "Remove the sensor so it jams less"
+      ],
+      "correct": 1,
+      "explanation": "Theoretical cycle time isn't real capacity. Include jams and recovery, fix reliability, and only then roll it out. Removing a sensor would weaken quality control.",
+      "think": 14
+    }
+  ]
+}

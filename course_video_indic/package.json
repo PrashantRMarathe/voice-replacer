@@ -1,0 +1,25 @@
+{
+  "name": "lean-course-video-indic",
+  "version": "1.0.0",
+  "description": "Animated educational videos for the Lean Manufacturing course",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "check": "tsc --noEmit -p . && node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check.ts && python narration/lint_scripts.py",
+    "srt": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/srt.ts",
+    "upgrade": "remotion upgrade",
+    "lint:scripts": "python narration/lint_scripts.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.380",
+    "@remotion/google-fonts": "4.0.380",
+    "@remotion/shapes": "4.0.380",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.380"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.8.2"
+  }
+}

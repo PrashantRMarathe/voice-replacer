@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "970 of 1,000 units pass the first test with no rework. What is the First Pass Yield?",
+      "options": [
+        "3%",
+        "97%",
+        "9.7 per unit"
+      ],
+      "correct": 1,
+      "explanation": "FPY = first-pass accepted ÷ total = 970 ÷ 1,000 = 97%. It counts only the units that passed the first time, with no rework.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "An audio line finds reversed speaker polarity on 30 units this shift. What should the team do FIRST?",
+      "options": [
+        "Retrain the operator and carry on",
+        "Stop, contain suspect units, then find the root cause",
+        "Add a warning label to the speaker",
+        "Increase final inspection"
+      ],
+      "correct": 1,
+      "explanation": "Contain first: stop and hold suspect units back to the last good point. Then find the root cause and prevent it, e.g. with a keyed polarity connector. Blame, labels and extra inspection don't stop it recurring.",
+      "think": 14
+    }
+  ]
+}

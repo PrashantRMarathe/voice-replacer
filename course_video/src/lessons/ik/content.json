@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What a Fishbone Is",
+      "example": "Nikhil's problem: network switches failing the port-link test.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Possible causes",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Cause families",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "The problem",
+            "sub": "At the head",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "One problem at the head",
+        "Possible causes on the bones",
+        "A team thinking tool"
+      ],
+      "at": [
+        5.856,
+        9.123,
+        14.094
+      ],
+      "exampleAt": 24.514
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origins, and Its Limits",
+      "example": "Buying a new tester was a guess. The fishbone would make it one guess among many.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Proof",
+            "sub": "Not from the fishbone",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Possible causes",
+            "sub": "What it shows",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kaoru Ishikawa, quality pioneer",
+        "One of seven basic quality tools",
+        "Shows possible causes, proves nothing"
+      ],
+      "at": [
+        3.054,
+        8.527,
+        15.905
+      ],
+      "exampleAt": 24.41
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Anatomy of the Fish",
+      "example": "Write a cause as “suspected” until it's proven.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Head",
+            "sub": "The effect",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Major bones",
+            "sub": "Cause families",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Minor bones",
+            "sub": "Specific causes",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Head: the effect",
+        "Spine and major bones: cause families",
+        "Minor bones: specific causes"
+      ],
+      "at": [
+        4.401,
+        8.57,
+        16.859
+      ],
+      "exampleAt": 23.652
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "A Sharp Effect",
+      "example": "“Port-link failures on switch Line 3 rose from 5 to 32 per 1,000 this week.”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "“Quality is bad”",
+            "sub": "Vague",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "5 → 32 per 1,000",
+            "sub": "Line 3, port-link, this week",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "What, where, when, how much",
+        "A baseline and a denominator",
+        "One defect mode at a time"
+      ],
+      "at": [
+        6.602,
+        11.391,
+        15.19
+      ],
+      "exampleAt": 17.971
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "The 6M: People, Machine, Method",
+      "example": "Use the families as prompts, not rigid boxes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "People",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Method",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "People: skill, workload, handover",
+        "Machine: wear, settings, maintenance",
+        "Method: sequence, SOP, changeover"
+      ],
+      "at": [
+        5.383,
+        10.507,
+        15.741
+      ],
+      "exampleAt": 28.883
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Material, Measurement, Environment",
+      "example": "Measurement is the one teams forget. Is the tester itself telling the truth?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Measurement",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Environment",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Material: supplier, lot, handling",
+        "Measurement: gauges, test limits, false rejects",
+        "Environment: ESD, humidity, dust, heat"
+      ],
+      "at": [
+        1.363,
+        7.581,
+        13.588
+      ],
+      "exampleAt": 19.527
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Collect Evidence First",
+      "example": "Failures clustered on two of the four test stations.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Port-link failures by test station",
+        "with": "example",
+        "items": [
+          {
+            "label": "T1",
+            "value": 14,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T2",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "T3",
+            "value": 12,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T4",
+            "value": 3,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "A Pareto of defect types",
+        "Split by shift, lot, station, tester",
+        "Compare good units with bad"
+      ],
+      "at": [
+        4.893,
+        9.916,
+        14.5
+      ],
+      "exampleAt": 18.937
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Build It: Eight Steps",
+      "example": "Nikhil's team: production, quality, test, maintenance and stores.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Define, team",
+            "with": 0
+          },
+          {
+            "label": "Draw, brainstorm",
+            "with": 1
+          },
+          {
+            "label": "Why? Merge, rank",
+            "with": 2
+          },
+          {
+            "label": "Owners test",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define the effect, gather the team",
+        "Draw the bones, brainstorm, no blame",
+        "Ask why, merge, prioritize",
+        "Assign owners to test causes"
+      ],
+      "at": [
+        3.45,
+        7.802,
+        16.29,
+        23.763
+      ],
+      "exampleAt": 26.98
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Nikhil's Fishbone",
+      "example": "Twenty-three possible causes in forty minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Machine",
+            "sub": "Press height drift",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Measurement",
+            "sub": "Worn test cables",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "New port lot",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Method",
+            "sub": "No engagement check",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "People",
+            "sub": "Temporary crew",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Environment",
+            "sub": "ESD records",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "search",
+          "label": "possible causes in 40 minutes",
+          "unit": "every one still a guess",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Machine: press-fit height drift",
+        "Measurement: worn test cables",
+        "Material, method, people, environment"
+      ],
+      "at": [
+        8.301,
+        13.32,
+        19.677
+      ],
+      "exampleAt": 29.137
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Fishbone, Then Five Whys",
+      "example": "Why worn cables? No change limit. Why? Cables weren't in the maintenance plan.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Cables worn",
+            "with": "example"
+          },
+          {
+            "label": "Never replaced",
+            "with": "example"
+          },
+          {
+            "label": "Not in the maintenance plan",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fishbone goes wide",
+        "Five whys goes deep",
+        "Never stop at operator error"
+      ],
+      "at": [
+        3.397,
+        7.111,
+        20.528
+      ],
+      "exampleAt": 10.856
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Prove It: The Evidence Ladder",
+      "example": "Votes don't count. A single good trial isn't proof either.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST",
+        "bottom": "WEAKEST",
+        "items": [
+          {
+            "label": "Replicate",
+            "icon": "check",
+            "with": 2
+          },
+          {
+            "label": "Experiment",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Trace and measure",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Observe",
+            "icon": "search",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Observe it at the gemba",
+        "Trace and measure",
+        "Experiment, then replicate"
+      ],
+      "at": [
+        3.314,
+        6.639,
+        14.308
+      ],
+      "exampleAt": 24.644
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Two Causes, Both Real",
+      "example": "Retest with new cables: 6 of 10 'failed' switches passed. The other 4 had shallow ports.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10 failed switches retested with new cables: 6 passed, 4 had shallow ports",
+        "with": "example",
+        "items": [
+          {
+            "label": "False fails",
+            "value": 6,
+            "with": "example"
+          },
+          {
+            "label": "Real fails",
+            "value": 4,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Worn cables: false failures",
+        "Press height drift: real failures",
+        "Causes can coexist"
+      ],
+      "at": [
+        7.91,
+        17.391,
+        20.062
+      ],
+      "exampleAt": 0.961
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Strong Corrective Actions",
+      "example": "Cable insertion counter with a change limit. Press height check and lock at every shift start.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Cable insertion counter",
+            "icon": "count",
+            "with": "example"
+          },
+          {
+            "label": "Press height lock",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "SOP, PFMEA, control plan",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Design it out before retraining",
+        "Locks, interlocks, counters",
+        "Update SOP, PFMEA, control plan"
+      ],
+      "at": [
+        1.292,
+        6.6,
+        11.703
+      ],
+      "exampleAt": 18.743
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prove It Worked",
+      "example": "Zero false failures from worn cables, over 30 production days.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 32
+        },
+        "after": {
+          "label": "After",
+          "value": 4
+        },
+        "unit": "port-link failures per 1,000 switches",
+        "note": "Held for 30 production days",
+        "with": 2
+      },
+      "bullets": [
+        "Set the target before you start",
+        "A fixed window and sample size",
+        "32 → 4 per 1,000, held for 30 days"
+      ],
+      "at": [
+        1.27,
+        7.358,
+        20.781
+      ],
+      "exampleAt": 27.048
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Mistakes and Best Practices",
+      "example": "Keep rejected causes on the chart, with the evidence that ruled them out.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vague effect",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Missing functions",
+            "icon": "person",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "No validation",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Keep rejected causes",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Vague effects and mixed defects",
+        "Missing functions in the room",
+        "No validation after the session"
+      ],
+      "at": [
+        3.402,
+        7.914,
+        17.314
+      ],
+      "exampleAt": 23.668
+    }
+  ]
+}

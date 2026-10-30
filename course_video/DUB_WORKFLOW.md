@@ -1,41 +1,26 @@
-# Clean Dub Workflow — no Demucs needed
+# Dub Workflow (voice-only lessons)
 
-You now have the lesson split into clean parts, so dubbing keeps the music
-perfectly and never risks losing the background.
+The **`...Dub` composition is voice-only** (no music, no SFX, even though the
+normal version now has a music bed and soft sounds), so the clean narration stem
+is simply the audio of the Dub composition, exactly on the video timeline.
 
 ## The files
-| File | What it is |
+| File | How to make it |
 |---|---|
-| `lesson-for-dub.mp4` | The video **without burned captions** (so the dub tool can add its own, timing-correct subtitles) |
-| `stems/narration.wav` | The **voice only** (clean), already aligned to the video timeline |
-| `stems/background.wav` | The **music + sound effects only**, at the right levels, aligned to the timeline |
+| `out/<comp>-dub.mp4` | `npx remotion render <Comp>Dub out/<comp>-dub.mp4` (no burned captions) |
+| `out/<comp>-voice.wav` | `npx remotion render <Comp>Dub out/<comp>-voice.wav --codec=wav` (voice only) |
+| `out/<Comp>.srt` | `npm run srt` (subtitles timed to the same timeline) |
 
-> The original captioned lesson (`lesson-with-characters.mp4`) is untouched.
+## How to dub (2 steps)
+**1. Make the new voice.** Feed `<comp>-voice.wav` to the dub tool (clone or
+translate) and get back, say, `voice_hindi.wav`. No Demucs needed: the voice is
+already isolated.
 
-## How to dub (3 steps)
-
-**1. Make the new voice**
-Feed **`narration.wav`** into your voice_replacer / dub tool (clone or translate).
-You get back, say, `narration_hindi.wav`.
-*(No Demucs needed — the voice is already isolated.)*
-
-**2. Mix new voice + background**
+**2. Put the new audio onto the video.**
 ```bash
-ffmpeg -y -i narration_hindi.wav -i stems/background.wav \
-  -filter_complex "[0]volume=1.0[v];[1]volume=1.0[b];[v][b]amix=inputs=2:normalize=0" \
-  dubbed_audio.wav
+ffmpeg -y -i out/<comp>-dub.mp4 -i voice_hindi.wav -map 0:v -map 1:a -c:v copy -shortest lesson-hindi.mp4
 ```
 
-**3. Put the new audio onto the video**
-```bash
-ffmpeg -y -i lesson-for-dub.mp4 -i dubbed_audio.wav \
-  -map 0:v -map 1:a -c:v copy -shortest lesson-hindi.mp4
-```
-
-Done — a fully dubbed lesson with the **original music and SFX intact**, and no
-caption mismatch. Add translated subtitles separately if you want them.
-
-## Why this is cleaner than uploading the finished video
-Uploading the mixed video makes the dub tool *guess* the voice/music split with
-Demucs (can smear music, needs a GPU). Here the split is **exact**, because I
-exported it before mixing. So: better quality, faster, GPU-optional.
+For the standard English course you don't need this at all: the cloned voice
+goes in through the clone-only pipeline (`docs/PLAYBOOK.md` §6), which keeps
+every page in sync.

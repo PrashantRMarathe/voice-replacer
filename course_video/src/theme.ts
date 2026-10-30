@@ -24,6 +24,8 @@ export const theme = {
   brand: {
     courseName: "Lean Manufacturing Mastery",
     author: "Your Name",
+    shortName: "FFIQ",              // logo badge
+    fullName: "FACTORY FLOW IQ",    // shown next to the badge
   },
 };
 

@@ -1,0 +1,758 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What an A3 Is",
+      "example": "Karthik's report said “operators are careless”. His manager handed back one blank A3 sheet.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "A3 paper size",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "One-page story",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Causes, tests, results",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Built as a team",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Operators are careless”",
+              "sub": "Karthik's first report",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "One blank A3 sheet",
+              "sub": "His manager's answer",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Named after the A3 paper size",
+        "The whole problem story on one page",
+        "Define, find causes, test, sustain",
+        "Visual, and built as a team"
+      ],
+      "at": [
+        1.256,
+        4.743,
+        8.484,
+        15.57
+      ],
+      "exampleAt": 22.438
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Problems Are Gaps",
+      "example": "“Operators are careless” is blame. “Boot failures rose to 4.8%” is a gap.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Blame",
+            "sub": "“Operators are careless”",
+            "icon": "person",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Gap",
+            "sub": "Boot failures up to 4.8%",
+            "icon": "chartUp",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "A problem is a measurable gap",
+        "Don't jump from complaint to solution",
+        "A gap can be measured and investigated"
+      ],
+      "at": [
+        3.813,
+        10.004,
+        25.958
+      ],
+      "exampleAt": 14.909
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Where A3 Fits: PDCA",
+      "example": "Karthik's boot failures: repeated, costly and cross-functional.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Repeated defects",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Downtime, shortages",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Cross-functional",
+            "icon": "person",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Plan",
+              "icon": "clipboard",
+              "with": 2
+            },
+            {
+              "label": "Do",
+              "sub": "Small pilot",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Check",
+              "sub": "Against target",
+              "icon": "search",
+              "with": 2
+            },
+            {
+              "label": "Act",
+              "sub": "Standardize",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problems that keep coming back",
+        "Problems teams must solve together",
+        "Built on Plan · Do · Check · Act"
+      ],
+      "at": [
+        3.347,
+        13.684,
+        21.852
+      ],
+      "exampleAt": 35.145
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Anatomy of an A3",
+      "example": "Karthik's sheet: seven panels, one page, read left to right.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Background · why now",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Current condition · target",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Root cause · why the gap",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Countermeasures · plan",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Follow-up · did it work?",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Left: background, current condition, target",
+        "Root-cause analysis: why the gap exists",
+        "Right: countermeasures, plan, follow-up",
+        "Each panel answers one question"
+      ],
+      "at": [
+        3.128,
+        16.442,
+        21.359,
+        27.677
+      ],
+      "exampleAt": 31.177
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "The Problem Statement",
+      "example": "Line 2, last month: 4.8% of 12,000 servers failed first boot test, vs a 1.5% reference.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Weak",
+            "sub": "“Quality is poor everywhere”",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Precise",
+            "sub": "Line 2 · last month · 4.8% vs 1.5%",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Name the gap, never a cause",
+        "Line · product · period · measure",
+        "Clear denominator, same definitions",
+        "No blame, no solution"
+      ],
+      "at": [
+        5.903,
+        9.774,
+        15.514,
+        37.993
+      ],
+      "exampleAt": 19.933
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Go and See: the 3G",
+      "example": "7 of 10 failed servers at the bench: a memory module sitting slightly raised.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Real place",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Real things",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Real facts",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 7,
+          "suffix": " of 10",
+          "icon": "chip",
+          "label": "failed servers on the bench",
+          "unit": "a memory module sitting slightly raised",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Gemba: the real place",
+        "Genbutsu: the real things",
+        "Genjitsu: the real facts"
+      ],
+      "at": [
+        7.005,
+        12.189,
+        20.037
+      ],
+      "exampleAt": 25.105
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Data You Can Trust",
+      "example": "First-pass failure rate = unique servers failing their first valid test ÷ unique servers tested.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Clear definition",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Unique servers",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Timestamps, serials",
+            "icon": "barcode",
+            "with": 2
+          },
+          {
+            "label": "Log matches MES",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "One clear definition",
+        "Count unique units: retests can't hide failures",
+        "Check timestamps, serials, calibration",
+        "Line log matches the MES"
+      ],
+      "at": [
+        1.765,
+        16.057,
+        25.899,
+        33.053
+      ],
+      "exampleAt": 7.388
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Seeing the Gap",
+      "example": "Memory not detected: 288 of 576 failures, half of the total.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "First boot-test failures per 1,000 servers, by week",
+        "items": [
+          {
+            "label": "W1",
+            "value": 41,
+            "with": 0
+          },
+          {
+            "label": "W2",
+            "value": 46,
+            "with": 0
+          },
+          {
+            "label": "W3",
+            "value": 50,
+            "with": 0
+          },
+          {
+            "label": "W4",
+            "value": 55,
+            "tone": "bad",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Failure modes: 576 first-pass failures",
+          "with": 2,
+          "items": [
+            {
+              "label": "Memory",
+              "value": 288,
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Fan",
+              "value": 144,
+              "with": 2
+            },
+            {
+              "label": "Network",
+              "value": 86,
+              "with": 2
+            },
+            {
+              "label": "Other",
+              "value": 58,
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Weekly trend: rising every week",
+        "About 400 extra failures",
+        "Pareto: sort failures by mode"
+      ],
+      "at": [
+        4.217,
+        22.634,
+        25.611
+      ],
+      "exampleAt": 29.793
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Target & Scope",
+      "example": "Out of scope: loosening the test limits to look better.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Target",
+            "sub": "≤ 2% in 6 weeks",
+            "icon": "pin",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Guardrails",
+            "sub": "Test time, retests, escapes",
+            "icon": "shield",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": 2,
+          "items": [
+            {
+              "label": "Out of scope",
+              "sub": "Loosening test limits",
+              "icon": "cross",
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "In scope",
+              "sub": "Memory failures, Line 2",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Target: 2% or less within 6 weeks",
+        "Guardrails: test time, retests, escapes",
+        "Scope: what's in, what's out"
+      ],
+      "at": [
+        4.331,
+        13.794,
+        23.311
+      ],
+      "exampleAt": 28.882
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Exploring Causes: Ishikawa",
+      "example": "Is insertion trained? Has the chassis changed? Does latching vary by lot?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "People",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Method",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Measurement",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Environment",
+            "icon": "wave",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Think broadly first",
+        "Six M's: people, machine, method…",
+        "Every branch is a guess until checked"
+      ],
+      "at": [
+        4.286,
+        6.961,
+        30.635
+      ],
+      "exampleAt": 17.476
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Root Cause: Five Whys",
+      "example": "Root cause: work instructions weren't reviewed when the chassis changed.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Module not fully seated",
+            "with": 0
+          },
+          {
+            "label": "Latch closed too early",
+            "with": 0
+          },
+          {
+            "label": "Less room in new chassis",
+            "with": 0
+          },
+          {
+            "label": "Instructions not reviewed",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 100,
+          "suffix": "%",
+          "icon": "test",
+          "label": "fault reproduced",
+          "unit": "pressing modules at an angle",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "Ask why, step by step",
+        "End at a process cause you can fix",
+        "A chain isn't proof: test it"
+      ],
+      "at": [
+        1.032,
+        27.837,
+        31.016
+      ],
+      "exampleAt": 23.062
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Countermeasures & Containment",
+      "example": "Insertion guide · latch check · work-instruction review on every chassis change",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Insertion guide",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Latch check",
+            "icon": "sensor",
+            "with": "example"
+          },
+          {
+            "label": "Review on chassis change",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Containment",
+              "sub": "Protects the customer now",
+              "icon": "lock",
+              "with": 2
+            },
+            {
+              "label": "Countermeasure",
+              "sub": "Removes the cause for good",
+              "icon": "key",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Break the verified cause",
+        "Judge: effect, risk, cost, sustain",
+        "Contain now, fix for good"
+      ],
+      "at": [
+        2.826,
+        21.583,
+        27.965
+      ],
+      "exampleAt": 5.216
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Plan & Owners",
+      "example": "Stuck? Escalate with the exact blocker and the decision you need.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Confirm cause, pilot",
+            "sub": "Weeks 1–2",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Update SOP, train",
+            "sub": "Weeks 3–4",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Verify results",
+            "sub": "Weeks 5–6",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "One owner, a due date, evidence",
+        "Weeks 1–2: confirm cause, pilot",
+        "Weeks 3–4: update SOP, train every shift",
+        "Weeks 5–6: verify the results"
+      ],
+      "at": [
+        5.129,
+        11.818,
+        21.476,
+        28.524
+      ],
+      "exampleAt": 32.715
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Pilot & Check",
+      "example": "Pilot: 48 failures in 3,000 servers = 1.6%.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Baseline",
+          "value": 4.8
+        },
+        "after": {
+          "label": "Pilot",
+          "value": 1.6
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "servers failing first boot test",
+        "note": "Target ≤ 2%: met",
+        "with": 1
+      },
+      "bullets": [
+        "Same product mix as the baseline",
+        "4.8% down to 1.6%: target met",
+        "Guardrails checked too",
+        "Missed? Revisit the cause, not the target"
+      ],
+      "at": [
+        8.816,
+        12.636,
+        17.668,
+        29.125
+      ],
+      "exampleAt": 5.546
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Sustain & Your 30-Day A3",
+      "example": "Days 1–5: one real problem, baseline at the gemba. Day 20: causes and pilot. Day 30: present your A3.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "One real problem, baseline",
+            "sub": "Days 1–5",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Causes and pilot",
+            "sub": "By day 20",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Present your A3",
+            "sub": "Day 30",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Update SOP, checklist, training",
+        "Shift-start check; review at 30/60/90 days",
+        "Copy only to lines that truly match",
+        "Your own A3 in 30 days"
+      ],
+      "at": [
+        4.771,
+        9.492,
+        18.211,
+        22.72
+      ],
+      "exampleAt": 24.802
+    }
+  ]
+}

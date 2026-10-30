@@ -1,0 +1,872 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Why-Why Is",
+      "example": "Charging failure is the symptom: connector seating, board damage, fixture contact or tester setup could cause it.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Why?",
+            "sub": "Backed by a fact",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Why again?",
+            "sub": "Five isn't a rule",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "A cause you can prove & control",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Connector seating",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Board damage",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Fixture contact",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Tester setup",
+              "icon": "test",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ask why, again and again, with facts",
+        "Five isn't a rule",
+        "Stop at a cause you can prove & control"
+      ],
+      "at": [
+        3.142,
+        14.216,
+        16.861
+      ],
+      "exampleAt": 21.609
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why-Why & Root Cause Analysis",
+      "example": "Missing screws on an audio line: 'operator forgot' wasn't enough — the team checked the feeder and sequence.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Why-Why",
+            "sub": "One tool of many",
+            "icon": "search",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Real place, real product",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Evidence for every why",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "People are a clue",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Operator forgot",
+              "sub": "Not enough",
+              "icon": "person",
+              "with": "example"
+            },
+            {
+              "label": "Check the feeder and sequence",
+              "sub": "Facts",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "One tool inside root cause analysis",
+        "Go to the real place, see the real product",
+        "What evidence supports this why?",
+        "Human action is a clue, not the answer"
+      ],
+      "at": [
+        1.173,
+        15.687,
+        21.419,
+        24.836
+      ],
+      "exampleAt": 30.233
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Step 1: Define with 5W2H",
+      "example": "Line 2: 24 of 800 phones (3%) failed charging after the 11:00 fixture change; the shift before ran under 0.5%.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Problem statement · Line 2",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "What: charging failure at final test",
+            "icon": "power",
+            "with": 1
+          },
+          {
+            "label": "When: after the 11:00 fixture change",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "How many: 24 of 800 phones (3%)",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Last known good: under 0.5%",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "A sharp problem statement",
+        "5W2H: what, where, when, how found, how many",
+        "Include the last known good"
+      ],
+      "at": [
+        0.81,
+        6.325,
+        14.377
+      ],
+      "exampleAt": 19.433
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Step 2: Contain First",
+      "example": "Sorting 100% protects the customer — it doesn't prove you've removed the cause.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Protect the customer",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Find the last known good",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Hold stock: floor and system",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Reconcile every unit",
+            "icon": "count",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Protect your customer first",
+        "Find the last known good point",
+        "Hold stock physically and in the system",
+        "Reconcile every unit"
+      ],
+      "at": [
+        2.411,
+        9.909,
+        15.97,
+        20.112
+      ],
+      "exampleAt": 33.722
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Step 3: Facts at the Gemba",
+      "example": "Neha photographed and labeled each failed phone by serial, then pulled the tester and maintenance logs.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Failed vs known-good",
+            "icon": "scale",
+            "with": 0
+          },
+          {
+            "label": "Settings, versions, lots",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Preserve the evidence",
+            "icon": "camera",
+            "with": 2
+          },
+          {
+            "label": "Saw · source · meaning",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Compare failed vs known-good units",
+        "Check settings, fixtures, versions, lots",
+        "Preserve evidence before adjusting",
+        "Saw · source · might mean"
+      ],
+      "at": [
+        7.19,
+        11.11,
+        18.066,
+        33.307
+      ],
+      "exampleAt": 22.898
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Step 4: Build the Chain",
+      "example": "Wrong carton label → old print job → software allowed it → printer not linked to the scanned product.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Start from the event",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Each arrow: a claim to check",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Facts, not labels",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Wrong carton label",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Old print job",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Software allowed it",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Printer not linked to the scan",
+              "icon": "barcode",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Start from the observed event",
+        "Each arrow is a claim you can check",
+        "Facts, not 'carelessness'",
+        "Branch when causes combine"
+      ],
+      "at": [
+        0.93,
+        9.534,
+        17.629,
+        37.233
+      ],
+      "exampleAt": 25.321
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Occurrence, Escape & System",
+      "example": "Fixture allows partial battery seating (occurrence); final test missed intermittent contact (escape).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Occurrence",
+            "sub": "How it was made",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Escape",
+            "sub": "Why nobody caught it",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "System",
+            "sub": "Why controls missed it",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Fixture allows partial seating",
+              "sub": "Occurrence",
+              "icon": "pin",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Final test misses intermittent contact",
+              "sub": "Escape",
+              "icon": "test",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "A fix for each",
+              "icon": "check",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Occurrence: how the defect was made",
+        "Escape: why nobody caught it",
+        "System: why controls missed the risk",
+        "Each needs its own fix"
+      ],
+      "at": [
+        6.928,
+        10.752,
+        14.684,
+        35.608
+      ],
+      "exampleAt": 21.794
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Fishbone & Pareto",
+      "example": "Neha's top two defect types made up 65% of the total — that's where she focused first.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fishbone: 6 groups",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pareto: rank by count",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Rare safety risks",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Guesses, not proof",
+            "icon": "search",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Top two = 65% of defects",
+          "with": "example",
+          "items": [
+            {
+              "label": "Type 1",
+              "value": 40,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Type 2",
+              "value": 25,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Type 3",
+              "value": 15,
+              "with": "example"
+            },
+            {
+              "label": "Type 4",
+              "value": 12,
+              "with": "example"
+            },
+            {
+              "label": "Other",
+              "value": 8,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Fishbone: 6 cause groups",
+        "Pareto: rank by frequency",
+        "Rare safety risks still matter",
+        "A fishbone is guesses, not proof"
+      ],
+      "at": [
+        5.018,
+        14.153,
+        27.939,
+        34.259
+      ],
+      "exampleAt": 19.303
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Prove the Cause",
+      "example": "Good vs suspect fixture pins on the same phones: the failures followed the suspect pins.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Predict the change",
+            "with": 0
+          },
+          {
+            "label": "Fix other factors",
+            "with": 1
+          },
+          {
+            "label": "Test good and bad",
+            "with": 2
+          },
+          {
+            "label": "Across shifts",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Suspect pins",
+              "sub": "Failures followed",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Good pins",
+              "sub": "Same phones passed",
+              "icon": "check",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Predict what should change",
+        "Keep other factors fixed",
+        "Test good and bad, across shifts"
+      ],
+      "at": [
+        5.162,
+        11.769,
+        17.483
+      ],
+      "exampleAt": 22.021
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Corrective Action & Poka Yoke",
+      "example": "Wrong audio labels: the printer now needs a matching serial scan first. Retraining relies on memory.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST",
+        "bottom": "WEAKEST",
+        "items": [
+          {
+            "label": "Keyed fixture, interlock",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Presence sensor",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Independent escape check",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Retraining, reminders",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fix the cause, not the symptom",
+        "Engineered prevention beats reminders",
+        "Fix occurrence + independent escape check",
+        "Update FMEA, SOP, training"
+      ],
+      "at": [
+        1.054,
+        4.805,
+        14.545,
+        19.443
+      ],
+      "exampleAt": 24.494
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Verify & Close",
+      "example": "Neha's closure rule: zero repeats over 10 production days, challenge tests passed, every suspect unit accounted for.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Known-good",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Known-bad",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Boundary samples",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Recurrence and yield",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "doc",
+          "with": "example",
+          "items": [
+            {
+              "label": "Closure rule · Line 2",
+              "icon": "label",
+              "with": "example"
+            },
+            {
+              "label": "Zero repeats in 10 production days",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Challenge tests passed",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Every suspect unit accounted for",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "Quality signs it off",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Finished ≠ proven",
+        "Challenge: good, bad, boundary samples",
+        "Watch recurrence and yield",
+        "No new downtime or false rejects"
+      ],
+      "at": [
+        1.232,
+        5.537,
+        13.02,
+        19.969
+      ],
+      "exampleAt": 24.837
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Why-Why KPIs",
+      "example": "60 → 12 defects = an 80% drop. ₹1.2 lakh cost, ₹20,000 saved a month = 6-month payback.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Speed and results",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Leading: fast containment",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Lagging: defects, repeats",
+            "icon": "chartDown",
+            "with": 2
+          },
+          {
+            "label": "Stable definitions",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 60
+          },
+          "after": {
+            "label": "After",
+            "value": 12
+          },
+          "unit": "charging defects, same volume",
+          "note": "An 80% drop · 6-month payback",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Measure speed and results",
+        "Leading: fast containment, verified actions",
+        "Lagging: defect rate, recurrence",
+        "Keep definitions stable"
+      ],
+      "at": [
+        1.331,
+        4.212,
+        9.819,
+        14.27
+      ],
+      "exampleAt": 21.194
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Charging Failure",
+      "example": "Only the new fixture failed the known-good phones.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Phone or fixture?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Known-good phones on both fixtures",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Worn pin, no replacement interval",
+            "icon": "pin",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "New pins, life limits, setup check",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Phone or fixture? Test that first",
+        "Known-good phones on old and new fixtures",
+        "Worn spring pin → no replacement interval",
+        "Fix: new pins, life limits, setup check"
+      ],
+      "at": [
+        4.342,
+        14.067,
+        24.097,
+        34.107
+      ],
+      "exampleAt": 18.974
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Set-Top Box & Audio",
+      "example": "Missing remote: the kit skipped it, then the carton closed without a remote scan.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Set-top box",
+            "sub": "HDMI, firmware, tester",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Audio device",
+            "sub": "Kit, sequence, scans",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Kit skipped the remote",
+              "icon": "tray",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Carton closed, no remote scan",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Spread the proven fix",
+              "icon": "sequence",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Different products, different evidence",
+        "Set-top box: HDMI soldering, firmware, tester",
+        "Audio: trace kit, packing sequence, scans",
+        "Deploy proven fixes to similar lines"
+      ],
+      "at": [
+        1.215,
+        4.211,
+        19.661,
+        33.61
+      ],
+      "exampleAt": 27.979
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Deployment",
+      "example": "Audit for real samples and verified links — not neat forms.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Triggers, roles, templates",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Investigate, test hypotheses",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Challenge, update, spread",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Pilot line + a few facilitators",
+        "Days 1–30: triggers, roles, templates",
+        "Days 31–60: investigate, test hypotheses",
+        "Days 61–90: challenge, update, spread"
+      ],
+      "at": [
+        4.737,
+        10.783,
+        16.058,
+        22.512
+      ],
+      "exampleAt": 29.873
+    }
+  ]
+}
