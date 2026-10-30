@@ -2,3 +2,7 @@
 node_modules/
 out/
 .remotion/
+
+# Audio (narration/music) — large, regenerable from narration scripts; not committed going forward.
+public/audio/**/*.mp3
+public/audio/**/*.wav
