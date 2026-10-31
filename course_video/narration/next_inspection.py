@@ -31,7 +31,7 @@ def say(text: str) -> str:
 
 
 INTRO_SCRIPT = (
-    "One loose connector, at station three. Nobody noticed. It travelled through four more "
+    "One loose connector, at station three. Nobody noticed. It traveled through four more "
     "stations, final test and packing. Then a customer opened the box. Sound familiar? In "
     "this lesson, you'll learn Next Inspection. You'll see how every process can protect "
     "the next one, and catch defects where they start. We'll follow Anita, a quality "
@@ -290,7 +290,7 @@ VISUALS = {
         {"label": "At assembly", "sub": "Seconds to fix", "icon": "wrench", "tone": "good", "with": "example"},
         {"label": "After test", "sub": "Open, repair, retest", "icon": "test", "with": "example"},
         {"label": "At the customer", "sub": "A return, and a hit to your name", "icon": "box", "tone": "bad", "with": "example"}]},
-    "p03": {"type": "ladder", "top": "STRONGEST: CLOSEST TO THE SOURCE", "bottom": "LAST LINE OF DEFENCE", "items": [
+    "p03": {"type": "ladder", "top": "STRONGEST: CLOSEST TO THE SOURCE", "bottom": "LAST LINE OF DEFENSE", "items": [
         {"label": "Source", "icon": "sensor"}, {"label": "Self", "icon": "hand"},
         {"label": "Next process", "icon": "search"}]},
     "p04": {"type": "flow", "items": [

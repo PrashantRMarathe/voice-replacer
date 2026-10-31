@@ -496,7 +496,7 @@
             "with": 1
           },
           {
-            "label": "Cpk: centred too",
+            "label": "Cpk: centered too",
             "icon": "pin",
             "with": 2
           },
@@ -512,7 +512,7 @@
           "decimals": 2,
           "icon": "screw",
           "label": "Cpk on screw torque",
-          "unit": "Tight, centred variation: capable",
+          "unit": "Tight, centered variation: capable",
           "with": "example"
         }
       },

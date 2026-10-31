@@ -4,11 +4,11 @@
       "key": "quiz1",
       "num": 1,
       "after": "p08",
-      "question": "Station C runs 33 s against a 30-second TAKT; Station A runs 22 s. What should you try first?",
+      "question": "Station 4 runs 33 s against a 30-second TAKT; Station 1 runs 22 s. What should you try first?",
       "options": [
-        "Ask C's operator to work faster",
-        "Move a feasible task from C to A, or improve C's method, then pilot and re-measure",
-        "Remove a quality check at C",
+        "Ask station 4's operator to work faster",
+        "Move a feasible task from station 4 to station 1, or improve its method, then pilot and re-measure",
+        "Remove a quality check at station 4",
         "Change the TAKT to 33 seconds"
       ],
       "correct": 1,

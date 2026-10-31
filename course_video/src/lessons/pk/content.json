@@ -38,7 +38,7 @@
       "key": "p02",
       "num": 2,
       "title": "Error vs Defect",
-      "example": "End-of-line inspection finds problems after the labour and parts are spent.",
+      "example": "End-of-line inspection finds problems after the labor and parts are spent.",
       "visual": {
         "type": "flow",
         "stop": {
@@ -63,7 +63,7 @@
           },
           {
             "label": "Found at end of line",
-            "sub": "Labour and parts already spent",
+            "sub": "Labor and parts already spent",
             "icon": "search",
             "tone": "bad",
             "with": "example"
@@ -291,7 +291,7 @@
             "with": 2
           },
           {
-            "label": "Standardise",
+            "label": "Standardize",
             "with": 3
           }
         ]
@@ -528,11 +528,11 @@
         "Watch false rejects"
       ],
       "at": [
-        5.084,
-        9.994,
-        12.093
+        5.007,
+        9.572,
+        12.03
       ],
-      "exampleAt": 20.963
+      "exampleAt": 20.916
     },
     {
       "key": "p14",

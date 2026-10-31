@@ -114,7 +114,7 @@ PAGES = [
                   "thing first. You must define normal. You can't sense abnormal until you know what "
                   "good looks like. Then you sense when the process drifts from it. Sensors, vision, "
                   "tests, torque monitors and operator checks can all do it. For Anjali, normal was a "
-                  "bead two to two point four millimetres wide, with no gaps. What comes next?",
+                  "bead two to two point four millimeters wide, with no gaps. What comes next?",
     },
     {
         "key": "p06", "num": 6, "title": "Steps 2 to 4: Stop, Correct, Prevent",

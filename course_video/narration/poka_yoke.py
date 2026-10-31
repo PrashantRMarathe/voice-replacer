@@ -71,13 +71,13 @@ PAGES = [
                    ("Error: the wrong action", "The error is the wrong action"),
                    ("Defect: the bad product that follows", "The defect is the bad product"),
                    ("Stop the error before it's a defect", "You stop the error")],
-        "example": "End-of-line inspection finds problems after the labour and parts are spent.",
+        "example": "End-of-line inspection finds problems after the labor and parts are spent.",
         "example_cue": "End-of-line inspection finds",
         "script": "Poka Yoke grew up in the Toyota Production System, through engineer Shigeo "
                   "Shingo. His key insight was simple. An error and a defect are different. The "
                   "error is the wrong action, like reversing a connector. The defect is the bad "
                   "product that follows. You stop the error before it becomes a defect. "
-                  "End-of-line inspection finds problems after you've spent the labour and "
+                  "End-of-line inspection finds problems after you've spent the labor and "
                   "parts. Why wait that long?",
     },
     {
@@ -283,7 +283,7 @@ VISUALS = {
     "p02": {"type": "flow", "stop": {"after": 0, "label": "STOP HERE", "with": 3}, "items": [
         {"label": "Error", "sub": "The wrong action", "icon": "hand", "tone": "bad", "with": 1},
         {"label": "Defect", "sub": "The bad product", "icon": "cross", "tone": "bad", "with": 2},
-        {"label": "Found at end of line", "sub": "Labour and parts already spent", "icon": "search", "tone": "bad", "with": "example"}]},
+        {"label": "Found at end of line", "sub": "Labor and parts already spent", "icon": "search", "tone": "bad", "with": "example"}]},
     "p03": {"type": "ladder", "items": [
         {"label": "Eliminate", "icon": "pin"}, {"label": "Prevent", "icon": "barcode"},
         {"label": "Detect and stop", "icon": "sensor"}, {"label": "Warn", "icon": "warning"},
@@ -304,7 +304,7 @@ VISUALS = {
         {"label": "Define", "with": 0}, {"label": "Observe", "with": 0},
         {"label": "Measure", "with": 0}, {"label": "Find the cause", "with": 0},
         {"label": "Choose an idea", "with": 1}, {"label": "Prototype", "with": 2},
-        {"label": "Challenge it", "with": 2}, {"label": "Standardise", "with": 3}]},
+        {"label": "Challenge it", "with": 2}, {"label": "Standardize", "with": 3}]},
     "p08": {"type": "assembly", "label": "Divya's NVR line: the fixture counts every screw",
             "then": {"type": "compare", "before": {"label": "Before", "value": 18}, "after": {"label": "After", "value": 1},
                      "unit": "missing screws per 10,000 units", "note": "about 94% fewer"}},

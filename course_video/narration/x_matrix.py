@@ -375,13 +375,13 @@ QUIZZES = [
     },
     {
         "key": "quiz2", "num": 2, "after": "p15",
-        "question": "Arjun's annual on-time delivery goal has no project linked to it. What should he do FIRST?",
+        "question": "A plant's annual on-time delivery goal has no project linked to it. What should the team do FIRST?",
         "options": ["Mark a strong link to the nearest project", "Find or launch a project that can move delivery — or rethink the goal",
                     "Leave it; the KPI will improve on its own"],
         "correct": 1,
         "explanation": "A goal with no supporting project is a gap. Close it with real work, or revise the goal; never fill the box with a link that has no mechanism.",
-        "q_script": "One more, and this one's a scenario. Arjun's annual delivery goal has no "
-                    "project linked to it. What should he do first? Have a think.",
+        "q_script": "One more, and this one's a scenario. A plant's annual delivery goal has no "
+                    "project linked to it. What should the team do first? Have a think.",
         "a_script": "Find or launch a project that can really move delivery, or rethink the goal. "
                     "Drawing a link with no real mechanism just hides the gap.",
     },

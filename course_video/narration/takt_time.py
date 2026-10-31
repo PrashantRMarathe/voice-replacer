@@ -86,12 +86,12 @@ PAGES = [
                    ("Subtract planned breaks, meetings, cleaning", "Then subtract planned"),
                    ("Don't subtract random downtime here", "don't subtract random downtime"),
                    ("Write down your assumptions", "write down your assumptions")],
-        "example": "480 min shift − breaks − a short meeting = 430 net minutes.",
+        "example": "480 min shift − breaks − a short meeting = 420 net minutes.",
         "example_cue": "An eight-hour shift",
         "script": "Start with net available time. Take your shift length. Then subtract planned "
                   "breaks, meetings and planned cleaning. An eight-hour shift is four hundred and "
                   "eighty minutes. Take off breaks and a short meeting, and you get four hundred "
-                  "and thirty. But don't subtract random downtime here. That's a loss you handle "
+                  "and twenty. But don't subtract random downtime here. That's a loss you handle "
                   "when you check capacity. Be consistent, and write down your assumptions. What "
                   "about the other half of the formula?",
     },
@@ -290,7 +290,7 @@ VISUALS = {
     "p03": {"type": "flow", "items": [
         {"label": "480 min shift", "icon": "clock", "with": 0},
         {"label": "− breaks, meeting, cleaning", "icon": "calendar", "with": 1},
-        {"label": "= 430 net minutes", "sub": "Random downtime is not taken off here", "icon": "check", "tone": "good", "with": "example"}]},
+        {"label": "= 420 net minutes", "sub": "Random downtime is not taken off here", "icon": "check", "tone": "good", "with": "example"}]},
     "p04": {"type": "versus", "items": [
         {"label": "Daily demand ÷ one shift", "sub": "Gives nonsense", "icon": "cross", "with": "example"},
         {"label": "Same period for both", "sub": "Good units, not units started", "icon": "calendar", "with": 0}]},

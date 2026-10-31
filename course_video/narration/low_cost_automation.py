@@ -218,7 +218,7 @@ PAGES = [
         "example_cue": "Gaurav's press cost",
         "script": "Count the total cost of ownership. That's design, parts, installation, training, air, "
                   "spares and maintenance. Count only benefits you can validate, like less rework and "
-                  "freed labour time. Payback is the investment, divided by the monthly net benefit. "
+                  "freed labor time. Payback is the investment, divided by the monthly net benefit. "
                   "Gaurav's press cost one point two lakh rupees. It saved thirty thousand a month. That's "
                   "a four month payback. How do you keep it running?",
     },

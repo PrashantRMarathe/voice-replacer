@@ -117,12 +117,12 @@ PAGES = [
         "points": [("What, where, when, who", "What failed, where"),
                    ("How detected, how many", "how it was detected"),
                    ("Confirmed rejects vs suspect population", "Separate confirmed rejects")],
-        "example": "Line 4: 18 of 600 cameras failed focus between 10:00 and noon, right after a lens fixture changeover.",
-        "example_cue": "On Line four, eighteen",
+        "example": "Line 4: 24 of 800 cameras failed focus between 10:00 and noon, right after a lens fixture changeover.",
+        "example_cue": "On Line four, twenty-four",
         "script": "A sharp problem statement stops you chasing the wrong thing. Use 5W2H. What "
                   "failed, where, when, who saw it, how it was detected, and how many. Separate "
                   "confirmed rejects from the suspect population. Here's Farhan's statement. On "
-                  "Line four, eighteen of six hundred cameras failed focus, between ten and noon. "
+                  "Line four, twenty-four of eight hundred cameras failed focus that morning. "
                   "It started right after a lens fixture changeover. Notice how that already "
                   "points somewhere. But first, what about the suspect units?",
     },
@@ -146,15 +146,15 @@ PAGES = [
         "points": [("Risk, containment, cause, action, owner, date", "Each issue shows"),
                    ("Red open · amber verifying · green proven", "Use red for open"),
                    ("Bring real samples and trend charts", "Bring the real samples"),
-                   ("Nothing 'done' without proof", "watch for meeting theatre")],
+                   ("Nothing 'done' without proof", "watch for meeting theater")],
         "example": "Farhan's 15-minute huddle: new problems, then containment, then actions and escalations.",
         "example_cue": "Farhan runs a fifteen-minute",
-        "script": "The QRQC board is your control centre. Each issue shows its risk, "
+        "script": "The QRQC board is your control center. Each issue shows its risk, "
                   "containment, cause, action, owner and due date. Use red for open, amber for "
                   "verifying, and green only for proven closure. Farhan runs a fifteen-minute "
                   "huddle at the board each shift. New problems first, then containment, then "
                   "actions and escalations. Bring the real samples and trend charts. And watch "
-                  "for meeting theatre. Is anything marked done without proof?",
+                  "for meeting theater. Is anything marked done without proof?",
     },
     {
         "key": "p08", "num": 8, "title": "Root Cause with Evidence",
@@ -213,7 +213,7 @@ PAGES = [
                   "first effective containment. Containment coverage is the share of suspect "
                   "units you've accounted for. Track first pass yield and the defect rate. And "
                   "measure on-time closure of actions. Here's a subtle one. If you've found "
-                  "ninety-five percent of the suspect units, you're not nearly done. Five "
+                  "ninety-five percent of the suspect units, you're not done. Five "
                   "percent are still out there. Ready for Farhan's case?",
     },
     {
@@ -221,14 +221,14 @@ PAGES = [
         "points": [("24 of 800 fail focus vs < 0.5% normal", "After the changeover"),
                    ("Hold work order + output since last good setup", "Farhan held the work order"),
                    ("Compare fixture, recipe, focus trend", "The team compared"),
-                   ("Test the spacer hypothesis", "Their hypothesis was")],
-        "example": "The wrong spacer reproduced the failure on controlled samples. Only then was it called the cause.",
+                   ("Test the recipe hypothesis", "Their hypothesis was")],
+        "example": "The wrong focus recipe reproduced the failure on controlled samples. Only then was it called the cause.",
         "example_cue": "So they tested it",
         "script": "Here's the full story. After the changeover, twenty-four of eight hundred "
                   "cameras failed focus. The normal rate was under half a percent. Farhan held "
                   "the work order, and everything since the last good setup. The team compared "
-                  "fixture records, recipe versions and focus trends. Their hypothesis was a "
-                  "wrong spacer. So they tested it on controlled samples, and it reproduced the "
+                  "fixture records, recipe versions and focus trends. Their hypothesis was the "
+                  "wrong focus recipe. So they tested it on controlled samples, and it reproduced the "
                   "failure. Only then did they call it the cause. Would your team have waited?",
     },
     {
@@ -305,7 +305,7 @@ VISUALS = {
         {"label": "What, where, when, who", "icon": "search", "with": 0},
         {"label": "How detected, how many", "icon": "count", "with": 1},
         {"label": "Rejects vs suspects", "icon": "stack", "with": 2}],
-        "then": {"type": "stat", "value": 18, "suffix": " of 600", "icon": "camera", "label": "cameras failed focus",
+        "then": {"type": "stat", "value": 24, "suffix": " of 800", "icon": "camera", "label": "cameras failed focus",
                  "unit": "10:00 to noon, right after a lens fixture changeover", "with": "example"}},
     "p06": {"type": "icons", "items": [
         {"label": "Find the scope", "icon": "search"}, {"label": "Hold it", "icon": "lock"},
@@ -346,7 +346,7 @@ VISUALS = {
         {"label": "24 of 800 fail focus", "sub": "Normal: under 0.5%", "icon": "camera", "tone": "bad", "with": 0},
         {"label": "Hold since the last good setup", "icon": "lock", "with": 1},
         {"label": "Compare fixture, recipe, trend", "icon": "search", "with": 2},
-        {"label": "Wrong spacer reproduced it", "sub": "Only then: the cause", "icon": "test", "tone": "good", "with": "example"}]},
+        {"label": "Wrong recipe reproduced it", "sub": "Only then: the cause", "icon": "test", "tone": "good", "with": "example"}]},
     "p13": {"type": "flow", "items": [
         {"label": "Carton label ≠ device", "icon": "label", "tone": "bad", "with": 0},
         {"label": "Hold the pallet, match serials", "icon": "lock", "with": 1},

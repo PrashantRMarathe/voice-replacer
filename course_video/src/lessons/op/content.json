@@ -321,7 +321,7 @@
           "with": "example",
           "items": [
             {
-              "label": "Colour only",
+              "label": "Color only",
               "sub": "Not everyone sees it",
               "icon": "warning"
             },
@@ -337,13 +337,13 @@
         "Real photos, arrows on the exact spot",
         "Good and bad side by side",
         "Large text, plenty of space",
-        "Never use colour as the only signal"
+        "Never use color as the only signal"
       ],
       "at": [
         9.6,
         15.046,
         17.97,
-        24.514
+        24.52
       ],
       "exampleAt": 27.443
     },
@@ -522,7 +522,7 @@
         "type": "icons",
         "items": [
           {
-            "label": "Changed behaviour",
+            "label": "Changed behavior",
             "icon": "person",
             "with": 0
           },
@@ -548,12 +548,12 @@
             "value": 1
           },
           "unit": "cracked connectors a week, night shift",
-          "note": "The lesson changed behaviour",
+          "note": "The lesson changed behavior",
           "with": "example"
         }
       },
       "bullets": [
-        "Changed behaviour is the result",
+        "Changed behavior is the result",
         "Check knowledge with questions",
         "Watch the method days later",
         "Track the targeted defect"

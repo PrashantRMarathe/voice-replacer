@@ -59,7 +59,7 @@
       "key": "p02",
       "num": 2,
       "title": "Boundaries Matter",
-      "example": "21 seconds was touch time. 28 seconds was the real unit-to-unit interval.",
+      "example": "21 seconds came from old standard times. 28 seconds was the real unit-to-unit interval.",
       "visual": {
         "type": "icons",
         "items": [
@@ -88,9 +88,9 @@
           "with": "example",
           "items": [
             {
-              "label": "Touch time",
+              "label": "Old standard times",
               "sub": "21 seconds",
-              "icon": "hand",
+              "icon": "clipboard",
               "with": "example"
             },
             {
@@ -111,11 +111,11 @@
       ],
       "at": [
         4.834,
-        10.663,
-        15.289,
-        30.301
+        10.576,
+        15.441,
+        33.36
       ],
-      "exampleAt": 23.281
+      "exampleAt": 23.443
     },
     {
       "key": "p03",
@@ -278,7 +278,7 @@
       "key": "p06",
       "num": 6,
       "title": "Breaking Down the Elements",
-      "example": "Station C: load 5 s, scan label 3 s, display test 15 s, unload 4 s, waiting 1 s.",
+      "example": "Station C: load 4 s, scan label 3 s, display test 13 s, serial label 4 s, unload 3 s, waiting 1 s.",
       "visual": {
         "type": "bars",
         "label": "",
@@ -287,7 +287,7 @@
         "items": [
           {
             "label": "Load",
-            "value": 5,
+            "value": 4,
             "with": "example"
           },
           {
@@ -297,12 +297,17 @@
           },
           {
             "label": "Test",
-            "value": 15,
+            "value": 13,
+            "with": "example"
+          },
+          {
+            "label": "Serial label",
+            "value": 4,
             "with": "example"
           },
           {
             "label": "Unload",
-            "value": 4,
+            "value": 3,
             "with": "example"
           },
           {
@@ -320,12 +325,12 @@
         "Never cut quality or safety checks"
       ],
       "at": [
-        1.17,
-        6.182,
-        12.818,
-        22.295
+        1.411,
+        6.31,
+        12.833,
+        22.061
       ],
-      "exampleAt": 25.959
+      "exampleAt": 25.573
     },
     {
       "key": "p07",
@@ -628,7 +633,7 @@
       "key": "p13",
       "num": 13,
       "title": "Rebalancing the Line",
-      "example": "Serial label moved to station A: A 24 s, C 23 s. The longest station now meets TAKT.",
+      "example": "Serial label moved to station A: A 23 s, C 23 s. Every station now sits below TAKT.",
       "visual": {
         "type": "bars",
         "label": "TAKT",
@@ -638,7 +643,7 @@
         "items": [
           {
             "label": "A",
-            "value": 24,
+            "value": 23,
             "with": "example"
           },
           {

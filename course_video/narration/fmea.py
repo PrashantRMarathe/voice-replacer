@@ -40,7 +40,7 @@ INTRO_SCRIPT = (
 )
 OUTRO_SCRIPT = (
     "So, three things to remember. Build a clear chain, from effect to failure mode to a "
-    "cause you can control. Score with evidence, and never let the number replace judgement. "
+    "cause you can control. Score with evidence, and never let the number replace judgment. "
     "And prefer prevention, then prove it works before you rescore. Here's your action for "
     "this week. Pick one critical step, and write its failure chain with your team. Great "
     "work completing this lesson. Next, you'll learn Gemba, the real place."
@@ -199,13 +199,13 @@ PAGES = [
         "key": "p12", "num": 12, "title": "Prevention vs Detection",
         "points": [("Prevention: stop the cause happening", "Prevention controls"),
                    ("Detection: catch it before release", "Detection controls"),
-                   ("Automatic beats human judgement", "automatic beats")],
+                   ("Automatic beats human judgment", "automatic beats")],
         "example": "Asha's only control: a final visual check. Detection, and a weak one.",
         "example_cue": "Asha's only control",
         "script": "Know which kind of control you have. Prevention controls stop the cause happening, "
                   "like a keyed part or a recipe lock. Detection controls catch the failure before "
                   "release, like a sensor or a test. Ask whether each one checks every unit, and whether "
-                  "it can be bypassed. And automatic beats human judgement, almost every time. Asha's "
+                  "it can be bypassed. And automatic beats human judgment, almost every time. Asha's "
                   "only control was a final visual check. Detection, and a weak one. What would you add?",
     },
     {

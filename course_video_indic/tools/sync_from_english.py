@@ -122,14 +122,16 @@ def main():
     en = getattr(mod, "LANG", "en") == "en"
 
     if en and re.match(''')
-    patch(L, '''    unclear = sorted({w for _, t in clips for w in re.findall(r"\\b[A-Z]{2,}\\b", spoken(t))})
+    patch(L, '''    unclear = sorted({w for _, t in clips
+                      for w in re.findall(r"\\b[A-Z]{2,}\\b|\\b(?=\\w*\\d)(?=\\w*[A-Z])\\w+\\b", spoken(t))})
     if unclear:''', '''    if not en:
         # the Indian-language voice reads its own script only: every English
         # term needs a native-script form in say() (captions keep the English)
         latin = sorted({w for _, t in clips for w in re.findall(r"[A-Za-z][A-Za-z'-]*", spoken(t))})
         if latin:
             add("lesson", f"English left in the spoken text: {', '.join(latin)} (add it to say())")
-    unclear = sorted({w for _, t in clips for w in re.findall(r"\\b[A-Z]{2,}\\b", spoken(t))})
+    unclear = sorted({w for _, t in clips
+                      for w in re.findall(r"\\b[A-Z]{2,}\\b|\\b(?=\\w*\\d)(?=\\w*[A-Z])\\w+\\b", spoken(t))})
     if en and unclear:''')
     patch(L, '''            words = len(s.split())
             if words > MAX_SENT_WORDS:

@@ -648,12 +648,12 @@
         "Check ergonomics with operators"
       ],
       "at": [
-        1.055,
-        7.014,
-        12.013,
-        38.531
+        1.407,
+        7.315,
+        11.876,
+        38.683
       ],
-      "exampleAt": 27.804
+      "exampleAt": 27.443
     },
     {
       "key": "p13",

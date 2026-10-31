@@ -347,13 +347,13 @@
       "key": "p10",
       "num": 10,
       "title": "What the Place Showed",
-      "example": "Shift B's iron had a larger tip from the spares crib. Not the standard one.",
+      "example": "Shift B's iron had a smaller tip from the spares crib. Not the standard one.",
       "visual": {
         "type": "versus",
         "items": [
           {
             "label": "Shift B tip",
-            "sub": "Larger, from the spares crib",
+            "sub": "Smaller, from the spares crib",
             "icon": "wrench",
             "tone": "bad",
             "with": 1
@@ -373,17 +373,17 @@
         "Changed on Monday night"
       ],
       "at": [
-        4.179,
-        11.85,
-        18.775
+        4.644,
+        11.111,
+        19.19
       ],
-      "exampleAt": 21.674
+      "exampleAt": 21.307
     },
     {
       "key": "p11",
       "num": 11,
       "title": "What the Facts Showed",
-      "example": "Trial: standard tip 1 failure in 300. Larger tip: 7 in 300.",
+      "example": "Trial: standard tip 1 failure in 300. Smaller tip: 7 in 300.",
       "visual": {
         "type": "bars",
         "label": "",
@@ -397,7 +397,7 @@
             "with": "example"
           },
           {
-            "label": "Larger tip",
+            "label": "Smaller tip",
             "value": 7,
             "tone": "bad",
             "with": "example"
@@ -410,11 +410,11 @@
         "A controlled trial confirmed it"
       ],
       "at": [
-        1.304,
-        6.551,
-        12.428
+        1.251,
+        6.658,
+        12.757
       ],
-      "exampleAt": 18.482
+      "exampleAt": 18.585
     },
     {
       "key": "p12",
@@ -429,7 +429,7 @@
             "with": 0
           },
           {
-            "label": "Larger tip, too little heat",
+            "label": "Smaller tip, too little heat",
             "with": 0
           },
           {
@@ -458,7 +458,7 @@
       "key": "p13",
       "num": 13,
       "title": "Fix and Verify",
-      "example": "Failures: 20 per 1,000 down to 5 per 1,000, on both shifts.",
+      "example": "Shift B: 20 per 1,000 down to 8 per 1,000, level with shift A.",
       "visual": {
         "type": "compare",
         "before": {
@@ -467,10 +467,10 @@
         },
         "after": {
           "label": "After",
-          "value": 5
+          "value": 8
         },
-        "unit": "failures per 1,000 earbuds",
-        "note": "Both shifts, verified over 5 shifts",
+        "unit": "failures per 1,000 earbuds, shift B",
+        "note": "Level with shift A, verified over 5 shifts",
         "with": "example"
       },
       "bullets": [
@@ -479,11 +479,11 @@
         "Verified over five shifts"
       ],
       "at": [
-        4.583,
-        10.382,
-        15.471
+        4.482,
+        10.681,
+        15.186
       ],
-      "exampleAt": 21.127
+      "exampleAt": 21.337
     },
     {
       "key": "p14",

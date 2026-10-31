@@ -94,11 +94,11 @@
         "People adopt what they help design"
       ],
       "at": [
-        1.164,
-        5.991,
-        21.008
+        1.065,
+        6.58,
+        21.496
       ],
-      "exampleAt": 24.118
+      "exampleAt": 24.284
     },
     {
       "key": "p03",
@@ -521,7 +521,7 @@
       "key": "p12",
       "num": 12,
       "title": "Plan the Test",
-      "example": "Hypothesis: label slots + scan check cut label time below 2 s, with zero errors in 500 pumps.",
+      "example": "Hypothesis: label slots + scan check bring cycle time inside TAKT and cut label errors by at least 75%.",
       "visual": {
         "type": "flow",
         "items": [
@@ -549,11 +549,11 @@
         "A decision rule agreed up front"
       ],
       "at": [
-        3.735,
-        8.986,
-        13.97
+        3.771,
+        8.861,
+        13.631
       ],
-      "exampleAt": 19.35
+      "exampleAt": 19.255
     },
     {
       "key": "p13",
@@ -601,7 +601,7 @@
       "key": "p14",
       "num": 14,
       "title": "Adapt Before You Roll Out",
-      "example": "The two packers worked on the left. The slots were on the right. Mirror the layout.",
+      "example": "The two packers were left-handed. The slots were on the right. Mirror the layout.",
       "visual": {
         "type": "flow",
         "items": [

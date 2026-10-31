@@ -117,7 +117,7 @@ PAGES = [
                    ("A near miss or a skilled person's trick", "A near miss")],
         "example": "Ravi's trigger: the cause of the cracked connectors was found — now the fix had to reach every shift.",
         "example_cue": "For Ravi, the trigger",
-        "script": "Make one when a small piece of knowledge can change behaviour. A repeat "
+        "script": "Make one when a small piece of knowledge can change behavior. A repeat "
                   "defect has just been solved. A new product, machine or jig arrives. A step in "
                   "the SOP keeps being misunderstood. A near miss reveals a gap. Or a skilled "
                   "person knows a trick nobody else does. For Ravi, the trigger was clear. The "
@@ -159,13 +159,13 @@ PAGES = [
         "points": [("Real photos, arrows on the exact spot", "Use real photos"),
                    ("Good and bad side by side", "Put good and bad"),
                    ("Large text, plenty of space", "Use large text"),
-                   ("Never use colour as the only signal", "never use colour")],
+                   ("Never use color as the only signal", "never use color")],
         "example": "Ravi's OPL shows a tick, a cross, and the words good and not good.",
         "example_cue": "Ravi added a tick",
         "script": "Visuals are the heart of an OPL. Your learner should get the point before "
                   "reading a single sentence. Use real photos, with arrows and circles on the "
                   "exact spot. Put good and bad side by side. Use large text and plenty of "
-                  "space. Avoid long paragraphs and jargon. And never use colour as the only "
+                  "space. Avoid long paragraphs and jargon. And never use color as the only "
                   "signal. Ravi added a tick, a cross, and the words good and not good. So how "
                   "do you actually teach it?",
     },
@@ -231,14 +231,14 @@ PAGES = [
     },
     {
         "key": "p13", "num": 13, "title": "Measuring Effectiveness",
-        "points": [("Changed behaviour is the result", "Changed behaviour is"),
+        "points": [("Changed behavior is the result", "Changed behavior is"),
                    ("Check knowledge with questions", "So check knowledge"),
                    ("Watch the method days later", "Then watch the method"),
                    ("Track the targeted defect", "And track the defect")],
         "example": "Night shift: 14 cracked connectors a week → 1 a week, six weeks after the lesson.",
         "example_cue": "Ravi's night shift cracked",
         "script": "Here's the real test. Training completion is not the result. Changed "
-                  "behaviour is. So check knowledge with a few questions. Then watch the method "
+                  "behavior is. So check knowledge with a few questions. Then watch the method "
                   "at the gemba, days later. And track the defect you were targeting. Ravi's "
                   "night shift cracked fourteen connectors a week. Six weeks after the lesson, "
                   "they cracked one. If a problem continues, don't just retrain. Look at the "
@@ -310,7 +310,7 @@ VISUALS = {
         {"label": "Good and bad side by side", "icon": "shape", "with": 1},
         {"label": "Large text, space", "icon": "label", "with": 2}],
         "then": {"type": "versus", "with": "example", "items": [
-            {"label": "Colour only", "sub": "Not everyone sees it", "icon": "warning"},
+            {"label": "Color only", "sub": "Not everyone sees it", "icon": "warning"},
             {"label": "Tick, cross + words", "sub": "Good / not good", "icon": "check"}]}},
     "p09": {"type": "flow", "items": [
         {"label": "Explain why it matters", "icon": "person"},
@@ -331,11 +331,11 @@ VISUALS = {
         {"label": "Reviewed on every change", "icon": "sequence"},
         {"label": "Old copies removed", "icon": "trash", "tone": "good"}]},
     "p13": {"type": "icons", "items": [
-        {"label": "Changed behaviour", "icon": "person", "with": 0},
+        {"label": "Changed behavior", "icon": "person", "with": 0},
         {"label": "A few questions", "icon": "search", "with": 1},
         {"label": "Watch, days later", "icon": "clock", "with": 2}],
         "then": {"type": "compare", "before": {"label": "Before", "value": 14}, "after": {"label": "6 weeks after", "value": 1},
-                 "unit": "cracked connectors a week, night shift", "note": "The lesson changed behaviour", "with": "example"}},
+                 "unit": "cracked connectors a week, night shift", "note": "The lesson changed behavior", "with": "example"}},
     "p14": {"type": "icons", "items": [
         {"label": "Too much?", "sub": "Split it", "icon": "stack"},
         {"label": "Text only?", "sub": "Add real photos", "icon": "camera"},
@@ -355,7 +355,7 @@ QUIZZES = [
         "key": "quiz1", "num": 1, "after": "p08",
         "question": "A draft OPL covers connector insertion, screw torque, label checks and ESD on one page. What's the problem?",
         "options": ["It needs more text", "It has too many points — split it into separate OPLs",
-                    "It should be in colour only"],
+                    "It should be in color only"],
         "correct": 1,
         "explanation": "An OPL teaches ONE point. Four topics on one page dilute the message — make four focused OPLs instead.",
         "q_script": "Quick check. A draft lesson covers connector insertion, screw torque, label "

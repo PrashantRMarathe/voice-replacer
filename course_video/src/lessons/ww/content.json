@@ -60,11 +60,11 @@
         "Stop at a cause you can prove & control"
       ],
       "at": [
-        3.142,
-        14.216,
-        16.861
+        3.071,
+        14.153,
+        16.769
       ],
-      "exampleAt": 21.609
+      "exampleAt": 21.847
     },
     {
       "key": "p02",
@@ -123,18 +123,18 @@
         "Human action is a clue, not the answer"
       ],
       "at": [
-        1.173,
-        15.687,
-        21.419,
-        24.836
+        0.862,
+        15.486,
+        21.213,
+        24.861
       ],
-      "exampleAt": 30.233
+      "exampleAt": 30.339
     },
     {
       "key": "p03",
       "num": 3,
       "title": "Step 1: Define with 5W2H",
-      "example": "Line 2: 24 of 800 phones (3%) failed charging after the 11:00 fixture change; the shift before ran under 0.5%.",
+      "example": "Line 2: 21 of 700 phones (3%) failed charging after the 11:00 fixture change; the shift before ran under 0.5%.",
       "visual": {
         "type": "doc",
         "items": [
@@ -154,7 +154,7 @@
             "with": 1
           },
           {
-            "label": "How many: 24 of 800 phones (3%)",
+            "label": "How many: 21 of 700 phones (3%)",
             "icon": "count",
             "with": 1
           },
@@ -171,11 +171,11 @@
         "Include the last known good"
       ],
       "at": [
-        0.81,
-        6.325,
-        14.377
+        1.206,
+        6.505,
+        14.461
       ],
-      "exampleAt": 19.433
+      "exampleAt": 19.597
     },
     {
       "key": "p04",
@@ -215,12 +215,12 @@
         "Reconcile every unit"
       ],
       "at": [
-        2.411,
-        9.909,
-        15.97,
-        20.112
+        2.48,
+        10.022,
+        16.255,
+        20.431
       ],
-      "exampleAt": 33.722
+      "exampleAt": 34.159
     },
     {
       "key": "p05",
@@ -259,12 +259,12 @@
         "Saw · source · might mean"
       ],
       "at": [
-        7.19,
-        11.11,
+        7.549,
+        10.966,
         18.066,
-        33.307
+        33.735
       ],
-      "exampleAt": 22.898
+      "exampleAt": 22.424
     },
     {
       "key": "p06",
@@ -328,11 +328,11 @@
       ],
       "at": [
         0.93,
-        9.534,
-        17.629,
+        9.513,
+        17.617,
         37.233
       ],
-      "exampleAt": 25.321
+      "exampleAt": 25.115
     },
     {
       "key": "p07",
@@ -395,12 +395,12 @@
         "Each needs its own fix"
       ],
       "at": [
-        6.928,
-        10.752,
-        14.684,
-        35.608
+        6.256,
+        10.961,
+        14.816,
+        35.822
       ],
-      "exampleAt": 21.794
+      "exampleAt": 21.674
     },
     {
       "key": "p08",
@@ -475,18 +475,18 @@
         "A fishbone is guesses, not proof"
       ],
       "at": [
-        5.018,
-        14.153,
-        27.939,
-        34.259
+        4.931,
+        14.546,
+        28.152,
+        34.659
       ],
-      "exampleAt": 19.303
+      "exampleAt": 19.057
     },
     {
       "key": "p09",
       "num": 9,
       "title": "Prove the Cause",
-      "example": "Good vs suspect fixture pins on the same phones: the failures followed the suspect pins.",
+      "example": "Good vs worn fixture pins, with the same parts: the failures followed the worn pins.",
       "visual": {
         "type": "steps",
         "items": [
@@ -512,14 +512,14 @@
           "with": "example",
           "items": [
             {
-              "label": "Suspect pins",
+              "label": "Worn pins",
               "sub": "Failures followed",
               "icon": "pin",
               "with": "example"
             },
             {
               "label": "Good pins",
-              "sub": "Same phones passed",
+              "sub": "Same parts passed",
               "icon": "check",
               "with": "example"
             }
@@ -532,11 +532,11 @@
         "Test good and bad, across shifts"
       ],
       "at": [
-        5.162,
-        11.769,
-        17.483
+        5.215,
+        11.932,
+        17.849
       ],
-      "exampleAt": 22.021
+      "exampleAt": 21.997
     },
     {
       "key": "p10",
@@ -578,9 +578,9 @@
         "Update FMEA, SOP, training"
       ],
       "at": [
-        1.054,
-        4.805,
-        14.545,
+        1.159,
+        4.86,
+        14.726,
         19.443
       ],
       "exampleAt": 24.494
@@ -655,18 +655,18 @@
         "No new downtime or false rejects"
       ],
       "at": [
-        1.232,
-        5.537,
-        13.02,
-        19.969
+        1.498,
+        6.203,
+        13.036,
+        20.07
       ],
-      "exampleAt": 24.837
+      "exampleAt": 24.944
     },
     {
       "key": "p12",
       "num": 12,
       "title": "Why-Why KPIs",
-      "example": "60 → 12 defects = an 80% drop. ₹1.2 lakh cost, ₹20,000 saved a month = 6-month payback.",
+      "example": "50 → 15 defects = a 70% drop. ₹1.2 lakh cost, ₹30,000 saved a month = 4-month payback.",
       "visual": {
         "type": "icons",
         "items": [
@@ -695,14 +695,14 @@
           "type": "compare",
           "before": {
             "label": "Before",
-            "value": 60
+            "value": 50
           },
           "after": {
             "label": "After",
-            "value": 12
+            "value": 15
           },
           "unit": "charging defects, same volume",
-          "note": "An 80% drop · 6-month payback",
+          "note": "A 70% drop · 4-month payback",
           "with": "example"
         }
       },
@@ -713,10 +713,10 @@
         "Keep definitions stable"
       ],
       "at": [
-        1.331,
-        4.212,
-        9.819,
-        14.27
+        1.287,
+        4.474,
+        10.286,
+        14.235
       ],
       "exampleAt": 21.194
     },
@@ -724,22 +724,22 @@
       "key": "p13",
       "num": 13,
       "title": "Case Study: Charging Failure",
-      "example": "Only the new fixture failed the known-good phones.",
+      "example": "The failed phones failed again on a second tester: the phones really were faulty.",
       "visual": {
         "type": "flow",
         "items": [
           {
-            "label": "Phone or fixture?",
+            "label": "Phone or tester?",
             "icon": "search",
             "with": 0
           },
           {
-            "label": "Known-good phones on both fixtures",
+            "label": "Second tester: still failed",
             "icon": "test",
             "with": 1
           },
           {
-            "label": "Worn pin, no replacement interval",
+            "label": "Worn assembly-fixture pin, no replacement interval",
             "icon": "pin",
             "tone": "bad",
             "with": 2
@@ -753,18 +753,18 @@
         ]
       },
       "bullets": [
-        "Phone or fixture? Test that first",
-        "Known-good phones on old and new fixtures",
-        "Worn spring pin → no replacement interval",
+        "Phone or tester? Test that first",
+        "Retested on a second tester: still failed",
+        "Worn pin on the assembly fixture",
         "Fix: new pins, life limits, setup check"
       ],
       "at": [
-        4.342,
-        14.067,
-        24.097,
-        34.107
+        4.643,
+        8.689,
+        20.616,
+        35.02
       ],
-      "exampleAt": 18.974
+      "exampleAt": 13.289
     },
     {
       "key": "p14",
@@ -819,10 +819,10 @@
         "Deploy proven fixes to similar lines"
       ],
       "at": [
-        1.215,
-        4.211,
-        19.661,
-        33.61
+        1.291,
+        4.597,
+        19.623,
+        33.611
       ],
       "exampleAt": 27.979
     },
@@ -861,10 +861,10 @@
         "Days 61–90: challenge, update, spread"
       ],
       "at": [
-        4.737,
+        4.582,
         10.783,
         16.058,
-        22.512
+        22.504
       ],
       "exampleAt": 29.873
     }

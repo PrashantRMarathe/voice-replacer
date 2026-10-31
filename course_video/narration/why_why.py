@@ -31,7 +31,7 @@ def say(text: str) -> str:
 
 
 INTRO_SCRIPT = (
-    "Twenty-four phones failed charging at final test. The first answer came fast. "
+    "Twenty-one phones failed charging at final test. The first answer came fast. "
     "Operator error. Two days later, it happened again. Sound familiar? In this lesson, "
     "you'll learn Why-Why analysis, often called five whys. You'll see how to dig past "
     "the easy answer, to a cause you can prove and control. We'll follow Neha, a quality "
@@ -82,11 +82,11 @@ PAGES = [
         "points": [("A sharp problem statement", "Start with a sharp"),
                    ("5W2H: what, where, when, how found, how many", "Use 5W2H"),
                    ("Include the last known good", "Include the last known good")],
-        "example": "Line 2: 24 of 800 phones (3%) failed charging after the 11:00 fixture change; the shift before ran under 0.5%.",
+        "example": "Line 2: 21 of 700 phones (3%) failed charging after the 11:00 fixture change; the shift before ran under 0.5%.",
         "example_cue": "On Line two",
         "script": "Start with a sharp problem statement. A vague problem gets vague answers. Use "
                   "5W2H. What failed, where, when, how it was found, and how many. Include the last "
-                  "known good condition. Here's Neha's statement. On Line two, twenty-four of eight "
+                  "known good condition. Here's Neha's statement. On Line two, twenty-one of seven "
                   "hundred phones failed charging. That's three percent, right after an eleven "
                   "o'clock fixture change. The shift before ran under half a percent. Notice how "
                   "much that tells you already. But what about the phones already built?",
@@ -218,14 +218,14 @@ PAGES = [
                    ("Leading: fast containment, verified actions", "Leading measures"),
                    ("Lagging: defect rate, recurrence", "Lagging measures"),
                    ("Keep definitions stable", "Keep the definitions stable")],
-        "example": "60 → 12 defects = an 80% drop. ₹1.2 lakh cost, ₹20,000 saved a month = 6-month payback.",
+        "example": "50 → 15 defects = a 70% drop. ₹1.2 lakh cost, ₹30,000 saved a month = 4-month payback.",
         "example_cue": "Neha's defects fell",
         "script": "Measure both speed and results. Leading measures include fast containment and "
                   "verified actions. Lagging measures include defect rate and recurrence. Keep the "
                   "definitions stable, so nobody improves a number by changing it. Neha's defects "
-                  "fell from sixty to twelve, on the same volume. That's an eighty percent drop. "
-                  "Her fix cost one point two lakh rupees, and saves twenty thousand a month. So it "
-                  "pays back in six months. Which of these does your team track today?",
+                  "fell from fifty to fifteen, on the same volume. That's a seventy percent drop. "
+                  "Her fix cost one point two lakh rupees, and saves thirty thousand a month. So it "
+                  "pays back in four months. Which of these does your team track today?",
     },
     {
         "key": "p13", "num": 13, "title": "Case Study: Charging Failure",
@@ -298,7 +298,7 @@ VISUALS = {
         {"label": "Problem statement · Line 2", "icon": "label", "with": 0},
         {"label": "What: charging failure at final test", "icon": "power", "with": 1},
         {"label": "When: after the 11:00 fixture change", "icon": "clock", "with": 1},
-        {"label": "How many: 24 of 800 phones (3%)", "icon": "count", "with": 1},
+        {"label": "How many: 21 of 700 phones (3%)", "icon": "count", "with": 1},
         {"label": "Last known good: under 0.5%", "icon": "check", "with": 2}]},
     "p04": {"type": "flow", "items": [
         {"label": "Protect the customer", "icon": "shield", "with": 0},
@@ -365,8 +365,8 @@ VISUALS = {
         {"label": "Leading: fast containment", "icon": "shield", "with": 1},
         {"label": "Lagging: defects, repeats", "icon": "chartDown", "with": 2},
         {"label": "Stable definitions", "icon": "scale", "with": 3}],
-        "then": {"type": "compare", "before": {"label": "Before", "value": 60}, "after": {"label": "After", "value": 12},
-                 "unit": "charging defects, same volume", "note": "An 80% drop · 6-month payback", "with": "example"}},
+        "then": {"type": "compare", "before": {"label": "Before", "value": 50}, "after": {"label": "After", "value": 15},
+                 "unit": "charging defects, same volume", "note": "A 70% drop · 4-month payback", "with": "example"}},
     "p13": {"type": "flow", "items": [
         {"label": "Phone or tester?", "icon": "search", "with": 0},
         {"label": "Second tester: still failed", "icon": "test", "with": 1},

@@ -195,7 +195,7 @@ PAGES = [
                   "sets the best, safest method. Poka Yoke stops errors at the source. SMED cuts "
                   "changeover time, and TPM keeps machines reliable. Root cause analysis stops "
                   "repeat defects. Sanjay moved labels and screws to racks at each station. "
-                  "Walking dropped from forty metres to eight. One warning, though. Don't "
+                  "Walking dropped from forty meters to eight. One warning, though. Don't "
                   "automate a waste. You'll just make it faster.",
     },
     {

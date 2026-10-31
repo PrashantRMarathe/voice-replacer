@@ -127,13 +127,13 @@ PAGES = [
                    ("Clear start and finish for each", "Each element needs"),
                    ("Waiting recorded separately", "Record waiting separately"),
                    ("Never cut quality or safety checks", "Never remove")],
-        "example": "Station C: load 5 s, scan label 3 s, display test 15 s, unload 4 s, waiting 1 s.",
+        "example": "Station C: load 4 s, scan label 3 s, display test 13 s, serial label 4 s, unload 3 s, waiting 1 s.",
         "example_cue": "Imran split station C",
         "script": "Split the work into small elements you can actually see. Each element needs a clear "
                   "start and finish, so nothing is counted twice. Record waiting separately from touch "
                   "time. Then sort each step as value-adding, necessary, or pure waste. Never remove a "
-                  "required quality or safety check. Imran split station C into five parts. Load, scan "
-                  "the label, display test, unload, and a little waiting. Where would you look first?",
+                  "required quality or safety check. Imran split station C into six parts. Load, scan "
+                  "the label, display test, the serial label, unload, and a little waiting. Where would you look first?",
     },
     {
         "key": "p07", "num": 7, "title": "The Stopwatch Sheet",
@@ -295,10 +295,11 @@ VISUALS = {
         {"label": "Normal cycles only", "icon": "clock", "with": 2},
         {"label": "Explain to operator", "icon": "person", "tone": "good", "with": 3}]},
     "p06": {"type": "bars", "label": "", "note": "Station C elements: 28 s in total", "with": "example", "items": [
-        {"label": "Load", "value": 5, "with": "example"},
+        {"label": "Load", "value": 4, "with": "example"},
         {"label": "Scan", "value": 3, "with": "example"},
-        {"label": "Test", "value": 15, "with": "example"},
-        {"label": "Unload", "value": 4, "with": "example"},
+        {"label": "Test", "value": 13, "with": "example"},
+        {"label": "Serial label", "value": 4, "with": "example"},
+        {"label": "Unload", "value": 3, "with": "example"},
         {"label": "Wait", "value": 1, "tone": "bad", "with": "example"}]},
     "p07": {"type": "bars", "label": "", "note": "Ten cycles timed at station C (seconds)", "items": [
         {"label": "Fastest", "value": 26, "tone": "good", "with": 1},

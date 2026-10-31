@@ -57,12 +57,12 @@ PAGES = [
                    ("The proven level for each person", "It shows the proven level"),
                    ("The gaps", "And it shows the gaps"),
                    ("Not an attendance sheet", "It is not an attendance sheet")],
-        "example": "Vikram's cell: lens fitting, fastening, test and packing — with approved backups for each.",
+        "example": "Vikram's cell: board assembly, lens focus, test and packing — with approved backups for each.",
         "example_cue": "Vikram's cell has",
         "script": "Here's the core idea. A Skill Training Matrix is a visual record of who can do "
                   "which job, and how well. It shows the proven level for each person, on each "
                   "operation. And it shows the gaps. It is not an attendance sheet, or a list of "
-                  "courses. Vikram's cell has lens fitting, fastening, test and packing. His "
+                  "courses. Vikram's cell has board assembly, lens focus, test and packing. His "
                   "matrix shows the approved backups for each. Why does that matter so much on "
                   "your line?",
     },
@@ -165,9 +165,9 @@ PAGES = [
         "example": "Vikram's packing Dojo uses wrong labels and missing accessories on purpose.",
         "example_cue": "Vikram's packing Dojo",
         "script": "Train your people with structured on-the-job training. The trainer prepares, demonstrates at "
-                  "standard pace, and then the learner practises with feedback. An independent "
+                  "standard pace, and then the learner practices with feedback. An independent "
                   "assessor checks the result. A Dojo is a training area off the line, where "
-                  "people can practise safely. Vikram's packing Dojo uses wrong labels and "
+                  "people can practice safely. Vikram's packing Dojo uses wrong labels and "
                   "missing accessories on purpose. One Point Lessons reinforce single key "
                   "points. And remember to teach the reaction to problems, not just the normal "
                   "steps.",

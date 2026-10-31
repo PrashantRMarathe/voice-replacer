@@ -213,7 +213,7 @@ PAGES = [
         "script": "A balanced chart is only a hypothesis. You prove it with results. Watch leading "
                   "measures, like standard-work adherence. Watch lagging ones, like good output, "
                   "defects and units per person-hour. Keep your definitions consistent. On screen, "
-                  "two numbers look alike but measure different things. Plan attainment counts good "
+                  "two measures look alike but mean different things. Plan attainment counts good "
                   "units against the plan. First-pass yield counts units that pass the first time. "
                   "And after any change, check ergonomics with your operators.",
     },
@@ -358,17 +358,17 @@ for _p in PAGES:
 QUIZZES = [
     {
         "key": "quiz1", "num": 1, "after": "p08",
-        "question": "Station C runs 33 s against a 30-second TAKT; Station A runs 22 s. What should you try first?",
-        "options": ["Ask C's operator to work faster",
-                     "Move a feasible task from C to A, or improve C's method, then pilot and re-measure",
-                     "Remove a quality check at C",
+        "question": "Station 4 runs 33 s against a 30-second TAKT; Station 1 runs 22 s. What should you try first?",
+        "options": ["Ask station 4's operator to work faster",
+                     "Move a feasible task from station 4 to station 1, or improve its method, then pilot and re-measure",
+                     "Remove a quality check at station 4",
                      "Change the TAKT to 33 seconds"],
         "correct": 1,
         "explanation": "Balancing moves feasible work or improves the method. Pushing people, dropping checks or redefining TAKT hides the problem instead of fixing it.",
-        "q_script": "Quick check, and it's a scenario. Station C runs thirty-three seconds against a "
-                    "thirty-second TAKT. Station A runs twenty-two. What should you try first? Take a "
+        "q_script": "Quick check, and it's a scenario. Station four runs thirty-three seconds against a "
+                    "thirty-second TAKT. Station one runs twenty-two. What should you try first? Take a "
                     "few seconds.",
-        "a_script": "Look for a feasible task to move from C to A, or improve C's method. Then pilot "
+        "a_script": "Look for a feasible task to move from station four to station one, or improve its method. Then pilot "
                     "and re-measure. Pushing people or dropping checks isn't balancing.",
     },
     {

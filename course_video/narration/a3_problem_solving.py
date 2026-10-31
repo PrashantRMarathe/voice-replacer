@@ -77,7 +77,7 @@ PAGES = [
         "example_cue": "Compare two statements",
         "script": "Here's the key idea. A problem is a gap, between what's happening and the "
                   "standard you need. A3 stops you jumping from a complaint straight to a solution. "
-                  "Compare two statements. Operators are careless is a blame. Boot failures rose "
+                  "Compare two statements. Operators are careless is blame. Boot failures rose "
                   "to four point eight percent. That's a gap. You can measure a gap. "
                   "You can investigate it, too. Which kind of statement do you hear most on your floor?",
     },

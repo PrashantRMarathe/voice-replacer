@@ -98,7 +98,7 @@
       "key": "p03",
       "num": 3,
       "title": "Mura, Muri & Muda",
-      "example": "Tester handles ~1,000 good units a day; assembly released 1,600 in one day — a queue piled up at test.",
+      "example": "Tester handles ~2,000 units a day; assembly released over 3,000 for test in one day — a queue piled up.",
       "visual": {
         "type": "flow",
         "items": [
@@ -133,13 +133,13 @@
           "items": [
             {
               "label": "Tester can do",
-              "value": 1000,
+              "value": 2000,
               "tone": "good",
               "with": "example"
             },
             {
               "label": "Released",
-              "value": 1600,
+              "value": 3200,
               "tone": "bad",
               "with": "example"
             }
@@ -152,17 +152,17 @@
         "Muda: waste"
       ],
       "at": [
-        3.314,
-        5.29,
-        7.577
+        3.458,
+        5.474,
+        7.41
       ],
-      "exampleAt": 23.248
+      "exampleAt": 23.459
     },
     {
       "key": "p04",
       "num": 4,
       "title": "Volume Leveling",
-      "example": "12,000 units of net need over 5 days = a steady 2,400 good units a day.",
+      "example": "30,000 units of net need over 5 days = a steady 6,000 good units a day.",
       "visual": {
         "type": "icons",
         "items": [
@@ -185,10 +185,10 @@
         ],
         "then": {
           "type": "stat",
-          "value": 2400,
+          "value": 6000,
           "icon": "chartUp",
           "label": "good units a day, every day",
-          "unit": "12,000 units of net need ÷ 5 days",
+          "unit": "30,000 units of net need ÷ 5 days",
           "with": "example"
         }
       },
@@ -199,12 +199,12 @@
         "Check materials, yield, uptime, staff"
       ],
       "at": [
-        3.152,
-        8.645,
+        3.134,
+        8.555,
         19.74,
-        37.723
+        36.482
       ],
-      "exampleAt": 23.779
+      "exampleAt": 23.397
     },
     {
       "key": "p05",
@@ -428,17 +428,17 @@
       "key": "p09",
       "num": 9,
       "title": "Bottlenecks & Mixed Models",
-      "example": "40% of units need a 12-second test = 240 tests/hour vs one tester's ~300 before losses. Tight.",
+      "example": "40% of units need a 12-second test = about 340 tests/hour vs one tester's ~300. Add a second tester.",
       "visual": {
         "type": "bars",
         "label": "One tester",
         "value": 300,
-        "note": "tight, before any losses",
+        "note": "short even before losses: add a second tester",
         "unit": "tests an hour (40% of units need a 12 s test)",
         "items": [
           {
             "label": "Tests needed",
-            "value": 240,
+            "value": 343,
             "tone": "bad",
             "with": "example"
           }
@@ -452,9 +452,9 @@
       "at": [
         3.758,
         7.668,
-        30.562
+        34.952
       ],
-      "exampleAt": 15.989
+      "exampleAt": 16.525
     },
     {
       "key": "p10",
@@ -561,7 +561,7 @@
       "key": "p12",
       "num": 12,
       "title": "Leveling KPIs",
-      "example": "95% of scheduled units done. 4,800 units of WIP = 2 days of output.",
+      "example": "95% of scheduled units done. 12,000 units of WIP = 2 days of output.",
       "visual": {
         "type": "icons",
         "items": [
@@ -588,7 +588,7 @@
           "suffix": "%",
           "icon": "check",
           "label": "of scheduled units completed",
-          "unit": "4,800 units of WIP = 2 days of output",
+          "unit": "12,000 units of WIP = 2 days of output",
           "with": "example"
         }
       },
@@ -599,12 +599,12 @@
         "Plus FPY, downtime, overtime"
       ],
       "at": [
-        4.189,
-        7.851,
-        19.025,
-        28.252
+        4.131,
+        7.92,
+        18.836,
+        28.202
       ],
-      "exampleAt": 13.707
+      "exampleAt": 13.615
     },
     {
       "key": "p13",

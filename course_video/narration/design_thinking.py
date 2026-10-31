@@ -204,13 +204,13 @@ PAGES = [
         "points": [("A clear hypothesis", "Write a hypothesis"),
                    ("Scope, metrics and comparison", "Set the scope"),
                    ("A decision rule agreed up front", "Agree a decision rule")],
-        "example": "Hypothesis: label slots + scan check cut label time below 2 s, with zero errors in 500 pumps.",
+        "example": "Hypothesis: label slots + scan check bring cycle time inside TAKT and cut label errors by at least 75%.",
         "example_cue": "Pooja's hypothesis",
         "script": "Plan the test before you start it. Write a hypothesis. If we change this, we expect "
                   "that. Set the scope, the measures, and what you'll compare against. Agree a decision "
                   "rule up front. Adopt, adapt or stop. Pooja's hypothesis was clear. The slots and a "
-                  "scan check would cut label time below two seconds. And there'd be zero label "
-                  "errors in five hundred pumps. What do you think happened?",
+                  "scan check would bring cycle time inside TAKT. And label errors would fall by at "
+                  "least three quarters. What do you think happened?",
     },
     {
         "key": "p13", "num": 13, "title": "The Results",
@@ -231,7 +231,7 @@ PAGES = [
         "points": [("Not 100% adoption? Find out why", "Two packers"),
                    ("Simplify the hard step, test again", "simplified that step"),
                    ("Check other factors didn't cause it", "And check that")],
-        "example": "The two packers worked on the left. The slots were on the right. Mirror the layout.",
+        "example": "The two packers were left-handed. The slots were on the right. Mirror the layout.",
         "example_cue": "It turned out",
         "script": "Not yet. Two packers didn't follow the method. So she asked them why. It turned out "
                   "they worked left-handed, and the slots were on the right. She simplified that step, "

@@ -6,9 +6,8 @@ in Devanagari (स्क्रू, फ़िक्स्चर, सेंसर)
 on screen and in captions (Poka Yoke, NVR, MES, SOP, FMEA) and say() gives the
 voice a Devanagari form.
 
-VOICE: Microsoft Hindi neural voice (hi-IN-MadhurNeural) — the user's choice for
-the Hindi sample; edge-tts generates it, import_clones.py levels it to −29 LUFS
-and syncs captions/boxes to its real pauses.
+VOICE: Microsoft Hindi neural female voice (hi-IN-SwaraNeural); all voices are female
+(user, 31 Oct 2026). import_clones.py levels it to −29 LUFS and syncs captions/boxes.
 
   python narration/poka_yoke_hi.py --force                      voice every clip
   python narration/import_clones.py poka_yoke_hi out/ms_pk      level + sync
@@ -23,7 +22,7 @@ import lesson_lib  # noqa: E402
 ID = "pk_hi"
 NAME = "poka_yoke_hi"
 LANG = "hi"
-VOICE = "hi-IN-MadhurNeural"
+VOICE = "hi-IN-SwaraNeural"   # female (user, 31 Oct 2026)
 
 # English on screen/captions -> Devanagari for the voice. Longest first.
 SPOKEN = {

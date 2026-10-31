@@ -230,11 +230,11 @@ PAGES = [
                    ("Observe, then check the thing and data", "observe the process"),
                    ("Agree containment and an owner", "agree containment")],
         "example": "Manoj's question at every stop: “What's the standard, and what's actually happening?”",
-        "example_cue": "Manoj's favourite",
+        "example_cue": "Manoj's favorite",
         "script": "Make it standard work. In a thirty-minute walk, first review safety, the gap and "
                   "your purpose. Then observe the process at the point of work for ten minutes. "
                   "Inspect the affected item, and check the key data. Ask the team for causes, agree "
-                  "containment, and name an owner with a date. Manoj's favourite question is simple. "
+                  "containment, and name an owner with a date. Manoj's favorite question is simple. "
                   "What's the standard, and what's actually happening? What would you ask?",
     },
     {

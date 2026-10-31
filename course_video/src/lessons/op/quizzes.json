@@ -8,7 +8,7 @@
       "options": [
         "It needs more text",
         "It has too many points — split it into separate OPLs",
-        "It should be in colour only"
+        "It should be in color only"
       ],
       "correct": 1,
       "explanation": "An OPL teaches ONE point. Four topics on one page dilute the message — make four focused OPLs instead.",

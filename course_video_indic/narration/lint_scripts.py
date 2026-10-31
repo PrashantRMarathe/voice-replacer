@@ -54,13 +54,15 @@ def lint(mod):
     # What the voice will actually read: after the lesson's say() fixes. Any
     # ALL-CAPS word still there has an unconfirmed pronunciation -> ask the user.
     spoken = mod.say if hasattr(mod, "say") else (lambda t: t)
+    # also terms mixing digits and capitals ("A3", "5W2H"), which the voice may misread
     if not en:
         # the Indian-language voice reads its own script only: every English
         # term needs a native-script form in say() (captions keep the English)
         latin = sorted({w for _, t in clips for w in re.findall(r"[A-Za-z][A-Za-z'-]*", spoken(t))})
         if latin:
             add("lesson", f"English left in the spoken text: {', '.join(latin)} (add it to say())")
-    unclear = sorted({w for _, t in clips for w in re.findall(r"\b[A-Z]{2,}\b", spoken(t))})
+    unclear = sorted({w for _, t in clips
+                      for w in re.findall(r"\b[A-Z]{2,}\b|\b(?=\w*\d)(?=\w*[A-Z])\w+\b", spoken(t))})
     if en and unclear:
         add("lesson", f"ask the user how to pronounce: {', '.join(unclear)} "
                       "(then spell it out, e.g. 'P-P-M', or add it to say())")

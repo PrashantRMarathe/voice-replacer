@@ -4,7 +4,7 @@
       "key": "p01",
       "num": 1,
       "title": "What a Skill Matrix Is",
-      "example": "Vikram's cell: lens fitting, fastening, test and packing — with approved backups for each.",
+      "example": "Vikram's cell: board assembly, lens focus, test and packing — with approved backups for each.",
       "visual": {
         "type": "icons",
         "items": [
@@ -36,11 +36,11 @@
       ],
       "at": [
         6.488,
-        10.607,
-        15.9,
-        18.136
+        10.554,
+        15.834,
+        18.034
       ],
-      "exampleAt": 22.659
+      "exampleAt": 22.637
     },
     {
       "key": "p02",
@@ -507,7 +507,7 @@
           "Focus",
           "Test"
         ],
-        "note": "Focus + test at once: Bala and Deepa. Next: another focus backup.",
+        "note": "After 90 days. Focus + test at once: Bala and Deepa. Next: another focus backup.",
         "items": [
           {
             "label": "Asha",
@@ -549,17 +549,17 @@
       },
       "bullets": [
         "Asha: board assembly L4",
-        "Bala, Chitra: lens focus L3",
+        "Chitra now joins Bala: lens focus L3",
         "Chitra, Deepa: test L3+",
         "Next priority: another focus backup"
       ],
       "at": [
-        3.484,
-        7.188,
-        11.734,
-        29.432
+        4.627,
+        8.157,
+        13.17,
+        30.931
       ],
-      "exampleAt": 15.169
+      "exampleAt": 16.889
     },
     {
       "key": "p12",

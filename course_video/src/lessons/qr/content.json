@@ -190,7 +190,7 @@
       "key": "p05",
       "num": 5,
       "title": "5W2H: Define the Problem",
-      "example": "Line 4: 18 of 600 cameras failed focus between 10:00 and noon, right after a lens fixture changeover.",
+      "example": "Line 4: 24 of 800 cameras failed focus between 10:00 and noon, right after a lens fixture changeover.",
       "visual": {
         "type": "icons",
         "items": [
@@ -212,8 +212,8 @@
         ],
         "then": {
           "type": "stat",
-          "value": 18,
-          "suffix": " of 600",
+          "value": 24,
+          "suffix": " of 800",
           "icon": "camera",
           "label": "cameras failed focus",
           "unit": "10:00 to noon, right after a lens fixture changeover",
@@ -226,11 +226,11 @@
         "Confirmed rejects vs suspect population"
       ],
       "at": [
-        5.59,
-        10.64,
+        7.759,
+        11.779,
         14.96
       ],
-      "exampleAt": 21.986
+      "exampleAt": 22.349
     },
     {
       "key": "p06",
@@ -559,18 +559,18 @@
         "On-time action closure"
       ],
       "at": [
-        4.559,
-        10.565,
-        16.712,
-        20.882
+        4.697,
+        10.271,
+        16.626,
+        21.136
       ],
-      "exampleAt": 26.505
+      "exampleAt": 26.436
     },
     {
       "key": "p12",
       "num": 12,
       "title": "Case Study: Focus Failure",
-      "example": "The wrong spacer reproduced the failure on controlled samples. Only then was it called the cause.",
+      "example": "The wrong focus recipe reproduced the failure on controlled samples. Only then was it called the cause.",
       "visual": {
         "type": "flow",
         "items": [
@@ -592,7 +592,7 @@
             "with": 2
           },
           {
-            "label": "Wrong spacer reproduced it",
+            "label": "Wrong recipe reproduced it",
             "sub": "Only then: the cause",
             "icon": "test",
             "tone": "good",
@@ -604,15 +604,15 @@
         "24 of 800 fail focus vs < 0.5% normal",
         "Hold work order + output since last good setup",
         "Compare fixture, recipe, focus trend",
-        "Test the spacer hypothesis"
+        "Test the recipe hypothesis"
       ],
       "at": [
-        3.265,
-        13.84,
-        19.859,
-        25.547
+        3.714,
+        14.128,
+        19.757,
+        26.028
       ],
-      "exampleAt": 29.472
+      "exampleAt": 29.935
     },
     {
       "key": "p13",

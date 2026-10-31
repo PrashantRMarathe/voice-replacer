@@ -451,7 +451,7 @@
       "key": "p12",
       "num": 12,
       "title": "Contain, Then Go and See",
-      "example": "Station 6: on the new model, the panel cable took a new path, and operators reworked it by hand.",
+      "example": "Station 6: on the new model, the panel cable took a new path, and operators bent it by hand.",
       "visual": {
         "type": "flow",
         "items": [

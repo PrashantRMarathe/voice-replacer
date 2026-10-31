@@ -242,11 +242,11 @@
         "Defects, unused skills"
       ],
       "at": [
-        6.925,
-        11.898,
-        20.078
+        7.292,
+        12.442,
+        21.19
       ],
-      "exampleAt": 22.822
+      "exampleAt": 23.493
     },
     {
       "key": "p06",
@@ -595,7 +595,7 @@
       "key": "p14",
       "num": 14,
       "title": "Make It Stick",
-      "example": "Deepak's day-30 audit: one line had dropped the clip. Fixed the same day.",
+      "example": "Deepak's day-30 audit: one shift had stopped using the clip. Fixed the same day.",
       "visual": {
         "type": "timeline",
         "items": [
@@ -673,11 +673,11 @@
         "Days 19–30: measure, standardize, audit"
       ],
       "at": [
-        5.093,
-        11.686,
-        19.184
+        5.098,
+        12.09,
+        19.684
       ],
-      "exampleAt": 25.869
+      "exampleAt": 26.116
     }
   ]
 }

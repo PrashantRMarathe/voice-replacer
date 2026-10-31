@@ -220,14 +220,14 @@ PAGES = [
         "key": "p13", "num": 13, "title": "Case Study: Mobile Phone",
         "points": [("1,200 of 40,000 failed: 3%", "Twelve hundred of forty"),
                    ("Data split by lot, fixture, station, shift", "The team split the data"),
-                   ("Keyed fixture + automatic seating check", "So they trialled"),
+                   ("Keyed fixture + automatic seating check", "So they trialed"),
                    ("FMEA and SOP updated", "They updated the F-M-E-A")],
         "example": "Failures fell to 0.5% — an 83% reduction.",
         "example_cue": "Failures fell to half",
         "script": "Here's Priya's case. Twelve hundred of forty thousand phones failed the first "
                   "charging test. That's a three percent failure rate. The team split the data by "
                   "connector lot, fixture, station and shift. The pattern pointed to the fixture. "
-                  "So they trialled a keyed fixture with an automatic seating check. Failures fell "
+                  "So they trialed a keyed fixture with an automatic seating check. Failures fell "
                   "to half a percent. That's an eighty-three percent reduction. And what made it "
                   "stick? They updated the F-M-E-A and the S-O-P.",
     },
@@ -326,10 +326,10 @@ VISUALS = {
     "p10": {"type": "icons", "items": [
         {"label": "Noise vs real signal", "icon": "wave", "with": 0},
         {"label": "Cp: spread vs spec", "icon": "scale", "with": 1},
-        {"label": "Cpk: centred too", "icon": "pin", "with": 2},
+        {"label": "Cpk: centered too", "icon": "pin", "with": 2},
         {"label": "Stable process, calibrated gauge", "icon": "gear", "with": 3}],
         "then": {"type": "stat", "value": 1.33, "decimals": 2, "icon": "screw", "label": "Cpk on screw torque",
-                 "unit": "Tight, centred variation: capable", "with": "example"}},
+                 "unit": "Tight, centered variation: capable", "with": "example"}},
     "p11": {"type": "flow", "items": [
         {"label": "PFMEA: how it can fail", "icon": "search", "with": 0},
         {"label": "Control Plan: real checks", "icon": "clipboard", "with": 1},

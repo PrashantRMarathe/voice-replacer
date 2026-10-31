@@ -137,11 +137,11 @@ PAGES = [
                    ("Talk with the operator", "She talks"),
                    ("Ask questions, don't just give answers", "She asks questions")],
         "example": "“What should be happening? What's actually happening? What changed?”",
-        "example_cue": "Her favourite three",
+        "example_cue": "Her favorite three",
         "script": "At the gemba, not at a desk. She watches the real process and the real product. She "
                   "talks with the operator who does the work. She compares the actual method with the "
                   "standard. And she asks questions that build thinking, instead of handing out every "
-                  "answer. Her favourite three are simple. What should be happening? What's actually "
+                  "answer. Her favorite three are simple. What should be happening? What's actually "
                   "happening? And what changed? Which would you ask first?",
     },
     {
@@ -201,7 +201,7 @@ PAGES = [
         "points": [("Hold the suspect TVs", "she held"),
                    ("Find the bottleneck station", "found the bottleneck"),
                    ("Compare method with standard", "compared the method")],
-        "example": "Station 6: on the new model, the panel cable took a new path, and operators reworked it by hand.",
+        "example": "Station 6: on the new model, the panel cable took a new path, and operators bent it by hand.",
         "example_cue": "At station six",
         "script": "Not yet. First, she held every suspect TV since ten o'clock. Customer protected. Then "
                   "she walked the line, and found the bottleneck before test. She compared the method "

@@ -212,7 +212,7 @@
       "key": "p06",
       "num": 6,
       "title": "Customer Demand & TAKT",
-      "example": "4,200 good boxes a shift → TAKT 6 seconds, 600 an hour. A 7-second station can't keep up alone.",
+      "example": "1,200 good boxes in one shift → TAKT 21 seconds, about 170 an hour. A 24-second station can't keep up alone.",
       "visual": {
         "type": "icons",
         "items": [
@@ -236,15 +236,15 @@
         "then": {
           "type": "bars",
           "label": "TAKT",
-          "value": 6,
+          "value": 21,
           "suffix": " s",
           "note": "can't keep up alone",
-          "unit": "4,200 good boxes a shift = 600 an hour",
+          "unit": "1,200 good boxes a shift ≈ 170 an hour",
           "with": "example",
           "items": [
             {
               "label": "One station",
-              "value": 7,
+              "value": 24,
               "tone": "bad",
               "with": "example"
             }
@@ -259,9 +259,9 @@
       "at": [
         1.309,
         5.204,
-        26.682
+        30.309
       ],
-      "exampleAt": 15.941
+      "exampleAt": 15.878
     },
     {
       "key": "p07",
@@ -308,7 +308,7 @@
       "key": "p08",
       "num": 8,
       "title": "Lead Time & Inventory",
-      "example": "Three buffers at 1,200 a day = 3.5 days of waiting vs 12 minutes of processing.",
+      "example": "Three buffers at 1,200 a day = 3.5 days of waiting vs 15 minutes of processing.",
       "visual": {
         "type": "icons",
         "items": [
@@ -336,7 +336,7 @@
           "suffix": " days",
           "icon": "clock",
           "label": "of waiting",
-          "unit": "vs just 12 minutes of processing",
+          "unit": "vs just 15 minutes of processing",
           "with": "example"
         }
       },
@@ -348,9 +348,9 @@
       "at": [
         1.372,
         5.598,
-        29.198
+        29.538
       ],
-      "exampleAt": 12.772
+      "exampleAt": 12.489
     },
     {
       "key": "p09",
@@ -460,7 +460,7 @@
       "key": "p11",
       "num": 11,
       "title": "Pitch, Kanban & Refill",
-      "example": "Packs of 30 → a 3-minute pitch. A kit lasts 6 minutes but a refill takes 12: more kits, or a faster refill.",
+      "example": "Packs of 20 → a 7-minute pitch. A kit lasts 6 minutes but a refill takes 12: more kits, or a faster refill.",
       "visual": {
         "type": "icons",
         "items": [
@@ -485,7 +485,7 @@
           "with": "example",
           "items": [
             {
-              "label": "Packs of 30: a 3-minute pitch",
+              "label": "Packs of 20: a 7-minute pitch",
               "icon": "box",
               "with": "example"
             },
@@ -510,11 +510,11 @@
         "Prove replenishment before cutting stock"
       ],
       "at": [
-        5.299,
-        17.832,
+        5.048,
+        17.83,
         34.405
       ],
-      "exampleAt": 12.402
+      "exampleAt": 12.164
     },
     {
       "key": "p12",

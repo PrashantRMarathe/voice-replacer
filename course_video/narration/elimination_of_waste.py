@@ -240,12 +240,12 @@ PAGES = [
     {
         "key": "p15", "num": 15, "title": "Your 30-Day Plan",
         "points": [("Days 1–7: pick a product, walk, map", "In the first week"),
-                   ("Days 8–18: Pareto, root cause, pilot", "Over the next ten days"),
+                   ("Days 8–18: Pareto, root cause, pilot", "Over the next eleven days"),
                    ("Days 19–30: measure, standardize, audit", "In the last twelve days")],
         "example": "Then share it: other lines copy what worked, after checking it fits.",
         "example_cue": "Then share",
         "script": "Here's a thirty-day plan you can start now. In the first week, pick one product "
-                  "family, walk the gemba, and map the flow. Over the next ten days, use a Pareto, find "
+                  "family, walk the gemba, and map the flow. Over the next eleven days, use a Pareto, find "
                   "the root cause, and run a small pilot. In the last twelve days, measure the result, "
                   "update the standard, and audit it. Then share it, so other lines copy what worked. "
                   "Which product will you walk first?",
