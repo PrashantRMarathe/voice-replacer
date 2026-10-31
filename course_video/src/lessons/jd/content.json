@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Jidoka Is",
+      "example": "Anjali's dispenser seals the front bezel of every patient monitor.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detect",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Stop",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Correct",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Prevent",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Detect an abnormality",
+        "Stop or contain",
+        "Correct, then prevent"
+      ],
+      "at": [
+        7.931,
+        12.147,
+        17.21
+      ],
+      "exampleAt": 22.269
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Without and With Jidoka",
+      "example": "Without it: 140 thin seals, found at leak test the next morning.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Without Jidoka",
+            "sub": "Defects travel, found later",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "With Jidoka",
+            "sub": "Caught at the source",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 140,
+          "icon": "warning",
+          "label": "thin seals by morning",
+          "unit": "found at leak test",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Defects travel vs caught at source",
+        "Hesitation vs clear stop rules",
+        "Inspection vs built-in quality"
+      ],
+      "at": [
+        1.294,
+        8.026,
+        15.36
+      ],
+      "exampleAt": 28.154
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Where It Came From",
+      "example": "Just-in-Time moves material well. Jidoka makes sure it doesn't move defects well.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Loom stops on a broken thread",
+            "sub": "Early 1900s",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pillar of TPS",
+            "sub": "TPS",
+            "icon": "stack",
+            "with": 2
+          },
+          {
+            "label": "No defects moved on",
+            "sub": "Today",
+            "icon": "shield",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Sakichi Toyoda's automatic loom",
+        "It stopped when a thread broke",
+        "One of the two pillars of TPS"
+      ],
+      "at": [
+        1.17,
+        9.817,
+        17.944
+      ],
+      "exampleAt": 22.041
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "People Still Matter",
+      "example": "Anjali's operator used to stare at the bead all shift. Now she runs two stations.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Watching one machine",
+            "sub": "All shift",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Running two stations",
+            "sub": "And solving problems",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Machines watch, people think",
+        "One person can run several machines",
+        "Judgment, repair, improvement"
+      ],
+      "at": [
+        4.904,
+        12.425,
+        17.825
+      ],
+      "exampleAt": 23.006
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Step 1: Detect",
+      "example": "Normal bead: 2.0 to 2.4 mm wide, no gaps.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Define normal",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Sense the drift",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Tests, monitors",
+            "icon": "test",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2.0,
+          "decimals": 1,
+          "suffix": "–2.4 mm",
+          "icon": "pin",
+          "label": "normal bead width",
+          "unit": "no gaps",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Define normal first",
+        "Then sense the deviation",
+        "Sensors, checks, tests, monitors"
+      ],
+      "at": [
+        9.746,
+        17.768,
+        20.546
+      ],
+      "exampleAt": 27.28
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Steps 2 to 4: Stop, Correct, Prevent",
+      "example": "Correcting isn't the same as preventing. A cleaned nozzle can block again.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Stop or contain",
+            "with": 0
+          },
+          {
+            "label": "Correct",
+            "with": 1
+          },
+          {
+            "label": "Prevent",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Stop or contain to match the risk",
+        "Correct: restore the standard",
+        "Prevent: remove the root cause"
+      ],
+      "at": [
+        0.837,
+        14.097,
+        20.413
+      ],
+      "exampleAt": 25.563
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Jidoka vs Plain Automation",
+      "example": "Anjali's dispenser: fully automatic, but blind. It kept dispensing all night.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Plain automation",
+            "sub": "Kept dispensing all night",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Jidoka",
+            "sub": "Stops and calls",
+            "icon": "sensor",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Automation does the work",
+        "Jidoka also judges the work",
+        "Fast machines make fast defects"
+      ],
+      "at": [
+        1.344,
+        3.818,
+        22.153
+      ],
+      "exampleAt": 25.223
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Core Principles",
+      "example": "Three questions: what's normal? How do we detect a deviation? What happens next?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "No defect forward",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "No abnormality hidden",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "No repeat without action",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "No defect forward",
+        "No abnormality hidden",
+        "No repeat accepted without action"
+      ],
+      "at": [
+        3.564,
+        5.189,
+        7.468
+      ],
+      "exampleAt": 24.486
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Andon",
+      "example": "Anjali's rule: the team leader answers a yellow within two minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Green: normal",
+            "sub": "Keep to standard",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Yellow: help",
+            "sub": "Leader comes fast",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Red: stop",
+            "sub": "Contain, escalate",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Green: normal",
+        "Yellow: help needed",
+        "Red: stop, contain, escalate"
+      ],
+      "at": [
+        6.678,
+        11.044,
+        15.481
+      ],
+      "exampleAt": 24.895
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "An Andon Culture",
+      "example": "Andon calls doubled in month one, then halved by month three.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Andon calls per week",
+        "with": 2,
+        "items": [
+          {
+            "label": "Before",
+            "value": 10,
+            "with": 2
+          },
+          {
+            "label": "Month 1",
+            "value": 20,
+            "with": "example"
+          },
+          {
+            "label": "Month 3",
+            "value": 10,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "A call is useful information",
+        "Never punish a stop",
+        "Calls may rise at first"
+      ],
+      "at": [
+        4.196,
+        9.33,
+        20.345
+      ],
+      "exampleAt": 23.27
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Strongest Controls First",
+      "example": "Good poka yoke: simple, close to the source, hard to bypass, easy to challenge-test.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST",
+        "bottom": "WEAKEST",
+        "items": [
+          {
+            "label": "Eliminate or prevent",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Detect and stop",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Warn",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Inspect later",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Eliminate, or prevent by design",
+        "Detect and stop immediately",
+        "Warnings and inspection last"
+      ],
+      "at": [
+        3.752,
+        10.602,
+        14.105
+      ],
+      "exampleAt": 21.073
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Anjali's Jidoka Station",
+      "example": "First real stop: one monitor affected, not 140.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Sensor checks every bead",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Dispenser stops",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Andon, hold to last good",
+            "icon": "warning",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 140
+          },
+          "after": {
+            "label": "With Jidoka",
+            "value": 1
+          },
+          "unit": "monitors affected per nozzle problem",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "A sensor measures every bead",
+        "Out of limits: dispenser stops",
+        "Andon, and hold to the last good unit"
+      ],
+      "at": [
+        3.314,
+        11.512,
+        14.89
+      ],
+      "exampleAt": 21.553
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Root Cause After the Stop",
+      "example": "Adhesive cured in the nozzle during breaks. No purge step in the standard.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Nozzle blocked",
+            "with": 1
+          },
+          {
+            "label": "Adhesive cured in breaks",
+            "with": "example"
+          },
+          {
+            "label": "No purge step",
+            "with": "example"
+          },
+          {
+            "label": "Auto-purge + pressure monitor",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Stopping reveals; analysis improves",
+        "Ask why, with evidence",
+        "Fix it, then standardize"
+      ],
+      "at": [
+        1.181,
+        8.201,
+        21.574
+      ],
+      "exampleAt": 9.817
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Measure the Right Things",
+      "example": "First pass yield: 97.5% → 99.0%. Escapes: zero in 90 days.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 97.5
+        },
+        "after": {
+          "label": "After",
+          "value": 99.0
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "first pass yield",
+        "note": "Zero escapes in 90 days",
+        "with": "example"
+      },
+      "bullets": [
+        "First pass yield and escapes",
+        "Andon response time",
+        "Repeat abnormalities"
+      ],
+      "at": [
+        6.842,
+        11.989,
+        17.079
+      ],
+      "exampleAt": 21.903
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Roles and Your Roadmap",
+      "example": "Days 0–30: define abnormal. 31–60: detect and train. 61–90: fix top repeats.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Define abnormal, pilot",
+            "sub": "Days 0–30",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Detect, train",
+            "sub": "31–60",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Fix top repeats",
+            "sub": "61–90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Operators detect, call and stop",
+        "Leaders respond and restore",
+        "A 30-60-90 day rollout"
+      ],
+      "at": [
+        2.968,
+        7.327,
+        19.157
+      ],
+      "exampleAt": 21.734
+    }
+  ]
+}

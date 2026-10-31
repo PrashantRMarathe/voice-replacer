@@ -1,0 +1,653 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What a Burn-Down Shows",
+      "example": "Sneha's chart: a whiteboard beside the line, visible to every shift.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Work left",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Time available",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Falls to zero",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Work left vs time available",
+        "Up: work remaining. Across: time",
+        "The line falls toward zero"
+      ],
+      "at": [
+        4.699,
+        8.975,
+        17.293
+      ],
+      "exampleAt": 24.167
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why Lean Uses It",
+      "example": "Last month: only a due date. The gap showed up on Friday afternoon.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Only a due date",
+            "sub": "Gap found on Friday",
+            "icon": "calendar",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "A burn-down",
+            "sub": "Gap seen while it's small",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "A target becomes a visible path",
+        "See a gap while it's small",
+        "Focus on the constraint"
+      ],
+      "at": [
+        1.913,
+        15.597,
+        19.547
+      ],
+      "exampleAt": 24.992
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "What It's For",
+      "example": "The goal: every planned unit reaches zero by the due date.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Visible to all",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Actual vs pace",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Early warning",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Facts, not feelings",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Remaining work visible to everyone",
+        "Actual progress vs required pace",
+        "Catch delays early",
+        "Recovery backed by facts"
+      ],
+      "at": [
+        6.131,
+        12.034,
+        15.996,
+        22.045
+      ],
+      "exampleAt": 26.565
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "The Five Elements",
+      "example": "Sneha tracks routers still waiting to finish, day by day.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Work remaining",
+            "sub": "Vertical axis",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Time",
+            "sub": "Horizontal axis",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Ideal line",
+            "icon": "chartDown",
+            "with": 1
+          },
+          {
+            "label": "Actual line",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Gap",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Axes: work remaining, time",
+        "Ideal line: the pace you need",
+        "Actual line: what really happened",
+        "Gap: actual minus ideal"
+      ],
+      "at": [
+        3.176,
+        15.24,
+        18.519,
+        22.659
+      ],
+      "exampleAt": 25.852
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Sneha's Challenge",
+      "example": "Day 0: nothing completed, 1,000 routers remaining.",
+      "visual": {
+        "type": "stat",
+        "value": 1000,
+        "icon": "box",
+        "label": "routers in work in progress",
+        "unit": "5 working days to the truck",
+        "with": 0
+      },
+      "bullets": [
+        "1,000 routers in work in progress",
+        "5 working days to the truck",
+        "Remaining = planned − completed"
+      ],
+      "at": [
+        4.664,
+        14.914,
+        20.522
+      ],
+      "exampleAt": 26.717
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "The Ideal Burn Rate",
+      "example": "Ideal line: 1,000 → 800 → 600 → 400 → 200 → 0",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Ideal line: 200 fewer routers each day",
+        "with": "example",
+        "items": [
+          {
+            "label": "Day 0",
+            "value": 1000,
+            "with": "example"
+          },
+          {
+            "label": "Day 1",
+            "value": 800,
+            "with": "example"
+          },
+          {
+            "label": "Day 2",
+            "value": 600,
+            "with": "example"
+          },
+          {
+            "label": "Day 3",
+            "value": 400,
+            "with": "example"
+          },
+          {
+            "label": "Day 4",
+            "value": 200,
+            "with": "example"
+          },
+          {
+            "label": "Day 5",
+            "value": 0,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Rate = total work ÷ periods",
+        "1,000 ÷ 5 = 200 a day",
+        "Draw it first, never redraw it"
+      ],
+      "at": [
+        2.35,
+        11.447,
+        21.542
+      ],
+      "exampleAt": 13.127
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Day Two: Finding the Gap",
+      "example": "Spotted on Tuesday, not Friday.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Routers remaining, end of day 2: 80 behind plan",
+        "items": [
+          {
+            "label": "Ideal",
+            "value": 600,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Actual",
+            "value": 680,
+            "tone": "bad",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Completed: 320",
+        "Remaining: 680. Ideal: 600",
+        "Gap: 80 behind plan",
+        "Three days to recover, quality intact"
+      ],
+      "at": [
+        5.614,
+        10.221,
+        17.989,
+        25.432
+      ],
+      "exampleAt": 31.184
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Reading the Lines",
+      "example": "Sneha's line sits above the ideal. What's stopping routers from finishing?",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Above ideal",
+            "sub": "Behind: find the constraint",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Below ideal",
+            "sub": "Ahead: confirm quality",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Above ideal: behind. Find the constraint",
+        "Below ideal: ahead. Confirm quality",
+        "Ahead with bad units isn't ahead"
+      ],
+      "at": [
+        4.566,
+        14.185,
+        22.34
+      ],
+      "exampleAt": 26.192
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Flat Lines & Reaching Zero",
+      "example": "Wednesday: Sneha's line went flat for a whole shift.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Flat line",
+            "sub": "Nothing closed",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Stoppage? Owner? Data?",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "At zero: verify, close",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Flat line: nothing closed",
+        "Check stoppage, owner, data",
+        "At zero: verify, then close"
+      ],
+      "at": [
+        3.21,
+        12.769,
+        18.138
+      ],
+      "exampleAt": 29.107
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "The Daily Review",
+      "example": "Sneha runs the review in 10 minutes, at the start of every shift.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Update",
+            "with": 0
+          },
+          {
+            "label": "Compare",
+            "with": 0
+          },
+          {
+            "label": "Explain",
+            "with": 1
+          },
+          {
+            "label": "Act",
+            "with": 2
+          },
+          {
+            "label": "Confirm",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Update and compare",
+        "Explain the main cause",
+        "Act: an owner and a due time",
+        "Confirm at the next update"
+      ],
+      "at": [
+        11.579,
+        19.697,
+        23.216,
+        26.024
+      ],
+      "exampleAt": 32.053
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Sneha's Recovery",
+      "example": "Friday: zero routers remaining, a few hours before the truck.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "RF tester down",
+            "icon": "test",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Second tester online",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "One chart owner",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 0,
+          "icon": "check",
+          "label": "routers remaining on Friday",
+          "unit": "a few hours before the truck",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Constraint: one RF tester down",
+        "Second tester, priority staffing",
+        "One named owner updates the chart"
+      ],
+      "at": [
+        4.616,
+        19.394,
+        25.674
+      ],
+      "exampleAt": 30.618
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Where to Use It",
+      "example": "Sneha's quality team now burns down open defects to zero before shipment.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Work in progress",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Shortfall recovery",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Critical defects",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Maintenance, kaizen",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A clear start, a clear finish, a deadline",
+        "Production: work in progress, recovery",
+        "Quality: critical defects to zero",
+        "Maintenance and kaizen actions"
+      ],
+      "at": [
+        5.24,
+        12.692,
+        20.503,
+        24.351
+      ],
+      "exampleAt": 30.692
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Honest Data",
+      "example": "Routers waiting for retest: not counted as complete.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "One unit, frozen start",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "“Complete” defined",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Good output only",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Waiting for retest",
+              "sub": "Not complete",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Passed and packed",
+              "sub": "Counts",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "One unit, a frozen starting quantity",
+        "Define “complete” before you start",
+        "Count only good output"
+      ],
+      "at": [
+        5.119,
+        14.711,
+        19.048
+      ],
+      "exampleAt": 22.687
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Common Mistakes",
+      "example": "Sneha logs approved scope changes in a separate box beside her chart.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Moved start quantity",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Late updates",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Partial or rejected",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "No actions",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Changing the starting quantity",
+        "Late or irregular updates",
+        "Counting partial or rejected units",
+        "A chart with no actions"
+      ],
+      "at": [
+        4.742,
+        8.775,
+        13.574,
+        21.317
+      ],
+      "exampleAt": 25.067
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Strengths, Limits & Checklist",
+      "example": "Sneha pins this checklist beside every new chart.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Define the work and “complete”",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Confirm start quantity and date",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Ideal rate, one owner",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Update, act, close only at zero",
+            "icon": "check",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Simple, fast, an early warning",
+        "Won't find the root cause by itself",
+        "Define, confirm, calculate, name an owner",
+        "Update, act, close only at zero"
+      ],
+      "at": [
+        3.763,
+        10.3,
+        17.811,
+        31.737
+      ],
+      "exampleAt": 35.636
+    }
+  ]
+}

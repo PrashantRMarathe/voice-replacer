@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Next Inspection Is",
+      "example": "Anita's housing station now checks the connector lock first.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Don't make",
+            "sub": "a defect",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Don't pass",
+            "sub": "a defect",
+            "icon": "lock",
+            "with": 3
+          },
+          {
+            "label": "Don't accept",
+            "sub": "a defect",
+            "icon": "shield",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Each process protects the next one",
+        "Confirm critical points before hand-off",
+        "Don't make a defect",
+        "Don't pass a defect",
+        "Don't accept a defect"
+      ],
+      "at": [
+        4.839,
+        7.922,
+        22.761,
+        24.644,
+        26.315
+      ],
+      "exampleAt": 28.37
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why Catch It Early",
+      "example": "Loose connector: seconds to fix at assembly → open, repair, retest after test → a return at the customer.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "At assembly",
+            "sub": "Seconds to fix",
+            "icon": "wrench",
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "After test",
+            "sub": "Open, repair, retest",
+            "icon": "test",
+            "with": "example"
+          },
+          {
+            "label": "At the customer",
+            "sub": "A return, and a hit to your name",
+            "icon": "box",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Defects cost more at every step",
+        "Early detection = fast feedback",
+        "More inspection ≠ quality"
+      ],
+      "at": [
+        0.916,
+        20.643,
+        30.529
+      ],
+      "exampleAt": 5.597
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Three Levels of Inspection",
+      "example": "Anita's line: a sensor checks orientation, the assembler confirms the lock, the tester confirms the model.",
+      "visual": {
+        "type": "ladder",
+        "top": "STRONGEST: CLOSEST TO THE SOURCE",
+        "bottom": "LAST LINE OF DEFENSE",
+        "items": [
+          {
+            "label": "Source",
+            "icon": "sensor"
+          },
+          {
+            "label": "Self",
+            "icon": "hand"
+          },
+          {
+            "label": "Next process",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Source: check the condition first",
+        "Self: check your own output",
+        "Next process: check before accepting"
+      ],
+      "at": [
+        4.282,
+        11.766,
+        17.692
+      ],
+      "exampleAt": 24.028
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "The Next Process Is My Customer",
+      "example": "Anita's assemblers asked the firmware team: what do you need from us?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Your station",
+            "sub": "Follow the SOP",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Check the critical points",
+            "sub": "Product, quantity, label, timing",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Next process",
+            "sub": "Your customer",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "The next process is your customer",
+        "Right product, quantity, quality, label, timing",
+        "Never knowingly pass an abnormal unit",
+        "Raise it through Andon"
+      ],
+      "at": [
+        4.347,
+        7.271,
+        20.467,
+        23.719
+      ],
+      "exampleAt": 26.98
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Leaders Make It Real",
+      "example": "An operator stopped Anita's line for a cracked lens — her manager thanked her in front of the team.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Back the stop",
+            "icon": "shield"
+          },
+          {
+            "label": "Respond fast",
+            "icon": "clock"
+          },
+          {
+            "label": "Learn, never blame",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Leaders back anyone who stops for quality",
+        "Respond quickly when called",
+        "Record defects to learn, never to blame"
+      ],
+      "at": [
+        15.145,
+        18.595,
+        22.547
+      ],
+      "exampleAt": 27.624
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Choosing What to Inspect",
+      "example": "Anita chose four: connector lock, firmware version, housing seal and label.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Customer CTQ",
+            "sub": "Function, safety, fit",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "FMEA + escapes",
+            "sub": "What keeps getting out",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Slip-in points",
+            "sub": "Wrong part, setting, label",
+            "icon": "label",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Connector lock",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Firmware version",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Housing seal",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Label",
+              "icon": "label",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Choose checks by risk",
+        "Customer CTQ: function, safety, fit",
+        "FMEA and repeat escapes",
+        "Where can a wrong part or label slip in?"
+      ],
+      "at": [
+        4.972,
+        7.492,
+        16.36,
+        21.799
+      ],
+      "exampleAt": 26.582
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Designing an Inspection Gate",
+      "example": "Anita's seal gate: boundary samples on the bench and a red bin for rejects.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Good vs bad samples",
+            "icon": "shape"
+          },
+          {
+            "label": "The method",
+            "icon": "sensor"
+          },
+          {
+            "label": "How often",
+            "icon": "clock"
+          },
+          {
+            "label": "The reaction",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Define good and bad, with samples",
+        "Choose the method",
+        "Set how often you check",
+        "Decide the reaction in advance"
+      ],
+      "at": [
+        5.027,
+        11.906,
+        18.384,
+        20.532
+      ],
+      "exampleAt": 25.543
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "The Reaction Plan",
+      "example": "Wrong firmware at test: every unit since the last good check was held.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Stop: Andon",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Identify",
+            "sub": "Defect, model, serial",
+            "icon": "search"
+          },
+          {
+            "label": "Contain",
+            "sub": "Back to the last good unit",
+            "icon": "lock"
+          },
+          {
+            "label": "Correct, verify, prevent",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Stop or signal with Andon",
+        "Identify defect, model, serial",
+        "Contain back to the last good unit",
+        "Correct, verify, prevent"
+      ],
+      "at": [
+        4.152,
+        6.362,
+        10.552,
+        14.592
+      ],
+      "exampleAt": 26.62
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Lean Tools That Help",
+      "example": "Anita swapped a visual label check for a scan match — now the wrong label can't print.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "Jidoka + Andon",
+            "icon": "warning"
+          },
+          {
+            "label": "Standard work",
+            "icon": "clipboard"
+          },
+          {
+            "label": "FMEA + audits",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Visual label check",
+              "sub": "Easy to miss",
+              "icon": "search"
+            },
+            {
+              "label": "Scan match",
+              "sub": "The wrong label can't print",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Poka Yoke stops the wrong part or step",
+        "Jidoka and Andon stop and call help",
+        "Standard work makes good and bad obvious",
+        "FMEA defines risks, audits check controls"
+      ],
+      "at": [
+        5.996,
+        10.853,
+        15.895,
+        21.303
+      ],
+      "exampleAt": 28.138
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Electronics Examples",
+      "example": "Each check sits right after the step it protects. Final inspection is the last safety net.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "SMT",
+            "sub": "Optical inspection, verified feeders",
+            "icon": "chip"
+          },
+          {
+            "label": "Assembly",
+            "sub": "PCB barcode, screw counter",
+            "icon": "barcode"
+          },
+          {
+            "label": "Firmware",
+            "sub": "Version interlock",
+            "icon": "lock"
+          },
+          {
+            "label": "Packing",
+            "sub": "Weight check and scans",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "SMT: optical inspection, verified feeders",
+        "Assembly: barcode for the PCB, screw counter",
+        "Firmware: version interlock",
+        "Packing: weight check and scans"
+      ],
+      "at": [
+        2.834,
+        9.93,
+        17.436,
+        23.254
+      ],
+      "exampleAt": 31.325
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Quality at the Source",
+      "example": "Anita's line once had an inspector after every station. She moved three into prevention projects.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Upstream builds to standard",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Downstream accepts only good",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Problems go back to the source",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "An inspector after every station",
+              "sub": "Costly; hides weak processes",
+              "icon": "person"
+            },
+            {
+              "label": "3 moved to prevention",
+              "sub": "Quality at the source",
+              "icon": "shield"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Upstream builds to standard",
+        "Downstream accepts only good output",
+        "Problems go back to the station that made them",
+        "Beware the inspection trap"
+      ],
+      "at": [
+        5.111,
+        7.689,
+        11.849,
+        19.37
+      ],
+      "exampleAt": 29.057
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Can You Trust the Check?",
+      "example": "Anita's two inspectors disagreed on one seal in five. Better samples fixed it.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "False accept",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "False reject",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Clear definitions",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Trained checkers",
+            "icon": "person"
+          },
+          {
+            "label": "Calibrate, MSA",
+            "icon": "gear"
+          },
+          {
+            "label": "Lighting",
+            "icon": "sensor"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "prefix": "1 in ",
+          "icon": "search",
+          "label": "seals the two inspectors disagreed on",
+          "unit": "Better boundary samples fixed it",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "False accepts let defects escape",
+        "False rejects invite bypassing",
+        "Clear definitions, photos, boundary samples",
+        "Train the checkers",
+        "Calibrate gauges, run MSA",
+        "Control lighting and viewing distance"
+      ],
+      "at": [
+        4.668,
+        8.275,
+        15.25,
+        20.66,
+        22.812,
+        28.615
+      ],
+      "exampleAt": 32.14
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPIs for Next Inspection",
+      "example": "Yield rising while inspection effort falls = you're winning.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "First pass yield",
+            "sub": "Up",
+            "icon": "chartUp",
+            "tone": "good"
+          },
+          {
+            "label": "Escape rate",
+            "sub": "Down",
+            "icon": "chartDown",
+            "tone": "good"
+          },
+          {
+            "label": "Rework, response time",
+            "icon": "clock"
+          },
+          {
+            "label": "False calls",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "First pass yield up",
+        "Escape rate down",
+        "Rework, repeat defects, response time",
+        "False calls tracked"
+      ],
+      "at": [
+        3.808,
+        6.603,
+        15.454,
+        24.707
+      ],
+      "exampleAt": 30.739
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Case Study: Camera Line",
+      "example": "After 8 weeks: escapes 18 → 3 a week, rework more than halved, first pass yield 98.5%.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Checks at 4 risk points",
+            "icon": "search",
+            "tone": "good"
+          },
+          {
+            "label": "Reaction plan at each gate",
+            "icon": "clipboard",
+            "tone": "good"
+          },
+          {
+            "label": "Seal + label interlocks",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Weekly escape review",
+            "icon": "calendar",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 18
+          },
+          "after": {
+            "label": "After 8 weeks",
+            "value": 3
+          },
+          "unit": "escapes a week",
+          "note": "First pass yield 98.5%",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Hand-off checks at 4 risk points",
+        "Reaction plan posted at each gate",
+        "Seal and label checks became interlocks",
+        "Weekly escape review with the source"
+      ],
+      "at": [
+        3.301,
+        6.975,
+        10.844,
+        15.185
+      ],
+      "exampleAt": 21.008
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Roadmap & Daily Checklist",
+      "example": "Daily questions: Are the criteria visible? Can your operators explain the reaction plan?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Select by risk",
+            "with": 0
+          },
+          {
+            "label": "Map the flow",
+            "with": 0
+          },
+          {
+            "label": "Design checks",
+            "with": 1
+          },
+          {
+            "label": "Pilot one line",
+            "with": 2
+          },
+          {
+            "label": "Standardize",
+            "with": 3
+          },
+          {
+            "label": "Ask daily",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Select by risk and Pareto, map the flow",
+        "Design checks with reaction plans",
+        "Pilot one line, compare before / after",
+        "Standardize SOP, FMEA, training"
+      ],
+      "at": [
+        3.704,
+        11.106,
+        17.266,
+        21.656
+      ],
+      "exampleAt": 26.567
+    }
+  ]
+}

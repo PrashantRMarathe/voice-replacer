@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "800 units must be cleared in 4 days. After day 2, 340 are done. Where is the team?",
+      "options": [
+        "60 units ahead of plan",
+        "60 units behind plan",
+        "Exactly on plan"
+      ],
+      "correct": 1,
+      "explanation": "Ideal remaining at day 2 = 800 − 2 × 200 = 400. Actual remaining = 800 − 340 = 460. 460 − 400 = 60 behind plan.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A defect burn-down has been flat for two days. What should the team check first?",
+      "options": [
+        "Nothing: a flat line means things are stable",
+        "Whether work stopped, who owns it, and whether the data was updated",
+        "Redraw the ideal line to match reality"
+      ],
+      "correct": 1,
+      "explanation": "A flat line means nothing closed. Check for a stoppage, the owner and the data. Redrawing the ideal line only hides the gap.",
+      "think": 12
+    }
+  ]
+}

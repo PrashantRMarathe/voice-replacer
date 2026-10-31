@@ -1,0 +1,743 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What a Skill Matrix Is",
+      "example": "Vikram's cell: board assembly, lens focus, test and packing — with approved backups for each.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Who does which job",
+            "icon": "person"
+          },
+          {
+            "label": "Proven level",
+            "icon": "check"
+          },
+          {
+            "label": "The gaps",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Not attendance",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Who can do which job, and how well",
+        "The proven level for each person",
+        "The gaps",
+        "Not an attendance sheet"
+      ],
+      "at": [
+        6.488,
+        10.554,
+        15.834,
+        18.034
+      ],
+      "exampleAt": 22.637
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why It Matters",
+      "example": "Skilled at feeder setup ≠ authorized to release a program. Two different skills.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Staffing, absences",
+            "icon": "calendar"
+          },
+          {
+            "label": "Competence on critical steps",
+            "icon": "shield"
+          },
+          {
+            "label": "A path to grow",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan staffing, cover absences, balance",
+        "Confirm competence on critical steps",
+        "A clear path to grow"
+      ],
+      "at": [
+        5.468,
+        11.972,
+        17.367
+      ],
+      "exampleAt": 23.345
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Matrix Structure",
+      "example": "Production keeps it current; trainers assess; Quality validates the critical skills.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Lens",
+          "Fasten",
+          "Test",
+          "Pack"
+        ],
+        "note": "Illustration: each cell is a proven level",
+        "items": [
+          {
+            "label": "Person A",
+            "cells": [
+              3,
+              4,
+              2,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Person B",
+            "cells": [
+              1,
+              3,
+              3,
+              2
+            ],
+            "with": 1
+          },
+          {
+            "label": "Person C",
+            "cells": [
+              null,
+              2,
+              4,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Rows: people",
+        "Columns: skills",
+        "Each cell: level + last assessed",
+        "Each skill linked to its SOP",
+        "Don't lump tasks into one skill"
+      ],
+      "at": [
+        3.244,
+        5.247,
+        7.601,
+        12.863,
+        29.567
+      ],
+      "exampleAt": 18.836
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Proficiency Levels L0–L4",
+      "example": "A level isn't a permit: machine and safety authorization are recorded separately.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Not trained",
+            "sub": "L0"
+          },
+          {
+            "label": "Understands",
+            "sub": "L1"
+          },
+          {
+            "label": "Supervised",
+            "sub": "L2"
+          },
+          {
+            "label": "Works alone",
+            "sub": "L3"
+          },
+          {
+            "label": "Trains others",
+            "sub": "L4"
+          }
+        ]
+      },
+      "bullets": [
+        "L0 not trained",
+        "L1 understands safety and sequence",
+        "L2 works under supervision",
+        "L3 qualified to work alone",
+        "L4 trains others, troubleshoots"
+      ],
+      "at": [
+        3.335,
+        6.186,
+        12.374,
+        16.41,
+        24.41
+      ],
+      "exampleAt": 28.731
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Find the Critical Skills",
+      "example": "Vikram's cell: lens focus and firmware flashing rank highest; carton handling ranks lower.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Map every step + SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Flag safety, quality, customer",
+            "icon": "warning"
+          },
+          {
+            "label": "Rate impact, difficulty, backups",
+            "icon": "scale"
+          },
+          {
+            "label": "Minimum qualified per shift",
+            "icon": "person",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Lens focus",
+              "sub": "Highest risk",
+              "icon": "camera",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Firmware flashing",
+              "sub": "Highest risk",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Carton handling",
+              "sub": "Lower",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Map every step and its SOP",
+        "Flag safety, quality, customer impact",
+        "Rate impact, difficulty, backups",
+        "Minimum qualified headcount per shift"
+      ],
+      "at": [
+        3.609,
+        8.009,
+        14.137,
+        36.098
+      ],
+      "exampleAt": 21.134
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Assessing Real Skill",
+      "example": "A test operator passed the theory but kept missing failed serial scans — she stays at level two.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Brief theory check",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Real cycles + one abnormal",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Date, assessor, result",
+            "icon": "calendar",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Theory: passed",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Real work: missed failed scans",
+              "icon": "search",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "She stays at level 2",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Brief theory check",
+        "Watch real cycles + one abnormal situation",
+        "Record date, assessor, results"
+      ],
+      "at": [
+        8.902,
+        13.685,
+        19.386
+      ],
+      "exampleAt": 24.299
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Training Needs & Gaps",
+      "example": "Vikram's shift needs 4 qualified firmware operators and has 2: a gap of 2.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Reassess after changes",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Need = required − proven",
+            "icon": "count",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "A gap of 2",
+          "unit": "qualified firmware operators per shift",
+          "with": "example",
+          "items": [
+            {
+              "label": "Needed",
+              "value": 4,
+              "with": "example"
+            },
+            {
+              "label": "Have",
+              "value": 2,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Reassess after absence or changes",
+        "Need = required level − proven level",
+        "Count qualified people vs positions",
+        "Find single points of failure"
+      ],
+      "at": [
+        1.262,
+        11.028,
+        17.356,
+        31.271
+      ],
+      "exampleAt": 22.497
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Training Methods",
+      "example": "Vikram's packing Dojo uses wrong labels and missing accessories on purpose.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "On-the-job training",
+            "icon": "person"
+          },
+          {
+            "label": "Independent assessor",
+            "icon": "shield"
+          },
+          {
+            "label": "Dojo",
+            "sub": "Safe practice off the line",
+            "icon": "tray"
+          },
+          {
+            "label": "One Point Lessons",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Structured on-the-job training",
+        "Independent assessor checks the result",
+        "Dojo: safe practice off the line",
+        "One Point Lessons for key points"
+      ],
+      "at": [
+        2.8,
+        14.772,
+        18.934,
+        32.397
+      ],
+      "exampleAt": 25.135
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "The 90-Day Training Plan",
+      "example": "Vikram's first priority: get a second lens focus expert qualified.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Map skills, define levels, assess",
+            "sub": "Days 1–30",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Train the critical gaps",
+            "sub": "31–60",
+            "icon": "person"
+          },
+          {
+            "label": "Certify backups, scale up",
+            "sub": "61–90",
+            "icon": "check"
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–30: map, define levels, assess",
+        "Days 31–60: train the critical gaps",
+        "Days 61–90: certify backups, scale up"
+      ],
+      "at": [
+        9.065,
+        17.053,
+        23.955
+      ],
+      "exampleAt": 29.054
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Matrix KPIs",
+      "example": "18 of 24 critical positions covered = 75%. Calculate it per shift.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Qualification coverage",
+            "icon": "count"
+          },
+          {
+            "label": "Skill attainment",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Cross-training rate",
+            "icon": "sequence"
+          },
+          {
+            "label": "Expired qualifications",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 75,
+          "suffix": "%",
+          "icon": "person",
+          "label": "of critical positions covered",
+          "unit": "18 of 24: calculate it per shift",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Qualification coverage",
+        "Skill attainment",
+        "Cross-training rate",
+        "Expired qualifications"
+      ],
+      "at": [
+        5.732,
+        12.776,
+        18.452,
+        23.912
+      ],
+      "exampleAt": 27.078
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Worked Example: Vikram's Cell",
+      "example": "Focus + test at once: Bala on focus, Deepa on test. Chitra can't do both.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Board",
+          "Focus",
+          "Test"
+        ],
+        "note": "After 90 days. Focus + test at once: Bala and Deepa. Next: another focus backup.",
+        "items": [
+          {
+            "label": "Asha",
+            "cells": [
+              4,
+              null,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Bala",
+            "cells": [
+              null,
+              3,
+              null
+            ],
+            "with": 1
+          },
+          {
+            "label": "Chitra",
+            "cells": [
+              null,
+              3,
+              3
+            ],
+            "with": 1
+          },
+          {
+            "label": "Deepa",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Asha: board assembly L4",
+        "Chitra now joins Bala: lens focus L3",
+        "Chitra, Deepa: test L3+",
+        "Next priority: another focus backup"
+      ],
+      "at": [
+        4.627,
+        8.157,
+        13.17,
+        30.931
+      ],
+      "exampleAt": 16.889
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Link to Quality & Safety",
+      "example": "Vikram's firmware technician was L3 on the old recipe — the new one changed critical steps, so he was reassessed.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Level",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Authorization",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "SOP training",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Process change: reassess",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Level + authorization + SOP training",
+        "Each skill tied to its SOP revision",
+        "Process change → reassess",
+        "Training never replaces process design"
+      ],
+      "at": [
+        8.252,
+        16.92,
+        20.713,
+        35.853
+      ],
+      "exampleAt": 24.346
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Digital Matrix & Visual Board",
+      "example": "Vikram's dashboard warns him when an authorization is about to expire.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Unique codes",
+            "icon": "barcode"
+          },
+          {
+            "label": "Audit trail",
+            "icon": "sequence"
+          },
+          {
+            "label": "Expiry reminders",
+            "icon": "clock"
+          },
+          {
+            "label": "No self-approval",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Unique codes for people and skills",
+        "Audit trail of every change",
+        "Reminders for expiring qualifications",
+        "No self-approval of critical skills"
+      ],
+      "at": [
+        10.362,
+        13.79,
+        17.976,
+        21.756
+      ],
+      "exampleAt": 25.973
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Governance & Review",
+      "example": "Seniority and attendance don't equal qualification.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Qualified staffing at start-up",
+            "sub": "Daily",
+            "icon": "person"
+          },
+          {
+            "label": "Gaps, cross-training, overdue",
+            "sub": "Weekly",
+            "icon": "calendar"
+          },
+          {
+            "label": "Coverage, people leaving",
+            "sub": "Monthly",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Assessor consistency",
+            "sub": "Quarterly",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Daily: qualified staffing at start-up",
+        "Weekly: gaps, cross-training, overdue",
+        "Monthly: coverage, people leaving",
+        "Quarterly: assessor consistency"
+      ],
+      "at": [
+        4.77,
+        12.351,
+        18.934,
+        23.787
+      ],
+      "exampleAt": 35.227
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Templates & Audit",
+      "example": "Another supervisor should see who is qualified today, at a glance.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Skill matrix · Cell 2 · Rev C",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Skill · SOP rev · level · expiry",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Assessment: theory, cycles, safety",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "A training plan for each gap",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Audited against real work",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Matrix: skill, SOP rev, level, expiry",
+        "Assessment form: theory, cycles, safety",
+        "A training plan for each gap",
+        "Audit cells against real work"
+      ],
+      "at": [
+        4.45,
+        13.217,
+        20.677,
+        23.422
+      ],
+      "exampleAt": 30.856
+    }
+  ]
+}

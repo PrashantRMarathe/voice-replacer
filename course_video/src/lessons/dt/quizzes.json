@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which is the best Design Thinking challenge statement?",
+      "options": [
+        "We need a faster label printer at packing",
+        "Packers need the right label at hand, because look-alike labels and walking cause errors",
+        "Packers must be more careful with labels"
+      ],
+      "correct": 1,
+      "explanation": "It names the user, the need and the insight, without choosing a solution or blaming anyone. The others are a solution and a blame.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A pilot cuts cycle time, but only 6 of 10 operators use the new method. What next?",
+      "options": [
+        "Roll it out: the numbers improved",
+        "Ask the other four why, simplify, and test again",
+        "Make it mandatory and audit daily"
+      ],
+      "correct": 1,
+      "explanation": "Low adoption is evidence too. Find out what makes the method hard for those users, improve it, and re-test before you standardize.",
+      "think": 14
+    }
+  ]
+}
