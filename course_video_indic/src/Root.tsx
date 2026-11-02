@@ -30,6 +30,31 @@ import { PokaYokeMr, POKA_YOKE_MR_DURATION } from "./lessons/pk_mr/PokaYokeMr";
 import { QrqcMr, QRQC_MR_DURATION } from "./lessons/qr_mr/QrqcMr";
 import { A3ProblemSolvingTe, A3_PROBLEM_SOLVING_TE_DURATION } from "./lessons/a3_te/A3ProblemSolvingTe";
 import { A3ProblemSolvingTa, A3_PROBLEM_SOLVING_TA_DURATION } from "./lessons/a3_ta/A3ProblemSolvingTa";
+import { BurnDownChartTa, BURN_DOWN_CHART_TA_DURATION } from "./lessons/bd_ta/BurnDownChartTa";
+import { KaizenTa, KAIZEN_TA_DURATION } from "./lessons/kz_ta/KaizenTa";
+import { CycleTimeStudyTa, CYCLE_TIME_STUDY_TA_DURATION } from "./lessons/ct_ta/CycleTimeStudyTa";
+import { DesignThinkingTa, DESIGN_THINKING_TA_DURATION } from "./lessons/dt_ta/DesignThinkingTa";
+import { EliminationOfWasteTa, ELIMINATION_OF_WASTE_TA_DURATION } from "./lessons/ew_ta/EliminationOfWasteTa";
+import { FMEATa, FMEA_TA_DURATION } from "./lessons/fm_ta/FMEATa";
+import { GembaTa, GEMBA_TA_DURATION } from "./lessons/gb_ta/GembaTa";
+import { HanchoTa, HANCHO_TA_DURATION } from "./lessons/hc_ta/HanchoTa";
+import { IshikawaTa, ISHIKAWA_TA_DURATION } from "./lessons/ik_ta/IshikawaTa";
+import { JidokaTa, JIDOKA_TA_DURATION } from "./lessons/jd_ta/JidokaTa";
+import { LowCostAutomationTa, LOW_COST_AUTOMATION_TA_DURATION } from "./lessons/lc_ta/LowCostAutomationTa";
+import { MudaMuraMuriTa, MUDA_MURA_MURI_TA_DURATION } from "./lessons/mm_ta/MudaMuraMuriTa";
+import { NextInspectionTa, NEXT_INSPECTION_TA_DURATION } from "./lessons/ni_ta/NextInspectionTa";
+import { OnePointLessonTa, ONE_POINT_LESSON_TA_DURATION } from "./lessons/op_ta/OnePointLessonTa";
+import { PokaYokeTa, POKA_YOKE_TA_DURATION } from "./lessons/pk_ta/PokaYokeTa";
+import { QrqcTa, QRQC_TA_DURATION } from "./lessons/qr_ta/QrqcTa";
+import { RootCauseAnalysisTa, ROOT_CAUSE_ANALYSIS_TA_DURATION } from "./lessons/rc_ta/RootCauseAnalysisTa";
+import { SkillMatrixTa, SKILL_MATRIX_TA_DURATION } from "./lessons/sk_ta/SkillMatrixTa";
+import { TaktTimeTa, TAKT_TIME_TA_DURATION } from "./lessons/tt_ta/TaktTimeTa";
+import { UniformProductionTa, UNIFORM_PRODUCTION_TA_DURATION } from "./lessons/up_ta/UniformProductionTa";
+import { ValueStreamMappingTa, VALUE_STREAM_MAPPING_TA_DURATION } from "./lessons/vs_ta/ValueStreamMappingTa";
+import { WhyWhyTa, WHY_WHY_TA_DURATION } from "./lessons/ww_ta/WhyWhyTa";
+import { XMatrixTa, X_MATRIX_TA_DURATION } from "./lessons/xm_ta/XMatrixTa";
+import { YamazumiTa, YAMAZUMI_TA_DURATION } from "./lessons/yz_ta/YamazumiTa";
+import { ZeroDefectsTa, ZERO_DEFECTS_TA_DURATION } from "./lessons/zd_ta/ZeroDefectsTa";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -543,6 +568,431 @@ export const RemotionRoot: React.FC = () => {
         id="A3ProblemSolvingTaDub"
         component={A3ProblemSolvingTa}
         durationInFrames={A3_PROBLEM_SOLVING_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="BurnDownChartTa"
+        component={BurnDownChartTa}
+        durationInFrames={BURN_DOWN_CHART_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartTaDub"
+        component={BurnDownChartTa}
+        durationInFrames={BURN_DOWN_CHART_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenTa"
+        component={KaizenTa}
+        durationInFrames={KAIZEN_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenTaDub"
+        component={KaizenTa}
+        durationInFrames={KAIZEN_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyTa"
+        component={CycleTimeStudyTa}
+        durationInFrames={CYCLE_TIME_STUDY_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyTaDub"
+        component={CycleTimeStudyTa}
+        durationInFrames={CYCLE_TIME_STUDY_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="DesignThinkingTa"
+        component={DesignThinkingTa}
+        durationInFrames={DESIGN_THINKING_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="DesignThinkingTaDub"
+        component={DesignThinkingTa}
+        durationInFrames={DESIGN_THINKING_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteTa"
+        component={EliminationOfWasteTa}
+        durationInFrames={ELIMINATION_OF_WASTE_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteTaDub"
+        component={EliminationOfWasteTa}
+        durationInFrames={ELIMINATION_OF_WASTE_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEATa"
+        component={FMEATa}
+        durationInFrames={FMEA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEATaDub"
+        component={FMEATa}
+        durationInFrames={FMEA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="GembaTa"
+        component={GembaTa}
+        durationInFrames={GEMBA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="GembaTaDub"
+        component={GembaTa}
+        durationInFrames={GEMBA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="HanchoTa"
+        component={HanchoTa}
+        durationInFrames={HANCHO_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="HanchoTaDub"
+        component={HanchoTa}
+        durationInFrames={HANCHO_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaTa"
+        component={IshikawaTa}
+        durationInFrames={ISHIKAWA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaTaDub"
+        component={IshikawaTa}
+        durationInFrames={ISHIKAWA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaTa"
+        component={JidokaTa}
+        durationInFrames={JIDOKA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaTaDub"
+        component={JidokaTa}
+        durationInFrames={JIDOKA_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationTa"
+        component={LowCostAutomationTa}
+        durationInFrames={LOW_COST_AUTOMATION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationTaDub"
+        component={LowCostAutomationTa}
+        durationInFrames={LOW_COST_AUTOMATION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriTa"
+        component={MudaMuraMuriTa}
+        durationInFrames={MUDA_MURA_MURI_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriTaDub"
+        component={MudaMuraMuriTa}
+        durationInFrames={MUDA_MURA_MURI_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionTa"
+        component={NextInspectionTa}
+        durationInFrames={NEXT_INSPECTION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionTaDub"
+        component={NextInspectionTa}
+        durationInFrames={NEXT_INSPECTION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="OnePointLessonTa"
+        component={OnePointLessonTa}
+        durationInFrames={ONE_POINT_LESSON_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="OnePointLessonTaDub"
+        component={OnePointLessonTa}
+        durationInFrames={ONE_POINT_LESSON_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="PokaYokeTa"
+        component={PokaYokeTa}
+        durationInFrames={POKA_YOKE_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="PokaYokeTaDub"
+        component={PokaYokeTa}
+        durationInFrames={POKA_YOKE_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="QrqcTa"
+        component={QrqcTa}
+        durationInFrames={QRQC_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="QrqcTaDub"
+        component={QrqcTa}
+        durationInFrames={QRQC_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisTa"
+        component={RootCauseAnalysisTa}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisTaDub"
+        component={RootCauseAnalysisTa}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixTa"
+        component={SkillMatrixTa}
+        durationInFrames={SKILL_MATRIX_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixTaDub"
+        component={SkillMatrixTa}
+        durationInFrames={SKILL_MATRIX_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeTa"
+        component={TaktTimeTa}
+        durationInFrames={TAKT_TIME_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeTaDub"
+        component={TaktTimeTa}
+        durationInFrames={TAKT_TIME_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="UniformProductionTa"
+        component={UniformProductionTa}
+        durationInFrames={UNIFORM_PRODUCTION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="UniformProductionTaDub"
+        component={UniformProductionTa}
+        durationInFrames={UNIFORM_PRODUCTION_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ValueStreamMappingTa"
+        component={ValueStreamMappingTa}
+        durationInFrames={VALUE_STREAM_MAPPING_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ValueStreamMappingTaDub"
+        component={ValueStreamMappingTa}
+        durationInFrames={VALUE_STREAM_MAPPING_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="WhyWhyTa"
+        component={WhyWhyTa}
+        durationInFrames={WHY_WHY_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="WhyWhyTaDub"
+        component={WhyWhyTa}
+        durationInFrames={WHY_WHY_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="XMatrixTa"
+        component={XMatrixTa}
+        durationInFrames={X_MATRIX_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="XMatrixTaDub"
+        component={XMatrixTa}
+        durationInFrames={X_MATRIX_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="YamazumiTa"
+        component={YamazumiTa}
+        durationInFrames={YAMAZUMI_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="YamazumiTaDub"
+        component={YamazumiTa}
+        durationInFrames={YAMAZUMI_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ZeroDefectsTa"
+        component={ZeroDefectsTa}
+        durationInFrames={ZERO_DEFECTS_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ZeroDefectsTaDub"
+        component={ZeroDefectsTa}
+        durationInFrames={ZERO_DEFECTS_TA_DURATION}
         fps={fps}
         width={width}
         height={height}

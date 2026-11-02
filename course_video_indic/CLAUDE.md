@@ -32,7 +32,7 @@ Added 2 Nov 2026, completing all 26: BurnDownChart (`bd_hi`), CycleTimeStudy (`c
 EliminationOfWaste (`ew_hi`), FMEA (`fm_hi`, comp `FMEAHi`), Ishikawa (`ik_hi`), Jidoka (`jd_hi`),
 Kaizen (`kz_hi`), LowCostAutomation (`lc_hi`), MudaMuraMuri (`mm_hi`), NextInspection (`ni_hi`),
 RootCauseAnalysis (`rc_hi`, module `root_cause_hi`), SkillMatrix (`sk_hi`), TaktTime (`tt_hi`).
-Telugu / Tamil (31 Oct 2026, one lesson each for the user to review first):
+Telugu / Tamil pilots (made 31 Oct 2026, approved by the user 2 Nov 2026; both pass validate_video):
 A3ProblemSolvingTe (`a3_te`, module `a3_problem_solving_te`) and A3ProblemSolvingTa
 (`a3_ta`, module `a3_problem_solving_ta`; Tamil says இடைவெளி for "gap").
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
