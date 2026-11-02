@@ -336,8 +336,8 @@ VISUALS = {
     "p13": {"type": "compare", "before": {"label": "पहले", "value": 0.8}, "after": {"label": "बाद में", "value": 0.2},
             "suffix": "%", "decimals": 1, "unit": "डिफ़ेक्ट रेट, 60,000 यूनिट/महीना", "note": "≈ हर महीने ₹65,000 बचत"},
     "p14": {"type": "timeline", "items": [
-        {"label": "फ़ेल्योर मोड + बेसलाइन", "sub": "हफ़्ता 1–2", "span": 2, "icon": "search"},
-        {"label": "डिज़ाइन विकल्प, लॉजिक", "sub": "हफ़्ता 3–4", "span": 2, "icon": "gear"},
+        {"label": "फ़ेल्योर मोड + बेसलाइन", "sub": "W1–2", "span": 2, "icon": "search"},
+        {"label": "डिज़ाइन विकल्प, लॉजिक", "sub": "W3–4", "span": 2, "icon": "gear"},
         {"label": "एक स्टेशन पर पायलट", "sub": "महीना 2", "span": 4, "icon": "test"},
         {"label": "डॉक्यूमेंट, ट्रेनिंग, लागू", "sub": "महीना 3", "span": 4, "icon": "clipboard"}]},
     "p15": {"type": "icons", "items": [
