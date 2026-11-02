@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lesson_lib  # noqa: E402
+import pronounce  # noqa: E402
 
 ID = "gb_hi"
 NAME = "gemba_hi"
@@ -39,7 +40,7 @@ SPOKEN = {
 def say(text: str) -> str:
     for en in sorted(SPOKEN, key=len, reverse=True):
         text = re.sub(rf"(?<![A-Za-z0-9]){re.escape(en)}(?![A-Za-z0-9])", SPOKEN[en], text)
-    return text
+    return pronounce.fix(text, LANG)
 
 
 INTRO_SCRIPT = (
@@ -157,7 +158,7 @@ PAGES = [
                    ("संकेत सबूत नहीं है", "एक संकेत है")],
         "example": "शिफ़्ट B: 1,100 में से 22 (2.0%)। शिफ़्ट A: 1,050 में से 9 (0.9%)।",
         "example_cue": "शिफ़्ट B पर ग्यारह",
-        "script": "राय की जगह तथ्य रखिए। टेस्टिंग धीमी है, यह राय है। औसत टेस्ट टाइम छियालीस से बढ़कर "
+        "script": "राय की जगह तथ्य रखिए। टेस्टिंग धीमी है, यह राय है। मीडियन टेस्ट टाइम छियालीस से बढ़कर "
                   "इकसठ सेकंड हुआ, यह तथ्य है। भाजक के साथ गिनती इस्तेमाल कीजिए, और ऐसे टाइमस्टैम्प जिन "
                   "पर भरोसा हो। शिफ़्ट B पर ग्यारह सौ में से बाईस फ़ेल्योर थे। शिफ़्ट A पर लगभग एक हज़ार में से "
                   "नौ। यह फ़र्क जाँच के लिए एक संकेत है। पर क्या यह सबूत है कि वजह शिफ़्ट B थी?",

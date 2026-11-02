@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import lesson_lib  # noqa: E402
+import pronounce  # noqa: E402
 
 ID = "qr_hi"
 NAME = "qrqc_hi"
@@ -36,7 +37,7 @@ SPOKEN = {
 def say(text: str) -> str:
     for en in sorted(SPOKEN, key=len, reverse=True):
         text = re.sub(rf"(?<![A-Za-z0-9]){re.escape(en)}(?![A-Za-z0-9])", SPOKEN[en], text)
-    return text
+    return pronounce.fix(text, LANG)
 
 
 INTRO_SCRIPT = (

@@ -29,11 +29,12 @@ const TEXT: LessonText = {
 };
 
 // Same polish as English WhyWhy; cues are phrases from the Hindi intro/outro.
-// recap uses the page-12 numbers (50 → 15, 70%), not the English polish's 60 → 12.
+// recap uses the page-12 numbers (50 → 15, 70%), not the English polish's 60 → 12;
+// hook.value is 21 (the intro count), not the English polish's 24.
 const POLISH: Polish = {
   sound: true, acting: true, focus: true, bigQuiz: true,
   hook: {
-    value: 24, icon: "power", label: "फ़ोन फ़ाइनल टेस्ट में चार्जिंग में फ़ेल",
+    value: 21, icon: "power", label: "फ़ोन फ़ाइनल टेस्ट में चार्जिंग में फ़ेल",
     sub: "पहला जवाब: ऑपरेटर की गलती। दो दिन बाद, फिर वही हुआ।", until: "इस लेसन में",
   },
   recap: {

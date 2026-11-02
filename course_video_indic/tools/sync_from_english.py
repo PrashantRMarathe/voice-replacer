@@ -127,7 +127,9 @@ def main():
     if unclear:''', '''    if not en:
         # the Indian-language voice reads its own script only: every English
         # term needs a native-script form in say() (captions keep the English)
-        latin = sorted({w for _, t in clips for w in re.findall(r"[A-Za-z][A-Za-z'-]*", spoken(t))})
+        import pronounce  # words the user chose to hear in English letters
+        latin = sorted({w for _, t in clips for w in re.findall(r"[A-Za-z][A-Za-z'-]*", spoken(t))}
+                       - pronounce.LATIN_OK.get(mod.LANG, set()))
         if latin:
             add("lesson", f"English left in the spoken text: {', '.join(latin)} (add it to say())")
     unclear = sorted({w for _, t in clips

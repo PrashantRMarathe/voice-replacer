@@ -1,12 +1,25 @@
 import React from "react";
 import { Composition } from "remotion";
 import { A3ProblemSolvingHi, A3_PROBLEM_SOLVING_HI_DURATION } from "./lessons/a3_hi/A3ProblemSolvingHi";
+import { BurnDownChartHi, BURN_DOWN_CHART_HI_DURATION } from "./lessons/bd_hi/BurnDownChartHi";
+import { CycleTimeStudyHi, CYCLE_TIME_STUDY_HI_DURATION } from "./lessons/ct_hi/CycleTimeStudyHi";
 import { DesignThinkingHi, DESIGN_THINKING_HI_DURATION } from "./lessons/dt_hi/DesignThinkingHi";
+import { EliminationOfWasteHi, ELIMINATION_OF_WASTE_HI_DURATION } from "./lessons/ew_hi/EliminationOfWasteHi";
+import { FMEAHi, FMEA_HI_DURATION } from "./lessons/fm_hi/FMEAHi";
 import { GembaHi, GEMBA_HI_DURATION } from "./lessons/gb_hi/GembaHi";
 import { HanchoHi, HANCHO_HI_DURATION } from "./lessons/hc_hi/HanchoHi";
+import { IshikawaHi, ISHIKAWA_HI_DURATION } from "./lessons/ik_hi/IshikawaHi";
+import { JidokaHi, JIDOKA_HI_DURATION } from "./lessons/jd_hi/JidokaHi";
+import { KaizenHi, KAIZEN_HI_DURATION } from "./lessons/kz_hi/KaizenHi";
+import { LowCostAutomationHi, LOW_COST_AUTOMATION_HI_DURATION } from "./lessons/lc_hi/LowCostAutomationHi";
+import { MudaMuraMuriHi, MUDA_MURA_MURI_HI_DURATION } from "./lessons/mm_hi/MudaMuraMuriHi";
+import { NextInspectionHi, NEXT_INSPECTION_HI_DURATION } from "./lessons/ni_hi/NextInspectionHi";
 import { OnePointLessonHi, ONE_POINT_LESSON_HI_DURATION } from "./lessons/op_hi/OnePointLessonHi";
 import { PokaYokeHi, POKA_YOKE_HI_DURATION } from "./lessons/pk_hi/PokaYokeHi";
 import { QrqcHi, QRQC_HI_DURATION } from "./lessons/qr_hi/QrqcHi";
+import { RootCauseAnalysisHi, ROOT_CAUSE_ANALYSIS_HI_DURATION } from "./lessons/rc_hi/RootCauseAnalysisHi";
+import { SkillMatrixHi, SKILL_MATRIX_HI_DURATION } from "./lessons/sk_hi/SkillMatrixHi";
+import { TaktTimeHi, TAKT_TIME_HI_DURATION } from "./lessons/tt_hi/TaktTimeHi";
 import { UniformProductionHi, UNIFORM_PRODUCTION_HI_DURATION } from "./lessons/up_hi/UniformProductionHi";
 import { ValueStreamMappingHi, VALUE_STREAM_MAPPING_HI_DURATION } from "./lessons/vs_hi/ValueStreamMappingHi";
 import { WhyWhyHi, WHY_WHY_HI_DURATION } from "./lessons/ww_hi/WhyWhyHi";
@@ -43,6 +56,40 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{ captions: false }}
       />
       <Composition
+        id="BurnDownChartHi"
+        component={BurnDownChartHi}
+        durationInFrames={BURN_DOWN_CHART_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartHiDub"
+        component={BurnDownChartHi}
+        durationInFrames={BURN_DOWN_CHART_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyHi"
+        component={CycleTimeStudyHi}
+        durationInFrames={CYCLE_TIME_STUDY_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyHiDub"
+        component={CycleTimeStudyHi}
+        durationInFrames={CYCLE_TIME_STUDY_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
         id="DesignThinkingHi"
         component={DesignThinkingHi}
         durationInFrames={DESIGN_THINKING_HI_DURATION}
@@ -54,6 +101,40 @@ export const RemotionRoot: React.FC = () => {
         id="DesignThinkingHiDub"
         component={DesignThinkingHi}
         durationInFrames={DESIGN_THINKING_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteHi"
+        component={EliminationOfWasteHi}
+        durationInFrames={ELIMINATION_OF_WASTE_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteHiDub"
+        component={EliminationOfWasteHi}
+        durationInFrames={ELIMINATION_OF_WASTE_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEAHi"
+        component={FMEAHi}
+        durationInFrames={FMEA_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEAHiDub"
+        component={FMEAHi}
+        durationInFrames={FMEA_HI_DURATION}
         fps={fps}
         width={width}
         height={height}
@@ -88,6 +169,108 @@ export const RemotionRoot: React.FC = () => {
         id="HanchoHiDub"
         component={HanchoHi}
         durationInFrames={HANCHO_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaHi"
+        component={IshikawaHi}
+        durationInFrames={ISHIKAWA_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaHiDub"
+        component={IshikawaHi}
+        durationInFrames={ISHIKAWA_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaHi"
+        component={JidokaHi}
+        durationInFrames={JIDOKA_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaHiDub"
+        component={JidokaHi}
+        durationInFrames={JIDOKA_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenHi"
+        component={KaizenHi}
+        durationInFrames={KAIZEN_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenHiDub"
+        component={KaizenHi}
+        durationInFrames={KAIZEN_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationHi"
+        component={LowCostAutomationHi}
+        durationInFrames={LOW_COST_AUTOMATION_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationHiDub"
+        component={LowCostAutomationHi}
+        durationInFrames={LOW_COST_AUTOMATION_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriHi"
+        component={MudaMuraMuriHi}
+        durationInFrames={MUDA_MURA_MURI_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriHiDub"
+        component={MudaMuraMuriHi}
+        durationInFrames={MUDA_MURA_MURI_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionHi"
+        component={NextInspectionHi}
+        durationInFrames={NEXT_INSPECTION_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionHiDub"
+        component={NextInspectionHi}
+        durationInFrames={NEXT_INSPECTION_HI_DURATION}
         fps={fps}
         width={width}
         height={height}
@@ -139,6 +322,57 @@ export const RemotionRoot: React.FC = () => {
         id="QrqcHiDub"
         component={QrqcHi}
         durationInFrames={QRQC_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisHi"
+        component={RootCauseAnalysisHi}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisHiDub"
+        component={RootCauseAnalysisHi}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixHi"
+        component={SkillMatrixHi}
+        durationInFrames={SKILL_MATRIX_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixHiDub"
+        component={SkillMatrixHi}
+        durationInFrames={SKILL_MATRIX_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeHi"
+        component={TaktTimeHi}
+        durationInFrames={TAKT_TIME_HI_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeHiDub"
+        component={TaktTimeHi}
+        durationInFrames={TAKT_TIME_HI_DURATION}
         fps={fps}
         width={width}
         height={height}

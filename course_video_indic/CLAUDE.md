@@ -28,11 +28,15 @@ A3ProblemSolving (`a3_hi`), DesignThinking (`dt_hi`), Gemba (`gb_hi`), Hancho (`
 OnePointLesson (`op_hi`), QRQC (`qr_hi`, comp `QrqcHi`), UniformProduction (`up_hi`),
 ValueStreamMapping (`vs_hi`, module `value_stream_hi`), WhyWhy (`ww_hi`), XMatrix (`xm_hi`),
 Yamazumi (`yz_hi`), ZeroDefects (`zd_hi`). Older: PokaYokeHi (`pk_hi`), PokaYokeMr, QrqcMr.
+Added 2 Nov 2026, completing all 26: BurnDownChart (`bd_hi`), CycleTimeStudy (`ct_hi`),
+EliminationOfWaste (`ew_hi`), FMEA (`fm_hi`, comp `FMEAHi`), Ishikawa (`ik_hi`), Jidoka (`jd_hi`),
+Kaizen (`kz_hi`), LowCostAutomation (`lc_hi`), MudaMuraMuri (`mm_hi`), NextInspection (`ni_hi`),
+RootCauseAnalysis (`rc_hi`, module `root_cause_hi`), SkillMatrix (`sk_hi`), TaktTime (`tt_hi`).
 Telugu / Tamil (31 Oct 2026, one lesson each for the user to review first):
 A3ProblemSolvingTe (`a3_te`, module `a3_problem_solving_te`) and A3ProblemSolvingTa
 (`a3_ta`, module `a3_problem_solving_ta`; Tamil says இடைவெளி for "gap").
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
-the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why recap 50 → 15).
+the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
 Adding one: write the module, `bash tools/new_component.sh <id> <Comp> <DUR_CONST> <module> [lang]`
 (TEXT + POLISH on stdin; lang `hi` default, `mr`, `te`, `ta`), add it to `tools/gen_root.py` and run it (writes Root.tsx and
@@ -63,6 +67,26 @@ component calls `setUI("<lang>")` (and `ensureIndicFont("<lang>")`) at its top.
 - **Telugu: FEMALE `te-IN-ShrutiNeural`. Tamil: FEMALE `ta-IN-PallaviNeural`** (31 Oct 2026).
   Fonts: Noto Sans Telugu / Tamil via `src/indicFonts.ts`; screen labels in `src/ui.ts`.
 - Deliveries go to `final/<language>/` (full English name: `hindi/`, `marathi/`, `tamil/`, ...).
+
+## Pronunciation (31 Oct 2026)
+- `narration/pronounce.py`: one voice-only respelling list per language (`PRON`), shared by
+  every lesson; each module's say() ends with `return pronounce.fix(text, LANG)` (new modules too).
+  Hindi so far: ज़रूरी→जरूरी, जाना-पहचाना→जाना पेहचाना, विज़ुअल→"visual" (the user's picks).
+- English terms stay in each module's `SPOKEN` native-script forms (एस-ओ-पी, गेम्बा). The user
+  heard English-letter forms (S-O-P, A-three) in Swara's voice and said the old way is better.
+  `LATIN_OK` lists the few words voiced in English letters (lint allows only those).
+- Before voicing a language: `python tools/say_words.py all_<lang>` -> `out/pron_test/<lang>_words.mp3`
+  + `.txt` (every English term / PRON word in a real sentence, numbered). The user (a native
+  speaker for fr/de/es/ar) marks bad numbers; fix them in `pronounce.py`.
+- After a `pronounce.py` change: `python tools/revoice.py all_<lang>` (or module names; `--dry`
+  lists) re-voices ONLY clips whose spoken text changed (`public/audio/<id>/spoken.json`).
+- Stay on free edge-tts voices (the user declined paid voices, 31 Oct 2026). The videos must
+  sound fluent: the viewers are professionals.
+
+## Two machines
+See `docs/WORKPLAN.md`: PC edits/voices/commits and renders; the laptop only renders.
+`tools/jobs.ps1` (queue), `tools/worker.ps1` (render + `tools/validate_video.py` + copy to final),
+`tools/pc_publish.ps1` (audio -> Drive `FFIQ_sync`). Every video is validated before `final/`.
 
 ## Render checklist
 Standard: `python tools/run_awake.py bash scripts/render_lesson.sh hindi <Comp> ...` does steps 1–3 (Edge

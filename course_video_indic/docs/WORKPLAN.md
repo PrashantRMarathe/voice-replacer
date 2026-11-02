@@ -17,7 +17,7 @@ and every rendered video is checked again before it reaches `final/`. Slower is 
 | Bengali | bn-IN-TanishaaNeural | | | |
 
 ## Order
-1. Hindi (13 of 26 scripts exist) · 2. Marathi · 3–7. Telugu, Tamil, Kannada, Bengali,
+1. Hindi (all 26 scripts exist) · 2. Marathi · 3–7. Telugu, Tamil, Kannada, Bengali,
 Malayalam · 8–10. Spanish, French, German (Latin-script lint mode needed once) ·
 11. Arabic last (right-to-left layout: mirrored pages, RTL captions, Arabic font).
 
@@ -25,8 +25,9 @@ Malayalam · 8–10. Spanish, French, German (Latin-script lint mode needed once
 1. **Script check** (before any voice): every page/quiz/outro translated, every number
    identical to English, no English left in the voice text, text fits the boxes
    (`npm run check`), and an English back-translation read against the source.
-2. **Voice check** (before any render): female voice, every clip's pace, loudness and
-   ending (no cut-off), captions synced to real pauses.
+2. **Voice check** (before any render): `tools/say_words.py` word sample approved by the
+   user (bad numbers fixed in `narration/pronounce.py`, then `tools/revoice.py`); female
+   voice, every clip's pace, loudness and ending (no cut-off), captions synced to real pauses.
 3. **Pilot**: render ONE lesson; the user (or a native speaker for es/fr/de/ar) watches it.
    Nothing else in that language is rendered until the user says OK.
 4. **Video check** (every video): `tools/validate_video.py` checks length vs the planned
