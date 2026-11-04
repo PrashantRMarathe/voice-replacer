@@ -1,5 +1,13 @@
 # Work plan: 11 languages, 2 machines, every video made once
 
+> **Changed 4 Nov 2026: production uses dub tracks.** Each lesson is ONE English video
+> (rendered once); every language is its own audio track (~15 MB) + subtitle file over it,
+> like a dubbed film, instead of a full video per language (~320 MB). The user approved the
+> Zero Defects pilot (Hindi + Telugu; speed-ups up to 14% sound fine). See CLAUDE.md
+> "Dub tracks". The per-language videos below (`final/<language>/`) are no longer needed for
+> production; the scripts, voices and gates 1–2 still are (the dub track uses the same voiced
+> clips). A new language = translate + voice + `tools/fit_dub.py all <id> <lang>` (seconds).
+
 English is the source and is **locked** (no script changes while languages are made).
 Target languages: Hindi, Marathi, Telugu, Tamil, Kannada, Bengali, Malayalam,
 Spanish (Latin America), French, German, Arabic (Modern Standard).
@@ -36,7 +44,9 @@ Malayalam · 8–10. Spanish, French, German (Latin-script lint mode needed once
    which is looked at before the video is accepted. Only PASS videos go to `final/`.
 
 ## Two machines
-**The PC is the boss. The laptop only renders.**
+**The PC is the boss. The laptop only renders.** Exception (2 Nov 2026): all Telugu work
+(scripts, voices, renders) is done on the laptop, and the laptop commits it. The laptop also
+renders the English dub videos (`scripts/render_dub.sh`, started 4 Nov 2026).
 
 | | PC | Laptop |
 |---|---|---|

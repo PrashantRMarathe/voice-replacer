@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A station's cycle time is 30 seconds. What is its theoretical output per hour?",
+      "options": [
+        "90 units",
+        "120 units",
+        "180 units"
+      ],
+      "correct": 1,
+      "explanation": "Hourly output = 3,600 ÷ cycle time = 3,600 ÷ 30 = 120 units an hour, before any losses.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "After a change, a station's cycle time drops from 28 to 22 seconds, but first pass yield falls. What now?",
+      "options": [
+        "Standardize it: the station is faster",
+        "Hold the change and find why quality dropped",
+        "Add a final inspector to catch the defects"
+      ],
+      "correct": 1,
+      "explanation": "A faster cycle that makes more defects isn't an improvement. Hold the change, find why yield fell, and only standardize once quality holds.",
+      "think": 14
+    }
+  ]
+}

@@ -55,6 +55,31 @@ import { WhyWhyTa, WHY_WHY_TA_DURATION } from "./lessons/ww_ta/WhyWhyTa";
 import { XMatrixTa, X_MATRIX_TA_DURATION } from "./lessons/xm_ta/XMatrixTa";
 import { YamazumiTa, YAMAZUMI_TA_DURATION } from "./lessons/yz_ta/YamazumiTa";
 import { ZeroDefectsTa, ZERO_DEFECTS_TA_DURATION } from "./lessons/zd_ta/ZeroDefectsTa";
+import { BurnDownChartTe, BURN_DOWN_CHART_TE_DURATION } from "./lessons/bd_te/BurnDownChartTe";
+import { CycleTimeStudyTe, CYCLE_TIME_STUDY_TE_DURATION } from "./lessons/ct_te/CycleTimeStudyTe";
+import { DesignThinkingTe, DESIGN_THINKING_TE_DURATION } from "./lessons/dt_te/DesignThinkingTe";
+import { EliminationOfWasteTe, ELIMINATION_OF_WASTE_TE_DURATION } from "./lessons/ew_te/EliminationOfWasteTe";
+import { FMEATe, FMEA_TE_DURATION } from "./lessons/fm_te/FMEATe";
+import { GembaTe, GEMBA_TE_DURATION } from "./lessons/gb_te/GembaTe";
+import { HanchoTe, HANCHO_TE_DURATION } from "./lessons/hc_te/HanchoTe";
+import { IshikawaTe, ISHIKAWA_TE_DURATION } from "./lessons/ik_te/IshikawaTe";
+import { JidokaTe, JIDOKA_TE_DURATION } from "./lessons/jd_te/JidokaTe";
+import { KaizenTe, KAIZEN_TE_DURATION } from "./lessons/kz_te/KaizenTe";
+import { LowCostAutomationTe, LOW_COST_AUTOMATION_TE_DURATION } from "./lessons/lc_te/LowCostAutomationTe";
+import { MudaMuraMuriTe, MUDA_MURA_MURI_TE_DURATION } from "./lessons/mm_te/MudaMuraMuriTe";
+import { NextInspectionTe, NEXT_INSPECTION_TE_DURATION } from "./lessons/ni_te/NextInspectionTe";
+import { OnePointLessonTe, ONE_POINT_LESSON_TE_DURATION } from "./lessons/op_te/OnePointLessonTe";
+import { PokaYokeTe, POKA_YOKE_TE_DURATION } from "./lessons/pk_te/PokaYokeTe";
+import { QrqcTe, QRQC_TE_DURATION } from "./lessons/qr_te/QrqcTe";
+import { RootCauseAnalysisTe, ROOT_CAUSE_ANALYSIS_TE_DURATION } from "./lessons/rc_te/RootCauseAnalysisTe";
+import { SkillMatrixTe, SKILL_MATRIX_TE_DURATION } from "./lessons/sk_te/SkillMatrixTe";
+import { TaktTimeTe, TAKT_TIME_TE_DURATION } from "./lessons/tt_te/TaktTimeTe";
+import { UniformProductionTe, UNIFORM_PRODUCTION_TE_DURATION } from "./lessons/up_te/UniformProductionTe";
+import { ValueStreamMappingTe, VALUE_STREAM_MAPPING_TE_DURATION } from "./lessons/vs_te/ValueStreamMappingTe";
+import { WhyWhyTe, WHY_WHY_TE_DURATION } from "./lessons/ww_te/WhyWhyTe";
+import { XMatrixTe, X_MATRIX_TE_DURATION } from "./lessons/xm_te/XMatrixTe";
+import { YamazumiTe, YAMAZUMI_TE_DURATION } from "./lessons/yz_te/YamazumiTe";
+import { ZeroDefectsTe, ZERO_DEFECTS_TE_DURATION } from "./lessons/zd_te/ZeroDefectsTe";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -993,6 +1018,431 @@ export const RemotionRoot: React.FC = () => {
         id="ZeroDefectsTaDub"
         component={ZeroDefectsTa}
         durationInFrames={ZERO_DEFECTS_TA_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="BurnDownChartTe"
+        component={BurnDownChartTe}
+        durationInFrames={BURN_DOWN_CHART_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartTeDub"
+        component={BurnDownChartTe}
+        durationInFrames={BURN_DOWN_CHART_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyTe"
+        component={CycleTimeStudyTe}
+        durationInFrames={CYCLE_TIME_STUDY_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyTeDub"
+        component={CycleTimeStudyTe}
+        durationInFrames={CYCLE_TIME_STUDY_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="DesignThinkingTe"
+        component={DesignThinkingTe}
+        durationInFrames={DESIGN_THINKING_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="DesignThinkingTeDub"
+        component={DesignThinkingTe}
+        durationInFrames={DESIGN_THINKING_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteTe"
+        component={EliminationOfWasteTe}
+        durationInFrames={ELIMINATION_OF_WASTE_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteTeDub"
+        component={EliminationOfWasteTe}
+        durationInFrames={ELIMINATION_OF_WASTE_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEATe"
+        component={FMEATe}
+        durationInFrames={FMEA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEATeDub"
+        component={FMEATe}
+        durationInFrames={FMEA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="GembaTe"
+        component={GembaTe}
+        durationInFrames={GEMBA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="GembaTeDub"
+        component={GembaTe}
+        durationInFrames={GEMBA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="HanchoTe"
+        component={HanchoTe}
+        durationInFrames={HANCHO_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="HanchoTeDub"
+        component={HanchoTe}
+        durationInFrames={HANCHO_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaTe"
+        component={IshikawaTe}
+        durationInFrames={ISHIKAWA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaTeDub"
+        component={IshikawaTe}
+        durationInFrames={ISHIKAWA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaTe"
+        component={JidokaTe}
+        durationInFrames={JIDOKA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaTeDub"
+        component={JidokaTe}
+        durationInFrames={JIDOKA_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenTe"
+        component={KaizenTe}
+        durationInFrames={KAIZEN_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenTeDub"
+        component={KaizenTe}
+        durationInFrames={KAIZEN_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationTe"
+        component={LowCostAutomationTe}
+        durationInFrames={LOW_COST_AUTOMATION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationTeDub"
+        component={LowCostAutomationTe}
+        durationInFrames={LOW_COST_AUTOMATION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriTe"
+        component={MudaMuraMuriTe}
+        durationInFrames={MUDA_MURA_MURI_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriTeDub"
+        component={MudaMuraMuriTe}
+        durationInFrames={MUDA_MURA_MURI_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionTe"
+        component={NextInspectionTe}
+        durationInFrames={NEXT_INSPECTION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionTeDub"
+        component={NextInspectionTe}
+        durationInFrames={NEXT_INSPECTION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="OnePointLessonTe"
+        component={OnePointLessonTe}
+        durationInFrames={ONE_POINT_LESSON_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="OnePointLessonTeDub"
+        component={OnePointLessonTe}
+        durationInFrames={ONE_POINT_LESSON_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="PokaYokeTe"
+        component={PokaYokeTe}
+        durationInFrames={POKA_YOKE_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="PokaYokeTeDub"
+        component={PokaYokeTe}
+        durationInFrames={POKA_YOKE_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="QrqcTe"
+        component={QrqcTe}
+        durationInFrames={QRQC_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="QrqcTeDub"
+        component={QrqcTe}
+        durationInFrames={QRQC_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisTe"
+        component={RootCauseAnalysisTe}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisTeDub"
+        component={RootCauseAnalysisTe}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixTe"
+        component={SkillMatrixTe}
+        durationInFrames={SKILL_MATRIX_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixTeDub"
+        component={SkillMatrixTe}
+        durationInFrames={SKILL_MATRIX_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeTe"
+        component={TaktTimeTe}
+        durationInFrames={TAKT_TIME_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeTeDub"
+        component={TaktTimeTe}
+        durationInFrames={TAKT_TIME_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="UniformProductionTe"
+        component={UniformProductionTe}
+        durationInFrames={UNIFORM_PRODUCTION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="UniformProductionTeDub"
+        component={UniformProductionTe}
+        durationInFrames={UNIFORM_PRODUCTION_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ValueStreamMappingTe"
+        component={ValueStreamMappingTe}
+        durationInFrames={VALUE_STREAM_MAPPING_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ValueStreamMappingTeDub"
+        component={ValueStreamMappingTe}
+        durationInFrames={VALUE_STREAM_MAPPING_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="WhyWhyTe"
+        component={WhyWhyTe}
+        durationInFrames={WHY_WHY_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="WhyWhyTeDub"
+        component={WhyWhyTe}
+        durationInFrames={WHY_WHY_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="XMatrixTe"
+        component={XMatrixTe}
+        durationInFrames={X_MATRIX_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="XMatrixTeDub"
+        component={XMatrixTe}
+        durationInFrames={X_MATRIX_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="YamazumiTe"
+        component={YamazumiTe}
+        durationInFrames={YAMAZUMI_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="YamazumiTeDub"
+        component={YamazumiTe}
+        durationInFrames={YAMAZUMI_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ZeroDefectsTe"
+        component={ZeroDefectsTe}
+        durationInFrames={ZERO_DEFECTS_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ZeroDefectsTeDub"
+        component={ZeroDefectsTe}
+        durationInFrames={ZERO_DEFECTS_TE_DURATION}
         fps={fps}
         width={width}
         height={height}

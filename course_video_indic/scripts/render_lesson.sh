@@ -23,14 +23,24 @@ mkdir -p "$OUT" "$FINAL" "$DRIVE"
 echo "== bundling"
 npx remotion bundle --out-dir=out/bundle --log=error
 
+# Edge sometimes fails to start right after a long render ("Getting compositions" ->
+# [object Object]); retry so one bad start doesn't stop the queue.
+render() {
+  for try in 1 2 3; do
+    npx remotion render out/bundle "$1" "$2" --video-bitrate=8M --concurrency=1 --log=error "--browser-executable=$EDGE" && return 0
+    echo "== $1 render failed (try $try), retrying in 60s"; sleep 60
+  done
+  return 1
+}
+
 for comp in "$@"; do
   echo "== $comp ($(date +%H:%M))"
-  npx remotion render out/bundle "$comp" "$OUT/${comp}_raw.mp4" --video-bitrate=8M --concurrency=1 --log=error "--browser-executable=$EDGE"
+  render "$comp" "$OUT/${comp}_raw.mp4"
   ffmpeg -v error -y -i "$OUT/${comp}_raw.mp4" -c:v copy \
     -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "$OUT/${comp}.mp4"
   rm "$OUT/${comp}_raw.mp4"
   if [ "$DUB" = 1 ]; then
-    npx remotion render out/bundle "${comp}Dub" "$OUT/${comp}Dub.mp4" --video-bitrate=8M --concurrency=1 --log=error "--browser-executable=$EDGE"
+    render "${comp}Dub" "$OUT/${comp}Dub.mp4"
   fi
   npm run --silent srt
   cp "$OUT/${comp}.mp4" "out/${comp}.srt" "$FINAL/"

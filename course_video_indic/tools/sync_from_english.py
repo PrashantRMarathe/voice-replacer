@@ -45,6 +45,9 @@ def use_ui(rel, depth):
 def main():
     for rel in COPY:
         src, dst = EN / rel, HERE / rel
+        if not src.exists():   # e.g. untracked English audio on the laptop: keep ours
+            print(f"skip {rel} (not in the English project here)")
+            continue
         if dst.is_dir():
             shutil.rmtree(dst)
         dst.parent.mkdir(parents=True, exist_ok=True)

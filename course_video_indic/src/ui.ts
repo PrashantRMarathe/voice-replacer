@@ -3,7 +3,7 @@
 // (the English project keeps its own literals). One label set per language;
 // each lesson picks its set with setUI(lang) at the top of its component, so
 // a Hindi and a Marathi lesson in the same render never show the wrong words.
-export type UiLang = "hi" | "mr" | "te" | "ta";
+export type UiLang = "hi" | "mr" | "te" | "ta" | "en";
 
 type UiSet = {
   example: string;
@@ -101,6 +101,27 @@ const SETS: Record<UiLang, UiSet> = {
     screws: (n) => `ஸ்க்ரூ ${n}/6`,
     fixtureLocked: "6/6 வரை ஃபிக்ஸ்சர் லாக்",
     fixtureReleases: "எல்லாம் சரி: ஃபிக்ஸ்சர் திறக்கிறது",
+  },
+  // English words as in the English project, for the dub pilots (English video,
+  // other-language audio track on top).
+  en: {
+    example: "EXAMPLE",
+    quickCheck: "QUICK CHECK",
+    think: "Think…",
+    answer: "ANSWER",
+    strongest: "STRONGEST",
+    weakest: "WEAKEST",
+    good: "GOOD",
+    notGood: "NOT GOOD",
+    average: "Average",
+    rememberStart: "REMEMBER THE START?",
+    threeThings: "THREE THINGS TO REMEMBER",
+    actionThisWeek: "YOUR ACTION THIS WEEK",
+    nextLesson: "NEXT LESSON",
+    problemFixed: "Problem fixed",
+    screws: (n) => `Screws ${n}/6`,
+    fixtureLocked: "Fixture locked until 6/6",
+    fixtureReleases: "All good: fixture releases",
   },
 };
 

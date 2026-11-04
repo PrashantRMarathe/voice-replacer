@@ -1,0 +1,721 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Meet the 3M",
+      "example": "Sanjay's line, in one hour: operators wait for kits (Muda), output swings (Mura), then everyone rushes (Muri).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Muda",
+            "sub": "Waste: waiting for kits",
+            "icon": "trash",
+            "tone": "bad"
+          },
+          {
+            "label": "Mura",
+            "sub": "Unevenness: output swings",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "Muri",
+            "sub": "Overburden: everyone rushes",
+            "icon": "weight",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Muda: waste — no value for the customer",
+        "Mura: unevenness — load swings up and down",
+        "Muri: overburden — beyond safe capacity"
+      ],
+      "at": [
+        6.142,
+        11.677,
+        16.029
+      ],
+      "exampleAt": 23.799
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "How the 3M Connect",
+      "example": "Monday's huge batch (Mura) → operators and tester rushed (Muri) → defects, rework, overtime (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "A huge Monday batch",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muri",
+            "sub": "Rushing; the tester never rests",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Muda",
+            "sub": "Defects, rework, overtime",
+            "icon": "trash",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "You can't fix them one at a time",
+        "Mura creates Muri, Muri creates Muda",
+        "Chase only the waste and it comes back"
+      ],
+      "at": [
+        2.952,
+        5.676,
+        27.965
+      ],
+      "exampleAt": 10.027
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Muda: The Value Test",
+      "example": "Fitting the lens adds value. Walking to fetch labels, waiting for a kit and testing twice do not.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Walking for labels",
+            "sub": "No value (nor waiting, testing twice)",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Fitting the lens",
+            "sub": "Adds value",
+            "icon": "camera",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Does it change the product the customer needs?",
+        "Is it done right the first time?",
+        "Would the customer pay for it?",
+        "If not — challenge it"
+      ],
+      "at": [
+        6.229,
+        11.388,
+        14.376,
+        17.427
+      ],
+      "exampleAt": 20.734
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Necessary vs Pure Waste",
+      "example": "Type 1: a required safety check. Type 2: typing the same serial into two systems.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Type 1: simplify",
+            "sub": "A required safety check",
+            "icon": "shield"
+          },
+          {
+            "label": "Type 2: remove",
+            "sub": "One serial typed twice",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "People are never waste",
+            "sub": "Waste lives in the process",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Type 1: needed today — simplify it",
+        "Type 2: pure waste — remove it",
+        "Never call a person waste"
+      ],
+      "at": [
+        2.549,
+        16.11,
+        26.31
+      ],
+      "exampleAt": 7.28
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "The 8 Wastes: TIMWOODS",
+      "example": "Sanjay's waste walk: 3 kit waits in 2 hours, long walks for labels, a wall of WIP before test.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Transport",
+            "sub": "T",
+            "with": 0
+          },
+          {
+            "label": "Inventory",
+            "sub": "I",
+            "with": 0
+          },
+          {
+            "label": "Motion",
+            "sub": "M",
+            "with": 0
+          },
+          {
+            "label": "Waiting",
+            "sub": "W",
+            "with": 0
+          },
+          {
+            "label": "Overproduction",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Over-processing",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Defects",
+            "sub": "D",
+            "with": 2
+          },
+          {
+            "label": "Unused skills",
+            "sub": "S",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport · Inventory · Motion · Waiting",
+        "Overproduction · Over-processing",
+        "Defects · unused Skills",
+        "Waste walk: follow one product"
+      ],
+      "at": [
+        5.042,
+        9.121,
+        12.099,
+        14.908
+      ],
+      "exampleAt": 23.837
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Mura: Unevenness",
+      "example": "Sanjay's hourly board: 60, then 105, then 70. The average looks fine; the line doesn't.",
+      "visual": {
+        "type": "bars",
+        "label": "Average",
+        "note": "looks fine, hides the swings",
+        "unit": "Sanjay's hourly board: cameras per hour",
+        "items": [
+          {
+            "label": "Hour 1",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Hour 2",
+            "value": 105,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Hour 3",
+            "value": 70,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Big batches, then nothing",
+        "Material in fits and starts",
+        "Same job, different methods",
+        "Averages hide the peaks and valleys"
+      ],
+      "at": [
+        5.968,
+        9.114,
+        12.961,
+        23.94
+      ],
+      "exampleAt": 16.35
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Muri: Overburden",
+      "example": "An operator reaches above shoulder height 120 times an hour; the tester runs through every break.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "People",
+            "sub": "Lifting, reaches, alarms",
+            "icon": "person",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Machines",
+            "sub": "Past rated load",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 120,
+          "icon": "hand",
+          "label": "reaches above shoulder height",
+          "unit": "every hour, for one operator",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "People: lifting, reaches, alarms, too little training",
+        "Machines: past rated load, skipped maintenance",
+        "Leads to fatigue, errors, breakdowns"
+      ],
+      "at": [
+        5.927,
+        14.139,
+        33.406
+      ],
+      "exampleAt": 21.828
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "When All Three Collide",
+      "example": "Looked like 'low test capacity'. Really: uneven release (Mura) + rushing (Muri) + rework (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "4 hours of demand at once",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "WIP piles up",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Test becomes the bottleneck",
+            "icon": "test",
+            "tone": "bad"
+          },
+          {
+            "label": "Overtime, rushing, rework",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "4 hours of demand in one release",
+        "Stations built ahead — WIP piled up",
+        "Test became the bottleneck",
+        "Overtime, rushing, defects, rework"
+      ],
+      "at": [
+        4.213,
+        7.923,
+        13.002,
+        15.227
+      ],
+      "exampleAt": 25.129
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Finding 3M at the Gemba",
+      "example": "Sanjay tagged each finding Muda, Mura or Muri. A 20-minute kit wait got two tags: waste and unevenness.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Watch first",
+            "icon": "search"
+          },
+          {
+            "label": "Record it",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Ask operators",
+            "icon": "person"
+          },
+          {
+            "label": "Check the data",
+            "icon": "chartUp"
+          }
+        ]
+      },
+      "bullets": [
+        "Watch before you change anything",
+        "Record times, waits, walks, WIP, rework",
+        "Ask operators what's hard",
+        "Check the data before choosing a fix"
+      ],
+      "at": [
+        2.603,
+        8.98,
+        14.663,
+        33.569
+      ],
+      "exampleAt": 21.807
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Tools to Remove Muda",
+      "example": "Labels and screws moved to racks at each station: walking dropped from 40 m to 8 m.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "5S",
+            "icon": "tray",
+            "with": 0
+          },
+          {
+            "label": "Standard work",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key",
+            "with": 2
+          },
+          {
+            "label": "SMED + TPM",
+            "icon": "wrench",
+            "with": 3
+          },
+          {
+            "label": "Root cause",
+            "icon": "search",
+            "with": 4
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 40
+          },
+          "after": {
+            "label": "After",
+            "value": 8
+          },
+          "suffix": " m",
+          "unit": "walking per camera",
+          "note": "80% less walking",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "5S: less searching and walking",
+        "Standard work: the best, safest method",
+        "Poka Yoke: stop errors at the source",
+        "SMED and TPM: changeovers, reliability",
+        "Root cause analysis: no repeat defects",
+        "Don't automate a waste"
+      ],
+      "at": [
+        3.461,
+        6.439,
+        10.687,
+        13.463,
+        19.514,
+        34.358
+      ],
+      "exampleAt": 23.62
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Tools to Level Mura",
+      "example": "TAKT = 27,000 s ÷ 450 cameras = one camera every 60 seconds.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Heijunka",
+            "sub": "Level volume and mix",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Pace set by demand",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 60,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "one camera every 60 seconds",
+          "unit": "27,000 s of work time ÷ 450 cameras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Heijunka: level volume and mix",
+        "TAKT links your pace to demand",
+        "Release every pitch, not in waves",
+        "Pull and first-in, first-out lanes"
+      ],
+      "at": [
+        3.604,
+        6.96,
+        24.716,
+        28.539
+      ],
+      "exampleAt": 10.763
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Tools to Relieve Muri",
+      "example": "A fixture now holds the camera during screwing; the high bin moved down into easy reach.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Balance to TAKT",
+            "icon": "scale"
+          },
+          {
+            "label": "Safe reach zone",
+            "icon": "person"
+          },
+          {
+            "label": "Fixtures and jigs",
+            "icon": "wrench"
+          },
+          {
+            "label": "Machine limits",
+            "icon": "gear"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Hands hold the camera",
+              "sub": "High bin above the shoulder",
+              "icon": "hand"
+            },
+            {
+              "label": "A fixture holds it",
+              "sub": "Bin moved into easy reach",
+              "icon": "wrench"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Balance each station to TAKT",
+        "Reaches and lifts in a safe zone",
+        "Fixtures where hands hold parts",
+        "Respect machine limits and maintenance"
+      ],
+      "at": [
+        5.236,
+        10.1,
+        13.46,
+        18.008
+      ],
+      "exampleAt": 24.696
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "An 8-Step 3M Method",
+      "example": "Sanjay's baseline: hourly output swinging widely, 2.5 hours of overtime a day.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Define",
+            "with": 0
+          },
+          {
+            "label": "Observe",
+            "with": 0
+          },
+          {
+            "label": "Classify 3M",
+            "with": 1
+          },
+          {
+            "label": "Measure",
+            "with": 2
+          },
+          {
+            "label": "Find causes",
+            "with": 2
+          },
+          {
+            "label": "Test (PDCA)",
+            "with": 3
+          },
+          {
+            "label": "Standardize",
+            "with": 4
+          },
+          {
+            "label": "Audit",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Define, then observe at the gemba",
+        "Classify into the three Ms",
+        "Measure a baseline, find root causes",
+        "Test small changes with PDCA",
+        "Standardize, keep auditing"
+      ],
+      "at": [
+        4.349,
+        8.369,
+        11.757,
+        15.721,
+        19.914
+      ],
+      "exampleAt": 25.687
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Case Study: CCTV Line",
+      "example": "After 6 weeks: hourly swing almost gone, overtime close to zero, first pass yield up to 98%.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Small, steady releases",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Parts at point of use",
+            "icon": "tray",
+            "tone": "good"
+          },
+          {
+            "label": "Release = test capacity",
+            "icon": "test",
+            "tone": "good"
+          },
+          {
+            "label": "Hourly board",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "first pass yield after 6 weeks",
+          "unit": "Overtime close to zero. Nobody worked faster.",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Smaller, steady releases + first-in, first-out lane",
+        "Parts and labels at the point of use",
+        "Release matched to test capacity",
+        "Hourly board, problems raised early"
+      ],
+      "at": [
+        2.958,
+        10.154,
+        12.931,
+        16.295
+      ],
+      "exampleAt": 22.749
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPIs & Sustaining",
+      "example": "Units per hour up, but quality down and overtime up? You've only moved the loss.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Flow",
+            "sub": "Lead time, WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "Mura",
+            "sub": "Hourly range",
+            "icon": "wave"
+          },
+          {
+            "label": "Quality",
+            "sub": "FPY, rework",
+            "icon": "check"
+          },
+          {
+            "label": "Muri",
+            "sub": "Overtime, ergonomics",
+            "icon": "weight"
+          }
+        ]
+      },
+      "bullets": [
+        "Flow: lead time, WIP",
+        "Mura: hourly output range",
+        "Quality: FPY, rework",
+        "Muri: overtime, ergonomic risk"
+      ],
+      "at": [
+        4.508,
+        7.904,
+        13.533,
+        17.57
+      ],
+      "exampleAt": 24.496
+    }
+  ]
+}

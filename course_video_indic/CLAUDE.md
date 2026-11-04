@@ -18,7 +18,9 @@ English code changed). The changes:
 - letterSpacing 0 (spacing splits Devanagari letters apart),
 - lint Indic mode (`LANG = "hi"` skips English-only rules; flags English left in the voice text),
 - per-lesson edge-tts `VOICE`.
-Run it before starting new work here, then `npm run check`.
+Run it before starting new work here, then `npm run check`. It skips any English item that
+isn't there (the laptop has no English sfx/music: audio is untracked) and keeps ours; before
+4 Nov 2026 it deleted ours first.
 
 ## Lessons
 Hindi set (31 Oct 2026): one per finished English lesson, translated from the current
@@ -35,6 +37,12 @@ RootCauseAnalysis (`rc_hi`, module `root_cause_hi`), SkillMatrix (`sk_hi`), Takt
 Telugu / Tamil pilots (made 31 Oct 2026, approved by the user 2 Nov 2026; both pass validate_video):
 A3ProblemSolvingTe (`a3_te`, module `a3_problem_solving_te`) and A3ProblemSolvingTa
 (`a3_ta`, module `a3_problem_solving_ta`; Tamil says இடைவெளி for "gap").
+Telugu set (laptop, 2–3 Nov 2026): all 26, voiced (`te-IN-ShrutiNeural`), id `<english id>_te`,
+comp `<EnglishComp>Te` (`FMEATe`, `QrqcTe`; modules mirror the Hindi names, e.g. `root_cause_te`).
+Translated from the Hindi with `tools/translate_lesson.py` (`dump <x>_hi` -> numbered lines ->
+`build <x>_hi te <file>`; sources in `out/te_tr/`). 13 per-language Telugu videos were rendered
+(A3 … Low Cost Automation, in `final/telugu/`) before the switch to dub tracks stopped that render.
+The pronunciation sample `out/pron_test/te_words.mp3` is still waiting for the user's notes.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -47,6 +55,31 @@ cues must match whole caption words (a cue ending in "साथ" won't match "�
 Each mirrors the English lesson (same pages, visuals, polish); cue phrases are in the lesson's language.
 On-screen built-in words: `src/ui.ts` has one label set per language; each lesson
 component calls `setUI("<lang>")` (and `ensureIndicFont("<lang>")`) at its top.
+
+## Dub tracks (production, 4 Nov 2026)
+The user's production plan: **one English video per lesson, every language as its own audio
+track + soft subtitles** (like a dubbed film): ~15 MB per language instead of a ~320 MB video.
+Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% sound fine.
+- `python tools/make_dub.py` -> `src/dub/<id>/` (copies of the English lesson data + `<Comp>Dub.tsx`,
+  generated from `../course_video/src/lessons/<id>/`, read only), `src/dub/index.tsx`
+  (own entry point, so Root.tsx and `npm run check` are untouched), `src/dub/lessons.json`.
+  Re-run after the English lessons change. `<Comp>DubVideo` = English video, English screen
+  words (`setUI("en")`), no captions, music + effects, no voice.
+- `bash scripts/render_dub.sh "hi te" [Comp ...]` (wrap in `tools/run_awake.py`) renders each
+  `<Comp>DubVideo` once to `out/dub/<Comp>_video.mp4` (skips ones already there), then runs
+  `tools/fit_dub.py all <id> hi te`:
+  - `fit`: the language's voiced clips (`public/audio/<id>_<lang>/`) -> `public/audio/<id>_dub_<lang>/`,
+    end silence trimmed, sped up (atempo) only past the English clip length + 1 s (PAD is 2.2 s);
+  - `track`: each clip placed at the English clip's start (same maths as plan.ts), mixed over the
+    video's music/effects with ffmpeg (seconds, no render), -14 LUFS -> `<Comp>_<lang>.m4a`,
+    plus `<Comp>_<lang>.srt` from the lesson's own caption words;
+  - `pack`: `final/dub/<Comp>.mp4` = video + every language track + every subtitle (players switch
+    language), and the separate .m4a/.srt, all copied to Drive `FFIQ_indic/final/dub/`.
+- Visual highlights follow the English timing (the user accepted this). On-screen words stay English.
+- Remotion audio-only render (`--codec=aac`) walks every frame and is as slow as video: don't use it.
+- No English voice track yet: the English voice clips are on the PC only. To add one, voice
+  folder `audio/<id>` from the English project with speed 1 (TODO on the PC).
+- Telugu is ~5% longer than English, Hindi ~10%: only a few pages need 10–14% speed-up.
 
 ## Voice
 - **RULE (31 Oct 2026): every voice is FEMALE, in every language.** The user asked for
@@ -85,12 +118,18 @@ component calls `setUI("<lang>")` (and `ensureIndicFont("<lang>")`) at its top.
 
 ## Two machines
 See `docs/WORKPLAN.md`: PC edits/voices/commits and renders; the laptop only renders.
+Exceptions: all Telugu work is done (and committed) on the laptop since 2 Nov 2026, and the
+laptop renders the dub videos. Laptop Telugu audio is copied to Drive `FFIQ_sync/audio/<id>_te/`.
+On the laptop, give `tools/run_awake.py` Git Bash's full path
+(`C:/Users/PrashantMarathe-AIL/AppData/Local/Programs/Git/usr/bin/bash.exe`): plain `bash` is WSL.
 `tools/jobs.ps1` (queue), `tools/worker.ps1` (render + `tools/validate_video.py` + copy to final),
 `tools/pc_publish.ps1` (audio -> Drive `FFIQ_sync`). Every video is validated before `final/`.
 
 ## Render checklist
 Standard: `python tools/run_awake.py bash scripts/render_lesson.sh hindi <Comp> ...` does steps 1–3 (Edge
-browser, concurrency 1, keeps the PC awake, copies to `final/hindi/` and Drive). Manual:
+browser, concurrency 1, keeps the PC awake, copies to `final/hindi/` and Drive). Each render is
+retried up to 3 times: Edge sometimes fails to start right after a long render ("Getting
+compositions" -> `[object Object]`), which used to stop the whole queue. Manual:
 1. `npx remotion render <Comp> out/<language>/<Comp>.mp4 --concurrency=2` (`=1` if the English chat is rendering).
 2. **Normalise the normal (captioned) render to −14 LUFS** (English PLAYBOOK rule; Remotion
    leaves it at the −29 LUFS voice level): `ffmpeg -i in.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k out.mp4`.
@@ -107,4 +146,9 @@ bash tools/build_hindi.sh gemba_hi [--force]         # female Hindi voice (edge-
 python tools/gen_root.py                             # register lessons in Root.tsx + scripts/lessons.ts
 npm run check
 python tools/run_awake.py bash scripts/render_lesson.sh hindi GembaHi   # render -> final/hindi + Drive
+python tools/translate_lesson.py dump gemba_hi       # numbered strings to translate (then: build gemba_hi te <file>)
+bash tools/voice_lessons.sh gemba_te ...             # voice many lessons (watchdog), then level + sync
+python tools/make_dub.py                             # English dub lessons -> src/dub/
+python tools/run_awake.py bash scripts/render_dub.sh "hi te"   # English videos + language tracks -> final/dub + Drive
+python tools/fit_dub.py all zd hi te                 # one lesson's tracks again (video already rendered)
 ```

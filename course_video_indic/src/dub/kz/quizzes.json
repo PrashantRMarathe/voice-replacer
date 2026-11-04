@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which is the best Kaizen problem statement?",
+      "options": [
+        "“We need a robot arm on the monitor line”",
+        "“Cycle time is 38 s vs a 35 s TAKT, with 2 flips per unit; reach 35 s in 4 weeks”",
+        "“Operators are too slow”"
+      ],
+      "correct": 1,
+      "explanation": "A good statement has the measured gap, the observed loss and a target with a deadline, without naming a solution or blaming people.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A trial cuts cycle time by 4 seconds, but operators report shoulder strain. What now?",
+      "options": [
+        "Standardize it: the target improved",
+        "Treat it as not yet successful: adapt the method and re-test",
+        "Rotate operators every hour and keep it"
+      ],
+      "correct": 1,
+      "explanation": "The balanced rule: a Kaizen succeeds only if safety, quality and people don't suffer. Strain means the method needs changing before it becomes the standard.",
+      "think": 14
+    }
+  ]
+}

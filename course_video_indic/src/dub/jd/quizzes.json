@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "What makes Jidoka different from ordinary automation?",
+      "options": [
+        "It runs faster",
+        "It detects a defined abnormality, stops, and calls a person",
+        "It needs no people at all"
+      ],
+      "correct": 1,
+      "explanation": "Automation does the work; Jidoka also judges it. It stops on a defined abnormality and signals for human help, so defects don't multiply.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "An operator sees an abnormal seal, but the line is behind target. What should she do?",
+      "options": [
+        "Keep going and report it at the end of the shift",
+        "Call Andon and hold the unit, as the stop rules say",
+        "Fix it quietly herself and carry on"
+      ],
+      "correct": 1,
+      "explanation": "No defect forward, no abnormality hidden. Calling Andon and holding the unit protects the customer, even when output is behind.",
+      "think": 13
+    }
+  ]
+}

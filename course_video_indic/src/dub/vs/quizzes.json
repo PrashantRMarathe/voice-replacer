@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A buffer holds 2,400 units and demand is 1,200 a day. How many days of inventory is that?",
+      "options": [
+        "Half a day",
+        "2 days",
+        "1,200 days"
+      ],
+      "correct": 1,
+      "explanation": "Inventory days = units waiting ÷ daily demand = 2,400 ÷ 1,200 = 2 days.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Rahul finds 2,000 boxes waiting at test. What should the team do FIRST?",
+      "options": [
+        "Buy another tester right away",
+        "Confirm the cause: capacity, downtime, firmware or batch release",
+        "Cut the buffer in half to force flow"
+      ],
+      "correct": 1,
+      "explanation": "A map shows where to look, not why. Confirm the mechanism first; buying a tester or cutting the buffer blindly may fix nothing, or starve the line.",
+      "think": 12
+    }
+  ]
+}

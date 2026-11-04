@@ -158,7 +158,7 @@ def build(mod_name, lang, file):
     s = g.read_text(encoding="utf-8")
     entry = f'    ("{lid}_{lang}", "{comp}", "{dur}"),\n'
     if entry not in s:
-        g.write_text(s.replace("]\n\nimports =", entry + "]\n\nimports =", 1), encoding="utf-8")
+        g.write_text(s.replace("]\n# A lesson joins Root", entry + "]\n# A lesson joins Root", 1), encoding="utf-8")
     print(f"wrote {new_mod}.py and {comp}.tsx")
 
 

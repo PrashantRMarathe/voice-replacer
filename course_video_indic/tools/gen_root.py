@@ -71,13 +71,27 @@ LESSONS = [
     ("fm_te", "FMEATe", "FMEA_TE_DURATION"),
     ("gb_te", "GembaTe", "GEMBA_TE_DURATION"),
     ("hc_te", "HanchoTe", "HANCHO_TE_DURATION"),
-]
-# A lesson joins Root only once it is voiced (its captions exist), so scripts can land early.
-LESSONS = [l for l in LESSONS if (HERE / "src/captions" / l[0]).is_dir()    ("ik_te", "IshikawaTe", "ISHIKAWA_TE_DURATION"),
+    ("ik_te", "IshikawaTe", "ISHIKAWA_TE_DURATION"),
     ("jd_te", "JidokaTe", "JIDOKA_TE_DURATION"),
     ("kz_te", "KaizenTe", "KAIZEN_TE_DURATION"),
     ("lc_te", "LowCostAutomationTe", "LOW_COST_AUTOMATION_TE_DURATION"),
+    ("mm_te", "MudaMuraMuriTe", "MUDA_MURA_MURI_TE_DURATION"),
+    ("ni_te", "NextInspectionTe", "NEXT_INSPECTION_TE_DURATION"),
+    ("op_te", "OnePointLessonTe", "ONE_POINT_LESSON_TE_DURATION"),
+    ("pk_te", "PokaYokeTe", "POKA_YOKE_TE_DURATION"),
+    ("qr_te", "QrqcTe", "QRQC_TE_DURATION"),
+    ("rc_te", "RootCauseAnalysisTe", "ROOT_CAUSE_ANALYSIS_TE_DURATION"),
+    ("sk_te", "SkillMatrixTe", "SKILL_MATRIX_TE_DURATION"),
+    ("tt_te", "TaktTimeTe", "TAKT_TIME_TE_DURATION"),
+    ("up_te", "UniformProductionTe", "UNIFORM_PRODUCTION_TE_DURATION"),
+    ("vs_te", "ValueStreamMappingTe", "VALUE_STREAM_MAPPING_TE_DURATION"),
+    ("ww_te", "WhyWhyTe", "WHY_WHY_TE_DURATION"),
+    ("xm_te", "XMatrixTe", "X_MATRIX_TE_DURATION"),
+    ("yz_te", "YamazumiTe", "YAMAZUMI_TE_DURATION"),
+    ("zd_te", "ZeroDefectsTe", "ZERO_DEFECTS_TE_DURATION"),
 ]
+# A lesson joins Root only once it is voiced (its captions exist), so scripts can land early.
+LESSONS = [l for l in LESSONS if (HERE / "src/captions" / l[0]).is_dir()]
 
 imports = "\n".join(f'import {{ {c}, {d} }} from "./lessons/{i}/{c}";' for i, c, d in LESSONS)
 comps = ""

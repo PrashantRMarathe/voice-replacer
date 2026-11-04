@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A product spends 300 minutes in the plant, but only 30 minutes change it. What is the flow efficiency?",
+      "options": [
+        "10%",
+        "30%",
+        "90%"
+      ],
+      "correct": 0,
+      "explanation": "Flow efficiency = value-added time ÷ total lead time = 30 ÷ 300 = 10%. The other 90% is waiting, moving, checking or fixing.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "To cut cycle time, a team proposes removing the final audio test. What should happen?",
+      "options": [
+        "Remove it: tests don't change the product",
+        "Keep it unless a risk review approves, and cut the defects it catches",
+        "Move the test to the customer's site"
+      ],
+      "correct": 1,
+      "explanation": "Required quality checks aren't waste to cut on a whim. Keep the test unless a risk review approves a change, and attack the defects behind it. Moving it to the customer only shifts the waste.",
+      "think": 12
+    }
+  ]
+}
