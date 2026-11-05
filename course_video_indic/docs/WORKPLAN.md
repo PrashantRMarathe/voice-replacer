@@ -46,7 +46,8 @@ Malayalam · 8–10. Spanish, French, German (Latin-script lint mode needed once
 ## Two machines
 **The PC is the boss. The laptop only renders.** Exception (2 Nov 2026): all Telugu work
 (scripts, voices, renders) is done on the laptop, and the laptop commits it. The laptop also
-renders the English dub videos (`scripts/render_dub.sh`, started 4 Nov 2026).
+renders the English dub videos (`scripts/render_dub.sh`, started 4 Nov 2026; 7/26 done
+by 5 Nov, progress and resume steps in CLAUDE.md "Dub render status").
 
 | | PC | Laptop |
 |---|---|---|

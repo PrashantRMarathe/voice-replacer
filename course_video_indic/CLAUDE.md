@@ -81,6 +81,26 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
   folder `audio/<id>` from the English project with speed 1 (TODO on the PC).
 - Telugu is ~5% longer than English, Hindi ~10%: only a few pages need 10–14% speed-up.
 
+### Dub render status (laptop, 5 Nov 2026 12:00)
+- Run 1 started 4 Nov 13:27 (`out/dub/render_all.log`, laptop only). ~40 min per lesson.
+- **Done (7/26)**, in `final/dub/` + Drive `FFIQ_indic/final/dub/` (video + hin + tel tracks + .srt):
+  A3ProblemSolving, BurnDownChart, CycleTimeStudy, DesignThinking, EliminationOfWaste, FMEA, ZeroDefects.
+- The laptop restarted itself (Windows) at 11:47 on 5 Nov during Gemba (frame 12038/20120), killing the run.
+  A partial render is never kept, so Gemba starts again from frame 0.
+- **To do (19):** Gemba, Hancho, Ishikawa, Jidoka, Kaizen, LowCostAutomation, MudaMuraMuri,
+  NextInspection, OnePointLesson, PokaYoke, QRQC, RootCauseAnalysis, SkillMatrix, TaktTime,
+  UniformProduction, ValueStreamMapping, WhyWhy, XMatrix, Yamazumi (~13 h).
+- Resume on the laptop (PowerShell, plugged in, lid open, Windows Update restarts paused).
+  `render_dub.sh` skips any lesson whose `out/dub/<Comp>_video.mp4` exists (it only rebuilds
+  those lessons' tracks, ~1 min each):
+  `cd D:\PPT\Converter\voice_replacer\course_video_indic; ..\.venv\Scripts\python.exe tools\run_awake.py "C:/Program Files/Git/bin/bash.exe" -c "scripts/render_dub.sh 'hi te' > out/dub/render_all2.log 2>&1"`
+  (if that bash path is missing, use the Git `usr/bin/bash.exe` path under "Two machines").
+- To split the work, the PC can render some of the 19 by name, e.g.
+  `bash scripts/render_dub.sh "hi te" Yamazumi XMatrix WhyWhy`. It needs `public/audio/<id>_hi/`
+  and `<id>_te/` (Telugu from Drive `FFIQ_sync/audio/<id>_te/`). Tell the laptop which ones, so
+  the same lesson isn't rendered twice (the laptop run goes in alphabetical order, A to Z).
+- PC TODO: the English voice track (English clips are only on the PC, see above).
+
 ## Voice
 - **RULE (31 Oct 2026): every voice is FEMALE, in every language.** The user asked for
   female voices only; never use a male voice (`hi-IN-MadhurNeural` was used until 31 Oct
