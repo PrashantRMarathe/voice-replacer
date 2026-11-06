@@ -73,12 +73,12 @@ No video rendering is needed: the English dub videos already exist for all 26 le
 |---|---|---|
 | 0 | PC pushes its latest work to git; laptop pulls | both machines have the same `final/dub` state |
 | 1 | Build `dub_lang.py` + the 6 automatic checks + a glossary per language | it reproduces an existing Hindi track; checks run on it |
-| 2 | **Test:** Zero Defects in Bengali, Kannada, Malayalam, French, German, Spanish, Arabic | all checks pass; user approves sound + pace |
+| 2 | **Test:** Zero Defects in Bengali, Kannada, Malayalam, French, German, Spanish, Arabic | all 10 checks pass (the user tests nothing) |
 | 3 | Finish Marathi (24 lessons) | 26/26 Marathi tracks |
 | 4 | English track added on the PC | English selectable in every video |
 | 5 | Bengali, Kannada, Malayalam — 26 lessons each | 26/26 each |
 | 6 | French, Spanish, German, Arabic — 26 lessons each | 26/26 each |
-| 7 | Final pack: every lesson with all 12 tracks + subtitles, upload to Drive | user confirms before Drive files are replaced |
+| 7 | Final pack: every lesson with all 12 tracks + subtitles, upload to Drive | all checks pass; user OKs replacing the Drive files once (no listening) |
 | 8 | Phase B languages (later), same steps 2, 5, 7 | — |
 
 ## Local feel: Option A chosen (6 Nov 2026)
@@ -141,8 +141,14 @@ waits for a native speaker. Every check below is automatic and must pass:
 6. **Subtitle check:** every subtitle line shows at the right time and in the right direction
    (right-to-left for Arabic), no line too long.
 
-The user only checks what anyone can judge without the language: the sound, pace, volume
-and timing with the visuals, on one lesson per language.
+**The user tests nothing (6 Nov 2026).** Claude also checks what a listener would notice:
+7. **Sound:** every track measured at -14 LUFS (true peak ≤ -1.5 dB), no clipping, no silent gaps
+   or overlapping clips, music under the voice at the same level as the English video.
+8. **Pace:** no clip sped up past 14%; words per minute close to normal speech for that language.
+9. **Timing:** each clip starts with its English clip, so the highlights still match the voice;
+   the packed mp4 passes `tools/validate_video.py` and every track/subtitle opens in a player.
+10. **Final listen:** Claude transcribes the final mixed track (not just the clips) and checks it
+   reads as the full script, in order.
 
 ## Risks and notes
 - **Two machines:** the PC and the laptop must not both pack `final/dub` at the same time.
