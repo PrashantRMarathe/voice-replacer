@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which statement is a real fact (Genjitsu)?",
+      "options": [
+        "“Shift B is always careless.”",
+        "“The supplier caused it.”",
+        "“18 of 24 failures came from lot B.”"
+      ],
+      "correct": 2,
+      "explanation": "A fact has counts, a denominator and a scope you can check. The others are opinions, and the supplier claim is still unproven.",
+      "think": 7
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "The dashboard shows one shift with twice the defects. The manager wants to retrain that shift. What first?",
+      "options": [
+        "Retrain them today: the data is clear",
+        "Go to the station, hold the failed units, and check the facts",
+        "Swap the two shifts' operators"
+      ],
+      "correct": 1,
+      "explanation": "A difference between shifts is a signal, not proof. Go and see: the real place, the real thing and the real facts, before you decide on any fix.",
+      "think": 16
+    }
+  ]
+}

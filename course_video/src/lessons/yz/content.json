@@ -1,0 +1,782 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Yamazumi Is",
+      "example": "Meera's set-top box cell: four operators, four stacked bars, one TAKT line.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Stacked bars",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "'Piling up'",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "One operator's tasks",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Above TAKT: can't keep up",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "B can't keep up",
+          "unit": "Meera's cell: seconds of work per station",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station B",
+              "value": 35,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Station C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station D",
+              "value": 20,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "A stacked bar chart of work per station",
+        "Japanese: 'piling up'",
+        "Each bar: one operator's tasks",
+        "Above the TAKT line = can't keep up"
+      ],
+      "at": [
+        3.531,
+        7.825,
+        10.684,
+        21.089
+      ],
+      "exampleAt": 29.581
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Purpose & Benefits",
+      "example": "One operator waits while another fights a long screw-fastening job — moving one small task could smooth the flow.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Imbalance at a glance",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Staffing on facts",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Where to cross-train",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Engineering checks still needed",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Long screw job",
+              "sub": "Overloaded",
+              "icon": "screw",
+              "with": "example"
+            },
+            {
+              "label": "Move one small task",
+              "sub": "Smoother flow",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Imbalance, waiting, overload at a glance",
+        "Objective basis for staffing",
+        "Shows where cross-training helps",
+        "Never replaces engineering checks"
+      ],
+      "at": [
+        5.7,
+        10.669,
+        15.779,
+        31.189
+      ],
+      "exampleAt": 20.285
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "TAKT, Cycle & Work Content",
+      "example": "420 net minutes ÷ 840 units = TAKT of 30 seconds. Station B needs 35.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Net time ÷ good units",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Cycle time",
+            "sub": "How often one leaves",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Work content",
+            "sub": "Sum of manual tasks",
+            "icon": "hand",
+            "with": 2
+          },
+          {
+            "label": "Machine time",
+            "sub": "Kept separate",
+            "icon": "gear",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "clock",
+          "label": "TAKT time",
+          "unit": "420 net minutes ÷ 840 units",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "TAKT: net time ÷ good units needed",
+        "Cycle time: how often a unit leaves",
+        "Work content: sum of manual tasks",
+        "Keep machine time separate"
+      ],
+      "at": [
+        3.605,
+        9.077,
+        14.046,
+        19.215
+      ],
+      "exampleAt": 21.676
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Chart Structure",
+      "example": "Station A stacks to 22 seconds; Station B reaches 35, well above the line.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B is above the line",
+        "unit": "One bar per station, TAKT line across",
+        "with": 0,
+        "items": [
+          {
+            "label": "Station A",
+            "value": 22,
+            "tone": null,
+            "with": 0
+          },
+          {
+            "label": "Station B",
+            "value": 35,
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "One bar per operator or station",
+        "Seconds up the side, TAKT line across",
+        "Each block = a task, in order",
+        "Colors show task types, not scores"
+      ],
+      "at": [
+        3.823,
+        7.726,
+        13.224,
+        18.812
+      ],
+      "exampleAt": 27.095
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Reliable Time Study",
+      "example": "Firmware flashing runs while the operator fastens screws, so Meera times each element separately.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Define start and end",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Many cycles, every shift",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Walking, stops, changeovers",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Machine apart from manual",
+            "icon": "gear",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define where each task starts and ends",
+        "Many cycles, across shifts",
+        "Capture walking, stops, changeovers",
+        "Separate machine from manual time"
+      ],
+      "at": [
+        8.573,
+        12.278,
+        17.388,
+        22.213
+      ],
+      "exampleAt": 25.731
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Classifying the Work",
+      "example": "Meera's operator walks 5 seconds to fetch screws. Point-of-use bins remove that waste.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Value-added",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Necessary: checks, traceability",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Waste: search, walk, wait",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "ECRS, keep the checks",
+            "icon": "wrench",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Walk 5 s to fetch screws",
+              "sub": "Waste",
+              "icon": "walk",
+              "with": "example"
+            },
+            {
+              "label": "Point-of-use bins",
+              "sub": "Walk removed",
+              "icon": "tray",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Value-added: what the customer wants",
+        "Necessary non-value-added: checks, traceability",
+        "Waste: searching, walking, waiting",
+        "ECRS — but keep quality & safety checks"
+      ],
+      "at": [
+        4.591,
+        9.663,
+        16.207,
+        19.545
+      ],
+      "exampleAt": 31.047
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Building Current State",
+      "example": "TAKT 30 s: A = 22, B = 35, C = 27, D = 20. B is 5 seconds over — the first priority.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B is 5 s over: first priority",
+        "unit": "Meera's current state",
+        "with": "example",
+        "items": [
+          {
+            "label": "Station A",
+            "value": 22,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "Station B",
+            "value": 35,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Station C",
+            "value": 27,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "Station D",
+            "value": 20,
+            "tone": null,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Approved demand → TAKT",
+        "One bar per station, TAKT line drawn",
+        "Check the chart against reality",
+        "A short bar ≠ spare capacity"
+      ],
+      "at": [
+        1.004,
+        5.353,
+        11.896,
+        34.577
+      ],
+      "exampleAt": 16.627
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Line Balancing",
+      "example": "A 5-second labeling task moves from B to D: B = 30, D = 25. Then pilot and re-measure.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Move tasks, improve methods",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Not perfectly equal",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Layout, sequence, skills, checks",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "ECRS before people",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "5 s labeling moved B → D",
+          "unit": "After the move: pilot, then re-measure",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station B",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Station C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station D",
+              "value": 25,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Move tasks or improve methods",
+        "Not perfectly equal bars",
+        "Respect layout, sequence, skills, checks",
+        "Try ECRS before adding people"
+      ],
+      "at": [
+        1.167,
+        9.938,
+        13.012,
+        19.906
+      ],
+      "exampleAt": 23.496
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Manpower & Efficiency",
+      "example": "104 seconds of work at a 30-second TAKT = 4 operators; efficiency about 87%.",
+      "visual": {
+        "type": "stat",
+        "value": 4,
+        "suffix": " operators",
+        "icon": "person",
+        "label": "104 s of work ÷ 30 s TAKT, rounded up",
+        "unit": "Balance efficiency about 87%",
+        "with": "example"
+      },
+      "bullets": [
+        "Manual work ÷ TAKT, round up",
+        "Balance efficiency: work vs capacity",
+        "A planning floor, not a promise",
+        "Prove output before cutting people"
+      ],
+      "at": [
+        4.391,
+        18.496,
+        28.015,
+        32.091
+      ],
+      "exampleAt": 8.68
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Bottlenecks & Machines",
+      "example": "Two audio testers: 160 units/hour on paper — about 140 good ones in reality.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Long bar ≠ operator problem",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Shared machines",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Manual · auto · load · wait",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Uptime, changeovers, yield",
+            "icon": "chartDown",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "On paper",
+            "value": 160
+          },
+          "after": {
+            "label": "Good, real",
+            "value": 140
+          },
+          "unit": "units an hour, two audio testers",
+          "note": "Plan for the real number",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Not every long bar is an operator bottleneck",
+        "Shared machines need their own check",
+        "Split manual, automatic, loading, waiting",
+        "Adjust for uptime, changeovers, yield"
+      ],
+      "at": [
+        3.6,
+        7.458,
+        14.699,
+        20.061
+      ],
+      "exampleAt": 25.236
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Mixed-Model Lines",
+      "example": "Averages 27 s across the mix, but 42 s on the audio model — a long batch piles up work fast.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "The average hides it",
+        "unit": "One station, seconds per unit",
+        "with": "example",
+        "items": [
+          {
+            "label": "Mix average",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Audio model",
+            "value": 42,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "One chart can hide trouble",
+        "Model-specific bars, worst case",
+        "Flexible, qualified staff",
+        "Heijunka and SMED smooth the mix"
+      ],
+      "at": [
+        4.675,
+        21.749,
+        26.617,
+        29.358
+      ],
+      "exampleAt": 7.928
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPIs & Verification",
+      "example": "Plan attainment counts good units against the plan; first-pass yield counts units passing first time.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "A hypothesis to prove",
+            "icon": "test",
+            "with": 0
+          },
+          {
+            "label": "Leading: standard work",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Lagging: output, defects, UPPH",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Ergonomics with operators",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A balanced chart is a hypothesis",
+        "Leading: standard-work adherence",
+        "Lagging: good output, defects, UPPH",
+        "Check ergonomics with operators"
+      ],
+      "at": [
+        1.407,
+        7.315,
+        11.876,
+        38.683
+      ],
+      "exampleAt": 27.443
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case: Set-Top Box Cell",
+      "example": "Short of 120 is normal: uptime and yield always cost something.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 103
+        },
+        "after": {
+          "label": "After",
+          "value": 116
+        },
+        "unit": "good units an hour (theory: 120)",
+        "note": "Done after two stable weeks",
+        "with": 2
+      },
+      "bullets": [
+        "Before: B capped output near 103/hour",
+        "After: B down to 30 seconds",
+        "About 116 good/hour vs 120 theoretical",
+        "Done only after two stable weeks"
+      ],
+      "at": [
+        4.876,
+        11.653,
+        16.499,
+        32.46
+      ],
+      "exampleAt": 26.82
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Do's & Don'ts",
+      "example": "Removing a barcode check looks like 6 seconds saved. It's not a balance — it's a traceability risk.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Real work, current data",
+            "icon": "clock",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Operators, Quality, Engineering",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Safety, ESD, tests, traceability",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          },
+          {
+            "label": "Best-case times, headcount cuts",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Measure real work, keep data current",
+        "Involve operators, Quality, Engineering",
+        "Protect safety, ESD, testing, traceability",
+        "No best-case times, no headcount cutting"
+      ],
+      "at": [
+        3.119,
+        6.752,
+        10.553,
+        14.743
+      ],
+      "exampleAt": 27.259
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Roadmap",
+      "example": "An out-of-date chart is worse than no chart at all.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Pilot line, time studies, baseline",
+            "sub": "Days 1–30",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "ECRS, rebalance, qualify",
+            "sub": "31–60",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Verify, update SOPs, expand",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–30: pilot line, time studies, baseline",
+        "Days 31–60: ECRS, rebalance, qualify",
+        "Days 61–90: verify, update SOPs, expand",
+        "Keep charts current"
+      ],
+      "at": [
+        5.233,
+        13.784,
+        20.956,
+        29.562
+      ],
+      "exampleAt": 35.354
+    }
+  ]
+}

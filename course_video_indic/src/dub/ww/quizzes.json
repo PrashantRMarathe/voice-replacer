@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Final test didn't detect a half-seated battery connector. What kind of cause is that?",
+      "options": [
+        "Occurrence cause",
+        "Escape cause",
+        "System cause"
+      ],
+      "correct": 1,
+      "explanation": "The defect was made earlier (occurrence). The escape cause explains why the detection barrier — here, final test — didn't catch it.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "30 cartons got wrong labels and someone says “operator error”. What should the team do FIRST?",
+      "options": [
+        "Retrain the operator and close it",
+        "Contain suspect cartons, then ask why the process allowed it",
+        "Put a reminder sign at packing"
+      ],
+      "correct": 1,
+      "explanation": "Contain first, then find why the process allowed a wrong label at all. Retraining or a sign relies on memory, so it rarely stops a repeat.",
+      "think": 14
+    }
+  ]
+}

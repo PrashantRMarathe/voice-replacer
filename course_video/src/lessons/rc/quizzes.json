@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "A team's fishbone diagram lists six possible causes. What does it prove?",
+      "options": [
+        "The biggest branch is the root cause",
+        "Nothing yet — each cause must be tested",
+        "All six causes are true"
+      ],
+      "correct": 1,
+      "explanation": "A fishbone organizes hypotheses. It proves nothing until each candidate is confirmed or rejected by a test.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A wrong-PCB defect is found. The new MES interlock has been ordered but isn't installed. Can the held WIP be released?",
+      "options": [
+        "Yes — the fix is on its way",
+        "No — release only after screening and authorized disposition",
+        "Yes, if the operator is retrained",
+        "Yes, if the next shift is told"
+      ],
+      "correct": 1,
+      "explanation": "Ordering a fix doesn't protect the customer. Held stock is released only after it's screened and dispositioned through the Quality process.",
+      "think": 16
+    }
+  ]
+}

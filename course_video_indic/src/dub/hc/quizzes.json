@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A Hancho's job is mainly to…",
+      "options": [
+        "Fill in the shift report at the end of the day",
+        "Lead at the gemba: keep the standard, react to gaps, develop people",
+        "Do the hardest station personally, every shift"
+      ],
+      "correct": 1,
+      "explanation": "A Hancho leads where the value is made: protecting the standard, responding to abnormalities fast and building the team's capability. Reports and covering stations aren't the core of the role.",
+      "think": 6
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "The hourly board turns red and suspect units may have a safety risk. Which response level?",
+      "options": [
+        "Level 1: the team fixes it quietly",
+        "Level 2: call maintenance when they're free",
+        "Level 3: contain and escalate to management immediately"
+      ],
+      "correct": 2,
+      "explanation": "Safety or customer risk is level 3: contain the units and escalate immediately. Don't wait to see if the team can handle it.",
+      "think": 14
+    }
+  ]
+}

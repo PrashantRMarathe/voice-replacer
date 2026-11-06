@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "An operator has finished the training course but hasn't been assessed yet. Can they be counted as L3?",
+      "options": [
+        "Yes — the course is complete",
+        "No — L3 needs demonstrated, assessed performance",
+        "Yes, if they've worked there a long time"
+      ],
+      "correct": 1,
+      "explanation": "Attendance and seniority aren't competence. Level 3 means independent performance proven by an assessment with evidence.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Only one person on the shift is qualified on lens focus, and output depends on it. What should the cell leader do FIRST?",
+      "options": [
+        "Train everyone on every skill",
+        "Qualify a backup for lens focus as the top priority",
+        "Ask the expert never to take leave",
+        "Train low-risk skills first because they're quicker"
+      ],
+      "correct": 1,
+      "explanation": "A single-point dependency on a critical skill is the biggest risk. Prioritize qualifying a backup there, then widen cross-training.",
+      "think": 17
+    }
+  ]
+}

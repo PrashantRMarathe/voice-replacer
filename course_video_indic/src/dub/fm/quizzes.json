@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which is a useful FMEA cause?",
+      "options": [
+        "Operator carelessness",
+        "Two gasket sizes share one bin at the station",
+        "Water gets inside the radio"
+      ],
+      "correct": 1,
+      "explanation": "A useful cause is a specific condition you can control. Carelessness is blame, and water inside is the effect.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "After adding a sensor and a leak test, the team wants to cut Severity from 8 to 4. Is that right?",
+      "options": [
+        "Yes: the risk is lower now",
+        "No: Severity changes only if the effect changes",
+        "Yes, if the RPN stays under 100"
+      ],
+      "correct": 1,
+      "explanation": "Severity rates the effect. Water inside a radio is just as bad as before. The new controls lower Occurrence and Detection, not Severity.",
+      "think": 14
+    }
+  ]
+}

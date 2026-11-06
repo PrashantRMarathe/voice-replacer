@@ -1,0 +1,774 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Cycle Time Is",
+      "example": "The report said station C took 21 seconds. Imran's stopwatch said 28.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Unit to unit",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Defined boundary",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Stated conditions",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "21 s",
+              "sub": "The report",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "28 s",
+              "sub": "Imran's stopwatch",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Time between completed units",
+        "At a defined boundary",
+        "Under stated conditions"
+      ],
+      "at": [
+        5.656,
+        10.901,
+        12.821
+      ],
+      "exampleAt": 20.264
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Boundaries Matter",
+      "example": "21 seconds came from old standard times. 28 seconds was the real unit-to-unit interval.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Manual",
+            "sub": "Hands-on work",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Machine",
+            "sub": "Test, dispense, cure",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Station cycle",
+            "sub": "Real repeat interval",
+            "icon": "clock",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Old standard times",
+              "sub": "21 seconds",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Unit to unit",
+              "sub": "28 seconds",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Manual time: hands-on work",
+        "Machine time: test, dispense, cure",
+        "Station cycle: the real repeat interval",
+        "Same boundary, or no comparison"
+      ],
+      "at": [
+        4.834,
+        10.576,
+        15.441,
+        33.36
+      ],
+      "exampleAt": 23.443
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Cycle Time vs TAKT, Lead Time, UPH",
+      "example": "Imran's line: TAKT 24 seconds, so it needs 150 monitors an hour.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cycle time",
+            "sub": "How often you finish",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Pace demand needs",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Lead time",
+            "sub": "Order to finish",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "UPH",
+            "sub": "Good units per hour",
+            "icon": "count",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 150,
+          "icon": "count",
+          "label": "monitors an hour needed",
+          "unit": "TAKT 24 seconds",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Cycle time: how often you finish one",
+        "TAKT: the pace demand needs",
+        "Lead time: order to finish, with waiting",
+        "UPH: good units per hour"
+      ],
+      "at": [
+        5.655,
+        10.146,
+        14.847,
+        24.535
+      ],
+      "exampleAt": 27.976
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Comparing With TAKT",
+      "example": "Station C at 28 seconds sits 4 seconds above a 24-second TAKT.",
+      "visual": {
+        "type": "ladder",
+        "top": "SHORTFALL",
+        "bottom": "HEADROOM",
+        "items": [
+          {
+            "label": "Above TAKT",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Equal to TAKT",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Below TAKT",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 24,
+          "suffix": " s",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station C",
+              "value": 28,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Above TAKT: a capacity shortfall",
+        "Equal to TAKT: no headroom",
+        "Below TAKT: headroom, don't overproduce"
+      ],
+      "at": [
+        4.274,
+        11.401,
+        16.891
+      ],
+      "exampleAt": 23.617
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Preparing the Study",
+      "example": "Imran's goal: measure station C's repeat interval to check capacity against TAKT.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Purpose and station",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Conditions",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Normal cycles only",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Explain to operator",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A clear purpose and station",
+        "Record the conditions",
+        "Normal cycles only, delays logged",
+        "Explain it to the operator"
+      ],
+      "at": [
+        4.416,
+        11.047,
+        18.25,
+        24.304
+      ],
+      "exampleAt": 31.623
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Breaking Down the Elements",
+      "example": "Station C: load 4 s, scan label 3 s, display test 13 s, serial label 4 s, unload 3 s, waiting 1 s.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Station C elements: 28 s in total",
+        "with": "example",
+        "items": [
+          {
+            "label": "Load",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Scan",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Test",
+            "value": 13,
+            "with": "example"
+          },
+          {
+            "label": "Serial label",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Unload",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Wait",
+            "value": 1,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Split work into visible elements",
+        "Clear start and finish for each",
+        "Waiting recorded separately",
+        "Never cut quality or safety checks"
+      ],
+      "at": [
+        1.411,
+        6.31,
+        12.833,
+        22.061
+      ],
+      "exampleAt": 25.573
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "The Stopwatch Sheet",
+      "example": "The longest cycle: 32 seconds, when the label scan failed twice.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Ten cycles timed at station C (seconds)",
+        "items": [
+          {
+            "label": "Fastest",
+            "value": 26,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Average",
+            "value": 28,
+            "with": 1
+          },
+          {
+            "label": "Slowest",
+            "value": 32,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Time repeated cycles, not one",
+        "Average: 28 s. Range: 26 to 32 s",
+        "Log every abnormal cycle"
+      ],
+      "at": [
+        4.24,
+        8.538,
+        16.957
+      ],
+      "exampleAt": 23.185
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Calculating Capacity",
+      "example": "Demand needs 150 an hour. Station C makes about 129. That's the gap.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Station C",
+          "value": 129
+        },
+        "after": {
+          "label": "Demand",
+          "value": 150
+        },
+        "unit": "monitors an hour",
+        "note": "3,600 ÷ 28 ≈ 129",
+        "with": 1
+      },
+      "bullets": [
+        "Hourly output = 3,600 ÷ cycle time",
+        "Station C: about 129 an hour",
+        "Stations needed = work content ÷ TAKT"
+      ],
+      "at": [
+        4.254,
+        10.058,
+        23.984
+      ],
+      "exampleAt": 18.031
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Variation Matters",
+      "example": "Station C: 3 of 10 cycles ran 30 seconds or more.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Averages hide",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Time order",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Keep long cycles",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Spread, % over TAKT",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3,
+          "suffix": " of 10",
+          "icon": "clock",
+          "label": "cycles at 30 seconds or more",
+          "unit": "station C",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Averages hide long cycles",
+        "Plot cycles in time order",
+        "Never delete long cycles to look good",
+        "Report spread and % over TAKT"
+      ],
+      "at": [
+        8.308,
+        12.205,
+        20.021,
+        26.951
+      ],
+      "exampleAt": 32.424
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Finding the Bottleneck",
+      "example": "Stations A 19 s, B 22 s, C 28 s, D 21 s. Station C caps the line.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 19,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 28,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "The slowest station sets the pace",
+        "Look for queues before, idle after",
+        "Fix the constraint first"
+      ],
+      "at": [
+        4.909,
+        8.805,
+        25.422
+      ],
+      "exampleAt": 13.726
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Why Is It Slow?",
+      "example": "Label scan retries, and a serial label applied at the test station itself.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Method",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Design",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Waiting",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Labels at an angle",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Scan retries",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Serial label inside the cycle",
+              "icon": "sticker",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Go and see: the real station",
+        "Method, design, machine or waiting?",
+        "Check retries, alarms and timestamps"
+      ],
+      "at": [
+        1.359,
+        6.186,
+        16.776
+      ],
+      "exampleAt": 21.812
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Improve the Method",
+      "example": "A label guide straightens every label. The scanner reads first time.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminate",
+            "with": 0
+          },
+          {
+            "label": "Combine",
+            "with": 0
+          },
+          {
+            "label": "Rearrange",
+            "with": 0
+          },
+          {
+            "label": "Simplify",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Before",
+              "sub": "Labels at an angle, scan retries",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Label guide",
+              "sub": "Reads first time",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminate, Combine, Rearrange, Simplify",
+        "Simple, low-cost fixes first",
+        "Never skip tests to save time"
+      ],
+      "at": [
+        4.699,
+        10.801,
+        17.828
+      ],
+      "exampleAt": 26.694
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Rebalancing the Line",
+      "example": "Serial label moved to station A: A 23 s, C 23 s. Every station now sits below TAKT.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 23,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 23,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Move work to stations with spare time",
+        "Keep sequence, skills and checks",
+        "No new walking or ergonomic risk"
+      ],
+      "at": [
+        3.962,
+        8.702,
+        15.625
+      ],
+      "exampleAt": 21.074
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prove It, Then Standardize",
+      "example": "Trigger: 3 cycles in a row over TAKT means the team leader checks the station.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Trial: shifts, models",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Spread, FPY, output",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Standard work, training",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Trigger: 3 over TAKT",
+            "icon": "warning",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Trial across shifts and models",
+        "Compare spread, FPY and output",
+        "Update standard work and train",
+        "Escalate drift fast"
+      ],
+      "at": [
+        5.124,
+        7.976,
+        16.816,
+        20.714
+      ],
+      "exampleAt": 24.678
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Your 30-Day Plan",
+      "example": "Imran's line now meets 150 monitors an hour, with first pass yield unchanged.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Define and baseline",
+            "sub": "Week 1",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Bottleneck",
+            "sub": "Week 2",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Trial",
+            "sub": "Week 3",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Standardize",
+            "sub": "Week 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Week 1: define and baseline",
+        "Week 2: find the bottleneck",
+        "Week 3: trial one countermeasure",
+        "Week 4: verify, standardize, train"
+      ],
+      "at": [
+        5.739,
+        12.356,
+        16.763,
+        20.673
+      ],
+      "exampleAt": 26.205
+    }
+  ]
+}

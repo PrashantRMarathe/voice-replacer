@@ -1,0 +1,605 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What a Hancho Is",
+      "example": "Sunita: twelve operators, one LED TV line, every shift's results.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Team leader",
+            "sub": "班長",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "A system",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "At the gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Japanese for team leader",
+        "A leadership system, not a tool",
+        "Leads where the value is made"
+      ],
+      "at": [
+        2.13,
+        6.633,
+        13.145
+      ],
+      "exampleAt": 23.257
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "The Hancho Mindset",
+      "example": "Sunita keeps these questions on a card in her pocket.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Standard?",
+            "with": 0
+          },
+          {
+            "label": "Actual?",
+            "with": 0
+          },
+          {
+            "label": "Gap and cause?",
+            "with": 1
+          },
+          {
+            "label": "Act and prevent",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "What's the standard? What's actual?",
+        "Where's the gap, and why?",
+        "Act now, then stop it repeating"
+      ],
+      "at": [
+        5.558,
+        9.408,
+        13.214
+      ],
+      "exampleAt": 25.94
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Why Lines Need a Hancho",
+      "example": "Last month: a 20-TV-an-hour gap, found the next morning.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Leader far away",
+            "sub": "Gap found next morning",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hancho on the line",
+            "sub": "Gap found this hour",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Small gaps grow when leaders are far away",
+        "Faster response, clear ownership",
+        "Daily kaizen, not just projects"
+      ],
+      "at": [
+        1.306,
+        13.002,
+        23.677
+      ],
+      "exampleAt": 29.486
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "What a Hancho Owns",
+      "example": "Sunita's rule: solve it, call support, or escalate. Know which.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Safety",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Quality",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "Delivery",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Cost",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "People",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Process",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Safety and quality",
+        "Delivery and cost",
+        "People and the process"
+      ],
+      "at": [
+        4.165,
+        11.098,
+        19.762
+      ],
+      "exampleAt": 27.266
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Before the Shift Starts",
+      "example": "Today's briefing: a model change to the 43-inch TV at 10 o'clock.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Readiness",
+            "sub": "People, material, tools",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Briefing",
+            "sub": "Target, alerts, learning",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Start-up checks",
+            "sub": "First piece",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Pre-shift readiness check",
+        "A short team briefing",
+        "Start-up and first-piece checks"
+      ],
+      "at": [
+        4.313,
+        11.721,
+        20.909
+      ],
+      "exampleAt": 25.308
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "During and After the Shift",
+      "example": "Handover note: open issues, WIP, quality status, actions and owners.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Plan vs actual",
+            "sub": "Hourly",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "React, coach",
+            "sub": "All shift",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Handover",
+            "sub": "End of shift",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Hourly plan vs actual",
+        "React to every abnormality",
+        "Coach at the process",
+        "A factual handover"
+      ],
+      "at": [
+        1.158,
+        10.142,
+        14.745,
+        20.062
+      ],
+      "exampleAt": 26.003
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Leading at the Gemba",
+      "example": "“What should be happening? What's actually happening? What changed?”",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Watch",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Talk",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Ask, don't tell",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Watch the real process and product",
+        "Talk with the operator",
+        "Ask questions, don't just give answers"
+      ],
+      "at": [
+        4.421,
+        8.326,
+        17.58
+      ],
+      "exampleAt": 23.89
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Leader Standard Work",
+      "example": "Sunita's list: start of shift, every hour, every model change, end of shift.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Start of shift: readiness",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Hourly: plan vs actual",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "Model change: first piece",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "End of shift: handover",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Checks by frequency",
+        "Sequence, cycle time, quality points",
+        "Latest SOP at every station"
+      ],
+      "at": [
+        6.103,
+        10.456,
+        21.014
+      ],
+      "exampleAt": 26.923
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Visual Management",
+      "example": "10 to 11 a.m.: plan 120 TVs, actual 98. Red.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10–11 a.m.: plan vs actual",
+        "with": "example",
+        "items": [
+          {
+            "label": "Plan",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Actual",
+            "value": 98,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan vs actual, every hour",
+        "Quality, downtime, open actions",
+        "See, react, record, follow up"
+      ],
+      "at": [
+        4.218,
+        7.029,
+        16.692
+      ],
+      "exampleAt": 24.246
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Abnormality Response",
+      "example": "Level 1: team fixes it. Level 2: call support. Level 3: escalate to management.",
+      "visual": {
+        "type": "ladder",
+        "top": "LEVEL 3",
+        "bottom": "LEVEL 1",
+        "items": [
+          {
+            "label": "Safety or customer risk: escalate now",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Call support functions",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Team restores the standard",
+            "icon": "hand",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Detect, contain, call",
+        "Correct and confirm",
+        "Prevent and share"
+      ],
+      "at": [
+        4.055,
+        11.012,
+        15.973
+      ],
+      "exampleAt": 19.277
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Sunita's Red Hour",
+      "example": "It started right after the 10 o'clock model change.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "98 vs 120 an hour",
+            "icon": "chartDown",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "FPY 98.5% → 95.8%",
+            "icon": "test",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "WIP before test",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Output: 98 against 120 an hour",
+        "First pass yield: 98.5% to 95.8%",
+        "Work piling up before test"
+      ],
+      "at": [
+        3.421,
+        11.089,
+        15.405
+      ],
+      "exampleAt": 24.253
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Contain, Then Go and See",
+      "example": "Station 6: on the new model, the panel cable took a new path, and operators bent it by hand.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Hold suspect TVs",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Find the bottleneck",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Station 6: cable path changed",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Hold the suspect TVs",
+        "Find the bottleneck station",
+        "Compare method with standard"
+      ],
+      "at": [
+        3.132,
+        10.983,
+        14.156
+      ],
+      "exampleAt": 18.702
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Call, Correct, Confirm",
+      "example": "By 1 p.m.: 120 TVs an hour, first pass yield 98.6%.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "11 a.m.",
+          "value": 98
+        },
+        "after": {
+          "label": "1 p.m.",
+          "value": 120
+        },
+        "unit": "TVs an hour",
+        "note": "First pass yield back to 98.6%",
+        "with": "example"
+      },
+      "bullets": [
+        "Level 2: call engineering",
+        "Correct the fixture, update the SOP",
+        "Confirm over several cycles"
+      ],
+      "at": [
+        2.808,
+        9.359,
+        16.185
+      ],
+      "exampleAt": 20.982
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Building People",
+      "example": "Sunita trained two operators on the new cable routing before the night shift.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Explain",
+            "with": 0
+          },
+          {
+            "label": "Demonstrate",
+            "with": 0
+          },
+          {
+            "label": "Practice",
+            "with": 0
+          },
+          {
+            "label": "Verify",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Explain, show, practice, verify",
+        "Certify critical skills",
+        "Cross-train for cover"
+      ],
+      "at": [
+        7.529,
+        13.287,
+        17.426
+      ],
+      "exampleAt": 25.718
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Measure It, Then Start",
+      "example": "Week 1 roles · week 2 hourly board · week 3 skills · week 4 audit and review.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Roles, leader standard work",
+            "sub": "Week 1",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Hourly board",
+            "sub": "Week 2",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Skills, coaching",
+            "sub": "Week 3",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Audit, review",
+            "sub": "Week 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "KPIs hourly, daily, weekly",
+        "Audit to coach, not to blame",
+        "A 30-day plan"
+      ],
+      "at": [
+        4.456,
+        15.656,
+        20.298
+      ],
+      "exampleAt": 20.298
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A shift has 25,200 net seconds and the customer needs 840 units. What is the TAKT time?",
+      "options": [
+        "20 seconds",
+        "30 seconds",
+        "40 seconds"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = net available time ÷ demand = 25,200 ÷ 840 = 30 seconds per unit.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Final test takes 38 s per unit, but TAKT is 30 s. A manager says: \"Tell the testers to go faster.\" What should the team do FIRST?",
+      "options": [
+        "Skip part of the test to save time",
+        "Analyze the test station's losses and capacity",
+        "Build extra stock upstream",
+        "Recalculate TAKT using gross shift time"
+      ],
+      "correct": 1,
+      "explanation": "A cycle time above TAKT is a capacity problem. Study the station's losses, cycle and uptime, then improve or add verified capacity. Skipping tests or hiding it with stock creates new problems.",
+      "think": 17
+    }
+  ]
+}

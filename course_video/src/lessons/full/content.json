@@ -1,0 +1,68 @@
+{
+  "wastes": [
+    {
+      "l": "D",
+      "name": "Defects",
+      "icon": "Defect",
+      "def": "Any work that has errors and must be fixed or scrapped.",
+      "example": "A welded part fails inspection and goes back for rework.",
+      "fix": "Build quality in at the source with checks and poka-yoke."
+    },
+    {
+      "l": "O",
+      "name": "Overproduction",
+      "icon": "Overproduction",
+      "def": "Making more, or sooner, than the customer actually needs.",
+      "example": "Running a big batch 'to be efficient' that then sits in storage.",
+      "fix": "Produce to real demand using pull and takt time."
+    },
+    {
+      "l": "W",
+      "name": "Waiting",
+      "icon": "Waiting",
+      "def": "Idle time when people or products wait for the next step.",
+      "example": "An operator standing idle because the previous machine is slow.",
+      "fix": "Balance the line so work flows evenly between steps."
+    },
+    {
+      "l": "N",
+      "name": "Non-utilized talent",
+      "icon": "Talent",
+      "def": "Failing to use people's skills, ideas, and experience.",
+      "example": "Ignoring the operator who knows exactly how to fix a recurring jam.",
+      "fix": "Involve everyone in improvement; listen to the front line."
+    },
+    {
+      "l": "T",
+      "name": "Transportation",
+      "icon": "Transport",
+      "def": "Unnecessary movement of materials and products.",
+      "example": "Carrying parts across the factory and back between steps.",
+      "fix": "Place steps close together so products travel less."
+    },
+    {
+      "l": "I",
+      "name": "Inventory",
+      "icon": "Inventory",
+      "def": "Excess raw material, work-in-progress, or finished goods.",
+      "example": "Shelves full of stock that ties up cash and hides problems.",
+      "fix": "Keep only what you need; let inventory flow, not pile up."
+    },
+    {
+      "l": "M",
+      "name": "Motion",
+      "icon": "Motion",
+      "def": "Unnecessary movement of people at the workstation.",
+      "example": "Reaching, bending, and searching for tools every single cycle.",
+      "fix": "Organize the workspace with 5S so everything is within reach."
+    },
+    {
+      "l": "E",
+      "name": "Extra processing",
+      "icon": "Processing",
+      "def": "Doing more work than the customer actually values.",
+      "example": "Polishing a surface that will never be seen or used.",
+      "fix": "Do exactly what the customer needs, no more, no less."
+    }
+  ]
+}
