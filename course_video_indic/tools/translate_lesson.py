@@ -1,4 +1,4 @@
-"""Make a Tamil/Telugu lesson from its Hindi one, so pages, visuals, icons and numbers stay identical.
+"""Make a Tamil/Telugu/Marathi lesson from its Hindi one, so pages, visuals, icons and numbers stay identical.
 Only the Hindi text is replaced; everything else is copied.
 
   python tools/translate_lesson.py dump  kaizen_hi            numbered Hindi strings -> stdout
@@ -21,12 +21,14 @@ sys.path.insert(0, str(ROOT / "narration"))
 sys.path.insert(0, str(ROOT / "tools"))
 from lesson_terms import TERMS  # noqa: E402
 
-LANGS = {"ta": ("Tamil", "ta-IN-PallaviNeural"), "te": ("Telugu", "te-IN-ShrutiNeural")}
+LANGS = {"ta": ("Tamil", "ta-IN-PallaviNeural"), "te": ("Telugu", "te-IN-ShrutiNeural"),
+         "mr": ("Marathi", "mr-IN-AarohiNeural")}
+SAME_SCRIPT = {"mr"}  # Devanagari like Hindi: the "no Hindi left" checks cannot apply
 DEVA = re.compile("[ऀ-ॿ]")
 TS_STR = re.compile(r'"((?:[^"\\\n]|\\.)*)"')
 DIGITS = re.compile(r"\d+(?:[.,]\d+)*")
 LATIN = re.compile(r"\d*[A-Za-z][A-Za-z0-9]*")
-FSTRING_WORDS = {"स्टेशन": {"ta": "ஸ்டேஷன்", "te": "స్టేషన్"}}  # Hindi inside f"..." strings (Yamazumi)
+FSTRING_WORDS = {"स्टेशन": {"ta": "ஸ்டேஷன்", "te": "స్టేషన్", "mr": "स्टेशन"}}  # Hindi inside f"..." strings (Yamazumi)
 
 
 def line_starts(src):
@@ -81,13 +83,13 @@ def wrap(text, indent):
     return ("\n" + " " * indent).join(json.dumps(p, ensure_ascii=False) for p in parts)
 
 
-def check(hi, tr, n):
+def check(hi, tr, n, lang):
     errs = []
     if Counter(DIGITS.findall(hi)) != Counter(DIGITS.findall(tr)):
         errs.append(f"{n}: digits differ: {DIGITS.findall(hi)} vs {DIGITS.findall(tr)}")
     if Counter(LATIN.findall(hi)) != Counter(LATIN.findall(tr)):
         errs.append(f"{n}: English differs: {LATIN.findall(hi)} vs {LATIN.findall(tr)}")
-    if DEVA.search(tr):
+    if lang not in SAME_SCRIPT and DEVA.search(tr):
         errs.append(f"{n}: Hindi left in the translation")
     return errs
 
@@ -105,7 +107,7 @@ def build(mod_name, lang, file):
     errs += [f"extra line {k}" for k in lines if not 1 <= k <= len(hi)]
     if not errs:
         for i, h in enumerate(hi, 1):
-            errs += check(h, lines[i], i)
+            errs += check(h, lines[i], i, lang)
     if errs:
         sys.exit("NOT written:\n  " + "\n  ".join(errs))
 
@@ -133,8 +135,10 @@ def build(mod_name, lang, file):
         out = out.replace(hindi, forms[lang])
     out = re.sub(r"^VOICE = .*$", f'VOICE = "{voice}"   # female (user, 2 Nov 2026)', out, flags=re.M)
     out = out.replace(r'rf"\b{re.escape(en)}\b"', 'rf"(?<![A-Za-z0-9]){re.escape(en)}(?![A-Za-z0-9])"')
-    out = out.replace("Devanagari", f"{name} script").replace("Hindi", name).replace(f"from the {name} lesson", "from the Hindi lesson")
-    m = DEVA.search(out)
+    if lang not in SAME_SCRIPT:
+        out = out.replace("Devanagari", f"{name} script")
+    out = out.replace("Hindi", name).replace(f"from the {name} lesson", "from the Hindi lesson")
+    m = lang not in SAME_SCRIPT and DEVA.search(out)
     if m:
         sys.exit("NOT written: Hindi left in the module near: " + out[max(0, m.start() - 60):m.start() + 60])
 
@@ -146,7 +150,7 @@ def build(mod_name, lang, file):
     t = t.replace(tsx.stem, comp).replace(f"{lid}_hi", f"{lid}_{lang}").replace(mod_name, new_mod)
     t = t.replace('"hi"', f'"{lang}"').replace("_HI_DURATION", f"_{lang.upper()}_DURATION").replace("Hindi", name)
     t = re.sub(r"^// \w+ version of", f"// {name} version of", t, flags=re.M)
-    if DEVA.search(t):
+    if lang not in SAME_SCRIPT and DEVA.search(t):
         sys.exit("NOT written: Hindi left in the component")
     dur = re.search(r"export const (\w+_DURATION)", t).group(1)
 
