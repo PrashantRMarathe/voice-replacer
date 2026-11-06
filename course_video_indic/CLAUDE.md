@@ -129,8 +129,9 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
   heard English-letter forms (S-O-P, A-three) in Swara's voice and said the old way is better.
   `LATIN_OK` lists the few words voiced in English letters (lint allows only those).
 - Before voicing a language: `python tools/say_words.py all_<lang>` -> `out/pron_test/<lang>_words.mp3`
-  + `.txt` (every English term / PRON word in a real sentence, numbered). The user (a native
-  speaker for fr/de/es/ar) marks bad numbers; fix them in `pronounce.py`.
+  + `.txt` (every English term / PRON word in a real sentence, numbered). For Hindi the
+  user marks bad numbers. For every other language the user can't judge (6 Nov 2026): Claude
+  checks the sample with Whisper (see `docs/LANGUAGES_PLAN.md`); fix them in `pronounce.py`.
 - After a `pronounce.py` change: `python tools/revoice.py all_<lang>` (or module names; `--dry`
   lists) re-voices ONLY clips whose spoken text changed (`public/audio/<id>/spoken.json`).
 - Stay on free edge-tts voices (the user declined paid voices, 31 Oct 2026). The videos must
