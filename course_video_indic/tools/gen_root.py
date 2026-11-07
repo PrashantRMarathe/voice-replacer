@@ -95,6 +95,14 @@ LESSONS = [
     ("dt_mr", "DesignThinkingMr", "DESIGN_THINKING_MR_DURATION"),
     ("ew_mr", "EliminationOfWasteMr", "ELIMINATION_OF_WASTE_MR_DURATION"),
     ("fm_mr", "FMEAMr", "FMEA_MR_DURATION"),
+    ("gb_mr", "GembaMr", "GEMBA_MR_DURATION"),
+    ("hc_mr", "HanchoMr", "HANCHO_MR_DURATION"),
+    ("ik_mr", "IshikawaMr", "ISHIKAWA_MR_DURATION"),
+    ("jd_mr", "JidokaMr", "JIDOKA_MR_DURATION"),
+    ("kz_mr", "KaizenMr", "KAIZEN_MR_DURATION"),
+    ("lc_mr", "LowCostAutomationMr", "LOW_COST_AUTOMATION_MR_DURATION"),
+    ("mm_mr", "MudaMuraMuriMr", "MUDA_MURA_MURI_MR_DURATION"),
+    ("ni_mr", "NextInspectionMr", "NEXT_INSPECTION_MR_DURATION"),
 ]
 # A lesson joins Root only once it is voiced (its captions exist), so scripts can land early.
 LESSONS = [l for l in LESSONS if (HERE / "src/captions" / l[0]).is_dir()]

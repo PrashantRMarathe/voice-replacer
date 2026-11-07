@@ -92,6 +92,14 @@ export const PAGE_LESSONS: Record<string, string> = {
   ct_mr: "CycleTimeStudyMr",
   dt_mr: "DesignThinkingMr",
   ew_mr: "EliminationOfWasteMr",
+  fm_mr: "FMEAMr",
+  gb_mr: "GembaMr",
+  hc_mr: "HanchoMr",
+  ik_mr: "IshikawaMr",
+  jd_mr: "JidokaMr",
+  kz_mr: "KaizenMr",
+  lc_mr: "LowCostAutomationMr",
+  mm_mr: "MudaMuraMuriMr",
 };
 
 const json = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf-8"));

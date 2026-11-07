@@ -85,6 +85,14 @@ import { BurnDownChartMr, BURN_DOWN_CHART_MR_DURATION } from "./lessons/bd_mr/Bu
 import { CycleTimeStudyMr, CYCLE_TIME_STUDY_MR_DURATION } from "./lessons/ct_mr/CycleTimeStudyMr";
 import { DesignThinkingMr, DESIGN_THINKING_MR_DURATION } from "./lessons/dt_mr/DesignThinkingMr";
 import { EliminationOfWasteMr, ELIMINATION_OF_WASTE_MR_DURATION } from "./lessons/ew_mr/EliminationOfWasteMr";
+import { FMEAMr, FMEA_MR_DURATION } from "./lessons/fm_mr/FMEAMr";
+import { GembaMr, GEMBA_MR_DURATION } from "./lessons/gb_mr/GembaMr";
+import { HanchoMr, HANCHO_MR_DURATION } from "./lessons/hc_mr/HanchoMr";
+import { IshikawaMr, ISHIKAWA_MR_DURATION } from "./lessons/ik_mr/IshikawaMr";
+import { JidokaMr, JIDOKA_MR_DURATION } from "./lessons/jd_mr/JidokaMr";
+import { KaizenMr, KAIZEN_MR_DURATION } from "./lessons/kz_mr/KaizenMr";
+import { LowCostAutomationMr, LOW_COST_AUTOMATION_MR_DURATION } from "./lessons/lc_mr/LowCostAutomationMr";
+import { MudaMuraMuriMr, MUDA_MURA_MURI_MR_DURATION } from "./lessons/mm_mr/MudaMuraMuriMr";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -1533,6 +1541,142 @@ export const RemotionRoot: React.FC = () => {
         id="EliminationOfWasteMrDub"
         component={EliminationOfWasteMr}
         durationInFrames={ELIMINATION_OF_WASTE_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEAMr"
+        component={FMEAMr}
+        durationInFrames={FMEA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEAMrDub"
+        component={FMEAMr}
+        durationInFrames={FMEA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="GembaMr"
+        component={GembaMr}
+        durationInFrames={GEMBA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="GembaMrDub"
+        component={GembaMr}
+        durationInFrames={GEMBA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="HanchoMr"
+        component={HanchoMr}
+        durationInFrames={HANCHO_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="HanchoMrDub"
+        component={HanchoMr}
+        durationInFrames={HANCHO_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaMr"
+        component={IshikawaMr}
+        durationInFrames={ISHIKAWA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaMrDub"
+        component={IshikawaMr}
+        durationInFrames={ISHIKAWA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaMr"
+        component={JidokaMr}
+        durationInFrames={JIDOKA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaMrDub"
+        component={JidokaMr}
+        durationInFrames={JIDOKA_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenMr"
+        component={KaizenMr}
+        durationInFrames={KAIZEN_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenMrDub"
+        component={KaizenMr}
+        durationInFrames={KAIZEN_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationMr"
+        component={LowCostAutomationMr}
+        durationInFrames={LOW_COST_AUTOMATION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationMrDub"
+        component={LowCostAutomationMr}
+        durationInFrames={LOW_COST_AUTOMATION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriMr"
+        component={MudaMuraMuriMr}
+        durationInFrames={MUDA_MURA_MURI_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriMrDub"
+        component={MudaMuraMuriMr}
+        durationInFrames={MUDA_MURA_MURI_MR_DURATION}
         fps={fps}
         width={width}
         height={height}
