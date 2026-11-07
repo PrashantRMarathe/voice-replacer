@@ -93,6 +93,16 @@ import { JidokaMr, JIDOKA_MR_DURATION } from "./lessons/jd_mr/JidokaMr";
 import { KaizenMr, KAIZEN_MR_DURATION } from "./lessons/kz_mr/KaizenMr";
 import { LowCostAutomationMr, LOW_COST_AUTOMATION_MR_DURATION } from "./lessons/lc_mr/LowCostAutomationMr";
 import { MudaMuraMuriMr, MUDA_MURA_MURI_MR_DURATION } from "./lessons/mm_mr/MudaMuraMuriMr";
+import { NextInspectionMr, NEXT_INSPECTION_MR_DURATION } from "./lessons/ni_mr/NextInspectionMr";
+import { OnePointLessonMr, ONE_POINT_LESSON_MR_DURATION } from "./lessons/op_mr/OnePointLessonMr";
+import { RootCauseAnalysisMr, ROOT_CAUSE_ANALYSIS_MR_DURATION } from "./lessons/rc_mr/RootCauseAnalysisMr";
+import { SkillMatrixMr, SKILL_MATRIX_MR_DURATION } from "./lessons/sk_mr/SkillMatrixMr";
+import { TaktTimeMr, TAKT_TIME_MR_DURATION } from "./lessons/tt_mr/TaktTimeMr";
+import { UniformProductionMr, UNIFORM_PRODUCTION_MR_DURATION } from "./lessons/up_mr/UniformProductionMr";
+import { ValueStreamMappingMr, VALUE_STREAM_MAPPING_MR_DURATION } from "./lessons/vs_mr/ValueStreamMappingMr";
+import { WhyWhyMr, WHY_WHY_MR_DURATION } from "./lessons/ww_mr/WhyWhyMr";
+import { XMatrixMr, X_MATRIX_MR_DURATION } from "./lessons/xm_mr/XMatrixMr";
+import { YamazumiMr, YAMAZUMI_MR_DURATION } from "./lessons/yz_mr/YamazumiMr";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -1677,6 +1687,176 @@ export const RemotionRoot: React.FC = () => {
         id="MudaMuraMuriMrDub"
         component={MudaMuraMuriMr}
         durationInFrames={MUDA_MURA_MURI_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionMr"
+        component={NextInspectionMr}
+        durationInFrames={NEXT_INSPECTION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionMrDub"
+        component={NextInspectionMr}
+        durationInFrames={NEXT_INSPECTION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="OnePointLessonMr"
+        component={OnePointLessonMr}
+        durationInFrames={ONE_POINT_LESSON_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="OnePointLessonMrDub"
+        component={OnePointLessonMr}
+        durationInFrames={ONE_POINT_LESSON_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisMr"
+        component={RootCauseAnalysisMr}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisMrDub"
+        component={RootCauseAnalysisMr}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixMr"
+        component={SkillMatrixMr}
+        durationInFrames={SKILL_MATRIX_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixMrDub"
+        component={SkillMatrixMr}
+        durationInFrames={SKILL_MATRIX_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeMr"
+        component={TaktTimeMr}
+        durationInFrames={TAKT_TIME_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeMrDub"
+        component={TaktTimeMr}
+        durationInFrames={TAKT_TIME_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="UniformProductionMr"
+        component={UniformProductionMr}
+        durationInFrames={UNIFORM_PRODUCTION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="UniformProductionMrDub"
+        component={UniformProductionMr}
+        durationInFrames={UNIFORM_PRODUCTION_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ValueStreamMappingMr"
+        component={ValueStreamMappingMr}
+        durationInFrames={VALUE_STREAM_MAPPING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ValueStreamMappingMrDub"
+        component={ValueStreamMappingMr}
+        durationInFrames={VALUE_STREAM_MAPPING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="WhyWhyMr"
+        component={WhyWhyMr}
+        durationInFrames={WHY_WHY_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="WhyWhyMrDub"
+        component={WhyWhyMr}
+        durationInFrames={WHY_WHY_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="XMatrixMr"
+        component={XMatrixMr}
+        durationInFrames={X_MATRIX_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="XMatrixMrDub"
+        component={XMatrixMr}
+        durationInFrames={X_MATRIX_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="YamazumiMr"
+        component={YamazumiMr}
+        durationInFrames={YAMAZUMI_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="YamazumiMrDub"
+        component={YamazumiMr}
+        durationInFrames={YAMAZUMI_MR_DURATION}
         fps={fps}
         width={width}
         height={height}

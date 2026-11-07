@@ -100,6 +100,16 @@ export const PAGE_LESSONS: Record<string, string> = {
   kz_mr: "KaizenMr",
   lc_mr: "LowCostAutomationMr",
   mm_mr: "MudaMuraMuriMr",
+  ni_mr: "NextInspectionMr",
+  op_mr: "OnePointLessonMr",
+  rc_mr: "RootCauseAnalysisMr",
+  sk_mr: "SkillMatrixMr",
+  tt_mr: "TaktTimeMr",
+  up_mr: "UniformProductionMr",
+  vs_mr: "ValueStreamMappingMr",
+  ww_mr: "WhyWhyMr",
+  xm_mr: "XMatrixMr",
+  yz_mr: "YamazumiMr",
 };
 
 const json = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf-8"));

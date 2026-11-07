@@ -43,6 +43,16 @@ Translated from the Hindi with `tools/translate_lesson.py` (`dump <x>_hi` -> num
 `build <x>_hi te <file>`; sources in `out/te_tr/`). 13 per-language Telugu videos were rendered
 (A3 … Low Cost Automation, in `final/telugu/`) before the switch to dub tracks stopped that render.
 The pronunciation sample `out/pron_test/te_words.mp3` is still waiting for the user's notes.
+Marathi set (PC, 6–7 Nov 2026): all 26, voiced (`mr-IN-AarohiNeural`), id `<english id>_mr`,
+comp `<EnglishComp>Mr` (`FMEAMr`, `QrqcMr`; modules mirror the Hindi names, e.g. `root_cause_mr`).
+Translated from the current Hindi with `tools/translate_lesson.py` (`build <x>_hi mr <file>`;
+sources in `out/mr_tr/`, PC only). Marathi is Devanagari, so the tool skips its "no Hindi left"
+checks for `mr`; English terms are voiced with `TERMS["mr"]` in `tools/lesson_terms.py`
+(Hindi forms without nukta, झ for an English z, व्ही for V, ॅ/ॲ for the English "a").
+Sentences end with "." (not the Hindi danda). The old PokaYokeMr/QrqcMr (27 Oct) were rebuilt
+from the current Hindi; their old audio is in `out/old_mr/`. The user approved the Marathi voice
+on a Poka Yoke demo (6 Nov 2026, "Marathi is good"). No per-language Marathi video is rendered:
+Marathi exists only as a dub track. A Marathi `say_words.py` sample was not made.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -80,25 +90,23 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
 - No English voice track yet: the English voice clips are on the PC only. To add one, voice
   folder `audio/<id>` from the English project with speed 1 (TODO on the PC).
 - Telugu is ~5% longer than English, Hindi ~10%: only a few pages need 10–14% speed-up.
+- Marathi runs ~15% longer. Rule for every dub track: no clip faster than 1.14 (read the exact
+  value in `public/audio/<id>_dub_<lang>/speed.json`, the printout rounds). A clip over 1.14 gets
+  its line shortened (same meaning), voiced again (delete that `.mp3` in `public/audio/<id>_<lang>/`,
+  rerun `tools/voice_lessons.sh`) and fitted again. Extra commas add pauses: cut words instead.
+- `pack` must list every language (`pack <id> hi te ta mr`), or the packed mp4 and the Drive copy
+  lose the tracks left out. Check: `ffprobe` shows 4 audio + 4 subtitle streams.
 
-### Dub render status (laptop, 5 Nov 2026 12:00)
-- Run 1 started 4 Nov 13:27 (`out/dub/render_all.log`, laptop only). ~40 min per lesson.
-- **Done (7/26)**, in `final/dub/` + Drive `FFIQ_indic/final/dub/` (video + hin + tel tracks + .srt):
-  A3ProblemSolving, BurnDownChart, CycleTimeStudy, DesignThinking, EliminationOfWaste, FMEA, ZeroDefects.
-- The laptop restarted itself (Windows) at 11:47 on 5 Nov during Gemba (frame 12038/20120), killing the run.
-  A partial render is never kept, so Gemba starts again from frame 0.
-- **To do (19):** Gemba, Hancho, Ishikawa, Jidoka, Kaizen, LowCostAutomation, MudaMuraMuri,
-  NextInspection, OnePointLesson, PokaYoke, QRQC, RootCauseAnalysis, SkillMatrix, TaktTime,
-  UniformProduction, ValueStreamMapping, WhyWhy, XMatrix, Yamazumi (~13 h).
-- Resume on the laptop (PowerShell, plugged in, lid open, Windows Update restarts paused).
-  `render_dub.sh` skips any lesson whose `out/dub/<Comp>_video.mp4` exists (it only rebuilds
-  those lessons' tracks, ~1 min each):
-  `cd D:\PPT\Converter\voice_replacer\course_video_indic; ..\.venv\Scripts\python.exe tools\run_awake.py "C:/Program Files/Git/bin/bash.exe" -c "scripts/render_dub.sh 'hi te' > out/dub/render_all2.log 2>&1"`
-  (if that bash path is missing, use the Git `usr/bin/bash.exe` path under "Two machines").
-- To split the work, the PC can render some of the 19 by name, e.g.
-  `bash scripts/render_dub.sh "hi te" Yamazumi XMatrix WhyWhy`. It needs `public/audio/<id>_hi/`
-  and `<id>_te/` (Telugu from Drive `FFIQ_sync/audio/<id>_te/`). Tell the laptop which ones, so
-  the same lesson isn't rendered twice (the laptop run goes in alphabetical order, A to Z).
+### Dub render status (PC, 7 Nov 2026)
+- All 26 English dub videos are rendered. On the PC they live in the second checkout
+  `D:\AIL\Website\voice-replacer-dub\course_video_indic\out\dub\<Comp>_video.mp4`; this
+  checkout's `out/dub/` holds hard links to them (`cp -l`, no extra disk), so `fit_dub.py`
+  works here. Never render them again.
+- **All 26 packed with 4 tracks: Hindi, Telugu, Tamil, Marathi** (audio + soft subtitles), in
+  `final/dub/<Comp>.mp4` + Drive `FFIQ_indic/final/dub/` (+ separate `<Comp>_<lang>.m4a/.srt`).
+  Marathi was added 6–7 Nov 2026 on the PC; every Marathi clip is at or below 1.14 speed.
+- Next language: translate + voice, then `fit_dub.py fit/track <id> <lang>` and
+  `pack <id> hi te ta mr <lang>` (all languages, every time).
 - PC TODO: the English voice track (English clips are only on the PC, see above).
 
 ## Voice
