@@ -80,6 +80,11 @@ import { WhyWhyTe, WHY_WHY_TE_DURATION } from "./lessons/ww_te/WhyWhyTe";
 import { XMatrixTe, X_MATRIX_TE_DURATION } from "./lessons/xm_te/XMatrixTe";
 import { YamazumiTe, YAMAZUMI_TE_DURATION } from "./lessons/yz_te/YamazumiTe";
 import { ZeroDefectsTe, ZERO_DEFECTS_TE_DURATION } from "./lessons/zd_te/ZeroDefectsTe";
+import { A3ProblemSolvingMr, A3_PROBLEM_SOLVING_MR_DURATION } from "./lessons/a3_mr/A3ProblemSolvingMr";
+import { BurnDownChartMr, BURN_DOWN_CHART_MR_DURATION } from "./lessons/bd_mr/BurnDownChartMr";
+import { CycleTimeStudyMr, CYCLE_TIME_STUDY_MR_DURATION } from "./lessons/ct_mr/CycleTimeStudyMr";
+import { DesignThinkingMr, DESIGN_THINKING_MR_DURATION } from "./lessons/dt_mr/DesignThinkingMr";
+import { EliminationOfWasteMr, ELIMINATION_OF_WASTE_MR_DURATION } from "./lessons/ew_mr/EliminationOfWasteMr";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -1443,6 +1448,91 @@ export const RemotionRoot: React.FC = () => {
         id="ZeroDefectsTeDub"
         component={ZeroDefectsTe}
         durationInFrames={ZERO_DEFECTS_TE_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="A3ProblemSolvingMr"
+        component={A3ProblemSolvingMr}
+        durationInFrames={A3_PROBLEM_SOLVING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="A3ProblemSolvingMrDub"
+        component={A3ProblemSolvingMr}
+        durationInFrames={A3_PROBLEM_SOLVING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="BurnDownChartMr"
+        component={BurnDownChartMr}
+        durationInFrames={BURN_DOWN_CHART_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartMrDub"
+        component={BurnDownChartMr}
+        durationInFrames={BURN_DOWN_CHART_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyMr"
+        component={CycleTimeStudyMr}
+        durationInFrames={CYCLE_TIME_STUDY_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyMrDub"
+        component={CycleTimeStudyMr}
+        durationInFrames={CYCLE_TIME_STUDY_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="DesignThinkingMr"
+        component={DesignThinkingMr}
+        durationInFrames={DESIGN_THINKING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="DesignThinkingMrDub"
+        component={DesignThinkingMr}
+        durationInFrames={DESIGN_THINKING_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteMr"
+        component={EliminationOfWasteMr}
+        durationInFrames={ELIMINATION_OF_WASTE_MR_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteMrDub"
+        component={EliminationOfWasteMr}
+        durationInFrames={ELIMINATION_OF_WASTE_MR_DURATION}
         fps={fps}
         width={width}
         height={height}

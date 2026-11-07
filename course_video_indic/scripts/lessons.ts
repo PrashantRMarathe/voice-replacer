@@ -87,6 +87,11 @@ export const PAGE_LESSONS: Record<string, string> = {
   xm_te: "XMatrixTe",
   yz_te: "YamazumiTe",
   zd_te: "ZeroDefectsTe",
+  a3_mr: "A3ProblemSolvingMr",
+  bd_mr: "BurnDownChartMr",
+  ct_mr: "CycleTimeStudyMr",
+  dt_mr: "DesignThinkingMr",
+  ew_mr: "EliminationOfWasteMr",
 };
 
 const json = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf-8"));

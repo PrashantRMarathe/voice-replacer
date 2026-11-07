@@ -10,7 +10,7 @@ import content from "./content.json";
 import quizzes from "./quizzes.json";
 import words from "../../captions/qr_mr/words.json";
 
-// Marathi version of QRQC (same design and polish as the English lesson).
+// Marathi version of QrqcMr (same design and polish as the English lesson).
 // All data comes from narration/qrqc_mr.py (+ import_clones.py).
 const DATA: LessonData = {
   id: "qr_mr",
@@ -23,32 +23,33 @@ const DATA: LessonData = {
 const TEXT: LessonText = {
   label: "QRQC",
   title: "Quick Response Quality Control",
-  subtitle: "मिनिटांत प्रतिक्रिया — पुराव्याने क्लोज",
-  outroLine: "शोधा. कंटेन करा. सिद्ध करा.",
-  outroSub: "QRQC — झटपट प्रतिक्रिया, खरा पुरावा",
+  subtitle: "मिनिटांत कृती — पुराव्यासह बंद",
+  outroLine: "पकडा. रोखा. सिद्ध करा.",
+  outroSub: "QRQC — वेगवान रिस्पॉन्स, खरा पुरावा",
+};
+
+// Same polish as English QRQC; cues are phrases from the Marathi intro/outro.
+// hook.value is 24 (the page-5 count), not the English polish's 18.
+const POLISH: Polish = {
+  sound: true, acting: true, focus: true, bigQuiz: true,
+  hook: {
+    value: 24, icon: "camera", label: "कॅमेरे दुपारपर्यंत फोकस टेस्टमध्ये फेल",
+    sub: "कोणीतरी टेस्टर रीसेट केला, आणि लाइन चालू राहिली.", until: "या लेसनमध्ये",
+  },
+  recap: {
+    problem: "वेअरहाउसकडे जाणारे संशयित कॅमेरे", before: 2000, after: 0, unit: "संशयित कॅमेरे हिशोबाशिवाय",
+    takeaways: [
+      { text: "वेगाने कृती, पण पुराव्यासह", cue: "वेगाने कृती" },
+      { text: "आधी कंटेनमेंट, प्रत्येक युनिटचा हिशोब", cue: "आधी कंटेनमेंट" },
+      { text: "उपाय सिद्ध झाल्यावरच बंद करा", cue: "आणि मुद्दा तेव्हाच" },
+    ],
+    action: { text: "एका गंभीर डिफेक्टसाठी तुमच्या रिस्पॉन्स प्लानची पहिली 30 मिनिटं लिहा.", cue: "या आठवड्याचं तुमचं काम" },
+    next: { letter: "R", title: "Root Cause Analysis", cue: "पुढे, तुम्ही" },
+  },
 };
 
 const PLAN = planLesson(DATA, fps);
 export const QRQC_MR_DURATION = PLAN.total;
-
-// Same polish as English QRQC; cues are phrases from the Marathi intro/outro.
-const POLISH: Polish = {
-  sound: true, acting: true, focus: true, bigQuiz: true,
-  hook: {
-    value: 18, icon: "camera", label: "कॅमेरे दुपारपर्यंत फोकस टेस्टमध्ये फेल",
-    sub: "कुणीतरी टेस्टर रीसेट केला, आणि लाइन चालूच राहिली.", until: "या धड्यात",
-  },
-  recap: {
-    problem: "संशयित कॅमेरे वेअरहाऊसकडे निघाले", before: 2000, after: 0, unit: "संशयित कॅमेरे हिशेबाबाहेर",
-    takeaways: [
-      { text: "वेगाने प्रतिक्रिया द्या, पण पुराव्यासह", cue: "वेगाने प्रतिक्रिया द्या" },
-      { text: "आधी कंटेन करा, प्रत्येक युनिट जुळवा", cue: "आधी कंटेन करा" },
-      { text: "फिक्स सिद्ध झाल्यावरच क्लोज करा", cue: "आणि एखादा इश्यू" },
-    ],
-    action: { text: "एका क्रिटिकल डिफेक्टसाठी तुमच्या प्रतिक्रिया प्लॅनची पहिली 30 मिनिटं लिहा.", cue: "या आठवड्याचं तुमचं काम" },
-    next: { letter: "R", title: "Root Cause Analysis", cue: "पुढे, तुम्ही रूट कॉज" },
-  },
-};
 
 export const QrqcMr: React.FC<{ captions?: boolean }> = ({ captions = true }) => {
   ensureIndicFont("mr");
