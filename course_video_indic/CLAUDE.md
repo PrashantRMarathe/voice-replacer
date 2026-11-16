@@ -53,6 +53,16 @@ Sentences end with "." (not the Hindi danda). The old PokaYokeMr/QrqcMr (27 Oct)
 from the current Hindi; their old audio is in `out/old_mr/`. The user approved the Marathi voice
 on a Poka Yoke demo (6 Nov 2026, "Marathi is good"). No per-language Marathi video is rendered:
 Marathi exists only as a dub track. A Marathi `say_words.py` sample was not made.
+Kannada pilot (PC, 7 Nov 2026): PokaYokeKn (`pk_kn`, module `poka_yoke_kn`), voiced
+`kn-IN-SapnaNeural` (female), translated from the Hindi (`out/kn_tr/poka_yoke_kn.txt`, PC only).
+`TERMS["kn"]` = the Telugu forms in Kannada letters (ಎಂ for M); screen labels `ui.ts` `kn`;
+font Noto Sans Kannada. Sentences end with ".". Only a dub track (fastest clip 1.098), packed into
+`final/dub/PokaYoke.mp4` with 5 tracks. The user approved it ("Kannada OK, do all").
+Kannada set (PC, 7–10 Nov 2026): all 26, voiced (`kn-IN-SapnaNeural`), id `<english id>_kn`,
+comp `<EnglishComp>Kn` (`FMEAKn`, `QrqcKn`; modules mirror the Hindi names). Translated from the
+Hindi (`build <x>_hi kn <file>`; sources in `out/kn_tr/`, PC only). Only dub tracks, no
+per-language video. 9 clips came out over 1.14 and were shortened + re-voiced (A3 p01/p09,
+DT p06/quiz2_q, Ishikawa p10, MMM p10, OPL p14, QRQC intro, UP p03); all 26 are now ≤ 1.14.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -105,6 +115,8 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
 - **All 26 packed with 4 tracks: Hindi, Telugu, Tamil, Marathi** (audio + soft subtitles), in
   `final/dub/<Comp>.mp4` + Drive `FFIQ_indic/final/dub/` (+ separate `<Comp>_<lang>.m4a/.srt`).
   Marathi was added 6–7 Nov 2026 on the PC; every Marathi clip is at or below 1.14 speed.
+- Kannada (`kn`, code `kan`): all 26 packed as `pack <id> hi te ta mr kn` (10 Nov 2026),
+  so every `final/dub/<Comp>.mp4` now has 5 audio + 5 subtitle streams.
 - Next language: translate + voice, then `fit_dub.py fit/track <id> <lang>` and
   `pack <id> hi te ta mr <lang>` (all languages, every time).
 - PC TODO: the English voice track (English clips are only on the PC, see above).

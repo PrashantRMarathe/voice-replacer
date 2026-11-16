@@ -48,6 +48,8 @@ Malayalam · 8–10. Spanish, French, German (Latin-script lint mode needed once
 (scripts, voices, renders) is done on the laptop, and the laptop commits it. The laptop also
 rendered the English dub videos (`scripts/render_dub.sh`, all 26 done). Hindi, Telugu, Tamil and
 Marathi (added on the PC, 6–7 Nov 2026) are dub tracks on all 26: see CLAUDE.md "Dub render status".
+Kannada (PC, 7–10 Nov 2026): pilot approved, then all 26 translated, voiced and packed as the
+5th dub track. Next language in the plan: Bengali.
 
 | | PC | Laptop |
 |---|---|---|

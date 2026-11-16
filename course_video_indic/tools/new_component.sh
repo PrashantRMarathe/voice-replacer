@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Make a Hindi lesson component from the A3 one: header + data wiring copied, then the
 # lesson's own TEXT/POLISH block (stdin) appended.
-#   bash tools/new_component.sh <id> <Comp> <DURATION_CONST> <module> [lang] < text_and_polish.tsx   (lang: hi default, mr, te, ta)
+#   bash tools/new_component.sh <id> <Comp> <DURATION_CONST> <module> [lang] < text_and_polish.tsx   (lang: hi default, mr, te, ta, kn)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 ID=$1; COMP=$2; DUR=$3; MOD=$4; LG=${5:-hi}

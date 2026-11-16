@@ -1,4 +1,4 @@
-"""Make a Tamil/Telugu/Marathi lesson from its Hindi one, so pages, visuals, icons and numbers stay identical.
+"""Make a Tamil/Telugu/Marathi/Kannada lesson from its Hindi one, so pages, visuals, icons and numbers stay identical.
 Only the Hindi text is replaced; everything else is copied.
 
   python tools/translate_lesson.py dump  kaizen_hi            numbered Hindi strings -> stdout
@@ -22,13 +22,13 @@ sys.path.insert(0, str(ROOT / "tools"))
 from lesson_terms import TERMS  # noqa: E402
 
 LANGS = {"ta": ("Tamil", "ta-IN-PallaviNeural"), "te": ("Telugu", "te-IN-ShrutiNeural"),
-         "mr": ("Marathi", "mr-IN-AarohiNeural")}
+         "mr": ("Marathi", "mr-IN-AarohiNeural"), "kn": ("Kannada", "kn-IN-SapnaNeural")}
 SAME_SCRIPT = {"mr"}  # Devanagari like Hindi: the "no Hindi left" checks cannot apply
 DEVA = re.compile("[ऀ-ॿ]")
 TS_STR = re.compile(r'"((?:[^"\\\n]|\\.)*)"')
 DIGITS = re.compile(r"\d+(?:[.,]\d+)*")
 LATIN = re.compile(r"\d*[A-Za-z][A-Za-z0-9]*")
-FSTRING_WORDS = {"स्टेशन": {"ta": "ஸ்டேஷன்", "te": "స్టేషన్", "mr": "स्टेशन"}}  # Hindi inside f"..." strings (Yamazumi)
+FSTRING_WORDS = {"स्टेशन": {"ta": "ஸ்டேஷன்", "te": "స్టేషన్", "mr": "स्टेशन", "kn": "ಸ್ಟೇಷನ್"}}  # Hindi inside f"..." strings (Yamazumi)
 
 
 def line_starts(src):

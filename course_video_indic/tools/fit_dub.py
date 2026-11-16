@@ -28,7 +28,7 @@ PAD, QUIZ_LEAD = 2.2, 1.2          # src/lessons/plan.ts
 SPILL = 1.0
 COMP = json.loads((ROOT / "src/dub/lessons.json").read_text(encoding="utf-8"))
 DRIVE = Path("G:/My Drive/FFIQ_indic/final/dub")
-LANG3 = {"te": "tel", "hi": "hin", "ta": "tam", "mr": "mar"}
+LANG3 = {"te": "tel", "hi": "hin", "ta": "tam", "mr": "mar", "kn": "kan"}
 ENDS = ("।", ".", "?", "!")
 
 
