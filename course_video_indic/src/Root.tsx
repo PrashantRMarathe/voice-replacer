@@ -131,6 +131,57 @@ import { XMatrixKn, X_MATRIX_KN_DURATION } from "./lessons/xm_kn/XMatrixKn";
 import { YamazumiKn, YAMAZUMI_KN_DURATION } from "./lessons/yz_kn/YamazumiKn";
 import { ZeroDefectsKn, ZERO_DEFECTS_KN_DURATION } from "./lessons/zd_kn/ZeroDefectsKn";
 import { PokaYokeBn, POKA_YOKE_BN_DURATION } from "./lessons/pk_bn/PokaYokeBn";
+import { A3ProblemSolvingBn, A3_PROBLEM_SOLVING_BN_DURATION } from "./lessons/a3_bn/A3ProblemSolvingBn";
+import { BurnDownChartBn, BURN_DOWN_CHART_BN_DURATION } from "./lessons/bd_bn/BurnDownChartBn";
+import { CycleTimeStudyBn, CYCLE_TIME_STUDY_BN_DURATION } from "./lessons/ct_bn/CycleTimeStudyBn";
+import { DesignThinkingBn, DESIGN_THINKING_BN_DURATION } from "./lessons/dt_bn/DesignThinkingBn";
+import { EliminationOfWasteBn, ELIMINATION_OF_WASTE_BN_DURATION } from "./lessons/ew_bn/EliminationOfWasteBn";
+import { FMEABn, FMEA_BN_DURATION } from "./lessons/fm_bn/FMEABn";
+import { GembaBn, GEMBA_BN_DURATION } from "./lessons/gb_bn/GembaBn";
+import { HanchoBn, HANCHO_BN_DURATION } from "./lessons/hc_bn/HanchoBn";
+import { IshikawaBn, ISHIKAWA_BN_DURATION } from "./lessons/ik_bn/IshikawaBn";
+import { JidokaBn, JIDOKA_BN_DURATION } from "./lessons/jd_bn/JidokaBn";
+import { KaizenBn, KAIZEN_BN_DURATION } from "./lessons/kz_bn/KaizenBn";
+import { LowCostAutomationBn, LOW_COST_AUTOMATION_BN_DURATION } from "./lessons/lc_bn/LowCostAutomationBn";
+import { MudaMuraMuriBn, MUDA_MURA_MURI_BN_DURATION } from "./lessons/mm_bn/MudaMuraMuriBn";
+import { NextInspectionBn, NEXT_INSPECTION_BN_DURATION } from "./lessons/ni_bn/NextInspectionBn";
+import { OnePointLessonBn, ONE_POINT_LESSON_BN_DURATION } from "./lessons/op_bn/OnePointLessonBn";
+import { QrqcBn, QRQC_BN_DURATION } from "./lessons/qr_bn/QrqcBn";
+import { RootCauseAnalysisBn, ROOT_CAUSE_ANALYSIS_BN_DURATION } from "./lessons/rc_bn/RootCauseAnalysisBn";
+import { SkillMatrixBn, SKILL_MATRIX_BN_DURATION } from "./lessons/sk_bn/SkillMatrixBn";
+import { TaktTimeBn, TAKT_TIME_BN_DURATION } from "./lessons/tt_bn/TaktTimeBn";
+import { UniformProductionBn, UNIFORM_PRODUCTION_BN_DURATION } from "./lessons/up_bn/UniformProductionBn";
+import { ValueStreamMappingBn, VALUE_STREAM_MAPPING_BN_DURATION } from "./lessons/vs_bn/ValueStreamMappingBn";
+import { WhyWhyBn, WHY_WHY_BN_DURATION } from "./lessons/ww_bn/WhyWhyBn";
+import { XMatrixBn, X_MATRIX_BN_DURATION } from "./lessons/xm_bn/XMatrixBn";
+import { YamazumiBn, YAMAZUMI_BN_DURATION } from "./lessons/yz_bn/YamazumiBn";
+import { ZeroDefectsBn, ZERO_DEFECTS_BN_DURATION } from "./lessons/zd_bn/ZeroDefectsBn";
+import { PokaYokeMl, POKA_YOKE_ML_DURATION } from "./lessons/pk_ml/PokaYokeMl";
+import { A3ProblemSolvingMl, A3_PROBLEM_SOLVING_ML_DURATION } from "./lessons/a3_ml/A3ProblemSolvingMl";
+import { BurnDownChartMl, BURN_DOWN_CHART_ML_DURATION } from "./lessons/bd_ml/BurnDownChartMl";
+import { CycleTimeStudyMl, CYCLE_TIME_STUDY_ML_DURATION } from "./lessons/ct_ml/CycleTimeStudyMl";
+import { DesignThinkingMl, DESIGN_THINKING_ML_DURATION } from "./lessons/dt_ml/DesignThinkingMl";
+import { EliminationOfWasteMl, ELIMINATION_OF_WASTE_ML_DURATION } from "./lessons/ew_ml/EliminationOfWasteMl";
+import { FMEAMl, FMEA_ML_DURATION } from "./lessons/fm_ml/FMEAMl";
+import { GembaMl, GEMBA_ML_DURATION } from "./lessons/gb_ml/GembaMl";
+import { HanchoMl, HANCHO_ML_DURATION } from "./lessons/hc_ml/HanchoMl";
+import { IshikawaMl, ISHIKAWA_ML_DURATION } from "./lessons/ik_ml/IshikawaMl";
+import { JidokaMl, JIDOKA_ML_DURATION } from "./lessons/jd_ml/JidokaMl";
+import { KaizenMl, KAIZEN_ML_DURATION } from "./lessons/kz_ml/KaizenMl";
+import { LowCostAutomationMl, LOW_COST_AUTOMATION_ML_DURATION } from "./lessons/lc_ml/LowCostAutomationMl";
+import { MudaMuraMuriMl, MUDA_MURA_MURI_ML_DURATION } from "./lessons/mm_ml/MudaMuraMuriMl";
+import { NextInspectionMl, NEXT_INSPECTION_ML_DURATION } from "./lessons/ni_ml/NextInspectionMl";
+import { OnePointLessonMl, ONE_POINT_LESSON_ML_DURATION } from "./lessons/op_ml/OnePointLessonMl";
+import { QrqcMl, QRQC_ML_DURATION } from "./lessons/qr_ml/QrqcMl";
+import { RootCauseAnalysisMl, ROOT_CAUSE_ANALYSIS_ML_DURATION } from "./lessons/rc_ml/RootCauseAnalysisMl";
+import { SkillMatrixMl, SKILL_MATRIX_ML_DURATION } from "./lessons/sk_ml/SkillMatrixMl";
+import { TaktTimeMl, TAKT_TIME_ML_DURATION } from "./lessons/tt_ml/TaktTimeMl";
+import { UniformProductionMl, UNIFORM_PRODUCTION_ML_DURATION } from "./lessons/up_ml/UniformProductionMl";
+import { ValueStreamMappingMl, VALUE_STREAM_MAPPING_ML_DURATION } from "./lessons/vs_ml/ValueStreamMappingMl";
+import { WhyWhyMl, WHY_WHY_ML_DURATION } from "./lessons/ww_ml/WhyWhyMl";
+import { XMatrixMl, X_MATRIX_ML_DURATION } from "./lessons/xm_ml/XMatrixMl";
+import { YamazumiMl, YAMAZUMI_ML_DURATION } from "./lessons/yz_ml/YamazumiMl";
+import { ZeroDefectsMl, ZERO_DEFECTS_ML_DURATION } from "./lessons/zd_ml/ZeroDefectsMl";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -2361,6 +2412,873 @@ export const RemotionRoot: React.FC = () => {
         id="PokaYokeBnDub"
         component={PokaYokeBn}
         durationInFrames={POKA_YOKE_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="A3ProblemSolvingBn"
+        component={A3ProblemSolvingBn}
+        durationInFrames={A3_PROBLEM_SOLVING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="A3ProblemSolvingBnDub"
+        component={A3ProblemSolvingBn}
+        durationInFrames={A3_PROBLEM_SOLVING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="BurnDownChartBn"
+        component={BurnDownChartBn}
+        durationInFrames={BURN_DOWN_CHART_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartBnDub"
+        component={BurnDownChartBn}
+        durationInFrames={BURN_DOWN_CHART_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyBn"
+        component={CycleTimeStudyBn}
+        durationInFrames={CYCLE_TIME_STUDY_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyBnDub"
+        component={CycleTimeStudyBn}
+        durationInFrames={CYCLE_TIME_STUDY_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="DesignThinkingBn"
+        component={DesignThinkingBn}
+        durationInFrames={DESIGN_THINKING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="DesignThinkingBnDub"
+        component={DesignThinkingBn}
+        durationInFrames={DESIGN_THINKING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteBn"
+        component={EliminationOfWasteBn}
+        durationInFrames={ELIMINATION_OF_WASTE_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteBnDub"
+        component={EliminationOfWasteBn}
+        durationInFrames={ELIMINATION_OF_WASTE_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEABn"
+        component={FMEABn}
+        durationInFrames={FMEA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEABnDub"
+        component={FMEABn}
+        durationInFrames={FMEA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="GembaBn"
+        component={GembaBn}
+        durationInFrames={GEMBA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="GembaBnDub"
+        component={GembaBn}
+        durationInFrames={GEMBA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="HanchoBn"
+        component={HanchoBn}
+        durationInFrames={HANCHO_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="HanchoBnDub"
+        component={HanchoBn}
+        durationInFrames={HANCHO_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaBn"
+        component={IshikawaBn}
+        durationInFrames={ISHIKAWA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaBnDub"
+        component={IshikawaBn}
+        durationInFrames={ISHIKAWA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaBn"
+        component={JidokaBn}
+        durationInFrames={JIDOKA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaBnDub"
+        component={JidokaBn}
+        durationInFrames={JIDOKA_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenBn"
+        component={KaizenBn}
+        durationInFrames={KAIZEN_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenBnDub"
+        component={KaizenBn}
+        durationInFrames={KAIZEN_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationBn"
+        component={LowCostAutomationBn}
+        durationInFrames={LOW_COST_AUTOMATION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationBnDub"
+        component={LowCostAutomationBn}
+        durationInFrames={LOW_COST_AUTOMATION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriBn"
+        component={MudaMuraMuriBn}
+        durationInFrames={MUDA_MURA_MURI_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriBnDub"
+        component={MudaMuraMuriBn}
+        durationInFrames={MUDA_MURA_MURI_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionBn"
+        component={NextInspectionBn}
+        durationInFrames={NEXT_INSPECTION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionBnDub"
+        component={NextInspectionBn}
+        durationInFrames={NEXT_INSPECTION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="OnePointLessonBn"
+        component={OnePointLessonBn}
+        durationInFrames={ONE_POINT_LESSON_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="OnePointLessonBnDub"
+        component={OnePointLessonBn}
+        durationInFrames={ONE_POINT_LESSON_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="QrqcBn"
+        component={QrqcBn}
+        durationInFrames={QRQC_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="QrqcBnDub"
+        component={QrqcBn}
+        durationInFrames={QRQC_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisBn"
+        component={RootCauseAnalysisBn}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisBnDub"
+        component={RootCauseAnalysisBn}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixBn"
+        component={SkillMatrixBn}
+        durationInFrames={SKILL_MATRIX_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixBnDub"
+        component={SkillMatrixBn}
+        durationInFrames={SKILL_MATRIX_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeBn"
+        component={TaktTimeBn}
+        durationInFrames={TAKT_TIME_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeBnDub"
+        component={TaktTimeBn}
+        durationInFrames={TAKT_TIME_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="UniformProductionBn"
+        component={UniformProductionBn}
+        durationInFrames={UNIFORM_PRODUCTION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="UniformProductionBnDub"
+        component={UniformProductionBn}
+        durationInFrames={UNIFORM_PRODUCTION_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ValueStreamMappingBn"
+        component={ValueStreamMappingBn}
+        durationInFrames={VALUE_STREAM_MAPPING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ValueStreamMappingBnDub"
+        component={ValueStreamMappingBn}
+        durationInFrames={VALUE_STREAM_MAPPING_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="WhyWhyBn"
+        component={WhyWhyBn}
+        durationInFrames={WHY_WHY_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="WhyWhyBnDub"
+        component={WhyWhyBn}
+        durationInFrames={WHY_WHY_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="XMatrixBn"
+        component={XMatrixBn}
+        durationInFrames={X_MATRIX_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="XMatrixBnDub"
+        component={XMatrixBn}
+        durationInFrames={X_MATRIX_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="YamazumiBn"
+        component={YamazumiBn}
+        durationInFrames={YAMAZUMI_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="YamazumiBnDub"
+        component={YamazumiBn}
+        durationInFrames={YAMAZUMI_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ZeroDefectsBn"
+        component={ZeroDefectsBn}
+        durationInFrames={ZERO_DEFECTS_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ZeroDefectsBnDub"
+        component={ZeroDefectsBn}
+        durationInFrames={ZERO_DEFECTS_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="PokaYokeMl"
+        component={PokaYokeMl}
+        durationInFrames={POKA_YOKE_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="PokaYokeMlDub"
+        component={PokaYokeMl}
+        durationInFrames={POKA_YOKE_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="A3ProblemSolvingMl"
+        component={A3ProblemSolvingMl}
+        durationInFrames={A3_PROBLEM_SOLVING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="A3ProblemSolvingMlDub"
+        component={A3ProblemSolvingMl}
+        durationInFrames={A3_PROBLEM_SOLVING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="BurnDownChartMl"
+        component={BurnDownChartMl}
+        durationInFrames={BURN_DOWN_CHART_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="BurnDownChartMlDub"
+        component={BurnDownChartMl}
+        durationInFrames={BURN_DOWN_CHART_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="CycleTimeStudyMl"
+        component={CycleTimeStudyMl}
+        durationInFrames={CYCLE_TIME_STUDY_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="CycleTimeStudyMlDub"
+        component={CycleTimeStudyMl}
+        durationInFrames={CYCLE_TIME_STUDY_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="DesignThinkingMl"
+        component={DesignThinkingMl}
+        durationInFrames={DESIGN_THINKING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="DesignThinkingMlDub"
+        component={DesignThinkingMl}
+        durationInFrames={DESIGN_THINKING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="EliminationOfWasteMl"
+        component={EliminationOfWasteMl}
+        durationInFrames={ELIMINATION_OF_WASTE_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="EliminationOfWasteMlDub"
+        component={EliminationOfWasteMl}
+        durationInFrames={ELIMINATION_OF_WASTE_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="FMEAMl"
+        component={FMEAMl}
+        durationInFrames={FMEA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="FMEAMlDub"
+        component={FMEAMl}
+        durationInFrames={FMEA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="GembaMl"
+        component={GembaMl}
+        durationInFrames={GEMBA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="GembaMlDub"
+        component={GembaMl}
+        durationInFrames={GEMBA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="HanchoMl"
+        component={HanchoMl}
+        durationInFrames={HANCHO_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="HanchoMlDub"
+        component={HanchoMl}
+        durationInFrames={HANCHO_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="IshikawaMl"
+        component={IshikawaMl}
+        durationInFrames={ISHIKAWA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="IshikawaMlDub"
+        component={IshikawaMl}
+        durationInFrames={ISHIKAWA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="JidokaMl"
+        component={JidokaMl}
+        durationInFrames={JIDOKA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="JidokaMlDub"
+        component={JidokaMl}
+        durationInFrames={JIDOKA_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="KaizenMl"
+        component={KaizenMl}
+        durationInFrames={KAIZEN_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="KaizenMlDub"
+        component={KaizenMl}
+        durationInFrames={KAIZEN_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="LowCostAutomationMl"
+        component={LowCostAutomationMl}
+        durationInFrames={LOW_COST_AUTOMATION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="LowCostAutomationMlDub"
+        component={LowCostAutomationMl}
+        durationInFrames={LOW_COST_AUTOMATION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="MudaMuraMuriMl"
+        component={MudaMuraMuriMl}
+        durationInFrames={MUDA_MURA_MURI_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="MudaMuraMuriMlDub"
+        component={MudaMuraMuriMl}
+        durationInFrames={MUDA_MURA_MURI_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="NextInspectionMl"
+        component={NextInspectionMl}
+        durationInFrames={NEXT_INSPECTION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="NextInspectionMlDub"
+        component={NextInspectionMl}
+        durationInFrames={NEXT_INSPECTION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="OnePointLessonMl"
+        component={OnePointLessonMl}
+        durationInFrames={ONE_POINT_LESSON_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="OnePointLessonMlDub"
+        component={OnePointLessonMl}
+        durationInFrames={ONE_POINT_LESSON_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="QrqcMl"
+        component={QrqcMl}
+        durationInFrames={QRQC_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="QrqcMlDub"
+        component={QrqcMl}
+        durationInFrames={QRQC_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="RootCauseAnalysisMl"
+        component={RootCauseAnalysisMl}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="RootCauseAnalysisMlDub"
+        component={RootCauseAnalysisMl}
+        durationInFrames={ROOT_CAUSE_ANALYSIS_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="SkillMatrixMl"
+        component={SkillMatrixMl}
+        durationInFrames={SKILL_MATRIX_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="SkillMatrixMlDub"
+        component={SkillMatrixMl}
+        durationInFrames={SKILL_MATRIX_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="TaktTimeMl"
+        component={TaktTimeMl}
+        durationInFrames={TAKT_TIME_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="TaktTimeMlDub"
+        component={TaktTimeMl}
+        durationInFrames={TAKT_TIME_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="UniformProductionMl"
+        component={UniformProductionMl}
+        durationInFrames={UNIFORM_PRODUCTION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="UniformProductionMlDub"
+        component={UniformProductionMl}
+        durationInFrames={UNIFORM_PRODUCTION_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ValueStreamMappingMl"
+        component={ValueStreamMappingMl}
+        durationInFrames={VALUE_STREAM_MAPPING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ValueStreamMappingMlDub"
+        component={ValueStreamMappingMl}
+        durationInFrames={VALUE_STREAM_MAPPING_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="WhyWhyMl"
+        component={WhyWhyMl}
+        durationInFrames={WHY_WHY_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="WhyWhyMlDub"
+        component={WhyWhyMl}
+        durationInFrames={WHY_WHY_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="XMatrixMl"
+        component={XMatrixMl}
+        durationInFrames={X_MATRIX_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="XMatrixMlDub"
+        component={XMatrixMl}
+        durationInFrames={X_MATRIX_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="YamazumiMl"
+        component={YamazumiMl}
+        durationInFrames={YAMAZUMI_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="YamazumiMlDub"
+        component={YamazumiMl}
+        durationInFrames={YAMAZUMI_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="ZeroDefectsMl"
+        component={ZeroDefectsMl}
+        durationInFrames={ZERO_DEFECTS_ML_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="ZeroDefectsMlDub"
+        component={ZeroDefectsMl}
+        durationInFrames={ZERO_DEFECTS_ML_DURATION}
         fps={fps}
         width={width}
         height={height}

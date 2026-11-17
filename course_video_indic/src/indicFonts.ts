@@ -7,8 +7,9 @@ import { loadFont as loadTelugu } from "@remotion/google-fonts/NotoSansTelugu";
 import { loadFont as loadTamil } from "@remotion/google-fonts/NotoSansTamil";
 import { loadFont as loadKannada } from "@remotion/google-fonts/NotoSansKannada";
 import { loadFont as loadBengali } from "@remotion/google-fonts/NotoSansBengali";
+import { loadFont as loadMalayalam } from "@remotion/google-fonts/NotoSansMalayalam";
 
-export type IndicLang = "hi" | "mr" | "te" | "ta" | "kn" | "bn";
+export type IndicLang = "hi" | "mr" | "te" | "ta" | "kn" | "bn" | "ml";
 
 // Marathi uses the Devanagari script too, so it shares the Noto Sans Devanagari loader.
 const devanagari = () => loadDevanagari("normal", { weights: ["400", "600", "700"], subsets: ["devanagari"] });
@@ -20,6 +21,7 @@ const loaders: Record<IndicLang, () => void> = {
   ta: () => loadTamil("normal", { weights: ["400", "600", "700"], subsets: ["tamil"] }),
   kn: () => loadKannada("normal", { weights: ["400", "600", "700"], subsets: ["kannada"] }),
   bn: () => loadBengali("normal", { weights: ["400", "600", "700"], subsets: ["bengali"] }),
+  ml: () => loadMalayalam("normal", { weights: ["400", "600", "700"], subsets: ["malayalam"] }),
 };
 
 const loaded = new Set<IndicLang>();

@@ -50,7 +50,9 @@ rendered the English dub videos (`scripts/render_dub.sh`, all 26 done). Hindi, T
 Marathi (added on the PC, 6–7 Nov 2026) are dub tracks on all 26: see CLAUDE.md "Dub render status".
 Kannada (PC, 7–10 Nov 2026): pilot approved, then all 26 translated, voiced and packed as the
 5th dub track. Bengali (PC, 16 Nov 2026): pilot approved ("Bengali OK, do all"), then all 26
-translated, voiced and packed as the 6th dub track. Next language: Malayalam.
+translated, voiced and packed as the 6th dub track. Malayalam (PC, 17 Nov 2026): pilot
+approved ("Malayalam OK, do all"), then all 26 translated, voiced (ml-IN-SobhanaNeural) and
+packed as the 7th dub track.
 
 | | PC | Laptop |
 |---|---|---|

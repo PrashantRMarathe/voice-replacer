@@ -76,6 +76,18 @@ Hindi (`build <x>_hi bn <file>`; sources in `out/bn_tr/`, PC only). Only dub tra
 out over 1.14 and were shortened + re-voiced (DT p10, FMEA p14/quiz2_a, Why-Why p09). Twice an
 edge-tts socket timeout left a 0-byte `quiz2_q.mp3` (Hancho, Root Cause) and voicing failed on
 ffprobe: delete the empty mp3 and voice again.
+Malayalam pilot (PC, 17 Nov 2026): PokaYokeMl (`pk_ml`, module `poka_yoke_ml`), voiced
+`ml-IN-SobhanaNeural` (female), translated from the Hindi (`out/ml_tr/poka_yoke_ml.txt`, PC only).
+`TERMS["ml"]` = English terms in Malayalam letters (എം for M, ഡബ്ല്യു for W); screen labels `ui.ts` `ml`;
+font loader Noto Sans Malayalam in `indicFonts.ts` (not in theme.ts, as for Bengali). Sentences end
+with ".". Sobhana speaks fast: no clip needed shortening (fastest 1.029, p05). Only a dub track,
+packed into `final/dub/PokaYoke.mp4` with 7 tracks (`pack pk hi te ta mr kn bn ml`). Word sample
+`out/pron_test/ml_words.mp3` (11 terms). The user approved it ("Malayalam OK, do all").
+Malayalam set (PC, 17 Nov 2026): all 26, voiced (`ml-IN-SobhanaNeural`), id `<english id>_ml`,
+comp `<EnglishComp>Ml` (`FMEAMl`, `QrqcMl`; modules mirror the Hindi names). Translated from the
+Hindi (`build <x>_hi ml <file>`; sources in `out/ml_tr/`, PC only). Only dub tracks. 1 clip came
+out over 1.14 and was shortened + re-voiced (OPL p14); fastest clip now 1.105 (DT p10). Two
+edge-tts socket timeouts left 0-byte mp3s (DT quiz2_a, Jidoka p15): delete and voice again.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -132,8 +144,10 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
   so every `final/dub/<Comp>.mp4` now has 5 audio + 5 subtitle streams.
 - Bengali (`bn`, code `ben`): all 26 packed as `pack <id> hi te ta mr kn bn` (16 Nov 2026),
   so every `final/dub/<Comp>.mp4` now has 6 audio + 6 subtitle streams.
+- Malayalam (`ml`, code `mal`): all 26 packed as `pack <id> hi te ta mr kn bn ml` (17 Nov 2026),
+  so every `final/dub/<Comp>.mp4` now has 7 audio + 7 subtitle streams.
 - Next language: translate + voice, then `fit_dub.py fit/track <id> <lang>` and
-  `pack <id> hi te ta mr kn bn <lang>` (all languages, every time).
+  `pack <id> hi te ta mr kn bn ml <lang>` (all languages, every time).
 - PC TODO: the English voice track (English clips are only on the PC, see above).
 
 ## Voice
