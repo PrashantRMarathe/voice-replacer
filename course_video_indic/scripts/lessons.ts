@@ -137,6 +137,7 @@ export const PAGE_LESSONS: Record<string, string> = {
   xm_kn: "XMatrixKn",
   yz_kn: "YamazumiKn",
   zd_kn: "ZeroDefectsKn",
+  pk_bn: "PokaYokeBn",
 };
 
 const json = (p: string) => JSON.parse(readFileSync(join(ROOT, p), "utf-8"));

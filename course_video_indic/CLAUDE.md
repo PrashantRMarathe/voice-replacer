@@ -63,6 +63,19 @@ comp `<EnglishComp>Kn` (`FMEAKn`, `QrqcKn`; modules mirror the Hindi names). Tra
 Hindi (`build <x>_hi kn <file>`; sources in `out/kn_tr/`, PC only). Only dub tracks, no
 per-language video. 9 clips came out over 1.14 and were shortened + re-voiced (A3 p01/p09,
 DT p06/quiz2_q, Ishikawa p10, MMM p10, OPL p14, QRQC intro, UP p03); all 26 are now ≤ 1.14.
+Bengali pilot (PC, 16 Nov 2026): PokaYokeBn (`pk_bn`, module `poka_yoke_bn`), voiced
+`bn-IN-TanishaaNeural` (female), translated from the Hindi (`out/bn_tr/poka_yoke_bn.txt`, PC only).
+`TERMS["bn"]` = English terms in Bengali letters; screen labels `ui.ts` `bn`; font loader
+Noto Sans Bengali in `indicFonts.ts` (not yet in theme.ts: that file is written by
+sync_from_english.py, and dub tracks don't draw Bengali on screen). Sentences end with the danda
+"।" (translate_lesson.py's "Hindi left" check ignores the danda). Only a dub track (fastest clip
+1.106), packed into `final/dub/PokaYoke.mp4` with 6 tracks. The user approved it ("Bengali OK, do all").
+Bengali set (PC, 16 Nov 2026): all 26, voiced (`bn-IN-TanishaaNeural`), id `<english id>_bn`,
+comp `<EnglishComp>Bn` (`FMEABn`, `QrqcBn`; modules mirror the Hindi names). Translated from the
+Hindi (`build <x>_hi bn <file>`; sources in `out/bn_tr/`, PC only). Only dub tracks. 4 clips came
+out over 1.14 and were shortened + re-voiced (DT p10, FMEA p14/quiz2_a, Why-Why p09). Twice an
+edge-tts socket timeout left a 0-byte `quiz2_q.mp3` (Hancho, Root Cause) and voicing failed on
+ffprobe: delete the empty mp3 and voice again.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -117,8 +130,10 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
   Marathi was added 6–7 Nov 2026 on the PC; every Marathi clip is at or below 1.14 speed.
 - Kannada (`kn`, code `kan`): all 26 packed as `pack <id> hi te ta mr kn` (10 Nov 2026),
   so every `final/dub/<Comp>.mp4` now has 5 audio + 5 subtitle streams.
+- Bengali (`bn`, code `ben`): all 26 packed as `pack <id> hi te ta mr kn bn` (16 Nov 2026),
+  so every `final/dub/<Comp>.mp4` now has 6 audio + 6 subtitle streams.
 - Next language: translate + voice, then `fit_dub.py fit/track <id> <lang>` and
-  `pack <id> hi te ta mr <lang>` (all languages, every time).
+  `pack <id> hi te ta mr kn bn <lang>` (all languages, every time).
 - PC TODO: the English voice track (English clips are only on the PC, see above).
 
 ## Voice

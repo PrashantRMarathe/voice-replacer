@@ -130,6 +130,7 @@ import { WhyWhyKn, WHY_WHY_KN_DURATION } from "./lessons/ww_kn/WhyWhyKn";
 import { XMatrixKn, X_MATRIX_KN_DURATION } from "./lessons/xm_kn/XMatrixKn";
 import { YamazumiKn, YAMAZUMI_KN_DURATION } from "./lessons/yz_kn/YamazumiKn";
 import { ZeroDefectsKn, ZERO_DEFECTS_KN_DURATION } from "./lessons/zd_kn/ZeroDefectsKn";
+import { PokaYokeBn, POKA_YOKE_BN_DURATION } from "./lessons/pk_bn/PokaYokeBn";
 import { fps, width, height } from "./theme";
 
 // Indian-language lessons only. Kept apart from course_video/ (the English
@@ -2343,6 +2344,23 @@ export const RemotionRoot: React.FC = () => {
         id="ZeroDefectsKnDub"
         component={ZeroDefectsKn}
         durationInFrames={ZERO_DEFECTS_KN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+        defaultProps={{ captions: false }}
+      />
+      <Composition
+        id="PokaYokeBn"
+        component={PokaYokeBn}
+        durationInFrames={POKA_YOKE_BN_DURATION}
+        fps={fps}
+        width={width}
+        height={height}
+      />
+      <Composition
+        id="PokaYokeBnDub"
+        component={PokaYokeBn}
+        durationInFrames={POKA_YOKE_BN_DURATION}
         fps={fps}
         width={width}
         height={height}
