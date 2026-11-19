@@ -1,0 +1,741 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est la RCA",
+      "example": "Image floue = le symptôme. Une mauvaise entretoise pourrait être la cause — pas confirmée tant qu'elle n'est pas testée.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Symptôme",
+            "sub": "Une image floue",
+            "icon": "camera",
+            "tone": "bad"
+          },
+          {
+            "label": "Mécanisme",
+            "sub": "Comment c'est arrivé",
+            "icon": "gear"
+          },
+          {
+            "label": "Cause racine",
+            "sub": "Une mauvaise entretoise ? Testez-la d'abord",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Symptôme : ce que vous observez",
+        "Mécanisme : comment c'est arrivé",
+        "Cause racine : maîtrisable, avec des preuves"
+      ],
+      "at": [
+        11.597,
+        14.489,
+        17.814
+      ],
+      "exampleAt": 23.33
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "La RCA dans le système qualité",
+      "example": "Un tri réussi protège le client — il ne prouve pas que la cause a disparu.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Détecter",
+            "icon": "sensor"
+          },
+          {
+            "label": "Confiner",
+            "icon": "lock"
+          },
+          {
+            "label": "Enquêter avec des données",
+            "icon": "search"
+          },
+          {
+            "label": "Corriger, vérifier dans le temps",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Détecter un écart",
+        "Confiner pour protéger le client",
+        "Enquêter avec des données réelles",
+        "Corriger, puis vérifier dans le temps"
+      ],
+      "at": [
+        3.538,
+        6.774,
+        10.484,
+        14.166
+      ],
+      "exampleAt": 27.786
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Définir : 5W2H et Is / Is Not",
+      "example": "Ligne 3 : 36 caméras sur 1 200 ont échoué à la mise au point après le changement de 10:00. Ligne 2, autre gabarit : aucune.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Ligne 3",
+          "value": 36
+        },
+        "after": {
+          "label": "Ligne 2",
+          "value": 0
+        },
+        "unit": "échecs de mise au point après le changement (la ligne 2 a un autre gabarit)",
+        "note": "Is / Is Not désigne le gabarit",
+        "with": "example"
+      },
+      "bullets": [
+        "Un problème précis et mesurable",
+        "Le 5W2H rassemble les faits",
+        "Is / Is Not : où ça se produit, et où non"
+      ],
+      "at": [
+        1.06,
+        4.543,
+        10.942
+      ],
+      "exampleAt": 16.069
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Preuves et traçabilité",
+      "example": "Lakshmi a mis sous sachet dix caméras défaillantes et dix bonnes avant que quiconque touche au gabarit.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "D'abord les preuves",
+            "icon": "search"
+          },
+          {
+            "label": "Échantillons défaillants + bons",
+            "icon": "box"
+          },
+          {
+            "label": "Journaux et alarmes",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Changements récents",
+            "icon": "sequence"
+          },
+          {
+            "label": "Étalonnage",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Rassembler les preuves avant de changer les réglages",
+        "Garder des échantillons défaillants et bons connus",
+        "Extraire les enregistrements MES, journaux de test, alarmes",
+        "Noter chaque changement récent",
+        "Vérifier l'étalonnage des jauges"
+      ],
+      "at": [
+        4.149,
+        8.523,
+        12.567,
+        18.142,
+        24.558
+      ],
+      "exampleAt": 30.024
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Pareto : choisir son combat",
+      "example": "Mauvais PCB 40 · vis manquante 25 · mise au point 20 · étiquette 10 · autre 5 → les trois premiers = 85 %.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Les trois premiers = 85 % des défauts",
+        "items": [
+          {
+            "label": "Mauvais PCB",
+            "value": 40,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Vis manquante",
+            "value": 25,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Mise au point",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Étiquette",
+            "value": 10,
+            "with": "example"
+          },
+          {
+            "label": "Autre",
+            "value": 5,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Classer par nombre, coût ou risque",
+        "Trier et ajouter le % cumulé",
+        "Découper le premier par équipe, poste, fournisseur",
+        "Les risques graves passent devant"
+      ],
+      "at": [
+        4.753,
+        8.78,
+        21.962,
+        28.324
+      ],
+      "exampleAt": 16.458
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "5 Why : tester la chaîne",
+      "example": "Vis manquante → cycle terminé sans la confirmer → signal de couple non relié au MES.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cinq n'est pas une règle",
+            "icon": "count"
+          },
+          {
+            "label": "Une preuve par maillon",
+            "icon": "search"
+          },
+          {
+            "label": "Ramifier si besoin",
+            "icon": "sequence"
+          },
+          {
+            "label": "Jamais « erreur de l'opérateur »",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Une vis manquante",
+              "icon": "screw",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Pourquoi ? Le cycle s'est terminé quand même",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Pourquoi ? Couple non relié au MES",
+              "icon": "chip",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Cinq n'est pas une règle",
+        "Une preuve pour chaque maillon",
+        "Ramifier quand il y a plus d'une cause",
+        "Ne jamais s'arrêter à « erreur de l'opérateur »"
+      ],
+      "at": [
+        5.657,
+        8.067,
+        10.955,
+        14.036
+      ],
+      "exampleAt": 23.89
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Arête de poisson et 6M",
+      "example": "L'arête de Lakshmi : usure du gabarit, mauvaise recette, tolérance de l'objectif, répétabilité du testeur, manutention, chaleur.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Main-d'œuvre",
+            "sub": "Manutention",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "sub": "Usure du gabarit",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Méthode",
+            "sub": "Mauvaise recette",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Matière",
+            "sub": "Tolérance de l'objectif",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Mesure",
+            "sub": "Répétabilité du testeur",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Milieu",
+            "sub": "Chaleur",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Arête de poisson = diagramme d'Ishikawa",
+        "Main-d'œuvre · machine · méthode",
+        "Matière · mesure · milieu",
+        "Elle ne prouve pas quelle cause est vraie"
+      ],
+      "at": [
+        0.228,
+        7.356,
+        10.032,
+        29.379
+      ],
+      "exampleAt": 12.796
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Analyse des changements et arbres de défaillance",
+      "example": "Sans image ne s'échappe que si le firmware est faux AND que le verrouillage manque.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Analyse des changements",
+            "sub": "Défaillant face au dernier état stable",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Arbre de défaillance",
+            "sub": "AND / OR, en remontant",
+            "icon": "gear",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Le firmware est faux",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "AND le verrouillage manque",
+              "icon": "lock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Une unité sans image s'échappe",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Analyse des changements : défaillant face au dernier état stable",
+        "Arbre de défaillance : remonter avec AND / OR",
+        "Ensemble ≠ cause"
+      ],
+      "at": [
+        0.0,
+        10.601,
+        26.628
+      ],
+      "exampleAt": 18.127
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Tester votre hypothèse",
+      "example": "Entretoises approuvées contre suspectes, avec la même caméra, la même recette et la même salle.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Écrire une prédiction",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Un facteur, ou un DOE",
+            "icon": "gear"
+          },
+          {
+            "label": "Assez d'échantillons",
+            "icon": "stack"
+          },
+          {
+            "label": "Vérifier la jauge",
+            "icon": "scale"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Entretoise suspecte",
+              "sub": "Même caméra, recette, salle",
+              "icon": "shape"
+            },
+            {
+              "label": "Entretoise approuvée",
+              "sub": "Même caméra, recette, salle",
+              "icon": "shape"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Écrire une prédiction",
+        "Un facteur à la fois, ou un DOE",
+        "Assez d'échantillons, répété",
+        "Vérifier d'abord la jauge"
+      ],
+      "at": [
+        0.0,
+        9.321,
+        17.071,
+        28.805
+      ],
+      "exampleAt": 20.965
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Confiner, corriger, prévenir",
+      "example": "Mauvaise carte : scanner le stock bloqué → ajouter une correspondance MES → la dupliquer sur les autres variantes.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Confiner",
+            "sub": "Scanner le stock bloqué",
+            "icon": "lock"
+          },
+          {
+            "label": "Corriger",
+            "sub": "Ajouter une correspondance MES",
+            "icon": "barcode"
+          },
+          {
+            "label": "Prévenir",
+            "sub": "La dupliquer sur les autres variantes",
+            "icon": "sequence",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Confiner : protéger le client maintenant",
+        "Corriger : supprimer la cause vérifiée",
+        "Prévenir : étendre aux lignes similaires",
+        "Corriger aussi la cause de la fuite"
+      ],
+      "at": [
+        2.867,
+        6.344,
+        10.047,
+        14.118
+      ],
+      "exampleAt": 19.939
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Lien avec le FMEA et le Poka Yoke",
+      "example": "Demandez : le nouveau contrôle empêche-t-il l'erreur, la détecte-t-il, ou la rend-il seulement visible ?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "FMEA",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Plan de contrôle",
+            "icon": "shield"
+          },
+          {
+            "label": "Valider le Poka Yoke",
+            "icon": "test"
+          },
+          {
+            "label": "SOP, formation, audits",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "ladder",
+          "top": "LE MEILLEUR",
+          "bottom": "LE PLUS FAIBLE",
+          "with": "example",
+          "items": [
+            {
+              "label": "Empêche l'erreur",
+              "icon": "key",
+              "with": "example"
+            },
+            {
+              "label": "La détecte",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "La rend seulement visible",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Relier chaque cause à un mode de défaillance",
+        "Mettre à jour le plan de contrôle",
+        "Valider le Poka Yoke : bon, mauvais, limite",
+        "Mettre à jour le SOP, la formation, les audits"
+      ],
+      "at": [
+        3.77,
+        10.182,
+        16.277,
+        21.797
+      ],
+      "exampleAt": 28.901
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Indicateurs de la RCA",
+      "example": "60 → 12 défauts pour 20 000 : une baisse de 80 %. Un contrôle de ₹90 000 qui économise ₹15 000/mois = retour en 6 mois.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Formulaire clos ≠ succès",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Taux de défauts contre FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Répétitions après clôture",
+            "icon": "sequence"
+          },
+          {
+            "label": "Coût et retour",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 60
+          },
+          "after": {
+            "label": "Après",
+            "value": 12
+          },
+          "unit": "défauts pour 20 000 caméras",
+          "note": "80 % de moins, retour en 6 mois",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Ne pas compter les formulaires clos comme un succès",
+        "Taux de défauts ≠ rendement au premier passage",
+        "Suivre les répétitions après clôture",
+        "Coût et retour"
+      ],
+      "at": [
+        5.578,
+        10.174,
+        16.169,
+        24.99
+      ],
+      "exampleAt": 20.334
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Cas pratique : défaut de mise au point",
+      "example": "Échanger les entretoises a déplacé les échecs. Échanger les testeurs, non. C'était la preuve.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Bloquer depuis la dernière bonne première pièce",
+            "icon": "lock"
+          },
+          {
+            "label": "Quatre suspects listés",
+            "icon": "search"
+          },
+          {
+            "label": "Test croisé",
+            "sub": "Les entretoises l'ont déplacé ; les testeurs, non",
+            "icon": "test"
+          },
+          {
+            "label": "Entretoise détrompée + scan du gabarit",
+            "icon": "key",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Bloqué chaque caméra depuis la dernière bonne première pièce",
+        "Quatre suspects : entretoise, recette, mise en place, testeur",
+        "Mesuré, comparé les journaux, test croisé",
+        "Entretoise détrompée + scan du gabarit lié à la recette"
+      ],
+      "at": [
+        0.228,
+        5.127,
+        16.073,
+        30.688
+      ],
+      "exampleAt": 21.738
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Deux autres cas : SMT et étiquette",
+      "example": "Les deux solutions ont été mises à l'épreuve avant la clôture.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mauvais composant",
+            "sub": "Ligne de cartes",
+            "icon": "chip",
+            "tone": "bad"
+          },
+          {
+            "label": "Verrouillage des chargeurs",
+            "sub": "Vérifié contre la BOM",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Étiquette ≠ appareil",
+            "sub": "Emballage",
+            "icon": "label",
+            "tone": "bad"
+          },
+          {
+            "label": "Le carton ne ferme pas",
+            "sub": "Tant que les trois ne correspondent pas",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Ligne de cartes : mauvais composant posé",
+        "Solution : verrouillage des chargeurs contre la BOM",
+        "Emballage : étiquette du carton ≠ appareil",
+        "Solution : le carton ne ferme que si tout correspond"
+      ],
+      "at": [
+        3.297,
+        14.975,
+        19.832,
+        25.081
+      ],
+      "exampleAt": 32.55
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Déploiement sur 90 jours",
+      "example": "Faites de la RCA une routine, pas un atelier ponctuel.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Déclencheurs, rôles, formulaires, pilotes",
+            "sub": "Jours 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Former, mener de vraies enquêtes",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Auditer, mettre à jour le FMEA, étendre",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Jours 1–30 : déclencheurs, rôles, formulaires, pilotes",
+        "Jours 31–60 : former, enquêter",
+        "Jours 61–90 : auditer, mettre à jour le FMEA, étendre",
+        "Clôture : réconcilié, vérifié, testé"
+      ],
+      "at": [
+        4.855,
+        11.697,
+        16.799,
+        24.174
+      ],
+      "exampleAt": 0.23
+    }
+  ]
+}

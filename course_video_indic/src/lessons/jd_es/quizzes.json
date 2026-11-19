@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Qué hace a Jidoka distinto de la automatización común?",
+      "options": [
+        "Corre más rápido",
+        "Detecta una anormalidad definida, se detiene, y llama a una persona",
+        "No necesita a nadie"
+      ],
+      "correct": 1,
+      "explanation": "La automatización hace el trabajo; Jidoka además lo juzga. Se detiene ante una anormalidad definida y pide ayuda humana, para que los defectos no se multipliquen.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Una operadora ve un sello anormal, pero la línea va atrasada. ¿Qué debe hacer?",
+      "options": [
+        "Seguir y reportarlo al final del turno",
+        "Llamar al Andon y retener la unidad, como dicen las reglas de paro",
+        "Corregirlo ella misma en silencio y seguir"
+      ],
+      "correct": 1,
+      "explanation": "Ningún defecto avanza, ninguna anormalidad escondida. Llamar al Andon y retener la unidad protege al cliente, aunque la producción vaya atrasada.",
+      "think": 12
+    }
+  ]
+}

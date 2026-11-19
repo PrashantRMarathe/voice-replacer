@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quel est le meilleur énoncé de défi en Design Thinking ?",
+      "options": [
+        "Il nous faut une imprimante d'étiquettes plus rapide à l'emballage",
+        "Les emballeurs ont besoin de la bonne étiquette à portée de main, car les étiquettes semblables et la marche causent des erreurs",
+        "Les emballeurs doivent faire plus attention aux étiquettes"
+      ],
+      "correct": 1,
+      "explanation": "Il nomme l'utilisateur, le besoin et le constat, sans choisir de solution ni accuser personne. Les autres sont une solution et un reproche.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un pilote réduit le temps de cycle, mais seuls 6 opérateurs sur 10 utilisent la nouvelle méthode. Et ensuite ?",
+      "options": [
+        "Le généraliser : les chiffres se sont améliorés",
+        "Demander aux quatre autres pourquoi, simplifier, et retester",
+        "Le rendre obligatoire et auditer chaque jour"
+      ],
+      "correct": 1,
+      "explanation": "Une faible adhésion est aussi une preuve. Trouvez ce qui rend la méthode difficile pour ces utilisateurs, améliorez-la, et retestez avant de standardiser.",
+      "think": 15
+    }
+  ]
+}

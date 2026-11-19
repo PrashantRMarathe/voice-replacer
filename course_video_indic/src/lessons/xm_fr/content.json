@@ -1,0 +1,715 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "X-Matrix et Hoshin Kanri",
+      "example": "Arjun veut une livraison fiable et moins de défauts. Peut-il suivre ce but jusqu'au travail sur le terrain ?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Objectifs à long terme",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Buts de cette année",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Projets d'amélioration",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Cibles et responsables",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Toute votre stratégie sur une page",
+        "Objectifs → buts → projets → cibles → responsables",
+        "Une courte liste d'actions réelles",
+        "Pas un tableau à afficher au mur"
+      ],
+      "at": [
+        3.278,
+        6.621,
+        15.912,
+        20.933
+      ],
+      "exampleAt": 24.43
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origines et alignement",
+      "example": "Le site d'Arjun menait des dizaines de Kaizen locaux — seuls quelques-uns aidaient vraiment la livraison client.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Management par la direction",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "La stratégie rejoint le travail quotidien",
+            "icon": "calendar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Des dizaines de Kaizen locaux",
+              "sub": "Peu ont aidé la livraison",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Quelques priorités financées",
+              "sub": "Dans les deux sens, pas du haut vers le bas",
+              "icon": "key",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Hoshin Kanri : le management par la direction",
+        "Aligne la direction et le travail quotidien",
+        "Limiter les priorités à ce que vous pouvez financer",
+        "Dans les deux sens, pas du haut vers le bas"
+      ],
+      "at": [
+        3.584,
+        7.743,
+        26.554,
+        30.758
+      ],
+      "exampleAt": 19.371
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Quatre quadrants clés",
+      "example": "La chaîne d'Arjun va de la qualité de classe mondiale jusqu'à une cible de rendement.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Rupture",
+            "sub": "3–5 ans",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Annuel",
+            "sub": "Cette année",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Projets",
+            "sub": "Le travail",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "KPI et cibles",
+            "sub": "La preuve",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Objectifs de rupture : 3–5 ans",
+        "Objectifs annuels : cette année",
+        "Projets d'amélioration",
+        "KPI et cibles : la preuve"
+      ],
+      "at": [
+        3.735,
+        8.55,
+        13.762,
+        19.577
+      ],
+      "exampleAt": 34.877
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Objectifs de rupture",
+      "example": "Le résultat d'Arjun : réduire de deux tiers les retours clients, tout en augmentant la production.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "3 à 5 grands résultats",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Résultat, horizon, référence",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Objectifs qui se contredisent",
+            "sub": "Vitesse contre sécurité",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "suffix": "/3",
+          "icon": "chartDown",
+          "label": "de retours clients en moins",
+          "unit": "Tout en augmentant la production : un résultat, pas une activité",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Quelques grands résultats : 3 à 5",
+        "Résultat, horizon, référence actuelle",
+        "Repérer les objectifs qui se contredisent"
+      ],
+      "at": [
+        6.941,
+        10.978,
+        16.223
+      ],
+      "exampleAt": 21.951
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Objectifs annuels",
+      "example": "Année un : une partie de la baisse des retours, convenue après étude des défaillances terrain.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Objectif annuel · Année 1",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Référence · cible · période",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Source de données nommée",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Catchball : est-ce faisable ?",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Convenu à partir des défaillances terrain",
+            "icon": "check",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Des résultats mesurables pour cette année",
+        "Référence, cible, période, source de données",
+        "Catchball : tester la faisabilité ensemble"
+      ],
+      "at": [
+        0.227,
+        9.4,
+        17.23
+      ],
+      "exampleAt": 24.613
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Projets d'amélioration",
+      "example": "Un verrouillage code-barres contre la BOM bloque les mauvais composants — le succès n'est déclaré que quand les tests et les données de défauts concordent.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Problème, périmètre, responsable",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Plus d'inspection",
+            "sub": "Rarement une rupture",
+            "icon": "search",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Impact face à l'effort",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Scanner le code-barres de la pièce",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Vérifier contre la BOM",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Mauvaise pièce ? Bloquée",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problème, périmètre, responsable, jalons, vérification",
+        "Plus d'inspection = rarement une rupture",
+        "Choisir sur preuves : impact face à l'effort"
+      ],
+      "at": [
+        4.402,
+        15.514,
+        19.364
+      ],
+      "exampleAt": 25.45
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "KPI avancés et retardés",
+      "example": "Sur la ligne d'Arjun, 98 % des unités passent du premier coup.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Retardés",
+            "sub": "Rendement, retours, livraison",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Avancés",
+            "sub": "Audits, réglages, formation",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "passent du premier coup",
+          "unit": "Rendement au premier passage sur la ligne d'Arjun",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Retardés : les résultats déjà obtenus",
+        "Avancés : les conditions qui les prédisent",
+        "Définir dénominateur et source de données",
+        "Ne pas récompenser des chiffres redéfinis"
+      ],
+      "at": [
+        2.617,
+        11.081,
+        20.715,
+        25.212
+      ],
+      "exampleAt": 31.436
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Force de corrélation",
+      "example": "Le verrouillage de gabarit d'Arjun réduit fortement les mauvaises pièces — et touche à peine la consommation d'énergie.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Mauvaises pièces",
+          "Rendement",
+          "Énergie"
+        ],
+        "note": "Notez le lien, pas l'importance",
+        "items": [
+          {
+            "label": "Verrouillage",
+            "cells": [
+              3,
+              3,
+              null
+            ],
+            "with": "example"
+          },
+          {
+            "label": "Pilote SMED",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Les symboles montrent la force du lien",
+        "Convenir d'abord de la légende",
+        "Noter le lien, pas l'importance",
+        "Chercher les trous et les prétentions excessives"
+      ],
+      "at": [
+        0.227,
+        13.218,
+        16.019,
+        20.312
+      ],
+      "exampleAt": 27.942
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Responsabilité et catchball",
+      "example": "Automatisation du test des décodeurs : ingénierie, production, qualité et IT aident — un seul chef de projet reste responsable.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Réalise",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Rend compte",
+            "sub": "Un seul responsable",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Consulté",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Informé",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Un seul responsable pour chacun",
+        "Nommer les équipes en appui",
+        "RACI : réalise, rend compte, consulté, informé",
+        "Le responsable a besoin d'un budget et d'autorité"
+      ],
+      "at": [
+        4.322,
+        9.501,
+        15.065,
+        19.107
+      ],
+      "exampleAt": 24.252
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Atelier de construction",
+      "example": "Dans l'atelier d'Arjun, trois services ont relié des projets à une seule cible de livraison.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Preuves",
+            "with": 0
+          },
+          {
+            "label": "Périmètre, référence",
+            "with": 1
+          },
+          {
+            "label": "Objectifs",
+            "with": 1
+          },
+          {
+            "label": "Projets + KPI",
+            "with": 2
+          },
+          {
+            "label": "Liens, responsables",
+            "with": 3
+          },
+          {
+            "label": "Rythme de revue",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Rassembler d'abord les preuves",
+        "Périmètre, référence, objectifs, résultats",
+        "Des projets à fort impact, chacun avec un KPI",
+        "Noter les liens, nommer les responsables, fixer les revues"
+      ],
+      "at": [
+        4.601,
+        11.651,
+        22.201,
+        27.276
+      ],
+      "exampleAt": 33.249
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Exemple détaillé",
+      "example": "Projets : un tableau de préparation, un verrouillage code-barres et un pilote SMED.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Aujourd'hui",
+          "value": 90
+        },
+        "after": {
+          "label": "Cette année",
+          "value": 98
+        },
+        "suffix": "%",
+        "unit": "livraison à temps",
+        "note": "La planification en est responsable",
+        "with": 0,
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tableau de préparation",
+              "sub": "Livraison",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Verrouillage code-barres",
+              "sub": "Rendement à 99 %",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Pilote SMED",
+              "sub": "Changement de série 50 → 20 min",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Livraison 90 % → 98 %",
+        "Rendement au premier passage → 99 %",
+        "Changement de série 50 → 20 minutes",
+        "Planification, qualité, ingénierie : un chacun"
+      ],
+      "at": [
+        14.101,
+        18.719,
+        22.675,
+        32.669
+      ],
+      "exampleAt": 26.473
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Rythme de revue — PDCA",
+      "example": "Le rendement a stagné même après la formation — Arjun a donc vérifié si la maîtrise du processus avait vraiment changé.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Exceptions, jalons",
+            "sub": "Quotidien / hebdomadaire",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Tendances des KPI, risques",
+            "sub": "Mensuel",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Toujours dans la stratégie ?",
+            "sub": "Trimestriel",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un outil vivant : Plan, Do, Check, Act",
+        "Quotidien / hebdomadaire : exceptions, jalons",
+        "Mensuel : tendances des KPI et risques",
+        "Trimestriel : soutient-il encore la stratégie ?"
+      ],
+      "at": [
+        5.619,
+        14.034,
+        18.582,
+        22.903
+      ],
+      "exampleAt": 30.49
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "À faire et à éviter",
+      "example": "Un projet a été marqué terminé, mais les réclamations sont restées stables.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Peu de résultats, responsables clairs",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Vérifier liens + moyens",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Tout « fort »",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Terminé ≠ obtenu",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Quelques résultats mesurables, des responsables clairs",
+        "Vérifier les liens de cause et les moyens",
+        "Pas tout « fortement lié »",
+        "Projet terminé ≠ bénéfice obtenu"
+      ],
+      "at": [
+        8.378,
+        13.23,
+        17.464,
+        21.719
+      ],
+      "exampleAt": 29.246
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Calcul coût–bénéfice",
+      "example": "Défauts de 2 % → 1,2 % paraît peu — c'est une baisse relative de 40 %. Le verrouillage est rentabilisé en 6 mois.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 2
+        },
+        "after": {
+          "label": "Après",
+          "value": 1.2
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "taux de défauts",
+        "note": "Une baisse relative de 40 % · retour en 6 mois",
+        "with": "example"
+      },
+      "bullets": [
+        "Livraison à temps = à temps ÷ total dû",
+        "Baisse relative = baisse ÷ ancien taux",
+        "Retour = investissement ÷ économies mensuelles"
+      ],
+      "at": [
+        5.342,
+        10.327,
+        14.438
+      ],
+      "exampleAt": 23.18
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Feuille de route sur 90 jours",
+      "example": "Quel résultat ? Quelle cible ? Quel projet ? Quel KPI ? Qui est responsable du résultat ?",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Références, brouillon de matrice",
+            "sub": "Jours 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Catchball, projets, responsables",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Vérifier les liens, revue, audit",
+            "sub": "61–90",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Jours 1–30 : références, brouillon de matrice",
+        "Jours 31–60 : catchball, projets, responsables",
+        "Jours 61–90 : vérifier les liens, revue, audit"
+      ],
+      "at": [
+        5.917,
+        11.704,
+        18.327
+      ],
+      "exampleAt": 27.463
+    }
+  ]
+}

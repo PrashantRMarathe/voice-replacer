@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Se encontraron y revisaron 1,900 de 2,000 unidades sospechosas. ¿Está completa la contención?",
+      "options": [
+        "Sí — 95% es suficiente",
+        "No — todavía faltan 100 unidades sospechosas por ubicar",
+        "Sí, si la solución está instalada"
+      ],
+      "correct": 1,
+      "explanation": "Una cobertura de contención de 95% significa que el 5% de la población sospechosa sigue allá afuera. La contención está completa solo cuando cada unidad está ubicada.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Las fallas de enfoque se disparan en la prueba justo después de un cambio de fixture. Se reinicia el probador y pasa. ¿Qué debe pasar PRIMERO?",
+      "options": [
+        "Seguir corriendo — el probador pasó",
+        "Aislar las unidades desde el último ajuste bueno y registrar la evidencia",
+        "Regresar el fixture y no decir nada",
+        "Esperar la junta del final del día"
+      ],
+      "correct": 1,
+      "explanation": "Primero protege al cliente: retén todo desde el último ajuste verificado, guarda muestras y registros, y luego investiga. Reiniciar el probador esconde la anormalidad.",
+      "think": 16
+    }
+  ]
+}

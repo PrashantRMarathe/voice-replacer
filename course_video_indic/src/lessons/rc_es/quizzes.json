@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "La espina de pescado de un equipo enlista seis posibles causas. ¿Qué prueba?",
+      "options": [
+        "La rama más grande es la causa raíz",
+        "Nada todavía — cada causa debe probarse",
+        "Las seis causas son ciertas"
+      ],
+      "correct": 1,
+      "explanation": "Una espina de pescado organiza hipótesis. No prueba nada hasta que cada candidata se confirma o se descarta con una prueba.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Se encuentra un defecto de PCB equivocado. El nuevo interbloqueo del MES ya se pidió pero no está instalado. ¿Se puede liberar el WIP retenido?",
+      "options": [
+        "Sí — la solución ya viene",
+        "No — liberarlo solo después de revisarlo y con una decisión autorizada",
+        "Sí, si se vuelve a entrenar al operador",
+        "Sí, si se avisa al siguiente turno"
+      ],
+      "correct": 1,
+      "explanation": "Pedir una solución no protege al cliente. El inventario retenido se libera solo después de revisarse y decidirse por el proceso de Calidad.",
+      "think": 17
+    }
+  ]
+}

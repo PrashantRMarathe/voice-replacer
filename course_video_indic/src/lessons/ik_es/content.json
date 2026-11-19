@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es una espina de pescado",
+      "example": "El problema de Nikhil: switches de red que fallan la prueba de enlace de puertos.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Posibles causas",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Familias de causas",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "El problema",
+            "sub": "En la cabeza",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Un problema en la cabeza",
+        "Las posibles causas en las espinas",
+        "Una herramienta para pensar en equipo"
+      ],
+      "at": [
+        4.459,
+        7.626,
+        12.415
+      ],
+      "exampleAt": 21.192
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origen, y sus límites",
+      "example": "Comprar un probador nuevo era una suposición. La espina de pescado la volvería una suposición entre muchas.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Prueba",
+            "sub": "No sale de la espina de pescado",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Posibles causas",
+            "sub": "Lo que muestra",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kaoru Ishikawa, pionero de la calidad",
+        "Una de las siete herramientas básicas de calidad",
+        "Muestra posibles causas, no prueba nada"
+      ],
+      "at": [
+        1.198,
+        6.218,
+        13.355
+      ],
+      "exampleAt": 21.119
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Anatomía del pescado",
+      "example": "Escribe una causa como “sospechosa” hasta que se compruebe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cabeza",
+            "sub": "El efecto",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Espinas mayores",
+            "sub": "Familias de causas",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Espinas menores",
+            "sub": "Causas específicas",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Cabeza: el efecto",
+        "Columna y espinas mayores: familias de causas",
+        "Espinas menores: causas específicas"
+      ],
+      "at": [
+        2.984,
+        7.467,
+        15.392
+      ],
+      "exampleAt": 22.674
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Un efecto preciso",
+      "example": "“Las fallas de enlace de puertos en la Línea 3 de switches subieron de 5 a 32 por cada 1,000 esta semana.”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "“La calidad está mal”",
+            "sub": "Vago",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "5 → 32 por cada 1,000",
+            "sub": "Línea 3, enlace de puertos, esta semana",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Qué, dónde, cuándo, cuánto",
+        "Una base y un denominador",
+        "Un modo de defecto a la vez"
+      ],
+      "at": [
+        6.966,
+        11.329,
+        15.15
+      ],
+      "exampleAt": 18.927
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Las 6M: personas, máquina, método",
+      "example": "Usa las familias como guía, no como cajas rígidas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personas",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Máquina",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Método",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Personas: habilidad, carga, entrega de turno",
+        "Máquina: desgaste, ajustes, mantenimiento",
+        "Método: secuencia, SOP, cambio de modelo"
+      ],
+      "at": [
+        5.32,
+        11.252,
+        17.571
+      ],
+      "exampleAt": 31.459
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Material, medición, medio ambiente",
+      "example": "La medición es la que los equipos olvidan. ¿El probador mismo dice la verdad?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Medición",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Medio ambiente",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Material: proveedor, lote, manejo",
+        "Medición: calibradores, límites de prueba, rechazos falsos",
+        "Medio ambiente: ESD, humedad, polvo, calor"
+      ],
+      "at": [
+        0.204,
+        6.41,
+        12.701
+      ],
+      "exampleAt": 18.253
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Primero reúne evidencia",
+      "example": "Las fallas se juntaban en dos de las cuatro estaciones de prueba.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Fallas de enlace de puertos por estación de prueba",
+        "with": "example",
+        "items": [
+          {
+            "label": "T1",
+            "value": 14,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T2",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "T3",
+            "value": 12,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T4",
+            "value": 3,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un Pareto de tipos de defecto",
+        "Separa por turno, lote, estación, probador",
+        "Compara unidades buenas con malas"
+      ],
+      "at": [
+        3.611,
+        8.324,
+        13.206
+      ],
+      "exampleAt": 17.16
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Construirlo: ocho pasos",
+      "example": "El equipo de Nikhil: producción, calidad, pruebas, mantenimiento y almacén.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definir, equipo",
+            "with": 0
+          },
+          {
+            "label": "Dibujar, lluvia de ideas",
+            "with": 1
+          },
+          {
+            "label": "¿Por qué? Juntar, ordenar",
+            "with": 2
+          },
+          {
+            "label": "Los responsables prueban",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define el efecto, reúne al equipo",
+        "Dibuja las espinas, lluvia de ideas, sin culpa",
+        "Pregunta por qué, junta, prioriza",
+        "Asigna responsables para probar causas"
+      ],
+      "at": [
+        3.13,
+        8.022,
+        15.681,
+        23.974
+      ],
+      "exampleAt": 27.73
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "La espina de pescado de Nikhil",
+      "example": "Veintitrés posibles causas en cuarenta minutos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Máquina",
+            "sub": "Deriva en la altura del prensado",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Medición",
+            "sub": "Cables de prueba gastados",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "Lote nuevo de puertos",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Método",
+            "sub": "Sin revisión de acople",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Personas",
+            "sub": "Equipo temporal",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Medio ambiente",
+            "sub": "Registros ESD",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "search",
+          "label": "posibles causas en 40 minutos",
+          "unit": "cada una sigue siendo una suposición",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Máquina: deriva en la altura del prensado",
+        "Medición: cables de prueba gastados",
+        "Material, método, personas, medio ambiente"
+      ],
+      "at": [
+        7.592,
+        12.922,
+        18.226
+      ],
+      "exampleAt": 27.235
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Espina de pescado, luego cinco porqués",
+      "example": "¿Por qué los cables gastados? No había límite de cambio. ¿Por qué? Los cables no estaban en el plan de mantenimiento.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Cables gastados",
+            "with": "example"
+          },
+          {
+            "label": "Nunca se cambiaron",
+            "with": "example"
+          },
+          {
+            "label": "No están en el plan de mantenimiento",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La espina de pescado va a lo ancho",
+        "Los cinco porqués van a lo hondo",
+        "Nunca te detengas en error del operador"
+      ],
+      "at": [
+        3.384,
+        8.375,
+        24.903
+      ],
+      "exampleAt": 12.711
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Compruébalo: la escalera de evidencia",
+      "example": "Los votos no cuentan. Un solo ensayo bueno tampoco es prueba.",
+      "visual": {
+        "type": "ladder",
+        "top": "LO MÁS FUERTE",
+        "bottom": "LO MÁS DÉBIL",
+        "items": [
+          {
+            "label": "Repetir",
+            "icon": "check",
+            "with": 2
+          },
+          {
+            "label": "Experimentar",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Rastrear y medir",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Observar",
+            "icon": "search",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Obsérvalo en el Gemba",
+        "Rastrea y mide",
+        "Experimenta, luego repite"
+      ],
+      "at": [
+        3.193,
+        6.062,
+        14.572
+      ],
+      "exampleAt": 24.283
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Dos causas, las dos reales",
+      "example": "Reprueba con cables nuevos: 6 de 10 switches 'con falla' pasaron. Los otros 4 tenían puertos poco profundos.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10 switches con falla reprobados con cables nuevos: 6 pasaron, 4 tenían puertos poco profundos",
+        "with": "example",
+        "items": [
+          {
+            "label": "Fallas falsas",
+            "value": 6,
+            "with": "example"
+          },
+          {
+            "label": "Fallas reales",
+            "value": 4,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Cables gastados: fallas falsas",
+        "Deriva en la altura del prensado: fallas reales",
+        "Las causas pueden coexistir"
+      ],
+      "at": [
+        7.964,
+        17.9,
+        20.967
+      ],
+      "exampleAt": 0.0
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Acciones correctivas fuertes",
+      "example": "Contador de inserciones del cable con un límite de cambio. Revisión y bloqueo de la altura del prensado al inicio de cada turno.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Contador de inserciones del cable",
+            "icon": "count",
+            "with": "example"
+          },
+          {
+            "label": "Bloqueo de la altura del prensado",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "SOP, PFMEA, plan de control",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Elimina por diseño antes de volver a entrenar",
+        "Bloqueos, interbloqueos, contadores",
+        "Actualiza el SOP, el PFMEA, el plan de control"
+      ],
+      "at": [
+        0.204,
+        6.228,
+        11.589
+      ],
+      "exampleAt": 18.785
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Comprobar que funcionó",
+      "example": "Cero fallas falsas por cables gastados, en 30 días de producción.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 32
+        },
+        "after": {
+          "label": "Después",
+          "value": 4
+        },
+        "unit": "fallas de enlace de puertos por cada 1,000 switches",
+        "note": "Sostenido 30 días de producción",
+        "with": 2
+      },
+      "bullets": [
+        "Fija la meta antes de empezar",
+        "Una ventana fija y un tamaño de muestra",
+        "32 → 4 por cada 1,000, sostenido 30 días"
+      ],
+      "at": [
+        0.229,
+        5.474,
+        17.988
+      ],
+      "exampleAt": 23.337
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Errores y buenas prácticas",
+      "example": "Deja las causas descartadas en la gráfica, con la evidencia que las descartó.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Efecto vago",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Faltan áreas",
+            "icon": "person",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Sin validación",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Conserva las causas descartadas",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Efectos vagos y defectos mezclados",
+        "Faltan áreas en la sala",
+        "Sin validación después de la sesión"
+      ],
+      "at": [
+        2.97,
+        6.998,
+        15.34
+      ],
+      "exampleAt": 20.696
+    }
+  ]
+}

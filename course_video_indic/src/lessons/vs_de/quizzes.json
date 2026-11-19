@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Ein Puffer hält 2.400 Einheiten, und der Bedarf ist 1.200 am Tag. Wie viele Tage Bestand sind das?",
+      "options": [
+        "Ein halber Tag",
+        "2 Tage",
+        "1.200 Tage"
+      ],
+      "correct": 1,
+      "explanation": "Bestandstage = wartende Einheiten ÷ Tagesbedarf = 2.400 ÷ 1.200 = 2 Tage.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Rahul findet 2.000 Boxen, die am Test warten. Was sollte das Team ZUERST tun?",
+      "options": [
+        "Sofort einen weiteren Tester kaufen",
+        "Die Ursache bestätigen: Kapazität, Stillstand, Firmware oder Chargenfreigabe",
+        "Den Puffer halbieren, um Fluss zu erzwingen"
+      ],
+      "correct": 1,
+      "explanation": "Eine Karte zeigt, wo Sie suchen, nicht warum. Bestätigen Sie zuerst den Mechanismus; ein Tester oder ein blind halbierter Puffer löst vielleicht nichts, oder lässt die Linie leerlaufen.",
+      "think": 14
+    }
+  ]
+}

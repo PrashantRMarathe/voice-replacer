@@ -1,0 +1,606 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es el FMEA",
+      "example": "El objetivo de Asha: el empaque de la carcasa de una celda pequeña 5G para exteriores.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "¿Cómo podría fallar?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "¿Cuál es el efecto?",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Actúa primero",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "¿Cómo podría fallar, y por qué?",
+        "¿Cuál sería el efecto?",
+        "Actúa antes de que llegue al cliente"
+      ],
+      "at": [
+        5.419,
+        10.691,
+        14.591
+      ],
+      "exampleAt": 22.473
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Las palabras clave",
+      "example": "Modo: empaque torcido. Efecto: agua adentro. Causa: no se revisa el asentado.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Modo de falla",
+            "sub": "Cómo falla",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Efecto",
+            "sub": "Lo que causa",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Causa",
+            "sub": "Por qué pasa",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Control, acción",
+            "sub": "Lo que lo detiene",
+            "icon": "shield",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Modo de falla: cómo falla",
+        "Efecto: lo que sufre el cliente",
+        "Causa: por qué podría pasar",
+        "Control y acción"
+      ],
+      "at": [
+        2.806,
+        6.35,
+        10.858,
+        13.968
+      ],
+      "exampleAt": 20.746
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Tipos de FMEA",
+      "example": "El alcance de Asha: de tomar el empaque a la carcasa sellada y probada.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Sistema",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Diseño",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Proceso",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Límites",
+            "icon": "pin",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA de sistema y de diseño",
+        "FMEA de proceso: pasos de manufactura",
+        "Límites claros de inicio y fin"
+      ],
+      "at": [
+        2.365,
+        14.855,
+        22.354
+      ],
+      "exampleAt": 26.745
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Cuándo empezar o actualizar",
+      "example": "Asha actualizó el suyo el mismo día que regresaron los seis radios mojados.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Producto o proceso nuevo",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Cualquier cambio",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Queja o fuga",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Producto o proceso nuevo",
+        "Cualquier cambio: material, herramental, acomodo",
+        "Después de una queja o una fuga"
+      ],
+      "at": [
+        1.228,
+        5.744,
+        14.609
+      ],
+      "exampleAt": 24.256
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "El equipo y la información",
+      "example": "En el Gemba, Asha vio dos tamaños de empaque compartiendo un mismo contenedor.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "De varias áreas",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Operadores",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Datos y flujo",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Primero el Gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un equipo de varias áreas",
+        "Operadores con experiencia",
+        "Diagrama de flujo, datos, instrucciones de trabajo",
+        "Visita el Gemba antes de calificar"
+      ],
+      "at": [
+        0.203,
+        6.073,
+        10.713,
+        20.322
+      ],
+      "exampleAt": 27.136
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Los siete pasos",
+      "example": "El equipo de Asha: un requisito y una cadena de falla a la vez.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Planear",
+            "with": 0
+          },
+          {
+            "label": "Estructura",
+            "with": 0
+          },
+          {
+            "label": "Función",
+            "with": 0
+          },
+          {
+            "label": "Falla",
+            "with": 1
+          },
+          {
+            "label": "Riesgo",
+            "with": 2
+          },
+          {
+            "label": "Optimizar",
+            "with": 3
+          },
+          {
+            "label": "Documentar",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Planear, estructura, función",
+        "Análisis de fallas",
+        "Análisis de riesgos",
+        "Optimizar y documentar"
+      ],
+      "at": [
+        3.185,
+        9.516,
+        11.097,
+        14.247
+      ],
+      "exampleAt": 21.317
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Escribir funciones claras",
+      "example": "Débil: “Poner empaque.” Fuerte: “Colocar el empaque correcto completo en la ranura, sin torcer ni dañar.”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "“Poner empaque”",
+            "sub": "Vago",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "“Empaque correcto, bien asentado, sin torcer”",
+            "sub": "Medible",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un verbo de acción más un requisito",
+        "Medible, no vago"
+      ],
+      "at": [
+        1.542,
+        5.822
+      ],
+      "exampleAt": 12.189
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "La cadena de falla",
+      "example": "Causa: dos tamaños de empaque en un contenedor, y nadie revisa que esté asentado.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Efecto",
+            "sub": "Entrada de agua",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Modo de falla",
+            "sub": "Faltante o torcido",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Causa",
+            "sub": "Contenedor mezclado, sin revisión de asentado",
+            "icon": "search",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Efecto: entrada de agua, falla en campo",
+        "Modo: empaque faltante o torcido",
+        "Causa: algo que puedas controlar"
+      ],
+      "at": [
+        2.612,
+        7.453,
+        11.736
+      ],
+      "exampleAt": 18.918
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Severidad, ocurrencia, detección",
+      "example": "Riesgo del empaque: severidad 8, ocurrencia 5, detección 6.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Severidad · Ocurrencia · Detección, del 1 al 10",
+        "with": "example",
+        "items": [
+          {
+            "label": "Sev.",
+            "value": 8,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Ocu.",
+            "value": 5,
+            "with": "example"
+          },
+          {
+            "label": "Det.",
+            "value": 6,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Severidad: qué tan malo es el efecto",
+        "Ocurrencia: qué tan seguido pasa la causa",
+        "Detección: qué tan probable es atraparlo",
+        "Cada calificación necesita evidencia"
+      ],
+      "at": [
+        4.686,
+        8.556,
+        13.935,
+        23.664
+      ],
+      "exampleAt": 28.451
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Número de prioridad de riesgo",
+      "example": "RPN del empaque: 240, el más alto de la hoja de Asha.",
+      "visual": {
+        "type": "stat",
+        "value": 240,
+        "icon": "warning",
+        "label": "RPN del empaque",
+        "unit": "8 × 5 × 6",
+        "with": 1
+      },
+      "bullets": [
+        "RPN = severidad × ocurrencia × detección",
+        "8 × 5 × 6 = 240",
+        "Una guía, no un veredicto"
+      ],
+      "at": [
+        0.211,
+        8.852,
+        14.724
+      ],
+      "exampleAt": 11.349
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La severidad va primero",
+      "example": "Un riesgo de seguridad con RPN de 90 puede importar más que uno cosmético de 200.",
+      "visual": {
+        "type": "ladder",
+        "top": "ALTA",
+        "bottom": "BAJA",
+        "items": [
+          {
+            "label": "Actúa, o justifica por qué no",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Revisa y mejora",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Mantén y vigila",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Una severidad alta necesita acción de todos modos",
+        "Prioridad de acción alta, media, baja",
+        "Pregunta: ¿qué es débil, la prevención o la detección?"
+      ],
+      "at": [
+        2.824,
+        8.546,
+        20.086
+      ],
+      "exampleAt": 24.889
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Prevención contra detección",
+      "example": "El único control de Asha: una revisión visual final. Detección, y débil.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Detección",
+            "sub": "Revisión visual final",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prevención",
+            "sub": "Evita la causa",
+            "icon": "key",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Prevención: evitar que ocurra la causa",
+        "Detección: atraparlo antes de liberar",
+        "Lo automático le gana al criterio humano"
+      ],
+      "at": [
+        3.236,
+        10.032,
+        21.638
+      ],
+      "exampleAt": 26.08
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Elegir acciones fuertes",
+      "example": "Las acciones de Asha: un empaque por charola con guía, un fixture para la ranura, un sensor de presencia y una prueba de fugas.",
+      "visual": {
+        "type": "ladder",
+        "top": "LO MÁS FUERTE",
+        "bottom": "LO MÁS DÉBIL",
+        "items": [
+          {
+            "label": "Eliminar por diseño",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Prevenir: guía, bloqueo",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Detectar en automático",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Entrenar, lista",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Eliminar la causa",
+        "Prevenirla: bloqueo, guía, interbloqueo",
+        "Mejorar la detección",
+        "Entrenamiento y listas al final"
+      ],
+      "at": [
+        3.753,
+        8.323,
+        16.612,
+        20.787
+      ],
+      "exampleAt": 26.104
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Verificar, luego recalificar",
+      "example": "Primero la prueba: el sensor atrapó cada muestra mala en una prueba de 500 unidades.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 240
+        },
+        "after": {
+          "label": "Después",
+          "value": 32
+        },
+        "unit": "RPN del empaque",
+        "note": "Ocurrencia 5 → 2 · Detección 6 → 2",
+        "with": 3
+      },
+      "bullets": [
+        "Compruébalo en condiciones reales",
+        "La severidad se queda en 8: mismo efecto",
+        "Ocurrencia 5 → 2, detección 6 → 2",
+        "RPN 240 → 32"
+      ],
+      "at": [
+        4.958,
+        16.124,
+        21.605,
+        26.081
+      ],
+      "exampleAt": 8.436
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Mantenerlo vivo",
+      "example": "El equipo de Asha copió la charola con guía a otras dos unidades para exteriores.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Plan de control, SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Revisión semanal de riesgos",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Copiar a unidades parecidas",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Actualiza el plan de control, el SOP, el entrenamiento",
+        "Revisa los riesgos altos cada semana",
+        "Copia las lecciones a productos parecidos"
+      ],
+      "at": [
+        7.074,
+        13.157,
+        19.477
+      ],
+      "exampleAt": 23.107
+    }
+  ]
+}

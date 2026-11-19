@@ -1,0 +1,647 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est Low Cost Automation",
+      "example": "La cible de Gaurav : la mise en place des grilles, faite à la main au maillet en caoutchouc.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Des dispositifs simples",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Moins de répétition, moins d'erreurs",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Pas de ligne complète de robots",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 400,
+          "icon": "hand",
+          "label": "coups de maillet par heure",
+          "unit": "par opérateur",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Des dispositifs simples, fiables et économiques",
+        "Supprimer le travail répétitif et les erreurs",
+        "Pas besoin d'automatisation complète"
+      ],
+      "at": [
+        4.789,
+        8.756,
+        15.425
+      ],
+      "exampleAt": 25.065
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "La philosophie de base",
+      "example": "Un robot sophistiqué a été chiffré à ₹18 lakh. Gaurav a demandé : de quoi le travail a-t-il vraiment besoin ?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Le besoin, pas la complexité",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Simplifier d'abord",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Les personnes dans la boucle",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Mesurer, entretenir",
+            "icon": "wrench",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Automatiser le besoin, pas la complexité",
+        "Simplifier avant d'automatiser",
+        "Garder les personnes dans la boucle",
+        "Le mesurer, l'entretenir"
+      ],
+      "at": [
+        2.32,
+        10.215,
+        13.789,
+        18.615
+      ],
+      "exampleAt": 22.273
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Quand la LCA a du sens",
+      "example": "Mise en place des grilles : à chaque cycle, douleur au poignet, et mise en place inégale. Les quatre cases cochées.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Répétitif",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Risque ergonomique",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Étapes oubliées",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Goulot",
+            "icon": "clock",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Des mouvements fréquents et répétitifs",
+        "Risque ergonomique ou de sécurité",
+        "Étapes oubliées ou faites à l'envers",
+        "Un goulot, mais pas de quoi justifier un robot"
+      ],
+      "at": [
+        2.309,
+        7.104,
+        11.707,
+        16.309
+      ],
+      "exampleAt": 24.42
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Bas coût, jamais basse sécurité",
+      "example": "La règle de Gaurav : aucun dispositif ne tourne avant que l'équipe sécurité ait signé l'évaluation des risques.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "La sécurité d'abord",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Protecteurs, arrêts d'urgence, revue des risques",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Signé avant de tourner",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La sécurité est le premier filtre de conception",
+        "Protecteurs, arrêts, évaluation des risques",
+        "Un capteur normal n'est pas un dispositif de sécurité"
+      ],
+      "at": [
+        5.515,
+        10.88,
+        18.252
+      ],
+      "exampleAt": 24.177
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Niveaux de LCA",
+      "example": "Manuel → assisté → semi-automatique → automatique.",
+      "visual": {
+        "type": "ladder",
+        "top": "AUTOMATIQUE",
+        "bottom": "MANUEL",
+        "items": [
+          {
+            "label": "Capteurs et commandes simples",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Aide pneumatique",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Aide mécanique",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Manuel",
+            "icon": "hand",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mécanique : gravité, ressorts, guides",
+        "Pneumatique : brides, presses, préhenseurs",
+        "Capteurs et commandes simples",
+        "Choisir le niveau le plus bas qui marche"
+      ],
+      "at": [
+        2.455,
+        9.902,
+        14.502,
+        26.306
+      ],
+      "exampleAt": 21.755
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "La méthode LCA",
+      "example": "La référence de Gaurav : cycle de 28 s, 18 grilles mal fixées pour 1 000 enceintes.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Observer, mesurer",
+            "with": 0
+          },
+          {
+            "label": "Simplifier, définir",
+            "with": 1
+          },
+          {
+            "label": "Concept, risque, prototype",
+            "with": 2
+          },
+          {
+            "label": "Valider, standardiser, dupliquer",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observer et mesurer",
+        "Simplifier, puis définir la fonction",
+        "Concept, revue des risques, prototype",
+        "Valider, standardiser, dupliquer"
+      ],
+      "at": [
+        2.766,
+        9.232,
+        15.954,
+        22.114
+      ],
+      "exampleAt": 26.964
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "ECRS avant l'automatisation",
+      "example": "Gaurav a éliminé une étape séparée de vérification au maillet : la nouvelle presse confirmerait elle-même la mise en place.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Éliminer",
+            "with": 0
+          },
+          {
+            "label": "Combiner",
+            "with": 0
+          },
+          {
+            "label": "Réordonner",
+            "with": 0
+          },
+          {
+            "label": "Simplifier",
+            "with": 0
+          },
+          {
+            "label": "Puis automatiser",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Retaper chaque grille",
+              "sub": "Éliminé",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "La presse confirme la mise en place",
+              "sub": "Intégré",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Éliminer, combiner, réordonner, simplifier",
+        "Seulement ensuite automatiser",
+        "Le gaspillage automatisé reste du gaspillage"
+      ],
+      "at": [
+        3.781,
+        8.248,
+        13.905
+      ],
+      "exampleAt": 21.715
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "L'opportunité de Gaurav",
+      "example": "Grilles mal fixées : 18 pour 1 000 enceintes, toutes trouvées au test de vibration.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Le même mouvement à chaque cycle",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Force inégale",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Douleur au poignet",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 18,
+          "icon": "wave",
+          "label": "grilles mal fixées pour 1 000",
+          "unit": "trouvées au test de vibration",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Mouvement répété à chaque cycle",
+        "Force inégale, mise en place inégale",
+        "Douleur au poignet, à chaque équipe"
+      ],
+      "at": [
+        1.517,
+        11.619,
+        21.223
+      ],
+      "exampleAt": 24.525
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Choisir une technologie simple",
+      "example": "Le choix de Gaurav : un petit vérin pneumatique, un nid de positionnement et un capteur de présence.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vérin pneumatique",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Nid de positionnement",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Capteur de présence",
+            "icon": "sensor",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Adapter la technologie à la fonction",
+        "Le moins de pièces possible, des pièces standard",
+        "Facile à nettoyer, régler et réparer"
+      ],
+      "at": [
+        0.203,
+        11.776,
+        17.002
+      ],
+      "exampleAt": 24.377
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Le concevoir sûr",
+      "example": "Un démarrage bimanuel garde les deux mains hors de la zone de presse. La pression d'air est relâchée à l'arrêt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Points de pincement",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Démarrage bimanuel",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Air relâché à l'arrêt",
+            "icon": "lock",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Repérer les points de pincement et l'énergie stockée",
+        "Protecteurs et démarrage bimanuel",
+        "Arrêt sûr, redémarrage sûr"
+      ],
+      "at": [
+        0.0,
+        6.557,
+        12.17
+      ],
+      "exampleAt": 19.602
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La presse de Gaurav",
+      "example": "Pas de grille, pas de presse. Mauvaise position, pas de presse. En place : voyant vert.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Le nid positionne",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Le capteur confirme",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Presse maîtrisée",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Vert : en place",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le nid positionne l'enceinte",
+        "Le capteur confirme la présence de la grille",
+        "Force maîtrisée, voyant OK ou pas OK"
+      ],
+      "at": [
+        2.71,
+        6.751,
+        12.273
+      ],
+      "exampleAt": 16.264
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Compter le vrai gain",
+      "example": "Vérification en réel : deux petits bourrages par équipe, d'une minute chacun. Le gain a tenu.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Maillet",
+          "value": 28
+        },
+        "after": {
+          "label": "Presse",
+          "value": 22
+        },
+        "suffix": " s",
+        "unit": "temps de cycle par enceinte",
+        "note": "Environ 35 de plus par heure, en théorie",
+        "with": 0
+      },
+      "bullets": [
+        "Temps de cycle : de 28 s à 22 s",
+        "Production théorique : environ 35 de plus par heure",
+        "Inclure arrêts et reprises"
+      ],
+      "at": [
+        0.224,
+        5.528,
+        16.4
+      ],
+      "exampleAt": 23.301
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Coût et retour sur investissement",
+      "example": "₹1,2 lakh investis ÷ ₹30 000 de bénéfice net par mois = retour en 4 mois.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Économies cumulées, milliers de ₹ : rentabilisé au mois 4",
+        "with": "example",
+        "items": [
+          {
+            "label": "Mois 1",
+            "value": 30,
+            "with": "example"
+          },
+          {
+            "label": "Mois 2",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Mois 3",
+            "value": 90,
+            "with": "example"
+          },
+          {
+            "label": "Mois 4",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Coût total de possession",
+        "Bénéfice net, validé",
+        "Retour = investissement ÷ bénéfice mensuel"
+      ],
+      "at": [
+        0.0,
+        11.556,
+        18.039
+      ],
+      "exampleAt": 23.976
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Valider et entretenir",
+      "example": "Grilles mal fixées : de 18 à 2 pour 1 000. Plaintes au poignet : aucune en 60 jours.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Maillet",
+          "value": 18
+        },
+        "after": {
+          "label": "Presse",
+          "value": 2
+        },
+        "unit": "grilles mal fixées pour 1 000 enceintes",
+        "note": "Aucune plainte au poignet en 60 jours",
+        "with": "example"
+      },
+      "bullets": [
+        "Essayer tous les modèles et toutes les équipes",
+        "Maintenance préventive et pièces de rechange",
+        "Codes de défaut et reprises clairs"
+      ],
+      "at": [
+        0.0,
+        14.512,
+        20.768
+      ],
+      "exampleAt": 25.979
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Erreurs et prochaine étape",
+      "example": "La presse de Gaurav tourne maintenant sur trois lignes, dupliquée après avoir vérifié que chacune convenait.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Automatiser l'inconnu",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "La technologie d'abord",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Pas de pièces de rechange, pas de PM",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Dupliquée sur 3 lignes",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Automatiser un processus que vous ne comprenez pas",
+        "Choisir d'abord la technologie",
+        "Oublier la maintenance et les pièces de rechange"
+      ],
+      "at": [
+        2.949,
+        5.698,
+        9.515
+      ],
+      "exampleAt": 24.724
+    }
+  ]
+}

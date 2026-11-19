@@ -1,0 +1,872 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est le Why-Why",
+      "example": "L'échec de charge est le symptôme : la mise en place du connecteur, une carte abîmée, le contact du gabarit ou le réglage du testeur pourraient le causer.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Pourquoi ?",
+            "sub": "Appuyé sur un fait",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Pourquoi encore ?",
+            "sub": "Cinq n'est pas une règle",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Une cause que vous pouvez prouver et maîtriser",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Mise en place du connecteur",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Carte abîmée",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Contact du gabarit",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Réglage du testeur",
+              "icon": "test",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Demander pourquoi, encore et encore, avec des faits",
+        "Cinq n'est pas une règle",
+        "S'arrêter à une cause que l'on peut prouver et maîtriser"
+      ],
+      "at": [
+        2.602,
+        13.103,
+        15.588
+      ],
+      "exampleAt": 20.336
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why-Why et analyse des causes racines",
+      "example": "Vis manquantes sur une ligne audio : « l'opérateur a oublié » ne suffisait pas — l'équipe a vérifié le chargeur et la séquence.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Why-Why",
+            "sub": "Un outil parmi d'autres",
+            "icon": "search",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Lieu réel, produit réel",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Une preuve pour chaque pourquoi",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Les personnes sont un indice",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "L'opérateur a oublié",
+              "sub": "Insuffisant",
+              "icon": "person",
+              "with": "example"
+            },
+            {
+              "label": "Vérifier le chargeur et la séquence",
+              "sub": "Faits",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Un outil dans l'analyse des causes racines",
+        "Aller au lieu réel, voir le produit réel",
+        "Quelle preuve appuie ce pourquoi ?",
+        "L'action humaine est un indice, pas la réponse"
+      ],
+      "at": [
+        0.227,
+        13.894,
+        19.006,
+        21.929
+      ],
+      "exampleAt": 26.748
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Étape 1 : définir avec le 5W2H",
+      "example": "Ligne 2 : 21 téléphones sur 700 (3 %) ont échoué à la charge après le changement de gabarit de 11 h ; l'équipe d'avant était sous 0,5 %.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Énoncé du problème · Ligne 2",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Quoi : échec de charge au test final",
+            "icon": "power",
+            "with": 1
+          },
+          {
+            "label": "Quand : après le changement de gabarit de 11 h",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Combien : 21 téléphones sur 700 (3 %)",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Dernier état bon : sous 0,5 %",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Un énoncé de problème précis",
+        "5W2H : quoi, où, quand, comment trouvé, combien",
+        "Inclure le dernier état bon connu"
+      ],
+      "at": [
+        0.218,
+        6.714,
+        15.207
+      ],
+      "exampleAt": 20.375
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Étape 2 : confiner d'abord",
+      "example": "Trier à 100 % protège le client — cela ne prouve pas que vous avez supprimé la cause.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Protéger le client",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Trouver le dernier point bon",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Bloquer le stock : terrain et système",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Réconcilier chaque unité",
+            "icon": "count",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Protéger d'abord votre client",
+        "Trouver le dernier point bon connu",
+        "Bloquer le stock physiquement et dans le système",
+        "Réconcilier chaque unité"
+      ],
+      "at": [
+        1.475,
+        7.478,
+        13.152,
+        17.312
+      ],
+      "exampleAt": 32.307
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Étape 3 : les faits au Gemba",
+      "example": "Neha a photographié et étiqueté chaque téléphone défaillant par numéro de série, puis a extrait les journaux du testeur et de maintenance.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Défaillantes contre bonnes connues",
+            "icon": "scale",
+            "with": 0
+          },
+          {
+            "label": "Réglages, versions, lots",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Préserver les preuves",
+            "icon": "camera",
+            "with": 2
+          },
+          {
+            "label": "Vu · source · sens",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Comparer unités défaillantes et bonnes connues",
+        "Vérifier réglages, gabarits, versions, lots",
+        "Préserver les preuves avant d'ajuster",
+        "Vu · source · pourrait signifier"
+      ],
+      "at": [
+        4.97,
+        8.968,
+        16.101,
+        30.545
+      ],
+      "exampleAt": 20.281
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Étape 4 : construire la chaîne",
+      "example": "Mauvaise étiquette de carton → ancienne impression → le logiciel l'a permis → imprimante non reliée au produit scanné.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Partir de l'événement",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Chaque flèche : une affirmation à vérifier",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Des faits, pas des étiquettes",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Mauvaise étiquette de carton",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Ancienne impression",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Le logiciel l'a permis",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Imprimante non reliée au scan",
+              "icon": "barcode",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Partir de l'événement observé",
+        "Chaque flèche est une affirmation vérifiable",
+        "Des faits, pas « négligence »",
+        "Ramifier quand les causes se combinent"
+      ],
+      "at": [
+        0.0,
+        9.107,
+        17.565,
+        34.612
+      ],
+      "exampleAt": 24.98
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Apparition, fuite et système",
+      "example": "Le gabarit permet une mise en place partielle de la batterie (apparition) ; le test final n'a pas vu le contact intermittent (fuite).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Apparition",
+            "sub": "Comment il a été créé",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Fuite",
+            "sub": "Pourquoi personne ne l'a attrapé",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Système",
+            "sub": "Pourquoi les contrôles l'ont raté",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Le gabarit permet une mise en place partielle",
+              "sub": "Apparition",
+              "icon": "pin",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Le test final rate le contact intermittent",
+              "sub": "Fuite",
+              "icon": "test",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Une correction pour chacune",
+              "icon": "check",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Apparition : comment le défaut a été créé",
+        "Fuite : pourquoi personne ne l'a attrapé",
+        "Système : pourquoi les contrôles n'ont pas vu le risque",
+        "Chacune demande sa propre correction"
+      ],
+      "at": [
+        4.038,
+        8.626,
+        12.8,
+        31.715
+      ],
+      "exampleAt": 18.066
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Arête de poisson et Pareto",
+      "example": "Les deux premiers types de défauts de Neha représentaient 65 % du total — c'est là qu'elle s'est concentrée d'abord.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Arête de poisson : 6 groupes",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pareto : classer par nombre",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Risques sécurité rares",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Suppositions, pas preuves",
+            "icon": "search",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Les deux premiers = 65 % des défauts",
+          "with": "example",
+          "items": [
+            {
+              "label": "Type 1",
+              "value": 40,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Type 2",
+              "value": 25,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Type 3",
+              "value": 15,
+              "with": "example"
+            },
+            {
+              "label": "Type 4",
+              "value": 12,
+              "with": "example"
+            },
+            {
+              "label": "Autre",
+              "value": 8,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Arête de poisson : 6 groupes de causes",
+        "Pareto : classer par fréquence",
+        "Les risques sécurité rares comptent quand même",
+        "Une arête de poisson, ce sont des suppositions, pas des preuves"
+      ],
+      "at": [
+        4.221,
+        11.768,
+        23.787,
+        29.904
+      ],
+      "exampleAt": 16.02
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Prouver la cause",
+      "example": "Broches de gabarit bonnes contre usées, avec les mêmes pièces : les échecs ont suivi les broches usées.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Prédire le changement",
+            "with": 0
+          },
+          {
+            "label": "Fixer les autres facteurs",
+            "with": 1
+          },
+          {
+            "label": "Tester le bon et le mauvais",
+            "with": 2
+          },
+          {
+            "label": "Sur plusieurs équipes",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Broches usées",
+              "sub": "Les échecs ont suivi",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Bonnes broches",
+              "sub": "Les mêmes pièces ont réussi",
+              "icon": "check",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Prédire ce qui devrait changer",
+        "Garder les autres facteurs fixes",
+        "Tester le bon et le mauvais, sur plusieurs équipes"
+      ],
+      "at": [
+        5.029,
+        9.642,
+        15.169
+      ],
+      "exampleAt": 19.553
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Action corrective et Poka Yoke",
+      "example": "Mauvaises étiquettes audio : l'imprimante exige maintenant d'abord un scan de série correspondant. Reformer repose sur la mémoire.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT",
+        "bottom": "LE PLUS FAIBLE",
+        "items": [
+          {
+            "label": "Gabarit détrompé, verrouillage",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Capteur de présence",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Contrôle indépendant de la fuite",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Reformation, rappels",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Corriger la cause, pas le symptôme",
+        "La prévention technique bat les rappels",
+        "Corriger l'apparition + contrôle indépendant de la fuite",
+        "Mettre à jour le FMEA, le SOP, la formation"
+      ],
+      "at": [
+        0.0,
+        4.306,
+        12.905,
+        18.028
+      ],
+      "exampleAt": 22.496
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Vérifier et clôturer",
+      "example": "La règle de clôture de Neha : zéro répétition sur 10 jours de production, mises à l'épreuve réussies, chaque unité suspecte retrouvée.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bonne connue",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Mauvaise connue",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Échantillons limites",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Répétition et rendement",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "doc",
+          "with": "example",
+          "items": [
+            {
+              "label": "Règle de clôture · Ligne 2",
+              "icon": "label",
+              "with": "example"
+            },
+            {
+              "label": "Zéro répétition en 10 jours de production",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Mises à l'épreuve réussies",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Chaque unité suspecte retrouvée",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "La qualité signe",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Terminé ≠ prouvé",
+        "Mise à l'épreuve : échantillons bons, mauvais, limites",
+        "Surveiller répétition et rendement",
+        "Pas de nouveaux arrêts ni de faux rejets"
+      ],
+      "at": [
+        0.221,
+        4.344,
+        10.431,
+        17.421
+      ],
+      "exampleAt": 21.596
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI du Why-Why",
+      "example": "50 → 15 défauts = une baisse de 70 %. Coût de ₹1,2 lakh, ₹30 000 économisées par mois = retour en 4 mois.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Rapidité et résultats",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Avancé : confinement rapide",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Retardé : défauts, répétitions",
+            "icon": "chartDown",
+            "with": 2
+          },
+          {
+            "label": "Définitions stables",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 50
+          },
+          "after": {
+            "label": "Après",
+            "value": 15
+          },
+          "unit": "défauts de charge, volume égal",
+          "note": "Une baisse de 70 % · retour en 4 mois",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Mesurer la rapidité et les résultats",
+        "Avancés : confinement rapide, actions vérifiées",
+        "Retardés : taux de défauts, répétition",
+        "Garder des définitions stables"
+      ],
+      "at": [
+        0.0,
+        3.955,
+        9.122,
+        13.845
+      ],
+      "exampleAt": 19.64
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Cas pratique : échec de charge",
+      "example": "Les téléphones défaillants ont de nouveau échoué sur un deuxième testeur : les téléphones étaient vraiment défectueux.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Téléphone ou testeur ?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Deuxième testeur : toujours en échec",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Broche usée du gabarit d'assemblage, pas d'intervalle de remplacement",
+            "icon": "pin",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Broches neuves, limites de durée de vie, contrôle de réglage",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Téléphone ou testeur ? Le tester d'abord",
+        "Retestés sur un deuxième testeur : toujours en échec",
+        "Broche usée sur le gabarit d'assemblage",
+        "Correction : broches neuves, limites de durée de vie, contrôle de réglage"
+      ],
+      "at": [
+        3.51,
+        6.438,
+        17.765,
+        30.871
+      ],
+      "exampleAt": 10.461
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Décodeur et audio",
+      "example": "Télécommande manquante : le kit l'a sautée, puis le carton s'est fermé sans scan de la télécommande.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Décodeur",
+            "sub": "HDMI, firmware, testeur",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Appareil audio",
+            "sub": "Kit, séquence, scans",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Le kit a sauté la télécommande",
+              "icon": "tray",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Carton fermé, sans scan de la télécommande",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Diffuser la correction prouvée",
+              "icon": "sequence",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Produits différents, preuves différentes",
+        "Décodeur : soudure HDMI, firmware, testeur",
+        "Audio : tracer le kit, la séquence d'emballage, les scans",
+        "Déployer les corrections prouvées sur les lignes similaires"
+      ],
+      "at": [
+        0.0,
+        3.882,
+        15.814,
+        29.568
+      ],
+      "exampleAt": 22.815
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Déploiement sur 90 jours",
+      "example": "Auditer la présence de vraies pièces et de liens vérifiés — pas de beaux formulaires.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Déclencheurs, rôles, modèles",
+            "sub": "Jours 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Enquêter, tester les hypothèses",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Mettre à l'épreuve, mettre à jour, diffuser",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ligne pilote + quelques animateurs",
+        "Jours 1–30 : déclencheurs, rôles, modèles",
+        "Jours 31–60 : enquêter, tester les hypothèses",
+        "Jours 61–90 : mettre à l'épreuve, mettre à jour, diffuser"
+      ],
+      "at": [
+        4.134,
+        9.217,
+        15.07,
+        20.042
+      ],
+      "exampleAt": 27.233
+    }
+  ]
+}

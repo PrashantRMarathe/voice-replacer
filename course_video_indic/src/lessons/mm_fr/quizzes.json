@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "La production horaire d'une ligne affiche 60, 105, 70, 110. Quel M cela montre-t-il le plus clairement ?",
+      "options": [
+        "Muda — gaspillage",
+        "Mura — irrégularité",
+        "Muri — surcharge"
+      ],
+      "correct": 1,
+      "explanation": "Une production qui fait des bonds d'heure en heure, c'est le Mura : l'irrégularité de la charge et du flux. Laissé tel quel, il crée en général du Muri (précipitation) puis du Muda (défauts, heures supplémentaires).",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un superviseur atteint le plan quotidien en ajoutant deux heures supplémentaires chaque jour. Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Demander aux opérateurs de travailler plus vite",
+        "Ajouter encore des heures supplémentaires pour créer un tampon",
+        "Observer le flux et trouver le Mura et le Muri derrière le manque",
+        "Acheter un autre testeur"
+      ],
+      "correct": 2,
+      "explanation": "Les heures supplémentaires cachent le problème. Allez au Gemba et trouvez l'irrégularité et la surcharge qui causent la perte, puis lissez et rééquilibrez. Accélérer, ajouter des tampons ou de nouvelles machines ne fait que déplacer la perte.",
+      "think": 14
+    }
+  ]
+}

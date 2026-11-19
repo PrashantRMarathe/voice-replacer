@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "La producción por hora de una línea marca 60, 105, 70, 110. ¿Qué M muestra esto con más claridad?",
+      "options": [
+        "Muda — desperdicio",
+        "Mura — disparidad",
+        "Muri — sobrecarga"
+      ],
+      "correct": 1,
+      "explanation": "Que la producción suba y baje de hora en hora es Mura: disparidad en la carga y el flujo. Si se deja así, casi siempre crea Muri (prisas) y luego Muda (defectos, horas extra).",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un supervisor cumple el plan diario agregando dos horas extra todos los días. ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Pedirles a los operadores que trabajen más rápido",
+        "Agregar más horas extra para crear un colchón",
+        "Observar el flujo y encontrar el Mura y el Muri detrás del faltante",
+        "Comprar otro probador"
+      ],
+      "correct": 2,
+      "explanation": "Las horas extra esconden el problema. Ve al Gemba y encuentra la disparidad y la sobrecarga que causan la pérdida, luego nivela y rebalancea. Acelerar, poner colchones o comprar máquinas nuevas solo mueve la pérdida.",
+      "think": 13
+    }
+  ]
+}

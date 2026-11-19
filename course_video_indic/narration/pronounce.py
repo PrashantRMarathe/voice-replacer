@@ -17,6 +17,12 @@ PRON = {
         # the one word the user wanted in English letters, so Swara says it the English way
         "विज़ुअल": "visual",
     },
+    "es": {
+        # English shop-floor words Mexican plants use as they are; respelled so Dalia says
+        # them the English way (proposed 17 Nov 2026, waiting for the user's word-sample check)
+        "fixture": "fíkstur", "firmware": "férmuer", "Firmware": "Férmuer",
+        "bypass": "báipas", "Bypass": "Báipas",
+    },
 }
 # English terms stay in each lesson's SPOKEN (native-script forms): the user compared
 # English-letter forms (S-O-P, A-three) in Swara's voice and found the old way better.

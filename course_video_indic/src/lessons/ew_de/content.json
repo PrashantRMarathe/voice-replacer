@@ -1,0 +1,683 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Verschwendung wirklich ist",
+      "example": "Deepaks Linie: 1.500 Soundbars werden jeden Monat nachgearbeitet.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kein Kundenwert",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Keine einmaligen Kürzungen",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Ursache beseitigen",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1500,
+          "icon": "wave",
+          "label": "Soundbars jeden Monat nachgearbeitet",
+          "unit": "Deepaks Linie",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Verbraucht Ressourcen, schafft keinen Kundenwert",
+        "Keine einmalige Kostensenkung",
+        "Ursache beseitigen, Rückkehr verhindern"
+      ],
+      "at": [
+        3.647,
+        13.575,
+        20.207
+      ],
+      "exampleAt": 25.564
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Der Wertetest",
+      "example": "Den Lautsprecher einbauen: Wert. Ihn nach einem Klappern neu einbauen: reine Verschwendung.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Verändert das Produkt",
+            "with": 0
+          },
+          {
+            "label": "Kunde würde zahlen",
+            "with": 1
+          },
+          {
+            "label": "Beim ersten Mal richtig",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Nach Klappern neu einbauen",
+              "sub": "Reine Verschwendung",
+              "icon": "wrench",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Lautsprecher einbauen",
+              "sub": "Wert",
+              "icon": "wave",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Er verändert das Produkt",
+        "Der Kunde würde dafür zahlen",
+        "Gleich beim ersten Mal richtig",
+        "Sonst: notwendig, oder reine Verschwendung"
+      ],
+      "at": [
+        8.526,
+        11.229,
+        15.37,
+        19.328
+      ],
+      "exampleAt": 26.816
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Warum es wichtig ist",
+      "example": "Deepaks Ziel: Kapazität für ein neues Modell freimachen, ohne zusätzliche Schicht.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Schnellerer Fluss",
+            "icon": "chartDown",
+            "with": 0
+          },
+          {
+            "label": "Weniger Fehler",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Freie Kapazität",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Ideen der Menschen",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Schnellerer Fluss, kürzere Durchlaufzeit",
+        "Weniger Fehler und Nacharbeit",
+        "Kapazität frei, ohne neue Ausgaben",
+        "Ideen von denen, die die Arbeit machen"
+      ],
+      "at": [
+        8.232,
+        12.715,
+        18.543,
+        25.886
+      ],
+      "exampleAt": 29.477
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Drei Leitplanken",
+      "example": "Der Audio-Endtest bleibt. Er schützt den Kunden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Sicherheits- und Qualitätsprüfungen behalten",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Verschwendung nicht abwälzen",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Menschen sind keine Verschwendung",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Sicherheits- und Qualitätsprüfungen sind keine Verschwendung",
+        "Verschwendung nicht auf andere abwälzen",
+        "Menschen sind nie die Verschwendung"
+      ],
+      "at": [
+        4.05,
+        12.366,
+        22.692
+      ],
+      "exampleAt": 28.794
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die acht Verschwendungsarten",
+      "example": "Merken Sie sie sich als TIMWOODS.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Transport",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Bestände",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Bewegung",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Warten",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Überproduktion",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Überbearbeitung",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Fehler",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Ungenutzte Fähigkeiten",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport, Bestände, Bewegung, Warten",
+        "Überproduktion, Überbearbeitung",
+        "Fehler, ungenutzte Fähigkeiten"
+      ],
+      "at": [
+        7.526,
+        12.553,
+        19.932
+      ],
+      "exampleAt": 23.346
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Der Verschwendungsrundgang",
+      "example": "Fakt: „Vier Werker warteten 12 Minuten auf fehlende Gitter.“ Meinung: „Das Lager ist immer zu spät.“",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Normale Produktion",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Fakten, keine Schuld",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Wo · wie lange · wie oft",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "„Das Lager ist immer zu spät“",
+              "sub": "Meinung",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "„4 warteten 12 Min. auf Gitter“",
+              "sub": "Fakt",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Gehen Sie bei normaler Arbeit an den Gemba",
+        "Fakten notieren, nie Schuld zuweisen",
+        "Wo, was, wie lange, wie oft"
+      ],
+      "at": [
+        3.719,
+        10.106,
+        15.258
+      ],
+      "exampleAt": 25.867
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Was Deepak fand",
+      "example": "Die Nacharbeit war das Größte: 1.500 brummende Soundbars im Monat.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Verspätete Kits",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Greifen nach Werkzeug",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Doppelter Scan",
+            "icon": "barcode",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Brummende Soundbars",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Warten auf verspätete Kits",
+        "Greifen und Laufen nach Werkzeug",
+        "Ein doppelter Barcodescan",
+        "Nacharbeit: brummende Soundbars"
+      ],
+      "at": [
+        4.359,
+        8.024,
+        14.024,
+        18.476
+      ],
+      "exampleAt": 18.476
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Den Fluss messen",
+      "example": "Eine Soundbar verbringt 4 Stunden im Werk. Nur 18 Minuten verändern sie.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Durchlaufzeit",
+          "value": 240
+        },
+        "after": {
+          "label": "Wertschöpfend",
+          "value": 18
+        },
+        "unit": "Minuten pro Soundbar",
+        "note": "Flusseffizienz 7,5 %",
+        "with": 1
+      },
+      "bullets": [
+        "Flusseffizienz = Wertzeit ÷ Durchlaufzeit",
+        "18 min Wert in 240 min",
+        "Nur 7,5 % der Zeit schaffen Wert"
+      ],
+      "at": [
+        2.74,
+        14.28,
+        20.517
+      ],
+      "exampleAt": 9.474
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Die Grundursache finden",
+      "example": "Grundursache: keine feste Führung für das Lautsprecherkabel, also berührte es die Membran.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Soundbars brummen",
+            "with": 1
+          },
+          {
+            "label": "Kabel berührt die Membran",
+            "with": 1
+          },
+          {
+            "label": "Keine feste Kabelführung",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pareto: den größten Verlust wählen",
+        "Fragen Sie warum, mit Belegen",
+        "Die Ursache beheben, nicht das Symptom"
+      ],
+      "at": [
+        0.242,
+        8.957,
+        29.253
+      ],
+      "exampleAt": 20.632
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Maßnahmen: ECRS",
+      "example": "Ein Kabelclip, Kit-Wagen an der Linie, ein Scan statt zwei.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminieren",
+            "with": 0
+          },
+          {
+            "label": "Kombinieren",
+            "with": 1
+          },
+          {
+            "label": "Umordnen",
+            "with": 2
+          },
+          {
+            "label": "Vereinfachen",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Kabelclip",
+              "icon": "shape",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Stündliche Kit-Wagen",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Ein Scan, nicht zwei",
+              "icon": "barcode",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Das Unnötige eliminieren",
+        "Aufgaben oder Prüfungen kombinieren",
+        "Reihenfolge oder Layout umordnen",
+        "Das Verbleibende vereinfachen"
+      ],
+      "at": [
+        3.021,
+        6.861,
+        11.252,
+        14.965
+      ],
+      "exampleAt": 18.228
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Die Kosten von Fehlern",
+      "example": "Nacharbeit: ₹42 pro Soundbar, 1.500 im Monat.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Intern",
+            "sub": "Ausschuss, Nacharbeit, Nachtest",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Extern",
+            "sub": "Rücksendungen, Garantie",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Versteckt",
+            "sub": "Handling, Warten, Papierkram",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 42,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "pro Nacharbeit",
+          "unit": "1.500 Nacharbeiten im Monat",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Intern: Ausschuss, Nacharbeit, Nachtest",
+        "Extern: Rücksendungen, Garantie, Fracht",
+        "Jede Reparatur versteckt mehr Verschwendung"
+      ],
+      "at": [
+        3.45,
+        10.16,
+        16.523
+      ],
+      "exampleAt": 30.891
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Die Ergebnisse",
+      "example": "Gleiche Menschen, gleiche Schicht. Platz für das neue Modell.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 1500
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 300
+        },
+        "unit": "Soundbars im Monat nachgearbeitet",
+        "note": "FPY 99 % · Werkzeuggriff 22 s → 13 s",
+        "with": 0
+      },
+      "bullets": [
+        "Nacharbeit: von 1.500 auf 300 im Monat",
+        "Erstdurchlaufquote bis 99 %",
+        "Greifen nach Werkzeug: von 22 s auf 13 s"
+      ],
+      "at": [
+        4.168,
+        9.933,
+        17.739
+      ],
+      "exampleAt": 23.925
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Das Geld beweisen",
+      "example": "1.200 Nacharbeiten weniger × ₹42 × 12 Monate ≈ ₹6 lakh. Minus ₹1,2 lakh für die Lösung: ≈ ₹4,8 lakh netto.",
+      "visual": {
+        "type": "stat",
+        "value": 4.8,
+        "decimals": 1,
+        "prefix": "₹",
+        "suffix": " lakh",
+        "icon": "chartUp",
+        "label": "Nettonutzen, erstes Jahr",
+        "unit": "₹6 lakh vermieden − ₹1,2 lakh für die Lösung",
+        "with": "example"
+      },
+      "bullets": [
+        "Einsparung = vermiedene Kosten − Kosten der Lösung",
+        "Harte Einsparungen von Kapazität trennen",
+        "Das Controlling bestätigt die Zahlen"
+      ],
+      "at": [
+        0.238,
+        30.296,
+        35.239
+      ],
+      "exampleAt": 6.607
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Damit es hält",
+      "example": "Deepaks Audit an Tag 30: eine Schicht nutzte den Clip nicht mehr. Am selben Tag behoben.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Standard aktualisiert",
+            "sub": "Tag 0",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Audit",
+            "sub": "Tag 7",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Abweichung erkannt",
+            "sub": "Tag 30",
+            "icon": "warning",
+            "with": "example"
+          },
+          {
+            "label": "Audit",
+            "sub": "Tag 90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "SOP, Layout, Schulung aktualisieren",
+        "Tagestafel: Ziel, Ist, Lücke, Maßnahme",
+        "Audit nach 7, 30 und 90 Tagen"
+      ],
+      "at": [
+        3.937,
+        9.238,
+        16.573
+      ],
+      "exampleAt": 24.079
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ihr 30-Tage-Plan",
+      "example": "Dann teilen Sie es: andere Linien übernehmen, was wirkte, nachdem sie geprüft haben, ob es passt.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Abgehen und abbilden",
+            "sub": "Tage 1–7",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Ursache und Pilot",
+            "sub": "Tage 8–18",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Beweisen und halten",
+            "sub": "Tage 19–30",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tage 1–7: Produkt wählen, abgehen, abbilden",
+        "Tage 8–18: Pareto, Grundursache, Pilot",
+        "Tage 19–30: messen, standardisieren, auditieren"
+      ],
+      "at": [
+        5.205,
+        12.427,
+        20.411
+      ],
+      "exampleAt": 28.057
+    }
+  ]
+}

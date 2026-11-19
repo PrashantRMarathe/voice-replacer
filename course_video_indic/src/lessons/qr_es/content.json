@@ -1,0 +1,760 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es QRQC",
+      "example": "Línea 4: el QRQC empieza aislando la orden de trabajo — no reiniciando el probador.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detectar, hacerlo visible",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Contener: proteger al cliente",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Causa con hechos, comprobar la solución",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Reiniciar el probador",
+              "sub": "y seguir corriendo",
+              "icon": "power"
+            },
+            {
+              "label": "Aislar la orden de trabajo",
+              "sub": "Aquí empieza el QRQC",
+              "icon": "lock"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Detéctalo y hazlo visible",
+        "Contenlo para proteger al cliente",
+        "Encuentra la causa con hechos, comprueba la solución",
+        "La rapidez nunca reemplaza a la evidencia"
+      ],
+      "at": [
+        12.009,
+        14.882,
+        18.433,
+        23.723
+      ],
+      "exampleAt": 28.333
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Principios clave",
+      "example": "La junta de Farhan empieza con la cámara con falla sobre la mesa, junto a sus registros.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Lugar real, piezas reales",
+            "icon": "walk"
+          },
+          {
+            "label": "Hechos, nunca culpa",
+            "icon": "search"
+          },
+          {
+            "label": "Reaccionar de inmediato",
+            "icon": "warning"
+          },
+          {
+            "label": "La contención no es la solución",
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "Lugar real, piezas reales",
+        "Hechos verificados, nunca culpa",
+        "Reacciona de inmediato ante riesgo para el cliente o de seguridad",
+        "Contención ≠ solución permanente"
+      ],
+      "at": [
+        8.757,
+        12.719,
+        17.252,
+        22.178
+      ],
+      "exampleAt": 26.791
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Tres niveles de escalamiento",
+      "example": "Tu planta fija los tiempos de escalamiento, según el riesgo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Nivel 1: línea o turno",
+            "sub": "Detener, separar, registrar",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Nivel 2: equipo de varias áreas",
+            "sub": "Investigar y actuar",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Nivel 3: líderes de planta",
+            "sub": "Recursos, el cliente",
+            "icon": "shield",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nivel 1: reacciona la línea o el turno",
+        "Nivel 2: equipo de varias áreas",
+        "Nivel 3: líderes de planta, cliente",
+        "Escala de inmediato: seguridad, fuga repetida"
+      ],
+      "at": [
+        4.811,
+        12.364,
+        17.285,
+        23.333
+      ],
+      "exampleAt": 28.608
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Los primeros 30 minutos",
+      "example": "Nunca vuelvas a arrancar un proceso crítico con un visto bueno de palabra.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Detectar, ubicar estación y lote, aislar",
+            "sub": "0–5",
+            "span": 5,
+            "icon": "sensor"
+          },
+          {
+            "label": "Avisar al líder y a Calidad, guardar muestras",
+            "sub": "Después",
+            "span": 8,
+            "icon": "person"
+          },
+          {
+            "label": "Encontrar el último punto bueno conocido",
+            "sub": "Luego",
+            "span": 7,
+            "icon": "search"
+          },
+          {
+            "label": "Cuarentena, registro, asignación",
+            "sub": "Para los 30",
+            "span": 10,
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "0–5 min: detecta, ubica estación y lote, aísla",
+        "Luego: avisa al líder y a Calidad, guarda muestras",
+        "Luego: encuentra el último punto bueno conocido",
+        "Para los 30 min: cuarentena, registro, asignación"
+      ],
+      "at": [
+        3.312,
+        10.388,
+        16.945,
+        20.508
+      ],
+      "exampleAt": 28.184
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "5W2H: definir el problema",
+      "example": "Línea 4: 24 de 800 cámaras fallaron el enfoque entre las 10 y el mediodía, justo después de un cambio de fixture de lentes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Qué, dónde, cuándo, quién",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Cómo se detectó, cuántos",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Rechazos contra sospechosos",
+            "icon": "stack",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 24,
+          "suffix": " / 800",
+          "icon": "camera",
+          "label": "cámaras fallaron el enfoque",
+          "unit": "De las 10 al mediodía, justo después de un cambio de fixture de lentes",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Qué, dónde, cuándo, quién",
+        "Cómo se detectó, cuántos",
+        "Rechazos confirmados contra población sospechosa"
+      ],
+      "at": [
+        7.338,
+        10.472,
+        13.417
+      ],
+      "exampleAt": 20.74
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Contención y cuadre",
+      "example": "2,000 cámaras sospechosas: revisadas buenas + con falla + en espera deben sumar exacto. Ninguna unidad puede desaparecer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Encontrar el alcance",
+            "icon": "search"
+          },
+          {
+            "label": "Retenerlo",
+            "icon": "lock"
+          },
+          {
+            "label": "Revisar según el riesgo",
+            "icon": "test"
+          },
+          {
+            "label": "Cuadrar",
+            "icon": "count"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2,000 cámaras sospechosas",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Buenas + con falla + en espera",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "= 2,000: no falta ninguna",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Encuentra el alcance sospechoso",
+        "Retenlo: físicamente y en el sistema",
+        "Revisa según el riesgo",
+        "Cuadra cada unidad"
+      ],
+      "at": [
+        3.863,
+        9.498,
+        13.812,
+        16.415
+      ],
+      "exampleAt": 19.138
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "El tablero QRQC y la junta",
+      "example": "La junta de 15 minutos de Farhan: problemas nuevos, luego contención, luego acciones y escalamientos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Abierto",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Verificando",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Comprobado",
+            "sub": "Solo entonces: verde",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Problemas nuevos",
+              "icon": "warning",
+              "with": "example"
+            },
+            {
+              "label": "Contención",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Acciones, escalamientos",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Riesgo, contención, causa, acción, responsable, fecha",
+        "Rojo abierto · ámbar verificando · verde comprobado",
+        "Lleva muestras reales y gráficas de tendencia",
+        "Nada 'terminado' sin prueba"
+      ],
+      "at": [
+        4.749,
+        12.156,
+        30.29,
+        34.378
+      ],
+      "exampleAt": 18.879
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Causa raíz con evidencia",
+      "example": "Una espina de pescado sola no basta: cada idea en competencia debe probarse.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personas",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Máquina",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Método",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Medición",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Medio ambiente",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Cinco porqués = una hipótesis, no una prueba",
+        "Reproduce la falla de forma segura",
+        "Lluvia de ideas en las 6M",
+        "Pasó · se escapó · el sistema lo permitió"
+      ],
+      "at": [
+        4.073,
+        8.874,
+        12.656,
+        22.982
+      ],
+      "exampleAt": 19.764
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Acción correctiva y control de cambios",
+      "example": "Un 'revisa el fixture' de palabra se volvió un escaneo: cada fixture ligado a su receta aprobada.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Pasó + se escapó",
+            "icon": "search"
+          },
+          {
+            "label": "Controles de ingeniería",
+            "icon": "key"
+          },
+          {
+            "label": "Tiempo de ciclo, seguridad",
+            "icon": "clock"
+          },
+          {
+            "label": "FMEA, SOP, entrenamiento",
+            "icon": "clipboard"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Revisa el fixture”",
+              "sub": "Un recordatorio de palabra",
+              "icon": "person"
+            },
+            {
+              "label": "Escaneo del fixture",
+              "sub": "Ligado a su receta aprobada",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Corrige cómo pasó y cómo se escapó",
+        "Controles de ingeniería antes que recordatorios",
+        "Revisa tiempo de ciclo, seguridad, rechazos falsos",
+        "Actualiza el FMEA, el SOP, el entrenamiento"
+      ],
+      "at": [
+        3.575,
+        7.859,
+        15.76,
+        21.337
+      ],
+      "exampleAt": 26.555
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Criterios de cierre",
+      "example": "La regla de Farhan: diez días de producción sin repetición antes de que el tablero se ponga en verde.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Instalado no es comprobado",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Rétala",
+            "icon": "test"
+          },
+          {
+            "label": "En varios turnos, modelos",
+            "icon": "sequence"
+          },
+          {
+            "label": "Cada unidad decidida",
+            "icon": "check"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 10,
+          "suffix": " días",
+          "icon": "calendar",
+          "label": "de producción sin repetición",
+          "unit": "antes de que el tablero se ponga en verde",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Instalado ≠ comprobado",
+        "Reto: piezas buenas, malas y en el límite",
+        "En varios turnos, modelos, cambios",
+        "Cada unidad sospechosa decidida, luego la firma"
+      ],
+      "at": [
+        2.311,
+        7.197,
+        12.314,
+        21.255
+      ],
+      "exampleAt": 29.155
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "KPI del QRQC",
+      "example": "95% de las unidades sospechosas encontradas = no has terminado: 5% siguen allá afuera.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tiempo de respuesta",
+            "icon": "clock"
+          },
+          {
+            "label": "Cobertura de la contención",
+            "icon": "count"
+          },
+          {
+            "label": "Rendimiento, tasa de defectos",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Cierre a tiempo",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "suffix": "%",
+          "icon": "warning",
+          "label": "de las unidades sospechosas siguen allá afuera",
+          "unit": "Encontrar el 95% no es terminar",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Tiempo de respuesta: detección → contención",
+        "% de cobertura de la contención",
+        "Rendimiento a la primera y tasa de defectos",
+        "Cierre de acciones a tiempo"
+      ],
+      "at": [
+        3.972,
+        8.875,
+        14.533,
+        18.816
+      ],
+      "exampleAt": 24.382
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Caso práctico: falla de enfoque",
+      "example": "La receta de enfoque equivocada reprodujo la falla en muestras controladas. Solo entonces se le llamó la causa.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "24 de 800 fallan el enfoque",
+            "sub": "Normal: menos de 0.5%",
+            "icon": "camera",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Retener desde el último ajuste bueno",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Comparar fixture, receta, tendencia",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "La receta equivocada la reprodujo",
+            "sub": "Solo entonces: la causa",
+            "icon": "test",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "24 de 800 fallan el enfoque contra < 0.5% normal",
+        "Retener la orden de trabajo + lo producido desde el último ajuste bueno",
+        "Comparar fixture, receta, tendencia de enfoque",
+        "Probar la hipótesis de la receta"
+      ],
+      "at": [
+        2.902,
+        12.238,
+        18.341,
+        24.708
+      ],
+      "exampleAt": 28.564
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso práctico: etiqueta que no coincide",
+      "example": "Causa raíz: la comparación del MES se apagó durante una falla de la impresora, y nadie lo registró.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Etiqueta de la caja ≠ equipo",
+            "icon": "label",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Retener la tarima, comparar números de serie",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Comparación del MES apagada",
+            "sub": "Durante una falla de la impresora, sin registro",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Coincidencia serie-SKU forzada",
+            "sub": "Cada brinco registrado",
+            "icon": "barcode",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Etiqueta de la caja ≠ equipo adentro",
+        "Retener la tarima, comparar cada número de serie",
+        "Rastrear escaneos y trabajos de impresión",
+        "Forzar la coincidencia serie-SKU, registrar los brincos"
+      ],
+      "at": [
+        3.685,
+        16.332,
+        21.787,
+        33.596
+      ],
+      "exampleAt": 25.926
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Implementación en 90 días",
+      "example": "Implementa el QRQC como un sistema operativo, no como un formato aislado.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Disparadores, niveles, tablero",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Entrenar líderes, hacer juntas",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Auditar, ligar al FMEA, extender",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Primero un piloto en un área de alto riesgo",
+        "Días 1–30: disparadores, niveles, tablero",
+        "Días 31–60: entrena a los líderes, haz las juntas",
+        "Días 61–90: audita, liga al FMEA, extiende"
+      ],
+      "at": [
+        7.567,
+        13.075,
+        18.95,
+        24.23
+      ],
+      "exampleAt": 0.95
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "El registro del problema y los puestos",
+      "example": "La prueba: ¿alguien podría reconstruir todo el evento solo con tu registro?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Director de planta",
+            "sub": "Patrocina",
+            "icon": "person"
+          },
+          {
+            "label": "Calidad",
+            "sub": "El método",
+            "icon": "shield"
+          },
+          {
+            "label": "Producción",
+            "sub": "La reacción",
+            "icon": "wrench"
+          },
+          {
+            "label": "Ingeniería",
+            "sub": "Las soluciones",
+            "icon": "gear"
+          },
+          {
+            "label": "Un registro",
+            "sub": "Cada problema",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "El director de planta patrocina",
+        "Calidad es dueña del método",
+        "Producción es dueña de la reacción",
+        "Ingeniería es dueña de las soluciones técnicas",
+        "Un registro para cada problema"
+      ],
+      "at": [
+        0.205,
+        3.154,
+        5.866,
+        9.316,
+        13.337
+      ],
+      "exampleAt": 28.364
+    }
+  ]
+}

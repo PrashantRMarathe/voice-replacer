@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Eine Schicht hat 25.200 Nettosekunden, und der Kunde braucht 840 Einheiten. Wie lang ist die TAKT Zeit?",
+      "options": [
+        "20 Sekunden",
+        "30 Sekunden",
+        "40 Sekunden"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = netto verfügbare Zeit ÷ Bedarf = 25.200 ÷ 840 = 30 Sekunden pro Einheit.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Der Endtest braucht 38 s pro Einheit, aber der TAKT ist 30 s. Ein Manager sagt: „Die Tester sollen schneller arbeiten.\" Was sollte das Team ZUERST tun?",
+      "options": [
+        "Einen Teil des Tests auslassen, um Zeit zu sparen",
+        "Verluste und Kapazität der Teststation analysieren",
+        "Vorn zusätzlichen Bestand aufbauen",
+        "Den TAKT mit Brutto-Schichtzeit neu berechnen"
+      ],
+      "correct": 1,
+      "explanation": "Eine Zykluszeit über dem TAKT ist ein Kapazitätsproblem. Untersuchen Sie Verluste, Zyklus und Verfügbarkeit der Station, dann verbessern Sie oder ergänzen bestätigte Kapazität. Tests auslassen oder mit Bestand verdecken schafft neue Probleme.",
+      "think": 20
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was eine One Point Lesson ist",
+      "example": "Ravis erste OPL, Stecker einsetzen: der richtige Griff, der falsche Griff, und das Klicken, auf das man hört.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eine Sache",
+            "icon": "check"
+          },
+          {
+            "label": "Minuten zum Lernen",
+            "icon": "clock"
+          },
+          {
+            "label": "Visuell",
+            "icon": "camera"
+          },
+          {
+            "label": "Am Arbeitsplatz",
+            "icon": "wrench"
+          }
+        ]
+      },
+      "bullets": [
+        "Eine Sache, auf einer Seite",
+        "Kurz: in Minuten gelernt",
+        "Visuell: gute und schlechte Beispiele",
+        "Am Arbeitsplatz gelehrt"
+      ],
+      "at": [
+        5.94,
+        8.824,
+        13.376,
+        19.51
+      ],
+      "exampleAt": 23.089
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Was eine OPL nicht ist",
+      "example": "Ravis Steckerlektion hängt neben der SOP und zeigt auf den genauen Schritt, den sie stützt.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Die SOP ersetzen",
+            "sub": "oder ein großes Thema quetschen",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Neben der SOP",
+            "sub": "Zeigt auf den genauen Schritt",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ersetzt nie Ihre SOP",
+        "Kein großes Thema auf eine Seite gequetscht",
+        "Festigt einen kritischen Punkt"
+      ],
+      "at": [
+        0.231,
+        11.459,
+        16.881
+      ],
+      "exampleAt": 21.787
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Warum sich OPL lohnen",
+      "example": "Nachtschicht brach 14 Stecker pro Woche, Tagschicht 2. Gleiche SOP, anderes Wissen.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Nachtschicht",
+          "value": 14
+        },
+        "after": {
+          "label": "Tagschicht",
+          "value": 2
+        },
+        "unit": "gebrochene Stecker pro Woche",
+        "note": "Gleiche SOP, anderes Wissen",
+        "with": "example"
+      },
+      "bullets": [
+        "Schließt Lücken zwischen Schichten",
+        "Neue lernen schneller",
+        "Lehren aus Fehlern schnell geteilt",
+        "Erfahrene Werker werden Trainer"
+      ],
+      "at": [
+        0.216,
+        20.381,
+        22.837,
+        27.732
+      ],
+      "exampleAt": 4.64
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Arten der OPL",
+      "example": "Ravis Lektion zum gebrochenen Stecker ist vom Typ Problem.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Grundwissen",
+            "icon": "chip",
+            "with": 0
+          },
+          {
+            "label": "Problem",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Verbesserung",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Sicherheit",
+            "icon": "shield",
+            "with": 3
+          },
+          {
+            "label": "Qualität",
+            "icon": "check",
+            "with": 3
+          },
+          {
+            "label": "Instandhaltung",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Grundwissen, z. B. Umgang mit ESD",
+        "Problem: Fehler, Ursache und Lösung",
+        "Verbesserung: eine bessere Methode aus Kaizen",
+        "Sicherheit · Qualität · Instandhaltung"
+      ],
+      "at": [
+        3.755,
+        10.297,
+        16.177,
+        21.781
+      ],
+      "exampleAt": 26.708
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Wann eine erstellen",
+      "example": "Ravis Anlass: die Ursache der gebrochenen Stecker war gefunden. Nun musste die Lösung jede Schicht erreichen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wiederholfehler gelöst",
+            "icon": "check"
+          },
+          {
+            "label": "Neues Produkt oder Vorrichtung",
+            "icon": "box"
+          },
+          {
+            "label": "Missverstandener Schritt",
+            "icon": "search"
+          },
+          {
+            "label": "Beinaheunfall, oder ein Trick",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Wiederholfehler, gerade gelöst",
+        "Neues Produkt, neue Maschine oder Vorrichtung",
+        "Ein Schritt wird immer wieder missverstanden",
+        "Ein Beinaheunfall oder der Trick eines Könners"
+      ],
+      "at": [
+        5.584,
+        9.202,
+        14.24,
+        18.717
+      ],
+      "exampleAt": 27.052
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Aufbau einer guten OPL",
+      "example": "Die Seite sollte auf einen Blick verständlich sein. Könnte Ihr neuester Werker sie in einer Minute lesen?",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "OPL-012 · Stecker einsetzen · Rev B",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Kernpunkt: drücken, bis es klickt",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "",
+            "icon": "goodbad",
+            "with": 2
+          },
+          {
+            "label": "Warnung: nie mit Gewalt",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Verantwortlich · freigegeben · geschult",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Nummer, Titel, Revision, Datum",
+        "Warum es wichtig ist + der eine Kernpunkt",
+        "Bilder, Schritte, Warnung",
+        "Verantwortlicher, Freigabe, Schulungsnachweis"
+      ],
+      "at": [
+        6.808,
+        13.322,
+        19.402,
+        28.216
+      ],
+      "exampleAt": 34.28
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Wie Sie sie vorbereiten",
+      "example": "Ravi fotografierte den echten Stecker, an der echten Station.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Ein Lernziel",
+            "icon": "search"
+          },
+          {
+            "label": "Zum Gemba gehen",
+            "sub": "Den Standard prüfen",
+            "icon": "walk"
+          },
+          {
+            "label": "Einfache Worte, echte Fotos",
+            "icon": "camera"
+          },
+          {
+            "label": "Prüfen, dann freigeben",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Lernziel festlegen",
+        "Zum Gemba gehen, den Standard prüfen",
+        "Einfache Worte, echte Fotos, gut gegen schlecht",
+        "Prüfen, dann freigeben"
+      ],
+      "at": [
+        1.611,
+        4.521,
+        14.643,
+        28.415
+      ],
+      "exampleAt": 33.985
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Visuelle Kommunikation",
+      "example": "Ravis OPL zeigt einen Haken, ein Kreuz und die Worte gut und nicht gut.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Echte Fotos, Pfeile",
+            "icon": "camera",
+            "with": 0
+          },
+          {
+            "label": "Gut und schlecht nebeneinander",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Große Schrift, Platz",
+            "icon": "label",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Nur Farbe",
+              "sub": "Nicht jeder sieht sie",
+              "icon": "warning"
+            },
+            {
+              "label": "Haken, Kreuz + Worte",
+              "sub": "Gut / nicht gut",
+              "icon": "check"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Echte Fotos, Pfeile auf die genaue Stelle",
+        "Gut und schlecht nebeneinander",
+        "Große Schrift, viel Platz",
+        "Farbe nie als einziges Signal"
+      ],
+      "at": [
+        9.801,
+        15.914,
+        19.439,
+        27.426
+      ],
+      "exampleAt": 31.325
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Vermitteln am Gemba",
+      "example": "Ravi lehrt jede Lektion in 5 Minuten zu Schichtbeginn und beobachtet dann jeden Werker dabei.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Erklären, warum es wichtig ist",
+            "icon": "person"
+          },
+          {
+            "label": "Zeigen, vormachen, vergleichen",
+            "icon": "camera"
+          },
+          {
+            "label": "Fragen, dann versuchen lassen",
+            "icon": "hand"
+          },
+          {
+            "label": "Eine Unterschrift beweist nichts",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Erklären, warum es wichtig ist",
+        "Zeigen, vormachen, vergleichen",
+        "Fragen stellen, selbst versuchen lassen",
+        "Eine Unterschrift allein beweist nichts"
+      ],
+      "at": [
+        3.966,
+        10.171,
+        18.373,
+        37.337
+      ],
+      "exampleAt": 28.921
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "OPL für Box Build und Qualität",
+      "example": "Falsche PCB vermeiden: wo die Platinennummer steht, wie man das Modell abgleicht, was bei Abweichung zu tun ist.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Platinen",
+            "sub": "AOI-Fehlalarm oder echter Fehler",
+            "icon": "chip"
+          },
+          {
+            "label": "Montage",
+            "sub": "Schraubenreihenfolge, Steckerverriegelung",
+            "icon": "screw"
+          },
+          {
+            "label": "Test",
+            "sub": "Prüfung der Firmware-Version",
+            "icon": "test"
+          },
+          {
+            "label": "Verpackung",
+            "sub": "Etikett und Zubehör",
+            "icon": "label"
+          }
+        ]
+      },
+      "bullets": [
+        "Platinen: AOI-Fehlalarm oder echter Fehler",
+        "Montage: Schraubenreihenfolge, Steckerverriegelung",
+        "Test: Prüfung der Firmware-Version",
+        "Verpackung: Etiketten- und Zubehörprüfung"
+      ],
+      "at": [
+        5.395,
+        12.131,
+        17.644,
+        21.714
+      ],
+      "exampleAt": 26.685
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "OPL und andere Lean-Werkzeuge",
+      "example": "Neue Vorrichtung → eine OPL, wie man sie belädt und was das rote Licht bedeutet.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kaizen",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "5S + TPM",
+            "icon": "tray"
+          },
+          {
+            "label": "Grundursache",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Nach einem Kaizen: die neue Methode",
+        "Nach einem Poka Yoke: was sein Alarm bedeutet",
+        "5S-Standards und Maschinenpflege",
+        "Lehren aus der Ursachenanalyse"
+      ],
+      "at": [
+        5.237,
+        9.881,
+        17.07,
+        22.447
+      ],
+      "exampleAt": 26.358
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Lenkung und Revisionen",
+      "example": "Als der Steckerlieferant wechselte, überarbeitete Ravi die Lektion und zog jede alte Kopie ein.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Nummer, Verantwortlicher, Freigeber",
+            "icon": "label"
+          },
+          {
+            "label": "Mit ihrer SOP verknüpft",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Bei jeder Änderung geprüft",
+            "icon": "sequence"
+          },
+          {
+            "label": "Alte Kopien entfernt",
+            "icon": "trash",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Nummer, Verantwortlicher, Freigeber",
+        "Mit der SOP verknüpft, die sie stützt",
+        "Bei jeder Änderung geprüft",
+        "Alte Kopien von der Linie entfernt"
+      ],
+      "at": [
+        5.858,
+        12.352,
+        16.995,
+        23.019
+      ],
+      "exampleAt": 27.068
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Wirksamkeit messen",
+      "example": "Nachtschicht: 14 gebrochene Stecker pro Woche → 1 pro Woche, sechs Wochen nach der Lektion.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Geändertes Verhalten",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Ein paar Fragen",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Beobachten, Tage später",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 14
+          },
+          "after": {
+            "label": "6 Wochen danach",
+            "value": 1
+          },
+          "unit": "gebrochene Stecker pro Woche, Nachtschicht",
+          "note": "Die Lektion änderte das Verhalten",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Geändertes Verhalten ist das Ergebnis",
+        "Wissen mit Fragen prüfen",
+        "Die Methode Tage später beobachten",
+        "Den Zielfehler verfolgen"
+      ],
+      "at": [
+        6.695,
+        9.826,
+        13.375,
+        18.226
+      ],
+      "exampleAt": 22.499
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Häufige Fehler",
+      "example": "Ravis erster Entwurf behandelte vier Themen. Er teilte ihn in vier Lektionen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Zu viel?",
+            "sub": "Aufteilen",
+            "icon": "stack"
+          },
+          {
+            "label": "Nur Text?",
+            "sub": "Echte Fotos ergänzen",
+            "icon": "camera"
+          },
+          {
+            "label": "Nur Unterschrift?",
+            "sub": "Die Arbeit beobachten",
+            "icon": "hand"
+          },
+          {
+            "label": "Alte Version?",
+            "sub": "Revisionslenkung",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Zu viel Inhalt → aufteilen",
+        "Nur Text → echte Fotos ergänzen",
+        "Nur Unterschrift → vormachen und beobachten",
+        "Alte Version an der Wand → Revisionslenkung"
+      ],
+      "at": [
+        3.232,
+        8.446,
+        13.161,
+        19.051
+      ],
+      "exampleAt": 30.835
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan und Checkliste",
+      "example": "Vor der Freigabe fragen: Ist sie korrekt? Ist der Punkt klar?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Vorlage + Nummerierung",
+            "with": 0
+          },
+          {
+            "label": "Pilot bei großen Fehlern",
+            "with": 1
+          },
+          {
+            "label": "Trainer schulen",
+            "with": 2
+          },
+          {
+            "label": "Am Gemba nutzen",
+            "with": 2
+          },
+          {
+            "label": "Wirkung messen",
+            "with": 3
+          },
+          {
+            "label": "Bibliothek aufbauen",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Vorlage, Nummerierung, Freigabe planen",
+        "Pilot bei den größten Fehlern oder Risiken",
+        "Trainer schulen, am Gemba nutzen",
+        "Wirkung messen, Bibliothek aufbauen"
+      ],
+      "at": [
+        3.743,
+        8.619,
+        15.017,
+        24.843
+      ],
+      "exampleAt": 30.391
+    }
+  ]
+}

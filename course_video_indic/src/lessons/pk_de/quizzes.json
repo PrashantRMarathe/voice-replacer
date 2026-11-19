@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Eine Vorrichtung gibt erst frei, wenn sie alle sechs Schrauben gezählt hat. Welche Poka Yoke Methode ist das?",
+      "options": [
+        "Kontaktmethode",
+        "Festwertmethode",
+        "Bewegungsschrittmethode"
+      ],
+      "correct": 1,
+      "explanation": "Sie bestätigt die richtige Anzahl, also ist es die Festwertmethode. Kontakt prüft Form oder Position; Bewegungsschritt prüft die Reihenfolge.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein neuer Dichtungssensor weist so viele gute Einheiten ab, dass die Werker anfangen, ihn zu überbrücken. Was sollte das Team ZUERST tun?",
+      "options": [
+        "Den Sensor entfernen",
+        "Die Werker abmahnen",
+        "Die Überbrückung sperren und die Fehlabweisungen mit geprüften Mustern beheben",
+        "Ein Erinnerungsschild anbringen"
+      ],
+      "correct": 2,
+      "explanation": "Fehlabweisungen verleiten zum Überbrücken. Sperren Sie die Überbrückung, verbessern Sie dann Position, Beleuchtung oder Schwellen mit bekannten Gut- und Schlechtmustern, und verfolgen Sie die Fehlabweisungsquote.",
+      "think": 19
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Hay que sacar 800 unidades en 4 días. Después del día 2, hay 340 hechas. ¿Dónde está el equipo?",
+      "options": [
+        "60 unidades adelante del plan",
+        "60 unidades atrás del plan",
+        "Exactamente en el plan"
+      ],
+      "correct": 1,
+      "explanation": "Pendiente ideal en el día 2 = 800 − 2 × 200 = 400. Pendiente real = 800 − 340 = 460. 460 − 400 = 60 atrás del plan.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Una gráfica de defectos pendientes lleva dos días plana. ¿Qué debe revisar primero el equipo?",
+      "options": [
+        "Nada: una línea plana significa que todo está estable",
+        "Si el trabajo se detuvo, quién es el responsable, y si los datos se actualizaron",
+        "Redibujar la línea ideal para que coincida con la realidad"
+      ],
+      "correct": 1,
+      "explanation": "Una línea plana significa que nada se cerró. Revisa si hay un paro, el responsable y los datos. Redibujar la línea ideal solo esconde la brecha.",
+      "think": 13
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es el RCA",
+      "example": "Imagen borrosa = el síntoma. Un separador equivocado podría ser la causa — no se confirma hasta probarlo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Síntoma",
+            "sub": "Una imagen borrosa",
+            "icon": "camera",
+            "tone": "bad"
+          },
+          {
+            "label": "Mecanismo",
+            "sub": "Cómo pasó",
+            "icon": "gear"
+          },
+          {
+            "label": "Causa raíz",
+            "sub": "¿Un separador equivocado? Pruébalo primero",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Síntoma: lo que observas",
+        "Mecanismo: cómo pasó",
+        "Causa raíz: controlable, con evidencia"
+      ],
+      "at": [
+        10.868,
+        13.683,
+        16.349
+      ],
+      "exampleAt": 21.938
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "El RCA en el sistema de calidad",
+      "example": "Una separación exitosa protege al cliente — no prueba que la causa desapareció.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detectar",
+            "icon": "sensor"
+          },
+          {
+            "label": "Contener",
+            "icon": "lock"
+          },
+          {
+            "label": "Investigar con datos",
+            "icon": "search"
+          },
+          {
+            "label": "Corregir, verificar con el tiempo",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Detecta una desviación",
+        "Contén para proteger al cliente",
+        "Investiga con datos reales",
+        "Corrige, luego verifica con el tiempo"
+      ],
+      "at": [
+        4.129,
+        7.48,
+        11.334,
+        14.986
+      ],
+      "exampleAt": 29.792
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Definir: 5W2H e Is / Is Not",
+      "example": "Línea 3: 36 de 1,200 cámaras fallaron el enfoque después del cambio de las 10:00. Línea 2, otro fixture: ninguna.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Línea 3",
+          "value": 36
+        },
+        "after": {
+          "label": "Línea 2",
+          "value": 0
+        },
+        "unit": "fallas de enfoque después del cambio (la Línea 2 tiene otro fixture)",
+        "note": "Is / Is Not apunta al fixture",
+        "with": "example"
+      },
+      "bullets": [
+        "Un problema preciso y medible",
+        "El 5W2H reúne los hechos",
+        "Is / Is Not: dónde ocurre, y dónde no"
+      ],
+      "at": [
+        1.092,
+        4.822,
+        11.521
+      ],
+      "exampleAt": 17.569
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Evidencia y trazabilidad",
+      "example": "Lakshmi embolsó diez cámaras con falla y diez buenas antes de que alguien tocara el fixture.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Primero la evidencia",
+            "icon": "search"
+          },
+          {
+            "label": "Muestras con falla + buenas",
+            "icon": "box"
+          },
+          {
+            "label": "Registros y alarmas",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Cambios recientes",
+            "icon": "sequence"
+          },
+          {
+            "label": "Calibración",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Reúne evidencia antes de cambiar ajustes",
+        "Guarda muestras con falla y buenas conocidas",
+        "Saca los registros del MES, los de prueba, las alarmas",
+        "Registra cada cambio reciente",
+        "Revisa la calibración de los calibradores"
+      ],
+      "at": [
+        3.883,
+        8.521,
+        12.764,
+        18.927,
+        25.672
+      ],
+      "exampleAt": 31.601
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Pareto: elige tu batalla",
+      "example": "PCB equivocado 40 · tornillo faltante 25 · enfoque 20 · etiqueta 10 · otros 5 → los tres primeros = 85%.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Los tres primeros = 85% de los defectos",
+        "items": [
+          {
+            "label": "PCB equivocado",
+            "value": 40,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Tornillo faltante",
+            "value": 25,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Enfoque",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Etiqueta",
+            "value": 10,
+            "with": "example"
+          },
+          {
+            "label": "Otros",
+            "value": 5,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ordena por cantidad, costo o riesgo",
+        "Ordena y suma el % acumulado",
+        "Separa el primero por turno, estación, proveedor",
+        "Los riesgos graves se saltan la fila"
+      ],
+      "at": [
+        4.987,
+        9.801,
+        24.143,
+        30.75
+      ],
+      "exampleAt": 18.443
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "5 Why: prueba la cadena",
+      "example": "Tornillo faltante → el ciclo terminó sin confirmarlo → la señal de torque no estaba ligada al MES.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cinco no es una regla",
+            "icon": "count"
+          },
+          {
+            "label": "Evidencia por eslabón",
+            "icon": "search"
+          },
+          {
+            "label": "Ramifica cuando haga falta",
+            "icon": "sequence"
+          },
+          {
+            "label": "Nunca 'error del operador'",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Un tornillo faltante",
+              "icon": "screw",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "¿Por qué? El ciclo terminó de todos modos",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "¿Por qué? El torque no estaba ligado al MES",
+              "icon": "chip",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Cinco no es una regla",
+        "Evidencia para cada eslabón",
+        "Ramifica cuando hay más de una causa",
+        "Nunca te detengas en 'error del operador'"
+      ],
+      "at": [
+        6.709,
+        9.137,
+        12.036,
+        15.317
+      ],
+      "exampleAt": 23.684
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Espina de pescado y las 6M",
+      "example": "La espina de Lakshmi: desgaste del fixture, receta equivocada, tolerancia del lente, repetibilidad del probador, manejo, calor.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personas",
+            "sub": "Manejo",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Máquina",
+            "sub": "Desgaste del fixture",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Método",
+            "sub": "Receta equivocada",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "Tolerancia del lente",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Medición",
+            "sub": "Repetibilidad del probador",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Medio ambiente",
+            "sub": "Calor",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Espina de pescado = diagrama de Ishikawa",
+        "Personas · máquina · método",
+        "Material · medición · medio ambiente",
+        "No prueba qué causa es la verdadera"
+      ],
+      "at": [
+        0.0,
+        7.875,
+        10.291,
+        30.845
+      ],
+      "exampleAt": 13.698
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Análisis de cambios y árboles de falla",
+      "example": "Sin imagen se escapa solo si el firmware está mal AND falta el interbloqueo.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Análisis de cambios",
+            "sub": "Lo que falla contra lo último estable",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Árbol de falla",
+            "sub": "AND / OR, hacia atrás",
+            "icon": "gear",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "El firmware está mal",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "AND falta el interbloqueo",
+              "icon": "lock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Se escapa una unidad sin imagen",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Análisis de cambios: lo que falla contra lo último estable",
+        "Árbol de falla: trabaja hacia atrás con AND / OR",
+        "Juntos ≠ causa"
+      ],
+      "at": [
+        0.207,
+        10.989,
+        26.473
+      ],
+      "exampleAt": 17.888
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Prueba tu hipótesis",
+      "example": "Separadores aprobados contra sospechosos, con la misma cámara, receta y sala.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Escribe una predicción",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Un factor, o un DOE",
+            "icon": "gear"
+          },
+          {
+            "label": "Suficientes muestras",
+            "icon": "stack"
+          },
+          {
+            "label": "Revisa el calibrador",
+            "icon": "scale"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Separador sospechoso",
+              "sub": "Misma cámara, receta, sala",
+              "icon": "shape"
+            },
+            {
+              "label": "Separador aprobado",
+              "sub": "Misma cámara, receta, sala",
+              "icon": "shape"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Escribe una predicción",
+        "Un factor a la vez, o un DOE",
+        "Suficientes muestras, repetido",
+        "Revisa primero el calibrador"
+      ],
+      "at": [
+        0.0,
+        9.311,
+        16.969,
+        27.965
+      ],
+      "exampleAt": 21.216
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Contener contra corregir contra prevenir",
+      "example": "Tarjeta equivocada: escanea el inventario retenido → agrega una comparación en el MES → cópiala a otras variantes.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Contener",
+            "sub": "Escanea el inventario retenido",
+            "icon": "lock"
+          },
+          {
+            "label": "Corregir",
+            "sub": "Agrega una comparación en el MES",
+            "icon": "barcode"
+          },
+          {
+            "label": "Prevenir",
+            "sub": "Cópiala a otras variantes",
+            "icon": "sequence",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Contener: proteger al cliente ahora",
+        "Corregir: eliminar la causa verificada",
+        "Prevenir: extenderlo a líneas parecidas",
+        "Corrige también la causa de la fuga"
+      ],
+      "at": [
+        3.276,
+        6.523,
+        10.366,
+        14.787
+      ],
+      "exampleAt": 20.774
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Ligar con el FMEA y el Poka Yoke",
+      "example": "Pregunta: ¿el nuevo control previene el error, lo detecta, o solo lo hace visible?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "FMEA",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Plan de control",
+            "icon": "shield"
+          },
+          {
+            "label": "Valida el Poka Yoke",
+            "icon": "test"
+          },
+          {
+            "label": "SOP, entrenamiento, auditorías",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "ladder",
+          "top": "LO MEJOR",
+          "bottom": "LO MÁS DÉBIL",
+          "with": "example",
+          "items": [
+            {
+              "label": "Previene el error",
+              "icon": "key",
+              "with": "example"
+            },
+            {
+              "label": "Lo detecta",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Solo lo hace visible",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Liga cada causa a un modo de falla",
+        "Actualiza el plan de control",
+        "Valida el Poka Yoke: bueno, malo, en el límite",
+        "Actualiza el SOP, el entrenamiento, las auditorías"
+      ],
+      "at": [
+        3.299,
+        10.277,
+        15.681,
+        21.874
+      ],
+      "exampleAt": 29.659
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Métricas del RCA",
+      "example": "60 → 12 defectos por cada 20,000: una reducción de 80%. Un control de ₹90,000 que ahorra ₹15,000/mes = recuperación en 6 meses.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Formato cerrado ≠ éxito",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Tasa de defectos contra FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Repeticiones después del cierre",
+            "icon": "sequence"
+          },
+          {
+            "label": "Costo y recuperación",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 60
+          },
+          "after": {
+            "label": "Después",
+            "value": 12
+          },
+          "unit": "defectos por cada 20,000 cámaras",
+          "note": "80% menos, recuperación en 6 meses",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "No cuentes formatos cerrados como éxito",
+        "Tasa de defectos ≠ rendimiento a la primera",
+        "Sigue las repeticiones después del cierre",
+        "Costo y recuperación"
+      ],
+      "at": [
+        5.644,
+        9.633,
+        15.881,
+        25.044
+      ],
+      "exampleAt": 20.087
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso práctico: falla de enfoque",
+      "example": "Cambiar los separadores movió las fallas. Cambiar los probadores no. Esa fue la prueba.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Retener desde la última primera pieza buena",
+            "icon": "lock"
+          },
+          {
+            "label": "Cuatro sospechosos enlistados",
+            "icon": "search"
+          },
+          {
+            "label": "Prueba cruzada",
+            "sub": "Los separadores la movieron; los probadores no",
+            "icon": "test"
+          },
+          {
+            "label": "Separador con guía + escaneo del fixture",
+            "icon": "key",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Retuvo cada cámara desde la última primera pieza buena",
+        "Cuatro sospechosos: separador, receta, asentado, probador",
+        "Midieron, compararon registros, prueba cruzada",
+        "Separador con guía + escaneo del fixture ligado a la receta"
+      ],
+      "at": [
+        0.0,
+        5.062,
+        16.174,
+        30.583
+      ],
+      "exampleAt": 22.213
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Dos casos más: SMT y etiqueta",
+      "example": "Las dos soluciones se pusieron a prueba antes del cierre.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Componente equivocado",
+            "sub": "Línea de tarjetas",
+            "icon": "chip",
+            "tone": "bad"
+          },
+          {
+            "label": "Interbloqueo del alimentador",
+            "sub": "Revisado contra el BOM",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Etiqueta ≠ equipo",
+            "sub": "Empaque",
+            "icon": "label",
+            "tone": "bad"
+          },
+          {
+            "label": "La caja no cierra",
+            "sub": "Hasta que coincidan los tres",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Línea de tarjetas: componente equivocado colocado",
+        "Solución: interbloqueo del alimentador contra el BOM",
+        "Empaque: etiqueta de la caja ≠ equipo",
+        "Solución: la caja no cierra hasta que todo coincida"
+      ],
+      "at": [
+        3.973,
+        17.221,
+        21.755,
+        26.461
+      ],
+      "exampleAt": 33.698
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Implementación en 90 días",
+      "example": "Haz del RCA una rutina, no un taller de una vez.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Disparadores, puestos, formatos, pilotos",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Entrenar, hacer investigaciones reales",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Auditar, actualizar el FMEA, extender",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–30: disparadores, puestos, formatos, pilotos",
+        "Días 31–60: entrenar, investigar",
+        "Días 61–90: auditar, actualizar el FMEA, extender",
+        "Cierre: cuadrado, verificado, probado"
+      ],
+      "at": [
+        4.863,
+        11.832,
+        17.525,
+        25.528
+      ],
+      "exampleAt": 0.21
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was ein Hancho ist",
+      "example": "Sunita: zwölf Werker, eine LED-TV-Linie, die Ergebnisse jeder Schicht.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Teamleiter",
+            "sub": "班長",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Ein System",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Am Gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Japanisch für Teamleiter",
+        "Ein Führungssystem, kein Werkzeug",
+        "Führt dort, wo Wert entsteht"
+      ],
+      "at": [
+        0.727,
+        6.423,
+        13.734
+      ],
+      "exampleAt": 22.331
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Die Hancho-Denkweise",
+      "example": "Sunita hat diese Fragen auf einer Karte in der Tasche.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Standard?",
+            "with": 0
+          },
+          {
+            "label": "Ist?",
+            "with": 0
+          },
+          {
+            "label": "Lücke und Ursache?",
+            "with": 1
+          },
+          {
+            "label": "Handeln und verhindern",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Was ist der Standard? Was ist Ist?",
+        "Wo ist die Lücke, und warum?",
+        "Jetzt handeln, dann Wiederholung verhindern"
+      ],
+      "at": [
+        4.107,
+        9.157,
+        13.143
+      ],
+      "exampleAt": 26.464
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Warum Linien einen Hancho brauchen",
+      "example": "Letzten Monat: eine Lücke von 20 TV pro Stunde, am nächsten Morgen gefunden.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Führung fern",
+            "sub": "Lücke am nächsten Morgen gefunden",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hancho an der Linie",
+            "sub": "Lücke in dieser Stunde gefunden",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Kleine Lücken wachsen, wenn Führung fern ist",
+        "Schnellere Reaktion, klare Verantwortung",
+        "Täglicher Kaizen, nicht nur Projekte"
+      ],
+      "at": [
+        0.291,
+        12.81,
+        23.558
+      ],
+      "exampleAt": 28.963
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Wofür ein Hancho verantwortlich ist",
+      "example": "Sunitas Regel: selbst lösen, Unterstützung rufen oder eskalieren. Wissen, was.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Sicherheit",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Qualität",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "Lieferung",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Kosten",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Menschen",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Prozess",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Sicherheit und Qualität",
+        "Lieferung und Kosten",
+        "Menschen und Prozess"
+      ],
+      "at": [
+        3.951,
+        11.781,
+        23.39
+      ],
+      "exampleAt": 30.28
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Vor Schichtbeginn",
+      "example": "Heutiges Briefing: Modellwechsel auf den 43-Zoll-TV um 10 Uhr.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Bereitschaft",
+            "sub": "Menschen, Material, Werkzeuge",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Briefing",
+            "sub": "Ziel, Warnungen, Erkenntnisse",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Anlaufprüfungen",
+            "sub": "Erstteil",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Bereitschaftsprüfung vor der Schicht",
+        "Ein kurzes Team-Briefing",
+        "Anlauf- und Erstteilprüfungen"
+      ],
+      "at": [
+        3.672,
+        12.848,
+        22.595
+      ],
+      "exampleAt": 26.645
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Während und nach der Schicht",
+      "example": "Übergabenotiz: offene Punkte, WIP, Qualitätsstand, Maßnahmen und Verantwortliche.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Plan gegen Ist",
+            "sub": "Stündlich",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Reagieren, coachen",
+            "sub": "Ganze Schicht",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Übergabe",
+            "sub": "Schichtende",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Stündlich Plan gegen Ist",
+        "Auf jede Abweichung reagieren",
+        "Am Prozess coachen",
+        "Eine sachliche Übergabe"
+      ],
+      "at": [
+        0.241,
+        8.944,
+        13.306,
+        18.025
+      ],
+      "exampleAt": 24.099
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Führen am Gemba",
+      "example": "„Was sollte passieren? Was passiert wirklich? Was hat sich geändert?“",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Beobachten",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Sprechen",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Fragen, nicht anweisen",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Den echten Prozess und das echte Produkt beobachten",
+        "Mit dem Werker sprechen",
+        "Fragen stellen, nicht nur Antworten geben"
+      ],
+      "at": [
+        3.46,
+        8.086,
+        16.225
+      ],
+      "exampleAt": 22.359
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Führungs-Standardarbeit",
+      "example": "Sunitas Liste: Schichtbeginn, jede Stunde, jeder Modellwechsel, Schichtende.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Schichtbeginn: Bereitschaft",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Stündlich: Plan gegen Ist",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "Modellwechsel: Erstteil",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Schichtende: Übergabe",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Prüfungen nach Häufigkeit",
+        "Reihenfolge, Zykluszeit, Qualitätspunkte",
+        "Die aktuelle SOP an jeder Station"
+      ],
+      "at": [
+        5.663,
+        9.885,
+        21.259
+      ],
+      "exampleAt": 27.559
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Visuelles Management",
+      "example": "10 bis 11 Uhr: Plan 120 TV, Ist 98. Rot.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10–11 Uhr: Plan gegen Ist",
+        "with": "example",
+        "items": [
+          {
+            "label": "Plan",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Ist",
+            "value": 98,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan gegen Ist, jede Stunde",
+        "Qualität, Stillstand, offene Maßnahmen",
+        "Sehen, reagieren, erfassen, nachverfolgen"
+      ],
+      "at": [
+        3.986,
+        7.374,
+        18.953
+      ],
+      "exampleAt": 28.186
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Reaktion auf Abweichungen",
+      "example": "Stufe 1: das Team behebt es. Stufe 2: Unterstützung rufen. Stufe 3: an die Leitung eskalieren.",
+      "visual": {
+        "type": "ladder",
+        "top": "STUFE 3",
+        "bottom": "STUFE 1",
+        "items": [
+          {
+            "label": "Sicherheits- oder Kundenrisiko: sofort eskalieren",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Unterstützungsbereiche rufen",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Das Team stellt den Standard wieder her",
+            "icon": "hand",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Erkennen, eindämmen, rufen",
+        "Korrigieren und bestätigen",
+        "Verhindern und teilen"
+      ],
+      "at": [
+        3.526,
+        9.913,
+        15.008
+      ],
+      "exampleAt": 19.741
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Sunitas rote Stunde",
+      "example": "Es begann direkt nach dem Modellwechsel um 10 Uhr.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "98 statt 120 pro Stunde",
+            "icon": "chartDown",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "FPY 98.5% → 95.8%",
+            "icon": "test",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "WIP vor dem Test",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Menge: 98 statt 120 pro Stunde",
+        "Erstdurchlaufquote: 98,5 % auf 95,8 %",
+        "Arbeit staut sich vor dem Test"
+      ],
+      "at": [
+        2.049,
+        9.389,
+        14.335
+      ],
+      "exampleAt": 22.399
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Eindämmen, dann hingehen und schauen",
+      "example": "Station 6: beim neuen Modell lief das Panelkabel anders, und die Werker bogen es von Hand.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Verdächtige TV sperren",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Den Engpass finden",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Station 6: Kabelweg geändert",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Verdächtige TV sperren",
+        "Die Engpassstation finden",
+        "Methode mit Standard vergleichen"
+      ],
+      "at": [
+        2.422,
+        10.949,
+        14.315
+      ],
+      "exampleAt": 19.242
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Rufen, korrigieren, bestätigen",
+      "example": "Um 1 Uhr nachmittags: 120 TV pro Stunde, Erstdurchlaufquote 98,6 %.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "11 Uhr",
+          "value": 98
+        },
+        "after": {
+          "label": "1 Uhr nachmittags",
+          "value": 120
+        },
+        "unit": "TV pro Stunde",
+        "note": "Erstdurchlaufquote wieder bei 98,6 %",
+        "with": "example"
+      },
+      "bullets": [
+        "Stufe 2: die Technik rufen",
+        "Vorrichtung korrigieren, SOP aktualisieren",
+        "Über mehrere Zyklen bestätigen"
+      ],
+      "at": [
+        2.643,
+        9.592,
+        17.113
+      ],
+      "exampleAt": 22.666
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Menschen entwickeln",
+      "example": "Sunita schulte zwei Werker auf die neue Kabelführung vor der Nachtschicht.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Erklären",
+            "with": 0
+          },
+          {
+            "label": "Vorführen",
+            "with": 0
+          },
+          {
+            "label": "Üben",
+            "with": 0
+          },
+          {
+            "label": "Prüfen",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Erklären, zeigen, üben, prüfen",
+        "Kritische Fähigkeiten zertifizieren",
+        "Für Vertretung querschulen"
+      ],
+      "at": [
+        9.106,
+        14.109,
+        20.137
+      ],
+      "exampleAt": 30.069
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Messen, dann starten",
+      "example": "Woche 1 Rollen · Woche 2 Stundentafel · Woche 3 Fähigkeiten · Woche 4 Audit und Prüfung.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Rollen, Führungs-Standardarbeit",
+            "sub": "Woche 1",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Stundentafel",
+            "sub": "Woche 2",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Fähigkeiten, Coaching",
+            "sub": "Woche 3",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Audit, Prüfung",
+            "sub": "Woche 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "KPI stündlich, täglich, wöchentlich",
+        "Auditieren zum Coachen, nicht zum Beschuldigen",
+        "Ein 30-Tage-Plan"
+      ],
+      "at": [
+        3.764,
+        15.831,
+        21.061
+      ],
+      "exampleAt": 21.061
+    }
+  ]
+}

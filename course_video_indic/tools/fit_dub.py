@@ -16,6 +16,7 @@ pack: video + all tracks + soft subtitles in one mp4 (players switch language), 
      separate .m4a/.srt files to final/dub/ and Drive FFIQ_indic/final/dub/.
 """
 import json
+import re
 import math
 import shutil
 import subprocess
@@ -28,8 +29,9 @@ PAD, QUIZ_LEAD = 2.2, 1.2          # src/lessons/plan.ts
 SPILL = 1.0
 COMP = json.loads((ROOT / "src/dub/lessons.json").read_text(encoding="utf-8"))
 DRIVE = Path("G:/My Drive/FFIQ_indic/final/dub")
-LANG3 = {"te": "tel", "hi": "hin", "ta": "tam", "mr": "mar", "kn": "kan", "bn": "ben", "ml": "mal"}
-ENDS = ("।", ".", "?", "!")
+LANG3 = {"te": "tel", "hi": "hin", "ta": "tam", "mr": "mar", "kn": "kan", "bn": "ben", "ml": "mal", "es": "spa", "fr": "fra", "de": "deu", "ar": "ara"}
+ENDS = ("।", ".", "?", "!", "؟")  # ؟ = Arabic question mark
+RTL = {"ar"}  # subtitle lines start with a right-to-left mark (U+200F), so players lay them out RTL
 
 
 def dur(f):
@@ -105,7 +107,10 @@ def subtitles(lid, lang, starts, speed):
             if w["w"].endswith(ENDS) or len(line) >= 8 or i == len(ws) - 1:
                 a = starts[k] + line[0]["s"] / speed[k]
                 b = starts[k] + line[-1]["e"] / speed[k]
-                cues.append((a, max(b, a + 1.0), " ".join(x["w"] for x in line)))
+                txt = " ".join(x["w"] for x in line)
+                if lang in RTL:  # the script uses , and ? (caption sync splits on them): show ، and ؟
+                    txt = "‏" + re.sub(r",(?=\s|$)", "،", txt).replace("?", "؟")
+                cues.append((a, max(b, a + 1.0), txt))
                 line = []
     cues.sort()
     return "".join(f"{i}\n{srt_time(a)} --> {srt_time(min(b, cues[i][0] if i < len(cues) else b))}\n{txt}\n\n"

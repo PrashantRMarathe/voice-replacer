@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p06",
+      "question": "Kavya necesita 3,000 teléfonos, 2,000 decodificadores y 1,000 equipos de audio. ¿Qué secuencia tiene la mezcla nivelada?",
+      "options": [
+        "Todos los teléfonos, luego todos los decodificadores, luego todo el audio",
+        "Teléfono–Decodificador–Teléfono–Audio–Decodificador–Teléfono, repetido",
+        "Uno de cada producto, por turnos"
+      ],
+      "correct": 1,
+      "explanation": "El patrón que se repite sigue la proporción de demanda 3 : 2 : 1. Los lotes grandes crean picos; las cantidades iguales ignoran la mezcla real.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un cliente de repente quiere 500 equipos de audio antes. ¿Qué debe hacer PRIMERO Kavya?",
+      "options": [
+        "Meterlos en el siguiente horario",
+        "Revisar fechas, inventario, piezas y capacidad de prueba, y luego cambiar los horarios",
+        "Negarse — el programa está congelado",
+        "Agregar horas extra y armarlos todos hoy"
+      ],
+      "correct": 1,
+      "explanation": "Primero revisa el impacto, y luego cambia los siguientes horarios de liberación con las reglas acordadas. Meterlos a ciegas en la fila, o negarse de entrada, causan problemas.",
+      "think": 13
+    }
+  ]
+}

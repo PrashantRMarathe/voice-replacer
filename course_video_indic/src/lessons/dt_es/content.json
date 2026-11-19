@@ -1,0 +1,685 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Design Thinking",
+      "example": "La estación de empaque de Pooja: bombas de infusión, etiquetas, y empacadores a los que nadie había preguntado.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Empatizar",
+            "with": 1
+          },
+          {
+            "label": "Definir",
+            "with": 1
+          },
+          {
+            "label": "Idear",
+            "with": 1
+          },
+          {
+            "label": "Prototipar",
+            "with": 2
+          },
+          {
+            "label": "Probar",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Empieza con las personas del proceso",
+        "Empatizar, definir, idear",
+        "Prototipar y probar, luego repetir"
+      ],
+      "at": [
+        3.013,
+        10.199,
+        18.332
+      ],
+      "exampleAt": 25.193
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Design Thinking y Lean",
+      "example": "El método de empaque nuevo del año pasado duró dos semanas. Los empacadores volvieron a la forma vieja.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Las herramientas Lean se quedan",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Primero el problema correcto",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "De los usuarios",
+            "icon": "hand",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Método impuesto",
+              "sub": "Se fue en dos semanas",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Método diseñado juntos",
+              "sub": "La gente lo conserva",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "No reemplaza las herramientas Lean",
+        "Primero encuentra el problema correcto",
+        "La gente adopta lo que ayuda a diseñar"
+      ],
+      "at": [
+        0.0,
+        4.546,
+        20.29
+      ],
+      "exampleAt": 23.477
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Principios de trabajo",
+      "example": "La regla de Pooja: “Muéstrame” antes que “dime”.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observar",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Primero los hechos",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Pruebas pequeñas",
+            "icon": "shape",
+            "with": 2
+          },
+          {
+            "label": "Aceptación",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observa sin suponer",
+        "Separa hechos de opiniones",
+        "Prototipos pequeños antes de grandes cambios",
+        "Mide resultados y aceptación"
+      ],
+      "at": [
+        3.445,
+        7.218,
+        16.932,
+        21.513
+      ],
+      "exampleAt": 27.083
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Lo que evita",
+      "example": "La impresora más rápida: un gasto grande, en un problema que nadie había revisado.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Automatizar un desorden",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Solo el síntoma",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "No se puede seguir",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Gasto grande, sin prueba",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Automatizar un proceso roto",
+        "Corregir solo el síntoma visible",
+        "Soluciones que la gente no puede seguir",
+        "Gastar mucho antes de probar"
+      ],
+      "at": [
+        5.661,
+        9.531,
+        12.592,
+        17.431
+      ],
+      "exampleAt": 21.311
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Cinco etapas, un ciclo",
+      "example": "La puerta de Pooja: ninguna idea hasta tener observaciones reales y una base.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Empatizar",
+            "with": 0
+          },
+          {
+            "label": "Definir",
+            "with": 0
+          },
+          {
+            "label": "Idear",
+            "with": 0
+          },
+          {
+            "label": "Prototipar",
+            "with": 1
+          },
+          {
+            "label": "Probar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": 2,
+          "items": [
+            {
+              "label": "Deseable",
+              "sub": "Los usuarios lo necesitan",
+              "icon": "person",
+              "with": 2
+            },
+            {
+              "label": "Factible",
+              "sub": "Podemos hacerlo",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Viable",
+              "sub": "Vale lo que cuesta",
+              "icon": "scale",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Empatizar · Definir · Idear",
+        "Prototipar · Probar",
+        "Deseable, factible, viable",
+        "Avanza con evidencia, no con juntas"
+      ],
+      "at": [
+        3.651,
+        14.02,
+        20.39,
+        24.615
+      ],
+      "exampleAt": 29.577
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Empatizar en el Gemba",
+      "example": "Pooja observó diez ciclos en cada turno, y luego habló con cinco empacadores.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observar",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Entrevistar",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Acompañar",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Dice · piensa · hace · siente",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observa en varios turnos",
+        "Entrevista después de observar",
+        "Acompaña un puesto de principio a fin",
+        "Mapa de empatía: dice, piensa, hace, siente"
+      ],
+      "at": [
+        2.937,
+        7.491,
+        11.764,
+        17.181
+      ],
+      "exampleAt": 24.507
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Lo que vio Pooja",
+      "example": "“No soy lento. Estoy buscando.” Un empacador, del turno de noche.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Caminar al rack",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Etiquetas parecidas",
+            "icon": "label",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Esperar a la impresora",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Caminar por etiquetas",
+        "Dos etiquetas parecidas lado a lado",
+        "Esperar a la impresora"
+      ],
+      "at": [
+        3.35,
+        7.691,
+        12.359
+      ],
+      "exampleAt": 16.477
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Definir la necesidad",
+      "example": "Los empacadores necesitan la etiqueta correcta a la mano, porque las etiquetas parecidas y las caminatas causan errores. Ahora: 52 s contra un TAKT de 45 s, 12 errores por cada 1,000.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Usuario: los empacadores",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Necesidad: la etiqueta correcta a la mano",
+            "icon": "label",
+            "with": "example"
+          },
+          {
+            "label": "Hallazgo: etiquetas parecidas y caminatas",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Base: 52 s contra 45 s, 12 por cada 1,000",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Usuario · necesidad · hallazgo",
+        "Ninguna solución dentro de la frase",
+        "Una base que puedas medir"
+      ],
+      "at": [
+        4.234,
+        7.7,
+        20.651
+      ],
+      "exampleAt": 10.117
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Idear: primero abre el abanico",
+      "example": "El equipo de Pooja: 23 ideas en 30 minutos, de empacadores, calidad y almacén.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ideas en silencio",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "¿Cómo podríamos…?",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "SCAMPER, 8 desperdicios",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "key",
+          "label": "ideas en 30 minutos",
+          "unit": "empacadores, calidad y almacén",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Escribe ideas antes de discutir",
+        "Pregunta “¿Cómo podríamos…?”",
+        "SCAMPER y la mirada de los desperdicios"
+      ],
+      "at": [
+        3.894,
+        14.989,
+        19.62
+      ],
+      "exampleAt": 23.6
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Elegir con una tabla de puntos",
+      "example": "Ranuras de etiquetas + revisión por escaneo: 4.15. Impresora nueva en la estación: 4.10.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Impresora nueva",
+            "sub": "Puntaje 4.10 de 5",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Ranuras de etiquetas + revisión por escaneo",
+            "sub": "Puntaje 4.15 de 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Da peso a cada criterio",
+        "Califica cada concepto, suma los puntos",
+        "La seguridad y la calidad son filtros"
+      ],
+      "at": [
+        3.122,
+        11.051,
+        17.478
+      ],
+      "exampleAt": 26.527
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Prototipos pequeños y baratos",
+      "example": "Ranuras de cartón para etiquetas, una por modelo, pegadas con cinta junto al empacador.",
+      "visual": {
+        "type": "ladder",
+        "top": "LO MÁS BARATO",
+        "bottom": "LO MÁS GRANDE",
+        "items": [
+          {
+            "label": "Papel, cartón, cinta",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Piloto en una estación",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Prueba en la línea",
+            "icon": "sequence",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1,
+          "suffix": " ranura por modelo",
+          "icon": "label",
+          "label": "de cartón, pegada junto al empacador",
+          "unit": "escáner al alcance",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Primero papel, cartón o cinta",
+        "Una estación antes que la línea",
+        "Horas, no meses"
+      ],
+      "at": [
+        3.987,
+        8.013,
+        12.287
+      ],
+      "exampleAt": 15.468
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Planear la prueba",
+      "example": "Hipótesis: las ranuras + la revisión por escaneo ponen el tiempo de ciclo dentro del TAKT y bajan los errores de etiqueta al menos 75%.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Hipótesis",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Alcance y medidas",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Adoptar · adaptar · parar",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Una hipótesis clara",
+        "Alcance, medidas y comparación",
+        "Una regla de decisión acordada desde el inicio"
+      ],
+      "at": [
+        3.25,
+        9.488,
+        14.306
+      ],
+      "exampleAt": 20.828
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Los resultados",
+      "example": "18 de 20 empacadores usaron el método nuevo: 90% de adopción.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 12
+        },
+        "after": {
+          "label": "Prueba",
+          "value": 2
+        },
+        "unit": "errores de etiqueta por cada 1,000 bombas",
+        "note": "Ciclo 52 s → 44 s · 500 → 610 bombas buenas",
+        "with": 2,
+        "then": {
+          "type": "stat",
+          "value": 90,
+          "suffix": "%",
+          "icon": "person",
+          "label": "adopción",
+          "unit": "18 de 20 empacadores",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Tiempo de ciclo: de 52 s a 44 s",
+        "Bombas buenas por turno: de 500 a 610",
+        "Errores de etiqueta: de 12 a 2 por cada 1,000",
+        "Caminata: de 4 m a 1.2 m"
+      ],
+      "at": [
+        3.654,
+        11.27,
+        15.999,
+        20.246
+      ],
+      "exampleAt": 23.385
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Adapta antes de extender",
+      "example": "Los dos empacadores eran zurdos. Las ranuras estaban a la derecha. Refleja el acomodo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Pregunta por qué",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Acomodo en espejo",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Revisa la mezcla de modelos",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Luego estandariza",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "¿No hay 100% de adopción? Averigua por qué",
+        "Simplifica el paso difícil, prueba otra vez",
+        "Revisa que no lo hayan causado otros factores"
+      ],
+      "at": [
+        0.874,
+        12.437,
+        17.956
+      ],
+      "exampleAt": 6.707
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Medir, estandarizar, empezar",
+      "example": "La revisión de Pooja a los 90 días: errores en 2 por cada 1,000, adopción del 100%.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Estandarizar, entrenar",
+            "sub": "Día 0",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Revisión",
+            "sub": "30 · 60",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Errores en 2",
+            "sub": "90 días",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Resultado, proceso, adopción, equilibrio",
+        "Estandariza, entrena, revisa a los 30/60/90",
+        "Empieza mañana: 10 ciclos, 3 personas"
+      ],
+      "at": [
+        0.0,
+        9.28,
+        23.557
+      ],
+      "exampleAt": 16.315
+    }
+  ]
+}

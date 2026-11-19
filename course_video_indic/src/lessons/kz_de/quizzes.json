@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche ist die beste Kaizen-Problembeschreibung?",
+      "options": [
+        "„Wir brauchen einen Roboterarm an der Monitorlinie“",
+        "„Zykluszeit 38 s gegenüber TAKT 35 s, mit 2 Wendungen pro Einheit; in 4 Wochen 35 s erreichen“",
+        "„Die Werker sind zu langsam“"
+      ],
+      "correct": 1,
+      "explanation": "Eine gute Beschreibung hat die gemessene Lücke, den beobachteten Verlust und ein Ziel mit Termin, ohne Lösung und ohne Schuld.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Versuch senkt die Zykluszeit um 4 Sekunden, aber Werker melden Schulterschmerzen. Was nun?",
+      "options": [
+        "Standardisieren: das Ziel wurde besser",
+        "Noch nicht als Erfolg werten: Methode anpassen und neu testen",
+        "Werker stündlich rotieren lassen und beibehalten"
+      ],
+      "correct": 1,
+      "explanation": "Die Ausgewogenheitsregel: ein Kaizen ist nur erfolgreich, wenn Sicherheit, Qualität und Menschen nicht leiden. Schmerzen bedeuten, dass die Methode sich ändern muss, bevor sie Standard wird.",
+      "think": 16
+    }
+  ]
+}

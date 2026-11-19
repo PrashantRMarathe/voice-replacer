@@ -1,0 +1,647 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Low Cost Automation ist",
+      "example": "Gauravs Ziel: Gitter einsetzen, von Hand mit einem Gummihammer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Einfache Vorrichtungen",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Weniger Wiederholung, weniger Fehler",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Keine ganze Roboterlinie",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 400,
+          "icon": "hand",
+          "label": "Hammerschläge pro Stunde",
+          "unit": "pro Werker",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Einfache, zuverlässige, günstige Vorrichtungen",
+        "Wiederholte Arbeit und Fehler beseitigen",
+        "Keine Vollautomatisierung nötig"
+      ],
+      "at": [
+        3.885,
+        10.131,
+        18.048
+      ],
+      "exampleAt": 29.147
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Die Grundhaltung",
+      "example": "Ein schicker Roboter wurde mit ₹18 lakh angeboten. Gaurav fragte: Was braucht die Arbeit wirklich?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bedarf, nicht Komplexität",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Zuerst vereinfachen",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Menschen in der Schleife",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Messen, warten",
+            "icon": "wrench",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Den Bedarf automatisieren, nicht die Komplexität",
+        "Vereinfachen vor dem Automatisieren",
+        "Menschen in der Schleife halten",
+        "Messen, warten"
+      ],
+      "at": [
+        2.796,
+        12.937,
+        18.037,
+        23.538
+      ],
+      "exampleAt": 27.77
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Wann LCA sinnvoll ist",
+      "example": "Gitter einsetzen: jeder Zyklus, Handgelenkbelastung, ungleicher Sitz. Alle vier Punkte erfüllt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wiederholt",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Ergonomisches Risiko",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Vergessene Schritte",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Engpass",
+            "icon": "clock",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Häufige, wiederholte Bewegungen",
+        "Ergonomisches oder Sicherheitsrisiko",
+        "Schritte vergessen oder falsch gemacht",
+        "Engpass, aber kein Fall für einen Roboter"
+      ],
+      "at": [
+        3.062,
+        8.538,
+        13.203,
+        19.003
+      ],
+      "exampleAt": 28.884
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Geringe Kosten, nie geringe Sicherheit",
+      "example": "Gauravs Regel: keine Vorrichtung läuft, bevor das Sicherheitsteam die Risikobeurteilung unterschreibt.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Zuerst die Sicherheitshürde",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Schutz, Not-Halt, Risikoprüfung",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Vor dem Lauf unterschrieben",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Sicherheit ist die erste Konstruktionshürde",
+        "Schutzeinrichtungen, Not-Halt, Risikobeurteilung",
+        "Ein normaler Sensor ist keine Sicherheitseinrichtung"
+      ],
+      "at": [
+        6.153,
+        12.136,
+        21.164
+      ],
+      "exampleAt": 28.371
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Stufen der LCA",
+      "example": "Manuell → unterstützt → halbautomatisch → automatisch.",
+      "visual": {
+        "type": "ladder",
+        "top": "AUTOMATISCH",
+        "bottom": "MANUELL",
+        "items": [
+          {
+            "label": "Sensoren und einfache Steuerungen",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Pneumatische Hilfe",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Mechanische Hilfe",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Manuell",
+            "icon": "hand",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mechanisch: Schwerkraft, Federn, Führungen",
+        "Pneumatisch: Spanner, Pressen, Greifer",
+        "Sensoren und einfache Steuerungen",
+        "Die niedrigste Stufe wählen, die funktioniert"
+      ],
+      "at": [
+        3.02,
+        10.637,
+        16.299,
+        29.667
+      ],
+      "exampleAt": 24.463
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Die LCA-Methode",
+      "example": "Gauravs Ausgangslage: Zyklus 28 s, 18 lockere Gitter pro 1.000 Lautsprecher.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Beobachten, messen",
+            "with": 0
+          },
+          {
+            "label": "Vereinfachen, definieren",
+            "with": 1
+          },
+          {
+            "label": "Konzept, Risiko, Prototyp",
+            "with": 2
+          },
+          {
+            "label": "Prüfen, standardisieren, übertragen",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Beobachten und messen",
+        "Vereinfachen, dann die Funktion definieren",
+        "Konzept, Risikoprüfung, Prototyp",
+        "Prüfen, standardisieren, übertragen"
+      ],
+      "at": [
+        3.419,
+        10.893,
+        19.131,
+        26.01
+      ],
+      "exampleAt": 32.118
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "ECRS vor der Automatisierung",
+      "example": "Gaurav strich einen separaten Klopftest: die neue Presse würde den Sitz selbst bestätigen.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminieren",
+            "with": 0
+          },
+          {
+            "label": "Kombinieren",
+            "with": 0
+          },
+          {
+            "label": "Umordnen",
+            "with": 0
+          },
+          {
+            "label": "Vereinfachen",
+            "with": 0
+          },
+          {
+            "label": "Dann automatisieren",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Jedes Gitter nachklopfen",
+              "sub": "Gestrichen",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Presse bestätigt den Sitz",
+              "sub": "Eingebaut",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminieren, kombinieren, umordnen, vereinfachen",
+        "Erst dann automatisieren",
+        "Automatisierte Verschwendung bleibt Verschwendung"
+      ],
+      "at": [
+        4.55,
+        9.917,
+        15.841
+      ],
+      "exampleAt": 24.849
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Gauravs Chance",
+      "example": "Lockere Gitter: 18 pro 1.000 Lautsprecher, alle beim Klappertest gefunden.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Gleiche Bewegung jeden Zyklus",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Ungleiche Kraft",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Handgelenkbelastung",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 18,
+          "icon": "wave",
+          "label": "lockere Gitter pro 1.000",
+          "unit": "beim Klappertest gefunden",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Gleiche Bewegung in jedem Zyklus",
+        "Ungleiche Kraft, ungleicher Sitz",
+        "Handgelenkbelastung, jede Schicht"
+      ],
+      "at": [
+        1.298,
+        12.198,
+        21.986
+      ],
+      "exampleAt": 25.46
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Einfache Technik wählen",
+      "example": "Gauravs Wahl: ein kleiner Luftzylinder, ein Aufnahmenest und ein Anwesenheitssensor.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Luftzylinder",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Aufnahmenest",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Anwesenheitssensor",
+            "icon": "sensor",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Technik passend zur Funktion",
+        "Wenige Teile, Normteile",
+        "Leicht zu reinigen, einzustellen und zu reparieren"
+      ],
+      "at": [
+        0.25,
+        11.577,
+        16.78
+      ],
+      "exampleAt": 26.55
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Sicher konstruieren",
+      "example": "Ein Zweihandstart hält beide Hände aus dem Pressbereich. Der Luftdruck wird beim Stopp abgelassen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Quetschstellen",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Zweihandstart",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Luft beim Stopp abgelassen",
+            "icon": "lock",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Quetschstellen und gespeicherte Energie finden",
+        "Schutz und Zweihandstart",
+        "Sicherer Stopp, sicherer Neustart"
+      ],
+      "at": [
+        0.23,
+        7.016,
+        12.945
+      ],
+      "exampleAt": 21.495
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Gauravs Presse",
+      "example": "Kein Gitter, kein Pressen. Falsche Lage, kein Pressen. Sitzt: grüne Lampe.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Nest positioniert",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Sensor bestätigt",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Geregeltes Pressen",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Grün: sitzt",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nest positioniert den Lautsprecher",
+        "Sensor bestätigt, dass das Gitter da ist",
+        "Geregelte Kraft, Lampe OK oder nicht OK"
+      ],
+      "at": [
+        2.397,
+        6.953,
+        14.204
+      ],
+      "exampleAt": 19.623
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Den echten Gewinn zählen",
+      "example": "Realitätscheck: zwei kurze Klemmer pro Schicht, je eine Minute. Der Gewinn hielt.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Hammer",
+          "value": 28
+        },
+        "after": {
+          "label": "Presse",
+          "value": 22
+        },
+        "suffix": " s",
+        "unit": "Zykluszeit pro Lautsprecher",
+        "note": "Etwa 35 mehr pro Stunde, theoretisch",
+        "with": 0
+      },
+      "bullets": [
+        "Zykluszeit: von 28 s auf 22 s",
+        "Theoretische Leistung: etwa 35 mehr pro Stunde",
+        "Stopps und Wiederanlauf einrechnen"
+      ],
+      "at": [
+        0.255,
+        7.126,
+        19.741
+      ],
+      "exampleAt": 26.343
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Kosten und Amortisation",
+      "example": "₹1,2 lakh investiert ÷ ₹30.000 Nettonutzen pro Monat = Amortisation in 4 Monaten.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Bisherige Einsparung, Tausend ₹: amortisiert in Monat 4",
+        "with": "example",
+        "items": [
+          {
+            "label": "Monat 1",
+            "value": 30,
+            "with": "example"
+          },
+          {
+            "label": "Monat 2",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Monat 3",
+            "value": 90,
+            "with": "example"
+          },
+          {
+            "label": "Monat 4",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Gesamtkosten des Besitzes",
+        "Nettonutzen, geprüft",
+        "Amortisation = Investition ÷ monatlicher Nutzen"
+      ],
+      "at": [
+        0.256,
+        11.34,
+        19.224
+      ],
+      "exampleAt": 25.394
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prüfen und warten",
+      "example": "Lockere Gitter: 18 → 2 pro 1.000. Handgelenkbeschwerden: keine in 60 Tagen.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Hammer",
+          "value": 18
+        },
+        "after": {
+          "label": "Presse",
+          "value": 2
+        },
+        "unit": "lockere Gitter pro 1.000 Lautsprecher",
+        "note": "Keine Handgelenkbeschwerden in 60 Tagen",
+        "with": "example"
+      },
+      "bullets": [
+        "Über alle Modelle und Schichten testen",
+        "Vorbeugende Wartung und Ersatzteile",
+        "Klare Fehlercodes und Wiederanlauf"
+      ],
+      "at": [
+        0.225,
+        14.405,
+        20.672
+      ],
+      "exampleAt": 26.193
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fehler und Ihr nächster Schritt",
+      "example": "Gauravs Presse läuft jetzt an drei Linien, übertragen nach der Prüfung, ob sie passt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Unbekanntes automatisieren",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Zuerst die Technik",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Keine Ersatzteile, keine PM",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Auf 3 Linien übertragen",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Einen Prozess automatisieren, den Sie nicht verstehen",
+        "Zuerst die Technik wählen",
+        "Wartung und Ersatzteile vergessen"
+      ],
+      "at": [
+        3.208,
+        7.961,
+        12.632
+      ],
+      "exampleAt": 30.146
+    }
+  ]
+}

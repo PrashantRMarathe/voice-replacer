@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "970 unités sur 1 000 réussissent le premier test sans retouche. Quel est le rendement au premier passage ?",
+      "options": [
+        "3%",
+        "97%",
+        "9,7 par unité"
+      ],
+      "correct": 1,
+      "explanation": "FPY = acceptées du premier coup ÷ total = 970 ÷ 1 000 = 97 %. Il ne compte que les unités réussies du premier coup, sans retouche.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Une ligne audio trouve une polarité de haut-parleur inversée sur 30 unités dans cette équipe. Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Reformer l'opérateur et continuer",
+        "Arrêter, confiner les unités suspectes, puis trouver la cause racine",
+        "Ajouter une étiquette d'avertissement sur le haut-parleur",
+        "Augmenter l'inspection finale"
+      ],
+      "correct": 1,
+      "explanation": "Confinez d'abord : arrêtez et bloquez les unités suspectes jusqu'au dernier point bon. Puis trouvez la cause racine et prévenez-la, par exemple avec un connecteur de polarité détrompé. Les reproches, les étiquettes et l'inspection en plus n'empêchent pas la répétition.",
+      "think": 14
+    }
+  ]
+}

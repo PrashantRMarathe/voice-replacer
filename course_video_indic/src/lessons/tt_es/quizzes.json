@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un turno tiene 25,200 segundos netos y el cliente necesita 840 unidades. ¿Cuál es el tiempo TAKT?",
+      "options": [
+        "20 segundos",
+        "30 segundos",
+        "40 segundos"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = tiempo neto disponible ÷ demanda = 25,200 ÷ 840 = 30 segundos por unidad.",
+      "think": 16
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "La prueba final tarda 38 s por unidad, pero el TAKT es de 30 s. Un gerente dice: \"Diles a los probadores que vayan más rápido.\" ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Saltarse parte de la prueba para ahorrar tiempo",
+        "Analizar las pérdidas y la capacidad de la estación de prueba",
+        "Armar inventario extra antes",
+        "Recalcular el TAKT con el tiempo bruto del turno"
+      ],
+      "correct": 1,
+      "explanation": "Un tiempo de ciclo arriba del TAKT es un problema de capacidad. Estudia las pérdidas, el ciclo y el tiempo en marcha de la estación, y luego mejórala o agrega capacidad verificada. Saltarse pruebas o esconderlo con inventario crea problemas nuevos.",
+      "think": 18
+    }
+  ]
+}

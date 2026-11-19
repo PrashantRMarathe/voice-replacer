@@ -1,0 +1,780 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Uniform Production heißt",
+      "example": "Kavyas Werk baut Handys, Boxen und Audiogeräte, in kleinen, wiederholten Folgen, nicht erst alle Handys.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Erst alle Handys",
+            "sub": "Dann Boxen, dann Audio",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Kleine, wiederholte Folgen",
+            "sub": "Passend zum echten Bedarf",
+            "icon": "sequence",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Glätten: Heijunka",
+        "Menge und Mix glätten",
+        "Ein stetiges Freigabemuster",
+        "Echten Bedarf treffen, nicht gleiche Mengen"
+      ],
+      "at": [
+        2.735,
+        8.823,
+        15.616,
+        22.945
+      ],
+      "exampleAt": 32.904
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum Glätten zählt",
+      "example": "Am Montag kam ein großer Handyauftrag. Kavya verteilte ihn über die Woche, wie der Liefertermin es erlaubte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Der Bedarf ist ungleich",
+            "icon": "wave"
+          },
+          {
+            "label": "Spitzen jagen",
+            "sub": "Überstunden, Bestand",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Freigaben glätten",
+            "icon": "sequence"
+          },
+          {
+            "label": "Etwas Puffer",
+            "icon": "box"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Alles am Montag bauen",
+              "sub": "Überstunden, gehetzter Test",
+              "icon": "stack"
+            },
+            {
+              "label": "Über die Woche verteilen",
+              "sub": "Der Termin erlaubte es",
+              "icon": "calendar"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Bedarf kommt nie gleichmäßig",
+        "Spitzen jagen: Überstunden, Bestand, wacklige Qualität",
+        "Glätten innerhalb eines Planungsfensters",
+        "Etwas Puffer braucht es weiter"
+      ],
+      "at": [
+        0.223,
+        3.812,
+        13.658,
+        22.814
+      ],
+      "exampleAt": 25.706
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Mura, Muri und Muda",
+      "example": "Der Tester schafft ~2.000 Einheiten am Tag; die Montage gab an einem Tag über 3.000 zum Test frei, eine Warteschlange entstand.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Ungleiche Freigaben schaffen Spitzen",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Muri",
+            "sub": "Spitzen überlasten Menschen, Maschinen",
+            "icon": "weight",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muda",
+            "sub": "Fehler, Warten, Bestand",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Am Test staut es sich",
+          "unit": "Einheiten an einem Tag",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tester schafft",
+              "value": 2000,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Freigegeben",
+              "value": 3200,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mura: Unausgeglichenheit",
+        "Muri: Überlastung",
+        "Muda: Verschwendung"
+      ],
+      "at": [
+        3.919,
+        7.368,
+        10.056
+      ],
+      "exampleAt": 28.349
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Mengenglättung",
+      "example": "30.000 Einheiten Nettobedarf über 5 Tage = stetig 6.000 gute Einheiten am Tag.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ein sinnvoller Horizont",
+            "icon": "calendar"
+          },
+          {
+            "label": "Nettobedarf",
+            "icon": "count"
+          },
+          {
+            "label": "÷ Produktionstage",
+            "icon": "sequence"
+          },
+          {
+            "label": "Prüfen, ob es hält",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 6000,
+          "icon": "chartUp",
+          "label": "gute Einheiten am Tag, jeden Tag",
+          "unit": "30.000 Einheiten Nettobedarf ÷ 5 Tage",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Leistung über einen Horizont verteilen",
+        "Nettobedarf = Bedarf + Endbestand − Bestand",
+        "Durch die Produktionstage teilen",
+        "Material, Ausbeute, Verfügbarkeit, Personal prüfen"
+      ],
+      "at": [
+        2.863,
+        8.884,
+        19.134,
+        36.656
+      ],
+      "exampleAt": 22.636
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Mix-Glättung",
+      "example": "3.000 Handys, 2.000 Boxen, 1.000 Audio → 3 : 2 : 1 → Handy–Box–Handy–Audio–Box–Handy.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Handy",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Box",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Handy",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Audio",
+            "sub": "A",
+            "with": "example"
+          },
+          {
+            "label": "Box",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Handy",
+            "sub": "P",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Kleine, wiederholte Muster nach Bedarf",
+        "Verhältnis aus dem Bedarf",
+        "Umrüstungen, Vorrichtungen, Teile prüfen"
+      ],
+      "at": [
+        2.194,
+        17.105,
+        35.119
+      ],
+      "exampleAt": 10.24
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "TAKT Zeit und Pitch",
+      "example": "Eine Einheit alle 4,2 Sekunden → ein Pitch von 100 Einheiten in 7 Minuten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Das Tempo des Kunden",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Nettozeit ÷ gute Einheiten",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Pitch",
+            "sub": "Zeit für die Freigabe einer Charge",
+            "icon": "box",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Eine Einheit alle 4,2 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "× eine Charge von 100",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "= ein Pitch von 7 Minuten",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: das Tempo, das der Kunde verlangt",
+        "Nettozeit ÷ benötigte gute Einheiten",
+        "Pitch: Zeit für die Freigabe einer Charge",
+        "Durchschnitts-TAKT ≠ jedes Modell hält mit"
+      ],
+      "at": [
+        2.963,
+        6.822,
+        18.099,
+        36.732
+      ],
+      "exampleAt": 24.131
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Die Glättungstafel",
+      "example": "Alle 30 Minuten gibt Kavyas Tafel das nächste Los frei; die Kits werden in dieser Folge vorbereitet.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Glättungstafel · gemeinsame Linie",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "08:00  Handy · Box · Handy",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "08:30  Audio · Box · Handy",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "09:00  Nächstes Los: Kits bereit",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Fenster verpasst? Sofort sichtbar",
+            "icon": "warning",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein visueller Plan",
+        "Zeitfenster quer, Produkte nach unten",
+        "Karten: was freigeben, wie viele",
+        "Fehlende und Engpässe sichtbar"
+      ],
+      "at": [
+        2.789,
+        5.54,
+        10.938,
+        28.318
+      ],
+      "exampleAt": 16.957
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "EPEI und Umrüstung",
+      "example": "6 Umrüstungen am Tag: 20 → 8 Minuten = 72 Minuten zurück, jeden Tag.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mehr Umrüstungen",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "EPEI",
+            "sub": "Jedes Teil in jedem Intervall",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "SMED",
+            "sub": "Rüsten außerhalb der Stillstandszeit",
+            "icon": "wrench",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 20
+          },
+          "after": {
+            "label": "Nach SMED",
+            "value": 8
+          },
+          "suffix": " Min.",
+          "unit": "pro Umrüstung, sechs am Tag",
+          "note": "72 Minuten zurück, jeden Tag",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Kleine Muster = mehr Umrüstungen",
+        "EPEI: jedes Teil in jedem Intervall",
+        "SMED: Rüsten außerhalb der Stillstandszeit"
+      ],
+      "at": [
+        0.227,
+        3.686,
+        25.356
+      ],
+      "exampleAt": 31.893
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Engpässe und gemischte Modelle",
+      "example": "40 % der Einheiten brauchen einen 12-Sekunden-Test = etwa 340 Tests/Stunde gegen ~300 eines Testers. Zweiten Tester ergänzen.",
+      "visual": {
+        "type": "bars",
+        "label": "Ein Tester",
+        "value": 300,
+        "note": "zu wenig schon vor Verlusten: zweiten Tester ergänzen",
+        "unit": "Tests pro Stunde (40 % der Einheiten brauchen einen 12-s-Test)",
+        "items": [
+          {
+            "label": "Benötigte Tests",
+            "value": 343,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Glätten schlägt keine Kapazitätsgrenze",
+        "Stationen nach dem echten Mix belasten",
+        "Das langsamste Modell nicht blockweise"
+      ],
+      "at": [
+        2.773,
+        6.997,
+        36.651
+      ],
+      "exampleAt": 16.629
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Kanban und WIP-Steuerung",
+      "example": "Ein Kit für Set-Top-Boxen fehlte. Das Team erfasste es und folgte der freigegebenen Umplanungsregel.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kanban-Signale",
+            "icon": "label"
+          },
+          {
+            "label": "FIFO-Bahnen",
+            "icon": "sequence"
+          },
+          {
+            "label": "WIP-Grenzen",
+            "icon": "stack"
+          },
+          {
+            "label": "Kommissionierung im Pitch",
+            "icon": "tray"
+          }
+        ]
+      },
+      "bullets": [
+        "Kanban: was nachfüllen, wann",
+        "Standardbehälter, First-in-first-out-Bahnen",
+        "WIP-Grenzen stoppen Überproduktion",
+        "Kommissionierung passend zu Pitch und Mix"
+      ],
+      "at": [
+        4.434,
+        10.102,
+        16.689,
+        21.216
+      ],
+      "exampleAt": 25.594
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Umgang mit Bedarfsänderungen",
+      "example": "500 Audiogeräte früher gewünscht: Kavya prüfte zuerst Termine, Bestand, Teile und Testkapazität.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ein eingefrorenes Fenster",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Umplanen in der Fertigung",
+            "sub": "Schafft Chaos",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Wer freigibt",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "500 Audio früher gewünscht",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Termine, Bestand, Teile, Test prüfen",
+              "icon": "search",
+              "with": "example"
+            },
+            {
+              "label": "Dann die nächsten Fenster ändern",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ein eingefrorenes kurzfristiges Fenster",
+        "Umplanen in der Fertigung schafft Chaos",
+        "Festlegen, wer Änderungen freigibt"
+      ],
+      "at": [
+        3.554,
+        12.451,
+        16.763
+      ],
+      "exampleAt": 22.956
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI der Glättung",
+      "example": "95 % der geplanten Einheiten erledigt. 12.000 Einheiten WIP = 2 Tage Leistung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Leistung + Stabilität",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Plantreue",
+            "icon": "check"
+          },
+          {
+            "label": "WIP-Tage",
+            "icon": "clock"
+          },
+          {
+            "label": "FPY, Stillstand, Überstunden",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 95,
+          "suffix": "%",
+          "icon": "check",
+          "label": "der geplanten Einheiten erledigt",
+          "unit": "12.000 Einheiten WIP = 2 Tage Leistung",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Leistung und Stabilität zusammen verfolgen",
+        "Plantreue",
+        "WIP-Tage",
+        "Dazu FPY, Stillstand, Überstunden"
+      ],
+      "at": [
+        3.914,
+        7.987,
+        19.417,
+        29.646
+      ],
+      "exampleAt": 14.008
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fallstudie: gemeinsame Linie",
+      "example": "In der Theorie etwa alle vier Minuten ein Muster, aber ihr Rüsten war zu langsam für dieses Tempo.",
+      "visual": {
+        "type": "stat",
+        "value": 4.2,
+        "decimals": 1,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "Durchschnitts-TAKT, Mix 3 : 2 : 1",
+        "unit": "Handys : Set-Top-Boxen : Audio",
+        "with": 0,
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Etwa alle 4 Minuten ein Muster",
+          "unit": "Einheiten in einem Muster aus 60",
+          "with": 1,
+          "items": [
+            {
+              "label": "Handys",
+              "value": 30,
+              "with": 1
+            },
+            {
+              "label": "Boxen",
+              "value": 20,
+              "with": 1
+            },
+            {
+              "label": "Audio",
+              "value": 10,
+              "with": 1
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mix 3 : 2 : 1, TAKT 4,2 s",
+        "Muster aus 60 Einheiten: 30 · 20 · 10",
+        "Arbeitsfolge, Werkzeuge, Testgrenzen prüfen",
+        "Schnellere Umrüstungen, keine Abkürzungen"
+      ],
+      "at": [
+        4.752,
+        13.303,
+        27.919,
+        40.76
+      ],
+      "exampleAt": 22.951
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Häufige Fehler",
+      "example": "Firmware-Tester standen, während die Tafel Boxen verlangte: mehr WIP verschiebt nur den Engpass. Eskalieren.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bruttozeit",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Gleiche Mengen",
+            "icon": "scale",
+            "tone": "bad"
+          },
+          {
+            "label": "Überplanung",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Erstteilprüfung auslassen",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Glätten auf Bruttozeit",
+        "Gleiche Mengen bei ungleichem Mix",
+        "Mehr Leistung, als die Linie schafft",
+        "Erstteilprüfung auslassen, um aufzuholen"
+      ],
+      "at": [
+        9.176,
+        13.844,
+        19.327,
+        40.363
+      ],
+      "exampleAt": 24.43
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan für 90 Tage",
+      "example": "Planung gibt frei, Produktion baut, Technik prüft Kapazität, Qualität schützt Kontrollen, Materialwirtschaft hält Kits bereit.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Bedarf, Mix, TAKT, Rüsten",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Pilottafel, Kommissionierung, Umrüstungen",
+            "sub": "31–60",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Bestätigen, standardisieren, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Planung",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Produktion",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Technik",
+              "icon": "gear",
+              "with": "example"
+            },
+            {
+              "label": "Qualität",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Material",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eine Familie, ein Horizont",
+        "Tag 1–30: Bedarf, Mix, TAKT, Rüsten",
+        "Tag 31–60: Pilottafel, Kommissionierung, Umrüstungen",
+        "Tag 61–90: bestätigen, standardisieren, ausweiten"
+      ],
+      "at": [
+        0.26,
+        6.369,
+        13.914,
+        21.517
+      ],
+      "exampleAt": 34.513
+    }
+  ]
+}

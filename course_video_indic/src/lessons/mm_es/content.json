@@ -1,0 +1,721 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Conoce las 3M",
+      "example": "La línea de Sanjay, en una hora: los operadores esperan kits (Muda), la producción sube y baja (Mura), luego todos corren (Muri).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Muda",
+            "sub": "Desperdicio: esperar kits",
+            "icon": "trash",
+            "tone": "bad"
+          },
+          {
+            "label": "Mura",
+            "sub": "Disparidad: la producción sube y baja",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "Muri",
+            "sub": "Sobrecarga: todos corren",
+            "icon": "weight",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Muda: desperdicio — sin valor para el cliente",
+        "Mura: disparidad — la carga sube y baja",
+        "Muri: sobrecarga — más allá de la capacidad segura"
+      ],
+      "at": [
+        6.103,
+        11.011,
+        15.048
+      ],
+      "exampleAt": 21.564
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Cómo se conectan las 3M",
+      "example": "El gran lote del lunes (Mura) → operadores y probador a las carreras (Muri) → defectos, retrabajo, horas extra (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Un lote enorme el lunes",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muri",
+            "sub": "Prisas; el probador nunca descansa",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Muda",
+            "sub": "Defectos, retrabajo, horas extra",
+            "icon": "trash",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "No puedes corregirlas una por una",
+        "Mura crea Muri, Muri crea Muda",
+        "Persigue solo el desperdicio y regresa"
+      ],
+      "at": [
+        2.698,
+        5.645,
+        29.953
+      ],
+      "exampleAt": 9.691
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Muda: la prueba del valor",
+      "example": "Colocar el lente agrega valor. Caminar por etiquetas, esperar un kit y probar dos veces no.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Caminar por etiquetas",
+            "sub": "Sin valor (ni esperar, ni probar dos veces)",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Colocar el lente",
+            "sub": "Agrega valor",
+            "icon": "camera",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "¿Cambia el producto que el cliente necesita?",
+        "¿Se hace bien a la primera?",
+        "¿El cliente pagaría por ello?",
+        "Si no — cuestiónalo"
+      ],
+      "at": [
+        6.188,
+        10.792,
+        13.235,
+        16.384
+      ],
+      "exampleAt": 19.746
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Necesario contra puro desperdicio",
+      "example": "Tipo 1: una revisión de seguridad obligatoria. Tipo 2: capturar el mismo número de serie en dos sistemas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tipo 1: simplificar",
+            "sub": "Una revisión de seguridad obligatoria",
+            "icon": "shield"
+          },
+          {
+            "label": "Tipo 2: quitar",
+            "sub": "Un número de serie capturado dos veces",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Las personas nunca son desperdicio",
+            "sub": "El desperdicio vive en el proceso",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Tipo 1: se necesita hoy — simplifícalo",
+        "Tipo 2: puro desperdicio — quítalo",
+        "Nunca llames desperdicio a una persona"
+      ],
+      "at": [
+        1.99,
+        17.994,
+        29.262
+      ],
+      "exampleAt": 7.13
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Los 8 desperdicios: TIMWOODS",
+      "example": "El recorrido de Sanjay: 3 esperas de kits en 2 horas, caminatas largas por etiquetas, una pared de WIP antes de la prueba.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Transporte",
+            "sub": "T",
+            "with": 0
+          },
+          {
+            "label": "Inventario",
+            "sub": "I",
+            "with": 0
+          },
+          {
+            "label": "Movimiento",
+            "sub": "M",
+            "with": 0
+          },
+          {
+            "label": "Espera",
+            "sub": "W",
+            "with": 0
+          },
+          {
+            "label": "Sobreproducción",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Sobreproceso",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Defectos",
+            "sub": "D",
+            "with": 2
+          },
+          {
+            "label": "Habilidades sin usar",
+            "sub": "S",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transporte · Inventario · Movimiento · Espera",
+        "Sobreproducción · Sobreproceso",
+        "Defectos · Habilidades sin usar",
+        "Recorrido de desperdicios: sigue un producto"
+      ],
+      "at": [
+        4.823,
+        9.204,
+        12.145,
+        15.641
+      ],
+      "exampleAt": 24.647
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Mura: disparidad",
+      "example": "El tablero por hora de Sanjay: 60, luego 105, luego 70. El promedio se ve bien; la línea no.",
+      "visual": {
+        "type": "bars",
+        "label": "Promedio",
+        "note": "se ve bien, esconde las variaciones",
+        "unit": "Tablero por hora de Sanjay: cámaras por hora",
+        "items": [
+          {
+            "label": "Hora 1",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Hora 2",
+            "value": 105,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Hora 3",
+            "value": 70,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Lotes grandes, luego nada",
+        "Material a ratos",
+        "Mismo trabajo, métodos distintos",
+        "Los promedios esconden picos y valles"
+      ],
+      "at": [
+        7.337,
+        10.658,
+        13.428,
+        24.995
+      ],
+      "exampleAt": 17.991
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Muri: sobrecarga",
+      "example": "Una operadora se estira arriba del hombro 120 veces por hora; el probador corre durante cada descanso.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personas",
+            "sub": "Cargas, estiramientos, alarmas",
+            "icon": "person",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Máquinas",
+            "sub": "Más allá de su carga nominal",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 120,
+          "icon": "hand",
+          "label": "estiramientos arriba del hombro",
+          "unit": "cada hora, para una operadora",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Personas: cargas, estiramientos, alarmas, poco entrenamiento",
+        "Máquinas: más allá de su carga nominal, mantenimiento saltado",
+        "Lleva a fatiga, errores, descomposturas"
+      ],
+      "at": [
+        6.33,
+        14.868,
+        31.785
+      ],
+      "exampleAt": 22.134
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Cuando las tres chocan",
+      "example": "Parecía 'poca capacidad de prueba'. En realidad: liberación dispareja (Mura) + prisas (Muri) + retrabajo (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "4 horas de demanda de golpe",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "El WIP se amontona",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "La prueba se vuelve el cuello de botella",
+            "icon": "test",
+            "tone": "bad"
+          },
+          {
+            "label": "Horas extra, prisas, retrabajo",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "4 horas de demanda en una sola liberación",
+        "Estaciones adelantadas — se amontonó el WIP",
+        "La prueba se volvió el cuello de botella",
+        "Horas extra, prisas, defectos, retrabajo"
+      ],
+      "at": [
+        2.937,
+        7.0,
+        12.061,
+        15.255
+      ],
+      "exampleAt": 25.853
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Encontrar las 3M en el Gemba",
+      "example": "Sanjay marcó cada hallazgo como Muda, Mura o Muri. Una espera de kits de 20 minutos recibió dos marcas: desperdicio y disparidad.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Primero observar",
+            "icon": "search"
+          },
+          {
+            "label": "Registrarlo",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Preguntar a los operadores",
+            "icon": "person"
+          },
+          {
+            "label": "Revisar los datos",
+            "icon": "chartUp"
+          }
+        ]
+      },
+      "bullets": [
+        "Observa antes de cambiar nada",
+        "Registra tiempos, esperas, caminatas, WIP, retrabajo",
+        "Pregunta a los operadores qué es difícil",
+        "Revisa los datos antes de elegir una solución"
+      ],
+      "at": [
+        1.345,
+        7.892,
+        15.098,
+        36.123
+      ],
+      "exampleAt": 23.557
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Herramientas para quitar el Muda",
+      "example": "Etiquetas y tornillos en racks en cada estación: la caminata bajó de 40 m a 8 m.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "5S",
+            "icon": "tray",
+            "with": 0
+          },
+          {
+            "label": "Trabajo estándar",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key",
+            "with": 2
+          },
+          {
+            "label": "SMED + TPM",
+            "icon": "wrench",
+            "with": 3
+          },
+          {
+            "label": "Causa raíz",
+            "icon": "search",
+            "with": 4
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 40
+          },
+          "after": {
+            "label": "Después",
+            "value": 8
+          },
+          "suffix": " m",
+          "unit": "caminata por cámara",
+          "note": "80% menos caminata",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "5S: menos búsquedas y caminatas",
+        "Trabajo estándar: el mejor método y el más seguro",
+        "Poka Yoke: detener errores en el origen",
+        "SMED y TPM: cambios de modelo, confiabilidad",
+        "Análisis de causa raíz: sin defectos repetidos",
+        "No automatices un desperdicio"
+      ],
+      "at": [
+        3.007,
+        7.157,
+        11.389,
+        14.867,
+        21.582,
+        37.505
+      ],
+      "exampleAt": 26.076
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Herramientas para nivelar el Mura",
+      "example": "TAKT = 27,000 s ÷ 450 cámaras = una cámara cada 60 segundos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Heijunka",
+            "sub": "Nivelar volumen y mezcla",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Ritmo marcado por la demanda",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 60,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "una cámara cada 60 segundos",
+          "unit": "27,000 s de tiempo de trabajo ÷ 450 cámaras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Heijunka: nivela el volumen y la mezcla",
+        "El TAKT une tu ritmo a la demanda",
+        "Libera cada pitch, no en oleadas",
+        "Jalar y carriles de primero en entrar, primero en salir"
+      ],
+      "at": [
+        3.077,
+        6.464,
+        23.53,
+        27.334
+      ],
+      "exampleAt": 10.423
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Herramientas para aliviar el Muri",
+      "example": "Ahora un fixture sostiene la cámara al atornillar; el contenedor alto bajó al alcance fácil.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Balancear al TAKT",
+            "icon": "scale"
+          },
+          {
+            "label": "Zona de alcance segura",
+            "icon": "person"
+          },
+          {
+            "label": "Fixtures y plantillas",
+            "icon": "wrench"
+          },
+          {
+            "label": "Límites de la máquina",
+            "icon": "gear"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Las manos sostienen la cámara",
+              "sub": "Contenedor alto arriba del hombro",
+              "icon": "hand"
+            },
+            {
+              "label": "Un fixture la sostiene",
+              "sub": "Contenedor al alcance fácil",
+              "icon": "wrench"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Balancea cada estación al TAKT",
+        "Estiramientos y cargas en zona segura",
+        "Fixtures donde las manos sostienen piezas",
+        "Respeta los límites de la máquina y el mantenimiento"
+      ],
+      "at": [
+        4.814,
+        9.76,
+        14.03,
+        18.86
+      ],
+      "exampleAt": 25.388
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Un método 3M de 8 pasos",
+      "example": "La base de Sanjay: producción por hora muy dispareja, 2.5 horas extra al día.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definir",
+            "with": 0
+          },
+          {
+            "label": "Observar",
+            "with": 0
+          },
+          {
+            "label": "Clasificar 3M",
+            "with": 1
+          },
+          {
+            "label": "Medir",
+            "with": 2
+          },
+          {
+            "label": "Encontrar causas",
+            "with": 2
+          },
+          {
+            "label": "Probar (PDCA)",
+            "with": 3
+          },
+          {
+            "label": "Estandarizar",
+            "with": 4
+          },
+          {
+            "label": "Auditar",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Define, luego observa en el Gemba",
+        "Clasifica en las tres M",
+        "Mide una base, encuentra causas raíz",
+        "Prueba cambios pequeños con PDCA",
+        "Estandariza, sigue auditando"
+      ],
+      "at": [
+        3.577,
+        7.339,
+        10.367,
+        14.486,
+        19.462
+      ],
+      "exampleAt": 24.7
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Caso práctico: línea de CCTV",
+      "example": "Después de 6 semanas: casi sin variación por hora, horas extra cerca de cero, rendimiento a la primera hasta 98%.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Liberaciones pequeñas y constantes",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Piezas en el punto de uso",
+            "icon": "tray",
+            "tone": "good"
+          },
+          {
+            "label": "Liberación = capacidad de prueba",
+            "icon": "test",
+            "tone": "good"
+          },
+          {
+            "label": "Tablero por hora",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "rendimiento a la primera después de 6 semanas",
+          "unit": "Horas extra cerca de cero. Nadie trabajó más rápido.",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Liberaciones pequeñas y constantes + carril de primero en entrar, primero en salir",
+        "Piezas y etiquetas en el punto de uso",
+        "Liberación según la capacidad de prueba",
+        "Tablero por hora, problemas levantados a tiempo"
+      ],
+      "at": [
+        2.858,
+        9.997,
+        13.124,
+        16.711
+      ],
+      "exampleAt": 22.135
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPI y sostenimiento",
+      "example": "¿Más unidades por hora, pero menos calidad y más horas extra? Solo moviste la pérdida.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Flujo",
+            "sub": "Tiempo de entrega, WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "Mura",
+            "sub": "Rango por hora",
+            "icon": "wave"
+          },
+          {
+            "label": "Calidad",
+            "sub": "FPY, retrabajo",
+            "icon": "check"
+          },
+          {
+            "label": "Muri",
+            "sub": "Horas extra, ergonomía",
+            "icon": "weight"
+          }
+        ]
+      },
+      "bullets": [
+        "Flujo: tiempo de entrega, WIP",
+        "Mura: rango de producción por hora",
+        "Calidad: FPY, retrabajo",
+        "Muri: horas extra, riesgo ergonómico"
+      ],
+      "at": [
+        3.935,
+        8.444,
+        13.739,
+        18.514
+      ],
+      "exampleAt": 26.451
+    }
+  ]
+}

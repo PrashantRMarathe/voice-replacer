@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "800 Einheiten müssen in 4 Tagen erledigt sein. Nach Tag 2 sind 340 fertig. Wo steht das Team?",
+      "options": [
+        "60 Einheiten vor dem Plan",
+        "60 Einheiten hinter dem Plan",
+        "Genau im Plan"
+      ],
+      "correct": 1,
+      "explanation": "Ideal übrig an Tag 2 = 800 − 2 × 200 = 400. Tatsächlich übrig = 800 − 340 = 460. 460 − 400 = 60 hinter dem Plan.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Restarbeitsdiagramm für Fehler ist seit zwei Tagen flach. Was sollte das Team zuerst prüfen?",
+      "options": [
+        "Nichts: eine flache Linie bedeutet, dass alles stabil ist",
+        "Ob die Arbeit stillstand, wer verantwortlich ist, und ob die Daten aktualisiert wurden",
+        "Die Ideallinie an die Realität anpassen"
+      ],
+      "correct": 1,
+      "explanation": "Eine flache Linie bedeutet, dass nichts abgeschlossen wurde. Prüfen Sie auf Stillstand, den Verantwortlichen und die Daten. Die Ideallinie neu zu zeichnen versteckt nur die Lücke.",
+      "think": 14
+    }
+  ]
+}

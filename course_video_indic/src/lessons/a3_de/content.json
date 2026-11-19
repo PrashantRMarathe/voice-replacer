@@ -1,0 +1,758 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was ein A3 ist",
+      "example": "Karthiks Bericht sagte „Die Werker sind nachlässig“. Sein Vorgesetzter gab ihm einen leeren A3-Bogen zurück.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Papierformat A3",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Die Geschichte auf einer Seite",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Ursachen, Tests, Ergebnisse",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Im Team erstellt",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "„Die Werker sind nachlässig“",
+              "sub": "Karthiks erster Bericht",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Ein leerer A3-Bogen",
+              "sub": "Die Antwort seines Vorgesetzten",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Benannt nach dem Papierformat A3",
+        "Die ganze Problemgeschichte auf einer Seite",
+        "Definieren, Ursachen finden, testen, sichern",
+        "Visuell, und im Team erstellt"
+      ],
+      "at": [
+        0.24,
+        4.534,
+        9.31,
+        17.214
+      ],
+      "exampleAt": 25.5
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Probleme sind Lücken",
+      "example": "„Die Werker sind nachlässig“ ist eine Schuldzuweisung. „Boot-Fehler stiegen auf 4,8 %“ ist eine Lücke.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Schuld",
+            "sub": "„Die Werker sind nachlässig“",
+            "icon": "person",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Lücke",
+            "sub": "Boot-Fehler bis 4,8 %",
+            "icon": "chartUp",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Problem ist eine messbare Lücke",
+        "Springen Sie nicht von der Klage zur Lösung",
+        "Eine Lücke lässt sich messen und untersuchen"
+      ],
+      "at": [
+        2.743,
+        9.203,
+        28.454
+      ],
+      "exampleAt": 15.726
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Wo das A3 passt: PDCA",
+      "example": "Karthiks Boot-Fehler: wiederholt, teuer und bereichsübergreifend.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wiederholte Fehler",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Stillstände, Fehlteile",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Bereichsübergreifend",
+            "icon": "person",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Plan",
+              "icon": "clipboard",
+              "with": 2
+            },
+            {
+              "label": "Do",
+              "sub": "Kleiner Pilot",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Check",
+              "sub": "Gegen das Ziel",
+              "icon": "search",
+              "with": 2
+            },
+            {
+              "label": "Act",
+              "sub": "Standardisieren",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Probleme, die immer wiederkommen",
+        "Probleme, die Teams gemeinsam lösen müssen",
+        "Basiert auf Plan · Do · Check · Act"
+      ],
+      "at": [
+        2.734,
+        14.308,
+        22.98
+      ],
+      "exampleAt": 39.369
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Aufbau eines A3",
+      "example": "Karthiks Bogen: sieben Felder, eine Seite, von links nach rechts gelesen.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Hintergrund · warum jetzt",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Ist-Zustand · Ziel",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Grundursache · warum die Lücke",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Maßnahmen · Zeitplan",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Nachverfolgung · hat es gewirkt?",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Links: Hintergrund, Ist-Zustand, Ziel",
+        "Ursachenanalyse: warum die Lücke besteht",
+        "Rechts: Maßnahmen, Plan, Nachverfolgung",
+        "Jedes Feld beantwortet eine Frage"
+      ],
+      "at": [
+        3.133,
+        20.482,
+        25.425,
+        32.419
+      ],
+      "exampleAt": 35.77
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die Problembeschreibung",
+      "example": "Linie 2, letzter Monat: 4,8 % von 12.000 Servern fielen beim ersten Boot-Test durch, gegenüber einer Referenz von 1,5 %.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Schwach",
+            "sub": "„Die Qualität ist überall schlecht“",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Präzise",
+            "sub": "Linie 2 · letzter Monat · 4,8 % gegenüber 1,5 %",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die Lücke benennen, nie eine Ursache",
+        "Linie · Produkt · Zeitraum · Messgröße",
+        "Ein klarer Nenner, gleiche Definitionen",
+        "Keine Schuld, keine Lösung"
+      ],
+      "at": [
+        6.798,
+        11.439,
+        17.321,
+        40.905
+      ],
+      "exampleAt": 22.255
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Hingehen und schauen: die 3G",
+      "example": "7 von 10 fehlerhaften Servern am Prüfplatz: ein Speichermodul leicht angehoben.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Echter Ort",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Echte Dinge",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Echte Fakten",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 7,
+          "suffix": " / 10",
+          "icon": "chip",
+          "label": "fehlerhafte Server am Prüfplatz",
+          "unit": "ein Speichermodul leicht angehoben",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Gemba: der echte Ort",
+        "Genbutsu: die echten Dinge",
+        "Genjitsu: die echten Fakten"
+      ],
+      "at": [
+        8.668,
+        13.909,
+        21.338
+      ],
+      "exampleAt": 26.247
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Daten, denen Sie trauen können",
+      "example": "Erstdurchlauf-Fehlerquote = eindeutige Server, die ihren ersten gültigen Test nicht bestehen ÷ eindeutige getestete Server.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Klare Definition",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Eindeutige Server",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Zeitstempel, Seriennummern",
+            "icon": "barcode",
+            "with": 2
+          },
+          {
+            "label": "Protokoll stimmt mit dem MES überein",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Eine klare Definition",
+        "Eindeutige Einheiten zählen: Nachtests verstecken keine Fehler",
+        "Zeitstempel, Seriennummern, Kalibrierung prüfen",
+        "Das Linienprotokoll stimmt mit dem MES überein"
+      ],
+      "at": [
+        0.993,
+        16.268,
+        26.369,
+        34.219
+      ],
+      "exampleAt": 4.608
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Die Lücke sehen",
+      "example": "Speicher nicht erkannt: 288 von 576 Fehlern, die Hälfte der Gesamtzahl.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Fehler beim ersten Boot-Test pro 1.000 Server, je Woche",
+        "items": [
+          {
+            "label": "W1",
+            "value": 41,
+            "with": 0
+          },
+          {
+            "label": "W2",
+            "value": 46,
+            "with": 0
+          },
+          {
+            "label": "W3",
+            "value": 50,
+            "with": 0
+          },
+          {
+            "label": "W4",
+            "value": 55,
+            "tone": "bad",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Fehlerbilder: 576 Erstdurchlauf-Fehler",
+          "with": 2,
+          "items": [
+            {
+              "label": "Speicher",
+              "value": 288,
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Lüfter",
+              "value": 144,
+              "with": 2
+            },
+            {
+              "label": "Netzwerk",
+              "value": 86,
+              "with": 2
+            },
+            {
+              "label": "Sonstige",
+              "value": 58,
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Wochentrend: jede Woche steigend",
+        "Etwa 400 zusätzliche Fehler",
+        "Pareto: Fehler nach Fehlerbild sortieren"
+      ],
+      "at": [
+        3.836,
+        20.982,
+        24.443
+      ],
+      "exampleAt": 29.011
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Ziel und Umfang",
+      "example": "Außerhalb des Umfangs: Testgrenzen lockern, um besser auszusehen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ziel",
+            "sub": "≤ 2 % in 6 Wochen",
+            "icon": "pin",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Leitplanken",
+            "sub": "Testzeit, Nachtests, Durchschlupf",
+            "icon": "shield",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": 2,
+          "items": [
+            {
+              "label": "Außerhalb des Umfangs",
+              "sub": "Testgrenzen lockern",
+              "icon": "cross",
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Innerhalb des Umfangs",
+              "sub": "Speicherfehler, Linie 2",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ziel: 2 % oder weniger innerhalb von 6 Wochen",
+        "Leitplanken: Testzeit, Nachtests, Durchschlupf",
+        "Umfang: was drin ist, was nicht"
+      ],
+      "at": [
+        4.087,
+        13.828,
+        24.047
+      ],
+      "exampleAt": 31.098
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Ursachen erkunden: Ishikawa",
+      "example": "Ist das Einsetzen geschult? Hat sich das Gehäuse geändert? Schwankt das Einrasten je Charge?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mensch",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Maschine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Methode",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Messung",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Mitwelt",
+            "icon": "wave",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst breit denken",
+        "Sechs M: Mensch, Maschine, Methode…",
+        "Jeder Ast ist eine Vermutung, bis er geprüft ist"
+      ],
+      "at": [
+        3.354,
+        7.731,
+        32.744
+      ],
+      "exampleAt": 16.548
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Grundursache: Five Whys",
+      "example": "Grundursache: Die Arbeitsanweisungen wurden bei der Gehäuseänderung nicht überprüft.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Modul nicht ganz eingesetzt",
+            "with": 0
+          },
+          {
+            "label": "Verriegelung zu früh geschlossen",
+            "with": 0
+          },
+          {
+            "label": "Weniger Platz im neuen Gehäuse",
+            "with": 0
+          },
+          {
+            "label": "Anweisungen nicht überprüft",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 100,
+          "suffix": "%",
+          "icon": "test",
+          "label": "Fehler nachgestellt",
+          "unit": "Module schräg eingedrückt",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "Fragen Sie warum, Schritt für Schritt",
+        "Enden Sie bei einer Prozessursache, die Sie beheben können",
+        "Eine Kette ist kein Beweis: testen Sie sie"
+      ],
+      "at": [
+        0.55,
+        29.193,
+        33.929
+      ],
+      "exampleAt": 23.76
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Maßnahmen und Eindämmung",
+      "example": "Einsetzhilfe · Verriegelungsprüfung · Anweisungsprüfung bei jeder Gehäuseänderung",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Einsetzhilfe",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Verriegelungsprüfung",
+            "icon": "sensor",
+            "with": "example"
+          },
+          {
+            "label": "Überprüfung bei Gehäuseänderung",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Eindämmung",
+              "sub": "Schützt den Kunden jetzt",
+              "icon": "lock",
+              "with": 2
+            },
+            {
+              "label": "Maßnahme",
+              "sub": "Beseitigt die Ursache dauerhaft",
+              "icon": "key",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Die bestätigte Ursache durchbrechen",
+        "Bewerten: Wirkung, Risiko, Kosten, Nachhaltigkeit",
+        "Jetzt eindämmen, dauerhaft beheben"
+      ],
+      "at": [
+        2.472,
+        23.327,
+        29.888
+      ],
+      "exampleAt": 4.992
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Plan und Verantwortliche",
+      "example": "Festgefahren? Eskalieren Sie mit dem genauen Hindernis und der Entscheidung, die Sie brauchen.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Ursache bestätigen, Pilot",
+            "sub": "Wochen 1–2",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "SOP aktualisieren, schulen",
+            "sub": "Wochen 3–4",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Ergebnisse prüfen",
+            "sub": "Wochen 5–6",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Verantwortlicher, ein Termin, ein Nachweis",
+        "Wochen 1–2: Ursache bestätigen, Pilot",
+        "Wochen 3–4: SOP aktualisieren, jede Schicht schulen",
+        "Wochen 5–6: Ergebnisse prüfen"
+      ],
+      "at": [
+        5.085,
+        12.095,
+        21.506,
+        28.994
+      ],
+      "exampleAt": 34.126
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Pilot und Prüfung",
+      "example": "Pilot: 48 Fehler bei 3.000 Servern = 1,6 %.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Ausgangslage",
+          "value": 4.8
+        },
+        "after": {
+          "label": "Pilot",
+          "value": 1.6
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "Server, die beim ersten Boot-Test durchfallen",
+        "note": "Ziel ≤ 2 %: erreicht",
+        "with": 1
+      },
+      "bullets": [
+        "Gleicher Produktmix wie in der Ausgangslage",
+        "Von 4,8 % auf 1,6 %: Ziel erreicht",
+        "Leitplanken ebenfalls geprüft",
+        "Verfehlt? Prüfen Sie die Ursache, nicht das Ziel"
+      ],
+      "at": [
+        7.994,
+        12.302,
+        18.836,
+        31.358
+      ],
+      "exampleAt": 4.819
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Sichern und Ihr 30-Tage-A3",
+      "example": "Tage 1–5: ein echtes Problem, Ausgangslage am Gemba. Tag 20: Ursachen und Pilot. Tag 30: Ihr A3 vorstellen.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Ein echtes Problem, Ausgangslage",
+            "sub": "Tage 1–5",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Ursachen und Pilot",
+            "sub": "Bis Tag 20",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Ihr A3 vorstellen",
+            "sub": "Tag 30",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "SOP, Checkliste, Schulung aktualisieren",
+        "Prüfung zum Schichtbeginn; Überprüfung nach 30/60/90 Tagen",
+        "Nur auf Linien übertragen, die wirklich passen",
+        "Ihr eigenes A3 in 30 Tagen"
+      ],
+      "at": [
+        4.127,
+        9.933,
+        19.66,
+        25.009
+      ],
+      "exampleAt": 27.476
+    }
+  ]
+}

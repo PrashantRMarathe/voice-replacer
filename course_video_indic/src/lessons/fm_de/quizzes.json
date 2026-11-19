@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche ist eine nützliche FMEA-Ursache?",
+      "options": [
+        "Nachlässigkeit des Werkers",
+        "Zwei Dichtungsgrößen teilen sich eine Kiste an der Station",
+        "Wasser dringt in das Gerät ein"
+      ],
+      "correct": 1,
+      "explanation": "Eine nützliche Ursache ist ein konkreter Zustand, den Sie beherrschen. Nachlässigkeit ist eine Schuldzuweisung, und Wasser im Gerät ist die Folge.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Nach einem Sensor und einem Dichtheitstest will das Team die Bedeutung von 8 auf 4 senken. Ist das richtig?",
+      "options": [
+        "Ja: das Risiko ist jetzt geringer",
+        "Nein: die Bedeutung ändert sich nur, wenn sich die Folge ändert",
+        "Ja, wenn die RPN unter 100 bleibt"
+      ],
+      "correct": 1,
+      "explanation": "Die Bedeutung bewertet die Folge. Wasser in einem Gerät ist genauso schlimm wie vorher. Die neuen Maßnahmen senken Auftreten und Entdeckung, nicht die Bedeutung.",
+      "think": 16
+    }
+  ]
+}

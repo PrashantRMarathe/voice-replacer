@@ -1,0 +1,630 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Kaizen bedeutet",
+      "example": "Sureshs Linie: zweimal wenden, jeder Monitor, jede Einheit, jede Schicht.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Veränderung zum Besseren",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Kleine Schritte",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Vom Team",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "icon": "weight",
+          "label": "Wendungen pro Monitor",
+          "unit": "jede Einheit, jede Schicht",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Veränderung zum Besseren",
+        "Viele kleine, disziplinierte Änderungen",
+        "Von denen gemacht, die der Arbeit am nächsten sind"
+      ],
+      "at": [
+        2.565,
+        9.087,
+        11.658
+      ],
+      "exampleAt": 20.657
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Was es zum Kaizen macht",
+      "example": "Jeder verbesserte Standard ist die Basis für das nächste Kaizen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kontinuierlich",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Am Gemba",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Günstig, Daten",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Neuer Standard",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Kontinuierlich und von Menschen getragen",
+        "Beginnt am Gemba",
+        "Zuerst günstig, mit Daten belegt",
+        "Endet in einem neuen Standard"
+      ],
+      "at": [
+        3.222,
+        9.287,
+        13.95,
+        19.755
+      ],
+      "exampleAt": 26.243
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Die Kaizen-Haltung",
+      "example": "„Wir haben ihn immer gewendet“ ist genau der Satz, den Kaizen hinterfragt.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "„Haben wir immer so gemacht“",
+            "sub": "Verlust hinnehmen",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "„Jeder Prozess kann besser werden“",
+            "sub": "Kaizen",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Jeder Prozess kann besser werden",
+        "Probleme sind zum Lernen da, nicht zum Beschuldigen",
+        "Kreativität vor Kapital"
+      ],
+      "at": [
+        3.535,
+        7.888,
+        18.564
+      ],
+      "exampleAt": 26.123
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Arten von Kaizen",
+      "example": "Das doppelte Wenden: ein Punkt-Kaizen, getragen von Sureshs eigenem Team.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM GRÖSSTEN",
+        "bottom": "AM KLEINSTEN",
+        "items": [
+          {
+            "label": "System-Kaizen",
+            "sub": "Wochen",
+            "icon": "stack",
+            "with": 3
+          },
+          {
+            "label": "Kaizen-Event",
+            "sub": "3–5 Tage",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Punkt-Kaizen",
+            "sub": "Stunden bis Tage",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Tages-Kaizen",
+            "sub": "Minuten",
+            "icon": "hand",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Tages-Kaizen: Minuten bis Tage",
+        "Punkt-Kaizen: ein bestimmter Verlust",
+        "Kaizen-Event: drei bis fünf Tage",
+        "System-Kaizen: Fluss von Anfang bis Ende"
+      ],
+      "at": [
+        3.956,
+        9.929,
+        15.836,
+        22.646
+      ],
+      "exampleAt": 28.127
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Kaizen läuft mit PDCA",
+      "example": "SDCA hält den Standard. PDCA verbessert ihn.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Plan",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Do",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Check",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Act",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan: beobachten, definieren, Ursache finden",
+        "Do: ein kleiner, sicherer Versuch",
+        "Check: mit der Ausgangslage vergleichen",
+        "Act: standardisieren, oder lernen und wiederholen"
+      ],
+      "at": [
+        2.479,
+        8.476,
+        12.18,
+        18.154
+      ],
+      "exampleAt": 23.675
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Am Gemba sehen",
+      "example": "Nach unten wenden für den Fuß, nach oben für den Test. Zwei Hebungen eines 6-kg-Monitors.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Bildschirm unten: Fuß montieren",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Bildschirm oben: testen",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Zwei Hebungen à 6 kg",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die Arbeit sehen, wie sie wirklich ist",
+        "Laufen, Greifen, Wenden zählen",
+        "Fragen, was die Arbeit schwer macht"
+      ],
+      "at": [
+        2.896,
+        9.444,
+        14.166
+      ],
+      "exampleAt": 18.509
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Das Problem definieren",
+      "example": "Zyklus 38 s gegenüber TAKT 35 s. 2 Wendungen pro Einheit. 15 verkratzte Panels pro 1.000.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 35,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "Zykluszeit",
+            "value": 38,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Symptom, dann die Fakten",
+        "Den Verlust messen",
+        "Ein Ziel mit Termin"
+      ],
+      "at": [
+        0.257,
+        9.097,
+        31.673
+      ],
+      "exampleAt": 14.289
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Ideen finden",
+      "example": "Leela, eine Werkerin: „Warum den Fuß nicht montieren, solange der Monitor noch in der Schale liegt?“",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Werker fragen",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "ECRS",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Andere Linien",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Zweimal wenden",
+              "sub": "Heute",
+              "icon": "weight",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Fuß in der Schale montieren",
+              "sub": "Leelas Idee",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Zuerst die Werker fragen",
+        "ECRS nutzen",
+        "Andere Linien anschauen"
+      ],
+      "at": [
+        4.156,
+        12.893,
+        20.157
+      ],
+      "exampleAt": 24.477
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Die Idee wählen",
+      "example": "Leelas Idee: hoch bei Wirkung, Aufwand und Kosten. Sie gewann.",
+      "visual": {
+        "type": "icons",
+        "with": "example",
+        "items": [
+          {
+            "label": "Roboterarm",
+            "sub": "Bewertung 2,4",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Hebehilfe",
+            "sub": "Bewertung 3,6",
+            "icon": "weight",
+            "with": "example"
+          },
+          {
+            "label": "Leelas Idee",
+            "sub": "Bewertung 4,7 von 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Sicherheit und Qualität sind K.-o.-Kriterien",
+        "Wirkung, Aufwand, Kosten, Tempo bewerten",
+        "Sie muss eine bestätigte Ursache treffen"
+      ],
+      "at": [
+        4.61,
+        9.276,
+        14.351
+      ],
+      "exampleAt": 20.329
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Klein testen",
+      "example": "Eine Station, eine Schicht: neue Schrittfolge und ein Schaumpolster in der Schale. Kosten: fast nichts.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Hypothese: beide Wendungen fallen weg",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Umfang: eine Station, eine Schicht",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Gleiche Messgrößen wie die Ausgangslage",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Schaumpolster + neue Schrittfolge",
+            "icon": "shape",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Eine Hypothese und ein Umfang",
+        "Gleiche Messgrößen wie die Ausgangslage",
+        "Menschen beobachten, nicht nur Zahlen"
+      ],
+      "at": [
+        3.131,
+        16.705,
+        20.523
+      ],
+      "exampleAt": 24.529
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Die Ergebnisse prüfen",
+      "example": "Ausgewogenheitsregel: das Ziel wird besser, und Sicherheit, Qualität und Lieferung leiden nicht.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 15
+        },
+        "after": {
+          "label": "Versuch",
+          "value": 3
+        },
+        "unit": "verkratzte Panels pro 1.000 Monitore",
+        "note": "Zyklus 38 s → 33 s · Wendungen 2 → 0",
+        "with": 2
+      },
+      "bullets": [
+        "Zykluszeit: von 38 s auf 33 s",
+        "Wendungen pro Einheit: von 2 auf 0",
+        "Kratzer: von 15 auf 3 pro 1.000",
+        "Nichts anderes wurde schlechter"
+      ],
+      "at": [
+        0.251,
+        6.302,
+        9.064,
+        15.958
+      ],
+      "exampleAt": 29.483
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Ehrlich messen",
+      "example": "Tag 30: weiter 33 s. Tag 90: weiter 33 s, und 3 Kratzer pro 1.000.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Ausgangslage",
+            "sub": "Vorher",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Weiter 33 s",
+            "sub": "Tag 30",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Weiter 33 s",
+            "sub": "Tag 90",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Gleiche Definitionen, vorher und nachher",
+        "Gute Menge zählen, nicht Brutto",
+        "Nach 30, 60, 90 Tagen erneut prüfen"
+      ],
+      "at": [
+        2.447,
+        7.235,
+        23.263
+      ],
+      "exampleAt": 28.726
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Den Gewinn standardisieren",
+      "example": "Die alten Wendeanweisungen wurden noch in derselben Woche von jeder Station entfernt.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "SOP aktualisieren",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Schulen, alten Weg entfernen",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Verantwortlicher und Audit",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "SOP und Standardarbeit aktualisieren",
+        "Alle schulen, den alten Weg entfernen",
+        "Verantwortlichen benennen und auditieren"
+      ],
+      "at": [
+        4.687,
+        9.619,
+        14.653
+      ],
+      "exampleAt": 19.538
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Eine Gewohnheit daraus machen",
+      "example": "Sureshs Team: 40 Ideen in 3 Monaten, 27 getestet, 19 standardisiert.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Sureshs Team, die ersten drei Monate",
+        "with": "example",
+        "items": [
+          {
+            "label": "Ideen",
+            "value": 40,
+            "with": "example"
+          },
+          {
+            "label": "Getestet",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Standardisiert",
+            "value": 19,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Eine sichtbare Ideentafel",
+        "Schnelle Antworten auf jede Idee",
+        "Die Menschen anerkennen"
+      ],
+      "at": [
+        4.035,
+        8.931,
+        15.245
+      ],
+      "exampleAt": 24.026
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Morgen starten",
+      "example": "Kaizen = kleine Verbesserungen × disziplinierte Wiederholung × Eigenverantwortung.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Ein wiederkehrender Schmerz",
+            "with": 0
+          },
+          {
+            "label": "Zehn Zyklen, mit dem Team reden",
+            "with": 1
+          },
+          {
+            "label": "Kleinste sichere Lösung",
+            "with": 2
+          },
+          {
+            "label": "Standardisieren",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Einen wiederkehrenden Schmerz wählen",
+        "Zehn Zyklen beobachten, mit dem Team reden",
+        "Die kleinste sichere Lösung testen"
+      ],
+      "at": [
+        2.695,
+        7.266,
+        18.279
+      ],
+      "exampleAt": 25.131
+    }
+  ]
+}

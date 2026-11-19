@@ -1,0 +1,34 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "La estación 4 corre 33 s contra un TAKT de 30 segundos; la estación 1 corre 22 s. ¿Qué debes probar primero?",
+      "options": [
+        "Pedirle al operador de la estación 4 que trabaje más rápido",
+        "Pasar una tarea factible de la estación 4 a la estación 1, o mejorar su método, y luego hacer un piloto y volver a medir",
+        "Quitar una revisión de calidad en la estación 4",
+        "Cambiar el TAKT a 33 segundos"
+      ],
+      "correct": 1,
+      "explanation": "Balancear mueve trabajo factible o mejora el método. Presionar a la gente, quitar revisiones o redefinir el TAKT esconde el problema en lugar de corregirlo.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "420 minutos netos atienden una demanda de 840 unidades buenas. ¿Cuál es el tiempo TAKT?",
+      "options": [
+        "20 segundos por unidad",
+        "30 segundos por unidad",
+        "2 segundos por unidad",
+        "60 segundos por unidad"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = tiempo neto ÷ demanda = 420 × 60 ÷ 840 = 30 segundos por unidad.",
+      "think": 14
+    }
+  ]
+}

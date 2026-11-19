@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quel est le meilleur énoncé de problème pour un Kaizen ?",
+      "options": [
+        "« Il nous faut un bras robotisé sur la ligne de moniteurs »",
+        "« Le temps de cycle est de 38 s contre un TAKT de 35 s, avec 2 retournements par unité ; atteindre 35 s en 4 semaines »",
+        "« Les opérateurs sont trop lents »"
+      ],
+      "correct": 1,
+      "explanation": "Un bon énoncé contient l'écart mesuré, la perte observée et une cible avec une échéance, sans nommer de solution ni blâmer les personnes.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un essai réduit le temps de cycle de 4 secondes, mais les opérateurs signalent des douleurs à l'épaule. Et maintenant ?",
+      "options": [
+        "Le standardiser : la cible s'est améliorée",
+        "Le considérer comme pas encore réussi : adapter la méthode et retester",
+        "Faire tourner les opérateurs chaque heure et le garder"
+      ],
+      "correct": 1,
+      "explanation": "La règle de l'équilibre : un Kaizen ne réussit que si la sécurité, la qualité et les personnes n'en souffrent pas. Une douleur veut dire que la méthode doit changer avant de devenir le standard.",
+      "think": 15
+    }
+  ]
+}

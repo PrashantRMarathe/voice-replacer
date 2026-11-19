@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Ein Werker hat den Kurs beendet, wurde aber noch nicht bewertet. Darf er als L3 zählen?",
+      "options": [
+        "Ja, der Kurs ist abgeschlossen",
+        "Nein, L3 braucht nachgewiesene, bewertete Leistung",
+        "Ja, wenn er schon lange dort arbeitet"
+      ],
+      "correct": 1,
+      "explanation": "Anwesenheit und Dienstalter sind keine Kompetenz. Stufe 3 heißt selbstständige Leistung, durch eine Bewertung mit Belegen nachgewiesen.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Nur eine Person der Schicht ist für den Linsenfokus qualifiziert, und die Leistung hängt davon ab. Was sollte der Zellenleiter ZUERST tun?",
+      "options": [
+        "Alle in allem schulen",
+        "Eine Vertretung für den Linsenfokus als oberste Priorität qualifizieren",
+        "Den Experten bitten, nie Urlaub zu nehmen",
+        "Zuerst Fähigkeiten mit geringem Risiko schulen, weil es schneller geht"
+      ],
+      "correct": 1,
+      "explanation": "Die Abhängigkeit von einer Person bei einer kritischen Fähigkeit ist das größte Risiko. Qualifizieren Sie dort zuerst eine Vertretung, dann weiten Sie die Mehrfachqualifizierung aus.",
+      "think": 17
+    }
+  ]
+}

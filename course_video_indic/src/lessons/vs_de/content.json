@@ -1,0 +1,700 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was eine VSM zeigt",
+      "example": "Rahul folgt einer Set-Top-Box von den eingehenden Platinen bis zum Versand, mit Planungssignalen und Lagerfreigabe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eine Produktfamilie",
+            "icon": "box"
+          },
+          {
+            "label": "Material + Information",
+            "icon": "sequence"
+          },
+          {
+            "label": "Arbeit gegen Warten",
+            "icon": "clock"
+          },
+          {
+            "label": "Ein gemeinsames Bild",
+            "icon": "person"
+          }
+        ]
+      },
+      "bullets": [
+        "Eine Produktfamilie, vom Auftrag bis zur Lieferung",
+        "Material und die Information, die es steuert",
+        "Wertschöpfende Arbeit, Warten, Bestand",
+        "Ein gemeinsames Bild der Wirklichkeit"
+      ],
+      "at": [
+        4.061,
+        10.679,
+        16.259,
+        23.357
+      ],
+      "exampleAt": 29.403
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Wert, Fluss und Verschwendung",
+      "example": "Rahuls Box: 15 Minuten Bau und Test gegen 2 Tage Warten auf die Materialfreigabe.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "2 Tage Warten",
+            "sub": "auf die Materialfreigabe",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "15 Minuten echte Arbeit",
+            "sub": "gebaut und getestet",
+            "icon": "wrench",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Wert: wofür der Kunde zahlen würde",
+        "Heute nötig, aber ohne Wert",
+        "Reine Verschwendung: Warten, Transport, Nacharbeit"
+      ],
+      "at": [
+        0.238,
+        11.389,
+        18.203
+      ],
+      "exampleAt": 24.299
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Produktfamilien und Umfang",
+      "example": "Handys und Audiogeräte teilen die Verpackung, aber der Test ist ganz anders, also getrennte Karten.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Montage",
+          "Handytest",
+          "Audiotest",
+          "Verpackung"
+        ],
+        "note": "Gleiche Verpackung, anderer Test: getrennte Karten",
+        "items": [
+          {
+            "label": "Handys",
+            "cells": [
+              3,
+              3,
+              null,
+              3
+            ],
+            "with": 2
+          },
+          {
+            "label": "Audio",
+            "cells": [
+              3,
+              null,
+              3,
+              3
+            ],
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Nicht alles auf einmal abbilden",
+        "Familie: gleiche Schritte und Anlagen",
+        "Raster Produkte × Prozesse",
+        "Produkte mit gleichem Weg gruppieren"
+      ],
+      "at": [
+        0.263,
+        3.488,
+        17.436,
+        23.667
+      ],
+      "exampleAt": 27.693
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Symbole und Regeln",
+      "example": "Kaizen-Blitze markieren Ideen; eine Zeitleiste trennt Bearbeitung und Warten. Immer eine Legende ergänzen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kunde, Lieferant",
+            "icon": "box"
+          },
+          {
+            "label": "Prozess- + Datenkästen",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Dreiecke: Bestand",
+            "icon": "stack"
+          },
+          {
+            "label": "Material gegen Information",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Fabriksymbole: Kunde und Lieferant",
+        "Prozesskästen + Datenkästen",
+        "Dreiecke: wartender Bestand",
+        "Material- und Informationspfeile"
+      ],
+      "at": [
+        4.594,
+        9.054,
+        18.591,
+        22.12
+      ],
+      "exampleAt": 27.85
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Gemba-Rundgang und Daten",
+      "example": "Rahuls System zeigte eine Zahl für das WIP am Test, seine Zählung eine andere. Er glich sie vor jeder Rechnung ab.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Zum Gemba gehen",
+            "icon": "walk"
+          },
+          {
+            "label": "Vom Versand zurück",
+            "icon": "sequence"
+          },
+          {
+            "label": "Echte Zyklen messen",
+            "icon": "clock"
+          },
+          {
+            "label": "Jeden Puffer zählen",
+            "sub": "Mit dem System abgleichen",
+            "icon": "count",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Am Gemba beginnen",
+        "Vom Versand zurück zum Lieferanten gehen",
+        "Echte Zyklen selbst messen",
+        "WIP an jedem Puffer zählen"
+      ],
+      "at": [
+        0.25,
+        5.641,
+        16.134,
+        22.507
+      ],
+      "exampleAt": 26.389
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Kundenbedarf und TAKT",
+      "example": "1.200 gute Boxen in einer Schicht → TAKT 21 Sekunden, etwa 170 pro Stunde. Eine Station mit 24 Sekunden schafft das nicht allein.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Das Tempo des Kunden",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Nettozeit ÷ gute Einheiten",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Jede Station vergleichen",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 21,
+          "suffix": " s",
+          "note": "schafft es nicht allein",
+          "unit": "1.200 gute Boxen pro Schicht ≈ 170 pro Stunde",
+          "with": "example",
+          "items": [
+            {
+              "label": "Eine Station",
+              "value": 24,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: das Tempo, das Ihr Kunde braucht",
+        "Nettozeit ÷ gute Einheiten, gleicher Zeitraum",
+        "Jede Station damit vergleichen"
+      ],
+      "at": [
+        0.249,
+        4.535,
+        28.596
+      ],
+      "exampleAt": 16.099
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Die Ist-Zustand-Karte",
+      "example": "Die Planung gab wöchentliche Chargen frei; der Test schaffte nur eine Tagesrate. Dazwischen stapelten sich Boxen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Planung: Wochenchargen",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Boxen stapeln sich",
+            "sub": "Halbfertig, wartend",
+            "icon": "stack",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Test: eine Tagesrate",
+            "icon": "test",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Bedarf rechts, dann nach vorn arbeiten",
+        "Daten unter jeden Kasten",
+        "Den Informationsfluss zeichnen",
+        "Mit Ihren Werkern prüfen"
+      ],
+      "at": [
+        3.561,
+        11.317,
+        15.329,
+        40.109
+      ],
+      "exampleAt": 24.337
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Durchlaufzeit und Bestand",
+      "example": "Drei Puffer bei 1.200 am Tag = 3,5 Tage Warten gegen 15 Minuten Bearbeitung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Arbeit gegen Warten",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Puffer ÷ Tagesbedarf",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Wertschöpfungsanteil",
+            "sub": "Ein Signal, kein Beweis",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3.5,
+          "decimals": 1,
+          "suffix": " Tage",
+          "icon": "clock",
+          "label": "Warten",
+          "unit": "gegen nur 15 Minuten Bearbeitung",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Zeitleiste: Arbeit gegen Warten",
+        "Warten = Puffer ÷ Tagesbedarf",
+        "Wertschöpfungsanteil: ein Signal, kein Beweis"
+      ],
+      "at": [
+        0.245,
+        4.621,
+        28.438
+      ],
+      "exampleAt": 11.464
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Engpässe und Ursachen",
+      "example": "2.000 Boxen warten am Test: zu wenig Tester, Stillstand, Firmware oder Chargenfreigaben? Vor dem Kauf prüfen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Eine Karte zeigt wo, nicht warum",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Schlangen, Eilaufträge, Nacharbeit",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Pareto, fünf Warum, Fischgräte",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Zu wenig Tester?",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Stillstand?",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "Firmware?",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Chargenfreigaben?",
+              "icon": "stack",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eine Karte zeigt wo, nicht warum",
+        "Lange Schlangen, Eilaufträge, Nacharbeitsschleifen",
+        "Tiefer graben: Pareto, fünf Warum, Fischgräte"
+      ],
+      "at": [
+        0.251,
+        5.701,
+        11.684
+      ],
+      "exampleAt": 17.98
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Soll-Zustand: Fluss und Pull",
+      "example": "Rahuls Entwurf: Montage und Verpackung teilen eine begrenzte Bahn; Platinen werden aus einem Supermarkt gezogen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Platinen aus einem Supermarkt gezogen",
+            "icon": "tray"
+          },
+          {
+            "label": "Montage",
+            "icon": "wrench"
+          },
+          {
+            "label": "Eine begrenzte FIFO-Bahn",
+            "icon": "sequence"
+          },
+          {
+            "label": "Verpackung: der Schrittmacher",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Fließfertigung im oder unter dem TAKT",
+        "Begrenzte First-in-first-out-Bahnen",
+        "Supermarkt mit Pull-Signalen",
+        "Ein Schrittmacherprozess"
+      ],
+      "at": [
+        7.592,
+        14.332,
+        21.164,
+        25.174
+      ],
+      "exampleAt": 31.134
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Pitch, Kanban und Nachschub",
+      "example": "Packungen zu 20 → ein Pitch von 7 Minuten. Ein Kit reicht 6 Minuten, Nachschub dauert 12: mehr Kits, oder schnellerer Nachschub.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Pitch = TAKT × Packung",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "Kanban-Größe",
+            "icon": "label",
+            "with": 1
+          },
+          {
+            "label": "Nachschub beweisen",
+            "icon": "check",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Packungen zu 20: ein Pitch von 7 Minuten",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Ein Kit reicht 6 Min.; Nachschub dauert 12",
+              "icon": "clock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Mehr Kits, oder schnellerer Nachschub",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Pitch = TAKT × Packmenge",
+        "Kanban-Größe: Wiederbeschaffungszeit und Bedarf",
+        "Nachschub beweisen, bevor Bestand sinkt"
+      ],
+      "at": [
+        3.724,
+        17.687,
+        35.153
+      ],
+      "exampleAt": 11.387
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Durchgerechnete Fallstudie",
+      "example": "Die Wartezeit sinkt unter zwei Tage, 50 % weniger. Aber er schaltet noch nicht um.",
+      "visual": {
+        "type": "stat",
+        "value": 3.5,
+        "decimals": 1,
+        "suffix": " Tage",
+        "icon": "clock",
+        "label": "Wartezeit heute",
+        "unit": "4.200 wartende Einheiten ÷ 1.200 am Tag",
+        "with": 1,
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Heute",
+            "value": 4200
+          },
+          "after": {
+            "label": "Soll-Zustand",
+            "value": 2100
+          },
+          "unit": "wartende Einheiten in drei Puffern",
+          "note": "Wartezeit halbiert (geplant)",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "1.200 Boxen am Tag; 4.200 wartend",
+        "3,5 Tage Wartezeit",
+        "Soll-Zustand: Puffer halbiert",
+        "Zuerst Kapazität, Material, Qualität bestätigen"
+      ],
+      "at": [
+        4.104,
+        12.923,
+        16.541,
+        32.736
+      ],
+      "exampleAt": 22.719
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI und echter Nutzen",
+      "example": "Weniger WIP setzt etwa ₹31 lakh Bestand frei: einmal freigesetztes Geld, kein jährlicher Gewinn.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Der ganze Fluss",
+            "icon": "sequence"
+          },
+          {
+            "label": "Durchlaufzeit, WIP, Liefertreue, FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Ausgangswert, dann Wochen",
+            "icon": "calendar"
+          },
+          {
+            "label": "Bestand, der nur wanderte",
+            "icon": "stack",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 31,
+          "prefix": "₹",
+          "suffix": " lakh",
+          "icon": "box",
+          "label": "Bestand freigesetzt",
+          "unit": "Einmal freigesetztes Geld: kein jährlicher Gewinn",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Den ganzen Fluss messen",
+        "Durchlaufzeit, WIP, Liefertreue, FPY",
+        "Ausgangswert, dann wochenlang bestätigen",
+        "Auf Bestand achten, der nur verschoben wurde"
+      ],
+      "at": [
+        0.261,
+        5.33,
+        12.112,
+        18.849
+      ],
+      "exampleAt": 25.494
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Steuerung und 90 Tage",
+      "example": "Rahul behob den Test-Engpass, bevor er dessen Puffer senkte. Sonst läuft die Linie leer.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Familie wählen, Ist abbilden",
+            "sub": "Tag 1–30",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Soll gestalten, Pull pilotieren",
+            "sub": "31–60",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Stabilisieren, auditieren, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Jede Funktion hat eine Rolle",
+        "Tag 1–30: Familie wählen, Ist abbilden",
+        "Tag 31–60: Soll gestalten, Pull pilotieren",
+        "Tag 61–90: stabilisieren, auditieren, ausweiten"
+      ],
+      "at": [
+        0.248,
+        18.176,
+        24.268,
+        29.823
+      ],
+      "exampleAt": 35.604
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Was tun, was lassen, Vorlage",
+      "example": "Eine Karte nur mit Prozesskästen ist keine Wertstromkarte. Sie ist nur ein Flussdiagramm.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bei Änderungen anpassen",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Echter Fluss, mit Werkern",
+            "icon": "person",
+            "tone": "good"
+          },
+          {
+            "label": "Zyklus ≠ Durchlaufzeit",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Kapazität vor dem Pufferabbau",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Bei Änderung von Bedarf oder Weg anpassen",
+        "Echten Fluss abbilden, Werker einbeziehen",
+        "Zykluszeit ≠ Durchlaufzeit",
+        "Kapazität prüfen, bevor Puffer wegfallen"
+      ],
+      "at": [
+        4.918,
+        11.01,
+        23.111,
+        32.511
+      ],
+      "exampleAt": 39.083
+    }
+  ]
+}

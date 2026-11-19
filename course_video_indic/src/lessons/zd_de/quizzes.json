@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "970 von 1.000 Einheiten bestehen den ersten Test ohne Nacharbeit. Wie hoch ist der First Pass Yield?",
+      "options": [
+        "3%",
+        "97%",
+        "9,7 pro Einheit"
+      ],
+      "correct": 1,
+      "explanation": "FPY = beim ersten Mal angenommen ÷ gesamt = 970 ÷ 1.000 = 97 %. Er zählt nur Einheiten, die beim ersten Mal bestanden, ohne Nacharbeit.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Eine Audiolinie findet in dieser Schicht an 30 Einheiten vertauschte Lautsprecherpolarität. Was sollte das Team ZUERST tun?",
+      "options": [
+        "Den Werker nachschulen und weitermachen",
+        "Stoppen, verdächtige Einheiten eingrenzen, dann die Grundursache finden",
+        "Ein Warnschild am Lautsprecher anbringen",
+        "Die Endprüfung verstärken"
+      ],
+      "correct": 1,
+      "explanation": "Zuerst eingrenzen: stoppen und verdächtige Einheiten bis zum letzten guten Punkt sperren. Dann die Grundursache finden und vorbeugen, z. B. mit einem codierten Polaritätsstecker. Schuld, Schilder und mehr Prüfung stoppen keine Wiederholung.",
+      "think": 16
+    }
+  ]
+}

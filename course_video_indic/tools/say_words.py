@@ -22,6 +22,7 @@ import lesson_lib  # noqa: E402
 import pronounce  # noqa: E402
 
 LATIN = r"[A-Za-z0-9][A-Za-z0-9'-]*(?: [A-Za-z][A-Za-z0-9'-]*)*"   # "SOP", "A3", "Burn Down Chart"
+LATIN_LANGS = {"es", "fr", "de"}  # Latin-script languages: terms come from each lesson's SPOKEN
 
 names = [a for a in sys.argv[1:] if not a.startswith("--")]
 if not names:
@@ -36,8 +37,12 @@ found = {}
 for mod in mods:
     for _, text in lesson_lib.scenes(mod):
         for s in re.split(r"(?<=[.!?।])\s+", text.strip()):
-            terms = [t for t in re.findall(LATIN, s) if re.search("[A-Za-z]", t)]
-            terms += [w for w in pronounce.PRON.get(lang, {}) if w in s]
+            if lang in LATIN_LANGS:  # every word is Latin: the English terms are the SPOKEN keys
+                terms = [t for t in getattr(mod, "SPOKEN", {})
+                         if re.search(rf"(?<![A-Za-z0-9]){re.escape(t)}(?![A-Za-z0-9])", s)]
+            else:
+                terms = [t for t in re.findall(LATIN, s) if re.search("[A-Za-z]", t)]
+            terms += [w for w in pronounce.PRON.get(lang, {}) if re.search(rf"(?<!\w){re.escape(w)}", s)]
             for t in terms:
                 if t not in found or len(s) < len(found[t][0]):
                     found[t] = (s, lesson_lib.say(mod, s))

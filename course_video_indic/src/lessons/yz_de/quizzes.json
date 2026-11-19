@@ -1,0 +1,34 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Station 4 läuft mit 33 s bei einem TAKT von 30 Sekunden; Station 1 mit 22 s. Was versuchen Sie zuerst?",
+      "options": [
+        "Den Werker an Station 4 bitten, schneller zu arbeiten",
+        "Eine machbare Aufgabe von Station 4 zu Station 1 verlegen oder ihre Methode verbessern, dann pilotieren und neu messen",
+        "Eine Qualitätsprüfung an Station 4 streichen",
+        "Den TAKT auf 33 Sekunden setzen"
+      ],
+      "correct": 1,
+      "explanation": "Abstimmen heißt, machbare Arbeit zu verlegen oder die Methode zu verbessern. Leute antreiben, Prüfungen streichen oder den TAKT umdefinieren verdeckt das Problem, statt es zu lösen.",
+      "think": 20
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "420 Netto-Minuten decken einen Bedarf von 840 guten Einheiten. Wie lang ist die TAKT Zeit?",
+      "options": [
+        "20 Sekunden pro Einheit",
+        "30 Sekunden pro Einheit",
+        "2 Sekunden pro Einheit",
+        "60 Sekunden pro Einheit"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = Nettozeit ÷ Bedarf = 420 × 60 ÷ 840 = 30 Sekunden pro Einheit.",
+      "think": 16
+    }
+  ]
+}

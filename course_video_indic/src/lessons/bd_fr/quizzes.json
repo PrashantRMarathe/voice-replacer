@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "800 unités doivent être terminées en 4 jours. Après le jour 2, 340 sont faites. Où en est l'équipe ?",
+      "options": [
+        "60 unités d'avance sur le plan",
+        "60 unités de retard sur le plan",
+        "Exactement dans le plan"
+      ],
+      "correct": 1,
+      "explanation": "Restant idéal au jour 2 = 800 − 2 × 200 = 400. Restant réel = 800 − 340 = 460. 460 − 400 = 60 de retard sur le plan.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un graphique des défauts restants est plat depuis deux jours. Que doit vérifier l'équipe en premier ?",
+      "options": [
+        "Rien : une ligne plate veut dire que tout est stable",
+        "Si le travail s'est arrêté, qui en est responsable, et si les données ont été mises à jour",
+        "Redessiner la ligne idéale pour coller à la réalité"
+      ],
+      "correct": 1,
+      "explanation": "Une ligne plate signifie que rien n'a été clos. Vérifiez s'il y a un arrêt, le responsable et les données. Redessiner la ligne idéale ne fait que cacher l'écart.",
+      "think": 13
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Low Cost Automation",
+      "example": "El objetivo de Gaurav: asentar la rejilla, a mano con un mazo de hule.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Dispositivos simples",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Menos repetición, menos errores",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Sin línea completa de robots",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 400,
+          "icon": "hand",
+          "label": "golpes de mazo por hora",
+          "unit": "por operador",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Dispositivos simples, confiables y económicos",
+        "Eliminar trabajo repetitivo y errores",
+        "Sin necesidad de automatizar todo"
+      ],
+      "at": [
+        4.724,
+        8.974,
+        15.116
+      ],
+      "exampleAt": 25.109
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "La filosofía central",
+      "example": "Cotizaron un robot sofisticado en ₹18 lakh. Gaurav preguntó: ¿qué necesita de verdad el trabajo?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Necesidad, no complejidad",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Primero simplificar",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Personas en el ciclo",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Medir, mantener",
+            "icon": "wrench",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Automatiza la necesidad, no la complejidad",
+        "Simplifica antes de automatizar",
+        "Mantén a las personas en el ciclo",
+        "Mídelo, dale mantenimiento"
+      ],
+      "at": [
+        2.592,
+        10.782,
+        14.56,
+        20.183
+      ],
+      "exampleAt": 24.167
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Cuándo tiene sentido el LCA",
+      "example": "Asentar la rejilla: cada ciclo, tensión en la muñeca, y asentado disparejo. Cumple las cuatro.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Repetitivo",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Riesgo ergonómico",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Pasos olvidados",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Cuello de botella",
+            "icon": "clock",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Movimientos frecuentes y repetitivos",
+        "Riesgo ergonómico o de seguridad",
+        "Pasos olvidados o hechos al revés",
+        "Cuello de botella, pero sin justificar un robot"
+      ],
+      "at": [
+        2.798,
+        7.906,
+        12.449,
+        17.234
+      ],
+      "exampleAt": 25.717
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Bajo costo, nunca baja seguridad",
+      "example": "La regla de Gaurav: ningún dispositivo corre hasta que el equipo de seguridad firma la evaluación de riesgos.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Primero el filtro de seguridad",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Guardas, paros de emergencia, revisión de riesgos",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Firmado antes de correr",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La seguridad es el primer filtro del diseño",
+        "Guardas, paros, evaluación de riesgos",
+        "Un sensor normal no es un dispositivo de seguridad"
+      ],
+      "at": [
+        5.632,
+        11.196,
+        18.741
+      ],
+      "exampleAt": 24.604
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Niveles de LCA",
+      "example": "Manual → asistido → semiautomático → automático.",
+      "visual": {
+        "type": "ladder",
+        "top": "AUTOMÁTICO",
+        "bottom": "MANUAL",
+        "items": [
+          {
+            "label": "Sensores y controles simples",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Ayuda neumática",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Ayuda mecánica",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Manual",
+            "icon": "hand",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mecánico: gravedad, resortes, guías",
+        "Neumático: prensas, sujetadores, pinzas",
+        "Sensores y controles simples",
+        "Elige el nivel más bajo que funcione"
+      ],
+      "at": [
+        2.517,
+        9.594,
+        15.018,
+        26.379
+      ],
+      "exampleAt": 21.702
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "El método LCA",
+      "example": "La base de Gaurav: ciclo de 28 s, 18 rejillas flojas por cada 1,000 bocinas.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Observar, medir",
+            "with": 0
+          },
+          {
+            "label": "Simplificar, definir",
+            "with": 1
+          },
+          {
+            "label": "Concepto, riesgo, prototipo",
+            "with": 2
+          },
+          {
+            "label": "Validar, estandarizar, copiar",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observar y medir",
+        "Simplificar, luego definir la función",
+        "Concepto, revisión de riesgos, prototipo",
+        "Validar, estandarizar, replicar"
+      ],
+      "at": [
+        2.7,
+        9.331,
+        15.677,
+        22.362
+      ],
+      "exampleAt": 27.013
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "ECRS antes de automatizar",
+      "example": "Gaurav eliminó un paso aparte de golpe de prueba: la nueva prensa confirmaría el asentado por sí misma.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminar",
+            "with": 0
+          },
+          {
+            "label": "Combinar",
+            "with": 0
+          },
+          {
+            "label": "Reordenar",
+            "with": 0
+          },
+          {
+            "label": "Simplificar",
+            "with": 0
+          },
+          {
+            "label": "Luego automatizar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Volver a golpear cada rejilla",
+              "sub": "Eliminado",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "La prensa confirma el asentado",
+              "sub": "Integrado",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminar, combinar, reordenar, simplificar",
+        "Solo entonces automatiza",
+        "El desperdicio automatizado sigue siendo desperdicio"
+      ],
+      "at": [
+        3.974,
+        8.301,
+        13.44
+      ],
+      "exampleAt": 22.729
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "La oportunidad de Gaurav",
+      "example": "Rejillas flojas: 18 por cada 1,000 bocinas, todas encontradas en la prueba de vibración.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "El mismo movimiento cada ciclo",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Fuerza dispareja",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Tensión en la muñeca",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 18,
+          "icon": "wave",
+          "label": "rejillas flojas por cada 1,000",
+          "unit": "encontradas en la prueba de vibración",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Movimiento repetido en cada ciclo",
+        "Fuerza dispareja, asentado disparejo",
+        "Tensión en la muñeca, cada turno"
+      ],
+      "at": [
+        1.362,
+        12.016,
+        22.315
+      ],
+      "exampleAt": 25.47
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Elegir tecnología simple",
+      "example": "La elección de Gaurav: un pequeño cilindro de aire, un nido de ubicación y un sensor de presencia.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cilindro de aire",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Nido de ubicación",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Sensor de presencia",
+            "icon": "sensor",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ajusta la tecnología a la función",
+        "Las menos piezas, piezas estándar",
+        "Fácil de limpiar, ajustar y reparar"
+      ],
+      "at": [
+        0.204,
+        10.797,
+        15.674
+      ],
+      "exampleAt": 22.766
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Diseñarlo seguro",
+      "example": "Un arranque a dos manos mantiene ambas manos fuera de la zona de la prensa. La presión de aire se libera al parar.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Puntos de atrapamiento",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Arranque a dos manos",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Aire liberado al parar",
+            "icon": "lock",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Busca puntos de atrapamiento y energía acumulada",
+        "Guardas y arranque a dos manos",
+        "Paro seguro, rearranque seguro"
+      ],
+      "at": [
+        0.0,
+        7.203,
+        12.994
+      ],
+      "exampleAt": 20.585
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La prensa de Gaurav",
+      "example": "Sin rejilla, no hay prensado. Posición incorrecta, no hay prensado. Asentada: lámpara verde.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "El nido ubica",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "El sensor confirma",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Prensado controlado",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Verde: asentada",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "El nido ubica la bocina",
+        "El sensor confirma que la rejilla está",
+        "Fuerza controlada, lámpara de OK o no OK"
+      ],
+      "at": [
+        2.633,
+        6.744,
+        12.687
+      ],
+      "exampleAt": 17.166
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Contar la ganancia real",
+      "example": "Revisión en la realidad: dos atoramientos cortos por turno, de un minuto cada uno. La ganancia se mantuvo.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Mazo",
+          "value": 28
+        },
+        "after": {
+          "label": "Prensa",
+          "value": 22
+        },
+        "suffix": " s",
+        "unit": "tiempo de ciclo por bocina",
+        "note": "Unas 35 más por hora, en teoría",
+        "with": 0
+      },
+      "bullets": [
+        "Tiempo de ciclo: de 28 s a 22 s",
+        "Producción teórica: unas 35 más por hora",
+        "Incluye paros y recuperación"
+      ],
+      "at": [
+        0.21,
+        5.776,
+        16.591
+      ],
+      "exampleAt": 24.073
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Costo y recuperación",
+      "example": "₹1.2 lakh invertidos ÷ ₹30,000 de beneficio neto al mes = recuperación en 4 meses.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Ahorro acumulado, miles de ₹: recuperado en el mes 4",
+        "with": "example",
+        "items": [
+          {
+            "label": "Mes 1",
+            "value": 30,
+            "with": "example"
+          },
+          {
+            "label": "Mes 2",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Mes 3",
+            "value": 90,
+            "with": "example"
+          },
+          {
+            "label": "Mes 4",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Costo total de propiedad",
+        "Beneficio neto, validado",
+        "Recuperación = inversión ÷ beneficio mensual"
+      ],
+      "at": [
+        0.217,
+        10.672,
+        17.524
+      ],
+      "exampleAt": 22.865
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Validar y mantener",
+      "example": "Rejillas flojas: de 18 a 2 por cada 1,000. Quejas de muñeca: ninguna en 60 días.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Mazo",
+          "value": 18
+        },
+        "after": {
+          "label": "Prensa",
+          "value": 2
+        },
+        "unit": "rejillas flojas por cada 1,000 bocinas",
+        "note": "Sin quejas de muñeca en 60 días",
+        "with": "example"
+      },
+      "bullets": [
+        "Prueba en todos los modelos y turnos",
+        "Mantenimiento preventivo y refacciones",
+        "Códigos de falla y recuperación claros"
+      ],
+      "at": [
+        0.226,
+        13.479,
+        19.435
+      ],
+      "exampleAt": 24.794
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Errores y tu siguiente paso",
+      "example": "La prensa de Gaurav ahora corre en tres líneas, copiada después de revisar que encaja en cada una.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Automatizar lo desconocido",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Primero la tecnología",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Sin refacciones, sin PM",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Copiada a 3 líneas",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Automatizar un proceso que no entiendes",
+        "Elegir primero la tecnología",
+        "Olvidar el mantenimiento y las refacciones"
+      ],
+      "at": [
+        3.122,
+        6.64,
+        10.508
+      ],
+      "exampleAt": 26.292
+    }
+  ]
+}

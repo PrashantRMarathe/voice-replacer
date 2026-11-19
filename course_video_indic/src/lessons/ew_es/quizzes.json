@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un producto pasa 300 minutos en la planta, pero solo 30 minutos lo cambian. ¿Cuál es la eficiencia de flujo?",
+      "options": [
+        "10%",
+        "30%",
+        "90%"
+      ],
+      "correct": 0,
+      "explanation": "Eficiencia de flujo = tiempo que agrega valor ÷ tiempo de entrega total = 30 ÷ 300 = 10%. El otro 90% es esperar, mover, revisar o corregir.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Para bajar el tiempo de ciclo, un equipo propone quitar la prueba final de audio. ¿Qué debe pasar?",
+      "options": [
+        "Quitarla: las pruebas no cambian el producto",
+        "Conservarla a menos que una revisión de riesgos lo apruebe, y reducir los defectos que atrapa",
+        "Pasar la prueba a las instalaciones del cliente"
+      ],
+      "correct": 1,
+      "explanation": "Las revisiones de calidad obligatorias no son desperdicio para quitar por capricho. Conserva la prueba a menos que una revisión de riesgos apruebe un cambio, y ataca los defectos detrás de ella. Pasarla al cliente solo mueve el desperdicio.",
+      "think": 13
+    }
+  ]
+}

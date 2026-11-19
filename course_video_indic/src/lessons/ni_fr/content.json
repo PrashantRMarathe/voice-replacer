@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est Next Inspection",
+      "example": "Le poste boîtier d'Anita vérifie maintenant d'abord le verrouillage du connecteur.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ne faites pas",
+            "sub": "de défaut",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Ne transmettez pas",
+            "sub": "de défaut",
+            "icon": "lock",
+            "with": 3
+          },
+          {
+            "label": "N'acceptez pas",
+            "sub": "de défaut",
+            "icon": "shield",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque processus protège le suivant",
+        "Confirmer les points critiques avant de transmettre",
+        "Ne pas faire de défaut",
+        "Ne pas transmettre de défaut",
+        "Ne pas accepter de défaut"
+      ],
+      "at": [
+        4.106,
+        7.113,
+        20.402,
+        22.604,
+        25.097
+      ],
+      "exampleAt": 27.539
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Pourquoi l'attraper tôt",
+      "example": "Connecteur mal enfiché : quelques secondes à corriger à l'assemblage → ouvrir, réparer, retester après le test → un retour chez le client.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "À l'assemblage",
+            "sub": "Quelques secondes à corriger",
+            "icon": "wrench",
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Après le test",
+            "sub": "Ouvrir, réparer, retester",
+            "icon": "test",
+            "with": "example"
+          },
+          {
+            "label": "Chez le client",
+            "sub": "Un retour, et un coup à votre réputation",
+            "icon": "box",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Les défauts coûtent plus cher à chaque étape",
+        "Détection précoce = retour rapide",
+        "Plus d'inspection ≠ qualité"
+      ],
+      "at": [
+        0.214,
+        19.487,
+        29.249
+      ],
+      "exampleAt": 3.955
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Trois niveaux d'inspection",
+      "example": "La ligne d'Anita : un capteur vérifie l'orientation, l'assembleur confirme le verrouillage, le testeur confirme le modèle.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT : LE PLUS PRÈS DE LA SOURCE",
+        "bottom": "DERNIÈRE LIGNE DE DÉFENSE",
+        "items": [
+          {
+            "label": "Source",
+            "icon": "sensor"
+          },
+          {
+            "label": "Autocontrôle",
+            "icon": "hand"
+          },
+          {
+            "label": "Processus suivant",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "À la source : vérifier d'abord la condition",
+        "Autocontrôle : vérifier votre propre travail",
+        "Processus suivant : vérifier avant d'accepter"
+      ],
+      "at": [
+        2.279,
+        8.464,
+        14.068
+      ],
+      "exampleAt": 20.273
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Le processus suivant est mon client",
+      "example": "Les assembleurs d'Anita ont demandé à l'équipe firmware : de quoi avez-vous besoin de notre part ?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Votre poste",
+            "sub": "Suivre le SOP",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Vérifier les points critiques",
+            "sub": "Produit, quantité, étiquette, délai",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Processus suivant",
+            "sub": "Votre client",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Le processus suivant est votre client",
+        "Bon produit, quantité, qualité, étiquette, délai",
+        "Ne jamais transmettre sciemment une unité anormale",
+        "Signalez-le par l'Andon"
+      ],
+      "at": [
+        3.627,
+        6.898,
+        17.874,
+        21.582
+      ],
+      "exampleAt": 24.417
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Les responsables le rendent réel",
+      "example": "Une opératrice a arrêté la ligne d'Anita pour une lentille fêlée — son responsable l'a remerciée devant l'équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Soutenir l'arrêt",
+            "icon": "shield"
+          },
+          {
+            "label": "Réagir vite",
+            "icon": "clock"
+          },
+          {
+            "label": "Apprendre, jamais blâmer",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Les responsables soutiennent quiconque arrête pour la qualité",
+        "Réagir vite quand on les appelle",
+        "Enregistrer les défauts pour apprendre, jamais pour blâmer"
+      ],
+      "at": [
+        12.575,
+        17.357,
+        20.706
+      ],
+      "exampleAt": 25.452
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Choisir quoi inspecter",
+      "example": "Anita en a choisi quatre : verrouillage du connecteur, version du firmware, joint du boîtier et étiquette.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "CTQ client",
+            "sub": "Fonction, sécurité, ajustement",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "FMEA + fuites",
+            "sub": "Ce qui continue de s'échapper",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Points où ça se glisse",
+            "sub": "Mauvaise pièce, réglage, étiquette",
+            "icon": "label",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Verrouillage du connecteur",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Version du firmware",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Joint du boîtier",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Étiquette",
+              "icon": "label",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Choisir les contrôles selon le risque",
+        "CTQ client : fonction, sécurité, ajustement",
+        "FMEA et fuites répétées",
+        "Où une mauvaise pièce ou étiquette peut-elle se glisser ?"
+      ],
+      "at": [
+        3.701,
+        6.498,
+        15.188,
+        19.893
+      ],
+      "exampleAt": 25.93
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Concevoir une porte d'inspection",
+      "example": "La porte du joint d'Anita : des échantillons limites sur l'établi et un bac rouge pour les rejets.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Échantillons bons et mauvais",
+            "icon": "shape"
+          },
+          {
+            "label": "La méthode",
+            "icon": "sensor"
+          },
+          {
+            "label": "La fréquence",
+            "icon": "clock"
+          },
+          {
+            "label": "La réaction",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Définir le bon et le mauvais, avec des échantillons",
+        "Choisir la méthode",
+        "Fixer la fréquence de contrôle",
+        "Décider la réaction à l'avance"
+      ],
+      "at": [
+        4.493,
+        11.717,
+        17.91,
+        20.703
+      ],
+      "exampleAt": 24.523
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Le plan de réaction",
+      "example": "Mauvais firmware au test : chaque unité depuis le dernier bon contrôle a été bloquée.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Arrêter : Andon",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Identifier",
+            "sub": "Défaut, modèle, numéro de série",
+            "icon": "search"
+          },
+          {
+            "label": "Confiner",
+            "sub": "Jusqu'à la dernière bonne unité",
+            "icon": "lock"
+          },
+          {
+            "label": "Corriger, vérifier, prévenir",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Arrêter ou signaler par l'Andon",
+        "Identifier le défaut, le modèle, le numéro de série",
+        "Confiner jusqu'à la dernière bonne unité",
+        "Corriger, vérifier, prévenir"
+      ],
+      "at": [
+        3.388,
+        6.298,
+        10.605,
+        14.435
+      ],
+      "exampleAt": 24.103
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Les outils Lean qui aident",
+      "example": "Anita a remplacé un contrôle visuel d'étiquette par une correspondance au scan — la mauvaise étiquette ne peut plus s'imprimer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "Jidoka + Andon",
+            "icon": "warning"
+          },
+          {
+            "label": "Travail standard",
+            "icon": "clipboard"
+          },
+          {
+            "label": "FMEA + audits",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Contrôle visuel d'étiquette",
+              "sub": "Facile à rater",
+              "icon": "search"
+            },
+            {
+              "label": "Correspondance au scan",
+              "sub": "La mauvaise étiquette ne peut pas s'imprimer",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Le Poka Yoke arrête la mauvaise pièce ou la mauvaise étape",
+        "Jidoka et Andon arrêtent et appellent à l'aide",
+        "Le travail standard rend le bon et le mauvais évidents",
+        "Le FMEA définit les risques, les audits vérifient les contrôles"
+      ],
+      "at": [
+        4.267,
+        9.618,
+        13.568,
+        18.57
+      ],
+      "exampleAt": 24.507
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Exemples en électronique",
+      "example": "Chaque contrôle se place juste après l'étape qu'il protège. L'inspection finale est le dernier filet de sécurité.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "SMT",
+            "sub": "Inspection optique, chargeurs vérifiés",
+            "icon": "chip"
+          },
+          {
+            "label": "Assemblage",
+            "sub": "Code-barres du PCB, compteur de vis",
+            "icon": "barcode"
+          },
+          {
+            "label": "Firmware",
+            "sub": "Verrouillage de version",
+            "icon": "lock"
+          },
+          {
+            "label": "Emballage",
+            "sub": "Contrôle de poids et scans",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "SMT : inspection optique, chargeurs vérifiés",
+        "Assemblage : code-barres du PCB, compteur de vis",
+        "Firmware : verrouillage de version",
+        "Emballage : contrôle de poids et scans"
+      ],
+      "at": [
+        2.312,
+        9.006,
+        15.419,
+        20.303
+      ],
+      "exampleAt": 27.753
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La qualité à la source",
+      "example": "La ligne d'Anita avait autrefois un contrôleur après chaque poste. Elle en a affecté trois à des projets de prévention.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "L'amont fabrique au standard",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "L'aval n'accepte que du bon",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Les problèmes retournent à la source",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Un contrôleur après chaque poste",
+              "sub": "Coûteux ; cache des processus faibles",
+              "icon": "person"
+            },
+            {
+              "label": "3 affectés à la prévention",
+              "sub": "La qualité à la source",
+              "icon": "shield"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "L'amont fabrique au standard",
+        "L'aval n'accepte que du bon",
+        "Les problèmes retournent au poste qui les a créés",
+        "Attention au piège de l'inspection"
+      ],
+      "at": [
+        3.93,
+        6.549,
+        9.177,
+        15.454
+      ],
+      "exampleAt": 23.976
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Pouvez-vous faire confiance au contrôle ?",
+      "example": "Les deux contrôleurs d'Anita n'étaient pas d'accord sur un joint sur cinq. De meilleurs échantillons l'ont corrigé.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fausse acceptation",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Faux rejet",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Définitions claires",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Contrôleurs formés",
+            "icon": "person"
+          },
+          {
+            "label": "Étalonner, MSA",
+            "icon": "gear"
+          },
+          {
+            "label": "Éclairage",
+            "icon": "sensor"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "prefix": "1 / ",
+          "icon": "search",
+          "label": "joints sur lesquels les deux contrôleurs n'étaient pas d'accord",
+          "unit": "De meilleurs échantillons limites l'ont corrigé",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Les fausses acceptations laissent passer des défauts",
+        "Les faux rejets poussent au contournement",
+        "Définitions claires, photos, échantillons limites",
+        "Former les contrôleurs",
+        "Étalonner les jauges, faire une MSA",
+        "Maîtriser l'éclairage et la distance de vue"
+      ],
+      "at": [
+        4.323,
+        7.732,
+        13.412,
+        19.211,
+        22.038,
+        25.09
+      ],
+      "exampleAt": 29.118
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI pour Next Inspection",
+      "example": "Le rendement monte pendant que l'effort d'inspection baisse = vous gagnez.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Rendement au premier passage",
+            "sub": "En hausse",
+            "icon": "chartUp",
+            "tone": "good"
+          },
+          {
+            "label": "Taux de fuite",
+            "sub": "En baisse",
+            "icon": "chartDown",
+            "tone": "good"
+          },
+          {
+            "label": "Retouches, temps de réaction",
+            "icon": "clock"
+          },
+          {
+            "label": "Fausses alertes",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Rendement au premier passage en hausse",
+        "Taux de fuite en baisse",
+        "Retouches, défauts répétés, temps de réaction",
+        "Fausses alertes suivies"
+      ],
+      "at": [
+        3.525,
+        6.817,
+        13.732,
+        22.434
+      ],
+      "exampleAt": 27.2
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Cas pratique : ligne de caméras",
+      "example": "Après 8 semaines : fuites de 18 à 3 par semaine, retouches réduites de plus de moitié, rendement au premier passage de 98,5 %.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Contrôles sur 4 points à risque",
+            "icon": "search",
+            "tone": "good"
+          },
+          {
+            "label": "Plan de réaction à chaque porte",
+            "icon": "clipboard",
+            "tone": "good"
+          },
+          {
+            "label": "Verrouillages joint + étiquette",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Revue hebdomadaire des fuites",
+            "icon": "calendar",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 18
+          },
+          "after": {
+            "label": "Après 8 semaines",
+            "value": 3
+          },
+          "unit": "fuites par semaine",
+          "note": "Rendement au premier passage de 98,5 %",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Contrôles de passage de relais sur 4 points à risque",
+        "Plan de réaction affiché à chaque porte",
+        "Les contrôles de joint et d'étiquette sont devenus des verrouillages",
+        "Revue hebdomadaire des fuites avec la source"
+      ],
+      "at": [
+        2.631,
+        7.28,
+        10.913,
+        15.258
+      ],
+      "exampleAt": 20.313
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Feuille de route et check-list quotidienne",
+      "example": "Questions quotidiennes : les critères sont-ils visibles ? Vos opérateurs savent-ils expliquer le plan de réaction ?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Choisir par risque",
+            "with": 0
+          },
+          {
+            "label": "Cartographier le flux",
+            "with": 0
+          },
+          {
+            "label": "Concevoir les contrôles",
+            "with": 1
+          },
+          {
+            "label": "Pilote sur une ligne",
+            "with": 2
+          },
+          {
+            "label": "Standardiser",
+            "with": 3
+          },
+          {
+            "label": "Demander chaque jour",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Choisir par risque et Pareto, cartographier le flux",
+        "Concevoir des contrôles avec des plans de réaction",
+        "Piloter une ligne, comparer avant / après",
+        "Standardiser SOP, FMEA, formation"
+      ],
+      "at": [
+        2.951,
+        10.581,
+        17.889,
+        22.08
+      ],
+      "exampleAt": 26.621
+    }
+  ]
+}

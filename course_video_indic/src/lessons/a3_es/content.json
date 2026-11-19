@@ -1,0 +1,758 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es un A3",
+      "example": "El reporte de Karthik decía “los operadores son descuidados”. Su gerente le devolvió una hoja A3 en blanco.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Papel tamaño A3",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "La historia en una hoja",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Causas, pruebas, resultados",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Hecho en equipo",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Los operadores son descuidados”",
+              "sub": "El primer reporte de Karthik",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Una hoja A3 en blanco",
+              "sub": "La respuesta de su gerente",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Su nombre viene del papel tamaño A3",
+        "Toda la historia del problema en una hoja",
+        "Definir, buscar causas, probar, sostener",
+        "Visual, y hecho en equipo"
+      ],
+      "at": [
+        0.0,
+        3.759,
+        7.955,
+        14.934
+      ],
+      "exampleAt": 21.622
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Los problemas son brechas",
+      "example": "“Los operadores son descuidados” es culpar. “Las fallas de arranque subieron a 4.8%” es una brecha.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Culpa",
+            "sub": "“Los operadores son descuidados”",
+            "icon": "person",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Brecha",
+            "sub": "Fallas de arranque hasta 4.8%",
+            "icon": "chartUp",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un problema es una brecha medible",
+        "No saltes de la queja a la solución",
+        "Una brecha se puede medir e investigar"
+      ],
+      "at": [
+        2.5,
+        8.165,
+        24.868
+      ],
+      "exampleAt": 12.765
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Dónde encaja el A3: PDCA",
+      "example": "Las fallas de arranque de Karthik: repetidas, costosas y de varias áreas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Defectos repetidos",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Paros, faltantes",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "De varias áreas",
+            "icon": "person",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Plan",
+              "icon": "clipboard",
+              "with": 2
+            },
+            {
+              "label": "Do",
+              "sub": "Piloto pequeño",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Check",
+              "sub": "Contra la meta",
+              "icon": "search",
+              "with": 2
+            },
+            {
+              "label": "Act",
+              "sub": "Estandarizar",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problemas que siguen regresando",
+        "Problemas que los equipos resuelven juntos",
+        "Basado en Plan · Do · Check · Act"
+      ],
+      "at": [
+        2.653,
+        12.527,
+        19.124
+      ],
+      "exampleAt": 32.086
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Anatomía de un A3",
+      "example": "La hoja de Karthik: siete paneles, una página, de izquierda a derecha.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Antecedentes · por qué ahora",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Situación actual · meta",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Causa raíz · por qué la brecha",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Contramedidas · plan",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Seguimiento · ¿funcionó?",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Izquierda: antecedentes, situación actual, meta",
+        "Análisis de causa raíz: por qué existe la brecha",
+        "Derecha: contramedidas, plan, seguimiento",
+        "Cada panel responde una pregunta"
+      ],
+      "at": [
+        2.392,
+        16.795,
+        21.259,
+        26.973
+      ],
+      "exampleAt": 29.881
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "El planteamiento del problema",
+      "example": "Línea 2, el mes pasado: 4.8% de 12,000 servidores falló la primera prueba de arranque, contra una referencia de 1.5%.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Débil",
+            "sub": "“La calidad está mal en todos lados”",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Preciso",
+            "sub": "Línea 2 · el mes pasado · 4.8% contra 1.5%",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nombra la brecha, nunca una causa",
+        "Línea · producto · periodo · medida",
+        "Un denominador claro, mismas definiciones",
+        "Sin culpa, sin solución"
+      ],
+      "at": [
+        5.008,
+        9.171,
+        13.863,
+        35.582
+      ],
+      "exampleAt": 18.355
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Ir a ver: las 3G",
+      "example": "7 de 10 servidores con falla en el banco: un módulo de memoria un poco levantado.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Lugar real",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Cosas reales",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Hechos reales",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 7,
+          "suffix": " / 10",
+          "icon": "chip",
+          "label": "servidores con falla en el banco",
+          "unit": "un módulo de memoria un poco levantado",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Gemba: el lugar real",
+        "Genbutsu: las cosas reales",
+        "Genjitsu: los hechos reales"
+      ],
+      "at": [
+        6.601,
+        11.327,
+        18.709
+      ],
+      "exampleAt": 23.487
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Datos en los que puedes confiar",
+      "example": "Tasa de falla a la primera = servidores únicos que fallan su primera prueba válida ÷ servidores únicos probados.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Definición clara",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Servidores únicos",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Horas, números de serie",
+            "icon": "barcode",
+            "with": 2
+          },
+          {
+            "label": "El registro coincide con el MES",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Una definición clara",
+        "Cuenta unidades únicas: las repruebas no pueden ocultar fallas",
+        "Revisa horas, números de serie, calibración",
+        "El registro de línea coincide con el MES"
+      ],
+      "at": [
+        1.131,
+        15.525,
+        25.91,
+        32.965
+      ],
+      "exampleAt": 6.852
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Ver la brecha",
+      "example": "Memoria no detectada: 288 de 576 fallas, la mitad del total.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Fallas en la primera prueba de arranque por cada 1,000 servidores, por semana",
+        "items": [
+          {
+            "label": "W1",
+            "value": 41,
+            "with": 0
+          },
+          {
+            "label": "W2",
+            "value": 46,
+            "with": 0
+          },
+          {
+            "label": "W3",
+            "value": 50,
+            "with": 0
+          },
+          {
+            "label": "W4",
+            "value": 55,
+            "tone": "bad",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Modos de falla: 576 fallas a la primera",
+          "with": 2,
+          "items": [
+            {
+              "label": "Memoria",
+              "value": 288,
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Ventilador",
+              "value": 144,
+              "with": 2
+            },
+            {
+              "label": "Red",
+              "value": 86,
+              "with": 2
+            },
+            {
+              "label": "Otro",
+              "value": 58,
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Tendencia semanal: sube cada semana",
+        "Unas 400 fallas de más",
+        "Pareto: ordena las fallas por modo"
+      ],
+      "at": [
+        2.878,
+        19.274,
+        22.235
+      ],
+      "exampleAt": 26.456
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Meta y alcance",
+      "example": "Fuera del alcance: aflojar los límites de prueba para verse mejor.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Meta",
+            "sub": "≤ 2% en 6 semanas",
+            "icon": "pin",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Límites",
+            "sub": "Tiempo de prueba, repruebas, fugas",
+            "icon": "shield",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": 2,
+          "items": [
+            {
+              "label": "Fuera del alcance",
+              "sub": "Aflojar los límites de prueba",
+              "icon": "cross",
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Dentro del alcance",
+              "sub": "Fallas de memoria, Línea 2",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Meta: 2% o menos en 6 semanas",
+        "Límites de control: tiempo de prueba, repruebas, fugas",
+        "Alcance: qué entra, qué no"
+      ],
+      "at": [
+        4.513,
+        13.986,
+        24.077
+      ],
+      "exampleAt": 30.12
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Explorar causas: Ishikawa",
+      "example": "¿Está entrenada la inserción? ¿Cambió el chasis? ¿El cierre varía por lote?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personas",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Máquina",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Método",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Medición",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Medio ambiente",
+            "icon": "wave",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Primero piensa en grande",
+        "Seis M: personas, máquina, método…",
+        "Cada rama es una suposición hasta comprobarla"
+      ],
+      "at": [
+        4.363,
+        7.83,
+        30.972
+      ],
+      "exampleAt": 17.048
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Causa raíz: Five Whys",
+      "example": "Causa raíz: las instrucciones de trabajo no se revisaron cuando cambió el chasis.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Módulo mal asentado",
+            "with": 0
+          },
+          {
+            "label": "El seguro cerró muy pronto",
+            "with": 0
+          },
+          {
+            "label": "Menos espacio en el chasis nuevo",
+            "with": 0
+          },
+          {
+            "label": "Instrucciones sin revisar",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 100,
+          "suffix": "%",
+          "icon": "test",
+          "label": "falla reproducida",
+          "unit": "presionando módulos en ángulo",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "Pregunta por qué, paso a paso",
+        "Termina en una causa de proceso que puedas corregir",
+        "Una cadena no es prueba: compruébala"
+      ],
+      "at": [
+        0.57,
+        28.863,
+        32.641
+      ],
+      "exampleAt": 24.297
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Contramedidas y contención",
+      "example": "Guía de inserción · revisión del seguro · revisión de instrucciones en cada cambio de chasis",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Guía de inserción",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Revisión del seguro",
+            "icon": "sensor",
+            "with": "example"
+          },
+          {
+            "label": "Revisión en cada cambio de chasis",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Contención",
+              "sub": "Protege al cliente ahora",
+              "icon": "lock",
+              "with": 2
+            },
+            {
+              "label": "Contramedida",
+              "sub": "Elimina la causa para siempre",
+              "icon": "key",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Rompe la causa comprobada",
+        "Evalúa: efecto, riesgo, costo, sostenibilidad",
+        "Contén ahora, corrige para siempre"
+      ],
+      "at": [
+        1.927,
+        20.73,
+        26.666
+      ],
+      "exampleAt": 4.014
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Plan y responsables",
+      "example": "¿Atorado? Escala con el bloqueo exacto y la decisión que necesitas.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Confirmar causa, piloto",
+            "sub": "Semanas 1–2",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Actualizar el SOP, entrenar",
+            "sub": "Semanas 3–4",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Verificar resultados",
+            "sub": "Semanas 5–6",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un responsable, una fecha, evidencia",
+        "Semanas 1–2: confirmar la causa, piloto",
+        "Semanas 3–4: actualizar el SOP, entrenar a cada turno",
+        "Semanas 5–6: verificar los resultados"
+      ],
+      "at": [
+        4.165,
+        9.317,
+        18.457,
+        24.694
+      ],
+      "exampleAt": 29.199
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Piloto y revisión",
+      "example": "Piloto: 48 fallas en 3,000 servidores = 1.6%.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Base",
+          "value": 4.8
+        },
+        "after": {
+          "label": "Piloto",
+          "value": 1.6
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "servidores que fallan la primera prueba de arranque",
+        "note": "Meta ≤ 2%: cumplida",
+        "with": 1
+      },
+      "bullets": [
+        "La misma mezcla de productos que la base",
+        "De 4.8% a 1.6%: meta cumplida",
+        "También revisó los límites",
+        "¿No se cumplió? Revisa la causa, no la meta"
+      ],
+      "at": [
+        6.709,
+        10.061,
+        16.026,
+        28.081
+      ],
+      "exampleAt": 4.053
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Sostener y tu A3 de 30 días",
+      "example": "Días 1–5: un problema real, la base en el Gemba. Día 20: causas y piloto. Día 30: presenta tu A3.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Un problema real, la base",
+            "sub": "Días 1–5",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Causas y piloto",
+            "sub": "Para el día 20",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Presenta tu A3",
+            "sub": "Día 30",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Actualiza el SOP, la lista de revisión, el entrenamiento",
+        "Revisión al inicio del turno; repaso a los 30/60/90 días",
+        "Cópialo solo a líneas que de verdad coincidan",
+        "Tu propio A3 en 30 días"
+      ],
+      "at": [
+        4.484,
+        9.519,
+        17.792,
+        22.787
+      ],
+      "exampleAt": 25.148
+    }
+  ]
+}

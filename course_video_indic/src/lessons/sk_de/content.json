@@ -1,0 +1,743 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was eine Qualifikationsmatrix ist",
+      "example": "Vikrams Zelle: Platinenmontage, Linsenfokus, Test und Verpackung, mit freigegebenen Vertretungen für jede.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wer welche Arbeit macht",
+            "icon": "person"
+          },
+          {
+            "label": "Nachgewiesene Stufe",
+            "icon": "check"
+          },
+          {
+            "label": "Die Lücken",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Keine Anwesenheit",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Wer welche Arbeit kann, und wie gut",
+        "Die nachgewiesene Stufe jeder Person",
+        "Die Lücken",
+        "Keine Anwesenheitsliste"
+      ],
+      "at": [
+        6.683,
+        10.123,
+        15.966,
+        18.468
+      ],
+      "exampleAt": 23.139
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum sie zählt",
+      "example": "Geübt im Feeder-Einrichten ≠ befugt, ein Programm freizugeben. Zwei verschiedene Fähigkeiten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personal, Abwesenheit",
+            "icon": "calendar"
+          },
+          {
+            "label": "Kompetenz bei kritischen Schritten",
+            "icon": "shield"
+          },
+          {
+            "label": "Ein Entwicklungsweg",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Personal planen, Abwesenheit abdecken, ausgleichen",
+        "Kompetenz bei kritischen Schritten bestätigen",
+        "Ein klarer Entwicklungsweg"
+      ],
+      "at": [
+        4.533,
+        12.958,
+        18.902
+      ],
+      "exampleAt": 25.158
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Aufbau der Matrix",
+      "example": "Die Produktion hält sie aktuell; Trainer bewerten; die Qualität bestätigt die kritischen Fähigkeiten.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Linse",
+          "Schrauben",
+          "Test",
+          "Packen"
+        ],
+        "note": "Darstellung: jede Zelle ist eine nachgewiesene Stufe",
+        "items": [
+          {
+            "label": "Person A",
+            "cells": [
+              3,
+              4,
+              2,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Person B",
+            "cells": [
+              1,
+              3,
+              3,
+              2
+            ],
+            "with": 1
+          },
+          {
+            "label": "Person C",
+            "cells": [
+              null,
+              2,
+              4,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Zeilen: Personen",
+        "Spalten: Fähigkeiten",
+        "Jede Zelle: Stufe + letzte Bewertung",
+        "Jede Fähigkeit mit ihrer SOP verknüpft",
+        "Aufgaben nicht zu einer Fähigkeit bündeln"
+      ],
+      "at": [
+        2.863,
+        6.055,
+        9.266,
+        15.208,
+        32.885
+      ],
+      "exampleAt": 21.774
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Kompetenzstufen L0–L4",
+      "example": "Eine Stufe ist keine Erlaubnis: Maschinen- und Sicherheitsbefugnis werden getrennt erfasst.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Nicht geschult",
+            "sub": "L0"
+          },
+          {
+            "label": "Versteht",
+            "sub": "L1"
+          },
+          {
+            "label": "Unter Aufsicht",
+            "sub": "L2"
+          },
+          {
+            "label": "Arbeitet allein",
+            "sub": "L3"
+          },
+          {
+            "label": "Schult andere",
+            "sub": "L4"
+          }
+        ]
+      },
+      "bullets": [
+        "L0 nicht geschult",
+        "L1 kennt Sicherheit und Ablauf",
+        "L2 arbeitet unter Aufsicht",
+        "L3 qualifiziert, allein zu arbeiten",
+        "L4 schult andere, behebt Störungen"
+      ],
+      "at": [
+        4.071,
+        7.303,
+        13.528,
+        18.147,
+        26.699
+      ],
+      "exampleAt": 32.711
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die kritischen Fähigkeiten finden",
+      "example": "Vikrams Zelle: Linsenfokus und Firmware-Aufspielen stehen ganz oben; Kartonhandling weiter unten.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Jeden Schritt + SOP erfassen",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Sicherheit, Qualität, Kunde markieren",
+            "icon": "warning"
+          },
+          {
+            "label": "Wirkung, Schwierigkeit, Vertretungen",
+            "icon": "scale"
+          },
+          {
+            "label": "Mindestzahl pro Schicht",
+            "icon": "person",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Linsenfokus",
+              "sub": "Höchstes Risiko",
+              "icon": "camera",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Firmware aufspielen",
+              "sub": "Höchstes Risiko",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Kartonhandling",
+              "sub": "Niedriger",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Jeden Schritt und seine SOP erfassen",
+        "Sicherheit, Qualität, Kundenwirkung markieren",
+        "Wirkung, Schwierigkeit, Vertretungen bewerten",
+        "Mindestzahl Qualifizierter pro Schicht"
+      ],
+      "at": [
+        3.522,
+        9.104,
+        16.846,
+        38.568
+      ],
+      "exampleAt": 24.718
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Echtes Können bewerten",
+      "example": "Eine Testerin bestand die Theorie, übersah aber fehlgeschlagene Seriennummer-Scans. Sie bleibt auf Stufe zwei.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kurze Theorieprüfung",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Echte Zyklen + eine Abweichung",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Datum, Prüfer, Ergebnis",
+            "icon": "calendar",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Theorie: bestanden",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Echte Arbeit: fehlgeschlagene Scans übersehen",
+              "icon": "search",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Sie bleibt auf Stufe 2",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Kurze Theorieprüfung",
+        "Echte Zyklen + eine Abweichung beobachten",
+        "Datum, Prüfer, Ergebnis erfassen"
+      ],
+      "at": [
+        8.926,
+        14.477,
+        20.188
+      ],
+      "exampleAt": 24.499
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Schulungsbedarf und Lücken",
+      "example": "Vikrams Schicht braucht 4 qualifizierte Firmware-Werker und hat 2: eine Lücke von 2.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Nach Änderungen neu bewerten",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Bedarf = gefordert − nachgewiesen",
+            "icon": "count",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Eine Lücke von 2",
+          "unit": "qualifizierte Firmware-Werker pro Schicht",
+          "with": "example",
+          "items": [
+            {
+              "label": "Benötigt",
+              "value": 4,
+              "with": "example"
+            },
+            {
+              "label": "Vorhanden",
+              "value": 2,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Neu bewerten nach Abwesenheit oder Änderungen",
+        "Bedarf = geforderte Stufe − nachgewiesene Stufe",
+        "Qualifizierte gegen Positionen zählen",
+        "Einzelne Ausfallpunkte finden"
+      ],
+      "at": [
+        0.226,
+        10.896,
+        16.503,
+        31.401
+      ],
+      "exampleAt": 22.253
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Schulungsmethoden",
+      "example": "Vikrams Verpackungs-Dojo nutzt absichtlich falsche Etiketten und fehlendes Zubehör.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Schulung am Arbeitsplatz",
+            "icon": "person"
+          },
+          {
+            "label": "Unabhängiger Prüfer",
+            "icon": "shield"
+          },
+          {
+            "label": "Dojo",
+            "sub": "Sicheres Üben neben der Linie",
+            "icon": "tray"
+          },
+          {
+            "label": "One Point Lesson",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Strukturierte Schulung am Arbeitsplatz",
+        "Ein unabhängiger Prüfer prüft das Ergebnis",
+        "Dojo: sicheres Üben neben der Linie",
+        "Die One Point Lesson für Kernpunkte"
+      ],
+      "at": [
+        1.801,
+        12.267,
+        16.283,
+        28.633
+      ],
+      "exampleAt": 22.026
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Der Schulungsplan für 90 Tage",
+      "example": "Vikrams erste Priorität: einen zweiten Experten für Linsenfokus qualifizieren.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Fähigkeiten erfassen, Stufen festlegen, bewerten",
+            "sub": "Tag 1–30",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Kritische Lücken schulen",
+            "sub": "31–60",
+            "icon": "person"
+          },
+          {
+            "label": "Vertretungen zertifizieren, ausweiten",
+            "sub": "61–90",
+            "icon": "check"
+          }
+        ]
+      },
+      "bullets": [
+        "Tag 1–30: erfassen, Stufen festlegen, bewerten",
+        "Tag 31–60: kritische Lücken schulen",
+        "Tag 61–90: Vertretungen zertifizieren, ausweiten"
+      ],
+      "at": [
+        10.442,
+        18.022,
+        25.448
+      ],
+      "exampleAt": 30.884
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "KPI der Matrix",
+      "example": "18 von 24 kritischen Positionen besetzt = 75 %. Pro Schicht berechnen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Qualifikationsabdeckung",
+            "icon": "count"
+          },
+          {
+            "label": "Kompetenzerreichung",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Mehrfachqualifizierung",
+            "icon": "sequence"
+          },
+          {
+            "label": "Abgelaufene Qualifikationen",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 75,
+          "suffix": "%",
+          "icon": "person",
+          "label": "der kritischen Positionen besetzt",
+          "unit": "18 von 24: pro Schicht berechnen",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Qualifikationsabdeckung",
+        "Kompetenzerreichung",
+        "Quote der Mehrfachqualifizierung",
+        "Abgelaufene Qualifikationen"
+      ],
+      "at": [
+        5.295,
+        12.333,
+        17.718,
+        24.317
+      ],
+      "exampleAt": 28.046
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Beispiel: Vikrams Zelle",
+      "example": "Fokus + Test gleichzeitig: Bala am Fokus, Deepa am Test. Chitra kann nicht beides.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Platine",
+          "Fokus",
+          "Test"
+        ],
+        "note": "Nach 90 Tagen. Fokus + Test gleichzeitig: Bala und Deepa. Als Nächstes: eine weitere Fokus-Vertretung.",
+        "items": [
+          {
+            "label": "Asha",
+            "cells": [
+              4,
+              null,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Bala",
+            "cells": [
+              null,
+              3,
+              null
+            ],
+            "with": 1
+          },
+          {
+            "label": "Chitra",
+            "cells": [
+              null,
+              3,
+              3
+            ],
+            "with": 1
+          },
+          {
+            "label": "Deepa",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Asha: Platinenmontage L4",
+        "Chitra jetzt neben Bala: Linsenfokus L3",
+        "Chitra, Deepa: Test L3+",
+        "Nächste Priorität: eine weitere Fokus-Vertretung"
+      ],
+      "at": [
+        4.34,
+        8.917,
+        14.14,
+        34.678
+      ],
+      "exampleAt": 18.359
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Verbindung zu Qualität und Sicherheit",
+      "example": "Vikrams Firmware-Techniker war L3 auf dem alten Rezept. Das neue änderte kritische Schritte, also wurde er neu bewertet.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Stufe",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Befugnis",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "SOP-Schulung",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Prozessänderung: neu bewerten",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Stufe + Befugnis + SOP-Schulung",
+        "Jede Fähigkeit an ihre SOP-Revision gebunden",
+        "Prozessänderung → neu bewerten",
+        "Schulung ersetzt nie Prozessgestaltung"
+      ],
+      "at": [
+        9.069,
+        16.813,
+        21.59,
+        36.878
+      ],
+      "exampleAt": 25.738
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Digitale Matrix und visuelle Tafel",
+      "example": "Vikrams Dashboard warnt ihn, wenn eine Befugnis bald abläuft.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eindeutige Codes",
+            "icon": "barcode"
+          },
+          {
+            "label": "Prüfpfad",
+            "icon": "sequence"
+          },
+          {
+            "label": "Ablauf-Erinnerungen",
+            "icon": "clock"
+          },
+          {
+            "label": "Keine Selbstfreigabe",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Eindeutige Codes für Personen und Fähigkeiten",
+        "Prüfpfad jeder Änderung",
+        "Erinnerungen bei ablaufenden Qualifikationen",
+        "Keine Selbstfreigabe kritischer Fähigkeiten"
+      ],
+      "at": [
+        11.033,
+        15.353,
+        19.004,
+        23.96
+      ],
+      "exampleAt": 29.279
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Steuerung und Überprüfung",
+      "example": "Dienstalter und Anwesenheit sind keine Qualifikation.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Qualifizierte Besetzung beim Anlauf",
+            "sub": "Täglich",
+            "icon": "person"
+          },
+          {
+            "label": "Lücken, Mehrfachqualifizierung, Überfälliges",
+            "sub": "Wöchentlich",
+            "icon": "calendar"
+          },
+          {
+            "label": "Abdeckung, Abgänge",
+            "sub": "Monatlich",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Einheitlichkeit der Prüfer",
+            "sub": "Quartalsweise",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Täglich: qualifizierte Besetzung beim Anlauf",
+        "Wöchentlich: Lücken, Mehrfachqualifizierung, Überfälliges",
+        "Monatlich: Abdeckung, Abgänge",
+        "Quartalsweise: Einheitlichkeit der Prüfer"
+      ],
+      "at": [
+        4.707,
+        11.677,
+        18.516,
+        23.961
+      ],
+      "exampleAt": 35.622
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Vorlagen und Audit",
+      "example": "Ein anderer Schichtleiter sollte auf einen Blick sehen, wer heute qualifiziert ist.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Qualifikationsmatrix · Zelle 2 · Rev C",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Fähigkeit · SOP-Rev. · Stufe · Ablauf",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Bewertung: Theorie, Zyklen, Sicherheit",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Ein Schulungsplan für jede Lücke",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Gegen echte Arbeit auditiert",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Matrix: Fähigkeit, SOP-Rev., Stufe, Ablauf",
+        "Bewertungsbogen: Theorie, Zyklen, Sicherheit",
+        "Ein Schulungsplan für jede Lücke",
+        "Zellen gegen echte Arbeit auditieren"
+      ],
+      "at": [
+        4.826,
+        14.068,
+        21.878,
+        25.294
+      ],
+      "exampleAt": 33.529
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Une équipe a 25 200 secondes nettes et le client a besoin de 840 unités. Quel est le temps TAKT ?",
+      "options": [
+        "20 secondes",
+        "30 secondes",
+        "40 secondes"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = temps net disponible ÷ demande = 25 200 ÷ 840 = 30 secondes par unité.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Le test final prend 38 s par unité, mais le TAKT est de 30 s. Un responsable dit : « Dites aux testeurs d'aller plus vite. » Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Sauter une partie du test pour gagner du temps",
+        "Analyser les pertes et la capacité du poste de test",
+        "Constituer du stock en amont",
+        "Recalculer le TAKT avec le temps brut de l'équipe"
+      ],
+      "correct": 1,
+      "explanation": "Un temps de cycle au-dessus du TAKT est un problème de capacité. Étudiez les pertes, le cycle et la disponibilité du poste, puis améliorez-le ou ajoutez une capacité vérifiée. Sauter des tests ou masquer le problème avec du stock crée de nouveaux problèmes.",
+      "think": 18
+    }
+  ]
+}

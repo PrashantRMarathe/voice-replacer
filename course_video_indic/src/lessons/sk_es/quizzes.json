@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Un operador terminó el curso de entrenamiento pero todavía no lo evalúan. ¿Se le puede contar como L3?",
+      "options": [
+        "Sí — el curso está completo",
+        "No — el L3 necesita un desempeño demostrado y evaluado",
+        "Sí, si lleva mucho tiempo ahí"
+      ],
+      "correct": 1,
+      "explanation": "La asistencia y la antigüedad no son competencia. El nivel 3 significa un desempeño independiente comprobado con una evaluación con evidencia.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Solo una persona del turno está calificada en enfoque del lente, y la producción depende de eso. ¿Qué debe hacer PRIMERO el líder de celda?",
+      "options": [
+        "Entrenar a todos en todas las habilidades",
+        "Calificar un respaldo en enfoque del lente como la prioridad principal",
+        "Pedirle al experto que nunca falte",
+        "Entrenar primero las habilidades de bajo riesgo porque son más rápidas"
+      ],
+      "correct": 1,
+      "explanation": "Depender de una sola persona en una habilidad crítica es el riesgo más grande. Da prioridad a calificar un respaldo ahí, y luego amplía el entrenamiento cruzado.",
+      "think": 15
+    }
+  ]
+}

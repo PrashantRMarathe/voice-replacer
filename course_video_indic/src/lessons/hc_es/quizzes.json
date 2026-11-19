@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "El trabajo de un Hancho es principalmente…",
+      "options": [
+        "Llenar el reporte del turno al final del día",
+        "Dirigir en el Gemba: mantener el estándar, reaccionar a las brechas, desarrollar a las personas",
+        "Hacer en persona la estación más difícil, cada turno"
+      ],
+      "correct": 1,
+      "explanation": "Un Hancho dirige donde se crea el valor: protege el estándar, responde rápido a las anormalidades y desarrolla la capacidad del equipo. Los reportes y cubrir estaciones no son el centro del puesto.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "El tablero por hora se pone en rojo y las unidades sospechosas pueden tener un riesgo de seguridad. ¿Qué nivel de respuesta?",
+      "options": [
+        "Nivel 1: el equipo lo corrige en silencio",
+        "Nivel 2: llamar a mantenimiento cuando esté libre",
+        "Nivel 3: contener y escalar a la gerencia de inmediato"
+      ],
+      "correct": 2,
+      "explanation": "El riesgo de seguridad o para el cliente es de nivel 3: contén las unidades y escala de inmediato. No esperes a ver si el equipo puede con ello.",
+      "think": 15
+    }
+  ]
+}

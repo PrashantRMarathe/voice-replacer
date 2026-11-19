@@ -1,0 +1,628 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Poka Yoke",
+      "example": "Divya cambió una etiqueta de 'revisa la orientación' por un conector con guía. Una etiqueta advierte. Una guía previene.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Una etiqueta advierte",
+            "sub": "'Revisa la orientación'",
+            "icon": "sticker",
+            "with": "example"
+          },
+          {
+            "label": "Una guía previene",
+            "sub": "Entra de una sola forma",
+            "icon": "key",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "En japonés: a prueba de errores",
+        "No dependas de la memoria",
+        "Acción incorrecta imposible, o visible al instante"
+      ],
+      "at": [
+        2.698,
+        7.716,
+        11.476
+      ],
+      "exampleAt": 17.351
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Error contra defecto",
+      "example": "La inspección al final de la línea encuentra problemas cuando la mano de obra y las piezas ya se gastaron.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 0,
+          "label": "DETENER AQUÍ",
+          "with": 3
+        },
+        "items": [
+          {
+            "label": "Error",
+            "sub": "La acción incorrecta",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Defecto",
+            "sub": "El producto malo",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Detectado al final de la línea",
+            "sub": "Mano de obra y piezas ya gastadas",
+            "icon": "search",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Del Sistema de Producción Toyota",
+        "Error: la acción incorrecta",
+        "Defecto: el producto malo que resulta",
+        "Detén el error antes de que sea defecto"
+      ],
+      "at": [
+        0.202,
+        11.94,
+        16.453,
+        19.896
+      ],
+      "exampleAt": 23.478
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "La jerarquía de controles",
+      "example": "Elige los controles por qué tan bien detienen errores — no por qué tan fáciles son de instalar.",
+      "visual": {
+        "type": "ladder",
+        "items": [
+          {
+            "label": "Eliminar",
+            "icon": "pin"
+          },
+          {
+            "label": "Prevenir",
+            "icon": "barcode"
+          },
+          {
+            "label": "Detectar y detener",
+            "icon": "sensor"
+          },
+          {
+            "label": "Advertir",
+            "icon": "warning"
+          },
+          {
+            "label": "Inspeccionar después",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "1 Eliminar: pines de ubicación asimétricos",
+        "2 Prevenir: interbloqueo con código de barras",
+        "3 Detectar y detener: sensor de tornillo faltante",
+        "4 Advertir: una alarma",
+        "5 Inspeccionar después — lo más débil"
+      ],
+      "at": [
+        6.02,
+        12.126,
+        18.433,
+        24.31,
+        28.071
+      ],
+      "exampleAt": 31.497
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Reglas de ingeniería",
+      "example": "Divya desconectó el cable del sensor durante una prueba. El fixture siguió bloqueado.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Aprobado positivo",
+            "icon": "check"
+          },
+          {
+            "label": "A prueba de fallas",
+            "icon": "power"
+          },
+          {
+            "label": "Bypass registrado",
+            "icon": "lock"
+          },
+          {
+            "label": "Probar casos incorrectos",
+            "icon": "test"
+          }
+        ]
+      },
+      "bullets": [
+        "Una señal positiva de aprobado, no 'sin alarma'",
+        "A prueba de fallas si se pierde energía o sensor",
+        "Bypass: raro, registrado, con tiempo límite",
+        "Pruébalo con condiciones incorrectas"
+      ],
+      "at": [
+        3.236,
+        9.133,
+        17.604,
+        23.598
+      ],
+      "exampleAt": 29.096
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Tres métodos",
+      "example": "Problema de orientación → contacto. Pieza faltante → valor fijo. Escanear, programar, probar, etiquetar en orden → paso de movimiento.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Contacto",
+            "sub": "Forma, tamaño, posición",
+            "icon": "shape"
+          },
+          {
+            "label": "Valor fijo",
+            "sub": "La cantidad correcta",
+            "icon": "count"
+          },
+          {
+            "label": "Paso de movimiento",
+            "sub": "El orden correcto",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Contacto: forma, tamaño, posición",
+        "Valor fijo: la cantidad correcta",
+        "Paso de movimiento: la secuencia correcta"
+      ],
+      "at": [
+        3.006,
+        12.509,
+        19.044
+      ],
+      "exampleAt": 31.464
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "El error humano es predecible",
+      "example": "Firmware equivocado → nombres de receta parecidos → modelo elegido a mano → escaneo del MES no vinculado al programador.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Nombres de receta parecidos",
+            "icon": "sticker",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Modelo elegido a mano",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Firmware equivocado",
+            "icon": "chip",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Solución: vincular el escaneo del MES",
+            "sub": "al programador",
+            "icon": "barcode",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Los errores humanos son predecibles",
+        "Omitir, pieza equivocada, invertida, fuera de orden",
+        "Pregunta qué lo hizo posible, no quién"
+      ],
+      "at": [
+        0.204,
+        5.911,
+        17.617
+      ],
+      "exampleAt": 22.234
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Un método de diseño en 8 pasos",
+      "example": "Acuerda el éxito antes de instalar: piezas malas rechazadas, piezas buenas aprobadas, el ritmo se mantiene.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definir",
+            "with": 0
+          },
+          {
+            "label": "Observar",
+            "with": 0
+          },
+          {
+            "label": "Medir",
+            "with": 0
+          },
+          {
+            "label": "Hallar la causa",
+            "with": 0
+          },
+          {
+            "label": "Elegir una idea",
+            "with": 1
+          },
+          {
+            "label": "Prototipo",
+            "with": 2
+          },
+          {
+            "label": "Ponerlo a prueba",
+            "with": 2
+          },
+          {
+            "label": "Estandarizar",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Definir, observar, medir, hallar la causa",
+        "Elegir la idea robusta más simple",
+        "Prototipo y prueba con piezas malas",
+        "Actualizar el SOP, capacitar, monitorear"
+      ],
+      "at": [
+        5.132,
+        15.853,
+        19.006,
+        24.111
+      ],
+      "exampleAt": 29.426
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Aplicaciones en ensamble",
+      "example": "Tornillos faltantes: 18 en 10,000 → 1 en 10,000, cerca de 94% menos.",
+      "visual": {
+        "type": "assembly",
+        "label": "Línea NVR de Divya: el fixture cuenta cada tornillo",
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 18
+          },
+          "after": {
+            "label": "Después",
+            "value": 1
+          },
+          "unit": "tornillos faltantes por cada 10,000 unidades",
+          "note": "cerca de 94% menos"
+        }
+      },
+      "bullets": [
+        "Señal de torque vinculada a la orden de trabajo",
+        "El fixture solo libera si cada tornillo está bien",
+        "Conectores con guía, sensor de empaque"
+      ],
+      "at": [
+        7.332,
+        12.061,
+        28.87
+      ],
+      "exampleAt": 20.499
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Aplicaciones en SMT y prueba",
+      "example": "El probador de Divya no puede imprimir una etiqueta sin un registro de aprobado para esa serie.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 2,
+          "label": "SIN APROBADO, SIN ETIQUETA",
+          "with": "example"
+        },
+        "items": [
+          {
+            "label": "Carrete escaneado contra el BOM",
+            "icon": "barcode",
+            "with": 0
+          },
+          {
+            "label": "Versión del programa revisada",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Registro de aprobado por serie",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Se imprime la etiqueta",
+            "icon": "label",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Cada carrete del alimentador escaneado contra el BOM",
+        "Versión del programa revisada antes de arrancar",
+        "Serie vinculada a modelo, firmware y registro de aprobado",
+        "Una caída de red nunca debe 'aprobar'"
+      ],
+      "at": [
+        6.246,
+        11.584,
+        15.784,
+        27.038
+      ],
+      "exampleAt": 22.369
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Empaque y embarque",
+      "example": "Un adaptador equivocado pesaba lo mismo que el correcto — una charola de kit con forma lo detectó.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Revisión de peso",
+            "sub": "Adaptador equivocado, mismo peso",
+            "icon": "scale",
+            "with": "example"
+          },
+          {
+            "label": "Charola de kit con forma",
+            "sub": "El adaptador equivocado no entra",
+            "icon": "tray",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Escaneo de serie + etiqueta de caja coinciden",
+        "Accesorios contados antes de cerrar",
+        "La revisión de peso tiene puntos ciegos",
+        "Los códigos de barras se pueden burlar"
+      ],
+      "at": [
+        4.89,
+        8.556,
+        12.205,
+        25.875
+      ],
+      "exampleAt": 16.573
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Bajo costo y seguro",
+      "example": "El mejor dispositivo de Divya costó ₹1,200: dos pines que evitan que el panel trasero se ponga al revés.",
+      "visual": {
+        "type": "stat",
+        "value": 1200,
+        "prefix": "₹",
+        "icon": "pin",
+        "label": "Dos pines de ubicación",
+        "unit": "Ya no hay paneles traseros puestos al revés"
+      },
+      "bullets": [
+        "Simple: pines, guías, interruptores, charolas",
+        "Nunca crear un punto de atrapamiento",
+        "Los sensores de calidad no son sistemas de seguridad",
+        "Planea limpieza y calibración"
+      ],
+      "at": [
+        5.619,
+        24.486,
+        28.865,
+        33.152
+      ],
+      "exampleAt": 12.861
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "FMEA, plan de control y auditorías",
+      "example": "Divya le da a cada dispositivo una muestra mala conocida, en cada turno.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "FMEA",
+            "sub": "El modo de falla",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Plan de control",
+            "sub": "Método y reacción",
+            "icon": "shield"
+          },
+          {
+            "label": "Trabajo estandarizado",
+            "sub": "Señal de aprobado, quién reinicia",
+            "icon": "person"
+          },
+          {
+            "label": "Auditoría",
+            "sub": "Una muestra mala conocida",
+            "icon": "test",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA: vincular al modo de falla",
+        "Plan de control: método y reacción",
+        "Trabajo estandarizado: señal de aprobado, quién reinicia",
+        "Audita con una muestra mala conocida"
+      ],
+      "at": [
+        4.147,
+        9.186,
+        13.404,
+        26.261
+      ],
+      "exampleAt": 31.068
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI y ahorros",
+      "example": "60,000 unidades/mes, defectos de 0.8% a 0.2% ≈ ₹65,000 ahorrados al mes, menos el costo de operación.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 0.8
+        },
+        "after": {
+          "label": "Después",
+          "value": 0.2
+        },
+        "suffix": "%",
+        "decimals": 1,
+        "unit": "tasa de defectos, 60,000 unidades al mes",
+        "note": "≈ ₹65,000 ahorrados al mes"
+      },
+      "bullets": [
+        "Bajan los PPM de defectos y los escapes",
+        "Sube el rendimiento a la primera",
+        "Vigila los falsos rechazos"
+      ],
+      "at": [
+        4.328,
+        9.069,
+        12.262
+      ],
+      "exampleAt": 20.817
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Plan de 90 días",
+      "example": "Prueba cada condición incorrecta que conozcas durante el piloto.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Modos de falla + línea base",
+            "sub": "W1–2",
+            "span": 2,
+            "icon": "search"
+          },
+          {
+            "label": "Opciones de diseño, acordar la lógica",
+            "sub": "W3–4",
+            "span": 2,
+            "icon": "gear"
+          },
+          {
+            "label": "Piloto en una estación",
+            "sub": "Mes 2",
+            "span": 4,
+            "icon": "test"
+          },
+          {
+            "label": "Documentar, capacitar, copiar",
+            "sub": "Mes 3",
+            "span": 4,
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Semanas 1–2: principales modos de falla + línea base",
+        "Semanas 3–4: opciones de diseño, acordar la lógica",
+        "Mes 2: piloto en una estación",
+        "Mes 3: documentar, capacitar, copiar"
+      ],
+      "at": [
+        3.671,
+        12.286,
+        17.339,
+        24.467
+      ],
+      "exampleAt": 20.706
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Lista de liberación",
+      "example": "Producción es dueña de la estación. Ingeniería la diseña. Calidad la pone a prueba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Producción",
+            "sub": "Dueña de la estación",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Ingeniería",
+            "sub": "La diseña",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Calidad",
+            "sub": "La pone a prueba",
+            "icon": "shield",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Modo de falla claro, con línea base",
+        "Seguridad y ergonomía revisadas",
+        "Muestras malas probadas en cada modelo",
+        "Pérdida de energía, sin red, bypass resueltos"
+      ],
+      "at": [
+        11.966,
+        16.051,
+        19.411,
+        23.047
+      ],
+      "exampleAt": 0.22
+    }
+  ]
+}

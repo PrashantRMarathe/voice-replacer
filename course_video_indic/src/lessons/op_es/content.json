@@ -1,0 +1,662 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es una One Point Lesson",
+      "example": "La primera OPL de Ravi, inserción del conector: el agarre correcto, el agarre incorrecto, y el clic que hay que escuchar.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Una cosa",
+            "icon": "check"
+          },
+          {
+            "label": "Minutos para aprender",
+            "icon": "clock"
+          },
+          {
+            "label": "Visual",
+            "icon": "camera"
+          },
+          {
+            "label": "En el lugar de trabajo",
+            "icon": "wrench"
+          }
+        ]
+      },
+      "bullets": [
+        "Una cosa, en una hoja",
+        "Corta: se aprende en minutos",
+        "Visual: ejemplos buenos y malos",
+        "Se enseña en el lugar de trabajo"
+      ],
+      "at": [
+        5.425,
+        9.027,
+        13.088,
+        17.77
+      ],
+      "exampleAt": 20.939
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Lo que una OPL no es",
+      "example": "La lección del conector de Ravi va junto al SOP y señala el paso exacto que apoya.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Reemplazar el SOP",
+            "sub": "o meter un tema grande",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Junto al SOP",
+            "sub": "Señala el paso exacto",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nunca reemplaza tu SOP",
+        "Ningún tema grande metido en una hoja",
+        "Refuerza un punto crítico"
+      ],
+      "at": [
+        0.0,
+        10.216,
+        14.985
+      ],
+      "exampleAt": 19.236
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Por qué las OPL valen la pena",
+      "example": "El turno de noche estrellaba 14 conectores por semana; el de día, 2. Mismo SOP, distinto saber hacer.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Turno de noche",
+          "value": 14
+        },
+        "after": {
+          "label": "Turno de día",
+          "value": 2
+        },
+        "unit": "conectores estrellados por semana",
+        "note": "Mismo SOP, distinto saber hacer",
+        "with": "example"
+      },
+      "bullets": [
+        "Cierra brechas de habilidad entre turnos",
+        "La gente nueva aprende más rápido",
+        "Las lecciones de los defectos se comparten rápido",
+        "Los operadores hábiles se vuelven instructores"
+      ],
+      "at": [
+        0.205,
+        21.418,
+        24.567,
+        29.497
+      ],
+      "exampleAt": 4.839
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Tipos de OPL",
+      "example": "La lección del conector estrellado de Ravi es de tipo problema.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Conocimiento básico",
+            "icon": "chip",
+            "with": 0
+          },
+          {
+            "label": "Problema",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Mejora",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Seguridad",
+            "icon": "shield",
+            "with": 3
+          },
+          {
+            "label": "Calidad",
+            "icon": "check",
+            "with": 3
+          },
+          {
+            "label": "Mantenimiento",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Conocimiento básico, p. ej. manejo ESD",
+        "Problema: defecto, causa y solución",
+        "Mejora: un método mejor salido de un Kaizen",
+        "Seguridad · Calidad · Mantenimiento"
+      ],
+      "at": [
+        2.742,
+        9.404,
+        14.484,
+        19.59
+      ],
+      "exampleAt": 23.89
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Cuándo crear una",
+      "example": "El disparador de Ravi: se encontró la causa de los conectores estrellados — ahora la solución tenía que llegar a cada turno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Defecto repetido resuelto",
+            "icon": "check"
+          },
+          {
+            "label": "Producto o plantilla nuevos",
+            "icon": "box"
+          },
+          {
+            "label": "Paso malentendido",
+            "icon": "search"
+          },
+          {
+            "label": "Casi accidente, o un truco",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Un defecto repetido recién resuelto",
+        "Producto, máquina o plantilla nuevos",
+        "Un paso que se sigue malentendiendo",
+        "Un casi accidente o el truco de alguien hábil"
+      ],
+      "at": [
+        4.736,
+        8.466,
+        12.5,
+        16.202
+      ],
+      "exampleAt": 23.514
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Estructura de una buena OPL",
+      "example": "La hoja debe entenderse de un vistazo — ¿tu operador más nuevo podría leerla en un minuto?",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "OPL-012 · Inserción del conector · Rev B",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Punto clave: empuja hasta que haga clic",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "",
+            "icon": "goodbad",
+            "with": 2
+          },
+          {
+            "label": "Precaución: nunca lo fuerces",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Responsable · aprobada · entrenados",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Número, título, revisión, fecha",
+        "Por qué importa + el único punto clave",
+        "Imágenes, pasos, precaución",
+        "Responsable, aprobación, registro de entrenamiento"
+      ],
+      "at": [
+        5.702,
+        10.867,
+        15.422,
+        22.679
+      ],
+      "exampleAt": 27.834
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Cómo prepararla",
+      "example": "Ravi fotografió el conector real, en la estación real.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Un objetivo de aprendizaje",
+            "icon": "search"
+          },
+          {
+            "label": "Ve al Gemba",
+            "sub": "Verifica el estándar",
+            "icon": "walk"
+          },
+          {
+            "label": "Palabras simples, fotos reales",
+            "icon": "camera"
+          },
+          {
+            "label": "Revisa, luego aprueba",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Define un objetivo de aprendizaje",
+        "Ve al Gemba, verifica el estándar",
+        "Palabras simples, fotos reales, bueno contra malo",
+        "Revisa, luego aprueba"
+      ],
+      "at": [
+        0.878,
+        3.933,
+        11.812,
+        24.539
+      ],
+      "exampleAt": 29.342
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Comunicación visual",
+      "example": "La OPL de Ravi muestra una paloma, una cruz, y las palabras bien y no está bien.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fotos reales, flechas",
+            "icon": "camera",
+            "with": 0
+          },
+          {
+            "label": "Bueno y malo lado a lado",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Letra grande, espacio",
+            "icon": "label",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Solo color",
+              "sub": "No todos lo ven",
+              "icon": "warning"
+            },
+            {
+              "label": "Paloma, cruz + palabras",
+              "sub": "Bien / no está bien",
+              "icon": "check"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Fotos reales, flechas en el punto exacto",
+        "Bueno y malo lado a lado",
+        "Letra grande, mucho espacio",
+        "Nunca uses el color como única señal"
+      ],
+      "at": [
+        8.104,
+        13.27,
+        16.296,
+        23.377
+      ],
+      "exampleAt": 26.866
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Enseñar en el Gemba",
+      "example": "Ravi enseña cada lección en 5 minutos al inicio del turno, y luego observa a cada operador hacerlo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Explica por qué importa",
+            "icon": "person"
+          },
+          {
+            "label": "Muestra, demuestra, compara",
+            "icon": "camera"
+          },
+          {
+            "label": "Pregunta, luego déjalos intentar",
+            "icon": "hand"
+          },
+          {
+            "label": "Una firma no prueba nada",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Explica por qué importa",
+        "Muestra, demuestra, compara",
+        "Haz preguntas, déjalos intentar",
+        "Una firma sola no prueba nada"
+      ],
+      "at": [
+        3.163,
+        7.819,
+        14.796,
+        31.253
+      ],
+      "exampleAt": 23.291
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "OPL para ensamble final y calidad",
+      "example": "Evitar el PCB equivocado: dónde leer el número de la tarjeta, cómo comparar el modelo, qué hacer si no coincide.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Tarjetas",
+            "sub": "Llamada falsa del AOI contra defecto real",
+            "icon": "chip"
+          },
+          {
+            "label": "Ensamble",
+            "sub": "Secuencia de tornillos, seguro del conector",
+            "icon": "screw"
+          },
+          {
+            "label": "Prueba",
+            "sub": "Revisión de la versión de firmware",
+            "icon": "test"
+          },
+          {
+            "label": "Empaque",
+            "sub": "Etiqueta y accesorios",
+            "icon": "label"
+          }
+        ]
+      },
+      "bullets": [
+        "Tarjetas: llamada falsa del AOI contra defecto real",
+        "Ensamble: secuencia de tornillos, seguro del conector",
+        "Prueba: revisión de la versión de firmware",
+        "Empaque: revisión de etiqueta y accesorios"
+      ],
+      "at": [
+        4.034,
+        10.145,
+        15.464,
+        19.813
+      ],
+      "exampleAt": 24.561
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Las OPL y otras herramientas Lean",
+      "example": "Fixture nuevo → una OPL sobre cómo cargarlo, y qué significa la luz roja.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kaizen",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "5S + TPM",
+            "icon": "tray"
+          },
+          {
+            "label": "Causa raíz",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Después de un Kaizen: el método nuevo",
+        "Después de un Poka Yoke: qué significa su alarma",
+        "Estándares de 5S y cuidado de máquinas",
+        "Lecciones del análisis de causa raíz"
+      ],
+      "at": [
+        5.212,
+        9.987,
+        16.967,
+        23.326
+      ],
+      "exampleAt": 27.328
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Control y revisiones",
+      "example": "Cuando cambió el proveedor del conector, Ravi revisó la lección y retiró cada copia vieja.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Número, responsable, aprobador",
+            "icon": "label"
+          },
+          {
+            "label": "Ligada a su SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Revisada en cada cambio",
+            "icon": "sequence"
+          },
+          {
+            "label": "Copias viejas retiradas",
+            "icon": "trash",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Número, responsable, aprobador",
+        "Ligada al SOP que apoya",
+        "Revisada cada vez que algo cambia",
+        "Copias viejas retiradas de la línea"
+      ],
+      "at": [
+        4.868,
+        9.407,
+        12.414,
+        17.495
+      ],
+      "exampleAt": 20.726
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Medir la efectividad",
+      "example": "Turno de noche: de 14 conectores estrellados por semana → 1 por semana, seis semanas después de la lección.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cambio de comportamiento",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Unas preguntas",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Observar, días después",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 14
+          },
+          "after": {
+            "label": "6 semanas después",
+            "value": 1
+          },
+          "unit": "conectores estrellados por semana, turno de noche",
+          "note": "La lección cambió el comportamiento",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "El resultado es el cambio de comportamiento",
+        "Revisa el conocimiento con preguntas",
+        "Observa el método días después",
+        "Sigue el defecto objetivo"
+      ],
+      "at": [
+        6.15,
+        9.572,
+        13.424,
+        17.546
+      ],
+      "exampleAt": 20.743
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Errores comunes",
+      "example": "El primer borrador de Ravi cubría cuatro temas. Lo dividió en cuatro lecciones.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "¿Demasiado?",
+            "sub": "Divídelo",
+            "icon": "stack"
+          },
+          {
+            "label": "¿Solo texto?",
+            "sub": "Agrega fotos reales",
+            "icon": "camera"
+          },
+          {
+            "label": "¿Solo firma?",
+            "sub": "Observa el trabajo",
+            "icon": "hand"
+          },
+          {
+            "label": "¿Versión vieja?",
+            "sub": "Control de revisiones",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Demasiado contenido → divídelo",
+        "Solo texto → agrega fotos reales",
+        "Solo firma → demuestra y observa",
+        "Versión vieja en la pared → control de revisiones"
+      ],
+      "at": [
+        3.592,
+        8.257,
+        12.78,
+        17.93
+      ],
+      "exampleAt": 32.157
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta y lista del creador",
+      "example": "Antes de liberar, pregunta: ¿Es correcta? ¿El punto es obvio?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Plantilla + numeración",
+            "with": 0
+          },
+          {
+            "label": "Piloto en defectos grandes",
+            "with": 1
+          },
+          {
+            "label": "Entrenar a los instructores",
+            "with": 2
+          },
+          {
+            "label": "Usarlas en el Gemba",
+            "with": 2
+          },
+          {
+            "label": "Medir el efecto",
+            "with": 3
+          },
+          {
+            "label": "Armar una biblioteca",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Planea la plantilla, la numeración, la aprobación",
+        "Piloto en los defectos o riesgos más grandes",
+        "Entrena a los instructores, úsalas en el Gemba",
+        "Mide el efecto, arma una biblioteca"
+      ],
+      "at": [
+        3.09,
+        7.655,
+        13.512,
+        22.394
+      ],
+      "exampleAt": 26.736
+    }
+  ]
+}

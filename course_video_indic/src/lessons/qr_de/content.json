@@ -1,0 +1,760 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was QRQC ist",
+      "example": "Linie 4: QRQC beginnt mit dem Sperren des Auftrags, nicht mit dem Zurücksetzen des Testers.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Erkennen, sichtbar machen",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Eingrenzen: den Kunden schützen",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Ursache mit Fakten, Lösung beweisen",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tester zurücksetzen",
+              "sub": "und weiterlaufen",
+              "icon": "power"
+            },
+            {
+              "label": "Den Auftrag sperren",
+              "sub": "Hier beginnt QRQC",
+              "icon": "lock"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Erkennen und sichtbar machen",
+        "Eingrenzen, um den Kunden zu schützen",
+        "Ursache mit Fakten finden, Lösung beweisen",
+        "Tempo ersetzt nie Belege"
+      ],
+      "at": [
+        12.698,
+        16.129,
+        20.255,
+        26.336
+      ],
+      "exampleAt": 30.381
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Grundprinzipien",
+      "example": "Farhans Besprechung beginnt mit der defekten Kamera auf dem Tisch, neben ihren Daten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Echter Ort, echte Teile",
+            "icon": "walk"
+          },
+          {
+            "label": "Fakten, nie Schuld",
+            "icon": "search"
+          },
+          {
+            "label": "Sofort reagieren",
+            "icon": "warning"
+          },
+          {
+            "label": "Eingrenzung ist nicht die Lösung",
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "Echter Ort, echte Teile",
+        "Geprüfte Fakten, nie Schuld",
+        "Sofort reagieren bei Kunden- oder Sicherheitsrisiko",
+        "Eingrenzung ≠ dauerhafte Lösung"
+      ],
+      "at": [
+        8.459,
+        13.567,
+        18.416,
+        23.821
+      ],
+      "exampleAt": 29.163
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Drei Eskalationsstufen",
+      "example": "Ihr Werk legt die Eskalationszeiten nach Risiko fest.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Stufe 1: Linie oder Schicht",
+            "sub": "Stoppen, aussortieren, festhalten",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Stufe 2: bereichsübergreifendes Team",
+            "sub": "Untersuchen und handeln",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Stufe 3: Werksleitung",
+            "sub": "Mittel, der Kunde",
+            "icon": "shield",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Stufe 1: Linie oder Schicht reagiert",
+        "Stufe 2: bereichsübergreifendes Team",
+        "Stufe 3: Werksleitung, Kunde",
+        "Sofort eskalieren: Sicherheit, wiederholter Durchschlupf"
+      ],
+      "at": [
+        4.39,
+        12.831,
+        18.772,
+        24.967
+      ],
+      "exampleAt": 30.26
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Die ersten 30 Minuten",
+      "example": "Starten Sie einen kritischen Prozess nie auf ein mündliches Okay neu.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Erkennen, Station und Los finden, sperren",
+            "sub": "0–5",
+            "span": 5,
+            "icon": "sensor"
+          },
+          {
+            "label": "Leitung und Qualität informieren, Muster aufheben",
+            "sub": "Dann",
+            "span": 8,
+            "icon": "person"
+          },
+          {
+            "label": "Letzten bekannten guten Punkt finden",
+            "sub": "Danach",
+            "span": 7,
+            "icon": "search"
+          },
+          {
+            "label": "Sperren, erfassen, zuweisen",
+            "sub": "Bis 30",
+            "span": 10,
+            "icon": "lock"
+          }
+        ]
+      },
+      "bullets": [
+        "0–5 Min.: erkennen, Station und Los finden, sperren",
+        "Dann: Leitung und Qualität informieren, Muster aufheben",
+        "Dann: den letzten bekannten guten Punkt finden",
+        "Bis 30 Min.: sperren, erfassen, zuweisen"
+      ],
+      "at": [
+        3.765,
+        12.241,
+        19.919,
+        24.081
+      ],
+      "exampleAt": 31.788
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "5W2H: das Problem definieren",
+      "example": "Linie 4: 24 von 800 Kameras fielen zwischen 10 Uhr und Mittag im Fokus durch, direkt nach einem Wechsel der Linsenvorrichtung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Was, wo, wann, wer",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Wie erkannt, wie viele",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Ausschuss oder Verdacht",
+            "icon": "stack",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 24,
+          "suffix": " / 800",
+          "icon": "camera",
+          "label": "Kameras im Fokus durchgefallen",
+          "unit": "10 Uhr bis Mittag, direkt nach einem Wechsel der Linsenvorrichtung",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Was, wo, wann, wer",
+        "Wie erkannt, wie viele",
+        "Bestätigter Ausschuss oder verdächtige Menge"
+      ],
+      "at": [
+        8.477,
+        12.092,
+        15.499
+      ],
+      "exampleAt": 23.092
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Eingrenzung und Abgleich",
+      "example": "2.000 verdächtige Kameras: gut geprüft + durchgefallen + wartend müssen genau aufgehen. Keine Einheit darf verschwinden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Umfang finden",
+            "icon": "search"
+          },
+          {
+            "label": "Sperren",
+            "icon": "lock"
+          },
+          {
+            "label": "Nach Risiko prüfen",
+            "icon": "test"
+          },
+          {
+            "label": "Abgleichen",
+            "icon": "count"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2.000 verdächtige Kameras",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Gut + durchgefallen + wartend",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "= 2.000: keine fehlt",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Den verdächtigen Umfang finden",
+        "Sperren: physisch und im System",
+        "Nach Risiko prüfen",
+        "Jede Einheit abgleichen"
+      ],
+      "at": [
+        4.737,
+        10.713,
+        15.58,
+        18.283
+      ],
+      "exampleAt": 21.624
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Die QRQC-Tafel und Besprechung",
+      "example": "Farhans 15-Minuten-Besprechung: neue Probleme, dann Eingrenzung, dann Maßnahmen und Eskalationen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Offen",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "In Prüfung",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Bewiesen",
+            "sub": "Erst dann: grün",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Neue Probleme",
+              "icon": "warning",
+              "with": "example"
+            },
+            {
+              "label": "Eingrenzung",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Maßnahmen, Eskalationen",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Risiko, Eingrenzung, Ursache, Maßnahme, Verantwortlicher, Termin",
+        "Rot offen · Gelb in Prüfung · Grün bewiesen",
+        "Echte Muster und Trenddiagramme mitbringen",
+        "Nichts „erledigt\" ohne Beweis"
+      ],
+      "at": [
+        4.263,
+        12.664,
+        32.312,
+        36.912
+      ],
+      "exampleAt": 19.83
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Grundursache mit Belegen",
+      "example": "Ein Fischgrätendiagramm allein reicht nicht: jede konkurrierende Idee muss getestet werden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mensch",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Maschine",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Methode",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Messung",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Umwelt",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Fünf Warum = eine Hypothese, kein Beweis",
+        "Den Fehler sicher nachstellen",
+        "Ursachen über die 6M sammeln",
+        "Entstanden · durchgerutscht · vom System zugelassen"
+      ],
+      "at": [
+        4.587,
+        9.797,
+        14.016,
+        25.445
+      ],
+      "exampleAt": 21.72
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Korrekturmaßnahme und Änderungslenkung",
+      "example": "Ein mündliches „Vorrichtung prüfen\" wurde ein Scan: jede Vorrichtung mit ihrem freigegebenen Rezept verknüpft.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Entstanden + durchgerutscht",
+            "icon": "search"
+          },
+          {
+            "label": "Technische Sperren",
+            "icon": "key"
+          },
+          {
+            "label": "Zykluszeit, Sicherheit",
+            "icon": "clock"
+          },
+          {
+            "label": "FMEA, SOP, Schulung",
+            "icon": "clipboard"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "„Vorrichtung prüfen\"",
+              "sub": "Eine mündliche Erinnerung",
+              "icon": "person"
+            },
+            {
+              "label": "Vorrichtungs-Scan",
+              "sub": "Mit ihrem freigegebenen Rezept verknüpft",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Beheben, wie es entstand und wie es durchrutschte",
+        "Technische Sperren statt Erinnerungen",
+        "Zykluszeit, Sicherheit, Fehlablehnungen prüfen",
+        "FMEA, SOP, Schulung aktualisieren"
+      ],
+      "at": [
+        4.085,
+        9.215,
+        17.302,
+        23.388
+      ],
+      "exampleAt": 29.474
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Abschlusskriterien",
+      "example": "Farhans Regel: zehn Produktionstage ohne Wiederholung, bevor die Tafel grün wird.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eingebaut ist nicht bewiesen",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Herausfordern",
+            "icon": "test"
+          },
+          {
+            "label": "Über Schichten, Modelle",
+            "icon": "sequence"
+          },
+          {
+            "label": "Jede Einheit entschieden",
+            "icon": "check"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 10,
+          "suffix": " Tage",
+          "icon": "calendar",
+          "label": "Produktion ohne Wiederholung",
+          "unit": "bevor die Tafel grün wird",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Eingebaut ≠ bewiesen",
+        "Herausfordern: gute, schlechte, grenzwertige Teile",
+        "Über Schichten, Modelle, Wechsel",
+        "Jede verdächtige Einheit entschieden, dann Freigabe"
+      ],
+      "at": [
+        2.396,
+        7.701,
+        14.768,
+        24.323
+      ],
+      "exampleAt": 33.529
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "QRQC-KPI",
+      "example": "95 % der verdächtigen Einheiten gefunden = nicht fertig: 5 % sind noch draußen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Reaktionszeit",
+            "icon": "clock"
+          },
+          {
+            "label": "Eingrenzungsabdeckung",
+            "icon": "count"
+          },
+          {
+            "label": "Ausbeute, Fehlerrate",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Pünktlicher Abschluss",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "suffix": "%",
+          "icon": "warning",
+          "label": "der verdächtigen Einheiten noch draußen",
+          "unit": "95 % gefunden ist nicht fertig",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Reaktionszeit: Erkennung → Eingrenzung",
+        "Eingrenzungsabdeckung %",
+        "Erstdurchlaufquote und Fehlerrate",
+        "Pünktlicher Abschluss der Maßnahmen"
+      ],
+      "at": [
+        3.74,
+        9.725,
+        16.558,
+        21.361
+      ],
+      "exampleAt": 27.672
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Fallstudie: Fokusfehler",
+      "example": "Das falsche Fokusrezept stellte den Fehler an kontrollierten Mustern nach. Erst dann galt es als Ursache.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "24 von 800 fallen im Fokus durch",
+            "sub": "Normal: unter 0,5 %",
+            "icon": "camera",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Sperren seit dem letzten guten Einrichten",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Vorrichtung, Rezept, Trend vergleichen",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Falsches Rezept stellte es nach",
+            "sub": "Erst dann: die Ursache",
+            "icon": "test",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "24 von 800 fallen im Fokus durch, normal < 0,5 %",
+        "Auftrag + Ausstoß seit dem letzten guten Einrichten sperren",
+        "Vorrichtung, Rezept, Fokustrend vergleichen",
+        "Die Rezept-Hypothese testen"
+      ],
+      "at": [
+        2.795,
+        12.84,
+        18.868,
+        25.058
+      ],
+      "exampleAt": 29.205
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fallstudie: falsches Etikett",
+      "example": "Grundursache: der MES-Abgleich war bei einer Druckerstörung abgeschaltet worden, und niemand protokollierte es.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Kartonetikett ≠ Gerät",
+            "icon": "label",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Palette sperren, Seriennummern abgleichen",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "MES-Abgleich abgeschaltet",
+            "sub": "Bei einer Druckerstörung, nicht protokolliert",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Abgleich Seriennummer–SKU erzwungen",
+            "sub": "Jede Umgehung protokolliert",
+            "icon": "barcode",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Kartonetikett ≠ Gerät darin",
+        "Palette sperren, jede Seriennummer abgleichen",
+        "Scans und Druckaufträge zurückverfolgen",
+        "Abgleich Seriennummer–SKU erzwingen, Umgehungen protokollieren"
+      ],
+      "at": [
+        3.714,
+        15.633,
+        21.625,
+        34.352
+      ],
+      "exampleAt": 26.022
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Einführung in 90 Tagen",
+      "example": "Führen Sie QRQC wie ein Betriebssystem ein, nicht als einzelnes Formular.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Auslöser, Stufen, Tafel",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Leiter schulen, Besprechungen führen",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Auditieren, mit FMEA verknüpfen, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst einen Pilotbereich mit hohem Risiko",
+        "Tag 1–30: Auslöser, Stufen, Tafel",
+        "Tag 31–60: Leiter schulen, Besprechungen führen",
+        "Tag 61–90: auditieren, mit FMEA verknüpfen, ausweiten"
+      ],
+      "at": [
+        6.872,
+        14.127,
+        20.717,
+        26.705
+      ],
+      "exampleAt": 0.527
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Der Problembericht und die Rollen",
+      "example": "Der Test: Könnte jemand das ganze Ereignis nur aus Ihrem Bericht nachbauen?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Werksleiter",
+            "sub": "Fördert",
+            "icon": "person"
+          },
+          {
+            "label": "Qualität",
+            "sub": "Die Methode",
+            "icon": "shield"
+          },
+          {
+            "label": "Produktion",
+            "sub": "Die Reaktion",
+            "icon": "wrench"
+          },
+          {
+            "label": "Technik",
+            "sub": "Die Lösungen",
+            "icon": "gear"
+          },
+          {
+            "label": "Ein Bericht",
+            "sub": "Jedes Problem",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Werksleiter fördert",
+        "Qualität verantwortet die Methode",
+        "Produktion verantwortet die Reaktion",
+        "Technik verantwortet die technischen Lösungen",
+        "Ein Bericht für jedes Problem"
+      ],
+      "at": [
+        0.24,
+        3.094,
+        6.515,
+        10.985,
+        15.436
+      ],
+      "exampleAt": 32.783
+    }
+  ]
+}

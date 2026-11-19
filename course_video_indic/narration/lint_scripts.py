@@ -16,6 +16,8 @@ sys.path.insert(0, str(HERE))
 
 MAX_SENT_WORDS = 20
 MAX_SENT_WORDS_INDIC = 26  # Hindi etc. spell postpositions as separate words
+LATIN_LANGS = {"es", "fr", "de"}  # Latin-script translations: every word is Latin
+INDIC = re.compile("[ऀ-ॣ०-෿]")  # any Indian script (danda excluded)
 PAGE_WORDS = (60, 90)          # guide target is 65-80
 MAX_FOR_EXAMPLE = 3
 MAX_NUMBER_WORDS = 5
@@ -55,7 +57,17 @@ def lint(mod):
     # ALL-CAPS word still there has an unconfirmed pronunciation -> ask the user.
     spoken = mod.say if hasattr(mod, "say") else (lambda t: t)
     # also terms mixing digits and capitals ("A3", "5W2H"), which the voice may misread
-    if not en:
+    latin_lang = getattr(mod, "LANG", "en") in LATIN_LANGS
+    if latin_lang:
+        # Latin-script mode: English terms are Latin like every other word, so instead flag
+        # any acronym / letter-digit term say() left (the voice would guess it: add it to
+        # SPOKEN) and any Indian script left over from the Hindi scaffold
+        if unclear_terms := sorted({w for _, t in clips for w in
+                                    re.findall(r"\b[A-Z]{2,}\b|\b(?=\w*\d)(?=\w*[A-Z])\w+\b", spoken(t))}):
+            add("lesson", f"English term left for the voice to guess: {', '.join(unclear_terms)} (add it to SPOKEN)")
+        if left := sorted({k for k, t in clips if INDIC.search(t)}):
+            add("lesson", f"Indian script left in: {', '.join(left)}")
+    elif not en:
         # the Indian-language voice reads its own script only: every English
         # term needs a native-script form in say() (captions keep the English)
         import pronounce  # words the user chose to hear in English letters

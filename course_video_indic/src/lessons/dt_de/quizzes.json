@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche ist die beste Design Thinking Aufgabenstellung?",
+      "options": [
+        "Wir brauchen einen schnelleren Etikettendrucker beim Verpacken",
+        "Packer brauchen das richtige Etikett griffbereit, weil ähnliche Etiketten und Laufwege Fehler verursachen",
+        "Packer müssen bei Etiketten sorgfältiger sein"
+      ],
+      "correct": 1,
+      "explanation": "Sie nennt Nutzer, Bedarf und Erkenntnis, ohne eine Lösung zu wählen oder jemandem die Schuld zu geben. Die anderen sind eine Lösung und eine Schuldzuweisung.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Pilot senkt die Zykluszeit, aber nur 6 von 10 Werkern nutzen die neue Methode. Was nun?",
+      "options": [
+        "Ausrollen: die Zahlen sind besser",
+        "Die anderen vier nach dem Grund fragen, vereinfachen und neu testen",
+        "Pflicht machen und täglich auditieren"
+      ],
+      "correct": 1,
+      "explanation": "Geringe Akzeptanz ist auch ein Beleg. Finden Sie heraus, was die Methode für diese Nutzer schwer macht, verbessern Sie sie, und testen Sie neu, bevor Sie standardisieren.",
+      "think": 17
+    }
+  ]
+}

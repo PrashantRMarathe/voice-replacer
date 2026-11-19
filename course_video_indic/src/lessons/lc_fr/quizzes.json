@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Avant d'ajouter de l'automatisation à une étape manuelle, que faut-il faire d'abord ?",
+      "options": [
+        "Acheter la machine la plus rapide disponible",
+        "La simplifier avec ECRS, et éliminer le gaspillage",
+        "Demander aux opérateurs de travailler plus vite"
+      ],
+      "correct": 1,
+      "explanation": "Simplifiez d'abord : éliminer, combiner, réordonner et simplifier. Le gaspillage automatisé reste du gaspillage, juste plus rapide et plus difficile à changer.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un nouveau poste LCA gagne 6 secondes sur le papier, mais se bloque dix fois par équipe. Que doit faire l'équipe ?",
+      "options": [
+        "Le généraliser : le temps de cycle est meilleur",
+        "Mesurer la production réelle avec les arrêts, et corriger d'abord la fiabilité",
+        "Retirer le capteur pour qu'il se bloque moins"
+      ],
+      "correct": 1,
+      "explanation": "Le temps de cycle théorique n'est pas la capacité réelle. Incluez les bourrages et les reprises, corrigez la fiabilité, et seulement ensuite généralisez. Retirer un capteur affaiblirait le contrôle qualité.",
+      "think": 15
+    }
+  ]
+}

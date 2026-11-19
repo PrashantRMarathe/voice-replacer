@@ -1,0 +1,743 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es una matriz de habilidades",
+      "example": "La celda de Vikram: ensamble de tarjetas, enfoque del lente, prueba y empaque — con respaldos aprobados para cada uno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Quién hace qué trabajo",
+            "icon": "person"
+          },
+          {
+            "label": "Nivel comprobado",
+            "icon": "check"
+          },
+          {
+            "label": "Las brechas",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "No asistencia",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Quién puede hacer qué trabajo, y qué tan bien",
+        "El nivel comprobado de cada persona",
+        "Las brechas",
+        "No es una lista de asistencia"
+      ],
+      "at": [
+        5.228,
+        8.898,
+        13.725,
+        16.126
+      ],
+      "exampleAt": 20.673
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué importa",
+      "example": "Hábil en ajustar alimentadores ≠ autorizado para liberar un programa. Son dos habilidades distintas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personal, ausencias",
+            "icon": "calendar"
+          },
+          {
+            "label": "Competencia en pasos críticos",
+            "icon": "shield"
+          },
+          {
+            "label": "Un camino para crecer",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Planear personal, cubrir ausencias, balancear",
+        "Confirmar la competencia en pasos críticos",
+        "Un camino claro para crecer"
+      ],
+      "at": [
+        3.753,
+        10.458,
+        15.631
+      ],
+      "exampleAt": 21.785
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Estructura de la matriz",
+      "example": "Producción la mantiene al día; los instructores evalúan; Calidad valida las habilidades críticas.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Lente",
+          "Atornillar",
+          "Prueba",
+          "Empaque"
+        ],
+        "note": "Ilustración: cada celda es un nivel comprobado",
+        "items": [
+          {
+            "label": "Persona A",
+            "cells": [
+              3,
+              4,
+              2,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Persona B",
+            "cells": [
+              1,
+              3,
+              3,
+              2
+            ],
+            "with": 1
+          },
+          {
+            "label": "Persona C",
+            "cells": [
+              null,
+              2,
+              4,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Filas: personas",
+        "Columnas: habilidades",
+        "Cada celda: nivel + última evaluación",
+        "Cada habilidad ligada a su SOP",
+        "No juntes tareas en una sola habilidad"
+      ],
+      "at": [
+        2.479,
+        5.291,
+        8.428,
+        13.952,
+        30.086
+      ],
+      "exampleAt": 19.294
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Niveles de dominio L0–L4",
+      "example": "Un nivel no es un permiso: la autorización de máquina y de seguridad se registra aparte.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Sin entrenar",
+            "sub": "L0"
+          },
+          {
+            "label": "Entiende",
+            "sub": "L1"
+          },
+          {
+            "label": "Con supervisión",
+            "sub": "L2"
+          },
+          {
+            "label": "Trabaja solo",
+            "sub": "L3"
+          },
+          {
+            "label": "Entrena a otros",
+            "sub": "L4"
+          }
+        ]
+      },
+      "bullets": [
+        "L0 sin entrenar",
+        "L1 entiende la seguridad y la secuencia",
+        "L2 trabaja con supervisión",
+        "L3 calificado para trabajar solo",
+        "L4 entrena a otros, resuelve problemas"
+      ],
+      "at": [
+        3.628,
+        6.925,
+        13.312,
+        17.517,
+        25.146
+      ],
+      "exampleAt": 30.364
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Encontrar las habilidades críticas",
+      "example": "La celda de Vikram: el enfoque del lente y la carga de firmware califican más alto; el manejo de cajas, más bajo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mapea cada paso + SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Marca seguridad, calidad, cliente",
+            "icon": "warning"
+          },
+          {
+            "label": "Califica impacto, dificultad, respaldos",
+            "icon": "scale"
+          },
+          {
+            "label": "Mínimo calificado por turno",
+            "icon": "person",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Enfoque del lente",
+              "sub": "Riesgo más alto",
+              "icon": "camera",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Carga de firmware",
+              "sub": "Riesgo más alto",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Manejo de cajas",
+              "sub": "Más bajo",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mapea cada paso y su SOP",
+        "Marca el impacto en seguridad, calidad, cliente",
+        "Califica impacto, dificultad, respaldos",
+        "Mínimo de personas calificadas por turno"
+      ],
+      "at": [
+        3.176,
+        7.342,
+        13.395,
+        34.824
+      ],
+      "exampleAt": 20.04
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Evaluar la habilidad real",
+      "example": "Una operadora de prueba pasó la teoría pero seguía sin ver escaneos de series con falla — se queda en nivel dos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Breve revisión de teoría",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Ciclos reales + uno anormal",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Fecha, evaluador, resultado",
+            "icon": "calendar",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Teoría: aprobada",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Trabajo real: no vio escaneos con falla",
+              "icon": "search",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Se queda en nivel 2",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Breve revisión de teoría",
+        "Observa ciclos reales + una situación anormal",
+        "Registra fecha, evaluador, resultados"
+      ],
+      "at": [
+        8.01,
+        12.946,
+        17.862
+      ],
+      "exampleAt": 22.089
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Necesidades de entrenamiento y brechas",
+      "example": "El turno de Vikram necesita 4 operadores de firmware calificados y tiene 2: una brecha de 2.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Volver a evaluar tras cambios",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Necesidad = requerido − comprobado",
+            "icon": "count",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Una brecha de 2",
+          "unit": "operadores de firmware calificados por turno",
+          "with": "example",
+          "items": [
+            {
+              "label": "Necesarios",
+              "value": 4,
+              "with": "example"
+            },
+            {
+              "label": "Disponibles",
+              "value": 2,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Vuelve a evaluar tras ausencias o cambios",
+        "Necesidad = nivel requerido − nivel comprobado",
+        "Cuenta personas calificadas contra puestos",
+        "Encuentra los puntos únicos de falla"
+      ],
+      "at": [
+        0.0,
+        10.189,
+        15.203,
+        29.009
+      ],
+      "exampleAt": 19.735
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Métodos de entrenamiento",
+      "example": "El Dojo de empaque de Vikram usa etiquetas equivocadas y accesorios faltantes a propósito.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Entrenamiento en el puesto",
+            "icon": "person"
+          },
+          {
+            "label": "Evaluador independiente",
+            "icon": "shield"
+          },
+          {
+            "label": "Dojo",
+            "sub": "Práctica segura fuera de la línea",
+            "icon": "tray"
+          },
+          {
+            "label": "One Point Lesson",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Entrenamiento estructurado en el puesto",
+        "Un evaluador independiente revisa el resultado",
+        "Dojo: práctica segura fuera de la línea",
+        "One Point Lesson para los puntos clave"
+      ],
+      "at": [
+        1.379,
+        11.599,
+        15.242,
+        27.852
+      ],
+      "exampleAt": 21.782
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "El plan de entrenamiento de 90 días",
+      "example": "La primera prioridad de Vikram: calificar a un segundo experto en enfoque del lente.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Mapear habilidades, definir niveles, evaluar",
+            "sub": "Días 1–30",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Entrenar las brechas críticas",
+            "sub": "31–60",
+            "icon": "person"
+          },
+          {
+            "label": "Certificar respaldos, crecer",
+            "sub": "61–90",
+            "icon": "check"
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–30: mapear, definir niveles, evaluar",
+        "Días 31–60: entrenar las brechas críticas",
+        "Días 61–90: certificar respaldos, crecer"
+      ],
+      "at": [
+        9.12,
+        16.409,
+        23.177
+      ],
+      "exampleAt": 27.454
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "KPI de la matriz",
+      "example": "18 de 24 puestos críticos cubiertos = 75%. Calcúlalo por turno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cobertura de calificación",
+            "icon": "count"
+          },
+          {
+            "label": "Logro de habilidades",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Tasa de entrenamiento cruzado",
+            "icon": "sequence"
+          },
+          {
+            "label": "Calificaciones vencidas",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 75,
+          "suffix": "%",
+          "icon": "person",
+          "label": "de los puestos críticos cubiertos",
+          "unit": "18 de 24: calcúlalo por turno",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Cobertura de calificación",
+        "Logro de habilidades",
+        "Tasa de entrenamiento cruzado",
+        "Calificaciones vencidas"
+      ],
+      "at": [
+        4.593,
+        10.68,
+        15.603,
+        21.791
+      ],
+      "exampleAt": 24.939
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Ejemplo práctico: la celda de Vikram",
+      "example": "Enfoque + prueba a la vez: Bala en enfoque, Deepa en prueba. Chitra no puede hacer las dos.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Tarjeta",
+          "Enfoque",
+          "Prueba"
+        ],
+        "note": "Después de 90 días. Enfoque + prueba a la vez: Bala y Deepa. Siguiente: otro respaldo de enfoque.",
+        "items": [
+          {
+            "label": "Asha",
+            "cells": [
+              4,
+              null,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Bala",
+            "cells": [
+              null,
+              3,
+              null
+            ],
+            "with": 1
+          },
+          {
+            "label": "Chitra",
+            "cells": [
+              null,
+              3,
+              3
+            ],
+            "with": 1
+          },
+          {
+            "label": "Deepa",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Asha: ensamble de tarjetas L4",
+        "Chitra ahora se une a Bala: enfoque del lente L3",
+        "Chitra, Deepa: prueba L3+",
+        "Siguiente prioridad: otro respaldo de enfoque"
+      ],
+      "at": [
+        4.138,
+        7.796,
+        12.27,
+        30.689
+      ],
+      "exampleAt": 15.82
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Ligar con la calidad y la seguridad",
+      "example": "El técnico de firmware de Vikram era L3 con la receta vieja — la nueva cambió pasos críticos, así que se le volvió a evaluar.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Nivel",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Autorización",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Entrenamiento en el SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Cambio de proceso: volver a evaluar",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nivel + autorización + entrenamiento en el SOP",
+        "Cada habilidad ligada a la revisión de su SOP",
+        "Cambio de proceso → volver a evaluar",
+        "El entrenamiento nunca reemplaza el diseño del proceso"
+      ],
+      "at": [
+        6.686,
+        14.962,
+        18.92,
+        33.08
+      ],
+      "exampleAt": 22.357
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Matriz digital y tablero visual",
+      "example": "El tablero de Vikram le avisa cuando una autorización está por vencer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Códigos únicos",
+            "icon": "barcode"
+          },
+          {
+            "label": "Rastro de auditoría",
+            "icon": "sequence"
+          },
+          {
+            "label": "Recordatorios de vencimiento",
+            "icon": "clock"
+          },
+          {
+            "label": "Sin autoaprobación",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Códigos únicos para personas y habilidades",
+        "Rastro de auditoría de cada cambio",
+        "Recordatorios de calificaciones por vencer",
+        "Nadie aprueba sus propias habilidades críticas"
+      ],
+      "at": [
+        10.189,
+        13.523,
+        17.15,
+        21.099
+      ],
+      "exampleAt": 25.483
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Gobierno y revisión",
+      "example": "La antigüedad y la asistencia no equivalen a calificación.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Personal calificado al arranque",
+            "sub": "Diario",
+            "icon": "person"
+          },
+          {
+            "label": "Brechas, entrenamiento cruzado, pendientes",
+            "sub": "Semanal",
+            "icon": "calendar"
+          },
+          {
+            "label": "Cobertura, gente que se va",
+            "sub": "Mensual",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Consistencia de los evaluadores",
+            "sub": "Trimestral",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Diario: personal calificado al arranque",
+        "Semanal: brechas, entrenamiento cruzado, pendientes",
+        "Mensual: cobertura, gente que se va",
+        "Trimestral: consistencia de los evaluadores"
+      ],
+      "at": [
+        4.454,
+        10.399,
+        17.044,
+        22.087
+      ],
+      "exampleAt": 33.479
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Plantillas y auditoría",
+      "example": "Otro supervisor debe ver de un vistazo quién está calificado hoy.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Matriz de habilidades · Celda 2 · Rev C",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Habilidad · rev. del SOP · nivel · vencimiento",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Evaluación: teoría, ciclos, seguridad",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Un plan de entrenamiento para cada brecha",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Auditada contra el trabajo real",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Matriz: habilidad, revisión del SOP, nivel, vencimiento",
+        "Formato de evaluación: teoría, ciclos, seguridad",
+        "Un plan de entrenamiento para cada brecha",
+        "Audita las celdas contra el trabajo real"
+      ],
+      "at": [
+        4.168,
+        12.554,
+        20.106,
+        23.473
+      ],
+      "exampleAt": 30.977
+    }
+  ]
+}

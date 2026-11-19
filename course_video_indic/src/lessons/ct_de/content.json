@@ -1,0 +1,774 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Zykluszeit ist",
+      "example": "Laut Bericht brauchte Station C 21 Sekunden. Imrans Stoppuhr sagte 28.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Von Einheit zu Einheit",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Festgelegte Grenze",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Genannte Bedingungen",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "21 s",
+              "sub": "Der Bericht",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "28 s",
+              "sub": "Imrans Stoppuhr",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Zeit zwischen fertigen Einheiten",
+        "An einer festgelegten Grenze",
+        "Unter genannten Bedingungen"
+      ],
+      "at": [
+        4.982,
+        10.83,
+        13.29
+      ],
+      "exampleAt": 20.384
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Grenzen sind wichtig",
+      "example": "Die 21 Sekunden kamen aus alten Standardzeiten. Die 28 Sekunden waren der echte Abstand von Einheit zu Einheit.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Manuell",
+            "sub": "Handarbeit",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Maschine",
+            "sub": "Test, Dosieren, Aushärten",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Stationszyklus",
+            "sub": "Echter Wiederholabstand",
+            "icon": "clock",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Alte Standardzeiten",
+              "sub": "21 Sekunden",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Von Einheit zu Einheit",
+              "sub": "28 Sekunden",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Manuelle Zeit: Handarbeit",
+        "Maschinenzeit: Test, Dosieren, Aushärten",
+        "Stationszyklus: der echte Wiederholabstand",
+        "Gleiche Grenze, sonst kein Vergleich"
+      ],
+      "at": [
+        3.474,
+        8.505,
+        14.123,
+        33.183
+      ],
+      "exampleAt": 22.926
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Zykluszeit gegenüber TAKT, Durchlaufzeit, UPH",
+      "example": "Imrans Linie: TAKT 24 Sekunden, also 150 Monitore pro Stunde nötig.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Zykluszeit",
+            "sub": "Wie oft Sie fertigstellen",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Tempo, das die Nachfrage braucht",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Durchlaufzeit",
+            "sub": "Auftrag bis fertig",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "UPH",
+            "sub": "Gute Einheiten pro Stunde",
+            "icon": "count",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 150,
+          "icon": "count",
+          "label": "Monitore pro Stunde nötig",
+          "unit": "TAKT 24 Sekunden",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Zykluszeit: wie oft Sie eine fertigstellen",
+        "TAKT: das Tempo, das die Nachfrage braucht",
+        "Durchlaufzeit: Auftrag bis fertig, mit Warten",
+        "UPH: gute Einheiten pro Stunde"
+      ],
+      "at": [
+        5.956,
+        10.833,
+        15.462,
+        26.871
+      ],
+      "exampleAt": 31.226
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Vergleich mit dem TAKT",
+      "example": "Station C liegt mit 28 Sekunden 4 Sekunden über einem TAKT von 24 Sekunden.",
+      "visual": {
+        "type": "ladder",
+        "top": "KAPAZITÄTSLÜCKE",
+        "bottom": "PUFFER",
+        "items": [
+          {
+            "label": "Über dem TAKT",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Gleich dem TAKT",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Unter dem TAKT",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 24,
+          "suffix": " s",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station C",
+              "value": 28,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Über dem TAKT: Kapazitätslücke",
+        "Gleich dem TAKT: kein Puffer",
+        "Unter dem TAKT: Puffer, keine Überproduktion"
+      ],
+      "at": [
+        3.988,
+        12.424,
+        16.881
+      ],
+      "exampleAt": 24.113
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die Studie vorbereiten",
+      "example": "Imrans Zweck: den Wiederholabstand von Station C messen, um die Kapazität gegen den TAKT zu prüfen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Zweck und Station",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Bedingungen",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Nur normale Zyklen",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Dem Werker erklären",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein klarer Zweck und eine Station",
+        "Bedingungen notieren",
+        "Nur normale Zyklen, Störungen erfasst",
+        "Dem Werker erklären"
+      ],
+      "at": [
+        3.827,
+        10.494,
+        17.34,
+        23.108
+      ],
+      "exampleAt": 31.146
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Die Elemente zerlegen",
+      "example": "Station C: Laden 4 s, Etikett scannen 3 s, Displaytest 13 s, Seriennummer 4 s, Entladen 3 s, Warten 1 s.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Elemente von Station C: insgesamt 28 s",
+        "with": "example",
+        "items": [
+          {
+            "label": "Laden",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Scannen",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Test",
+            "value": 13,
+            "with": "example"
+          },
+          {
+            "label": "Seriennummer",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Entladen",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Warten",
+            "value": 1,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Arbeit in sichtbare Elemente teilen",
+        "Klarer Start und klares Ende für jedes",
+        "Warten getrennt erfassen",
+        "Nie Qualitäts- oder Sicherheitsprüfungen streichen"
+      ],
+      "at": [
+        0.226,
+        5.571,
+        12.855,
+        23.823
+      ],
+      "exampleAt": 29.682
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Der Zeitaufnahmebogen",
+      "example": "Der längste Zyklus: 32 Sekunden, als der Etikettenscan zweimal scheiterte.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Zehn gemessene Zyklen an Station C (Sekunden)",
+        "items": [
+          {
+            "label": "Schnellster",
+            "value": 26,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Durchschnitt",
+            "value": 28,
+            "with": 1
+          },
+          {
+            "label": "Langsamster",
+            "value": 32,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Wiederholte Zyklen messen, nicht einen",
+        "Durchschnitt: 28 s. Spanne: 26 bis 32 s",
+        "Jeden auffälligen Zyklus erfassen"
+      ],
+      "at": [
+        4.162,
+        10.023,
+        19.222
+      ],
+      "exampleAt": 24.533
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Kapazität berechnen",
+      "example": "Die Nachfrage braucht 150 pro Stunde. Station C schafft etwa 129. Das ist die Lücke.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Station C",
+          "value": 129
+        },
+        "after": {
+          "label": "Nachfrage",
+          "value": 150
+        },
+        "unit": "Monitore pro Stunde",
+        "note": "3,600 ÷ 28 ≈ 129",
+        "with": 1
+      },
+      "bullets": [
+        "Stundenleistung = 3.600 ÷ Zykluszeit",
+        "Station C: etwa 129 pro Stunde",
+        "Nötige Stationen = Arbeitsinhalt ÷ TAKT"
+      ],
+      "at": [
+        3.8,
+        10.669,
+        25.019
+      ],
+      "exampleAt": 17.701
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Streuung zählt",
+      "example": "Station C: 3 von 10 Zyklen dauerten 30 Sekunden oder länger.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Durchschnitte verstecken",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Zeitliche Folge",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Lange Zyklen behalten",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Streuung, % über dem TAKT",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3,
+          "suffix": " / 10",
+          "icon": "clock",
+          "label": "Zyklen mit 30 Sekunden oder mehr",
+          "unit": "Station C",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Durchschnitte verstecken lange Zyklen",
+        "Zyklen in zeitlicher Folge darstellen",
+        "Lange Zyklen nie löschen, um gut auszusehen",
+        "Streuung und % über dem TAKT berichten"
+      ],
+      "at": [
+        8.737,
+        13.657,
+        23.57,
+        31.223
+      ],
+      "exampleAt": 37.595
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Den Engpass finden",
+      "example": "Stationen A 19 s, B 22 s, C 28 s, D 21 s. Station C begrenzt die Linie.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 19,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 28,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die langsamste Station bestimmt das Tempo",
+        "Stau davor, Leerlauf danach",
+        "Zuerst den Engpass beheben"
+      ],
+      "at": [
+        5.215,
+        8.387,
+        26.416
+      ],
+      "exampleAt": 13.566
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Warum ist sie langsam?",
+      "example": "Wiederholte Etikettenscans, und eine Seriennummer, die direkt an der Teststation aufgeklebt wurde.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Methode",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Konstruktion",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Maschine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Warten",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Etiketten schief",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Scanwiederholungen",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Seriennummer im Zyklus",
+              "icon": "sticker",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Hingehen und schauen: die echte Station",
+        "Methode, Konstruktion, Maschine oder Warten?",
+        "Wiederholungen, Alarme und Zeitstempel prüfen"
+      ],
+      "at": [
+        0.234,
+        5.334,
+        18.137
+      ],
+      "exampleAt": 23.612
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Die Methode verbessern",
+      "example": "Eine Etikettenführung richtet jedes Etikett gerade aus. Der Scanner liest beim ersten Mal.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminieren",
+            "with": 0
+          },
+          {
+            "label": "Kombinieren",
+            "with": 0
+          },
+          {
+            "label": "Umordnen",
+            "with": 0
+          },
+          {
+            "label": "Vereinfachen",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Vorher",
+              "sub": "Etiketten schief, Scanwiederholungen",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Etikettenführung",
+              "sub": "Liest beim ersten Mal",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminieren, Kombinieren, Umordnen, Vereinfachen",
+        "Zuerst einfache, günstige Lösungen",
+        "Nie Tests auslassen, um Zeit zu sparen"
+      ],
+      "at": [
+        5.686,
+        13.673,
+        20.591
+      ],
+      "exampleAt": 29.844
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Die Linie neu austakten",
+      "example": "Seriennummer an Station A verlegt: A 23 s, C 23 s. Jede Station liegt jetzt unter dem TAKT.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 23,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 23,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Arbeit zu Stationen mit freier Zeit verschieben",
+        "Reihenfolge, Qualifikation und Prüfungen halten",
+        "Keine neuen Wege, kein ergonomisches Risiko"
+      ],
+      "at": [
+        4.14,
+        10.838,
+        18.865
+      ],
+      "exampleAt": 25.84
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Beweisen, dann standardisieren",
+      "example": "Auslöser: 3 Zyklen hintereinander über dem TAKT, dann prüft der Teamleiter die Station.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Versuch: Schichten, Modelle",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Streuung, FPY, Menge",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Standardarbeit, Schulung",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Auslöser: 3 über dem TAKT",
+            "icon": "warning",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Versuch über Schichten und Modelle",
+        "Streuung, FPY und Menge vergleichen",
+        "Standardarbeit aktualisieren und schulen",
+        "Abweichungen schnell eskalieren"
+      ],
+      "at": [
+        5.163,
+        9.442,
+        17.698,
+        22.619
+      ],
+      "exampleAt": 28.112
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ihr 30-Tage-Plan",
+      "example": "Imrans Linie schafft jetzt 150 Monitore pro Stunde, bei unveränderter Erstdurchlaufquote.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Definieren und Ausgangslage messen",
+            "sub": "Woche 1",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Engpass",
+            "sub": "Woche 2",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Versuch",
+            "sub": "Woche 3",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Standardisieren",
+            "sub": "Woche 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Woche 1: definieren und Ausgangslage messen",
+        "Woche 2: den Engpass finden",
+        "Woche 3: eine Maßnahme testen",
+        "Woche 4: prüfen, standardisieren, schulen"
+      ],
+      "at": [
+        6.517,
+        13.378,
+        18.344,
+        22.37
+      ],
+      "exampleAt": 28.622
+    }
+  ]
+}

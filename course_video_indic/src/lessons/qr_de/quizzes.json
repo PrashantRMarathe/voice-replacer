@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "1.900 von 2.000 verdächtigen Einheiten wurden gefunden und geprüft. Ist die Eingrenzung vollständig?",
+      "options": [
+        "Ja, 95 % reichen",
+        "Nein, 100 verdächtige Einheiten fehlen noch",
+        "Ja, wenn die Lösung eingebaut ist"
+      ],
+      "correct": 1,
+      "explanation": "Eine Eingrenzungsabdeckung von 95 % heißt, 5 % der verdächtigen Menge sind noch draußen. Die Eingrenzung ist erst vollständig, wenn jede Einheit erfasst ist.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Fokusfehler steigen im Test direkt nach einem Vorrichtungswechsel. Der Tester wird zurückgesetzt und besteht. Was sollte ZUERST passieren?",
+      "options": [
+        "Weiterlaufen, der Tester hat bestanden",
+        "Einheiten seit dem letzten guten Einrichten sperren und die Belege festhalten",
+        "Die Vorrichtung zurückwechseln und nichts sagen",
+        "Auf die Besprechung am Tagesende warten"
+      ],
+      "correct": 1,
+      "explanation": "Zuerst den Kunden schützen: alles seit dem letzten bestätigten Einrichten sperren, Muster und Daten aufheben, dann untersuchen. Den Tester zurückzusetzen verbirgt die Abweichung.",
+      "think": 18
+    }
+  ]
+}

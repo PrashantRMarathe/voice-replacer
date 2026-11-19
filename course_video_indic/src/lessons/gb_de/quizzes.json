@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche Aussage ist ein echter Fakt (Genjitsu)?",
+      "options": [
+        "„Schicht B ist immer nachlässig.“",
+        "„Der Lieferant hat es verursacht.“",
+        "„18 von 24 Fehlern kamen aus Charge B.“"
+      ],
+      "correct": 2,
+      "explanation": "Ein Fakt hat Zählungen, einen Nenner und einen prüfbaren Umfang. Die anderen sind Meinungen, und die Lieferantenbehauptung ist unbewiesen.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Das Dashboard zeigt eine Schicht mit doppelt so vielen Fehlern. Der Leiter will diese Schicht neu schulen. Was zuerst?",
+      "options": [
+        "Heute schulen: die Daten sind klar",
+        "An die Station gehen, die defekten Einheiten in die Hand nehmen und die Fakten prüfen",
+        "Die Werker der zwei Schichten tauschen"
+      ],
+      "correct": 1,
+      "explanation": "Ein Unterschied zwischen Schichten ist ein Signal, kein Beweis. Gehen Sie hin: echter Ort, echtes Ding und echte Fakten, bevor Sie über eine Lösung entscheiden.",
+      "think": 17
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Qu'est-ce qui distingue le Jidoka de l'automatisation ordinaire ?",
+      "options": [
+        "Il va plus vite",
+        "Il détecte une anomalie définie, s'arrête, et appelle une personne",
+        "Il n'a besoin de personne"
+      ],
+      "correct": 1,
+      "explanation": "L'automatisation fait le travail ; le Jidoka le juge aussi. Il s'arrête sur une anomalie définie et appelle à l'aide humaine, pour que les défauts ne se multiplient pas.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Une opératrice voit un joint anormal, mais la ligne est en retard sur l'objectif. Que doit-elle faire ?",
+      "options": [
+        "Continuer et le signaler en fin d'équipe",
+        "Appeler l'Andon et bloquer l'unité, comme le disent les règles d'arrêt",
+        "Le corriger elle-même discrètement et continuer"
+      ],
+      "correct": 1,
+      "explanation": "Aucun défaut transmis, aucune anomalie cachée. Appeler l'Andon et bloquer l'unité protège le client, même quand la production est en retard.",
+      "think": 14
+    }
+  ]
+}

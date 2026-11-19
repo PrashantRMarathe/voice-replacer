@@ -1,0 +1,653 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was das Diagramm zeigt",
+      "example": "Snehas Diagramm: ein Whiteboard neben der Linie, für jede Schicht sichtbar.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Restarbeit",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Verfügbare Zeit",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Fällt auf null",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Restarbeit gegenüber verfügbarer Zeit",
+        "Senkrecht: Restarbeit. Waagerecht: Zeit",
+        "Die Linie fällt Richtung null"
+      ],
+      "at": [
+        4.833,
+        10.088,
+        19.527
+      ],
+      "exampleAt": 27.727
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum Lean es nutzt",
+      "example": "Letzten Monat: nur ein Termin. Die Lücke zeigte sich am Freitagnachmittag.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Nur ein Termin",
+            "sub": "Lücke am Freitag gefunden",
+            "icon": "calendar",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Ein Restarbeitsdiagramm",
+            "sub": "Lücke gesehen, solange sie klein ist",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Ziel wird zu einem sichtbaren Weg",
+        "Eine Lücke sehen, solange sie klein ist",
+        "Auf den Engpass konzentrieren"
+      ],
+      "at": [
+        0.788,
+        15.824,
+        20.939
+      ],
+      "exampleAt": 26.749
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Wofür es da ist",
+      "example": "Das Ziel: jede geplante Einheit erreicht bis zum Termin null.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Für alle sichtbar",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Ist gegenüber Tempo",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Frühwarnung",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Fakten, keine Gefühle",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Restarbeit für alle sichtbar",
+        "Tatsächlicher Fortschritt gegenüber nötigem Tempo",
+        "Verzögerungen früh erkennen",
+        "Aufholmaßnahmen mit Fakten belegt"
+      ],
+      "at": [
+        4.277,
+        10.255,
+        15.233,
+        21.243
+      ],
+      "exampleAt": 26.299
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Die fünf Elemente",
+      "example": "Sneha verfolgt die Router, die noch fertig werden müssen, Tag für Tag.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Restarbeit",
+            "sub": "Senkrechte Achse",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Zeit",
+            "sub": "Waagerechte Achse",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Ideallinie",
+            "icon": "chartDown",
+            "with": 1
+          },
+          {
+            "label": "Istlinie",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Lücke",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Achsen: Restarbeit, Zeit",
+        "Ideallinie: das nötige Tempo",
+        "Istlinie: was wirklich passiert ist",
+        "Lücke: Ist minus Ideal"
+      ],
+      "at": [
+        3.404,
+        16.992,
+        21.44,
+        26.358
+      ],
+      "exampleAt": 29.855
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Snehas Herausforderung",
+      "example": "Tag 0: nichts erledigt, 1.000 Router übrig.",
+      "visual": {
+        "type": "stat",
+        "value": 1000,
+        "icon": "box",
+        "label": "Router im Umlauf",
+        "unit": "5 Arbeitstage bis zum Lkw",
+        "with": 0
+      },
+      "bullets": [
+        "1.000 Router im Umlauf",
+        "5 Arbeitstage bis zum Lkw",
+        "Rest = geplant − erledigt"
+      ],
+      "at": [
+        4.628,
+        14.597,
+        21.35
+      ],
+      "exampleAt": 28.588
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Das ideale Tempo",
+      "example": "Ideallinie: 1.000 → 800 → 600 → 400 → 200 → 0",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Ideallinie: jeden Tag 200 Router weniger",
+        "with": "example",
+        "items": [
+          {
+            "label": "Tag 0",
+            "value": 1000,
+            "with": "example"
+          },
+          {
+            "label": "Tag 1",
+            "value": 800,
+            "with": "example"
+          },
+          {
+            "label": "Tag 2",
+            "value": 600,
+            "with": "example"
+          },
+          {
+            "label": "Tag 3",
+            "value": 400,
+            "with": "example"
+          },
+          {
+            "label": "Tag 4",
+            "value": 200,
+            "with": "example"
+          },
+          {
+            "label": "Tag 5",
+            "value": 0,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Tempo = Gesamtarbeit ÷ Perioden",
+        "1.000 ÷ 5 = 200 pro Tag",
+        "Zuerst zeichnen, nie neu zeichnen"
+      ],
+      "at": [
+        1.832,
+        11.153,
+        22.396
+      ],
+      "exampleAt": 13.642
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Tag zwei: die Lücke finden",
+      "example": "Am Dienstag erkannt, nicht am Freitag.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Router übrig, Ende von Tag 2: 80 hinter dem Plan",
+        "items": [
+          {
+            "label": "Ideal",
+            "value": 600,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Ist",
+            "value": 680,
+            "tone": "bad",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Erledigt: 320",
+        "Übrig: 680. Ideal: 600",
+        "Lücke: 80 hinter dem Plan",
+        "Drei Tage zum Aufholen, Qualität unangetastet"
+      ],
+      "at": [
+        5.583,
+        9.913,
+        19.431,
+        28.742
+      ],
+      "exampleAt": 34.925
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Die Linien lesen",
+      "example": "Snehas Linie liegt über der Ideallinie. Was hindert die Router daran, fertig zu werden?",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Über der Ideallinie",
+            "sub": "Im Rückstand: Engpass finden",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Unter der Ideallinie",
+            "sub": "Im Vorsprung: Qualität bestätigen",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Über der Ideallinie: im Rückstand. Engpass finden",
+        "Unter der Ideallinie: im Vorsprung. Qualität bestätigen",
+        "Vorsprung mit schlechten Einheiten ist kein Vorsprung"
+      ],
+      "at": [
+        3.575,
+        15.024,
+        22.676
+      ],
+      "exampleAt": 26.993
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Flache Linien und null erreichen",
+      "example": "Mittwoch: Snehas Linie blieb eine ganze Schicht lang flach.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Flache Linie",
+            "sub": "Nichts abgeschlossen",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Stillstand? Verantwortlicher? Daten?",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Bei null: prüfen, abschließen",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Flache Linie: nichts abgeschlossen",
+        "Stillstand, Verantwortlichen, Daten prüfen",
+        "Bei null: prüfen, dann abschließen"
+      ],
+      "at": [
+        3.352,
+        14.011,
+        20.018
+      ],
+      "exampleAt": 31.392
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Die tägliche Überprüfung",
+      "example": "Sneha macht die Überprüfung in 10 Minuten, zu Beginn jeder Schicht.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Aktualisieren",
+            "with": 0
+          },
+          {
+            "label": "Vergleichen",
+            "with": 0
+          },
+          {
+            "label": "Erklären",
+            "with": 1
+          },
+          {
+            "label": "Handeln",
+            "with": 2
+          },
+          {
+            "label": "Bestätigen",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Aktualisieren und vergleichen",
+        "Die Hauptursache erklären",
+        "Handeln: ein Verantwortlicher und eine Uhrzeit",
+        "Bei der nächsten Aktualisierung bestätigen"
+      ],
+      "at": [
+        9.096,
+        18.352,
+        22.818,
+        27.938
+      ],
+      "exampleAt": 33.046
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Snehas Aufholjagd",
+      "example": "Freitag: null Router übrig, ein paar Stunden vor dem Lkw.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "RF-Tester ausgefallen",
+            "icon": "test",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Zweiter Tester in Betrieb",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Ein Verantwortlicher für das Diagramm",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 0,
+          "icon": "check",
+          "label": "Router übrig am Freitag",
+          "unit": "ein paar Stunden vor dem Lkw",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Engpass: ein RF-Tester ausgefallen",
+        "Zweiter Tester, Personal mit Vorrang",
+        "Ein einziger Verantwortlicher aktualisiert das Diagramm"
+      ],
+      "at": [
+        4.575,
+        20.991,
+        28.178
+      ],
+      "exampleAt": 35.146
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Wo man es nutzt",
+      "example": "Snehas Qualitätsteam bringt offene Fehler jetzt vor dem Versand auf null.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Umlauf",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Unterdeckung aufholen",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Kritische Fehler",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Instandhaltung, Kaizen",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein klarer Start, ein klares Ende, ein Termin",
+        "Produktion: Umlauf, Aufholen",
+        "Qualität: kritische Fehler auf null",
+        "Instandhaltungs- und Kaizen-Maßnahmen"
+      ],
+      "at": [
+        5.567,
+        12.172,
+        20.396,
+        24.595
+      ],
+      "exampleAt": 31.404
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Ehrliche Daten",
+      "example": "Router, die auf den Nachtest warten: nicht als fertig gezählt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eine Einheit, eingefrorener Start",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "„Fertig“ definiert",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Nur gute Menge",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Wartet auf Nachtest",
+              "sub": "Nicht fertig",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Bestanden und verpackt",
+              "sub": "Zählt",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eine Einheit, eine eingefrorene Startmenge",
+        "„Fertig“ vor dem Start definieren",
+        "Nur gute Menge zählen"
+      ],
+      "at": [
+        4.51,
+        14.232,
+        19.206
+      ],
+      "exampleAt": 23.55
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Häufige Fehler",
+      "example": "Sneha notiert genehmigte Umfangsänderungen in einem eigenen Feld neben ihrem Diagramm.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Startmenge verschoben",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Späte Aktualisierungen",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Teilweise oder abgelehnt",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Keine Maßnahmen",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Die Startmenge ändern",
+        "Späte oder unregelmäßige Aktualisierungen",
+        "Teilweise oder abgelehnte Einheiten zählen",
+        "Ein Diagramm ohne Maßnahmen"
+      ],
+      "at": [
+        3.657,
+        8.367,
+        15.854,
+        24.319
+      ],
+      "exampleAt": 28.716
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Stärken, Grenzen und Checkliste",
+      "example": "Sneha hängt diese Checkliste neben jedes neue Diagramm.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Arbeit und „fertig“ definieren",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Startmenge und Termin bestätigen",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Ideales Tempo, ein Verantwortlicher",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Aktualisieren, handeln, erst bei null abschließen",
+            "icon": "check",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Einfach, schnell, eine Frühwarnung",
+        "Findet die Grundursache nicht allein",
+        "Definieren, bestätigen, berechnen, Verantwortlichen benennen",
+        "Aktualisieren, handeln, erst bei null abschließen"
+      ],
+      "at": [
+        2.173,
+        8.559,
+        17.761,
+        33.5
+      ],
+      "exampleAt": 38.749
+    }
+  ]
+}

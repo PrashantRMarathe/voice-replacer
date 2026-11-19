@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quelle est une cause utile pour un FMEA ?",
+      "options": [
+        "La négligence de l'opérateur",
+        "Deux tailles de joint partagent un bac au poste",
+        "De l'eau entre dans la radio"
+      ],
+      "correct": 1,
+      "explanation": "Une cause utile est une condition précise que vous pouvez maîtriser. La négligence est un reproche, et l'eau à l'intérieur est l'effet.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Après l'ajout d'un capteur et d'un test d'étanchéité, l'équipe veut baisser la gravité de 8 à 4. Est-ce correct ?",
+      "options": [
+        "Oui : le risque est plus faible maintenant",
+        "Non : la gravité ne change que si l'effet change",
+        "Oui, si le RPN reste sous 100"
+      ],
+      "correct": 1,
+      "explanation": "La gravité note l'effet. De l'eau dans une radio est tout aussi grave qu'avant. Les nouveaux contrôles baissent l'occurrence et la détection, pas la gravité.",
+      "think": 15
+    }
+  ]
+}

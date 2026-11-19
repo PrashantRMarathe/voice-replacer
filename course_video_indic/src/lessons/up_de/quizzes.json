@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p06",
+      "question": "Kavya braucht 3.000 Handys, 2.000 Boxen und 1.000 Audiogeräte. Welche Folge ist mix-geglättet?",
+      "options": [
+        "Alle Handys, dann alle Boxen, dann alle Audio",
+        "Handy–Box–Handy–Audio–Box–Handy, wiederholt",
+        "Je eins von jedem Produkt, abwechselnd"
+      ],
+      "correct": 1,
+      "explanation": "Das wiederholte Muster folgt dem Bedarfsverhältnis 3 : 2 : 1. Große Chargen schaffen Spitzen; gleiche Mengen ignorieren den echten Mix.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Kunde will plötzlich 500 Audiogeräte früher. Was sollte Kavya ZUERST tun?",
+      "options": [
+        "Sie ins nächste Fenster schieben",
+        "Termine, Bestand, Teile und Testkapazität prüfen, dann die Fenster ändern",
+        "Ablehnen, der Plan ist eingefroren",
+        "Überstunden machen und heute alle bauen"
+      ],
+      "correct": 1,
+      "explanation": "Zuerst die Wirkung prüfen, dann die nächsten Freigabefenster nach den vereinbarten Regeln ändern. Blind vordrängeln oder glatt ablehnen bringt beides Ärger.",
+      "think": 14
+    }
+  ]
+}

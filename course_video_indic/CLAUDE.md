@@ -88,6 +88,49 @@ comp `<EnglishComp>Ml` (`FMEAMl`, `QrqcMl`; modules mirror the Hindi names). Tra
 Hindi (`build <x>_hi ml <file>`; sources in `out/ml_tr/`, PC only). Only dub tracks. 1 clip came
 out over 1.14 and was shortened + re-voiced (OPL p14); fastest clip now 1.105 (DT p10). Two
 edge-tts socket timeouts left 0-byte mp3s (DT quiz2_a, Jidoka p15): delete and voice again.
+Spanish pilot (PC, 17 Nov 2026): PokaYokeEs (`pk_es`, module `poka_yoke_es`), voiced
+`es-MX-DaliaNeural` (female), Latin-American Spanish with "tú", translated from the ENGLISH text:
+`translate_lesson.py dump_en <x>_hi` prints the English string at each Hindi number
+(`out/es_tr/poka_yoke_en.txt`), the Spanish goes in `out/es_tr/poka_yoke_es.txt`, then
+`build <x>_hi es <file>` as before. Latin-script mode (`LATIN_SCRIPT` in translate_lesson.py,
+`LATIN_LANGS` in lint_scripts.py and say_words.py, ready for fr/de): digits still identical;
+each English term of the Hindi line (TERMS keys + its Latin words) must stay, same spelling and
+count; no Indian script left. Lint flags any acronym say() left for the voice to guess. The
+component drops `ensureIndicFont` (Poppins/Inter draw Spanish). `TERMS["es"]` = Spanish
+letter names for acronyms (ese o pe), Japanese words respelled for Spanish rules (Guemba,
+Yidoka, Jancho), English phrases respelled; `PRON["es"]`: fixture, firmware, bypass.
+**The lint Latin mode is NOT in sync_from_english.py yet**: a sync rewrites lint_scripts.py
+and Spanish lessons would then fail with "English left in the spoken text".
+Word sample `out/pron_test/es_words.mp3` (13 terms). Fastest clip 1.043 (p05); packed
+`pack pk hi te ta mr kn bn ml es` (8 tracks). The user approved it ("Spanish OK, do all").
+Spanish set (PC, 18 Nov 2026): all 26, id `<english id>_es`, comp `<EnglishComp>Es`, modules
+mirror the Hindi names. Sources in `out/es_tr/` (PC only): `<x>_en.txt` (dump_en), `<x>_es.txt`.
+Case matters for terms: write "Gemba", "Kaizen" capitalised, and plural English terms
+unchanged ("las One Point Lesson", "los KPI") or the count check misses them. Yamazumi's
+on-screen labels (lines 183-258) don't pair with the English, so they were translated from
+the Hindi dump. Root.tsx lists a lesson only once it is voiced (rerun gen_root.py after).
+Word sample now 102 terms (`es_words.mp3`, all lessons).
+French and German sets (PC, 18 Nov 2026, no pilot: the user can't review these languages):
+all 26 each, `fr-FR-DeniseNeural` ("vous") and `de-DE-KatjaNeural` ("Sie"), both female, ids
+`<english id>_fr` / `_de`, comps `<EnglishComp>Fr` / `De`. Translated from the ENGLISH dumps
+(`out/es_tr/<x>_en.txt`); sources `out/fr_tr/`, `out/de_tr/` (PC only). `LOCAL_NUMBERS` in
+translate_lesson.py lets fr/de write 4,8 and 12 000 / 12.000 (digits compared without separators);
+French writes `12^000` in the source and `out/fr_tr/nbsp.py` turns ^ into U+202F. Avoid "10:00"
+when the Hindi has only "10" (write "10 h" / "10 Uhr"). Terms must keep the exact English spelling:
+plurals and genitives break the count ("KPIs", "Kaizens", "Toyodas" → "KPI", "Kaizen-Projekte",
+"von Toyoda"); a hyphen after a term is fine ("A3-Bogen"). German runs ~15% longer than English:
+write tight; ~25 German clips needed a second, shorter line (all ≤ 1.14 now).
+Arabic set (PC, 18 Nov 2026, no pilot): all 26, `ar-SA-ZariyahNeural` (female), Modern Standard
+Arabic, ids `<english id>_ar`, comps `<EnglishComp>Ar`; sources `out/ar_tr/` (PC only; `prep.py
+<module>` prints each English line with the Latin terms and digits its Hindi line carries). Arabic
+takes the Indian-language path: English terms stay Latin in the text (exact same tokens as the
+Hindi line), `TERMS["ar"]` voices them in Arabic letters (إس أو بي), digits are Western. The
+scripts use Latin "," and "?" because lesson_lib/lint split sentences on .!?। only (synced from
+English, can't add ؟); `fit_dub.py` turns them into ، and ؟ in the SRT and starts every Arabic
+subtitle line with U+200F so players lay it out right to left (`RTL = {"ar"}`). No Noto loader
+(`NO_FONT_LOADER`): dub tracks don't draw Arabic on screen; a per-language Arabic render would
+need an RTL caption layout first. ui.ts has an `ar` label set. Zariyah reads close to English
+pace: ~15 long pages per batch came out at 1.14–1.24 and were trimmed.
 Where the English polish disagreed with its own page numbers, the Hindi polish follows
 the pages (Gemba recap 8, QRQC hook 24, UP recap 6,000, Why-Why hook 21 and recap 50 → 15).
 
@@ -146,8 +189,11 @@ Pilot (Zero Defects, Hindi + Telugu) approved 4 Nov 2026; speed-ups up to 14% so
   so every `final/dub/<Comp>.mp4` now has 6 audio + 6 subtitle streams.
 - Malayalam (`ml`, code `mal`): all 26 packed as `pack <id> hi te ta mr kn bn ml` (17 Nov 2026),
   so every `final/dub/<Comp>.mp4` now has 7 audio + 7 subtitle streams.
+- Spanish (`es`, `spa`) and French (`fr`, `fra`): all 26 packed (18 Nov 2026), 9 audio + 9 subtitle
+  streams after French. German (`de`, `deu`) and Arabic (`ar`, `ara`) follow: the full list is
+  `pack <id> hi te ta mr kn bn ml es fr de ar` (11 streams each).
 - Next language: translate + voice, then `fit_dub.py fit/track <id> <lang>` and
-  `pack <id> hi te ta mr kn bn ml <lang>` (all languages, every time).
+  `pack <id> hi te ta mr kn bn ml es fr de ar <lang>` (all languages, every time).
 - PC TODO: the English voice track (English clips are only on the PC, see above).
 
 ## Voice

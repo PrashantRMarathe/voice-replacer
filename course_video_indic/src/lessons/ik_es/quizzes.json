@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál es el mejor efecto para la cabeza de una espina de pescado?",
+      "options": [
+        "“Problemas de calidad en la línea de switches”",
+        "“Las fallas de enlace de puertos en la Línea 3 subieron de 5 a 32 por cada 1,000 esta semana”",
+        "“El probador está mal”"
+      ],
+      "correct": 1,
+      "explanation": "Una buena cabeza nombra un defecto, el lugar, el periodo y el tamaño, con una base. “El probador está mal” ya es una causa.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Después de la lluvia de ideas, el equipo vota “descuido del operador” como la causa principal. ¿Qué sigue?",
+      "options": [
+        "Volver a entrenar a los operadores: el equipo estuvo de acuerdo",
+        "Preguntar qué hizo posible el error, y probar las causas con evidencia",
+        "Poner un letrero de advertencia en la estación"
+      ],
+      "correct": 1,
+      "explanation": "Un voto no es evidencia, y el descuido no es una causa controlable. Pregunta qué condición del proceso hizo posible el error, y luego compruébala.",
+      "think": 14
+    }
+  ]
+}

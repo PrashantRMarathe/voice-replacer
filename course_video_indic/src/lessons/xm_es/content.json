@@ -1,0 +1,715 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "X-Matrix y Hoshin Kanri",
+      "example": "Arjun quiere entregas confiables y menos defectos. ¿Puede rastrear esa meta hasta el trabajo en el piso?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Objetivos de largo plazo",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Metas de este año",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Proyectos de mejora",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Indicadores y responsables",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Toda tu estrategia en una hoja",
+        "Objetivos → metas → proyectos → indicadores → responsables",
+        "Una lista corta de acciones reales",
+        "No es una gráfica para la pared"
+      ],
+      "at": [
+        3.455,
+        6.892,
+        16.935,
+        22.144
+      ],
+      "exampleAt": 25.897
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origen y alineación",
+      "example": "La planta de Arjun corría decenas de Kaizen locales — solo unos pocos de verdad ayudaban a la entrega al cliente.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gestión de la dirección",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "La estrategia se une al trabajo diario",
+            "icon": "calendar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Decenas de Kaizen locales",
+              "sub": "Pocos ayudaron a la entrega",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Unas pocas prioridades con recursos",
+              "sub": "En dos sentidos, no de arriba hacia abajo",
+              "icon": "key",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Hoshin Kanri: gestión de la dirección",
+        "Alinea la dirección con el trabajo diario",
+        "Limita las prioridades a lo que puedes darle recursos",
+        "En dos sentidos, no de arriba hacia abajo"
+      ],
+      "at": [
+        3.755,
+        7.846,
+        27.513,
+        32.044
+      ],
+      "exampleAt": 19.436
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Cuatro cuadrantes clave",
+      "example": "La cadena de Arjun va de una calidad de clase mundial hasta una meta de rendimiento.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Avance",
+            "sub": "3–5 años",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Anual",
+            "sub": "Este año",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Proyectos",
+            "sub": "El trabajo",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "KPI y metas",
+            "sub": "La prueba",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Objetivos de avance: 3–5 años",
+        "Objetivos anuales: este año",
+        "Proyectos de mejora",
+        "KPI y metas: la prueba"
+      ],
+      "at": [
+        4.58,
+        9.503,
+        14.957,
+        20.331
+      ],
+      "exampleAt": 35.781
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Objetivos de avance",
+      "example": "El resultado de Arjun: bajar las devoluciones de clientes dos tercios, mientras crece la producción.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "De 3 a 5 resultados grandes",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Resultado, horizonte, base",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Metas que chocan",
+            "sub": "Velocidad contra seguridad",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "suffix": "/3",
+          "icon": "chartDown",
+          "label": "menos devoluciones de clientes",
+          "unit": "Mientras crece la producción: un resultado, no una actividad",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Unos pocos resultados grandes: de 3 a 5",
+        "Resultado, horizonte, la base de hoy",
+        "Revisa metas que choquen"
+      ],
+      "at": [
+        7.406,
+        11.615,
+        16.642
+      ],
+      "exampleAt": 22.111
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Objetivos anuales",
+      "example": "Año uno: una parte de la baja de devoluciones, acordada tras estudiar las fallas en campo.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Objetivo anual · Año 1",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Base · meta · periodo",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Fuente de datos nombrada",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Catchball: ¿es factible?",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Acordado con las fallas en campo",
+            "icon": "check",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Resultados medibles para este año",
+        "Base, meta, periodo, fuente de datos",
+        "Catchball: prueben juntos si es factible"
+      ],
+      "at": [
+        0.207,
+        9.23,
+        16.748
+      ],
+      "exampleAt": 24.362
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Proyectos de mejora",
+      "example": "Un interbloqueo de código de barras contra el BOM bloquea componentes equivocados — el éxito se declara solo cuando las pruebas y los datos de defectos coinciden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Problema, alcance, responsable",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Más inspección",
+            "sub": "Casi nunca un gran avance",
+            "icon": "search",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Impacto contra esfuerzo",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Escanea el código de barras de la pieza",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Compáralo contra el BOM",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "¿Pieza equivocada? Bloqueada",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problema, alcance, responsable, hitos, revisión",
+        "Más inspección casi nunca = un gran avance",
+        "Elige con evidencia: impacto contra esfuerzo"
+      ],
+      "at": [
+        4.359,
+        15.502,
+        19.8
+      ],
+      "exampleAt": 26.782
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "KPI adelantados y atrasados",
+      "example": "En la línea de Arjun, el 98% de las unidades pasa a la primera.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Atrasados",
+            "sub": "Rendimiento, devoluciones, entrega",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Adelantados",
+            "sub": "Auditorías, ajustes, entrenamiento",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "pasan a la primera",
+          "unit": "Rendimiento a la primera en la línea de Arjun",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Atrasados: resultados ya obtenidos",
+        "Adelantados: condiciones que los predicen",
+        "Define el denominador y la fuente de datos",
+        "No premies números redefinidos"
+      ],
+      "at": [
+        3.261,
+        12.046,
+        22.396,
+        26.921
+      ],
+      "exampleAt": 32.101
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Fuerza de la relación",
+      "example": "El interbloqueo del fixture de Arjun reduce mucho las piezas equivocadas — y casi no toca el consumo de energía.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Piezas equivocadas",
+          "Rendimiento",
+          "Energía"
+        ],
+        "note": "Califica el vínculo, no la importancia",
+        "items": [
+          {
+            "label": "Interbloqueo",
+            "cells": [
+              3,
+              3,
+              null
+            ],
+            "with": "example"
+          },
+          {
+            "label": "Piloto de SMED",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Los símbolos muestran la fuerza del vínculo",
+        "Acuerden primero la leyenda",
+        "Califica el vínculo, no la importancia",
+        "Busca huecos y promesas de más"
+      ],
+      "at": [
+        0.0,
+        14.443,
+        17.009,
+        21.629
+      ],
+      "exampleAt": 30.827
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Responsables y catchball",
+      "example": "Automatización de prueba de decodificadores: Ingeniería, Producción, Calidad e IT ayudan — un líder de proyecto sigue rindiendo cuentas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Responsable",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Rinde cuentas",
+            "sub": "Un solo responsable",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Consultado",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Informado",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Un solo responsable para cada uno",
+        "Nombra los equipos de apoyo",
+        "RACI: responsable, quien rinde cuentas, consultado, informado",
+        "El responsable necesita presupuesto y autoridad"
+      ],
+      "at": [
+        4.28,
+        9.9,
+        15.696,
+        22.091
+      ],
+      "exampleAt": 27.91
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Taller de construcción",
+      "example": "En el taller de Arjun, tres departamentos ligaron proyectos a una meta de entrega.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Evidencia",
+            "with": 0
+          },
+          {
+            "label": "Alcance, base",
+            "with": 1
+          },
+          {
+            "label": "Objetivos",
+            "with": 1
+          },
+          {
+            "label": "Proyectos + KPI",
+            "with": 2
+          },
+          {
+            "label": "Vínculos, responsables",
+            "with": 3
+          },
+          {
+            "label": "Ritmo de revisión",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Primero reúne evidencia",
+        "Alcance, base, objetivos, resultados",
+        "Proyectos de alto impacto, cada uno con un KPI",
+        "Califica vínculos, asigna responsables, fija revisiones"
+      ],
+      "at": [
+        4.57,
+        13.747,
+        23.154,
+        28.339
+      ],
+      "exampleAt": 35.079
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Ejemplo resuelto",
+      "example": "Proyectos: un tablero de preparación, un interbloqueo de código de barras y un piloto de SMED.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Hoy",
+          "value": 90
+        },
+        "after": {
+          "label": "Este año",
+          "value": 98
+        },
+        "suffix": "%",
+        "unit": "entrega a tiempo",
+        "note": "Planeación es dueña",
+        "with": 0,
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tablero de preparación",
+              "sub": "Entrega",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Interbloqueo de código de barras",
+              "sub": "Rendimiento a 99%",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Piloto de SMED",
+              "sub": "Cambio de modelo 50 → 20 min",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Entrega de 90% → 98%",
+        "Rendimiento a la primera → 99%",
+        "Cambio de modelo de 50 → 20 minutos",
+        "Planeación, Calidad, Ingeniería son dueñas de uno cada una"
+      ],
+      "at": [
+        14.18,
+        18.637,
+        22.36,
+        33.493
+      ],
+      "exampleAt": 26.428
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Ritmo de revisión — PDCA",
+      "example": "El rendimiento se estancó aun después del entrenamiento — así que Arjun revisó si el control del proceso de verdad cambió.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Excepciones, hitos",
+            "sub": "Diario / semanal",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Tendencias de KPI, riesgos",
+            "sub": "Mensual",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "¿Sigue en la estrategia?",
+            "sub": "Trimestral",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Una herramienta viva: Plan, Do, Check, Act",
+        "Diario / semanal: excepciones, hitos",
+        "Mensual: tendencias de KPI y riesgos",
+        "Trimestral: ¿sigue apoyando la estrategia?"
+      ],
+      "at": [
+        5.383,
+        14.64,
+        19.443,
+        24.151
+      ],
+      "exampleAt": 32.076
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Sí y no",
+      "example": "Un proyecto se marcó como completo, pero las quejas siguieron igual.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Pocos resultados, responsables claros",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Revisar vínculos + recursos",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Todo 'fuerte'",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Terminado ≠ entregado",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Unos pocos resultados medibles, responsables claros",
+        "Revisa los vínculos causales y los recursos",
+        "No todo 'fuertemente ligado'",
+        "Proyecto terminado ≠ beneficio entregado"
+      ],
+      "at": [
+        9.362,
+        14.614,
+        19.702,
+        24.415
+      ],
+      "exampleAt": 32.064
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Cuentas de costo y beneficio",
+      "example": "Defectos de 2% → 1.2% suena poco — es una baja relativa de 40%. El interbloqueo se paga en 6 meses.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 2
+        },
+        "after": {
+          "label": "Después",
+          "value": 1.2
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "tasa de defectos",
+        "note": "Una baja relativa de 40% · recuperación en 6 meses",
+        "with": "example"
+      },
+      "bullets": [
+        "Entrega a tiempo = a tiempo ÷ total por entregar",
+        "Baja relativa = baja ÷ tasa anterior",
+        "Recuperación = inversión ÷ ahorro mensual"
+      ],
+      "at": [
+        6.017,
+        10.43,
+        15.34
+      ],
+      "exampleAt": 23.772
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta de 90 días",
+      "example": "¿Qué resultado? ¿Qué meta? ¿Qué proyecto? ¿Qué KPI? ¿Quién es dueño del resultado?",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Bases, borrador de la matriz",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Catchball, proyectos, responsables",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Revisar vínculos, revisión, auditoría",
+            "sub": "61–90",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–30: bases, borrador de la matriz",
+        "Días 31–60: catchball, proyectos, responsables",
+        "Días 61–90: revisar vínculos, revisión, auditoría"
+      ],
+      "at": [
+        6.501,
+        11.873,
+        18.469
+      ],
+      "exampleAt": 28.001
+    }
+  ]
+}

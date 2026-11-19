@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Lequel de ces éléments va dans la dimension KPI / cibles, et non dans les objectifs de rupture ?",
+      "options": [
+        "Devenir de classe mondiale en qualité produit",
+        "Porter le rendement au premier passage à 99 % cette année",
+        "Enchanter chaque client"
+      ],
+      "correct": 1,
+      "explanation": "Une cible est mesurable, avec un chiffre et une date. Les autres sont des objectifs de direction, pas des mesures.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "L'objectif annuel de livraison à temps d'une usine n'a aucun projet lié. Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Marquer un lien fort avec le projet le plus proche",
+        "Trouver ou lancer un projet capable de faire bouger la livraison — ou repenser l'objectif",
+        "Le laisser ; le KPI s'améliorera tout seul"
+      ],
+      "correct": 1,
+      "explanation": "Un objectif sans projet d'appui est un trou. Comblez-le avec du vrai travail, ou révisez l'objectif ; ne remplissez jamais la case avec un lien sans mécanisme.",
+      "think": 13
+    }
+  ]
+}

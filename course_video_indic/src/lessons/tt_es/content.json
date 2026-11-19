@@ -1,0 +1,694 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es el tiempo TAKT",
+      "example": "420 minutos netos ÷ 840 cámaras = una cámara cada 30 segundos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Takt = compás",
+            "icon": "wave",
+            "with": 0
+          },
+          {
+            "label": "El ritmo que marca la demanda",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Tiempo neto ÷ demanda",
+            "icon": "count",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "una cámara cada 30 segundos",
+          "unit": "420 minutos netos ÷ 840 cámaras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Takt: en alemán, compás o ritmo",
+        "El ritmo que cumple la demanda del cliente",
+        "TAKT = tiempo neto disponible ÷ demanda"
+      ],
+      "at": [
+        2.687,
+        7.151,
+        14.658
+      ],
+      "exampleAt": 18.541
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué importa el TAKT",
+      "example": "El ensamble de Rohan armó 1,000 cámaras de más antes de la prueba. La utilización se veía muy bien; los camiones igual salían tarde.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "1,000 armadas antes de la prueba",
+            "sub": "Estaciones ocupadas, camiones tarde",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "Un ritmo común",
+            "sub": "Personal, balance, materiales",
+            "icon": "clock",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Une a tu cliente con el piso de producción",
+        "Sin un ritmo común → sobreproducción, WIP",
+        "Planear personal, balancear el trabajo, dar ritmo a los materiales"
+      ],
+      "at": [
+        0.207,
+        4.013,
+        28.367
+      ],
+      "exampleAt": 18.134
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Tiempo neto disponible",
+      "example": "Turno de 480 min − descansos − una junta corta = 420 minutos netos.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Turno de 480 min",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "− descansos, junta, limpieza",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "= 420 minutos netos",
+            "sub": "Los paros imprevistos no se restan aquí",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Empieza con la duración del turno",
+        "Resta descansos planeados, juntas, limpieza",
+        "Aquí no restes los paros imprevistos",
+        "Anota tus supuestos"
+      ],
+      "at": [
+        3.48,
+        6.078,
+        21.727,
+        30.37
+      ],
+      "exampleAt": 11.532
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Demanda del cliente",
+      "example": "Demanda diaria con el tiempo de un turno = sin sentido.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Demanda diaria ÷ un turno",
+            "sub": "No tiene sentido",
+            "icon": "cross",
+            "with": "example"
+          },
+          {
+            "label": "El mismo periodo para los dos",
+            "sub": "Unidades buenas, no unidades iniciadas",
+            "icon": "calendar",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Demanda y tiempo: el mismo periodo",
+        "Unidades buenas necesarias, no unidades iniciadas",
+        "Varios modelos: revisa cada uno",
+        "Recalcula cuando cambien la demanda o los turnos"
+      ],
+      "at": [
+        0.203,
+        13.902,
+        19.88,
+        29.466
+      ],
+      "exampleAt": 8.974
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "TAKT contra tiempo de ciclo y tiempo de entrega",
+      "example": "Una de las líneas de Rohan: prueba final de 38 s contra un TAKT de 30 s. Necesitaba mejorar, o un segundo probador.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "El ritmo que necesitas",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Tiempo de ciclo",
+            "sub": "Lo que tarda una estación",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Tiempo de entrega",
+            "sub": "Todo el recorrido",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "La prueba no sigue el paso: mejórala, o agrega un probador",
+          "unit": "segundos por cámara",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Prueba final",
+              "value": 38,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: el ritmo que necesitas",
+        "Tiempo de ciclo: lo que tarda una estación",
+        "Tiempo de entrega: todo el recorrido",
+        "Ciclo > TAKT = no puede seguir el paso"
+      ],
+      "at": [
+        2.987,
+        6.114,
+        11.555,
+        16.65
+      ],
+      "exampleAt": 22.554
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Pitch, UPH y UPPH",
+      "example": "TAKT de 24 s → 150 unidades por hora. Empaque de 20 → un pitch de 8 minutos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "UPH",
+            "sub": "Ritmo por hora necesario",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Pitch",
+            "sub": "Tiempo para llenar un empaque",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "UPPH",
+            "sub": "Producción buena por hora-persona",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT 24 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "= 150 unidades por hora",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Empaque de 20 = pitch de 8 min",
+              "icon": "box",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "UPH: el ritmo por hora que necesitas",
+        "Pitch: el tiempo para llenar un empaque",
+        "UPPH: producción buena por hora-persona",
+        "La teoría no es producción"
+      ],
+      "at": [
+        3.742,
+        9.134,
+        22.586,
+        27.789
+      ],
+      "exampleAt": 12.888
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Balancear con Yamazumi",
+      "example": "TAKT de 40 s: el operador A tiene 52 s de trabajo, el operador B solo 25 s.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mide cada elemento",
+            "icon": "clock"
+          },
+          {
+            "label": "Apila cada operador",
+            "icon": "stack"
+          },
+          {
+            "label": "Traza la línea del TAKT",
+            "icon": "sequence"
+          },
+          {
+            "label": "Mueve trabajo, con seguridad",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 40,
+          "suffix": " s",
+          "note": "A está sobrecargado",
+          "unit": "segundos de trabajo por operador",
+          "with": "example",
+          "items": [
+            {
+              "label": "Operador A",
+              "value": 52,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Operador B",
+              "value": 25,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mide el tiempo de cada elemento de trabajo",
+        "Apila el trabajo de cada operador como una barra",
+        "Traza la línea del TAKT de lado a lado",
+        "Mueve o rediseña dentro de la seguridad y la habilidad"
+      ],
+      "at": [
+        2.969,
+        7.778,
+        11.799,
+        31.772
+      ],
+      "exampleAt": 19.311
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Mínimo de operadores",
+      "example": "310 s de trabajo ÷ TAKT de 40 s = 7.75 → al menos 8 operadores.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trabajo ÷ TAKT, redondea hacia arriba",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "Un punto de partida",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Estudio de tiempos estable",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 8,
+          "icon": "person",
+          "label": "operadores, al menos",
+          "unit": "310 s de trabajo ÷ TAKT de 40 s = 7.75, redondeado hacia arriba",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Contenido de trabajo ÷ TAKT, redondea hacia arriba",
+        "Solo un punto de partida",
+        "Usa un estudio de tiempos estable"
+      ],
+      "at": [
+        2.984,
+        22.266,
+        31.568
+      ],
+      "exampleAt": 8.848
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Cuellos de botella y estaciones en paralelo",
+      "example": "Dos probadores de 50 s = 144 intentos por hora → unas 127 unidades buenas tras el tiempo en marcha y el rendimiento.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "El cuello de botella",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "3,600 ÷ tiempo de ciclo",
+            "icon": "count"
+          },
+          {
+            "label": "Tiempo en marcha × rendimiento",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Primero la evidencia",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2 probadores de 50 s",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "144 intentos por hora",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "≈ 127 buenas tras tiempo en marcha y rendimiento",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "El cuello de botella limita la producción buena",
+        "Capacidad = 3,600 ÷ tiempo de ciclo",
+        "Aplica el tiempo en marcha y el rendimiento a la primera",
+        "Evidencia antes de comprar una máquina"
+      ],
+      "at": [
+        2.5,
+        5.815,
+        23.045,
+        30.082
+      ],
+      "exampleAt": 12.792
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Modelos mezclados y Heijunka",
+      "example": "60% Modelo A, 40% Modelo B con una prueba más larga: programa todos los B juntos y la prueba se ahoga.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Todos los B juntos",
+            "sub": "La prueba se ahoga",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "Nivela la mezcla",
+            "sub": "Heijunka + SMED",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Un solo TAKT no le queda a todos los modelos",
+        "Revisa los tiempos de estación de cada modelo",
+        "Heijunka: nivela el volumen y la mezcla",
+        "SMED: reduce las pérdidas por cambio de modelo"
+      ],
+      "at": [
+        0.0,
+        21.633,
+        25.08,
+        29.404
+      ],
+      "exampleAt": 4.435
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Flujo de materiales y Kanban",
+      "example": "TAKT de 30 s, caja de 40 → dura 20 minutos; el surtido debe llegar antes.",
+      "visual": {
+        "type": "stat",
+        "value": 20,
+        "suffix": " min",
+        "icon": "box",
+        "label": "una caja de 40 piezas dura",
+        "unit": "con un TAKT de 30 s: el surtido debe llegar antes",
+        "with": "example"
+      },
+      "bullets": [
+        "El TAKT marca el ritmo de los materiales",
+        "Kanban: tiempo de entrega, tamaño del contenedor",
+        "Límites de WIP entre procesos",
+        "No liberes trabajo solo para estar ocupado"
+      ],
+      "at": [
+        0.207,
+        16.043,
+        21.901,
+        28.235
+      ],
+      "exampleAt": 4.044
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Plan contra real cada hora",
+      "example": "TAKT de 30 s → 120 planeadas por hora. Hechas 108 = 90%, una brecha de 12.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "90%: una brecha de 12. Registra por qué.",
+        "unit": "cámaras buenas en una hora, TAKT de 30 s",
+        "items": [
+          {
+            "label": "Planeado",
+            "value": 120,
+            "with": "example"
+          },
+          {
+            "label": "Hecho",
+            "value": 108,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Planeado = segundos netos ÷ TAKT",
+        "Compara lo real con el plan",
+        "Registra por qué: paros, rechazos, material",
+        "No culpes a la velocidad del operador"
+      ],
+      "at": [
+        4.275,
+        15.385,
+        22.055,
+        28.843
+      ],
+      "exampleAt": 9.987
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso práctico: planta de cámaras",
+      "example": "2 probadores = 400 intentos/hora en papel → ≈ 353 buenas con el tiempo en marcha y el rendimiento reales. Meta: 360.",
+      "visual": {
+        "type": "stat",
+        "value": 10,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "TAKT para 7,200 cámaras buenas al día",
+        "unit": "1,200 minutos netos ÷ 7,200 cámaras",
+        "with": 1,
+        "then": {
+          "type": "bars",
+          "label": "Meta",
+          "value": 360,
+          "unit": "cámaras buenas por hora, dos probadores",
+          "with": 3,
+          "items": [
+            {
+              "label": "En papel",
+              "value": 400,
+              "with": 3
+            },
+            {
+              "label": "Real",
+              "value": 353,
+              "tone": "bad",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "7,200 cámaras buenas al día, 1,200 min netos",
+        "TAKT = 10 segundos",
+        "La prueba tarda 18 s — la restricción",
+        "Dos probadores ≈ 353 buenas/hora contra 360"
+      ],
+      "at": [
+        0.208,
+        9.812,
+        17.383,
+        20.814
+      ],
+      "exampleAt": 25.048
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Errores comunes",
+      "example": "Rohan mejoró el tiempo en marcha del probador y recortó el ciclo de prueba antes de comprar un tercer probador.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Demanda aprobada + tiempo neto",
+            "icon": "check",
+            "tone": "good"
+          },
+          {
+            "label": "Actualizar cuando algo cambie",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "No es tiempo de ciclo",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Nunca saltarse pruebas ni descansos",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "SÍ usa la demanda aprobada y el tiempo neto",
+        "SÍ actualiza el TAKT cuando algo cambie",
+        "NO lo confundas con el tiempo de ciclo",
+        "NO te saltes pruebas, pasos ni descansos"
+      ],
+      "at": [
+        11.426,
+        15.68,
+        19.78,
+        26.128
+      ],
+      "exampleAt": 0.237
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta de 90 días",
+      "example": "Producción buena confiable al ritmo del cliente — no mantener ocupada cada estación.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Demanda, tiempo neto, tiempos de ciclo",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Yamazumi, tableros por hora",
+            "sub": "31–60",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Verificar producción y rendimiento, crecer",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–30: demanda, tiempo neto, tiempos de ciclo",
+        "Días 31–60: Yamazumi, tableros por hora",
+        "Días 61–90: verifica producción y rendimiento, crece",
+        "Meta: producción buena confiable"
+      ],
+      "at": [
+        4.028,
+        12.433,
+        21.24,
+        28.155
+      ],
+      "exampleAt": 30.274
+    }
+  ]
+}

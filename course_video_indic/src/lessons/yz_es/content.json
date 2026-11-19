@@ -1,0 +1,782 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Yamazumi",
+      "example": "La celda de decodificadores de Meera: cuatro operadores, cuatro barras apiladas, una línea del TAKT.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Barras apiladas",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "'Apilarse'",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Las tareas de un operador",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Arriba del TAKT: no sigue el paso",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "B no puede seguir el paso",
+          "unit": "La celda de Meera: segundos de trabajo en cada estación",
+          "with": "example",
+          "items": [
+            {
+              "label": "estación A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "estación B",
+              "value": 35,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "estación C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "estación D",
+              "value": 20,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Una gráfica de barras apiladas del trabajo por estación",
+        "En japonés: 'apilarse'",
+        "Cada barra: las tareas de un operador",
+        "Arriba de la línea del TAKT = no puede seguir el paso"
+      ],
+      "at": [
+        2.361,
+        6.856,
+        10.39,
+        20.633
+      ],
+      "exampleAt": 29.444
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Propósito y beneficios",
+      "example": "Un operador espera mientras otro pelea con un trabajo largo de atornillado — mover una tarea pequeña podría suavizar el flujo.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Desbalance de un vistazo",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Personal basado en hechos",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Dónde entrenar en varios puestos",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Las revisiones de ingeniería siguen siendo necesarias",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Trabajo largo de atornillado",
+              "sub": "Sobrecarga",
+              "icon": "screw",
+              "with": "example"
+            },
+            {
+              "label": "Quita una tarea pequeña",
+              "sub": "Flujo suave",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Desbalance, esperas, sobrecarga de un vistazo",
+        "Una base objetiva para el personal",
+        "Muestra dónde ayuda el entrenamiento cruzado",
+        "Nunca reemplaza las revisiones de ingeniería"
+      ],
+      "at": [
+        6.079,
+        11.036,
+        15.688,
+        30.282
+      ],
+      "exampleAt": 19.719
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "TAKT, ciclo y contenido de trabajo",
+      "example": "420 minutos netos ÷ 840 unidades = TAKT de 30 segundos. La estación B necesita 35.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Tiempo neto ÷ unidades buenas",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Tiempo de ciclo",
+            "sub": "Cada cuánto sale una",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Contenido de trabajo",
+            "sub": "Suma de las tareas manuales",
+            "icon": "hand",
+            "with": 2
+          },
+          {
+            "label": "Tiempo de máquina",
+            "sub": "Aparte",
+            "icon": "gear",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "clock",
+          "label": "Tiempo TAKT",
+          "unit": "420 minutos netos ÷ 840 unidades",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "TAKT: tiempo neto ÷ unidades buenas necesarias",
+        "Tiempo de ciclo: cada cuánto sale una unidad",
+        "Contenido de trabajo: la suma de las tareas manuales",
+        "Mantén aparte el tiempo de máquina"
+      ],
+      "at": [
+        3.028,
+        8.867,
+        14.062,
+        19.056
+      ],
+      "exampleAt": 22.102
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Estructura de la gráfica",
+      "example": "La estación A apila 22 segundos; la estación B llega a 35, muy arriba de la línea.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B está arriba de la línea",
+        "unit": "Una barra por estación, línea del TAKT horizontal",
+        "with": 0,
+        "items": [
+          {
+            "label": "estación A",
+            "value": 22,
+            "tone": null,
+            "with": 0
+          },
+          {
+            "label": "estación B",
+            "value": 35,
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Una barra por operador o estación",
+        "Segundos en el lado, línea del TAKT a lo ancho",
+        "Cada bloque = una tarea, en orden",
+        "Los colores muestran tipos de tarea, no calificaciones"
+      ],
+      "at": [
+        3.259,
+        7.1,
+        13.298,
+        18.859
+      ],
+      "exampleAt": 27.975
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Un estudio de tiempos confiable",
+      "example": "La carga de firmware corre mientras el operador atornilla, así que Meera mide cada elemento por separado.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Define inicio y fin",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Muchos ciclos, cada turno",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Caminatas, paros, cambios de modelo",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Máquina, aparte de lo manual",
+            "icon": "gear",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Define dónde empieza y termina cada tarea",
+        "Muchos ciclos, en varios turnos",
+        "Registra caminatas, paros, cambios de modelo",
+        "Separa el tiempo de máquina del manual"
+      ],
+      "at": [
+        6.798,
+        10.443,
+        15.789,
+        21.224
+      ],
+      "exampleAt": 24.625
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Clasificar el trabajo",
+      "example": "El operador de Meera camina 5 segundos por tornillos. Los contenedores en el punto de uso eliminan ese desperdicio.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Agrega valor",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Necesario: revisiones, trazabilidad",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Desperdicio: buscar, caminar, esperar",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "ECRS, conserva las revisiones",
+            "icon": "wrench",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "5 s de caminata por tornillos",
+              "sub": "Desperdicio",
+              "icon": "walk",
+              "with": "example"
+            },
+            {
+              "label": "Contenedores en el punto de uso",
+              "sub": "Caminata eliminada",
+              "icon": "tray",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Agrega valor: lo que quiere el cliente",
+        "Necesario sin valor agregado: revisiones, trazabilidad",
+        "Desperdicio: buscar, caminar, esperar",
+        "ECRS — pero conserva las revisiones de calidad y seguridad"
+      ],
+      "at": [
+        3.482,
+        8.164,
+        14.268,
+        18.256
+      ],
+      "exampleAt": 30.373
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Armar el estado actual",
+      "example": "TAKT de 30 s: A = 22, B = 35, C = 27, D = 20. B va 5 segundos arriba — la primera prioridad.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B va 5 s arriba: primera prioridad",
+        "unit": "El estado actual de Meera",
+        "with": "example",
+        "items": [
+          {
+            "label": "estación A",
+            "value": 22,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "estación B",
+            "value": 35,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "estación C",
+            "value": 27,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "estación D",
+            "value": 20,
+            "tone": null,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Demanda aprobada → TAKT",
+        "Una barra por estación, línea del TAKT trazada",
+        "Compara la gráfica con la realidad",
+        "Una barra corta ≠ capacidad libre"
+      ],
+      "at": [
+        0.0,
+        4.291,
+        10.306,
+        34.435
+      ],
+      "exampleAt": 14.632
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Balancear la línea",
+      "example": "Una tarea de etiquetado de 5 segundos pasa de B a D: B = 30, D = 25. Luego piloto y volver a medir.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mueve trabajo, mejora el método",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "No exactamente iguales",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Acomodo, secuencia, habilidad, revisiones",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "ECRS antes que más gente",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "Etiquetado de 5 s B → D",
+          "unit": "Después del cambio: piloto, y volver a medir",
+          "with": "example",
+          "items": [
+            {
+              "label": "estación A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "estación B",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "estación C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "estación D",
+              "value": 25,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mueve tareas o mejora los métodos",
+        "No barras perfectamente iguales",
+        "Respeta acomodo, secuencia, habilidades, revisiones",
+        "Prueba ECRS antes de agregar gente"
+      ],
+      "at": [
+        0.222,
+        7.928,
+        11.791,
+        19.76
+      ],
+      "exampleAt": 23.65
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Personal y eficiencia",
+      "example": "104 segundos de trabajo con un TAKT de 30 segundos = 4 operadores; eficiencia de unos 87%.",
+      "visual": {
+        "type": "stat",
+        "value": 4,
+        "suffix": " operadores",
+        "icon": "person",
+        "label": "104 s de trabajo ÷ TAKT de 30 s, redondeado hacia arriba",
+        "unit": "Eficiencia de balance de unos 87%",
+        "with": "example"
+      },
+      "bullets": [
+        "Trabajo manual ÷ TAKT, redondea hacia arriba",
+        "Eficiencia de balance: trabajo contra capacidad",
+        "Un piso de planeación, no una promesa",
+        "Comprueba la producción antes de recortar gente"
+      ],
+      "at": [
+        3.125,
+        17.575,
+        26.509,
+        31.028
+      ],
+      "exampleAt": 8.713
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Cuellos de botella y máquinas",
+      "example": "Dos probadores de audio: 160 unidades/hora en papel — unas 140 buenas en la realidad.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Barra larga ≠ problema del operador",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Máquinas compartidas",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Manual · automático · carga · espera",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Tiempo en marcha, cambios, rendimiento",
+            "icon": "chartDown",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "En papel",
+            "value": 160
+          },
+          "after": {
+            "label": "Reales, buenas",
+            "value": 140
+          },
+          "unit": "unidades por hora, dos probadores de audio",
+          "note": "Planea con el número real",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "No toda barra larga es un cuello de botella del operador",
+        "Las máquinas compartidas necesitan su propia revisión",
+        "Separa manual, automático, carga, espera",
+        "Ajusta por tiempo en marcha, cambios, rendimiento"
+      ],
+      "at": [
+        2.647,
+        6.8,
+        14.683,
+        19.896
+      ],
+      "exampleAt": 25.639
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Líneas de modelos mezclados",
+      "example": "Promedia 27 s en la mezcla, pero 42 s en el modelo de audio — un lote largo amontona trabajo rápido.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "El promedio lo esconde",
+        "unit": "Una estación, segundos por unidad",
+        "with": "example",
+        "items": [
+          {
+            "label": "Promedio de la mezcla",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Modelo de audio",
+            "value": 42,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Una sola gráfica puede esconder problemas",
+        "Barras por modelo, el peor caso",
+        "Personal flexible y calificado",
+        "Heijunka y SMED suavizan la mezcla"
+      ],
+      "at": [
+        3.292,
+        21.194,
+        25.684,
+        29.172
+      ],
+      "exampleAt": 7.332
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI y verificación",
+      "example": "El cumplimiento del plan cuenta las unidades buenas contra el plan; el rendimiento a la primera cuenta las unidades que pasan a la primera.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Una hipótesis por comprobar",
+            "icon": "test",
+            "with": 0
+          },
+          {
+            "label": "Adelantado: trabajo estándar",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Atrasado: producción, defectos, UPPH",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Ergonomía con los operadores",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Una gráfica balanceada es una hipótesis",
+        "Adelantados: cumplimiento del trabajo estándar",
+        "Atrasados: producción buena, defectos, UPPH",
+        "Revisa la ergonomía con los operadores"
+      ],
+      "at": [
+        0.0,
+        6.813,
+        12.281,
+        38.486
+      ],
+      "exampleAt": 27.727
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso: celda de decodificadores",
+      "example": "Quedar abajo de 120 es normal: el tiempo en marcha y el rendimiento siempre cuestan algo.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 103
+        },
+        "after": {
+          "label": "Después",
+          "value": 116
+        },
+        "unit": "unidades buenas por hora (teoría: 120)",
+        "note": "Terminado tras dos semanas estables",
+        "with": 2
+      },
+      "bullets": [
+        "Antes: B limitaba la producción cerca de 103/hora",
+        "Después: B baja a 30 segundos",
+        "Unas 116 buenas/hora contra 120 teóricas",
+        "Terminado solo después de dos semanas estables"
+      ],
+      "at": [
+        3.628,
+        9.376,
+        14.066,
+        27.814
+      ],
+      "exampleAt": 22.316
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Sí y no",
+      "example": "Quitar una revisión de código de barras parece ahorrar 6 segundos. No es un balance — es un riesgo de trazabilidad.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trabajo real, datos al día",
+            "icon": "clock",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Operadores, Calidad, Ingeniería",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Seguridad, ESD, pruebas, trazabilidad",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          },
+          {
+            "label": "Mejor caso, recortar gente",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mide el trabajo real, mantén los datos al día",
+        "Involucra a operadores, Calidad, Ingeniería",
+        "Protege seguridad, ESD, pruebas, trazabilidad",
+        "Sin tiempos del mejor caso, sin recortar personal"
+      ],
+      "at": [
+        2.567,
+        6.616,
+        11.199,
+        16.681
+      ],
+      "exampleAt": 29.732
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta de 90 días",
+      "example": "Una gráfica desactualizada es peor que no tener gráfica.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Línea piloto, estudios de tiempos, base",
+            "sub": "Días 1–30",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "ECRS, rebalanceo, calificación",
+            "sub": "31–60",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Verificar, actualizar el SOP, extender",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–30: línea piloto, estudios de tiempos, base",
+        "Días 31–60: ECRS, rebalancear, calificar",
+        "Días 61–90: verificar, actualizar los SOP, extender",
+        "Mantén las gráficas al día"
+      ],
+      "at": [
+        5.398,
+        14.097,
+        21.542,
+        30.269
+      ],
+      "exampleAt": 36.322
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Ein Produkt verbringt 300 Minuten im Werk, aber nur 30 Minuten verändern es. Wie hoch ist die Flusseffizienz?",
+      "options": [
+        "10%",
+        "30%",
+        "90%"
+      ],
+      "correct": 0,
+      "explanation": "Flusseffizienz = wertschöpfende Zeit ÷ gesamte Durchlaufzeit = 30 ÷ 300 = 10 %. Die anderen 90 % sind Warten, Bewegen, Prüfen oder Reparieren.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Um die Zykluszeit zu senken, schlägt ein Team vor, den Audio-Endtest zu streichen. Was sollte passieren?",
+      "options": [
+        "Streichen: Tests verändern das Produkt nicht",
+        "Behalten, außer eine Risikobewertung genehmigt es, und die Fehler senken, die er findet",
+        "Den Test zum Kunden verlegen"
+      ],
+      "correct": 1,
+      "explanation": "Vorgeschriebene Qualitätsprüfungen sind keine Verschwendung, die man einfach streicht. Behalten Sie den Test, außer eine Risikobewertung genehmigt eine Änderung, und gehen Sie die Fehler dahinter an. Ihn zum Kunden zu verlegen, verschiebt nur die Verschwendung.",
+      "think": 15
+    }
+  ]
+}

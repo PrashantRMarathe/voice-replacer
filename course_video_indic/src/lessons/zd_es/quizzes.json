@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "970 de 1,000 unidades pasan la primera prueba sin retrabajo. ¿Cuál es el rendimiento a la primera?",
+      "options": [
+        "3%",
+        "97%",
+        "9.7 por unidad"
+      ],
+      "correct": 1,
+      "explanation": "FPY = aceptadas a la primera ÷ total = 970 ÷ 1,000 = 97%. Solo cuenta las unidades que pasaron a la primera, sin retrabajo.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Una línea de audio encuentra la polaridad de la bocina invertida en 30 unidades este turno. ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Volver a entrenar al operador y seguir",
+        "Parar, contener las unidades sospechosas, y luego encontrar la causa raíz",
+        "Agregar una etiqueta de advertencia a la bocina",
+        "Aumentar la inspección final"
+      ],
+      "correct": 1,
+      "explanation": "Primero contén: para y retén las unidades sospechosas hasta el último punto bueno. Luego encuentra la causa raíz y prevénla, por ejemplo con un conector de polaridad con guía. Culpar, poner etiquetas y más inspección no evitan que se repita.",
+      "think": 14
+    }
+  ]
+}

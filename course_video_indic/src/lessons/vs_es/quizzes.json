@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un colchón tiene 2,400 unidades y la demanda es de 1,200 al día. ¿Cuántos días de inventario son?",
+      "options": [
+        "Medio día",
+        "2 días",
+        "1,200 días"
+      ],
+      "correct": 1,
+      "explanation": "Días de inventario = unidades esperando ÷ demanda diaria = 2,400 ÷ 1,200 = 2 días.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Rahul encuentra 2,000 decodificadores esperando prueba. ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Comprar otro probador de inmediato",
+        "Confirmar la causa: capacidad, paros, firmware o liberación en lote",
+        "Recortar el colchón a la mitad para forzar el flujo"
+      ],
+      "correct": 1,
+      "explanation": "Un mapa muestra dónde buscar, no por qué. Confirma primero el mecanismo; comprar un probador o recortar el colchón a ciegas puede no corregir nada, o dejar la línea sin material.",
+      "think": 12
+    }
+  ]
+}

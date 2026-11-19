@@ -1,0 +1,780 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué significa la producción uniforme",
+      "example": "La planta de Kavya hace teléfonos, decodificadores y equipos de audio — en secuencias pequeñas que se repiten, no todos los teléfonos primero.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Todos los teléfonos primero",
+            "sub": "Luego decodificadores, luego audio",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Secuencias pequeñas que se repiten",
+            "sub": "Ajustadas a la demanda real",
+            "icon": "sequence",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nivelar — Heijunka",
+        "Suavizar el volumen y la mezcla",
+        "Un patrón de liberación estable",
+        "Seguir la demanda real, no cantidades iguales"
+      ],
+      "at": [
+        2.678,
+        8.773,
+        14.086,
+        20.403
+      ],
+      "exampleAt": 29.258
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué importa nivelar",
+      "example": "Un pedido grande de teléfonos llegó el lunes. Kavya lo repartió en la semana, como lo permitía la fecha de entrega.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "La demanda es dispareja",
+            "icon": "wave"
+          },
+          {
+            "label": "Perseguir picos",
+            "sub": "Horas extra, inventario",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Nivela las liberaciones",
+            "icon": "sequence"
+          },
+          {
+            "label": "Algo de colchón",
+            "icon": "box"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Armarlo todo el lunes",
+              "sub": "Horas extra, prueba apurada",
+              "icon": "stack"
+            },
+            {
+              "label": "Repartido en la semana",
+              "sub": "La fecha de entrega lo permitía",
+              "icon": "calendar"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "La demanda nunca llega pareja",
+        "Perseguir picos: horas extra, inventario, calidad inestable",
+        "Nivelar suaviza dentro de una ventana de planeación",
+        "Todavía necesitas algo de colchón"
+      ],
+      "at": [
+        0.0,
+        3.517,
+        12.636,
+        20.438
+      ],
+      "exampleAt": 23.749
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Mura, Muri y Muda",
+      "example": "El probador maneja ~2,000 unidades al día; ensamble liberó más de 3,000 para prueba en un día — se formó una fila.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Las liberaciones disparejas crean picos",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Muri",
+            "sub": "Los picos sobrecargan personas y máquinas",
+            "icon": "weight",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muda",
+            "sub": "Defectos, esperas, inventario",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Se forma una fila en prueba",
+          "unit": "unidades en un día",
+          "with": "example",
+          "items": [
+            {
+              "label": "El probador puede",
+              "value": 2000,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Liberadas",
+              "value": 3200,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mura: disparidad",
+        "Muri: sobrecarga",
+        "Muda: desperdicio"
+      ],
+      "at": [
+        3.616,
+        5.886,
+        8.197
+      ],
+      "exampleAt": 24.832
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Nivelar el volumen",
+      "example": "30,000 unidades de necesidad neta en 5 días = 6,000 unidades buenas al día, parejas.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Un horizonte razonable",
+            "icon": "calendar"
+          },
+          {
+            "label": "Demanda neta",
+            "icon": "count"
+          },
+          {
+            "label": "÷ días de producción",
+            "icon": "sequence"
+          },
+          {
+            "label": "Revisa que se pueda sostener",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 6000,
+          "icon": "chartUp",
+          "label": "unidades buenas al día, todos los días",
+          "unit": "30,000 unidades de necesidad neta ÷ 5 días",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Reparte la producción en un horizonte",
+        "Demanda neta = demanda + inventario final − inventario",
+        "Divide entre los días de producción",
+        "Revisa materiales, rendimiento, tiempo en marcha, personal"
+      ],
+      "at": [
+        2.604,
+        7.799,
+        18.555,
+        36.413
+      ],
+      "exampleAt": 22.62
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Nivelar la mezcla",
+      "example": "3,000 teléfonos, 2,000 decodificadores, 1,000 de audio → 3 : 2 : 1 → Teléfono–Decodificador–Teléfono–Audio–Decodificador–Teléfono.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Teléfono",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Decodificador",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Teléfono",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Audio",
+            "sub": "A",
+            "with": "example"
+          },
+          {
+            "label": "Decodificador",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Teléfono",
+            "sub": "P",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Patrones pequeños que se repiten y siguen la demanda",
+        "La proporción sale de la demanda",
+        "Revisa cambios de modelo, fixtures, piezas"
+      ],
+      "at": [
+        2.278,
+        16.607,
+        35.348
+      ],
+      "exampleAt": 10.118
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Tiempo TAKT y pitch",
+      "example": "Una unidad cada 4.2 segundos → un pitch de 100 unidades de 7 minutos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "El ritmo del cliente",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Tiempo neto ÷ unidades buenas",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Pitch",
+            "sub": "Tiempo para liberar un lote",
+            "icon": "box",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Una unidad cada 4.2 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "× un lote de 100 unidades",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "= un pitch de 7 minutos",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: el ritmo que pide el cliente",
+        "Tiempo neto ÷ unidades buenas requeridas",
+        "Pitch: el tiempo para liberar un lote",
+        "TAKT promedio ≠ que cada modelo siga el paso"
+      ],
+      "at": [
+        2.326,
+        5.578,
+        15.516,
+        31.892
+      ],
+      "exampleAt": 20.759
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La caja de nivelación",
+      "example": "Cada 30 minutos el tablero de Kavya libera el siguiente lote; los kits se preparan en ese orden.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Caja de nivelación · línea compartida",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "08:00  Teléfono · Decodificador · Teléfono",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "08:30  Audio · Decodificador · Teléfono",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "09:00  Siguiente lote: kits listos",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "¿Horario perdido? Se ve de inmediato",
+            "icon": "warning",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un programa visual",
+        "Horarios a lo ancho, productos hacia abajo",
+        "Tarjetas: qué liberar, cuántos",
+        "Faltantes y horarios perdidos visibles"
+      ],
+      "at": [
+        2.776,
+        5.094,
+        11.11,
+        25.154
+      ],
+      "exampleAt": 15.824
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "EPEI y cambio de modelo",
+      "example": "6 cambios al día: de 20 a 8 minutos = 72 minutos recuperados cada día.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Más cambios de modelo",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "EPEI",
+            "sub": "Cada pieza en cada intervalo",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "SMED",
+            "sub": "Preparar fuera del tiempo detenido",
+            "icon": "wrench",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 20
+          },
+          "after": {
+            "label": "Después del SMED",
+            "value": 8
+          },
+          "suffix": " min",
+          "unit": "por cambio de modelo, seis al día",
+          "note": "72 minutos recuperados cada día",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Patrones pequeños = más cambios de modelo",
+        "EPEI: cada pieza en cada intervalo",
+        "SMED: preparar fuera del tiempo detenido"
+      ],
+      "at": [
+        0.201,
+        4.19,
+        23.947
+      ],
+      "exampleAt": 30.523
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Cuellos de botella y modelos mezclados",
+      "example": "40% de las unidades necesitan una prueba de 12 segundos = unas 340 pruebas/hora contra ~300 de un probador. Agrega un segundo probador.",
+      "visual": {
+        "type": "bars",
+        "label": "Un probador",
+        "value": 300,
+        "note": "no alcanza ni antes de las pérdidas: agrega un segundo probador",
+        "unit": "pruebas por hora (40% de las unidades necesitan una prueba de 12 s)",
+        "items": [
+          {
+            "label": "Pruebas necesarias",
+            "value": 343,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nivelar no le gana a un límite de capacidad",
+        "Carga las estaciones con la mezcla real",
+        "No bloquees el modelo más lento"
+      ],
+      "at": [
+        2.63,
+        6.674,
+        33.016
+      ],
+      "exampleAt": 14.412
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Control de Kanban y WIP",
+      "example": "Faltaba un kit de decodificador — el equipo lo registró y siguió la regla aprobada de reprogramación.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Señales Kanban",
+            "icon": "label"
+          },
+          {
+            "label": "Carriles FIFO",
+            "icon": "sequence"
+          },
+          {
+            "label": "Límites de WIP",
+            "icon": "stack"
+          },
+          {
+            "label": "Kits al ritmo del pitch",
+            "icon": "tray"
+          }
+        ]
+      },
+      "bullets": [
+        "Kanban: qué surtir, cuándo",
+        "Contenedores estándar, carriles de primero en entrar, primero en salir",
+        "Los límites de WIP detienen la sobreproducción",
+        "Kits al ritmo del pitch y la mezcla"
+      ],
+      "at": [
+        4.259,
+        8.738,
+        16.105,
+        21.742
+      ],
+      "exampleAt": 25.427
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Manejar los cambios de demanda",
+      "example": "Se pidieron 500 equipos de audio antes: Kavya revisó fechas, inventario, piezas y capacidad de prueba primero.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Una ventana congelada",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Reprogramar en el piso",
+            "sub": "Causa caos",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Quién aprueba",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "500 de audio pedidos antes",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Revisa fechas, inventario, piezas, prueba",
+              "icon": "search",
+              "with": "example"
+            },
+            {
+              "label": "Luego cambia los siguientes horarios",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Una ventana cercana congelada",
+        "Reprogramar en el piso causa caos",
+        "Decide quién aprueba los cambios"
+      ],
+      "at": [
+        3.188,
+        9.9,
+        14.147
+      ],
+      "exampleAt": 18.381
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI de nivelación",
+      "example": "95% de las unidades programadas terminadas. 12,000 unidades de WIP = 2 días de producción.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Producción + estabilidad",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Cumplimiento del programa",
+            "icon": "check"
+          },
+          {
+            "label": "Días de WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "FPY, paros, horas extra",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 95,
+          "suffix": "%",
+          "icon": "check",
+          "label": "de las unidades programadas terminadas",
+          "unit": "12,000 unidades de WIP = 2 días de producción",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Sigue la producción y la estabilidad juntas",
+        "Cumplimiento del programa",
+        "Días de WIP",
+        "Más FPY, paros, horas extra"
+      ],
+      "at": [
+        3.098,
+        6.688,
+        17.256,
+        26.33
+      ],
+      "exampleAt": 11.47
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso práctico: línea compartida",
+      "example": "Un patrón cada cuatro minutos en teoría — pero sus ajustes eran muy lentos para ese ritmo.",
+      "visual": {
+        "type": "stat",
+        "value": 4.2,
+        "decimals": 1,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "TAKT promedio, mezcla 3 : 2 : 1",
+        "unit": "teléfonos : decodificadores : audio",
+        "with": 0,
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Un patrón cada 4 minutos aprox.",
+          "unit": "unidades en un patrón de 60 unidades",
+          "with": 1,
+          "items": [
+            {
+              "label": "Teléfonos",
+              "value": 30,
+              "with": 1
+            },
+            {
+              "label": "Decodificadores",
+              "value": 20,
+              "with": 1
+            },
+            {
+              "label": "Audio",
+              "value": 10,
+              "with": 1
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mezcla 3 : 2 : 1, TAKT de 4.2 s",
+        "Patrón de 60 unidades: 30 · 20 · 10",
+        "Revisa ruta, herramental, límites de prueba",
+        "Cambios de modelo más rápidos, sin atajos"
+      ],
+      "at": [
+        3.945,
+        10.953,
+        24.272,
+        36.704
+      ],
+      "exampleAt": 19.531
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Errores comunes",
+      "example": "Probadores de firmware parados mientras el tablero pedía decodificadores: más WIP solo mueve el cuello de botella. Escala.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tiempo bruto",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Cantidades iguales",
+            "icon": "scale",
+            "tone": "bad"
+          },
+          {
+            "label": "Planear de más",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Saltarse la primera pieza",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Nivelar con el tiempo bruto",
+        "Cantidades iguales para una mezcla desigual",
+        "Más producción de la que la línea puede hacer",
+        "Saltarse las revisiones de primera pieza para alcanzar"
+      ],
+      "at": [
+        7.764,
+        13.098,
+        17.97,
+        37.292
+      ],
+      "exampleAt": 22.715
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta de 90 días",
+      "example": "Planeación fija las liberaciones, Producción arma, Ingeniería revisa la capacidad, Calidad protege los controles, Materiales tiene los kits listos.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Demanda, mezcla, TAKT, ajustes",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Tablero piloto, kits, cambios de modelo",
+            "sub": "31–60",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Verificar, estandarizar, extender",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Planeación",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Producción",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Ingeniería",
+              "icon": "gear",
+              "with": "example"
+            },
+            {
+              "label": "Calidad",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Materiales",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Una familia, un horizonte",
+        "Días 1–30: demanda, mezcla, TAKT, ajustes",
+        "Días 31–60: tablero piloto, kits, cambios de modelo",
+        "Días 61–90: verificar, estandarizar, extender"
+      ],
+      "at": [
+        0.21,
+        5.903,
+        13.923,
+        22.246
+      ],
+      "exampleAt": 33.842
+    }
+  ]
+}

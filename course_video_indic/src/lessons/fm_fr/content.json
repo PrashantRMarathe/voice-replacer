@@ -1,0 +1,606 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est le FMEA",
+      "example": "La cible d'Asha : le joint du boîtier d'une petite cellule 5G extérieure.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Comment cela pourrait-il échouer ?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Quel est l'effet ?",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Agir d'abord",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Comment cela pourrait-il échouer, et pourquoi ?",
+        "Quel serait l'effet ?",
+        "Agir avant que cela atteigne le client"
+      ],
+      "at": [
+        5.866,
+        11.47,
+        15.746
+      ],
+      "exampleAt": 23.85
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Les mots clés",
+      "example": "Mode : joint tordu. Effet : eau à l'intérieur. Cause : pas de contrôle de mise en place.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mode de défaillance",
+            "sub": "Comment ça échoue",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Effet",
+            "sub": "Ce que ça provoque",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Cause",
+            "sub": "Pourquoi ça arrive",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Contrôle, action",
+            "sub": "Ce qui l'arrête",
+            "icon": "shield",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mode de défaillance : comment ça échoue",
+        "Effet : ce que subit le client",
+        "Cause : pourquoi cela pourrait arriver",
+        "Contrôle et action"
+      ],
+      "at": [
+        2.313,
+        6.869,
+        11.725,
+        15.391
+      ],
+      "exampleAt": 22.206
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Types de FMEA",
+      "example": "Le périmètre d'Asha : de la prise du joint au boîtier scellé et testé.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Système",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Conception",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Processus",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Limites",
+            "icon": "pin",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA système et conception",
+        "FMEA processus : les étapes de fabrication",
+        "Des limites claires de début et de fin"
+      ],
+      "at": [
+        2.845,
+        15.399,
+        22.931
+      ],
+      "exampleAt": 27.565
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Quand commencer ou mettre à jour",
+      "example": "Asha a mis le sien à jour le jour où les six radios mouillées sont revenues.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Nouveau produit ou processus",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Tout changement",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Réclamation ou fuite",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nouveau produit ou nouveau processus",
+        "Tout changement : matière, outil, implantation",
+        "Après une réclamation ou une fuite"
+      ],
+      "at": [
+        1.061,
+        5.373,
+        15.566
+      ],
+      "exampleAt": 24.631
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "L'équipe et les données d'entrée",
+      "example": "Au Gemba, Asha a vu deux tailles de joint partager un même bac.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Transverse",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Opérateurs",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Données et flux",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Le Gemba d'abord",
+            "icon": "walk",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Une équipe transverse",
+        "Des opérateurs expérimentés",
+        "Diagramme de flux, données, instructions de travail",
+        "Allez au Gemba avant de noter"
+      ],
+      "at": [
+        0.243,
+        6.39,
+        11.231,
+        20.673
+      ],
+      "exampleAt": 20.956
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Les sept étapes",
+      "example": "L'équipe d'Asha : une exigence et une chaîne de défaillance à la fois.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Planifier",
+            "with": 0
+          },
+          {
+            "label": "Structure",
+            "with": 0
+          },
+          {
+            "label": "Fonction",
+            "with": 0
+          },
+          {
+            "label": "Défaillance",
+            "with": 1
+          },
+          {
+            "label": "Risque",
+            "with": 2
+          },
+          {
+            "label": "Optimiser",
+            "with": 3
+          },
+          {
+            "label": "Documenter",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Planifier, structure, fonction",
+        "Analyse des défaillances",
+        "Analyse des risques",
+        "Optimiser et documenter"
+      ],
+      "at": [
+        2.531,
+        9.74,
+        11.548,
+        14.219
+      ],
+      "exampleAt": 21.568
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Écrire des fonctions claires",
+      "example": "Faible : « Mettre le joint. » Fort : « Placer le bon joint entièrement dans la gorge, sans torsion ni dommage. »",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "« Mettre le joint »",
+            "sub": "Vague",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "« Bon joint, bien en place, sans torsion »",
+            "sub": "Mesurable",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un verbe d'action plus une exigence",
+        "Mesurable, pas vague"
+      ],
+      "at": [
+        1.688,
+        6.229
+      ],
+      "exampleAt": 12.293
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "La chaîne de défaillance",
+      "example": "Cause : deux tailles de joint dans un bac, et aucun contrôle de mise en place.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Effet",
+            "sub": "Entrée d'eau",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Mode de défaillance",
+            "sub": "Manquant ou tordu",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Cause",
+            "sub": "Bac mélangé, pas de contrôle de mise en place",
+            "icon": "search",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Effet : entrée d'eau, panne sur le terrain",
+        "Mode : joint manquant ou tordu",
+        "Cause : quelque chose que vous pouvez maîtriser"
+      ],
+      "at": [
+        2.675,
+        7.15,
+        11.286
+      ],
+      "exampleAt": 19.013
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Gravité, occurrence, détection",
+      "example": "Risque du joint : gravité 8, occurrence 5, détection 6.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Gravité · Occurrence · Détection, de 1 à 10",
+        "with": "example",
+        "items": [
+          {
+            "label": "Grav.",
+            "value": 8,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Occ.",
+            "value": 5,
+            "with": "example"
+          },
+          {
+            "label": "Dét.",
+            "value": 6,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Gravité : à quel point l'effet est grave",
+        "Occurrence : à quelle fréquence la cause arrive",
+        "Détection : probabilité de l'attraper",
+        "Chaque note a besoin d'une preuve"
+      ],
+      "at": [
+        4.302,
+        7.76,
+        13.554,
+        21.446
+      ],
+      "exampleAt": 25.503
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Indice de priorité du risque",
+      "example": "RPN du joint : 240, le plus élevé de la feuille d'Asha.",
+      "visual": {
+        "type": "stat",
+        "value": 240,
+        "icon": "warning",
+        "label": "RPN du joint",
+        "unit": "8 × 5 × 6",
+        "with": 1
+      },
+      "bullets": [
+        "RPN = gravité × occurrence × détection",
+        "8 × 5 × 6 = 240",
+        "Un guide, pas un verdict"
+      ],
+      "at": [
+        0.224,
+        7.529,
+        13.435
+      ],
+      "exampleAt": 9.929
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La gravité d'abord",
+      "example": "Un risque sécurité avec un RPN de 90 peut compter plus qu'un risque esthétique à 200.",
+      "visual": {
+        "type": "ladder",
+        "top": "HAUTE",
+        "bottom": "BASSE",
+        "items": [
+          {
+            "label": "Agir, ou justifier pourquoi pas",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Revoir et améliorer",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Maintenir et surveiller",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Une gravité élevée demande une action de toute façon",
+        "Priorité d'action haute, moyenne, basse",
+        "Demandez : la prévention ou la détection est-elle faible ?"
+      ],
+      "at": [
+        2.992,
+        8.59,
+        19.717
+      ],
+      "exampleAt": 24.848
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Prévention ou détection",
+      "example": "Le seul contrôle d'Asha : une inspection visuelle finale. De la détection, et faible.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Détection",
+            "sub": "Inspection visuelle finale",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prévention",
+            "sub": "Empêcher la cause",
+            "icon": "key",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Prévention : empêcher la cause d'arriver",
+        "Détection : l'attraper avant la libération",
+        "L'automatique bat le jugement humain"
+      ],
+      "at": [
+        3.256,
+        10.158,
+        21.942
+      ],
+      "exampleAt": 26.081
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Choisir des actions fortes",
+      "example": "Les actions d'Asha : un joint par plateau détrompé, un gabarit de gorge, un capteur de présence et un test d'étanchéité.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT",
+        "bottom": "LE PLUS FAIBLE",
+        "items": [
+          {
+            "label": "Éliminer par la conception",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Empêcher : détrompeur, verrou",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Détecter automatiquement",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Former, check-list",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Éliminer la cause",
+        "L'empêcher : verrou, détrompeur, interverrouillage",
+        "Améliorer la détection",
+        "Formation et check-lists en dernier"
+      ],
+      "at": [
+        3.416,
+        8.314,
+        16.672,
+        20.859
+      ],
+      "exampleAt": 26.591
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Vérifier, puis renoter",
+      "example": "La preuve d'abord : le capteur a attrapé chaque mauvais échantillon lors d'un essai de 500 unités.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 240
+        },
+        "after": {
+          "label": "Après",
+          "value": 32
+        },
+        "unit": "RPN du joint",
+        "note": "Occurrence 5 → 2 · Détection 6 → 2",
+        "with": 3
+      },
+      "bullets": [
+        "Le prouver en conditions réelles",
+        "La gravité reste à 8 : même effet",
+        "Occurrence 5 → 2, détection 6 → 2",
+        "RPN 240 → 32"
+      ],
+      "at": [
+        4.651,
+        15.766,
+        21.436,
+        25.862
+      ],
+      "exampleAt": 8.318
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Le garder vivant",
+      "example": "L'équipe d'Asha a dupliqué le plateau détrompé sur deux autres unités extérieures.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Plan de contrôle, SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Revue hebdomadaire des risques",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Dupliquer sur des unités similaires",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour le plan de contrôle, le SOP, la formation",
+        "Revoir les risques élevés chaque semaine",
+        "Dupliquer les leçons sur des produits similaires"
+      ],
+      "at": [
+        6.724,
+        12.401,
+        18.312
+      ],
+      "exampleAt": 22.277
+    }
+  ]
+}

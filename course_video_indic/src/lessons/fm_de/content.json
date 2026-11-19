@@ -1,0 +1,606 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was die FMEA ist",
+      "example": "Ashas Ziel: die Gehäusedichtung einer 5G-Kleinzelle für außen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Wie könnte es versagen?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Was ist die Folge?",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Zuerst handeln",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Wie könnte es versagen, und warum?",
+        "Was wäre die Folge?",
+        "Handeln, bevor es den Kunden erreicht"
+      ],
+      "at": [
+        6.232,
+        13.042,
+        17.634
+      ],
+      "exampleAt": 26.988
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Die Schlüsselbegriffe",
+      "example": "Fehlerart: Dichtung verdreht. Folge: Wasser im Gerät. Ursache: keine Sitzprüfung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fehlerart",
+            "sub": "Wie es versagt",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "Folge",
+            "sub": "Was es verursacht",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Ursache",
+            "sub": "Warum es passiert",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Maßnahme, Aktion",
+            "sub": "Was es stoppt",
+            "icon": "shield",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Fehlerart: wie es versagt",
+        "Folge: was der Kunde erleidet",
+        "Ursache: warum es passieren könnte",
+        "Maßnahme und Aktion"
+      ],
+      "at": [
+        2.902,
+        7.753,
+        13.427,
+        17.541
+      ],
+      "exampleAt": 25.808
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Arten der FMEA",
+      "example": "Ashas Umfang: von der Entnahme der Dichtung bis zum dichten, geprüften Gehäuse.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "System",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Konstruktion",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Prozess",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Grenzen",
+            "icon": "pin",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "System- und Konstruktions-FMEA",
+        "Prozess-FMEA: die Fertigungsschritte",
+        "Klare Start- und Endgrenzen"
+      ],
+      "at": [
+        2.98,
+        17.941,
+        25.368
+      ],
+      "exampleAt": 30.55
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Wann starten oder aktualisieren",
+      "example": "Asha aktualisierte ihre am Tag, als die sechs nassen Geräte zurückkamen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Neues Produkt oder neuer Prozess",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Jede Änderung",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Reklamation oder Durchschlupf",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Neues Produkt oder neuer Prozess",
+        "Jede Änderung: Material, Werkzeug, Layout",
+        "Nach einer Reklamation oder einem Durchschlupf"
+      ],
+      "at": [
+        1.577,
+        7.106,
+        17.477
+      ],
+      "exampleAt": 31.243
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Das Team und die Eingaben",
+      "example": "Am Gemba sah Asha zwei Dichtungsgrößen in einer Kiste.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bereichsübergreifend",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Werker",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Daten und Ablauf",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Zuerst der Gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein bereichsübergreifendes Team",
+        "Erfahrene Werker",
+        "Ablaufplan, Daten, Arbeitsanweisungen",
+        "Vor dem Bewerten an den Gemba gehen"
+      ],
+      "at": [
+        0.286,
+        7.474,
+        12.212,
+        21.943
+      ],
+      "exampleAt": 32.208
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Die sieben Schritte",
+      "example": "Ashas Team: eine Anforderung und eine Fehlerkette auf einmal.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Planen",
+            "with": 0
+          },
+          {
+            "label": "Struktur",
+            "with": 0
+          },
+          {
+            "label": "Funktion",
+            "with": 0
+          },
+          {
+            "label": "Fehler",
+            "with": 1
+          },
+          {
+            "label": "Risiko",
+            "with": 2
+          },
+          {
+            "label": "Optimieren",
+            "with": 3
+          },
+          {
+            "label": "Dokumentieren",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Planen, Struktur, Funktion",
+        "Fehleranalyse",
+        "Risikoanalyse",
+        "Optimieren und dokumentieren"
+      ],
+      "at": [
+        3.131,
+        11.088,
+        12.917,
+        16.142
+      ],
+      "exampleAt": 24.804
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Klare Funktionen schreiben",
+      "example": "Schwach: „Dichtung einsetzen.“ Stark: „Die richtige Dichtung ganz in die Nut legen, ohne Verdrehung oder Schaden.“",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "„Dichtung einsetzen“",
+            "sub": "Vage",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "„Richtige Dichtung, ganz im Sitz, unverdreht“",
+            "sub": "Messbar",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Verb plus eine Anforderung",
+        "Messbar, nicht vage"
+      ],
+      "at": [
+        1.887,
+        8.047
+      ],
+      "exampleAt": 14.408
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Die Fehlerkette",
+      "example": "Ursache: zwei Dichtungsgrößen in einer Kiste, und keine Sitzprüfung.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Folge",
+            "sub": "Wassereintritt",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Fehlerart",
+            "sub": "Fehlt oder verdreht",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Ursache",
+            "sub": "Gemischte Kiste, keine Sitzprüfung",
+            "icon": "search",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Folge: Wassereintritt, Ausfall im Feld",
+        "Fehlerart: Dichtung fehlt oder verdreht",
+        "Ursache: etwas, das Sie beherrschen"
+      ],
+      "at": [
+        3.132,
+        8.429,
+        13.172
+      ],
+      "exampleAt": 22.476
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Bedeutung, Auftreten, Entdeckung",
+      "example": "Dichtungsrisiko: Bedeutung 8, Auftreten 5, Entdeckung 6.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Bedeutung · Auftreten · Entdeckung, 1 bis 10",
+        "with": "example",
+        "items": [
+          {
+            "label": "Bed.",
+            "value": 8,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Auftr.",
+            "value": 5,
+            "with": "example"
+          },
+          {
+            "label": "Entd.",
+            "value": 6,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Bedeutung: wie schlimm die Folge ist",
+        "Auftreten: wie oft die Ursache vorkommt",
+        "Entdeckung: wie wahrscheinlich wir es finden",
+        "Jede Bewertung braucht Belege"
+      ],
+      "at": [
+        4.963,
+        9.29,
+        16.131,
+        26.242
+      ],
+      "exampleAt": 31.128
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Risikoprioritätszahl",
+      "example": "RPN der Dichtung: 240, die höchste auf Ashas Bogen.",
+      "visual": {
+        "type": "stat",
+        "value": 240,
+        "icon": "warning",
+        "label": "RPN der Dichtung",
+        "unit": "8 × 5 × 6",
+        "with": 1
+      },
+      "bullets": [
+        "RPN = Bedeutung × Auftreten × Entdeckung",
+        "8 × 5 × 6 = 240",
+        "Ein Hinweis, kein Urteil"
+      ],
+      "at": [
+        0.238,
+        9.265,
+        15.976
+      ],
+      "exampleAt": 12.219
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Die Bedeutung zuerst",
+      "example": "Ein Sicherheitsrisiko mit RPN 90 kann wichtiger sein als ein optisches mit 200.",
+      "visual": {
+        "type": "ladder",
+        "top": "HOCH",
+        "bottom": "NIEDRIG",
+        "items": [
+          {
+            "label": "Handeln, oder begründen, warum nicht",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Prüfen und verbessern",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Halten und überwachen",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Hohe Bedeutung braucht trotzdem Handeln",
+        "Handlungspriorität hoch, mittel, niedrig",
+        "Fragen Sie: Ist die Vermeidung oder die Entdeckung schwach?"
+      ],
+      "at": [
+        3.567,
+        9.772,
+        22.5
+      ],
+      "exampleAt": 29.58
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Vermeidung oder Entdeckung",
+      "example": "Ashas einzige Maßnahme: eine visuelle Endkontrolle. Entdeckung, und schwach.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Entdeckung",
+            "sub": "Visuelle Endkontrolle",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Vermeidung",
+            "sub": "Die Ursache verhindern",
+            "icon": "key",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Vermeidung: die Ursache verhindern",
+        "Entdeckung: vor der Freigabe finden",
+        "Automatisch schlägt menschliches Urteil"
+      ],
+      "at": [
+        4.524,
+        11.688,
+        24.443
+      ],
+      "exampleAt": 29.022
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Starke Aktionen wählen",
+      "example": "Ashas Aktionen: eine Dichtung pro codierter Schale, eine Nutvorrichtung, ein Anwesenheitssensor und ein Dichtheitstest.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM STÄRKSTEN",
+        "bottom": "AM SCHWÄCHSTEN",
+        "items": [
+          {
+            "label": "Konstruktiv beseitigen",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Verhindern: Codierung, Sperre",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Automatisch entdecken",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Schulen, Checkliste",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Die Ursache beseitigen",
+        "Verhindern: Sperre, Codierung, Verriegelung",
+        "Entdeckung verbessern",
+        "Schulung und Checklisten zuletzt"
+      ],
+      "at": [
+        4.176,
+        9.524,
+        19.166,
+        24.392
+      ],
+      "exampleAt": 30.141
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prüfen, dann neu bewerten",
+      "example": "Erst der Beweis: der Sensor fand jedes Schlechtmuster in einem Versuch mit 500 Einheiten.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 240
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 32
+        },
+        "unit": "RPN der Dichtung",
+        "note": "Auftreten 5 → 2 · Entdeckung 6 → 2",
+        "with": 3
+      },
+      "bullets": [
+        "Unter echten Bedingungen beweisen",
+        "Bedeutung bleibt 8: gleiche Folge",
+        "Auftreten 5 → 2, Entdeckung 6 → 2",
+        "RPN 240 → 32"
+      ],
+      "at": [
+        5.539,
+        18.541,
+        24.206,
+        29.103
+      ],
+      "exampleAt": 10.084
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Lebendig halten",
+      "example": "Ashas Team übertrug die codierte Schale auf zwei weitere Außengeräte.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Kontrollplan, SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Wöchentliche Risikoprüfung",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Auf ähnliche Geräte übertragen",
+            "icon": "sequence",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kontrollplan, SOP, Schulung aktualisieren",
+        "Hohe Risiken jede Woche prüfen",
+        "Erkenntnisse auf ähnliche Produkte übertragen"
+      ],
+      "at": [
+        7.908,
+        14.714,
+        21.859
+      ],
+      "exampleAt": 26.988
+    }
+  ]
+}

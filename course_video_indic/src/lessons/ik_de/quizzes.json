@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche Wirkung gehört am besten in den Kopf einer Fischgräte?",
+      "options": [
+        "„Qualitätsprobleme an der Switch-Linie“",
+        "„Port-Link-Fehler an Linie 3 stiegen diese Woche von 5 auf 32 pro 1.000“",
+        "„Der Tester ist schlecht“"
+      ],
+      "correct": 1,
+      "explanation": "Ein guter Kopf nennt einen Fehler, den Ort, den Zeitraum und das Ausmaß, mit Ausgangslage. „Der Tester ist schlecht“ ist schon eine Ursache.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Nach dem Sammeln stimmt das Team für „Werker-Nachlässigkeit“ als Hauptursache. Was nun?",
+      "options": [
+        "Die Werker nachschulen: das Team ist sich einig",
+        "Fragen, was den Fehler möglich machte, und Ursachen mit Belegen testen",
+        "Ein Warnschild an der Station anbringen"
+      ],
+      "correct": 1,
+      "explanation": "Eine Abstimmung ist kein Beleg, und Nachlässigkeit ist keine beherrschbare Ursache. Fragen Sie, welcher Prozesszustand den Fehler möglich machte, und beweisen Sie ihn.",
+      "think": 15
+    }
+  ]
+}
