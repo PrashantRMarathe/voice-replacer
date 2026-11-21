@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quel est le meilleur énoncé de problème pour un A3 ?",
+      "options": [
+        "Les opérateurs sont négligents en posant la mémoire",
+        "Les échecs au premier test de démarrage de la ligne 2 étaient en moyenne de 4,8 % contre 1,5 % sur 4 semaines",
+        "Il nous faut deux contrôleurs de plus au test"
+      ],
+      "correct": 1,
+      "explanation": "Il nomme la ligne, la période et la mesure, avec une référence, et n'affirme aucune cause. Les autres sont un reproche et une solution.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Le pilote de Karthik atteint la cible, mais le taux de retest double. Que doit-il faire ?",
+      "options": [
+        "Standardiser quand même : la cible est atteinte",
+        "Étudier le garde-fou avant de standardiser",
+        "Monter la cible à 3 % par sécurité"
+      ],
+      "correct": 1,
+      "explanation": "Un garde-fou a bougé, donc le changement cache peut-être des échecs dans les retests au lieu de les supprimer. Comprenez-le avant de standardiser.",
+      "think": 13
+    }
+  ]
+}

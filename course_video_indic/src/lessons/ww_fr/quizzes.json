@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Le test final n'a pas détecté un connecteur de batterie à moitié enfoncé. Quel type de cause est-ce ?",
+      "options": [
+        "Cause d'apparition",
+        "Cause de fuite",
+        "Cause système"
+      ],
+      "correct": 1,
+      "explanation": "Le défaut a été créé plus tôt (apparition). La cause de fuite explique pourquoi la barrière de détection — ici, le test final — ne l'a pas attrapé.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "30 cartons ont reçu de mauvaises étiquettes et quelqu'un dit « erreur de l'opérateur ». Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Reformer l'opérateur et clôturer",
+        "Confiner les cartons suspects, puis demander pourquoi le processus l'a permis",
+        "Mettre un panneau de rappel à l'emballage"
+      ],
+      "correct": 1,
+      "explanation": "Confinez d'abord, puis trouvez pourquoi le processus a permis une mauvaise étiquette. Reformer ou un panneau reposent sur la mémoire, donc empêchent rarement la répétition.",
+      "think": 14
+    }
+  ]
+}

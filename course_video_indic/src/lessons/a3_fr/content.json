@@ -1,0 +1,758 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est un A3",
+      "example": "Le rapport de Karthik disait « les opérateurs sont négligents ». Son responsable lui a rendu une feuille A3 vierge.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Format de papier A3",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "L'histoire sur une page",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Causes, tests, résultats",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Construit en équipe",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "« Les opérateurs sont négligents »",
+              "sub": "Le premier rapport de Karthik",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Une feuille A3 vierge",
+              "sub": "La réponse de son responsable",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Nommé d'après le format de papier A3",
+        "Toute l'histoire du problème sur une page",
+        "Définir, trouver les causes, tester, pérenniser",
+        "Visuel, et construit en équipe"
+      ],
+      "at": [
+        0.225,
+        3.634,
+        7.785,
+        14.527
+      ],
+      "exampleAt": 22.15
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Les problèmes sont des écarts",
+      "example": "« Les opérateurs sont négligents » est un reproche. « Les échecs de démarrage sont passés à 4,8 % » est un écart.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Reproche",
+            "sub": "« Les opérateurs sont négligents »",
+            "icon": "person",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Écart",
+            "sub": "Échecs de démarrage jusqu'à 4,8 %",
+            "icon": "chartUp",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un problème est un écart mesurable",
+        "Ne sautez pas de la plainte à la solution",
+        "Un écart peut être mesuré et étudié"
+      ],
+      "at": [
+        2.351,
+        7.734,
+        25.5
+      ],
+      "exampleAt": 12.482
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Où se place l'A3 : PDCA",
+      "example": "Les échecs de démarrage de Karthik : répétés, coûteux et transverses.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Défauts répétés",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Arrêts, ruptures",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Transverse",
+            "icon": "person",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Plan",
+              "icon": "clipboard",
+              "with": 2
+            },
+            {
+              "label": "Do",
+              "sub": "Petit pilote",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Check",
+              "sub": "Par rapport à la cible",
+              "icon": "search",
+              "with": 2
+            },
+            {
+              "label": "Act",
+              "sub": "Standardiser",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Les problèmes qui reviennent sans cesse",
+        "Les problèmes que les équipes doivent résoudre ensemble",
+        "Basé sur Plan · Do · Check · Act"
+      ],
+      "at": [
+        1.118,
+        9.916,
+        18.245
+      ],
+      "exampleAt": 30.794
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Anatomie d'un A3",
+      "example": "La feuille de Karthik : sept cases, une page, lue de gauche à droite.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Contexte · pourquoi maintenant",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Situation actuelle · cible",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Cause racine · pourquoi l'écart",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Contre-mesures · plan",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Suivi · ça a marché ?",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "À gauche : contexte, situation actuelle, cible",
+        "Analyse des causes racines : pourquoi l'écart existe",
+        "À droite : contre-mesures, plan, suivi",
+        "Chaque case répond à une question"
+      ],
+      "at": [
+        2.372,
+        16.797,
+        21.186,
+        26.872
+      ],
+      "exampleAt": 29.687
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "L'énoncé du problème",
+      "example": "Ligne 2, le mois dernier : 4,8 % de 12 000 serveurs ont échoué au premier test de démarrage, contre une référence de 1,5 %.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Faible",
+            "sub": "« La qualité est mauvaise partout »",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Précis",
+            "sub": "Ligne 2 · le mois dernier · 4,8 % contre 1,5 %",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nommez l'écart, jamais une cause",
+        "Ligne · produit · période · mesure",
+        "Un dénominateur clair, mêmes définitions",
+        "Pas de reproche, pas de solution"
+      ],
+      "at": [
+        4.89,
+        8.631,
+        12.962,
+        33.275
+      ],
+      "exampleAt": 17.028
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Aller voir : les 3G",
+      "example": "7 serveurs défaillants sur 10 au banc : un module mémoire légèrement soulevé.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Lieu réel",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Choses réelles",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Faits réels",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 7,
+          "suffix": " / 10",
+          "icon": "chip",
+          "label": "serveurs défaillants sur le banc",
+          "unit": "un module mémoire légèrement soulevé",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Gemba : le lieu réel",
+        "Genbutsu : les choses réelles",
+        "Genjitsu : les faits réels"
+      ],
+      "at": [
+        6.021,
+        10.759,
+        17.647
+      ],
+      "exampleAt": 22.078
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Des données fiables",
+      "example": "Taux d'échec au premier passage = serveurs uniques échouant à leur premier test valide ÷ serveurs uniques testés.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Définition claire",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Serveurs uniques",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Horodatages, numéros de série",
+            "icon": "barcode",
+            "with": 2
+          },
+          {
+            "label": "Le journal correspond au MES",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Une définition claire",
+        "Comptez les unités uniques : les retests ne peuvent pas cacher les échecs",
+        "Vérifiez horodatages, numéros de série, étalonnage",
+        "Le journal de ligne correspond au MES"
+      ],
+      "at": [
+        0.886,
+        15.626,
+        24.258,
+        31.652
+      ],
+      "exampleAt": 6.578
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Voir l'écart",
+      "example": "Mémoire non détectée : 288 sur 576 échecs, la moitié du total.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Échecs au premier test de démarrage pour 1 000 serveurs, par semaine",
+        "items": [
+          {
+            "label": "W1",
+            "value": 41,
+            "with": 0
+          },
+          {
+            "label": "W2",
+            "value": 46,
+            "with": 0
+          },
+          {
+            "label": "W3",
+            "value": 50,
+            "with": 0
+          },
+          {
+            "label": "W4",
+            "value": 55,
+            "tone": "bad",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Modes de défaillance : 576 échecs au premier passage",
+          "with": 2,
+          "items": [
+            {
+              "label": "Mémoire",
+              "value": 288,
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Ventilateur",
+              "value": 144,
+              "with": 2
+            },
+            {
+              "label": "Réseau",
+              "value": 86,
+              "with": 2
+            },
+            {
+              "label": "Autre",
+              "value": 58,
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Tendance hebdomadaire : en hausse chaque semaine",
+        "Environ 400 échecs en trop",
+        "Pareto : trier les échecs par mode"
+      ],
+      "at": [
+        3.338,
+        17.544,
+        20.994
+      ],
+      "exampleAt": 25.198
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Cible et périmètre",
+      "example": "Hors périmètre : assouplir les limites de test pour paraître meilleur.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cible",
+            "sub": "≤ 2 % en 6 semaines",
+            "icon": "pin",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Garde-fous",
+            "sub": "Temps de test, retests, fuites",
+            "icon": "shield",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": 2,
+          "items": [
+            {
+              "label": "Hors périmètre",
+              "sub": "Assouplir les limites de test",
+              "icon": "cross",
+              "tone": "bad",
+              "with": 2
+            },
+            {
+              "label": "Dans le périmètre",
+              "sub": "Échecs mémoire, ligne 2",
+              "icon": "check",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Cible : 2 % ou moins en 6 semaines",
+        "Garde-fous : temps de test, retests, fuites",
+        "Périmètre : ce qui est dedans, ce qui est dehors"
+      ],
+      "at": [
+        4.581,
+        14.011,
+        23.454
+      ],
+      "exampleAt": 29.184
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Explorer les causes : Ishikawa",
+      "example": "L'insertion est-elle formée ? Le châssis a-t-il changé ? Le verrouillage varie-t-il selon le lot ?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Main-d'œuvre",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Méthode",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Matière",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Mesure",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Milieu",
+            "icon": "wave",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "D'abord, pensez large",
+        "Six M : main-d'œuvre, machine, méthode…",
+        "Chaque branche est une supposition tant qu'elle n'est pas vérifiée"
+      ],
+      "at": [
+        3.416,
+        5.86,
+        26.547
+      ],
+      "exampleAt": 13.68
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Cause racine : Five Whys",
+      "example": "Cause racine : les instructions de travail n'ont pas été revues lors du changement de châssis.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Module mal enfoncé",
+            "with": 0
+          },
+          {
+            "label": "Loquet fermé trop tôt",
+            "with": 0
+          },
+          {
+            "label": "Moins de place dans le nouveau châssis",
+            "with": 0
+          },
+          {
+            "label": "Instructions non revues",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 100,
+          "suffix": "%",
+          "icon": "test",
+          "label": "défaut reproduit",
+          "unit": "en enfonçant les modules en biais",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "Demandez pourquoi, étape par étape",
+        "Finissez sur une cause de processus que vous pouvez corriger",
+        "Une chaîne n'est pas une preuve : testez-la"
+      ],
+      "at": [
+        0.483,
+        27.443,
+        31.081
+      ],
+      "exampleAt": 22.797
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Contre-mesures et confinement",
+      "example": "Guide d'insertion · contrôle du loquet · revue des instructions à chaque changement de châssis",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Guide d'insertion",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Contrôle du loquet",
+            "icon": "sensor",
+            "with": "example"
+          },
+          {
+            "label": "Revue à chaque changement de châssis",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": 2,
+          "items": [
+            {
+              "label": "Confinement",
+              "sub": "Protège le client maintenant",
+              "icon": "lock",
+              "with": 2
+            },
+            {
+              "label": "Contre-mesure",
+              "sub": "Supprime la cause pour de bon",
+              "icon": "key",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Casser la cause vérifiée",
+        "Juger : effet, risque, coût, durabilité",
+        "Confiner maintenant, corriger pour de bon"
+      ],
+      "at": [
+        2.273,
+        19.131,
+        24.941
+      ],
+      "exampleAt": 4.23
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Plan et responsables",
+      "example": "Bloqué ? Escaladez avec le blocage exact et la décision dont vous avez besoin.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Confirmer la cause, pilote",
+            "sub": "Semaines 1–2",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Mettre à jour le SOP, former",
+            "sub": "Semaines 3–4",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Vérifier les résultats",
+            "sub": "Semaines 5–6",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un responsable, une échéance, une preuve",
+        "Semaines 1–2 : confirmer la cause, pilote",
+        "Semaines 3–4 : mettre à jour le SOP, former chaque équipe",
+        "Semaines 5–6 : vérifier les résultats"
+      ],
+      "at": [
+        3.518,
+        8.912,
+        17.301,
+        23.276
+      ],
+      "exampleAt": 27.489
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Pilote et vérification",
+      "example": "Pilote : 48 échecs sur 3 000 serveurs = 1,6 %.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Référence",
+          "value": 4.8
+        },
+        "after": {
+          "label": "Pilote",
+          "value": 1.6
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "serveurs échouant au premier test de démarrage",
+        "note": "Cible ≤ 2 % : atteinte",
+        "with": 1
+      },
+      "bullets": [
+        "Même mix de produits que la référence",
+        "De 4,8 % à 1,6 % : cible atteinte",
+        "Garde-fous vérifiés aussi",
+        "Raté ? Revoyez la cause, pas la cible"
+      ],
+      "at": [
+        6.411,
+        9.848,
+        14.543,
+        26.089
+      ],
+      "exampleAt": 3.93
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Pérenniser et votre A3 en 30 jours",
+      "example": "Jours 1–5 : un vrai problème, la référence au Gemba. Jour 20 : causes et pilote. Jour 30 : présentez votre A3.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Un vrai problème, la référence",
+            "sub": "Jours 1–5",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Causes et pilote",
+            "sub": "Au jour 20",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Présentez votre A3",
+            "sub": "Jour 30",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour le SOP, la check-list, la formation",
+        "Contrôle en début d'équipe ; revue à 30/60/90 jours",
+        "Ne dupliquez que sur des lignes vraiment comparables",
+        "Votre propre A3 en 30 jours"
+      ],
+      "at": [
+        4.57,
+        8.879,
+        16.434,
+        22.004
+      ],
+      "exampleAt": 24.379
+    }
+  ]
+}

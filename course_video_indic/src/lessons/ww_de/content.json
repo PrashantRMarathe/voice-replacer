@@ -1,0 +1,872 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Why-Why ist",
+      "example": "Ladefehler ist das Symptom: Steckersitz, Platinenschaden, Vorrichtungskontakt oder Testereinstellung könnten es verursachen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Warum?",
+            "sub": "Durch einen Fakt gestützt",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Wieder warum?",
+            "sub": "Fünf ist keine Regel",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Eine beweisbare, steuerbare Ursache",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Steckersitz",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Platinenschaden",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Vorrichtungskontakt",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Testereinstellung",
+              "icon": "test",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Immer wieder warum fragen, mit Fakten",
+        "Fünf ist keine Regel",
+        "Bei einer beweisbaren, steuerbaren Ursache aufhören"
+      ],
+      "at": [
+        2.739,
+        13.931,
+        16.826
+      ],
+      "exampleAt": 23.756
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why-Why und Ursachenanalyse",
+      "example": "Fehlende Schrauben an einer Audiolinie: „Werker vergaß\" reichte nicht. Das Team prüfte Zuführung und Reihenfolge.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Why-Why",
+            "sub": "Ein Werkzeug von vielen",
+            "icon": "search",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Echter Ort, echtes Produkt",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Belege für jedes Warum",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Menschen sind ein Hinweis",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Werker vergaß",
+              "sub": "Reicht nicht",
+              "icon": "person",
+              "with": "example"
+            },
+            {
+              "label": "Zuführung und Reihenfolge prüfen",
+              "sub": "Fakten",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ein Werkzeug der Ursachenanalyse",
+        "An den echten Ort, das echte Produkt sehen",
+        "Welcher Beleg stützt dieses Warum?",
+        "Menschliches Handeln ist ein Hinweis, nicht die Antwort"
+      ],
+      "at": [
+        0.241,
+        14.577,
+        20.821,
+        24.986
+      ],
+      "exampleAt": 30.9
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Schritt 1: mit 5W2H definieren",
+      "example": "Linie 2: 21 von 700 Handys (3 %) fielen nach dem Vorrichtungswechsel um 11 Uhr beim Laden durch; die Schicht davor lag unter 0,5 %.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Problembeschreibung · Linie 2",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Was: Ladefehler im Endtest",
+            "icon": "power",
+            "with": 1
+          },
+          {
+            "label": "Wann: nach dem Vorrichtungswechsel um 11 Uhr",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Wie viele: 21 von 700 Handys (3 %)",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Letzter guter Zustand: unter 0,5 %",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Eine scharfe Problembeschreibung",
+        "5W2H: was, wo, wann, wie gefunden, wie viele",
+        "Den letzten bekannten guten Zustand aufnehmen"
+      ],
+      "at": [
+        0.268,
+        8.221,
+        17.207
+      ],
+      "exampleAt": 24.302
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Schritt 2: zuerst eingrenzen",
+      "example": "100 % sortieren schützt den Kunden, beweist aber nicht, dass die Ursache weg ist.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Den Kunden schützen",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Letzten guten Punkt finden",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Bestand sperren: Halle und System",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Jede Einheit abgleichen",
+            "icon": "count",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst den Kunden schützen",
+        "Den letzten bekannten guten Punkt finden",
+        "Bestand physisch und im System sperren",
+        "Jede Einheit abgleichen"
+      ],
+      "at": [
+        2.099,
+        10.016,
+        17.225,
+        22.233
+      ],
+      "exampleAt": 38.499
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Schritt 3: Fakten am Gemba",
+      "example": "Neha fotografierte und beschriftete jedes defekte Handy nach Seriennummer, dann holte sie Tester- und Wartungsprotokolle.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Defekt gegen bekannt gut",
+            "icon": "scale",
+            "with": 0
+          },
+          {
+            "label": "Einstellungen, Versionen, Lose",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Belege sichern",
+            "icon": "camera",
+            "with": 2
+          },
+          {
+            "label": "Gesehen · Quelle · Bedeutung",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Defekte mit bekannt guten Einheiten vergleichen",
+        "Einstellungen, Vorrichtungen, Versionen, Lose prüfen",
+        "Belege sichern, bevor jemand nachstellt",
+        "Gesehen · Quelle · könnte heißen"
+      ],
+      "at": [
+        6.108,
+        10.39,
+        18.259,
+        33.704
+      ],
+      "exampleAt": 22.927
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Schritt 4: die Kette bauen",
+      "example": "Falsches Kartonetikett → alter Druckauftrag → Software ließ es zu → Drucker nicht mit dem gescannten Produkt verknüpft.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Beim Ereignis beginnen",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Jeder Pfeil: eine prüfbare Behauptung",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Fakten, keine Etiketten",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Falsches Kartonetikett",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Alter Druckauftrag",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Software ließ es zu",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Drucker nicht mit dem Scan verknüpft",
+              "icon": "barcode",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Beim beobachteten Ereignis beginnen",
+        "Jeder Pfeil ist eine prüfbare Behauptung",
+        "Fakten, nicht „Nachlässigkeit\"",
+        "Verzweigen, wenn Ursachen zusammenwirken"
+      ],
+      "at": [
+        0.223,
+        11.631,
+        22.35,
+        43.06
+      ],
+      "exampleAt": 31.086
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Entstehung, Durchschlupf und System",
+      "example": "Vorrichtung erlaubt halben Akkusitz (Entstehung); Endtest übersah Wackelkontakt (Durchschlupf).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Entstehung",
+            "sub": "Wie er gemacht wurde",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Durchschlupf",
+            "sub": "Warum ihn niemand fing",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "System",
+            "sub": "Warum Kontrollen ihn verfehlten",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Vorrichtung erlaubt halben Sitz",
+              "sub": "Entstehung",
+              "icon": "pin",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Endtest übersieht Wackelkontakt",
+              "sub": "Durchschlupf",
+              "icon": "test",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Eine Lösung für jede",
+              "icon": "check",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Entstehung: wie der Fehler gemacht wurde",
+        "Durchschlupf: warum ihn niemand fing",
+        "System: warum Kontrollen das Risiko verfehlten",
+        "Jede braucht ihre eigene Lösung"
+      ],
+      "at": [
+        4.998,
+        10.181,
+        15.033,
+        36.148
+      ],
+      "exampleAt": 22.212
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Fischgräte und Pareto",
+      "example": "Nehas zwei größte Fehlerarten machten 65 % aus. Dort setzte sie zuerst an.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fischgräte: 6 Gruppen",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pareto: nach Anzahl ordnen",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Seltene Sicherheitsrisiken",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Vermutungen, kein Beweis",
+            "icon": "search",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Die zwei größten = 65 % der Fehler",
+          "with": "example",
+          "items": [
+            {
+              "label": "Art 1",
+              "value": 40,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Art 2",
+              "value": 25,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Art 3",
+              "value": 15,
+              "with": "example"
+            },
+            {
+              "label": "Art 4",
+              "value": 12,
+              "with": "example"
+            },
+            {
+              "label": "Sonstige",
+              "value": 8,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Fischgräte: 6 Ursachengruppen",
+        "Pareto: nach Häufigkeit ordnen",
+        "Seltene Sicherheitsrisiken zählen trotzdem",
+        "Eine Fischgräte sind Vermutungen, kein Beweis"
+      ],
+      "at": [
+        4.902,
+        13.792,
+        27.025,
+        34.912
+      ],
+      "exampleAt": 18.306
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Die Ursache beweisen",
+      "example": "Gute gegen verschlissene Vorrichtungsstifte, mit gleichen Teilen: die Fehler folgten den verschlissenen Stiften.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Die Änderung vorhersagen",
+            "with": 0
+          },
+          {
+            "label": "Andere Faktoren festhalten",
+            "with": 1
+          },
+          {
+            "label": "Gut und schlecht testen",
+            "with": 2
+          },
+          {
+            "label": "Über Schichten",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Verschlissene Stifte",
+              "sub": "Fehler folgten",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Gute Stifte",
+              "sub": "Gleiche Teile bestanden",
+              "icon": "check",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Vorhersagen, was sich ändern sollte",
+        "Andere Faktoren festhalten",
+        "Gut und schlecht testen, über Schichten"
+      ],
+      "at": [
+        5.867,
+        12.289,
+        18.629
+      ],
+      "exampleAt": 23.239
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Korrekturmaßnahme und Poka Yoke",
+      "example": "Falsche Audioetiketten: der Drucker braucht jetzt zuerst einen passenden Seriennummer-Scan. Nachschulung baut auf Gedächtnis.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM STÄRKSTEN",
+        "bottom": "AM SCHWÄCHSTEN",
+        "items": [
+          {
+            "label": "Codierte Vorrichtung, Verriegelung",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Anwesenheitssensor",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Unabhängige Durchschlupfprüfung",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Nachschulung, Erinnerungen",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die Ursache beheben, nicht das Symptom",
+        "Technische Vorbeugung schlägt Erinnerungen",
+        "Entstehung beheben + unabhängige Durchschlupfprüfung",
+        "FMEA, SOP, Schulung aktualisieren"
+      ],
+      "at": [
+        0.228,
+        4.562,
+        15.203,
+        22.285
+      ],
+      "exampleAt": 28.363
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Bestätigen und abschließen",
+      "example": "Nehas Abschlussregel: null Wiederholungen in 10 Produktionstagen, Prüftests bestanden, jede verdächtige Einheit erfasst.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bekannt gut",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Bekannt schlecht",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Grenzmuster",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Wiederholung und Ausbeute",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "doc",
+          "with": "example",
+          "items": [
+            {
+              "label": "Abschlussregel · Linie 2",
+              "icon": "label",
+              "with": "example"
+            },
+            {
+              "label": "Null Wiederholungen in 10 Produktionstagen",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Prüftests bestanden",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Jede verdächtige Einheit erfasst",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "Die Qualität zeichnet ab",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Erledigt ≠ bewiesen",
+        "Herausfordern: gute, schlechte, Grenzmuster",
+        "Wiederholung und Ausbeute beobachten",
+        "Kein neuer Stillstand, keine Fehlablehnungen"
+      ],
+      "at": [
+        0.242,
+        6.297,
+        13.753,
+        20.386
+      ],
+      "exampleAt": 27.008
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI für Why-Why",
+      "example": "50 → 15 Fehler = 70 % weniger. ₹1,2 lakh Kosten, ₹30.000 Einsparung im Monat = Amortisation in 4 Monaten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tempo und Ergebnisse",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Früh: schnelle Eingrenzung",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Spät: Fehler, Wiederholungen",
+            "icon": "chartDown",
+            "with": 2
+          },
+          {
+            "label": "Stabile Definitionen",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 50
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 15
+          },
+          "unit": "Ladefehler, gleiche Menge",
+          "note": "70 % weniger · Amortisation in 4 Monaten",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Tempo und Ergebnisse messen",
+        "Frühindikatoren: schnelle Eingrenzung, bestätigte Maßnahmen",
+        "Spätindikatoren: Fehlerrate, Wiederholung",
+        "Definitionen stabil halten"
+      ],
+      "at": [
+        0.23,
+        3.556,
+        9.284,
+        13.824
+      ],
+      "exampleAt": 21.073
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fallstudie: Ladefehler",
+      "example": "Die defekten Handys fielen auch am zweiten Tester durch: die Handys waren wirklich fehlerhaft.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Handy oder Tester?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Zweiter Tester: weiter durchgefallen",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Verschlissener Stift der Montagevorrichtung, kein Wechselintervall",
+            "icon": "pin",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Neue Stifte, Standzeitgrenzen, Rüstprüfung",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Handy oder Tester? Das zuerst testen",
+        "Am zweiten Tester neu getestet: weiter durchgefallen",
+        "Verschlissener Stift an der Montagevorrichtung",
+        "Lösung: neue Stifte, Standzeitgrenzen, Rüstprüfung"
+      ],
+      "at": [
+        3.635,
+        7.622,
+        20.102,
+        33.399
+      ],
+      "exampleAt": 12.422
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Set-Top-Box und Audio",
+      "example": "Fehlende Fernbedienung: das Kit ließ sie aus, dann schloss der Karton ohne Scan der Fernbedienung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Set-Top-Box",
+            "sub": "HDMI, Firmware, Tester",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Audiogerät",
+            "sub": "Kit, Folge, Scans",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Kit ließ die Fernbedienung aus",
+              "icon": "tray",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Karton geschlossen, kein Scan der Fernbedienung",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Die bewiesene Lösung verbreiten",
+              "icon": "sequence",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Andere Produkte, andere Belege",
+        "Set-Top-Box: HDMI-Lötung, Firmware, Tester",
+        "Audio: Kit, Packfolge, Scans verfolgen",
+        "Bewiesene Lösungen auf ähnliche Linien übertragen"
+      ],
+      "at": [
+        0.237,
+        4.005,
+        17.168,
+        31.508
+      ],
+      "exampleAt": 24.135
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Einführung in 90 Tagen",
+      "example": "Auf echte Muster und bestätigte Glieder auditieren, nicht auf saubere Formulare.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Auslöser, Rollen, Vorlagen",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Untersuchen, Hypothesen testen",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Herausfordern, aktualisieren, verbreiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Pilotlinie + ein paar Moderatoren",
+        "Tag 1–30: Auslöser, Rollen, Vorlagen",
+        "Tag 31–60: untersuchen, Hypothesen testen",
+        "Tag 61–90: herausfordern, aktualisieren, verbreiten"
+      ],
+      "at": [
+        4.383,
+        11.645,
+        18.014,
+        24.281
+      ],
+      "exampleAt": 31.417
+    }
+  ]
+}

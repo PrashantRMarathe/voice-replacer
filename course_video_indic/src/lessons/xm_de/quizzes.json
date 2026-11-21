@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Was davon gehört zu KPI / Zielwerten, nicht zu den Durchbruchszielen?",
+      "options": [
+        "Weltklasse in der Produktqualität werden",
+        "Die Erstdurchlaufquote dieses Jahr auf 99 % heben",
+        "Jeden Kunden begeistern"
+      ],
+      "correct": 1,
+      "explanation": "Ein Zielwert ist messbar, mit Zahl und Datum. Die anderen sind Richtungsziele, keine Messgrößen.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Das jährliche Liefertreue-Ziel eines Werks hat kein verknüpftes Projekt. Was sollte das Team ZUERST tun?",
+      "options": [
+        "Eine starke Verknüpfung zum nächstbesten Projekt eintragen",
+        "Ein Projekt finden oder starten, das die Lieferung bewegt, oder das Ziel überdenken",
+        "Lassen: der KPI verbessert sich von selbst"
+      ],
+      "correct": 1,
+      "explanation": "Ein Ziel ohne stützendes Projekt ist eine Lücke. Schließen Sie sie mit echter Arbeit, oder überarbeiten Sie das Ziel; füllen Sie das Feld nie mit einer Verknüpfung ohne Mechanismus.",
+      "think": 14
+    }
+  ]
+}

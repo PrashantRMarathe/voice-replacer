@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est le Jidoka",
+      "example": "Le doseur d'Anjali scelle le cadre avant de chaque moniteur patient.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Détecter",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Arrêter",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Corriger",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Prévenir",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Détecter une anomalie",
+        "Arrêter ou confiner",
+        "Corriger, puis prévenir"
+      ],
+      "at": [
+        6.038,
+        9.599,
+        13.895
+      ],
+      "exampleAt": 18.317
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Sans et avec le Jidoka",
+      "example": "Sans lui : 140 joints trop fins, trouvés au test d'étanchéité le lendemain matin.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Sans Jidoka",
+            "sub": "Les défauts voyagent, trouvés tard",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Avec Jidoka",
+            "sub": "Attrapé à la source",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 140,
+          "icon": "warning",
+          "label": "joints trop fins au matin",
+          "unit": "trouvés au test d'étanchéité",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Les défauts voyagent ou sont attrapés à la source",
+        "Hésitation ou règles d'arrêt claires",
+        "Inspection ou qualité intégrée"
+      ],
+      "at": [
+        0.0,
+        5.741,
+        12.436
+      ],
+      "exampleAt": 24.76
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "D'où il vient",
+      "example": "Le juste-à-temps déplace bien la matière. Le Jidoka garantit qu'il ne déplace pas bien les défauts.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Le métier s'arrête si un fil casse",
+            "sub": "Début des années 1900",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pilier du TPS",
+            "sub": "TPS",
+            "icon": "stack",
+            "with": 2
+          },
+          {
+            "label": "Aucun défaut transmis",
+            "sub": "Aujourd'hui",
+            "icon": "shield",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le métier à tisser automatique de Sakichi Toyoda",
+        "Il s'arrêtait quand un fil cassait",
+        "Un des deux piliers du TPS"
+      ],
+      "at": [
+        0.228,
+        6.76,
+        13.853
+      ],
+      "exampleAt": 17.127
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Les personnes comptent toujours",
+      "example": "L'opératrice d'Anjali fixait le cordon toute l'équipe. Elle tient maintenant deux postes.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Surveiller une machine",
+            "sub": "Toute l'équipe",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Deux postes tenus",
+            "sub": "Et des problèmes résolus",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Les machines surveillent, les personnes réfléchissent",
+        "Une personne peut s'occuper de plusieurs machines",
+        "Jugement, réparation, amélioration"
+      ],
+      "at": [
+        4.729,
+        11.625,
+        15.655
+      ],
+      "exampleAt": 20.628
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Étape 1 : détecter",
+      "example": "Cordon normal : de 2,0 à 2,4 mm de large, sans trou.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Définir le normal",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Détecter la dérive",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Tests, surveillance",
+            "icon": "test",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2.0,
+          "decimals": 1,
+          "suffix": "–2.4 mm",
+          "icon": "pin",
+          "label": "largeur normale du cordon",
+          "unit": "sans trou",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Définir d'abord le normal",
+        "Puis détecter l'écart",
+        "Capteurs, contrôles, tests, surveillance"
+      ],
+      "at": [
+        10.566,
+        18.34,
+        21.552
+      ],
+      "exampleAt": 28.158
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Étapes 2 à 4 : arrêter, corriger, prévenir",
+      "example": "Corriger n'est pas prévenir. Une buse nettoyée peut se reboucher.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Arrêter ou confiner",
+            "with": 0
+          },
+          {
+            "label": "Corriger",
+            "with": 1
+          },
+          {
+            "label": "Prévenir",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Arrêter ou confiner selon le risque",
+        "Corriger : rétablir le standard",
+        "Prévenir : supprimer la cause racine"
+      ],
+      "at": [
+        0.212,
+        11.542,
+        16.972
+      ],
+      "exampleAt": 22.073
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Jidoka ou simple automatisation",
+      "example": "Le doseur d'Anjali : entièrement automatique, mais aveugle. Il a dosé toute la nuit.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Simple automatisation",
+            "sub": "A dosé toute la nuit",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Jidoka",
+            "sub": "S'arrête et appelle",
+            "icon": "sensor",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "L'automatisation fait le travail",
+        "Le Jidoka juge aussi le travail",
+        "Des machines rapides font des défauts rapides"
+      ],
+      "at": [
+        0.221,
+        3.631,
+        21.154
+      ],
+      "exampleAt": 24.538
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Principes clés",
+      "example": "Trois questions : quel est le normal ? Comment détecter un écart ? Que se passe-t-il ensuite ?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Aucun défaut transmis",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Aucune anomalie cachée",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Aucune répétition sans action",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Aucun défaut transmis",
+        "Aucune anomalie cachée",
+        "Aucune répétition acceptée sans action"
+      ],
+      "at": [
+        2.705,
+        4.93,
+        7.203
+      ],
+      "exampleAt": 22.538
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Andon",
+      "example": "La règle d'Anjali : le chef d'équipe répond à un jaune en moins de deux minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vert : normal",
+            "sub": "Restez au standard",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Jaune : aide",
+            "sub": "Un responsable arrive vite",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Rouge : arrêt",
+            "sub": "Confiner, escalader",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Vert : normal",
+        "Jaune : besoin d'aide",
+        "Rouge : arrêter, confiner, escalader"
+      ],
+      "at": [
+        5.738,
+        9.983,
+        14.626
+      ],
+      "exampleAt": 25.25
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Une culture de l'Andon",
+      "example": "Les appels Andon ont doublé le premier mois, puis ont été divisés par deux au troisième.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Appels Andon par semaine",
+        "with": 2,
+        "items": [
+          {
+            "label": "Avant",
+            "value": 10,
+            "with": 2
+          },
+          {
+            "label": "Mois 1",
+            "value": 20,
+            "with": "example"
+          },
+          {
+            "label": "Mois 3",
+            "value": 10,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un appel est une information utile",
+        "Ne jamais sanctionner un arrêt",
+        "Les appels peuvent d'abord augmenter"
+      ],
+      "at": [
+        3.945,
+        8.798,
+        19.739
+      ],
+      "exampleAt": 22.6
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Les contrôles les plus forts d'abord",
+      "example": "Un bon Poka Yoke : simple, près de la source, difficile à contourner, facile à tester.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT",
+        "bottom": "LE PLUS FAIBLE",
+        "items": [
+          {
+            "label": "Éliminer ou empêcher",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Détecter et arrêter",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Avertir",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Inspecter plus tard",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Éliminer, ou empêcher par la conception",
+        "Détecter et arrêter immédiatement",
+        "Avertissements et inspection en dernier"
+      ],
+      "at": [
+        3.537,
+        8.937,
+        13.146
+      ],
+      "exampleAt": 19.416
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Le poste Jidoka d'Anjali",
+      "example": "Premier vrai arrêt : un moniteur touché, pas 140.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Le capteur vérifie chaque cordon",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Le doseur s'arrête",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Andon, blocage jusqu'à la dernière bonne",
+            "icon": "warning",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 140
+          },
+          "after": {
+            "label": "Avec Jidoka",
+            "value": 1
+          },
+          "unit": "moniteurs touchés par problème de buse",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Un capteur mesure chaque cordon",
+        "Hors limites : le doseur s'arrête",
+        "Andon, et blocage jusqu'à la dernière bonne unité"
+      ],
+      "at": [
+        2.179,
+        7.716,
+        11.175
+      ],
+      "exampleAt": 18.051
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "La cause racine après l'arrêt",
+      "example": "La colle polymérisait dans la buse pendant les pauses. Pas d'étape de purge dans le standard.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Buse bouchée",
+            "with": 1
+          },
+          {
+            "label": "Colle polymérisée pendant les pauses",
+            "with": "example"
+          },
+          {
+            "label": "Pas d'étape de purge",
+            "with": "example"
+          },
+          {
+            "label": "Purge automatique + surveillance de pression",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "L'arrêt révèle ; l'analyse améliore",
+        "Demander pourquoi, avec des preuves",
+        "Corriger, puis standardiser"
+      ],
+      "at": [
+        0.204,
+        6.99,
+        20.942
+      ],
+      "exampleAt": 8.373
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Mesurer les bonnes choses",
+      "example": "Rendement au premier passage : 97,5 % → 99,0 %. Fuites : zéro en 90 jours.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 97.5
+        },
+        "after": {
+          "label": "Après",
+          "value": 99.0
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "rendement au premier passage",
+        "note": "Zéro fuite en 90 jours",
+        "with": "example"
+      },
+      "bullets": [
+        "Rendement au premier passage et fuites",
+        "Temps de réponse Andon",
+        "Anomalies répétées"
+      ],
+      "at": [
+        4.967,
+        10.132,
+        15.156
+      ],
+      "exampleAt": 20.047
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Rôles et feuille de route",
+      "example": "Jours 0–30 : définir l'anormal. 31–60 : détecter et former. 61–90 : corriger les principales répétitions.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Définir l'anormal, pilote",
+            "sub": "Jours 0–30",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Détecter, former",
+            "sub": "31–60",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Corriger les principales répétitions",
+            "sub": "61–90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Les opérateurs détectent, appellent et arrêtent",
+        "Les responsables réagissent et rétablissent",
+        "Un déploiement en 30-60-90 jours"
+      ],
+      "at": [
+        2.375,
+        6.884,
+        18.31
+      ],
+      "exampleAt": 21.266
+    }
+  ]
+}

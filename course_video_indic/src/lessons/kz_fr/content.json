@@ -1,0 +1,630 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce que veut dire Kaizen",
+      "example": "La ligne de Suresh : deux retournements de chaque moniteur, chaque unité, chaque équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Changer pour le meilleur",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Petits pas",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Par l'équipe",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "icon": "weight",
+          "label": "retournements de chaque moniteur",
+          "unit": "chaque unité, chaque équipe",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Changer pour le meilleur",
+        "Beaucoup de petits changements disciplinés",
+        "Faits par les personnes les plus proches du travail"
+      ],
+      "at": [
+        2.081,
+        7.413,
+        9.986
+      ],
+      "exampleAt": 17.757
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Ce qui en fait un Kaizen",
+      "example": "Chaque standard amélioré est la base du Kaizen suivant.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Continu",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Basé sur le Gemba",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Peu coûteux, données",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Nouveau standard",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Continu et porté par les personnes",
+        "Commence au Gemba",
+        "D'abord peu coûteux, appuyé sur des données",
+        "Se termine par un nouveau standard"
+      ],
+      "at": [
+        2.785,
+        8.105,
+        12.148,
+        17.658
+      ],
+      "exampleAt": 22.986
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "L'état d'esprit Kaizen",
+      "example": "« On l'a toujours retourné » est exactement la phrase que le Kaizen remet en question.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "« On a toujours fait comme ça »",
+            "sub": "Accepter la perte",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "« Tout processus peut s'améliorer »",
+            "sub": "Kaizen",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Tout processus peut s'améliorer",
+        "Les problèmes servent à apprendre, pas à blâmer",
+        "La créativité avant le capital"
+      ],
+      "at": [
+        2.514,
+        6.088,
+        14.492
+      ],
+      "exampleAt": 21.093
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Types de Kaizen",
+      "example": "Le double retournement : un Kaizen ponctuel, porté par l'équipe de Suresh elle-même.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS GRAND",
+        "bottom": "LE PLUS PETIT",
+        "items": [
+          {
+            "label": "Kaizen système",
+            "sub": "Semaines",
+            "icon": "stack",
+            "with": 3
+          },
+          {
+            "label": "Événement Kaizen",
+            "sub": "3–5 jours",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Kaizen ponctuel",
+            "sub": "Heures à jours",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Kaizen quotidien",
+            "sub": "Minutes",
+            "icon": "hand",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Kaizen quotidien : de quelques minutes à quelques jours",
+        "Kaizen ponctuel : une perte précise",
+        "Événement Kaizen : trois à cinq jours",
+        "Kaizen système : le flux de bout en bout"
+      ],
+      "at": [
+        3.327,
+        8.509,
+        13.989,
+        18.98
+      ],
+      "exampleAt": 24.301
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Le Kaizen fonctionne avec le PDCA",
+      "example": "Le SDCA maintient le standard. Le PDCA l'améliore.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Plan",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Do",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Check",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Act",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan : observer, définir, trouver la cause",
+        "Do : un essai petit et sûr",
+        "Check : comparer à la référence",
+        "Act : standardiser, ou apprendre et recommencer"
+      ],
+      "at": [
+        2.2,
+        7.135,
+        9.969,
+        14.922
+      ],
+      "exampleAt": 19.303
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Le voir au Gemba",
+      "example": "Retourner face en bas pour monter le pied, face en haut pour tester. Deux levages d'un moniteur de 6 kg.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Face en bas : monter le pied",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Face en haut : tester",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Deux levages de 6 kg",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Observer le travail tel qu'il est vraiment",
+        "Compter marches, gestes, retournements",
+        "Demander ce qui rend le travail difficile"
+      ],
+      "at": [
+        2.791,
+        7.834,
+        12.181
+      ],
+      "exampleAt": 16.498
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Définir le problème",
+      "example": "Cycle de 38 s contre un TAKT de 35 s. 2 retournements par unité. 15 dalles rayées pour 1 000.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 35,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "Temps de cycle",
+            "value": 38,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le symptôme, puis les faits",
+        "Mesurer la perte",
+        "Une cible avec une échéance"
+      ],
+      "at": [
+        0.0,
+        8.083,
+        24.917
+      ],
+      "exampleAt": 11.898
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Trouver des idées",
+      "example": "Leela, une opératrice : « Pourquoi ne pas monter le pied pendant que le moniteur est encore dans son plateau ? »",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Demander aux opérateurs",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "ECRS",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Autres lignes",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Retourner deux fois",
+              "sub": "Aujourd'hui",
+              "icon": "weight",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Monter le pied dans le plateau",
+              "sub": "L'idée de Leela",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Demander d'abord aux opérateurs",
+        "Utiliser ECRS",
+        "Regarder d'autres lignes"
+      ],
+      "at": [
+        3.378,
+        10.073,
+        15.346
+      ],
+      "exampleAt": 19.369
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Choisir l'idée",
+      "example": "L'idée de Leela : forte sur l'impact, la facilité et le coût. Elle a gagné.",
+      "visual": {
+        "type": "icons",
+        "with": "example",
+        "items": [
+          {
+            "label": "Bras robotisé",
+            "sub": "Note 2,4",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Aide au levage",
+            "sub": "Note 3,6",
+            "icon": "weight",
+            "with": "example"
+          },
+          {
+            "label": "L'idée de Leela",
+            "sub": "Note 4,7 sur 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La sécurité et la qualité sont des filtres",
+        "Noter impact, facilité, coût, rapidité",
+        "Elle doit corriger une cause vérifiée"
+      ],
+      "at": [
+        3.611,
+        11.775,
+        18.445
+      ],
+      "exampleAt": 25.969
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "L'essayer en petit",
+      "example": "Un poste, une équipe : étapes réordonnées et une mousse dans le plateau. Coût : presque rien.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Hypothèse : les deux retournements disparaissent",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Périmètre : un poste, une équipe",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Mêmes mesures que la référence",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Mousse + nouvelle séquence",
+            "icon": "shape",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Une hypothèse et un périmètre",
+        "Mêmes mesures que la référence",
+        "Observer les personnes, pas seulement les chiffres"
+      ],
+      "at": [
+        2.492,
+        13.178,
+        16.619
+      ],
+      "exampleAt": 20.503
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Vérifier les résultats",
+      "example": "Règle de l'équilibre : la cible s'améliore, et la sécurité, la qualité et la livraison n'en souffrent pas.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 15
+        },
+        "after": {
+          "label": "Essai",
+          "value": 3
+        },
+        "unit": "dalles rayées pour 1 000 moniteurs",
+        "note": "Cycle 38 s → 33 s · retournements 2 → 0",
+        "with": 2
+      },
+      "bullets": [
+        "Temps de cycle : de 38 s à 33 s",
+        "Retournements par unité : de 2 à 0",
+        "Rayures : de 15 à 3 pour 1 000",
+        "Rien d'autre ne s'est dégradé"
+      ],
+      "at": [
+        0.232,
+        5.328,
+        8.14,
+        12.96
+      ],
+      "exampleAt": 25.414
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Mesurer honnêtement",
+      "example": "Jour 30 : toujours 33 s. Jour 90 : toujours 33 s, et 3 rayures pour 1 000.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Référence",
+            "sub": "Avant",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Toujours 33 s",
+            "sub": "Jour 30",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Toujours 33 s",
+            "sub": "Jour 90",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Mêmes définitions, avant et après",
+        "Compter la bonne production, pas la brute",
+        "Revérifier à 30, 60, 90 jours"
+      ],
+      "at": [
+        2.267,
+        5.621,
+        19.917
+      ],
+      "exampleAt": 23.988
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Standardiser le gain",
+      "example": "Les anciennes instructions de retournement ont été retirées de chaque poste la même semaine.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mettre à jour le SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Former, retirer l'ancienne façon",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Responsable et audit",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour le SOP et le travail standard",
+        "Former tout le monde, retirer l'ancienne façon",
+        "Nommer un responsable et auditer"
+      ],
+      "at": [
+        4.117,
+        7.84,
+        16.324
+      ],
+      "exampleAt": 19.694
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "En faire une habitude",
+      "example": "L'équipe de Suresh : 40 idées en 3 mois, 27 testées, 19 standardisées.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "L'équipe de Suresh, trois premiers mois",
+        "with": "example",
+        "items": [
+          {
+            "label": "Idées",
+            "value": 40,
+            "with": "example"
+          },
+          {
+            "label": "Testées",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Standardisées",
+            "value": 19,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un tableau d'idées visible",
+        "Des réponses rapides à chaque idée",
+        "Reconnaître les personnes"
+      ],
+      "at": [
+        3.643,
+        7.893,
+        12.766
+      ],
+      "exampleAt": 20.213
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Commencer demain",
+      "example": "Kaizen = petites améliorations × répétition disciplinée × sens des responsabilités.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Un problème récurrent",
+            "with": 0
+          },
+          {
+            "label": "Dix cycles, parler à l'équipe",
+            "with": 1
+          },
+          {
+            "label": "La plus petite solution sûre",
+            "with": 2
+          },
+          {
+            "label": "Standardiser",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Choisir un problème récurrent",
+        "Observer dix cycles, parler à l'équipe",
+        "Tester la plus petite solution sûre"
+      ],
+      "at": [
+        2.791,
+        6.404,
+        15.309
+      ],
+      "exampleAt": 21.584
+    }
+  ]
+}

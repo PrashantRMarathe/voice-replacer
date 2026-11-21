@@ -1,0 +1,580 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Aller voir",
+      "example": "La règle de Manoj : aucune décision sur l'équipe B avant d'avoir tenu un écouteur défaillant en main.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Lieu réel",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Chose réelle",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Faits réels",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Gemba : le lieu réel",
+        "Genbutsu : la chose réelle",
+        "Genjitsu : les faits réels"
+      ],
+      "at": [
+        9.842,
+        13.989,
+        18.711
+      ],
+      "exampleAt": 21.708
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Pourquoi les rapports ne suffisent pas",
+      "example": "Le tableau de bord montrait les défaillances de l'équipe B. Il ne montrait pas pourquoi.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Tableau de bord",
+            "sub": "Montre des symptômes",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Le lieu réel",
+            "sub": "Montre des causes",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Les tableaux de bord montrent des symptômes",
+        "Les rapports cachent le contexte",
+        "Les faits arrêtent les reproches"
+      ],
+      "at": [
+        4.136,
+        8.166,
+        19.728
+      ],
+      "exampleAt": 25.13
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Les 3G en une vue",
+      "example": "Ligne 2 · test audio · écouteur gauche · 22 sur 1 100 dans l'équipe B",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Où ?",
+            "sub": "Ligne 2, test audio",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Quoi ?",
+            "sub": "Écouteur gauche",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Que s'est-il passé ?",
+            "sub": "22 sur 1 100",
+            "icon": "count",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Où cela s'est-il produit ?",
+        "Qu'est-ce qui a été touché exactement ?",
+        "Que s'est-il réellement passé ?"
+      ],
+      "at": [
+        2.933,
+        7.762,
+        14.534
+      ],
+      "exampleAt": 21.975
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Gemba : le lieu réel",
+      "example": "La question de Manoj : qu'est-ce qui est différent au test audio dans l'équipe B ?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Question claire",
+            "with": 0
+          },
+          {
+            "label": "Responsable, PPE, ESD",
+            "with": 1
+          },
+          {
+            "label": "Observer des cycles complets",
+            "with": 2
+          },
+          {
+            "label": "Comparer au standard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Avoir une question claire",
+        "Prévenir le responsable de zone, porter les PPE",
+        "Observer plusieurs cycles complets",
+        "Comparer au standard"
+      ],
+      "at": [
+        0.218,
+        4.35,
+        10.13,
+        14.217
+      ],
+      "exampleAt": 23.468
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Le savoir-vivre au Gemba",
+      "example": "Manoj est resté une heure complète avec l'équipe B, et a demandé : « Qu'est-ce qui rend ce travail difficile ? »",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Inspection surprise",
+            "sub": "Chercher un coupable",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Visite respectueuse",
+            "sub": "« Qu'est-ce qui rend ça difficile ? »",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pas une inspection surprise",
+        "Écouter avant de suggérer",
+        "Ne jamais juger sur un seul cycle"
+      ],
+      "at": [
+        1.221,
+        5.631,
+        12.021
+      ],
+      "exampleAt": 16.699
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Genbutsu : la chose réelle",
+      "example": "Écouteurs gauches défaillants : soudure terne et granuleuse sur le fil du haut-parleur. Les bons : brillante et lisse.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Écouteur défaillant",
+            "sub": "Soudure terne, granuleuse",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Bon écouteur",
+            "sub": "Soudure brillante, lisse",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "L'unité défaillante, la pièce, l'outil",
+        "Noter modèle, lot, heure, poste",
+        "Comparer le mauvais au bon"
+      ],
+      "at": [
+        2.714,
+        8.291,
+        15.828
+      ],
+      "exampleAt": 21.374
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La sécurité d'abord",
+      "example": "Manoj a demandé au technicien de refroidir et de consigner le fer avant de le vérifier.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Aucun interverrouillage contourné",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Consignation d'abord",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Protection ESD",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ne jamais contourner un interverrouillage",
+        "Consigner avant d'ouvrir un équipement",
+        "Manipulation ESD pour l'électronique"
+      ],
+      "at": [
+        3.308,
+        10.9,
+        15.174
+      ],
+      "exampleAt": 22.21
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Genjitsu : les faits réels",
+      "example": "Équipe B : 22 sur 1 100 (2,0 %). Équipe A : 9 sur 1 050 (0,9 %).",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Défaillances pour 1 000 écouteurs : un signal, pas une preuve",
+        "with": "example",
+        "items": [
+          {
+            "label": "Équipe A",
+            "value": 9,
+            "with": "example"
+          },
+          {
+            "label": "Équipe B",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Des faits, pas des opinions",
+        "Des comptages avec un dénominateur",
+        "Un signal n'est pas une preuve"
+      ],
+      "at": [
+        0.221,
+        12.006,
+        25.265
+      ],
+      "exampleAt": 17.352
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Une enquête reliée",
+      "example": "Manoj a d'abord bloqué les écouteurs suspects de l'équipe B.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Définir et confiner",
+            "with": 0
+          },
+          {
+            "label": "Lieu",
+            "with": 1
+          },
+          {
+            "label": "Chose",
+            "with": 1
+          },
+          {
+            "label": "Faits",
+            "with": 1
+          },
+          {
+            "label": "Tester les causes",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Définir et confiner d'abord",
+        "Lieu, chose, faits, ensemble",
+        "Tester les causes avant de corriger"
+      ],
+      "at": [
+        6.94,
+        11.988,
+        17.815
+      ],
+      "exampleAt": 22.87
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Ce que le lieu a montré",
+      "example": "Le fer de l'équipe B avait une panne plus petite venant du magasin de pièces. Pas la panne standard.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Panne de l'équipe B",
+            "sub": "Plus petite, venant du magasin de pièces",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Panne standard",
+            "sub": "Équipe A",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Mêmes personnes, même méthode",
+        "Une panne de fer différente",
+        "Changée le lundi soir"
+      ],
+      "at": [
+        4.178,
+        9.83,
+        16.292
+      ],
+      "exampleAt": 18.55
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Ce que les faits ont montré",
+      "example": "Essai : panne standard 1 défaillance sur 300. Panne plus petite : 7 sur 300.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Essai contrôlé : défaillances sur 300 écouteurs",
+        "with": "example",
+        "items": [
+          {
+            "label": "Panne standard",
+            "value": 1,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Panne plus petite",
+            "value": 7,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Défaillances par poste et par heure",
+        "Commencées juste après le changement de panne",
+        "Un essai contrôlé l'a confirmé"
+      ],
+      "at": [
+        0.0,
+        5.014,
+        10.447
+      ],
+      "exampleAt": 15.817
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Les 3G alimentent la cause racine",
+      "example": "Cause racine : le magasin de pièces stockait la mauvaise panne, et le standard ne la nommait pas.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Soudures faibles",
+            "with": 0
+          },
+          {
+            "label": "Panne plus petite, trop peu de chaleur",
+            "with": 0
+          },
+          {
+            "label": "Mauvaise panne au magasin de pièces",
+            "with": "example"
+          },
+          {
+            "label": "Type de panne absent du standard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque pourquoi appuyé sur une preuve",
+        "Ne jamais s'arrêter à « erreur de l'opérateur »",
+        "Demander ce qui a rendu l'erreur possible"
+      ],
+      "at": [
+        7.299,
+        12.032,
+        17.11
+      ],
+      "exampleAt": 21.712
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Corriger et vérifier",
+      "example": "Équipe B : de 20 à 8 pour 1 000, au niveau de l'équipe A.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 20
+        },
+        "after": {
+          "label": "Après",
+          "value": 8
+        },
+        "unit": "défaillances pour 1 000 écouteurs, équipe B",
+        "note": "Au niveau de l'équipe A, vérifié sur 5 équipes",
+        "with": "example"
+      },
+      "bullets": [
+        "La bonne panne, nommée dans le standard",
+        "Contrôle de la panne à chaque début d'équipe",
+        "Vérifié sur cinq équipes"
+      ],
+      "at": [
+        3.107,
+        8.566,
+        13.001
+      ],
+      "exampleAt": 17.801
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "La tournée Gemba de 30 minutes",
+      "example": "La question de Manoj à chaque arrêt : « Quel est le standard, et que se passe-t-il vraiment ? »",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Sécurité, écart, objectif",
+            "sub": "0–5",
+            "icon": "shield",
+            "with": 0,
+            "span": 5
+          },
+          {
+            "label": "Observer",
+            "sub": "5–15",
+            "icon": "walk",
+            "with": 1,
+            "span": 10
+          },
+          {
+            "label": "Chose et données",
+            "sub": "15–22",
+            "icon": "search",
+            "with": 1,
+            "span": 7
+          },
+          {
+            "label": "Causes, responsable",
+            "sub": "22–30",
+            "icon": "person",
+            "tone": "good",
+            "with": 2,
+            "span": 8
+          }
+        ]
+      },
+      "bullets": [
+        "Objectif et sécurité d'abord",
+        "Observer, puis vérifier la chose et les données",
+        "Convenir du confinement et d'un responsable"
+      ],
+      "at": [
+        4.861,
+        9.523,
+        19.724
+      ],
+      "exampleAt": 24.332
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Erreurs à éviter",
+      "example": "Manoj passe maintenant les 30 premières minutes de chaque équipe au Gemba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tableau de bord seul",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Un seul échantillon",
+            "icon": "count",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Clôturé après formation",
+            "icon": "clipboard",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Piloter depuis le tableau de bord",
+        "Prendre un échantillon pour la vérité",
+        "Clôturer après une formation"
+      ],
+      "at": [
+        3.235,
+        10.523,
+        18.074
+      ],
+      "exampleAt": 23.231
+    }
+  ]
+}

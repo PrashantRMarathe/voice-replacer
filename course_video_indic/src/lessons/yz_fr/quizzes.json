@@ -1,0 +1,34 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Le poste 4 tourne à 33 s contre un TAKT de 30 secondes ; le poste 1 tourne à 22 s. Que faut-il essayer en premier ?",
+      "options": [
+        "Demander à l'opérateur du poste 4 d'aller plus vite",
+        "Déplacer une tâche possible du poste 4 au poste 1, ou améliorer sa méthode, puis faire un pilote et mesurer de nouveau",
+        "Supprimer un contrôle qualité au poste 4",
+        "Passer le TAKT à 33 secondes"
+      ],
+      "correct": 1,
+      "explanation": "Équilibrer, c'est déplacer du travail possible ou améliorer la méthode. Pousser les gens, supprimer des contrôles ou redéfinir le TAKT cache le problème au lieu de le corriger.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "420 minutes nettes servent une demande de 840 bonnes unités. Quel est le temps TAKT ?",
+      "options": [
+        "20 secondes par unité",
+        "30 secondes par unité",
+        "2 secondes par unité",
+        "60 secondes par unité"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = temps net ÷ demande = 420 × 60 ÷ 840 = 30 secondes par unité.",
+      "think": 13
+    }
+  ]
+}

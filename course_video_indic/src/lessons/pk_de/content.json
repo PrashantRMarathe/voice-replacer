@@ -1,0 +1,628 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Poka Yoke ist",
+      "example": "Divya ersetzte einen Aufkleber „Ausrichtung prüfen“ durch einen codierten Stecker. Ein Aufkleber warnt. Eine Codierung verhindert.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Ein Aufkleber warnt",
+            "sub": "„Ausrichtung prüfen“",
+            "icon": "sticker",
+            "with": "example"
+          },
+          {
+            "label": "Eine Codierung verhindert",
+            "sub": "Passt nur in einer Richtung",
+            "icon": "key",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Japanisch für Fehlersicherheit",
+        "Verlassen Sie sich nicht auf das Gedächtnis",
+        "Falsche Handlung unmöglich oder sofort sichtbar"
+      ],
+      "at": [
+        2.808,
+        7.13,
+        13.238
+      ],
+      "exampleAt": 20.484
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Fehler oder Defekt",
+      "example": "Die Endkontrolle findet Probleme erst, wenn Arbeit und Teile schon verbraucht sind.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 0,
+          "label": "HIER STOPP",
+          "with": 3
+        },
+        "items": [
+          {
+            "label": "Fehler",
+            "sub": "Die falsche Handlung",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Defekt",
+            "sub": "Das schlechte Produkt",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Am Linienende gefunden",
+            "sub": "Arbeit und Teile schon verbraucht",
+            "icon": "search",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Aus dem Toyota-Produktionssystem",
+        "Fehler: die falsche Handlung",
+        "Defekt: das schlechte Produkt, das folgt",
+        "Stoppen Sie den Fehler, bevor er ein Defekt wird"
+      ],
+      "at": [
+        0.244,
+        14.482,
+        20.686,
+        25.429
+      ],
+      "exampleAt": 29.993
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Die Hierarchie der Maßnahmen",
+      "example": "Wählen Sie Maßnahmen danach, wie zuverlässig sie Fehler stoppen — nicht danach, wie leicht sie einzubauen sind.",
+      "visual": {
+        "type": "ladder",
+        "items": [
+          {
+            "label": "Beseitigen",
+            "icon": "pin"
+          },
+          {
+            "label": "Verhindern",
+            "icon": "barcode"
+          },
+          {
+            "label": "Erkennen und stoppen",
+            "icon": "sensor"
+          },
+          {
+            "label": "Warnen",
+            "icon": "warning"
+          },
+          {
+            "label": "Später prüfen",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "1 Beseitigen: asymmetrische Zentrierstifte",
+        "2 Verhindern: Barcode-Verriegelung",
+        "3 Erkennen und stoppen: Sensor für fehlende Schrauben",
+        "4 Warnen: ein Alarm",
+        "5 Später prüfen — am schwächsten"
+      ],
+      "at": [
+        6.444,
+        12.824,
+        19.267,
+        25.886,
+        28.958
+      ],
+      "exampleAt": 32.483
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Konstruktionsregeln",
+      "example": "Divya zog bei einem Versuch das Sensorkabel. Die Vorrichtung blieb verriegelt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Positives Gutsignal",
+            "icon": "check"
+          },
+          {
+            "label": "Sicherer Zustand",
+            "icon": "power"
+          },
+          {
+            "label": "Überbrückung protokolliert",
+            "icon": "lock"
+          },
+          {
+            "label": "Falsche Fälle testen",
+            "icon": "test"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein positives Gutsignal, nicht „kein Alarm“",
+        "Sicher bei Strom- oder Sensorausfall",
+        "Überbrückung: selten, protokolliert, befristet",
+        "Mit falschen Bedingungen testen"
+      ],
+      "at": [
+        3.856,
+        10.753,
+        20.13,
+        26.143
+      ],
+      "exampleAt": 32.569
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Drei Methoden",
+      "example": "Ausrichtungsproblem → Kontakt. Fehlendes Teil → Festwert. Scannen, programmieren, testen, etikettieren in Reihenfolge → Bewegungsschritt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kontakt",
+            "sub": "Form, Größe, Position",
+            "icon": "shape"
+          },
+          {
+            "label": "Festwert",
+            "sub": "Die richtige Anzahl",
+            "icon": "count"
+          },
+          {
+            "label": "Bewegungsschritt",
+            "sub": "Die richtige Reihenfolge",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Kontakt: Form, Größe, Position",
+        "Festwert: die richtige Anzahl",
+        "Bewegungsschritt: die richtige Reihenfolge"
+      ],
+      "at": [
+        3.78,
+        14.675,
+        20.784
+      ],
+      "exampleAt": 33.337
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Menschliche Fehler sind vorhersehbar",
+      "example": "Falsche Firmware → ähnliche Rezeptnamen → Modell von Hand gewählt → MES-Scan nicht mit dem Programmiergerät verbunden.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Ähnliche Rezeptnamen",
+            "icon": "sticker",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Modell von Hand gewählt",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Falsche Firmware",
+            "icon": "chip",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Lösung: den MES-Scan verknüpfen",
+            "sub": "mit dem Programmiergerät",
+            "icon": "barcode",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Menschliche Fehler sind vorhersehbar",
+        "Auslassen, falsches Teil, vertauscht, falsche Reihenfolge",
+        "Fragen Sie, was es möglich machte, nicht wer"
+      ],
+      "at": [
+        0.241,
+        6.556,
+        19.641
+      ],
+      "exampleAt": 25.454
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Eine Konstruktionsmethode in 8 Schritten",
+      "example": "Legen Sie den Erfolg vor dem Einbau fest: falsche Teile abgewiesen, gute Teile durchgelassen, Takt gehalten.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definieren",
+            "with": 0
+          },
+          {
+            "label": "Beobachten",
+            "with": 0
+          },
+          {
+            "label": "Messen",
+            "with": 0
+          },
+          {
+            "label": "Ursache finden",
+            "with": 0
+          },
+          {
+            "label": "Idee wählen",
+            "with": 1
+          },
+          {
+            "label": "Prototyp",
+            "with": 2
+          },
+          {
+            "label": "Prüfen",
+            "with": 2
+          },
+          {
+            "label": "Standardisieren",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Definieren, beobachten, messen, Ursache finden",
+        "Die einfachste robuste Idee wählen",
+        "Prototyp bauen und mit schlechten Teilen prüfen",
+        "SOP aktualisieren, schulen, überwachen"
+      ],
+      "at": [
+        5.415,
+        19.868,
+        23.337,
+        29.755
+      ],
+      "exampleAt": 35.186
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Anwendungen in der Montage",
+      "example": "Fehlende Schrauben: 18 von 10.000 → 1 von 10.000, etwa 94 % weniger.",
+      "visual": {
+        "type": "assembly",
+        "label": "Divyas NVR-Linie: die Vorrichtung zählt jede Schraube",
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 18
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 1
+          },
+          "unit": "fehlende Schrauben pro 10.000 Einheiten",
+          "note": "etwa 94 % weniger"
+        }
+      },
+      "bullets": [
+        "Drehmomentsignal mit dem Auftrag verknüpft",
+        "Vorrichtung gibt nur frei, wenn jede Schraube gut ist",
+        "Codierte Stecker, Dichtungssensor"
+      ],
+      "at": [
+        7.974,
+        13.907,
+        33.209
+      ],
+      "exampleAt": 23.576
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Anwendungen in SMT und Test",
+      "example": "Divyas Tester kann ohne Gutergebnis für diese Seriennummer kein Etikett drucken.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 2,
+          "label": "KEIN GUTERGEBNIS, KEIN ETIKETT",
+          "with": "example"
+        },
+        "items": [
+          {
+            "label": "Rolle gegen BOM gescannt",
+            "icon": "barcode",
+            "with": 0
+          },
+          {
+            "label": "Programmversion geprüft",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Gutergebnis pro Seriennummer",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Etikett wird gedruckt",
+            "icon": "label",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Jede Feeder-Rolle gegen die BOM gescannt",
+        "Programmversion vor dem Start geprüft",
+        "Seriennummer an Modell, Firmware und Gutergebnis gebunden",
+        "Ein Netzwerkausfall darf nie „bestanden“ ergeben"
+      ],
+      "at": [
+        6.997,
+        11.494,
+        16.649,
+        28.739
+      ],
+      "exampleAt": 23.675
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Verpackung und Versand",
+      "example": "Ein falsches Netzteil wog so viel wie das richtige — eine geformte Kit-Schale hat es erkannt.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Gewichtskontrolle",
+            "sub": "Falsches Netzteil, gleiches Gewicht",
+            "icon": "scale",
+            "with": "example"
+          },
+          {
+            "label": "Geformte Kit-Schale",
+            "sub": "Falsches Netzteil passt nicht",
+            "icon": "tray",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Seriennummer scannen + mit dem Kartonetikett abgleichen",
+        "Zubehör vor dem Verschließen gezählt",
+        "Gewichtskontrollen haben blinde Flecken",
+        "Barcodes lassen sich austricksen"
+      ],
+      "at": [
+        6.218,
+        11.245,
+        15.669,
+        32.355
+      ],
+      "exampleAt": 20.493
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Kostengünstig und sicher",
+      "example": "Divyas beste Vorrichtung kostete ₹1.200: zwei Stifte, die verhindern, dass die Rückwand verkehrt herum montiert wird.",
+      "visual": {
+        "type": "stat",
+        "value": 1200,
+        "prefix": "₹",
+        "icon": "pin",
+        "label": "Zwei Zentrierstifte",
+        "unit": "Keine verkehrt montierten Rückwände mehr"
+      },
+      "bullets": [
+        "Einfach: Stifte, Führungen, Schalter, Schalen",
+        "Nie eine Quetschstelle schaffen",
+        "Qualitätssensoren sind keine Sicherheitssysteme",
+        "Reinigung und Kalibrierung einplanen"
+      ],
+      "at": [
+        6.227,
+        26.16,
+        30.86,
+        35.719
+      ],
+      "exampleAt": 12.42
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "FMEA, Kontrollplan und Audits",
+      "example": "Divya gibt jeder Vorrichtung in jeder Schicht ein bekanntes Schlechtteil.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "FMEA",
+            "sub": "Die Fehlerart",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Kontrollplan",
+            "sub": "Methode und Reaktion",
+            "icon": "shield"
+          },
+          {
+            "label": "Standardarbeit",
+            "sub": "Gutsignal, wer zurücksetzt",
+            "icon": "person"
+          },
+          {
+            "label": "Audit",
+            "sub": "Ein bekanntes Schlechtteil",
+            "icon": "test",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA: mit der Fehlerart verknüpfen",
+        "Kontrollplan: Methode und Reaktion",
+        "Standardarbeit: Gutsignal, wer zurücksetzt",
+        "Mit einem bekannten Schlechtteil auditieren"
+      ],
+      "at": [
+        4.759,
+        10.437,
+        15.659,
+        30.995
+      ],
+      "exampleAt": 37.356
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI und Einsparungen",
+      "example": "60.000 Einheiten/Monat, Fehler von 0,8 % auf 0,2 % gesenkt ≈ ₹65.000 Einsparung pro Monat, abzüglich Betriebskosten.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 0.8
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 0.2
+        },
+        "suffix": "%",
+        "decimals": 1,
+        "unit": "Fehlerquote, 60.000 Einheiten im Monat",
+        "note": "≈ ₹65.000 Einsparung pro Monat"
+      },
+      "bullets": [
+        "Fehler-PPM und Durchschlupf sinken",
+        "Erstdurchlaufquote steigt",
+        "Fehlabweisungen beobachten"
+      ],
+      "at": [
+        4.826,
+        10.439,
+        14.127
+      ],
+      "exampleAt": 25.296
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "90-Tage-Fahrplan",
+      "example": "Testen Sie im Pilot jede bekannte falsche Bedingung.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Fehlerarten + Ausgangslage",
+            "sub": "W1–2",
+            "span": 2,
+            "icon": "search"
+          },
+          {
+            "label": "Konstruktionsoptionen, Logik festlegen",
+            "sub": "W3–4",
+            "span": 2,
+            "icon": "gear"
+          },
+          {
+            "label": "Pilot an einer Station",
+            "sub": "Monat 2",
+            "span": 4,
+            "icon": "test"
+          },
+          {
+            "label": "Dokumentieren, schulen, übertragen",
+            "sub": "Monat 3",
+            "span": 4,
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Wochen 1–2: wichtigste Fehlerarten + Ausgangslage",
+        "Wochen 3–4: Konstruktionsoptionen, Logik festlegen",
+        "Monat 2: Pilot an einer Station",
+        "Monat 3: dokumentieren, schulen, übertragen"
+      ],
+      "at": [
+        3.998,
+        13.538,
+        19.281,
+        27.454
+      ],
+      "exampleAt": 23.586
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Freigabe-Checkliste",
+      "example": "Die Produktion ist für die Station verantwortlich. Die Technik konstruiert sie. Die Qualität prüft sie.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Produktion",
+            "sub": "Verantwortlich für die Station",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Technik",
+            "sub": "Konstruiert sie",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Qualität",
+            "sub": "Prüft sie",
+            "icon": "shield",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fehlerart klar, mit Ausgangslage",
+        "Sicherheit und Ergonomie geprüft",
+        "Schlechtmuster an jedem Modell getestet",
+        "Stromausfall, Offline, Überbrückung abgedeckt"
+      ],
+      "at": [
+        17.08,
+        21.569,
+        25.434,
+        29.945
+      ],
+      "exampleAt": 0.248
+    }
+  ]
+}

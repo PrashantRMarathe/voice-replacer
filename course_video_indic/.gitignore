@@ -1,0 +1,11 @@
+# Dependencies and build artifacts — regenerable, large, not committed.
+node_modules/
+out/
+.remotion/
+
+# Audio (narration) — large, regenerable from narration scripts; not committed going forward.
+public/audio/**/*.mp3
+public/audio/**/*.wav
+
+# Finished videos live in final/ and on Drive, never in git.
+final/

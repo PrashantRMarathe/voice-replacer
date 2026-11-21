@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Ein OPL-Entwurf behandelt Stecker einsetzen, Schraubendrehmoment, Etikettenprüfung und ESD auf einer Seite. Was ist das Problem?",
+      "options": [
+        "Sie braucht mehr Text",
+        "Zu viele Punkte: in einzelne OPL aufteilen",
+        "Sie sollte nur farbig sein"
+      ],
+      "correct": 1,
+      "explanation": "Eine OPL lehrt EINEN Punkt. Vier Themen auf einer Seite verwässern die Botschaft. Machen Sie lieber vier fokussierte OPL.",
+      "think": 17
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Alle haben die OPL vor zwei Wochen unterschrieben, aber derselbe Fehler ist zurück. Was sollte der Schichtleiter ZUERST tun?",
+      "options": [
+        "Alle noch einmal unterschreiben lassen",
+        "Die Arbeit beobachten und Standard, Methode und Lektion prüfen",
+        "Die Werker beschuldigen, die unterschrieben",
+        "Die OPL von der Linie nehmen"
+      ],
+      "correct": 1,
+      "explanation": "Unterschriften beweisen kein Lernen. Beobachten Sie: Wird die Methode befolgt, stimmt der Standard, ist die OPL klar? Dann beheben Sie die Ursache.",
+      "think": 16
+    }
+  ]
+}

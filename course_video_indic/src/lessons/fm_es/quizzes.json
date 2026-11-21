@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál es una causa útil para un FMEA?",
+      "options": [
+        "Descuido del operador",
+        "Dos tamaños de empaque comparten un contenedor en la estación",
+        "Entra agua al radio"
+      ],
+      "correct": 1,
+      "explanation": "Una causa útil es una condición específica que puedes controlar. El descuido es culpa, y el agua adentro es el efecto.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Después de agregar un sensor y una prueba de fugas, el equipo quiere bajar la severidad de 8 a 4. ¿Es correcto?",
+      "options": [
+        "Sí: el riesgo ahora es menor",
+        "No: la severidad cambia solo si cambia el efecto",
+        "Sí, si el RPN se queda abajo de 100"
+      ],
+      "correct": 1,
+      "explanation": "La severidad califica el efecto. El agua dentro de un radio es igual de mala que antes. Los controles nuevos bajan la ocurrencia y la detección, no la severidad.",
+      "think": 14
+    }
+  ]
+}

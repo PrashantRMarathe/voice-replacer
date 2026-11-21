@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un capteur empêche la mauvaise orientation du connecteur avant le montage de la pièce. Quel niveau d'inspection est-ce ?",
+      "options": [
+        "Inspection à la source",
+        "Autocontrôle",
+        "Inspection par le processus suivant"
+      ],
+      "correct": 0,
+      "explanation": "Il vérifie la condition qui créerait le défaut, avant qu'il n'arrive. C'est l'inspection à la source — le niveau le plus fort.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Le test trouve sans cesse le même connecteur mal enfiché venant de l'assemblage, alors un responsable ajoute un contrôleur après l'assemblage. Quelle est la meilleure option ?",
+      "options": [
+        "Ajouter un deuxième contrôleur par sécurité",
+        "Garder le contrôleur et corriger aussi la cause à l'assemblage",
+        "Supprimer tous les contrôles pour économiser",
+        "Demander au test d'arrêter de le signaler"
+      ],
+      "correct": 1,
+      "explanation": "Un contrôleur supplémentaire peut contenir le risque pour l'instant, mais un défaut répété veut dire qu'il faut corriger le processus à la source — puis le contrôle temporaire peut être retiré.",
+      "think": 17
+    }
+  ]
+}

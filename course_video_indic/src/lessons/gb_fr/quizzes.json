@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quelle phrase est un fait réel (Genjitsu) ?",
+      "options": [
+        "« L'équipe B est toujours négligente. »",
+        "« C'est le fournisseur qui l'a causé. »",
+        "« 18 des 24 défaillances viennent du lot B. »"
+      ],
+      "correct": 2,
+      "explanation": "Un fait a des comptages, un dénominateur et un périmètre vérifiable. Les autres sont des opinions, et l'accusation du fournisseur n'est pas prouvée.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Le tableau de bord montre une équipe avec deux fois plus de défauts. Le responsable veut la reformer. Que faire en premier ?",
+      "options": [
+        "La reformer aujourd'hui : les données sont claires",
+        "Aller au poste, tenir les unités défaillantes, et vérifier les faits",
+        "Échanger les opérateurs des deux équipes"
+      ],
+      "correct": 1,
+      "explanation": "Une différence entre équipes est un signal, pas une preuve. Allez voir : le lieu réel, la chose réelle et les faits réels, avant de décider d'une solution.",
+      "think": 16
+    }
+  ]
+}

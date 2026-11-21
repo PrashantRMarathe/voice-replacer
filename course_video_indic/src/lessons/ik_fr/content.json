@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est une arête de poisson",
+      "example": "Le problème de Nikhil : des switchs réseau qui échouent au test de liaison des ports.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Causes possibles",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Familles de causes",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Le problème",
+            "sub": "Dans la tête",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Un problème dans la tête",
+        "Les causes possibles sur les arêtes",
+        "Un outil de réflexion en équipe"
+      ],
+      "at": [
+        4.346,
+        7.69,
+        11.65
+      ],
+      "exampleAt": 19.944
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origines, et limites",
+      "example": "Acheter un nouveau testeur était une supposition. L'arête de poisson en ferait une supposition parmi d'autres.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Preuve",
+            "sub": "Ne vient pas de l'arête de poisson",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Causes possibles",
+            "sub": "Ce qu'elle montre",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kaoru Ishikawa, pionnier de la qualité",
+        "Un des sept outils de base de la qualité",
+        "Montre des causes possibles, ne prouve rien"
+      ],
+      "at": [
+        1.741,
+        6.614,
+        13.6
+      ],
+      "exampleAt": 20.79
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Anatomie du poisson",
+      "example": "Écrivez une cause comme « suspectée » tant qu'elle n'est pas prouvée.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tête",
+            "sub": "L'effet",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Grandes arêtes",
+            "sub": "Familles de causes",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Petites arêtes",
+            "sub": "Causes précises",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tête : l'effet",
+        "Colonne et grandes arêtes : familles de causes",
+        "Petites arêtes : causes précises"
+      ],
+      "at": [
+        2.8,
+        6.857,
+        14.611
+      ],
+      "exampleAt": 20.764
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Un effet précis",
+      "example": "« Les échecs de liaison des ports sur la ligne 3 de switchs sont passés de 5 à 32 pour 1 000 cette semaine. »",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "« La qualité est mauvaise »",
+            "sub": "Vague",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "5 → 32 pour 1 000",
+            "sub": "Ligne 3, liaison des ports, cette semaine",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Quoi, où, quand, combien",
+        "Une référence et un dénominateur",
+        "Un mode de défaut à la fois"
+      ],
+      "at": [
+        6.288,
+        10.049,
+        14.196
+      ],
+      "exampleAt": 17.921
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Les 6M : main-d'œuvre, machine, méthode",
+      "example": "Utilisez les familles comme des pistes, pas comme des cases rigides.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Main-d'œuvre",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Méthode",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Main-d'œuvre : compétence, charge, passation",
+        "Machine : usure, réglages, maintenance",
+        "Méthode : séquence, SOP, changement de série"
+      ],
+      "at": [
+        2.986,
+        10.267,
+        16.443
+      ],
+      "exampleAt": 28.951
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Matière, mesure, milieu",
+      "example": "La mesure est celle que les équipes oublient. Le testeur lui-même dit-il la vérité ?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Matière",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Mesure",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Milieu",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Matière : fournisseur, lot, manutention",
+        "Mesure : jauges, limites de test, faux rejets",
+        "Milieu : ESD, humidité, poussière, chaleur"
+      ],
+      "at": [
+        0.227,
+        6.75,
+        12.521
+      ],
+      "exampleAt": 18.576
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Rassembler les preuves d'abord",
+      "example": "Les échecs se concentraient sur deux des quatre postes de test.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Échecs de liaison des ports par poste de test",
+        "with": "example",
+        "items": [
+          {
+            "label": "T1",
+            "value": 14,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T2",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "T3",
+            "value": 12,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T4",
+            "value": 3,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Un Pareto des types de défauts",
+        "Séparer par équipe, lot, poste, testeur",
+        "Comparer bonnes et mauvaises unités"
+      ],
+      "at": [
+        3.612,
+        8.052,
+        12.279
+      ],
+      "exampleAt": 16.371
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Le construire : huit étapes",
+      "example": "L'équipe de Nikhil : production, qualité, test, maintenance et magasin.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Définir, équipe",
+            "with": 0
+          },
+          {
+            "label": "Dessiner, brainstormer",
+            "with": 1
+          },
+          {
+            "label": "Pourquoi ? Regrouper, classer",
+            "with": 2
+          },
+          {
+            "label": "Les responsables testent",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Définir l'effet, réunir l'équipe",
+        "Dessiner les arêtes, brainstormer, sans reproche",
+        "Demander pourquoi, regrouper, prioriser",
+        "Attribuer des responsables pour tester les causes"
+      ],
+      "at": [
+        2.711,
+        7.073,
+        14.748,
+        22.711
+      ],
+      "exampleAt": 26.527
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "L'arête de poisson de Nikhil",
+      "example": "Vingt-trois causes possibles en quarante minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Machine",
+            "sub": "Dérive de hauteur d'emmanchement",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Mesure",
+            "sub": "Câbles de test usés",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Matière",
+            "sub": "Nouveau lot de ports",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Méthode",
+            "sub": "Pas de contrôle d'engagement",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Main-d'œuvre",
+            "sub": "Équipe intérimaire",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Milieu",
+            "sub": "Enregistrements ESD",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "search",
+          "label": "causes possibles en 40 minutes",
+          "unit": "chacune reste une supposition",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Machine : dérive de la hauteur d'emmanchement",
+        "Mesure : câbles de test usés",
+        "Matière, méthode, main-d'œuvre, milieu"
+      ],
+      "at": [
+        7.076,
+        12.032,
+        16.861
+      ],
+      "exampleAt": 25.813
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Arête de poisson, puis cinq pourquoi",
+      "example": "Pourquoi des câbles usés ? Pas de limite de remplacement. Pourquoi ? Les câbles n'étaient pas dans le plan de maintenance.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Câbles usés",
+            "with": "example"
+          },
+          {
+            "label": "Jamais remplacés",
+            "with": "example"
+          },
+          {
+            "label": "Absents du plan de maintenance",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "L'arête de poisson va en largeur",
+        "Les cinq pourquoi vont en profondeur",
+        "Ne jamais s'arrêter à l'erreur de l'opérateur"
+      ],
+      "at": [
+        2.969,
+        7.439,
+        21.955
+      ],
+      "exampleAt": 11.872
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Le prouver : l'échelle des preuves",
+      "example": "Les votes ne comptent pas. Un seul bon essai n'est pas une preuve non plus.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT",
+        "bottom": "LE PLUS FAIBLE",
+        "items": [
+          {
+            "label": "Reproduire",
+            "icon": "check",
+            "with": 2
+          },
+          {
+            "label": "Expérimenter",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Tracer et mesurer",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Observer",
+            "icon": "search",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "L'observer au Gemba",
+        "Tracer et mesurer",
+        "Expérimenter, puis reproduire"
+      ],
+      "at": [
+        2.722,
+        5.633,
+        13.205
+      ],
+      "exampleAt": 22.244
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Deux causes, toutes deux réelles",
+      "example": "Retest avec des câbles neufs : 6 switchs « défaillants » sur 10 ont réussi. Les 4 autres avaient des ports trop peu enfoncés.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10 switchs défaillants retestés avec des câbles neufs : 6 ont réussi, 4 avaient des ports trop peu enfoncés",
+        "with": "example",
+        "items": [
+          {
+            "label": "Faux échecs",
+            "value": 6,
+            "with": "example"
+          },
+          {
+            "label": "Vrais échecs",
+            "value": 4,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Câbles usés : faux échecs",
+        "Dérive de hauteur : vrais échecs",
+        "Les causes peuvent coexister"
+      ],
+      "at": [
+        7.157,
+        16.236,
+        18.862
+      ],
+      "exampleAt": 0.231
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Des actions correctives fortes",
+      "example": "Compteur d'insertions sur le câble avec une limite de remplacement. Contrôle et verrouillage de la hauteur à chaque début d'équipe.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Compteur d'insertions sur le câble",
+            "icon": "count",
+            "with": "example"
+          },
+          {
+            "label": "Verrouillage de la hauteur d'emmanchement",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "SOP, PFMEA, plan de contrôle",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Supprimer la cause par conception avant de reformer",
+        "Verrous, interverrouillages, compteurs",
+        "Mettre à jour le SOP, le PFMEA, le plan de contrôle"
+      ],
+      "at": [
+        0.201,
+        6.195,
+        11.814
+      ],
+      "exampleAt": 18.088
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prouver que ça a marché",
+      "example": "Zéro faux échec dû à des câbles usés, sur 30 jours de production.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 32
+        },
+        "after": {
+          "label": "Après",
+          "value": 4
+        },
+        "unit": "échecs de liaison des ports pour 1 000 switchs",
+        "note": "Tenu pendant 30 jours de production",
+        "with": 2
+      },
+      "bullets": [
+        "Fixer la cible avant de commencer",
+        "Une fenêtre fixe et une taille d'échantillon",
+        "32 → 4 pour 1 000, tenu pendant 30 jours"
+      ],
+      "at": [
+        0.23,
+        5.051,
+        18.197
+      ],
+      "exampleAt": 23.022
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Erreurs et bonnes pratiques",
+      "example": "Gardez les causes rejetées sur le diagramme, avec la preuve qui les a écartées.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Effet vague",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Fonctions absentes",
+            "icon": "person",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Pas de validation",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Garder les causes rejetées",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Effets vagues et défauts mélangés",
+        "Des fonctions absentes de la salle",
+        "Pas de validation après la séance"
+      ],
+      "at": [
+        2.761,
+        6.442,
+        15.196
+      ],
+      "exampleAt": 20.04
+    }
+  ]
+}

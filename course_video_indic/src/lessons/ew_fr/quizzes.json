@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un produit passe 300 minutes dans l'usine, mais seulement 30 minutes le transforment. Quelle est l'efficacité du flux ?",
+      "options": [
+        "10%",
+        "30%",
+        "90%"
+      ],
+      "correct": 0,
+      "explanation": "Efficacité du flux = temps à valeur ajoutée ÷ délai total = 30 ÷ 300 = 10 %. Les 90 % restants, c'est attendre, déplacer, contrôler ou réparer.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Pour réduire le temps de cycle, une équipe propose de supprimer le test audio final. Que faut-il faire ?",
+      "options": [
+        "Le supprimer : les tests ne transforment pas le produit",
+        "Le garder sauf si une revue des risques l'approuve, et réduire les défauts qu'il attrape",
+        "Déplacer le test chez le client"
+      ],
+      "correct": 1,
+      "explanation": "Les contrôles qualité obligatoires ne sont pas un gaspillage à couper sur un coup de tête. Gardez le test sauf si une revue des risques approuve un changement, et attaquez les défauts qui sont derrière. Le déplacer chez le client ne fait que déplacer le gaspillage.",
+      "think": 13
+    }
+  ]
+}

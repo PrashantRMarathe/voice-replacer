@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un fixture no se libera hasta contar los seis tornillos. ¿Qué método de Poka Yoke es este?",
+      "options": [
+        "Método de contacto",
+        "Método de valor fijo",
+        "Método de paso de movimiento"
+      ],
+      "correct": 1,
+      "explanation": "Confirma la cantidad correcta, así que es el método de valor fijo. Contacto revisa forma o posición; paso de movimiento revisa la secuencia.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un nuevo sensor de empaque rechaza tantas unidades buenas que los operadores empiezan a hacerle bypass. ¿Qué debe hacer el equipo PRIMERO?",
+      "options": [
+        "Quitar el sensor",
+        "Sancionar a los operadores",
+        "Controlar el bypass y corregir los falsos rechazos con muestras verificadas",
+        "Agregar un letrero recordatorio"
+      ],
+      "correct": 2,
+      "explanation": "Los falsos rechazos invitan al bypass. Bloquea el bypass, luego mejora la posición, la iluminación o los umbrales con muestras buenas y malas conocidas, y da seguimiento a la tasa de falsos rechazos.",
+      "think": 15
+    }
+  ]
+}

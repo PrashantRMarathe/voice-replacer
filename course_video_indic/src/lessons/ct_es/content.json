@@ -1,0 +1,774 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es el tiempo de ciclo",
+      "example": "El reporte decía que la estación C tardaba 21 segundos. El cronómetro de Imran decía 28.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "De unidad a unidad",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Límite definido",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Condiciones declaradas",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "21 s",
+              "sub": "El reporte",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "28 s",
+              "sub": "El cronómetro de Imran",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Tiempo entre unidades terminadas",
+        "En un límite definido",
+        "Bajo condiciones declaradas"
+      ],
+      "at": [
+        4.499,
+        8.804,
+        10.772
+      ],
+      "exampleAt": 19.055
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Los límites importan",
+      "example": "Los 21 segundos venían de tiempos estándar viejos. Los 28 segundos eran el intervalo real de unidad a unidad.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Manual",
+            "sub": "Trabajo con las manos",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Máquina",
+            "sub": "Prueba, dosificado, curado",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Ciclo de estación",
+            "sub": "Intervalo real de repetición",
+            "icon": "clock",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tiempos estándar viejos",
+              "sub": "21 segundos",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "De unidad a unidad",
+              "sub": "28 segundos",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Tiempo manual: trabajo con las manos",
+        "Tiempo de máquina: prueba, dosificado, curado",
+        "Ciclo de estación: el intervalo real de repetición",
+        "Mismo límite, o no hay comparación"
+      ],
+      "at": [
+        3.073,
+        8.351,
+        13.337,
+        31.039
+      ],
+      "exampleAt": 21.855
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Tiempo de ciclo contra TAKT, tiempo de entrega, UPH",
+      "example": "La línea de Imran: TAKT de 24 segundos, así que necesita 150 monitores por hora.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tiempo de ciclo",
+            "sub": "Cada cuánto terminas",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Ritmo que pide la demanda",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Tiempo de entrega",
+            "sub": "De la orden al final",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "UPH",
+            "sub": "Unidades buenas por hora",
+            "icon": "count",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 150,
+          "icon": "count",
+          "label": "monitores por hora necesarios",
+          "unit": "TAKT de 24 segundos",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Tiempo de ciclo: cada cuánto terminas uno",
+        "TAKT: el ritmo que pide la demanda",
+        "Tiempo de entrega: de la orden al final, con esperas",
+        "UPH: unidades buenas por hora"
+      ],
+      "at": [
+        5.292,
+        9.52,
+        13.43,
+        23.83
+      ],
+      "exampleAt": 27.295
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Comparar con el TAKT",
+      "example": "La estación C con 28 segundos está 4 segundos arriba de un TAKT de 24 segundos.",
+      "visual": {
+        "type": "ladder",
+        "top": "FALTA CAPACIDAD",
+        "bottom": "MARGEN",
+        "items": [
+          {
+            "label": "Arriba del TAKT",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Igual al TAKT",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Abajo del TAKT",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 24,
+          "suffix": " s",
+          "with": "example",
+          "items": [
+            {
+              "label": "Estación C",
+              "value": 28,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Arriba del TAKT: falta capacidad",
+        "Igual al TAKT: sin margen",
+        "Abajo del TAKT: hay margen, no sobreproduzcas"
+      ],
+      "at": [
+        3.284,
+        11.286,
+        16.082
+      ],
+      "exampleAt": 22.279
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Preparar el estudio",
+      "example": "La meta de Imran: medir el intervalo de repetición de la estación C para revisar su capacidad contra el TAKT.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Propósito y estación",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Condiciones",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Solo ciclos normales",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Explicar al operador",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un propósito y una estación claros",
+        "Anota las condiciones",
+        "Solo ciclos normales, retrasos registrados",
+        "Explícaselo al operador"
+      ],
+      "at": [
+        3.403,
+        9.109,
+        16.942,
+        22.547
+      ],
+      "exampleAt": 29.529
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Dividir los elementos",
+      "example": "Estación C: cargar 4 s, escanear etiqueta 3 s, prueba de pantalla 13 s, etiqueta de serie 4 s, descargar 3 s, espera 1 s.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Elementos de la estación C: 28 s en total",
+        "with": "example",
+        "items": [
+          {
+            "label": "Cargar",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Escanear",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Prueba",
+            "value": 13,
+            "with": "example"
+          },
+          {
+            "label": "Etiqueta de serie",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Descargar",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Espera",
+            "value": 1,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Divide el trabajo en elementos visibles",
+        "Inicio y final claros para cada uno",
+        "La espera se registra aparte",
+        "Nunca recortes revisiones de calidad o seguridad"
+      ],
+      "at": [
+        0.238,
+        4.75,
+        11.229,
+        21.251
+      ],
+      "exampleAt": 25.759
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La hoja del cronómetro",
+      "example": "El ciclo más largo: 32 segundos, cuando el escaneo de la etiqueta falló dos veces.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Diez ciclos medidos en la estación C (segundos)",
+        "items": [
+          {
+            "label": "Más rápido",
+            "value": 26,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Promedio",
+            "value": 28,
+            "with": 1
+          },
+          {
+            "label": "Más lento",
+            "value": 32,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Mide ciclos repetidos, no uno",
+        "Promedio: 28 s. Rango: de 26 a 32 s",
+        "Registra cada ciclo anormal"
+      ],
+      "at": [
+        3.844,
+        8.855,
+        16.374
+      ],
+      "exampleAt": 21.598
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Calcular la capacidad",
+      "example": "La demanda pide 150 por hora. La estación C hace unos 129. Esa es la brecha.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Estación C",
+          "value": 129
+        },
+        "after": {
+          "label": "Demanda",
+          "value": 150
+        },
+        "unit": "monitores por hora",
+        "note": "3,600 ÷ 28 ≈ 129",
+        "with": 1
+      },
+      "bullets": [
+        "Producción por hora = 3,600 ÷ tiempo de ciclo",
+        "Estación C: unos 129 por hora",
+        "Estaciones necesarias = contenido de trabajo ÷ TAKT"
+      ],
+      "at": [
+        3.436,
+        9.322,
+        21.823
+      ],
+      "exampleAt": 15.338
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "La variación importa",
+      "example": "Estación C: 3 de 10 ciclos duraron 30 segundos o más.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Los promedios esconden",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Orden de tiempo",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Conserva los ciclos largos",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Dispersión, % arriba del TAKT",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3,
+          "suffix": " / 10",
+          "icon": "clock",
+          "label": "ciclos de 30 segundos o más",
+          "unit": "estación C",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Los promedios esconden ciclos largos",
+        "Grafica los ciclos en orden de tiempo",
+        "Nunca borres ciclos largos para verte bien",
+        "Reporta la dispersión y el % arriba del TAKT"
+      ],
+      "at": [
+        7.902,
+        12.717,
+        19.858,
+        26.402
+      ],
+      "exampleAt": 31.943
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Encontrar el cuello de botella",
+      "example": "Estaciones A 19 s, B 22 s, C 28 s, D 21 s. La estación C limita la línea.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 19,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 28,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La estación más lenta marca el ritmo",
+        "Busca filas antes, tiempo muerto después",
+        "Corrige primero la restricción"
+      ],
+      "at": [
+        3.616,
+        7.476,
+        25.081
+      ],
+      "exampleAt": 12.605
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "¿Por qué es lenta?",
+      "example": "Reintentos en el escaneo de etiquetas, y una etiqueta de serie puesta en la misma estación de prueba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Método",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Diseño",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Máquina",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Espera",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Etiquetas chuecas",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Reintentos de escaneo",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Etiqueta de serie dentro del ciclo",
+              "icon": "sticker",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ve a ver: la estación real",
+        "¿Método, diseño, máquina o espera?",
+        "Revisa reintentos, alarmas y horas"
+      ],
+      "at": [
+        0.207,
+        3.99,
+        15.491
+      ],
+      "exampleAt": 20.812
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Mejorar el método",
+      "example": "Una guía de etiquetas endereza cada etiqueta. El escáner lee a la primera.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminar",
+            "with": 0
+          },
+          {
+            "label": "Combinar",
+            "with": 0
+          },
+          {
+            "label": "Reordenar",
+            "with": 0
+          },
+          {
+            "label": "Simplificar",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Antes",
+              "sub": "Etiquetas chuecas, reintentos de escaneo",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Guía de etiquetas",
+              "sub": "Lee a la primera",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminar, combinar, reordenar, simplificar",
+        "Primero soluciones simples y baratas",
+        "Nunca te saltes pruebas para ahorrar tiempo"
+      ],
+      "at": [
+        4.813,
+        11.895,
+        19.298
+      ],
+      "exampleAt": 28.262
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Rebalancear la línea",
+      "example": "Etiqueta de serie pasada a la estación A: A 23 s, C 23 s. Ahora cada estación está abajo del TAKT.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 23,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 23,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pasa trabajo a estaciones con tiempo libre",
+        "Conserva secuencia, habilidades y revisiones",
+        "Sin nuevas caminatas ni riesgo ergonómico"
+      ],
+      "at": [
+        3.257,
+        8.138,
+        14.628
+      ],
+      "exampleAt": 20.182
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Compruébalo y luego estandariza",
+      "example": "Disparador: 3 ciclos seguidos arriba del TAKT significan que el líder de equipo revisa la estación.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Prueba: turnos, modelos",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Dispersión, FPY, producción",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Trabajo estándar, entrenamiento",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Disparador: 3 arriba del TAKT",
+            "icon": "warning",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Prueba en varios turnos y modelos",
+        "Compara dispersión, FPY y producción",
+        "Actualiza el trabajo estándar y entrena",
+        "Escala rápido cualquier desviación"
+      ],
+      "at": [
+        3.843,
+        7.3,
+        15.191,
+        19.364
+      ],
+      "exampleAt": 24.108
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Tu plan de 30 días",
+      "example": "La línea de Imran ahora hace 150 monitores por hora, con el mismo rendimiento a la primera.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Definir y medir la base",
+            "sub": "Semana 1",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Cuello de botella",
+            "sub": "Semana 2",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prueba",
+            "sub": "Semana 3",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Estandarizar",
+            "sub": "Semana 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Semana 1: define y mide la base",
+        "Semana 2: encuentra el cuello de botella",
+        "Semana 3: prueba una contramedida",
+        "Semana 4: verifica, estandariza, entrena"
+      ],
+      "at": [
+        6.007,
+        12.233,
+        16.931,
+        20.732
+      ],
+      "exampleAt": 26.442
+    }
+  ]
+}

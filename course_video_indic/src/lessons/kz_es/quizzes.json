@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál es el mejor planteamiento de problema para un Kaizen?",
+      "options": [
+        "“Necesitamos un brazo robótico en la línea de monitores”",
+        "“El tiempo de ciclo es de 38 s contra un TAKT de 35 s, con 2 volteos por unidad; llegar a 35 s en 4 semanas”",
+        "“Los operadores son muy lentos”"
+      ],
+      "correct": 1,
+      "explanation": "Un buen planteamiento tiene la brecha medida, la pérdida observada y una meta con fecha límite, sin nombrar una solución ni culpar a las personas.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Una prueba baja el tiempo de ciclo 4 segundos, pero los operadores reportan tensión en el hombro. ¿Y ahora qué?",
+      "options": [
+        "Estandarizarlo: la meta mejoró",
+        "Tratarlo como todavía no exitoso: adaptar el método y volver a probar",
+        "Rotar a los operadores cada hora y conservarlo"
+      ],
+      "correct": 1,
+      "explanation": "La regla del equilibrio: un Kaizen solo tiene éxito si la seguridad, la calidad y las personas no sufren. La tensión significa que el método necesita cambiar antes de volverse el estándar.",
+      "think": 15
+    }
+  ]
+}

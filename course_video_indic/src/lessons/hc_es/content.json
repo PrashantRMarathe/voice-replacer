@@ -1,0 +1,605 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es un Hancho",
+      "example": "Sunita: doce operadores, una línea de TV LED, los resultados de cada turno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Líder de equipo",
+            "sub": "班長",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Un sistema",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "En el Gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "En japonés: líder de equipo",
+        "Un sistema de liderazgo, no una herramienta",
+        "Dirige donde se crea el valor"
+      ],
+      "at": [
+        0.419,
+        5.469,
+        12.288
+      ],
+      "exampleAt": 21.297
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "La mentalidad del Hancho",
+      "example": "Sunita lleva estas preguntas en una tarjeta en su bolsillo.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "¿Estándar?",
+            "with": 0
+          },
+          {
+            "label": "¿Real?",
+            "with": 0
+          },
+          {
+            "label": "¿Brecha y causa?",
+            "with": 1
+          },
+          {
+            "label": "Actuar y prevenir",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "¿Cuál es el estándar? ¿Qué es lo real?",
+        "¿Dónde está la brecha, y por qué?",
+        "Actúa ya, y luego evita que se repita"
+      ],
+      "at": [
+        4.359,
+        9.087,
+        12.457
+      ],
+      "exampleAt": 24.493
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Por qué las líneas necesitan un Hancho",
+      "example": "El mes pasado: una brecha de 20 TV por hora, encontrada a la mañana siguiente.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Líder lejano",
+            "sub": "Brecha encontrada a la mañana siguiente",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hancho en la línea",
+            "sub": "Brecha encontrada en esta hora",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Las brechas pequeñas crecen cuando los líderes están lejos",
+        "Respuesta más rápida, responsabilidad clara",
+        "Kaizen diario, no solo proyectos"
+      ],
+      "at": [
+        0.239,
+        12.172,
+        22.098
+      ],
+      "exampleAt": 27.296
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "De qué es dueño un Hancho",
+      "example": "La regla de Sunita: resuélvelo, pide apoyo, o escala. Sabe cuál.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Seguridad",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Calidad",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "Entrega",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Costo",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Personas",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Proceso",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Seguridad y calidad",
+        "Entrega y costo",
+        "Las personas y el proceso"
+      ],
+      "at": [
+        3.409,
+        10.27,
+        19.878
+      ],
+      "exampleAt": 26.48
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Antes de que empiece el turno",
+      "example": "La junta de hoy: un cambio de modelo a la TV de 43 pulgadas a las 10 en punto.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Preparación",
+            "sub": "Personas, material, herramientas",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Junta",
+            "sub": "Meta, alertas, aprendizaje",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Revisiones de arranque",
+            "sub": "Primera pieza",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Revisión de preparación antes del turno",
+        "Una junta breve con el equipo",
+        "Revisiones de arranque y de primera pieza"
+      ],
+      "at": [
+        3.719,
+        13.533,
+        22.855
+      ],
+      "exampleAt": 27.284
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Durante y después del turno",
+      "example": "Nota de entrega: pendientes, WIP, estado de calidad, acciones y responsables.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Plan contra real",
+            "sub": "Cada hora",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Reaccionar, entrenar",
+            "sub": "Todo el turno",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Entrega de turno",
+            "sub": "Fin de turno",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan contra real cada hora",
+        "Reacciona a cada anormalidad",
+        "Entrena en el proceso",
+        "Una entrega de turno con hechos"
+      ],
+      "at": [
+        0.209,
+        8.873,
+        12.914,
+        18.149
+      ],
+      "exampleAt": 23.297
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Dirigir en el Gemba",
+      "example": "“¿Qué debería estar pasando? ¿Qué está pasando de verdad? ¿Qué cambió?”",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observar",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Hablar",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Preguntar, no ordenar",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Observa el proceso y el producto reales",
+        "Habla con el operador",
+        "Haz preguntas, no solo des respuestas"
+      ],
+      "at": [
+        3.419,
+        6.928,
+        13.526
+      ],
+      "exampleAt": 19.594
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Trabajo estándar del líder",
+      "example": "La lista de Sunita: inicio de turno, cada hora, cada cambio de modelo, fin de turno.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Inicio de turno: preparación",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Cada hora: plan contra real",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "Cambio de modelo: primera pieza",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Fin de turno: entrega",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Revisiones por frecuencia",
+        "Secuencia, tiempo de ciclo, puntos de calidad",
+        "El SOP más reciente en cada estación"
+      ],
+      "at": [
+        5.275,
+        9.54,
+        19.869
+      ],
+      "exampleAt": 25.048
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Gestión visual",
+      "example": "De 10 a 11 a.m.: plan 120 TV, real 98. Rojo.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10–11 a.m.: plan contra real",
+        "with": "example",
+        "items": [
+          {
+            "label": "Plan",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Real",
+            "value": 98,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan contra real, cada hora",
+        "Calidad, paros, acciones abiertas",
+        "Ver, reaccionar, registrar, dar seguimiento"
+      ],
+      "at": [
+        3.456,
+        6.867,
+        17.754
+      ],
+      "exampleAt": 26.345
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Respuesta a anormalidades",
+      "example": "Nivel 1: el equipo lo corrige. Nivel 2: pide apoyo. Nivel 3: escala a la gerencia.",
+      "visual": {
+        "type": "ladder",
+        "top": "NIVEL 3",
+        "bottom": "NIVEL 1",
+        "items": [
+          {
+            "label": "Riesgo de seguridad o para el cliente: escala ya",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Llama a las áreas de apoyo",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "El equipo restablece el estándar",
+            "icon": "hand",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Detecta, contén, llama",
+        "Corrige y confirma",
+        "Previene y comparte"
+      ],
+      "at": [
+        2.846,
+        9.1,
+        14.108
+      ],
+      "exampleAt": 18.06
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La hora roja de Sunita",
+      "example": "Empezó justo después del cambio de modelo de las 10 en punto.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "98 contra 120 por hora",
+            "icon": "chartDown",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "FPY 98.5% → 95.8%",
+            "icon": "test",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "WIP antes de la prueba",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Producción: 98 contra 120 por hora",
+        "Rendimiento a la primera: de 98.5% a 95.8%",
+        "Trabajo amontonado antes de la prueba"
+      ],
+      "at": [
+        2.241,
+        8.283,
+        12.62
+      ],
+      "exampleAt": 21.066
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Contener, luego ir a ver",
+      "example": "Estación 6: en el modelo nuevo, el cable del panel tomaba otra ruta, y los operadores lo doblaban a mano.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Retener las TV sospechosas",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Encontrar el cuello de botella",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Estación 6: cambió la ruta del cable",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Retén las TV sospechosas",
+        "Encuentra la estación cuello de botella",
+        "Compara el método con el estándar"
+      ],
+      "at": [
+        2.828,
+        10.324,
+        13.856
+      ],
+      "exampleAt": 18.03
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Llamar, corregir, confirmar",
+      "example": "Para la 1 p.m.: 120 TV por hora, rendimiento a la primera de 98.6%.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "11 a.m.",
+          "value": 98
+        },
+        "after": {
+          "label": "1 p.m.",
+          "value": 120
+        },
+        "unit": "TV por hora",
+        "note": "Rendimiento a la primera de vuelta en 98.6%",
+        "with": "example"
+      },
+      "bullets": [
+        "Nivel 2: llamar a ingeniería",
+        "Corregir el fixture, actualizar el SOP",
+        "Confirmar durante varios ciclos"
+      ],
+      "at": [
+        2.419,
+        8.461,
+        14.451
+      ],
+      "exampleAt": 19.416
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Desarrollar a las personas",
+      "example": "Sunita entrenó a dos operadores en la nueva ruta del cable antes del turno de noche.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Explicar",
+            "with": 0
+          },
+          {
+            "label": "Demostrar",
+            "with": 0
+          },
+          {
+            "label": "Practicar",
+            "with": 0
+          },
+          {
+            "label": "Verificar",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Explicar, mostrar, practicar, verificar",
+        "Certifica las habilidades críticas",
+        "Entrena en varios puestos para cubrir"
+      ],
+      "at": [
+        7.471,
+        12.67,
+        17.561
+      ],
+      "exampleAt": 26.818
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Medirlo, y luego empezar",
+      "example": "Semana 1 puestos · semana 2 tablero por hora · semana 3 habilidades · semana 4 auditoría y revisión.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Puestos, trabajo estándar del líder",
+            "sub": "Semana 1",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Tablero por hora",
+            "sub": "Semana 2",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Habilidades, entrenamiento",
+            "sub": "Semana 3",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Auditoría, revisión",
+            "sub": "Semana 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "KPI cada hora, cada día, cada semana",
+        "Audita para entrenar, no para culpar",
+        "Un plan de 30 días"
+      ],
+      "at": [
+        3.342,
+        14.81,
+        19.31
+      ],
+      "exampleAt": 19.31
+    }
+  ]
+}

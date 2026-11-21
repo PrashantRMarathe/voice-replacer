@@ -1,0 +1,774 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est le temps de cycle",
+      "example": "Le rapport disait que le poste C prenait 21 secondes. Le chronomètre d'Imran disait 28.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "D'une unité à l'autre",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Limite définie",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Conditions précisées",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "21 s",
+              "sub": "Le rapport",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "28 s",
+              "sub": "Le chronomètre d'Imran",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Le temps entre deux unités terminées",
+        "À une limite définie",
+        "Dans des conditions précisées"
+      ],
+      "at": [
+        4.357,
+        8.47,
+        10.544
+      ],
+      "exampleAt": 17.106
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Les limites comptent",
+      "example": "Les 21 secondes venaient de vieux temps standard. Les 28 secondes étaient le vrai intervalle d'une unité à l'autre.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Manuel",
+            "sub": "Le travail à la main",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Machine",
+            "sub": "Test, dépose, polymérisation",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Cycle du poste",
+            "sub": "Intervalle réel de répétition",
+            "icon": "clock",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Vieux temps standard",
+              "sub": "21 secondes",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "D'une unité à l'autre",
+              "sub": "28 secondes",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Temps manuel : le travail à la main",
+        "Temps machine : test, dépose, polymérisation",
+        "Cycle du poste : l'intervalle réel de répétition",
+        "Même limite, sinon pas de comparaison"
+      ],
+      "at": [
+        3.328,
+        7.958,
+        12.793,
+        29.793
+      ],
+      "exampleAt": 21.191
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Temps de cycle face au TAKT, délai, UPH",
+      "example": "La ligne d'Imran : TAKT de 24 secondes, il lui faut donc 150 moniteurs par heure.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Temps de cycle",
+            "sub": "À quelle fréquence vous terminez",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Rythme exigé par la demande",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Délai",
+            "sub": "De la commande à la fin",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "UPH",
+            "sub": "Bonnes unités par heure",
+            "icon": "count",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 150,
+          "icon": "count",
+          "label": "moniteurs par heure nécessaires",
+          "unit": "TAKT de 24 secondes",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Temps de cycle : à quelle fréquence vous en terminez un",
+        "TAKT : le rythme exigé par la demande",
+        "Délai : de la commande à la fin, attentes comprises",
+        "UPH : bonnes unités par heure"
+      ],
+      "at": [
+        4.946,
+        8.159,
+        11.663,
+        21.861
+      ],
+      "exampleAt": 25.192
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Comparer au TAKT",
+      "example": "Le poste C à 28 secondes est 4 secondes au-dessus d'un TAKT de 24 secondes.",
+      "visual": {
+        "type": "ladder",
+        "top": "MANQUE DE CAPACITÉ",
+        "bottom": "MARGE",
+        "items": [
+          {
+            "label": "Au-dessus du TAKT",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Égal au TAKT",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "En dessous du TAKT",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 24,
+          "suffix": " s",
+          "with": "example",
+          "items": [
+            {
+              "label": "Poste C",
+              "value": 28,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Au-dessus du TAKT : manque de capacité",
+        "Égal au TAKT : aucune marge",
+        "En dessous du TAKT : de la marge, ne surproduisez pas"
+      ],
+      "at": [
+        3.448,
+        10.811,
+        15.718
+      ],
+      "exampleAt": 22.071
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Préparer l'étude",
+      "example": "L'objectif d'Imran : mesurer l'intervalle de répétition du poste C pour vérifier sa capacité face au TAKT.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Objectif et poste",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Conditions",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Seulement les cycles normaux",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Expliquer à l'opérateur",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un objectif et un poste clairs",
+        "Notez les conditions",
+        "Seulement les cycles normaux, retards consignés",
+        "Expliquez-le à l'opérateur"
+      ],
+      "at": [
+        3.423,
+        9.05,
+        16.764,
+        22.17
+      ],
+      "exampleAt": 29.058
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Décomposer les éléments",
+      "example": "Poste C : charger 4 s, scanner l'étiquette 3 s, test d'écran 13 s, étiquette de série 4 s, décharger 3 s, attente 1 s.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Éléments du poste C : 28 s au total",
+        "with": "example",
+        "items": [
+          {
+            "label": "Charger",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Scanner",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Test",
+            "value": 13,
+            "with": "example"
+          },
+          {
+            "label": "Étiquette de série",
+            "value": 4,
+            "with": "example"
+          },
+          {
+            "label": "Décharger",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "Attente",
+            "value": 1,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Découpez le travail en éléments visibles",
+        "Un début et une fin clairs pour chacun",
+        "L'attente notée à part",
+        "Ne supprimez jamais les contrôles qualité ou sécurité"
+      ],
+      "at": [
+        0.0,
+        4.58,
+        9.985,
+        18.723
+      ],
+      "exampleAt": 23.484
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La feuille de chronométrage",
+      "example": "Le cycle le plus long : 32 secondes, quand le scan de l'étiquette a échoué deux fois.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Dix cycles chronométrés au poste C (secondes)",
+        "items": [
+          {
+            "label": "Le plus rapide",
+            "value": 26,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Moyenne",
+            "value": 28,
+            "with": 1
+          },
+          {
+            "label": "Le plus lent",
+            "value": 32,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Chronométrez des cycles répétés, pas un seul",
+        "Moyenne : 28 s. Plage : de 26 à 32 s",
+        "Notez chaque cycle anormal"
+      ],
+      "at": [
+        3.706,
+        9.689,
+        16.585
+      ],
+      "exampleAt": 21.719
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Calculer la capacité",
+      "example": "La demande exige 150 par heure. Le poste C en fait environ 129. Voilà l'écart.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Poste C",
+          "value": 129
+        },
+        "after": {
+          "label": "Demande",
+          "value": 150
+        },
+        "unit": "moniteurs par heure",
+        "note": "3,600 ÷ 28 ≈ 129",
+        "with": 1
+      },
+      "bullets": [
+        "Production horaire = 3 600 ÷ temps de cycle",
+        "Poste C : environ 129 par heure",
+        "Postes nécessaires = contenu de travail ÷ TAKT"
+      ],
+      "at": [
+        3.604,
+        9.631,
+        21.153
+      ],
+      "exampleAt": 15.139
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "La variation compte",
+      "example": "Poste C : 3 cycles sur 10 ont duré 30 secondes ou plus.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Les moyennes cachent",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Ordre chronologique",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Gardez les cycles longs",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Dispersion, % au-dessus du TAKT",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3,
+          "suffix": " / 10",
+          "icon": "clock",
+          "label": "cycles de 30 secondes ou plus",
+          "unit": "poste C",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Les moyennes cachent les cycles longs",
+        "Tracez les cycles dans l'ordre chronologique",
+        "Ne supprimez jamais les cycles longs pour faire joli",
+        "Indiquez la dispersion et le % au-dessus du TAKT"
+      ],
+      "at": [
+        7.307,
+        11.673,
+        18.993,
+        25.582
+      ],
+      "exampleAt": 31.285
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Trouver le goulot",
+      "example": "Postes A 19 s, B 22 s, C 28 s, D 21 s. Le poste C plafonne la ligne.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 19,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 28,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le poste le plus lent fixe le rythme",
+        "Cherchez une file avant, de l'attente après",
+        "Corrigez d'abord la contrainte"
+      ],
+      "at": [
+        2.883,
+        6.136,
+        22.981
+      ],
+      "exampleAt": 10.93
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Pourquoi est-il lent ?",
+      "example": "Des reprises de scan d'étiquette, et une étiquette de série posée au poste de test lui-même.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Méthode",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Conception",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Attente",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Étiquettes de travers",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Reprises de scan",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Étiquette de série pendant le cycle",
+              "icon": "sticker",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Allez voir : le poste réel",
+        "Méthode, conception, machine ou attente ?",
+        "Vérifiez reprises, alarmes et horodatages"
+      ],
+      "at": [
+        0.0,
+        4.717,
+        15.672
+      ],
+      "exampleAt": 21.447
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Améliorer la méthode",
+      "example": "Un guide d'étiquette redresse chaque étiquette. Le scanner lit du premier coup.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Éliminer",
+            "with": 0
+          },
+          {
+            "label": "Combiner",
+            "with": 0
+          },
+          {
+            "label": "Réordonner",
+            "with": 0
+          },
+          {
+            "label": "Simplifier",
+            "with": 0
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Avant",
+              "sub": "Étiquettes de travers, reprises de scan",
+              "icon": "barcode",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Guide d'étiquette",
+              "sub": "Lu du premier coup",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Éliminer, Combiner, Réordonner, Simplifier",
+        "D'abord des solutions simples et peu coûteuses",
+        "Ne sautez jamais de tests pour gagner du temps"
+      ],
+      "at": [
+        4.821,
+        11.522,
+        18.917
+      ],
+      "exampleAt": 27.73
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Rééquilibrer la ligne",
+      "example": "Étiquette de série déplacée au poste A : A 23 s, C 23 s. Chaque poste est maintenant sous le TAKT.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 24,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "A",
+            "value": 23,
+            "with": "example"
+          },
+          {
+            "label": "B",
+            "value": 22,
+            "with": "example"
+          },
+          {
+            "label": "C",
+            "value": 23,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "D",
+            "value": 21,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Déplacez du travail vers les postes qui ont du temps libre",
+        "Gardez séquence, compétences et contrôles",
+        "Pas de nouvelle marche ni de risque ergonomique"
+      ],
+      "at": [
+        3.377,
+        8.785,
+        14.696
+      ],
+      "exampleAt": 19.867
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Prouvez-le, puis standardisez",
+      "example": "Déclencheur : 3 cycles d'affilée au-dessus du TAKT, et le chef d'équipe vérifie le poste.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Essai : équipes, modèles",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Dispersion, FPY, production",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Travail standard, formation",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Déclencheur : 3 au-dessus du TAKT",
+            "icon": "warning",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Essai sur plusieurs équipes et modèles",
+        "Comparez dispersion, FPY et production",
+        "Mettez à jour le travail standard et formez",
+        "Escaladez vite toute dérive"
+      ],
+      "at": [
+        4.859,
+        8.182,
+        16.062,
+        19.889
+      ],
+      "exampleAt": 24.228
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Votre plan sur 30 jours",
+      "example": "La ligne d'Imran tient maintenant 150 moniteurs par heure, avec un rendement au premier passage inchangé.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Définir et mesurer la référence",
+            "sub": "Semaine 1",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Goulot",
+            "sub": "Semaine 2",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Essai",
+            "sub": "Semaine 3",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Standardiser",
+            "sub": "Semaine 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Semaine 1 : définir et mesurer la référence",
+        "Semaine 2 : trouver le goulot",
+        "Semaine 3 : essayer une contre-mesure",
+        "Semaine 4 : vérifier, standardiser, former"
+      ],
+      "at": [
+        5.587,
+        11.513,
+        15.23,
+        18.782
+      ],
+      "exampleAt": 24.275
+    }
+  ]
+}

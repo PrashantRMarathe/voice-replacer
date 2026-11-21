@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un gabarit ne se libère pas avant d'avoir compté les six vis. Quelle méthode de Poka Yoke est-ce ?",
+      "options": [
+        "Méthode par contact",
+        "Méthode à valeur fixe",
+        "Méthode par étapes"
+      ],
+      "correct": 1,
+      "explanation": "Il confirme le bon nombre, c'est donc la méthode à valeur fixe. Le contact vérifie la forme ou la position ; les étapes vérifient la séquence.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un nouveau capteur de joint rejette tant de bonnes unités que les opérateurs commencent à le contourner. Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Retirer le capteur",
+        "Sanctionner les opérateurs",
+        "Maîtriser le contournement et corriger les faux rejets avec des échantillons vérifiés",
+        "Ajouter un panneau de rappel"
+      ],
+      "correct": 2,
+      "explanation": "Les faux rejets incitent au contournement. Verrouillez le contournement, puis améliorez le positionnement, l'éclairage ou les seuils avec des échantillons bons et mauvais connus, et suivez le taux de faux rejets.",
+      "think": 15
+    }
+  ]
+}

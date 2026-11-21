@@ -1,0 +1,580 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Hingehen und schauen",
+      "example": "Manojs Regel: keine Entscheidung über Schicht B, bevor er einen defekten Ohrhörer in der Hand hatte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Echter Ort",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Echtes Ding",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Echte Fakten",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Gemba: der echte Ort",
+        "Genbutsu: das echte Ding",
+        "Genjitsu: die echten Fakten"
+      ],
+      "at": [
+        13.119,
+        17.724,
+        22.591
+      ],
+      "exampleAt": 25.961
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum Berichte nicht reichen",
+      "example": "Das Dashboard zeigte die Fehler von Schicht B. Es zeigte nicht, warum.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Dashboard",
+            "sub": "Zeigt Symptome",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Der echte Ort",
+            "sub": "Zeigt Ursachen",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Dashboards zeigen Symptome",
+        "Berichte verbergen den Zusammenhang",
+        "Fakten stoppen die Schuldzuweisung"
+      ],
+      "at": [
+        4.365,
+        8.698,
+        21.558
+      ],
+      "exampleAt": 27.258
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "3G auf einen Blick",
+      "example": "Linie 2 · Audiotest · linker Ohrhörer · 22 von 1.100 in Schicht B",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Wo?",
+            "sub": "Linie 2, Audiotest",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Was?",
+            "sub": "Linker Ohrhörer",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Was ist passiert?",
+            "sub": "22 von 1.100",
+            "icon": "count",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Wo ist es passiert?",
+        "Was genau war betroffen?",
+        "Was ist wirklich passiert?"
+      ],
+      "at": [
+        3.467,
+        10.703,
+        18.555
+      ],
+      "exampleAt": 26.212
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Gemba: der echte Ort",
+      "example": "Manojs Frage: Was ist beim Audiotest in Schicht B anders?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Klare Frage",
+            "with": 0
+          },
+          {
+            "label": "Verantwortlicher, PPE, ESD",
+            "with": 1
+          },
+          {
+            "label": "Ganze Zyklen beobachten",
+            "with": 2
+          },
+          {
+            "label": "Mit Standard vergleichen",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Eine klare Frage haben",
+        "Den Bereichsverantwortlichen informieren, PPE tragen",
+        "Mehrere ganze Zyklen beobachten",
+        "Mit dem Standard vergleichen"
+      ],
+      "at": [
+        0.273,
+        5.129,
+        14.324,
+        19.254
+      ],
+      "exampleAt": 30.672
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Gemba-Umgangsformen",
+      "example": "Manoj blieb eine ganze Stunde in Schicht B und fragte: „Was macht diese Arbeit schwer?“",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Überraschungsprüfung",
+            "sub": "Schuldige suchen",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Respektvoller Besuch",
+            "sub": "„Was macht das schwer?“",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Keine Überraschungsprüfung",
+        "Zuhören vor Vorschlägen",
+        "Nie nach einem Zyklus urteilen"
+      ],
+      "at": [
+        1.313,
+        6.436,
+        14.355
+      ],
+      "exampleAt": 19.663
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Genbutsu: das echte Ding",
+      "example": "Defekte linke Ohrhörer: matte, körnige Lötstelle am Lautsprecherdraht. Gute: glänzend und glatt.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Defekter Ohrhörer",
+            "sub": "Matte, körnige Lötstelle",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Guter Ohrhörer",
+            "sub": "Glänzende, glatte Lötstelle",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die defekte Einheit, das Teil, das Werkzeug",
+        "Modell, Charge, Zeit, Station notieren",
+        "Schlecht mit gut vergleichen"
+      ],
+      "at": [
+        3.628,
+        10.179,
+        21.187
+      ],
+      "exampleAt": 27.911
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Sicherheit zuerst",
+      "example": "Manoj bat den Techniker, den Lötkolben abkühlen zu lassen und zu sperren, bevor er ihn prüfte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Keine überbrückten Verriegelungen",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Zuerst sperren",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "ESD-Schutz",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nie eine Verriegelung überbrücken",
+        "Vor dem Öffnen sperren",
+        "ESD-Handhabung für Elektronik"
+      ],
+      "at": [
+        3.185,
+        11.907,
+        17.692
+      ],
+      "exampleAt": 24.686
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Genjitsu: die echten Fakten",
+      "example": "Schicht B: 22 von 1.100 (2,0 %). Schicht A: 9 von 1.050 (0,9 %).",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Fehler pro 1.000 Ohrhörer: ein Signal, kein Beweis",
+        "with": "example",
+        "items": [
+          {
+            "label": "Schicht A",
+            "value": 9,
+            "with": "example"
+          },
+          {
+            "label": "Schicht B",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fakten, keine Meinungen",
+        "Zählungen mit Nenner",
+        "Ein Signal ist kein Beweis"
+      ],
+      "at": [
+        0.222,
+        14.107,
+        29.747
+      ],
+      "exampleAt": 19.819
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Eine verbundene Untersuchung",
+      "example": "Manoj sperrte zuerst die verdächtigen Ohrhörer aus Schicht B.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definieren und eindämmen",
+            "with": 0
+          },
+          {
+            "label": "Ort",
+            "with": 1
+          },
+          {
+            "label": "Ding",
+            "with": 1
+          },
+          {
+            "label": "Fakten",
+            "with": 1
+          },
+          {
+            "label": "Ursachen testen",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst definieren und eindämmen",
+        "Ort, Ding, Fakten, zusammen",
+        "Ursachen testen, bevor Sie beheben"
+      ],
+      "at": [
+        9.206,
+        15.619,
+        21.821
+      ],
+      "exampleAt": 27.671
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Was der Ort zeigte",
+      "example": "Der Lötkolben von Schicht B hatte eine kleinere Spitze aus dem Ersatzteillager. Nicht die Standardspitze.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Spitze von Schicht B",
+            "sub": "Kleiner, aus dem Ersatzteillager",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Standardspitze",
+            "sub": "Schicht A",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Gleiche Menschen, gleiche Methode",
+        "Eine andere Lötspitze",
+        "Am Montagabend gewechselt"
+      ],
+      "at": [
+        3.925,
+        9.934,
+        17.159
+      ],
+      "exampleAt": 20.406
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Was die Fakten zeigten",
+      "example": "Versuch: Standardspitze 1 Fehler von 300. Kleinere Spitze: 7 von 300.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Kontrollierter Versuch: Fehler bei 300 Ohrhörern",
+        "with": "example",
+        "items": [
+          {
+            "label": "Standardspitze",
+            "value": 1,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Kleinere Spitze",
+            "value": 7,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fehler nach Station und Zeit",
+        "Begannen direkt nach dem Spitzenwechsel",
+        "Ein kontrollierter Versuch bestätigte es"
+      ],
+      "at": [
+        0.23,
+        5.769,
+        11.471
+      ],
+      "exampleAt": 18.113
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "3G liefert die Grundursache",
+      "example": "Grundursache: das Ersatzteillager führte die falsche Spitze, und der Standard nannte sie nicht.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Schwache Lötstellen",
+            "with": 0
+          },
+          {
+            "label": "Kleinere Spitze, zu wenig Wärme",
+            "with": 0
+          },
+          {
+            "label": "Falsche Spitze im Ersatzteillager",
+            "with": "example"
+          },
+          {
+            "label": "Spitzentyp nicht im Standard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Jedes Warum mit Belegen",
+        "Nie bei „Werkerfehler“ aufhören",
+        "Fragen, was den Fehler möglich machte"
+      ],
+      "at": [
+        7.883,
+        13.339,
+        17.951
+      ],
+      "exampleAt": 23.182
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Beheben und prüfen",
+      "example": "Schicht B: von 20 auf 8 pro 1.000, gleichauf mit Schicht A.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 20
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 8
+        },
+        "unit": "Fehler pro 1.000 Ohrhörer, Schicht B",
+        "note": "Gleichauf mit Schicht A, über 5 Schichten geprüft",
+        "with": "example"
+      },
+      "bullets": [
+        "Richtige Spitze, im Standard genannt",
+        "Spitzenprüfung zu jedem Schichtbeginn",
+        "Über fünf Schichten geprüft"
+      ],
+      "at": [
+        3.554,
+        9.628,
+        14.599
+      ],
+      "exampleAt": 20.485
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Der 30-Minuten-Gemba-Rundgang",
+      "example": "Manojs Frage an jedem Halt: „Was ist der Standard, und was passiert wirklich?“",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Sicherheit, Lücke, Zweck",
+            "sub": "0–5",
+            "icon": "shield",
+            "with": 0,
+            "span": 5
+          },
+          {
+            "label": "Beobachten",
+            "sub": "5–15",
+            "icon": "walk",
+            "with": 1,
+            "span": 10
+          },
+          {
+            "label": "Ding und Daten",
+            "sub": "15–22",
+            "icon": "search",
+            "with": 1,
+            "span": 7
+          },
+          {
+            "label": "Ursachen, Verantwortlicher",
+            "sub": "22–30",
+            "icon": "person",
+            "tone": "good",
+            "with": 2,
+            "span": 8
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst Zweck und Sicherheit",
+        "Beobachten, dann Ding und Daten prüfen",
+        "Eindämmung und Verantwortlichen vereinbaren"
+      ],
+      "at": [
+        5.822,
+        10.658,
+        22.43
+      ],
+      "exampleAt": 28.668
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fehler, die Sie vermeiden sollten",
+      "example": "Manoj verbringt jetzt die ersten 30 Minuten jeder Schicht am Gemba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Nur Dashboard",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Eine Probe",
+            "icon": "count",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Nach Schulung geschlossen",
+            "icon": "clipboard",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Vom Dashboard aus führen",
+        "Eine Probe für die Wahrheit halten",
+        "Nach einer Schulung abschließen"
+      ],
+      "at": [
+        3.618,
+        11.761,
+        20.76
+      ],
+      "exampleAt": 27.107
+    }
+  ]
+}

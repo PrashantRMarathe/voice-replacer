@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which is the best effect to put at the head of a fishbone?",
+      "options": [
+        "“Quality problems on the switch line”",
+        "“Port-link failures on Line 3 rose from 5 to 32 per 1,000 this week”",
+        "“The tester is bad”"
+      ],
+      "correct": 1,
+      "explanation": "A good head names one defect, the place, the period and the size, with a baseline. “The tester is bad” is already a cause.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "After brainstorming, the team votes “operator carelessness” as the top cause. What next?",
+      "options": [
+        "Retrain the operators: the team agreed",
+        "Ask what made the error possible, and test causes with evidence",
+        "Add a warning sign at the station"
+      ],
+      "correct": 1,
+      "explanation": "A vote isn't evidence, and carelessness isn't a controllable cause. Ask which process condition made the error possible, then prove it.",
+      "think": 14
+    }
+  ]
+}

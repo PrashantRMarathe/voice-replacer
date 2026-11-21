@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un brouillon d'OPL couvre l'insertion du connecteur, le couple de vissage, les contrôles d'étiquette et l'ESD sur une page. Quel est le problème ?",
+      "options": [
+        "Il faut plus de texte",
+        "Il y a trop de points — divisez-la en plusieurs OPL",
+        "Elle devrait être seulement en couleur"
+      ],
+      "correct": 1,
+      "explanation": "Une OPL enseigne UN point. Quatre sujets sur une page diluent le message — faites plutôt quatre OPL ciblées.",
+      "think": 16
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Tout le monde a signé l'OPL il y a deux semaines, mais le même défaut est revenu. Que doit faire le superviseur EN PREMIER ?",
+      "options": [
+        "Faire signer tout le monde à nouveau",
+        "Observer le travail et vérifier le standard, la méthode et la leçon",
+        "Blâmer les opérateurs qui ont signé",
+        "Retirer l'OPL de la ligne"
+      ],
+      "correct": 1,
+      "explanation": "Les signatures ne prouvent pas l'apprentissage. Allez observer : la méthode est-elle suivie, le standard est-il juste, l'OPL est-elle claire ? Puis corrigez la cause.",
+      "think": 14
+    }
+  ]
+}

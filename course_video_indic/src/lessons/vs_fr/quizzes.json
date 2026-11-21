@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un stock tampon contient 2 400 unités et la demande est de 1 200 par jour. Combien de jours de stock cela fait-il ?",
+      "options": [
+        "Une demi-journée",
+        "2 jours",
+        "1 200 jours"
+      ],
+      "correct": 1,
+      "explanation": "Jours de stock = unités en attente ÷ demande journalière = 2 400 ÷ 1 200 = 2 jours.",
+      "think": 15
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Rahul trouve 2 000 décodeurs en attente au test. Que doit faire l'équipe EN PREMIER ?",
+      "options": [
+        "Acheter tout de suite un autre testeur",
+        "Confirmer la cause : capacité, arrêts, firmware ou lancement en lots",
+        "Diviser le tampon par deux pour forcer le flux"
+      ],
+      "correct": 1,
+      "explanation": "Une carte montre où regarder, pas pourquoi. Confirmez d'abord le mécanisme ; acheter un testeur ou réduire le tampon à l'aveugle peut ne rien corriger, ou affamer la ligne.",
+      "think": 12
+    }
+  ]
+}

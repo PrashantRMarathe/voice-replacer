@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál de estos va en la dimensión de KPI / metas, y no en los objetivos de avance?",
+      "options": [
+        "Ser de clase mundial en calidad del producto",
+        "Subir el rendimiento a la primera a 99% este año",
+        "Encantar a cada cliente"
+      ],
+      "correct": 1,
+      "explanation": "Una meta es medible, con un número y una fecha. Los otros son objetivos de dirección, no medidas.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "La meta anual de entrega a tiempo de una planta no tiene ningún proyecto ligado. ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Marcar un vínculo fuerte con el proyecto más cercano",
+        "Encontrar o lanzar un proyecto que pueda mover la entrega — o replantear la meta",
+        "Dejarlo; el KPI mejorará solo"
+      ],
+      "correct": 1,
+      "explanation": "Una meta sin proyecto de apoyo es un hueco. Ciérralo con trabajo real, o revisa la meta; nunca llenes la casilla con un vínculo que no tenga mecanismo.",
+      "think": 13
+    }
+  ]
+}

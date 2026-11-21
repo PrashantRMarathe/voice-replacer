@@ -1,0 +1,605 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est un Hancho",
+      "example": "Sunita : douze opérateurs, une ligne de TV LED, les résultats de chaque équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Chef d'équipe",
+            "sub": "班長",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Un système",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Au Gemba",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "En japonais : chef d'équipe",
+        "Un système de leadership, pas un outil",
+        "Dirige là où la valeur est créée"
+      ],
+      "at": [
+        0.378,
+        5.436,
+        11.546
+      ],
+      "exampleAt": 19.573
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "L'état d'esprit du Hancho",
+      "example": "Sunita garde ces questions sur une carte dans sa poche.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Standard ?",
+            "with": 0
+          },
+          {
+            "label": "Réel ?",
+            "with": 0
+          },
+          {
+            "label": "Écart et cause ?",
+            "with": 1
+          },
+          {
+            "label": "Agir et prévenir",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Quel est le standard ? Quel est le réel ?",
+        "Où est l'écart, et pourquoi ?",
+        "Agir maintenant, puis empêcher que ça se répète"
+      ],
+      "at": [
+        3.931,
+        6.59,
+        9.632
+      ],
+      "exampleAt": 21.1
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Pourquoi les lignes ont besoin d'un Hancho",
+      "example": "Le mois dernier : un écart de 20 TV par heure, trouvé le lendemain matin.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Responsable éloigné",
+            "sub": "Écart trouvé le lendemain matin",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Hancho sur la ligne",
+            "sub": "Écart trouvé dans l'heure",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Les petits écarts grandissent quand les responsables sont loin",
+        "Réaction plus rapide, responsabilité claire",
+        "Kaizen quotidien, pas seulement des projets"
+      ],
+      "at": [
+        0.208,
+        11.737,
+        21.969
+      ],
+      "exampleAt": 26.8
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Ce dont un Hancho est responsable",
+      "example": "La règle de Sunita : le résoudre, appeler le support, ou escalader. Savoir lequel.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Sécurité",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Qualité",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "Livraison",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Coût",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Personnes",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Processus",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Sécurité et qualité",
+        "Livraison et coût",
+        "Les personnes et le processus"
+      ],
+      "at": [
+        3.594,
+        10.061,
+        18.893
+      ],
+      "exampleAt": 25.64
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Avant le début de l'équipe",
+      "example": "Le briefing du jour : un changement de modèle vers la TV de 43 pouces à 10 heures.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Préparation",
+            "sub": "Personnes, matières, outils",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Briefing",
+            "sub": "Cible, alertes, retours d'expérience",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Contrôles de démarrage",
+            "sub": "Première pièce",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Vérification de préparation avant l'équipe",
+        "Un court briefing d'équipe",
+        "Contrôles de démarrage et de première pièce"
+      ],
+      "at": [
+        4.094,
+        12.046,
+        20.876
+      ],
+      "exampleAt": 25.125
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Pendant et après l'équipe",
+      "example": "Note de passation : problèmes ouverts, WIP, état qualité, actions et responsables.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Plan face au réel",
+            "sub": "Chaque heure",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Réagir, accompagner",
+            "sub": "Toute l'équipe",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Passation",
+            "sub": "Fin d'équipe",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan face au réel chaque heure",
+        "Réagir à chaque anomalie",
+        "Accompagner au poste",
+        "Une passation factuelle"
+      ],
+      "at": [
+        0.0,
+        8.552,
+        12.379,
+        17.078
+      ],
+      "exampleAt": 22.748
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Diriger au Gemba",
+      "example": "« Que devrait-il se passer ? Que se passe-t-il vraiment ? Qu'est-ce qui a changé ? »",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observer",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Parler",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Demander, ne pas ordonner",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Observer le processus et le produit réels",
+        "Parler avec l'opérateur",
+        "Poser des questions, pas seulement donner des réponses"
+      ],
+      "at": [
+        2.926,
+        6.757,
+        13.78
+      ],
+      "exampleAt": 18.747
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Travail standard du responsable",
+      "example": "La liste de Sunita : début d'équipe, chaque heure, chaque changement de modèle, fin d'équipe.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Début d'équipe : préparation",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Chaque heure : plan face au réel",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "Changement de modèle : première pièce",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Fin d'équipe : passation",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Des contrôles par fréquence",
+        "Séquence, temps de cycle, points qualité",
+        "Le dernier SOP à chaque poste"
+      ],
+      "at": [
+        6.055,
+        9.679,
+        19.439
+      ],
+      "exampleAt": 23.666
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Management visuel",
+      "example": "10 h à 11 h : plan 120 TV, réel 98. Rouge.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10 h – 11 h : plan face au réel",
+        "with": "example",
+        "items": [
+          {
+            "label": "Plan",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Réel",
+            "value": 98,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan face au réel, chaque heure",
+        "Qualité, arrêts, actions ouvertes",
+        "Voir, réagir, enregistrer, suivre"
+      ],
+      "at": [
+        3.306,
+        6.507,
+        17.442
+      ],
+      "exampleAt": 25.776
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Réaction aux anomalies",
+      "example": "Niveau 1 : l'équipe le corrige. Niveau 2 : appeler le support. Niveau 3 : escalader à la direction.",
+      "visual": {
+        "type": "ladder",
+        "top": "NIVEAU 3",
+        "bottom": "NIVEAU 1",
+        "items": [
+          {
+            "label": "Risque sécurité ou client : escaladez tout de suite",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Appelez les fonctions support",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "L'équipe rétablit le standard",
+            "icon": "hand",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Détecter, confiner, appeler",
+        "Corriger et confirmer",
+        "Prévenir et partager"
+      ],
+      "at": [
+        2.856,
+        8.822,
+        14.177
+      ],
+      "exampleAt": 18.041
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "L'heure rouge de Sunita",
+      "example": "Cela a commencé juste après le changement de modèle de 10 heures.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "98 contre 120 par heure",
+            "icon": "chartDown",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "FPY 98.5% → 95.8%",
+            "icon": "test",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "WIP avant le test",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Production : 98 contre 120 par heure",
+        "Rendement au premier passage : de 98,5 % à 95,8 %",
+        "Le travail s'accumule avant le test"
+      ],
+      "at": [
+        2.4,
+        8.018,
+        12.195
+      ],
+      "exampleAt": 19.262
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Confiner, puis aller voir",
+      "example": "Poste 6 : sur le nouveau modèle, le câble de dalle prenait un autre chemin, et les opérateurs le pliaient à la main.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Bloquer les TV suspectes",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Trouver le goulot",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Poste 6 : chemin du câble modifié",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Bloquer les TV suspectes",
+        "Trouver le poste goulot",
+        "Comparer la méthode au standard"
+      ],
+      "at": [
+        2.828,
+        10.534,
+        13.631
+      ],
+      "exampleAt": 17.521
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Appeler, corriger, confirmer",
+      "example": "À 1 h de l'après-midi : 120 TV par heure, rendement au premier passage de 98,6 %.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "11 h",
+          "value": 98
+        },
+        "after": {
+          "label": "1 h de l'après-midi",
+          "value": 120
+        },
+        "unit": "TV par heure",
+        "note": "Rendement au premier passage revenu à 98,6 %",
+        "with": "example"
+      },
+      "bullets": [
+        "Niveau 2 : appeler l'ingénierie",
+        "Corriger le gabarit, mettre à jour le SOP",
+        "Confirmer sur plusieurs cycles"
+      ],
+      "at": [
+        2.247,
+        8.693,
+        14.803
+      ],
+      "exampleAt": 19.433
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Faire grandir les personnes",
+      "example": "Sunita a formé deux opérateurs au nouveau cheminement du câble avant l'équipe de nuit.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Expliquer",
+            "with": 0
+          },
+          {
+            "label": "Démontrer",
+            "with": 0
+          },
+          {
+            "label": "Pratiquer",
+            "with": 0
+          },
+          {
+            "label": "Vérifier",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Expliquer, montrer, pratiquer, vérifier",
+        "Certifier les compétences critiques",
+        "Former en polyvalence pour se remplacer"
+      ],
+      "at": [
+        7.671,
+        12.708,
+        17.402
+      ],
+      "exampleAt": 27.063
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Le mesurer, puis démarrer",
+      "example": "Semaine 1 rôles · semaine 2 tableau horaire · semaine 3 compétences · semaine 4 audit et revue.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Rôles, travail standard du responsable",
+            "sub": "Semaine 1",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Tableau horaire",
+            "sub": "Semaine 2",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Compétences, accompagnement",
+            "sub": "Semaine 3",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Audit, revue",
+            "sub": "Semaine 4",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "KPI chaque heure, chaque jour, chaque semaine",
+        "Auditer pour accompagner, pas pour blâmer",
+        "Un plan sur 30 jours"
+      ],
+      "at": [
+        3.362,
+        13.223,
+        18.086
+      ],
+      "exampleAt": 18.086
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Le temps de cycle d'un poste est de 30 secondes. Quelle est sa production théorique par heure ?",
+      "options": [
+        "90 unités",
+        "120 unités",
+        "180 unités"
+      ],
+      "correct": 1,
+      "explanation": "Production horaire = 3 600 ÷ temps de cycle = 3 600 ÷ 30 = 120 unités par heure, avant toute perte.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Après un changement, le temps de cycle d'un poste passe de 28 à 22 secondes, mais le rendement au premier passage baisse. Et maintenant ?",
+      "options": [
+        "Le standardiser : le poste est plus rapide",
+        "Suspendre le changement et trouver pourquoi la qualité a baissé",
+        "Ajouter un contrôleur final pour attraper les défauts"
+      ],
+      "correct": 1,
+      "explanation": "Un cycle plus rapide qui fait plus de défauts n'est pas une amélioration. Suspendez le changement, trouvez pourquoi le rendement a baissé, et ne standardisez qu'une fois la qualité revenue.",
+      "think": 15
+    }
+  ]
+}

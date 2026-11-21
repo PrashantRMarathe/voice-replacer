@@ -1,0 +1,683 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est vraiment le gaspillage",
+      "example": "La ligne de Deepak : 1 500 barres de son retouchées chaque mois.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Aucune valeur pour le client",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Pas des coupes ponctuelles",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Supprimer la cause",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1500,
+          "icon": "wave",
+          "label": "barres de son retouchées chaque mois",
+          "unit": "La ligne de Deepak",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Consomme des ressources, n'apporte aucune valeur au client",
+        "Pas une réduction de coûts ponctuelle",
+        "Supprimer la cause, empêcher le retour"
+      ],
+      "at": [
+        2.863,
+        11.749,
+        17.885
+      ],
+      "exampleAt": 22.098
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Le test de la valeur",
+      "example": "Monter le haut-parleur : valeur. Le remonter après un bruit parasite : pur gaspillage.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Transforme le produit",
+            "with": 0
+          },
+          {
+            "label": "Le client paierait",
+            "with": 1
+          },
+          {
+            "label": "Bon du premier coup",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Remonter après un bruit parasite",
+              "sub": "Pur gaspillage",
+              "icon": "wrench",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Monter le haut-parleur",
+              "sub": "Valeur",
+              "icon": "wave",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Il transforme le produit",
+        "Le client paierait pour cela",
+        "Bien fait, du premier coup",
+        "Sinon : nécessaire, ou pur gaspillage"
+      ],
+      "at": [
+        8.177,
+        10.625,
+        13.933,
+        16.711
+      ],
+      "exampleAt": 22.552
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Pourquoi c'est important",
+      "example": "L'objectif de Deepak : libérer de la capacité pour un nouveau modèle, sans ajouter d'équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Flux plus rapide",
+            "icon": "chartDown",
+            "with": 0
+          },
+          {
+            "label": "Moins de défauts",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Capacité libérée",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Idées des équipes",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Flux plus rapide, délai plus court",
+        "Moins de défauts et de retouches",
+        "Capacité libérée, sans nouvelle dépense",
+        "Les idées de ceux qui font le travail"
+      ],
+      "at": [
+        7.246,
+        9.968,
+        14.134,
+        22.448
+      ],
+      "exampleAt": 24.146
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Trois garde-fous",
+      "example": "Le test audio final reste. Il protège le client.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Garder les contrôles sécurité et qualité",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Ne pas reporter le gaspillage",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Les personnes ne sont pas du gaspillage",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Les contrôles sécurité et qualité ne sont pas du gaspillage",
+        "Ne reportez pas le gaspillage sur les autres",
+        "Les personnes ne sont jamais le gaspillage"
+      ],
+      "at": [
+        3.91,
+        10.818,
+        19.838
+      ],
+      "exampleAt": 26.166
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Les huit gaspillages",
+      "example": "Retenez-les sous le nom TIMWOODS.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Transport",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Stocks",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Mouvements",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Attente",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Surproduction",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Surtraitement",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Défauts",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Compétences inutilisées",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport, stocks, mouvements, attente",
+        "Surproduction, surtraitement",
+        "Défauts, compétences inutilisées"
+      ],
+      "at": [
+        6.606,
+        10.715,
+        17.305
+      ],
+      "exampleAt": 20.402
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "La tournée des gaspillages",
+      "example": "Fait : « Quatre opérateurs ont attendu 12 minutes des grilles manquantes. » Opinion : « Le magasin est toujours en retard. »",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Production normale",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Des faits, pas de reproche",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Où · combien de temps · à quelle fréquence",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "« Le magasin est toujours en retard »",
+              "sub": "Opinion",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "« 4 ont attendu 12 min des grilles »",
+              "sub": "Fait",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Allez au Gemba pendant le travail normal",
+        "Notez des faits, n'accusez jamais",
+        "Où, quoi, combien de temps, à quelle fréquence"
+      ],
+      "at": [
+        2.845,
+        7.736,
+        11.646
+      ],
+      "exampleAt": 20.838
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Ce que Deepak a trouvé",
+      "example": "Les retouches étaient le plus gros : 1 500 barres de son qui grésillent par mois.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kits en retard",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Prendre les outils",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Double scan",
+            "icon": "barcode",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Barres de son qui grésillent",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Attendre des kits en retard",
+        "Tendre le bras et marcher pour les outils",
+        "Un double scan de code-barres",
+        "Retouches : barres de son qui grésillent"
+      ],
+      "at": [
+        4.171,
+        8.187,
+        13.129,
+        17.487
+      ],
+      "exampleAt": 17.487
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Mesurer le flux",
+      "example": "Une barre de son passe 4 heures dans l'usine. Seulement 18 minutes la transforment.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Délai",
+          "value": 240
+        },
+        "after": {
+          "label": "Valeur ajoutée",
+          "value": 18
+        },
+        "unit": "minutes par barre de son",
+        "note": "Efficacité du flux 7,5 %",
+        "with": 1
+      },
+      "bullets": [
+        "Efficacité du flux = temps de valeur ÷ délai",
+        "18 min de valeur sur 240 min",
+        "Seulement 7,5 % du temps ajoute de la valeur"
+      ],
+      "at": [
+        2.347,
+        12.303,
+        16.966
+      ],
+      "exampleAt": 8.123
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Trouver la cause racine",
+      "example": "Cause racine : pas de cheminement fixe pour le fil du haut-parleur, qui touchait donc la membrane.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Les barres de son grésillent",
+            "with": 1
+          },
+          {
+            "label": "Le fil touche la membrane",
+            "with": 1
+          },
+          {
+            "label": "Pas de cheminement fixe du fil",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pareto : choisir la plus grosse perte",
+        "Demander pourquoi, avec des preuves",
+        "Corriger la cause, pas le symptôme"
+      ],
+      "at": [
+        0.0,
+        7.965,
+        26.864
+      ],
+      "exampleAt": 17.316
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Contre-mesures : ECRS",
+      "example": "Un clip de guidage du fil, des chariots de kits en ligne, un scan au lieu de deux.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Éliminer",
+            "with": 0
+          },
+          {
+            "label": "Combiner",
+            "with": 1
+          },
+          {
+            "label": "Réordonner",
+            "with": 2
+          },
+          {
+            "label": "Simplifier",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Clip de guidage du fil",
+              "icon": "shape",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Chariots de kits chaque heure",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Un scan, pas deux",
+              "icon": "barcode",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Éliminer l'inutile",
+        "Combiner tâches ou contrôles",
+        "Réordonner la séquence ou l'implantation",
+        "Simplifier ce qui reste"
+      ],
+      "at": [
+        2.473,
+        5.434,
+        8.95,
+        12.275
+      ],
+      "exampleAt": 16.041
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Le coût des défauts",
+      "example": "Retouche : ₹42 par barre de son, 1 500 par mois.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Internes",
+            "sub": "Rebut, retouche, retest",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Externes",
+            "sub": "Retours, garantie",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Cachés",
+            "sub": "Manutention, attente, papiers",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 42,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "par retouche",
+          "unit": "1 500 retouches par mois",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Internes : rebut, retouche, retest",
+        "Externes : retours, garantie, transport",
+        "Chaque réparation cache plus de gaspillage"
+      ],
+      "at": [
+        3.599,
+        10.272,
+        17.274
+      ],
+      "exampleAt": 30.385
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Les résultats",
+      "example": "Mêmes personnes, même équipe. De la place pour le nouveau modèle.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 1500
+        },
+        "after": {
+          "label": "Après",
+          "value": 300
+        },
+        "unit": "barres de son retouchées par mois",
+        "note": "FPY 99 % · prise d'outils 22 s → 13 s",
+        "with": 0
+      },
+      "bullets": [
+        "Retouches : de 1 500 à 300 par mois",
+        "Rendement au premier passage jusqu'à 99 %",
+        "Prendre les outils : de 22 s à 13 s"
+      ],
+      "at": [
+        3.499,
+        8.092,
+        15.426
+      ],
+      "exampleAt": 19.882
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Prouver l'argent",
+      "example": "1 200 retouches de moins × ₹42 × 12 mois ≈ ₹6 lakh. Moins ₹1,2 lakh pour la solution : ≈ ₹4,8 lakh net.",
+      "visual": {
+        "type": "stat",
+        "value": 4.8,
+        "decimals": 1,
+        "prefix": "₹",
+        "suffix": " lakh",
+        "icon": "chartUp",
+        "label": "bénéfice net, première année",
+        "unit": "₹6 lakh évités − ₹1,2 lakh pour la solution",
+        "with": "example"
+      },
+      "bullets": [
+        "Économies = coût évité − coût de la solution",
+        "Séparez économies dures et capacité",
+        "La finance confirme les chiffres"
+      ],
+      "at": [
+        0.233,
+        24.323,
+        28.504
+      ],
+      "exampleAt": 5.092
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Faire durer",
+      "example": "L'audit de Deepak au jour 30 : une équipe avait arrêté d'utiliser le clip. Corrigé le jour même.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Standard mis à jour",
+            "sub": "Jour 0",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Audit",
+            "sub": "Jour 7",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Dérive repérée",
+            "sub": "Jour 30",
+            "icon": "warning",
+            "with": "example"
+          },
+          {
+            "label": "Audit",
+            "sub": "Jour 90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour le SOP, l'implantation, la formation",
+        "Tableau quotidien : cible, réel, écart, action",
+        "Audit à 7, 30 et 90 jours"
+      ],
+      "at": [
+        3.851,
+        8.389,
+        14.879
+      ],
+      "exampleAt": 20.326
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Votre plan sur 30 jours",
+      "example": "Puis partagez-le : d'autres lignes copient ce qui a marché, après avoir vérifié que ça convient.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Parcourir et cartographier",
+            "sub": "Jours 1–7",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Cause et pilote",
+            "sub": "Jours 8–18",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Prouver et maintenir",
+            "sub": "Jours 19–30",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Jours 1–7 : choisir un produit, parcourir, cartographier",
+        "Jours 8–18 : Pareto, cause racine, pilote",
+        "Jours 19–30 : mesurer, standardiser, auditer"
+      ],
+      "at": [
+        4.243,
+        11.331,
+        18.525
+      ],
+      "exampleAt": 25.295
+    }
+  ]
+}

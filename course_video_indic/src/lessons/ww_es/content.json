@@ -1,0 +1,872 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Why-Why",
+      "example": "La falla de carga es el síntoma: el asentado del conector, un daño en la tarjeta, el contacto del fixture o el ajuste del probador podrían causarla.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "¿Por qué?",
+            "sub": "Respaldado por un hecho",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "¿Por qué otra vez?",
+            "sub": "Cinco no es una regla",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Una causa que puedes comprobar y controlar",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Asentado del conector",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Daño en la tarjeta",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Contacto del fixture",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Ajuste del probador",
+              "icon": "test",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Pregunta por qué, una y otra vez, con hechos",
+        "Cinco no es una regla",
+        "Detente en una causa que puedas comprobar y controlar"
+      ],
+      "at": [
+        2.685,
+        12.939,
+        15.577
+      ],
+      "exampleAt": 20.198
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Why-Why y el análisis de causa raíz",
+      "example": "Tornillos faltantes en una línea de audio: 'el operador olvidó' no bastaba — el equipo revisó el alimentador y la secuencia.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Why-Why",
+            "sub": "Una herramienta entre muchas",
+            "icon": "search",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Lugar real, producto real",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Evidencia para cada porqué",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Las personas son una pista",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "El operador olvidó",
+              "sub": "No basta",
+              "icon": "person",
+              "with": "example"
+            },
+            {
+              "label": "Revisa el alimentador y la secuencia",
+              "sub": "Hechos",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Una herramienta dentro del análisis de causa raíz",
+        "Ve al lugar real, mira el producto real",
+        "¿Qué evidencia respalda este porqué?",
+        "La acción humana es una pista, no la respuesta"
+      ],
+      "at": [
+        0.272,
+        15.021,
+        19.975,
+        23.506
+      ],
+      "exampleAt": 28.612
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Paso 1: definir con 5W2H",
+      "example": "Línea 2: 21 de 700 teléfonos (3%) fallaron la carga después del cambio de fixture de las 11; el turno anterior estaba abajo de 0.5%.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Planteamiento del problema · Línea 2",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Qué: falla de carga en la prueba final",
+            "icon": "power",
+            "with": 1
+          },
+          {
+            "label": "Cuándo: después del cambio de fixture de las 11",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Cuántos: 21 de 700 teléfonos (3%)",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Último estado bueno: abajo de 0.5%",
+            "icon": "check",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Un planteamiento preciso del problema",
+        "5W2H: qué, dónde, cuándo, cómo se encontró, cuántos",
+        "Incluye el último estado bueno conocido"
+      ],
+      "at": [
+        0.208,
+        7.483,
+        15.664
+      ],
+      "exampleAt": 22.102
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Paso 2: primero contener",
+      "example": "Separar el 100% protege al cliente — no prueba que eliminaste la causa.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Protege al cliente",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Encuentra el último punto bueno",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Retén el inventario: piso y sistema",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Cuadra cada unidad",
+            "icon": "count",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Protege primero a tu cliente",
+        "Encuentra el último punto bueno conocido",
+        "Retén el inventario físicamente y en el sistema",
+        "Cuadra cada unidad"
+      ],
+      "at": [
+        1.5,
+        8.086,
+        14.788,
+        19.58
+      ],
+      "exampleAt": 34.432
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Paso 3: hechos en el Gemba",
+      "example": "Neha fotografió y etiquetó cada teléfono con falla por número de serie, y luego sacó los registros del probador y de mantenimiento.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Con falla contra buenas conocidas",
+            "icon": "scale",
+            "with": 0
+          },
+          {
+            "label": "Ajustes, versiones, lotes",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Conserva la evidencia",
+            "icon": "camera",
+            "with": 2
+          },
+          {
+            "label": "Vi · fuente · significado",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Compara unidades con falla contra buenas conocidas",
+        "Revisa ajustes, fixtures, versiones, lotes",
+        "Conserva la evidencia antes de ajustar",
+        "Vi · fuente · podría significar"
+      ],
+      "at": [
+        4.724,
+        9.177,
+        16.677,
+        30.062
+      ],
+      "exampleAt": 20.697
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Paso 4: armar la cadena",
+      "example": "Etiqueta de caja equivocada → trabajo de impresión viejo → el software lo permitió → la impresora no estaba ligada al producto escaneado.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Empieza por el evento",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Cada flecha: una afirmación para revisar",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Hechos, no etiquetas",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Etiqueta de caja equivocada",
+              "icon": "label",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Trabajo de impresión viejo",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "El software lo permitió",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "La impresora no estaba ligada al escaneo",
+              "icon": "barcode",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Empieza por el evento observado",
+        "Cada flecha es una afirmación que puedes revisar",
+        "Hechos, no 'descuido'",
+        "Ramifica cuando las causas se combinan"
+      ],
+      "at": [
+        0.0,
+        9.388,
+        17.866,
+        35.915
+      ],
+      "exampleAt": 25.063
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Ocurrencia, fuga y sistema",
+      "example": "El fixture permite un asentado parcial de la batería (ocurrencia); la prueba final no vio el contacto intermitente (fuga).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ocurrencia",
+            "sub": "Cómo se hizo",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Fuga",
+            "sub": "Por qué nadie lo atrapó",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Sistema",
+            "sub": "Por qué los controles no lo vieron",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "El fixture permite un asentado parcial",
+              "sub": "Ocurrencia",
+              "icon": "pin",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "La prueba final no ve el contacto intermitente",
+              "sub": "Fuga",
+              "icon": "test",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Una solución para cada una",
+              "icon": "check",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ocurrencia: cómo se hizo el defecto",
+        "Fuga: por qué nadie lo atrapó",
+        "Sistema: por qué los controles no vieron el riesgo",
+        "Cada una necesita su propia solución"
+      ],
+      "at": [
+        4.63,
+        8.7,
+        12.559,
+        32.359
+      ],
+      "exampleAt": 18.309
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Espina de pescado y Pareto",
+      "example": "Los dos tipos de defecto principales de Neha sumaban el 65% del total — ahí se enfocó primero.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Espina de pescado: 6 grupos",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Pareto: ordenar por conteo",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Riesgos de seguridad raros",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Suposiciones, no prueba",
+            "icon": "search",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Los dos principales = 65% de los defectos",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tipo 1",
+              "value": 40,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Tipo 2",
+              "value": 25,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Tipo 3",
+              "value": 15,
+              "with": "example"
+            },
+            {
+              "label": "Tipo 4",
+              "value": 12,
+              "with": "example"
+            },
+            {
+              "label": "Otros",
+              "value": 8,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Espina de pescado: 6 grupos de causas",
+        "Pareto: ordena por frecuencia",
+        "Los riesgos de seguridad raros todavía importan",
+        "Una espina de pescado son suposiciones, no prueba"
+      ],
+      "at": [
+        4.432,
+        12.501,
+        25.191,
+        31.717
+      ],
+      "exampleAt": 17.448
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Comprobar la causa",
+      "example": "Pines de fixture buenos contra gastados, con las mismas piezas: las fallas siguieron a los pines gastados.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Predice el cambio",
+            "with": 0
+          },
+          {
+            "label": "Fija los demás factores",
+            "with": 1
+          },
+          {
+            "label": "Prueba lo bueno y lo malo",
+            "with": 2
+          },
+          {
+            "label": "En varios turnos",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Pines gastados",
+              "sub": "Las fallas los siguieron",
+              "icon": "pin",
+              "with": "example"
+            },
+            {
+              "label": "Pines buenos",
+              "sub": "Las mismas piezas pasaron",
+              "icon": "check",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Predice qué debería cambiar",
+        "Mantén fijos los demás factores",
+        "Prueba lo bueno y lo malo, en varios turnos"
+      ],
+      "at": [
+        5.076,
+        10.251,
+        16.081
+      ],
+      "exampleAt": 20.377
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Acción correctiva y Poka Yoke",
+      "example": "Etiquetas de audio equivocadas: la impresora ahora necesita primero un escaneo de serie que coincida. Volver a entrenar depende de la memoria.",
+      "visual": {
+        "type": "ladder",
+        "top": "LO MÁS FUERTE",
+        "bottom": "LO MÁS DÉBIL",
+        "items": [
+          {
+            "label": "Fixture con guía, interbloqueo",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Sensor de presencia",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Revisión independiente de la fuga",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Volver a entrenar, recordatorios",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Corrige la causa, no el síntoma",
+        "La prevención de ingeniería le gana a los recordatorios",
+        "Corrige la ocurrencia + una revisión independiente de la fuga",
+        "Actualiza el FMEA, el SOP, el entrenamiento"
+      ],
+      "at": [
+        0.206,
+        4.035,
+        14.466,
+        19.821
+      ],
+      "exampleAt": 25.04
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Verificar y cerrar",
+      "example": "La regla de cierre de Neha: cero repeticiones en 10 días de producción, pruebas de reto aprobadas, cada unidad sospechosa ubicada.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Buena conocida",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Mala conocida",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muestras en el límite",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Repetición y rendimiento",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "doc",
+          "with": "example",
+          "items": [
+            {
+              "label": "Regla de cierre · Línea 2",
+              "icon": "label",
+              "with": "example"
+            },
+            {
+              "label": "Cero repeticiones en 10 días de producción",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Pruebas de reto aprobadas",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Cada unidad sospechosa ubicada",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "Calidad la firma",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Terminado ≠ comprobado",
+        "Reto: muestras buenas, malas, en el límite",
+        "Vigila la repetición y el rendimiento",
+        "Sin paros nuevos ni rechazos falsos"
+      ],
+      "at": [
+        0.206,
+        4.328,
+        10.31,
+        16.89
+      ],
+      "exampleAt": 21.455
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI de Why-Why",
+      "example": "50 → 15 defectos = una baja de 70%. Costo de ₹1.2 lakh, ₹30,000 ahorrados al mes = recuperación en 4 meses.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Rapidez y resultados",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Adelantado: contención rápida",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Atrasado: defectos, repeticiones",
+            "icon": "chartDown",
+            "with": 2
+          },
+          {
+            "label": "Definiciones estables",
+            "icon": "scale",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 50
+          },
+          "after": {
+            "label": "Después",
+            "value": 15
+          },
+          "unit": "defectos de carga, mismo volumen",
+          "note": "Una baja de 70% · recuperación en 4 meses",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Mide la rapidez y los resultados",
+        "Adelantados: contención rápida, acciones verificadas",
+        "Atrasados: tasa de defectos, repetición",
+        "Mantén estables las definiciones"
+      ],
+      "at": [
+        0.201,
+        3.286,
+        9.005,
+        13.989
+      ],
+      "exampleAt": 19.653
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Caso práctico: falla de carga",
+      "example": "Los teléfonos con falla volvieron a fallar en un segundo probador: los teléfonos sí estaban mal.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "¿Teléfono o probador?",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Segundo probador: siguió fallando",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Pin del fixture de ensamble gastado, sin intervalo de cambio",
+            "icon": "pin",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Pines nuevos, límites de vida, revisión de ajuste",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "¿Teléfono o probador? Pruébalo primero",
+        "Se volvieron a probar en un segundo probador: siguieron fallando",
+        "Pin gastado en el fixture de ensamble",
+        "Solución: pines nuevos, límites de vida, revisión de ajuste"
+      ],
+      "at": [
+        2.978,
+        6.7,
+        18.03,
+        31.072
+      ],
+      "exampleAt": 11.249
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Decodificador y audio",
+      "example": "Control remoto faltante: el kit no lo incluyó, y luego la caja se cerró sin escanear el control.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Decodificador",
+            "sub": "HDMI, firmware, probador",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Equipo de audio",
+            "sub": "Kit, secuencia, escaneos",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "El kit no incluyó el control",
+              "icon": "tray",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "La caja se cerró sin escanear el control",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Extiende la solución comprobada",
+              "icon": "sequence",
+              "tone": "good",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Productos distintos, evidencia distinta",
+        "Decodificador: soldadura HDMI, firmware, probador",
+        "Audio: rastrear el kit, la secuencia de empaque, los escaneos",
+        "Extiende las soluciones comprobadas a líneas parecidas"
+      ],
+      "at": [
+        0.22,
+        4.147,
+        17.009,
+        30.919
+      ],
+      "exampleAt": 24.496
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Implementación en 90 días",
+      "example": "Audita que haya muestras reales y eslabones verificados — no formatos bonitos.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Disparadores, puestos, plantillas",
+            "sub": "Días 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Investigar, probar hipótesis",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Retar, actualizar, extender",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Línea piloto + unos facilitadores",
+        "Días 1–30: disparadores, puestos, plantillas",
+        "Días 31–60: investigar, probar hipótesis",
+        "Días 61–90: retar, actualizar, extender"
+      ],
+      "at": [
+        3.68,
+        9.774,
+        15.507,
+        20.932
+      ],
+      "exampleAt": 28.461
+    }
+  ]
+}

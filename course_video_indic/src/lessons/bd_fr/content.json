@@ -1,0 +1,653 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce que montre le graphique",
+      "example": "Le graphique de Sneha : un tableau blanc à côté de la ligne, visible par chaque équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Travail restant",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Temps disponible",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Descend à zéro",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Travail restant face au temps disponible",
+        "Verticalement : travail restant. Horizontalement : temps",
+        "La ligne descend vers zéro"
+      ],
+      "at": [
+        4.048,
+        8.304,
+        16.612
+      ],
+      "exampleAt": 23.3
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Pourquoi le Lean l'utilise",
+      "example": "Le mois dernier : seulement une échéance. L'écart est apparu le vendredi après-midi.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Seulement une échéance",
+            "sub": "Écart trouvé le vendredi",
+            "icon": "calendar",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Un graphique de travail restant",
+            "sub": "Écart vu tant qu'il est petit",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Une cible devient un chemin visible",
+        "Voir un écart tant qu'il est petit",
+        "Se concentrer sur la contrainte"
+      ],
+      "at": [
+        0.75,
+        12.529,
+        16.716
+      ],
+      "exampleAt": 21.234
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "À quoi il sert",
+      "example": "L'objectif : chaque unité prévue atteint zéro à l'échéance.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Visible par tous",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Réel face au rythme",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Alerte précoce",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Des faits, pas des impressions",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Travail restant visible par tous",
+        "Avancement réel face au rythme nécessaire",
+        "Détecter les retards tôt",
+        "Rattrapage appuyé sur des faits"
+      ],
+      "at": [
+        3.645,
+        7.807,
+        12.065,
+        17.891
+      ],
+      "exampleAt": 21.065
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Les cinq éléments",
+      "example": "Sneha suit les routeurs qui restent à terminer, jour après jour.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Travail restant",
+            "sub": "Axe vertical",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Temps",
+            "sub": "Axe horizontal",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Ligne idéale",
+            "icon": "chartDown",
+            "with": 1
+          },
+          {
+            "label": "Ligne réelle",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Écart",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Axes : travail restant, temps",
+        "Ligne idéale : le rythme nécessaire",
+        "Ligne réelle : ce qui s'est vraiment passé",
+        "Écart : réel moins idéal"
+      ],
+      "at": [
+        2.947,
+        13.413,
+        16.832,
+        20.15
+      ],
+      "exampleAt": 22.936
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Le défi de Sneha",
+      "example": "Jour 0 : rien de terminé, 1 000 routeurs restants.",
+      "visual": {
+        "type": "stat",
+        "value": 1000,
+        "icon": "box",
+        "label": "routeurs en cours de fabrication",
+        "unit": "5 jours ouvrés avant le camion",
+        "with": 0
+      },
+      "bullets": [
+        "1 000 routeurs en cours de fabrication",
+        "5 jours ouvrés avant le camion",
+        "Restant = prévu − terminé"
+      ],
+      "at": [
+        3.322,
+        12.629,
+        18.347
+      ],
+      "exampleAt": 24.457
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Le rythme idéal",
+      "example": "Ligne idéale : 1 000 → 800 → 600 → 400 → 200 → 0",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Ligne idéale : 200 routeurs de moins chaque jour",
+        "with": "example",
+        "items": [
+          {
+            "label": "Jour 0",
+            "value": 1000,
+            "with": "example"
+          },
+          {
+            "label": "Jour 1",
+            "value": 800,
+            "with": "example"
+          },
+          {
+            "label": "Jour 2",
+            "value": 600,
+            "with": "example"
+          },
+          {
+            "label": "Jour 3",
+            "value": 400,
+            "with": "example"
+          },
+          {
+            "label": "Jour 4",
+            "value": 200,
+            "with": "example"
+          },
+          {
+            "label": "Jour 5",
+            "value": 0,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Rythme = travail total ÷ périodes",
+        "1 000 ÷ 5 = 200 par jour",
+        "Tracez-la d'abord, ne la redessinez jamais"
+      ],
+      "at": [
+        1.391,
+        9.562,
+        18.536
+      ],
+      "exampleAt": 11.651
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Jour deux : trouver l'écart",
+      "example": "Repéré le mardi, pas le vendredi.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Routeurs restants, fin du jour 2 : 80 de retard sur le plan",
+        "items": [
+          {
+            "label": "Idéal",
+            "value": 600,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Réel",
+            "value": 680,
+            "tone": "bad",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Terminés : 320",
+        "Restants : 680. Idéal : 600",
+        "Écart : 80 de retard sur le plan",
+        "Trois jours pour rattraper, sans toucher à la qualité"
+      ],
+      "at": [
+        4.307,
+        7.721,
+        14.27,
+        21.607
+      ],
+      "exampleAt": 27.557
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Lire les lignes",
+      "example": "La ligne de Sneha est au-dessus de l'idéal. Qu'est-ce qui empêche les routeurs d'être terminés ?",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Au-dessus de l'idéal",
+            "sub": "En retard : trouvez la contrainte",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "En dessous de l'idéal",
+            "sub": "En avance : confirmez la qualité",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Au-dessus de l'idéal : en retard. Trouvez la contrainte",
+        "En dessous de l'idéal : en avance. Confirmez la qualité",
+        "En avance avec de mauvaises unités, ce n'est pas être en avance"
+      ],
+      "at": [
+        3.139,
+        11.391,
+        19.685
+      ],
+      "exampleAt": 24.377
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Lignes plates et arrivée à zéro",
+      "example": "Mercredi : la ligne de Sneha est restée plate pendant toute une équipe.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Ligne plate",
+            "sub": "Rien de clos",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Arrêt ? Responsable ? Données ?",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "À zéro : vérifier, clôturer",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ligne plate : rien n'est clos",
+        "Vérifiez arrêt, responsable, données",
+        "À zéro : vérifiez, puis clôturez"
+      ],
+      "at": [
+        2.68,
+        12.945,
+        19.129
+      ],
+      "exampleAt": 28.381
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "La revue quotidienne",
+      "example": "Sneha mène la revue en 10 minutes, au début de chaque équipe.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Mettre à jour",
+            "with": 0
+          },
+          {
+            "label": "Comparer",
+            "with": 0
+          },
+          {
+            "label": "Expliquer",
+            "with": 1
+          },
+          {
+            "label": "Agir",
+            "with": 2
+          },
+          {
+            "label": "Confirmer",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour et comparer",
+        "Expliquer la cause principale",
+        "Agir : un responsable et une heure limite",
+        "Confirmer à la mise à jour suivante"
+      ],
+      "at": [
+        9.268,
+        17.644,
+        21.419,
+        25.35
+      ],
+      "exampleAt": 30.243
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Le rattrapage de Sneha",
+      "example": "Vendredi : zéro routeur restant, quelques heures avant le camion.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Testeur RF en panne",
+            "icon": "test",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Deuxième testeur en service",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Un responsable du graphique",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 0,
+          "icon": "check",
+          "label": "routeurs restants le vendredi",
+          "unit": "quelques heures avant le camion",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Contrainte : un testeur RF en panne",
+        "Deuxième testeur, personnel prioritaire",
+        "Un seul responsable met à jour le graphique"
+      ],
+      "at": [
+        4.149,
+        19.312,
+        25.936
+      ],
+      "exampleAt": 30.592
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Où l'utiliser",
+      "example": "L'équipe qualité de Sneha ramène maintenant les défauts ouverts à zéro avant l'expédition.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "En-cours",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Rattrapage d'un manque",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Défauts critiques",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Maintenance, Kaizen",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un début clair, une fin claire, une échéance",
+        "Production : en-cours, rattrapage",
+        "Qualité : défauts critiques à zéro",
+        "Actions de maintenance et de Kaizen"
+      ],
+      "at": [
+        3.995,
+        9.85,
+        16.619,
+        20.43
+      ],
+      "exampleAt": 26.338
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Des données honnêtes",
+      "example": "Routeurs en attente de retest : pas comptés comme terminés.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Une unité, départ figé",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "« Terminé » défini",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Seulement la bonne production",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "En attente de retest",
+              "sub": "Pas terminé",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Réussi et emballé",
+              "sub": "Compte",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Une unité, une quantité de départ figée",
+        "Définir « terminé » avant de commencer",
+        "Ne compter que la bonne production"
+      ],
+      "at": [
+        3.788,
+        12.951,
+        17.578
+      ],
+      "exampleAt": 20.603
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Erreurs fréquentes",
+      "example": "Sneha note les changements de périmètre approuvés dans un encadré séparé à côté de son graphique.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Quantité de départ modifiée",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Mises à jour tardives",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Partiel ou rejeté",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Pas d'actions",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Changer la quantité de départ",
+        "Mises à jour tardives ou irrégulières",
+        "Compter des unités partielles ou rejetées",
+        "Un graphique sans actions"
+      ],
+      "at": [
+        3.183,
+        7.188,
+        12.026,
+        18.351
+      ],
+      "exampleAt": 21.356
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Forces, limites et check-list",
+      "example": "Sneha affiche cette check-list à côté de chaque nouveau graphique.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Définir le travail et « terminé »",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Confirmer la quantité de départ et la date",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Rythme idéal, un responsable",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Mettre à jour, agir, clôturer seulement à zéro",
+            "icon": "check",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Simple, rapide, une alerte précoce",
+        "Ne trouve pas la cause racine à lui seul",
+        "Définir, confirmer, calculer, nommer un responsable",
+        "Mettre à jour, agir, clôturer seulement à zéro"
+      ],
+      "at": [
+        1.754,
+        8.267,
+        15.059,
+        27.865
+      ],
+      "exampleAt": 32.783
+    }
+  ]
+}

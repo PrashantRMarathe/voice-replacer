@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Die Zykluszeit einer Station beträgt 30 Sekunden. Wie hoch ist ihre theoretische Leistung pro Stunde?",
+      "options": [
+        "90 Einheiten",
+        "120 Einheiten",
+        "180 Einheiten"
+      ],
+      "correct": 1,
+      "explanation": "Stundenleistung = 3.600 ÷ Zykluszeit = 3.600 ÷ 30 = 120 Einheiten pro Stunde, vor allen Verlusten.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Nach einer Änderung sinkt die Zykluszeit einer Station von 28 auf 22 Sekunden, aber die Erstdurchlaufquote fällt. Was nun?",
+      "options": [
+        "Standardisieren: die Station ist schneller",
+        "Die Änderung stoppen und klären, warum die Qualität sank",
+        "Einen Endprüfer ergänzen, der die Fehler abfängt"
+      ],
+      "correct": 1,
+      "explanation": "Ein schnellerer Zyklus mit mehr Fehlern ist keine Verbesserung. Stoppen Sie die Änderung, klären Sie, warum die Quote sank, und standardisieren Sie erst, wenn die Qualität hält.",
+      "think": 18
+    }
+  ]
+}

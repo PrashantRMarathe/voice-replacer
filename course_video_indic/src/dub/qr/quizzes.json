@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "1,900 of 2,000 suspect units have been found and screened. Is containment complete?",
+      "options": [
+        "Yes — 95% is good enough",
+        "No — 100 suspect units are still unaccounted for",
+        "Yes, if the fix is installed"
+      ],
+      "correct": 1,
+      "explanation": "Containment coverage of 95% means 5% of the suspect population is still out there. Containment is complete only when every unit is accounted for.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Focus failures jump at test right after a fixture changeover. The tester is reset and passes. What should happen FIRST?",
+      "options": [
+        "Keep running — the tester passed",
+        "Isolate units since the last good setup and record the evidence",
+        "Change the fixture back and say nothing",
+        "Wait for the end-of-day meeting"
+      ],
+      "correct": 1,
+      "explanation": "Protect the customer first: hold everything since the last verified setup, keep samples and records, then investigate. Resetting the tester hides the abnormality.",
+      "think": 16
+    }
+  ]
+}

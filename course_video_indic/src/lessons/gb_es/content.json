@@ -1,0 +1,580 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ir a ver",
+      "example": "La regla de Manoj: ninguna decisión sobre el turno B hasta tener en la mano un audífono con falla.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gemba",
+            "sub": "Lugar real",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Genbutsu",
+            "sub": "Cosa real",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "Genjitsu",
+            "sub": "Hechos reales",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Gemba: el lugar real",
+        "Genbutsu: la cosa real",
+        "Genjitsu: los hechos reales"
+      ],
+      "at": [
+        10.707,
+        15.139,
+        19.815
+      ],
+      "exampleAt": 23.308
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué los reportes no bastan",
+      "example": "El tablero mostraba las fallas del turno B. No mostraba por qué.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Tablero",
+            "sub": "Muestra síntomas",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "El lugar real",
+            "sub": "Muestra causas",
+            "icon": "walk",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Los tableros muestran síntomas",
+        "Los reportes esconden el contexto",
+        "Los hechos detienen la culpa"
+      ],
+      "at": [
+        3.987,
+        7.838,
+        19.585
+      ],
+      "exampleAt": 25.041
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Las 3G en una vista",
+      "example": "Línea 2 · prueba de audio · audífono izquierdo · 22 de 1,100 en el turno B",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "¿Dónde?",
+            "sub": "Línea 2, prueba de audio",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "¿Qué?",
+            "sub": "Audífono izquierdo",
+            "icon": "wave",
+            "with": 1
+          },
+          {
+            "label": "¿Qué ocurrió?",
+            "sub": "22 de 1,100",
+            "icon": "count",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "¿Dónde pasó?",
+        "¿Qué se afectó exactamente?",
+        "¿Qué ocurrió de verdad?"
+      ],
+      "at": [
+        3.289,
+        9.749,
+        17.479
+      ],
+      "exampleAt": 24.472
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Gemba: el lugar real",
+      "example": "La pregunta de Manoj: ¿qué es distinto en la prueba de audio del turno B?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Pregunta clara",
+            "with": 0
+          },
+          {
+            "label": "Dueño, PPE, ESD",
+            "with": 1
+          },
+          {
+            "label": "Observa ciclos completos",
+            "with": 2
+          },
+          {
+            "label": "Compara con el estándar",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ten una pregunta clara",
+        "Avisa al dueño del área, usa el PPE",
+        "Observa varios ciclos completos",
+        "Compara con el estándar"
+      ],
+      "at": [
+        0.0,
+        4.667,
+        10.927,
+        15.07
+      ],
+      "exampleAt": 24.25
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Modales en el Gemba",
+      "example": "Manoj se quedó una hora completa del turno B, y preguntó: “¿Qué hace difícil este trabajo?”",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Inspección sorpresa",
+            "sub": "Buscar culpables",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Visita respetuosa",
+            "sub": "“¿Qué hace esto difícil?”",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "No es una inspección sorpresa",
+        "Escucha antes de sugerir",
+        "Nunca juzgues por un solo ciclo"
+      ],
+      "at": [
+        1.06,
+        5.844,
+        11.875
+      ],
+      "exampleAt": 16.714
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Genbutsu: la cosa real",
+      "example": "Audífonos izquierdos con falla: soldadura opaca y granulosa en el cable de la bocina. Los buenos: brillante y lisa.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Audífono con falla",
+            "sub": "Unión opaca y granulosa",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Audífono bueno",
+            "sub": "Unión brillante y lisa",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La unidad con falla, la pieza, la herramienta",
+        "Anota modelo, lote, hora, estación",
+        "Compara lo malo con lo bueno"
+      ],
+      "at": [
+        2.909,
+        8.985,
+        17.555
+      ],
+      "exampleAt": 23.087
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La seguridad va primero",
+      "example": "Manoj le pidió al técnico enfriar y bloquear el cautín antes de revisarlo.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ningún interbloqueo brincado",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Primero el bloqueo",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Protección ESD",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nunca brinques un interbloqueo",
+        "Bloqueo antes de abrir un equipo",
+        "Manejo ESD para electrónica"
+      ],
+      "at": [
+        3.287,
+        9.828,
+        14.509
+      ],
+      "exampleAt": 21.116
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Genjitsu: los hechos reales",
+      "example": "Turno B: 22 de 1,100 (2.0%). Turno A: 9 de 1,050 (0.9%).",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Fallas por cada 1,000 audífonos: una señal, no una prueba",
+        "with": "example",
+        "items": [
+          {
+            "label": "Turno A",
+            "value": 9,
+            "with": "example"
+          },
+          {
+            "label": "Turno B",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Hechos, no opiniones",
+        "Conteos con un denominador",
+        "Una señal no es una prueba"
+      ],
+      "at": [
+        0.209,
+        11.669,
+        24.384
+      ],
+      "exampleAt": 16.876
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Una investigación conectada",
+      "example": "Manoj retuvo los audífonos sospechosos del turno B antes que nada.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definir y contener",
+            "with": 0
+          },
+          {
+            "label": "Lugar",
+            "with": 1
+          },
+          {
+            "label": "Cosa",
+            "with": 1
+          },
+          {
+            "label": "Hechos",
+            "with": 1
+          },
+          {
+            "label": "Probar causas",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Primero define y contén",
+        "Lugar, cosa, hechos, juntos",
+        "Prueba las causas antes de corregir"
+      ],
+      "at": [
+        8.31,
+        13.334,
+        18.769
+      ],
+      "exampleAt": 24.346
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Lo que mostró el lugar",
+      "example": "El cautín del turno B tenía una punta más chica del almacén de refacciones. No la estándar.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Punta del turno B",
+            "sub": "Más chica, del almacén de refacciones",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Punta estándar",
+            "sub": "Turno A",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Misma gente, mismo método",
+        "Una punta de cautín distinta",
+        "Cambiada el lunes en la noche"
+      ],
+      "at": [
+        4.067,
+        9.797,
+        16.146
+      ],
+      "exampleAt": 18.765
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Lo que mostraron los hechos",
+      "example": "Prueba: punta estándar 1 falla de 300. Punta más chica: 7 de 300.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Prueba controlada: fallas en 300 audífonos",
+        "with": "example",
+        "items": [
+          {
+            "label": "Punta estándar",
+            "value": 1,
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Punta más chica",
+            "value": 7,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fallas por estación y hora",
+        "Empezaron justo después del cambio de punta",
+        "Una prueba controlada lo confirmó"
+      ],
+      "at": [
+        0.203,
+        4.363,
+        9.506
+      ],
+      "exampleAt": 15.56
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Las 3G alimentan la causa raíz",
+      "example": "Causa raíz: el almacén de refacciones tenía la punta equivocada, y el estándar no la nombraba.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Uniones de soldadura débiles",
+            "with": 0
+          },
+          {
+            "label": "Punta más chica, muy poco calor",
+            "with": 0
+          },
+          {
+            "label": "Punta equivocada en el almacén de refacciones",
+            "with": "example"
+          },
+          {
+            "label": "Tipo de punta fuera del estándar",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Cada porqué respaldado por evidencia",
+        "Nunca termines en “error del operador”",
+        "Pregunta qué hizo posible el error"
+      ],
+      "at": [
+        7.938,
+        12.355,
+        16.831
+      ],
+      "exampleAt": 21.046
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Corregir y verificar",
+      "example": "Turno B: de 20 a 8 por cada 1,000, igual que el turno A.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 20
+        },
+        "after": {
+          "label": "Después",
+          "value": 8
+        },
+        "unit": "fallas por cada 1,000 audífonos, turno B",
+        "note": "Igual que el turno A, verificado en 5 turnos",
+        "with": "example"
+      },
+      "bullets": [
+        "La punta correcta, nombrada en el estándar",
+        "Revisión de la punta al inicio de cada turno",
+        "Verificado durante cinco turnos"
+      ],
+      "at": [
+        3.491,
+        9.06,
+        13.926
+      ],
+      "exampleAt": 19.547
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "El recorrido de 30 minutos por el Gemba",
+      "example": "La pregunta de Manoj en cada parada: “¿Cuál es el estándar, y qué está pasando de verdad?”",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Seguridad, brecha, propósito",
+            "sub": "0–5",
+            "icon": "shield",
+            "with": 0,
+            "span": 5
+          },
+          {
+            "label": "Observar",
+            "sub": "5–15",
+            "icon": "walk",
+            "with": 1,
+            "span": 10
+          },
+          {
+            "label": "Cosa y datos",
+            "sub": "15–22",
+            "icon": "search",
+            "with": 1,
+            "span": 7
+          },
+          {
+            "label": "Causas, responsable",
+            "sub": "22–30",
+            "icon": "person",
+            "tone": "good",
+            "with": 2,
+            "span": 8
+          }
+        ]
+      },
+      "bullets": [
+        "Primero propósito y seguridad",
+        "Observa, luego revisa la cosa y los datos",
+        "Acuerda la contención y un responsable"
+      ],
+      "at": [
+        5.312,
+        9.58,
+        20.875
+      ],
+      "exampleAt": 25.406
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Errores que evitar",
+      "example": "Manoj ahora pasa los primeros 30 minutos de cada turno en el Gemba.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Solo el tablero",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Una sola muestra",
+            "icon": "count",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Cerrado tras entrenar",
+            "icon": "clipboard",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Dirigir desde el tablero",
+        "Tomar una muestra como la verdad",
+        "Cerrar después de entrenar"
+      ],
+      "at": [
+        3.445,
+        10.497,
+        18.564
+      ],
+      "exampleAt": 23.235
+    }
+  ]
+}

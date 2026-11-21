@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Die Stundenleistung einer Linie lautet 60, 105, 70, 110. Welches M zeigt das am deutlichsten?",
+      "options": [
+        "Muda: Verschwendung",
+        "Mura: Unausgeglichenheit",
+        "Muri: Überlastung"
+      ],
+      "correct": 1,
+      "explanation": "Leistung, die von Stunde zu Stunde schwankt, ist Mura: Unausgeglichenheit in Last und Fluss. Unbehandelt erzeugt sie meist Muri (Hetze) und dann Muda (Fehler, Überstunden).",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Leiter erfüllt den Tagesplan mit zwei Überstunden pro Tag. Was sollte das Team ZUERST tun?",
+      "options": [
+        "Die Werker bitten, schneller zu arbeiten",
+        "Mehr Überstunden für einen Puffer",
+        "Den Fluss beobachten und Mura und Muri hinter dem Rückstand finden",
+        "Einen weiteren Tester kaufen"
+      ],
+      "correct": 2,
+      "explanation": "Überstunden verbergen das Problem. Gehen Sie zum Gemba, finden Sie die Unausgeglichenheit und Überlastung hinter dem Verlust, dann glätten und neu abstimmen. Tempo, Puffer oder neue Maschinen verschieben den Verlust nur.",
+      "think": 14
+    }
+  ]
+}

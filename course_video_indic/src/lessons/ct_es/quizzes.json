@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "El tiempo de ciclo de una estación es de 30 segundos. ¿Cuál es su producción teórica por hora?",
+      "options": [
+        "90 unidades",
+        "120 unidades",
+        "180 unidades"
+      ],
+      "correct": 1,
+      "explanation": "Producción por hora = 3,600 ÷ tiempo de ciclo = 3,600 ÷ 30 = 120 unidades por hora, antes de cualquier pérdida.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Después de un cambio, el tiempo de ciclo de una estación baja de 28 a 22 segundos, pero el rendimiento a la primera cae. ¿Y ahora qué?",
+      "options": [
+        "Estandarizarlo: la estación es más rápida",
+        "Detener el cambio y averiguar por qué bajó la calidad",
+        "Agregar un inspector final para atrapar los defectos"
+      ],
+      "correct": 1,
+      "explanation": "Un ciclo más rápido que hace más defectos no es una mejora. Detén el cambio, averigua por qué bajó el rendimiento, y estandariza solo cuando la calidad se mantenga.",
+      "think": 15
+    }
+  ]
+}

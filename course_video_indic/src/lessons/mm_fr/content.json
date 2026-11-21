@@ -1,0 +1,721 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Découvrez les 3M",
+      "example": "La ligne de Sanjay, en une heure : les opérateurs attendent les kits (Muda), la production fait des bonds (Mura), puis tout le monde se précipite (Muri).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Muda",
+            "sub": "Gaspillage : attendre les kits",
+            "icon": "trash",
+            "tone": "bad"
+          },
+          {
+            "label": "Mura",
+            "sub": "Irrégularité : la production fait des bonds",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "Muri",
+            "sub": "Surcharge : tout le monde se précipite",
+            "icon": "weight",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Muda : le gaspillage — aucune valeur pour le client",
+        "Mura : l'irrégularité — la charge monte et descend",
+        "Muri : la surcharge — au-delà de la capacité sûre"
+      ],
+      "at": [
+        5.644,
+        11.417,
+        16.134
+      ],
+      "exampleAt": 22.838
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Comment les 3M sont liés",
+      "example": "Le gros lot du lundi (Mura) → opérateurs et testeur débordés (Muri) → défauts, retouches, heures supplémentaires (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Un énorme lot le lundi",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muri",
+            "sub": "Précipitation ; le testeur ne s'arrête jamais",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Muda",
+            "sub": "Défauts, retouches, heures supplémentaires",
+            "icon": "trash",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "On ne peut pas les corriger un par un",
+        "Mura crée Muri, Muri crée Muda",
+        "Ne chassez que le gaspillage et il revient"
+      ],
+      "at": [
+        2.453,
+        5.309,
+        30.876
+      ],
+      "exampleAt": 9.064
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Muda : le test de la valeur",
+      "example": "Monter l'objectif ajoute de la valeur. Marcher pour chercher des étiquettes, attendre un kit et tester deux fois, non.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Marcher pour les étiquettes",
+            "sub": "Aucune valeur (ni attendre, ni tester deux fois)",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Monter l'objectif",
+            "sub": "Ajoute de la valeur",
+            "icon": "camera",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Est-ce que cela transforme le produit dont le client a besoin ?",
+        "Est-ce bien fait du premier coup ?",
+        "Le client paierait-il pour cela ?",
+        "Sinon — remettez-le en question"
+      ],
+      "at": [
+        4.506,
+        9.498,
+        11.797,
+        14.507
+      ],
+      "exampleAt": 17.616
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Nécessaire ou pur gaspillage",
+      "example": "Type 1 : un contrôle de sécurité obligatoire. Type 2 : saisir le même numéro de série dans deux systèmes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Type 1 : simplifier",
+            "sub": "Un contrôle de sécurité obligatoire",
+            "icon": "shield"
+          },
+          {
+            "label": "Type 2 : supprimer",
+            "sub": "Un numéro de série saisi deux fois",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Les personnes ne sont jamais du gaspillage",
+            "sub": "Le gaspillage vit dans le processus",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Type 1 : nécessaire aujourd'hui — simplifiez-le",
+        "Type 2 : pur gaspillage — supprimez-le",
+        "N'appelez jamais une personne un gaspillage"
+      ],
+      "at": [
+        1.982,
+        19.018,
+        29.396
+      ],
+      "exampleAt": 7.645
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Les 8 gaspillages : TIMWOODS",
+      "example": "La tournée de Sanjay : 3 attentes de kits en 2 heures, de longues marches pour les étiquettes, un mur de WIP avant le test.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Transport",
+            "sub": "T",
+            "with": 0
+          },
+          {
+            "label": "Stocks",
+            "sub": "I",
+            "with": 0
+          },
+          {
+            "label": "Mouvements",
+            "sub": "M",
+            "with": 0
+          },
+          {
+            "label": "Attente",
+            "sub": "W",
+            "with": 0
+          },
+          {
+            "label": "Surproduction",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Surtraitement",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Défauts",
+            "sub": "D",
+            "with": 2
+          },
+          {
+            "label": "Compétences inutilisées",
+            "sub": "S",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport · Stocks · Mouvements · Attente",
+        "Surproduction · Surtraitement",
+        "Défauts · Compétences inutilisées",
+        "Tournée des gaspillages : suivre un produit"
+      ],
+      "at": [
+        3.986,
+        7.816,
+        10.663,
+        13.993
+      ],
+      "exampleAt": 23.4
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Mura : l'irrégularité",
+      "example": "Le tableau horaire de Sanjay : 60, puis 105, puis 70. La moyenne paraît correcte ; la ligne, non.",
+      "visual": {
+        "type": "bars",
+        "label": "Moyenne",
+        "note": "paraît correcte, cache les écarts",
+        "unit": "Tableau horaire de Sanjay : caméras par heure",
+        "items": [
+          {
+            "label": "Heure 1",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Heure 2",
+            "value": 105,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Heure 3",
+            "value": 70,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "De gros lots, puis plus rien",
+        "La matière arrive par à-coups",
+        "Même travail, méthodes différentes",
+        "Les moyennes cachent les pics et les creux"
+      ],
+      "at": [
+        7.142,
+        10.24,
+        12.794,
+        24.0
+      ],
+      "exampleAt": 16.894
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Muri : la surcharge",
+      "example": "Une opératrice lève le bras au-dessus de l'épaule 120 fois par heure ; le testeur tourne pendant chaque pause.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Personnes",
+            "sub": "Levages, gestes, alarmes",
+            "icon": "person",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Machines",
+            "sub": "Au-delà de la charge nominale",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 120,
+          "icon": "hand",
+          "label": "gestes au-dessus de l'épaule",
+          "unit": "par heure, pour une opératrice",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Personnes : levages, gestes, alarmes, formation insuffisante",
+        "Machines : au-delà de la charge nominale, maintenance sautée",
+        "Mène à la fatigue, aux erreurs, aux pannes"
+      ],
+      "at": [
+        6.079,
+        13.753,
+        30.192
+      ],
+      "exampleAt": 21.232
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Quand les trois se percutent",
+      "example": "Ça ressemblait à une « capacité de test trop faible ». En réalité : lancement irrégulier (Mura) + précipitation (Muri) + retouches (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "4 heures de demande d'un coup",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "Le WIP s'accumule",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Le test devient le goulot",
+            "icon": "test",
+            "tone": "bad"
+          },
+          {
+            "label": "Heures supplémentaires, précipitation, retouches",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "4 heures de demande en un seul lancement",
+        "Postes en avance — le WIP s'accumule",
+        "Le test devient le goulot",
+        "Heures supplémentaires, précipitation, défauts, retouches"
+      ],
+      "at": [
+        2.94,
+        6.776,
+        11.918,
+        14.453
+      ],
+      "exampleAt": 26.081
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Trouver les 3M au Gemba",
+      "example": "Sanjay a étiqueté chaque constat Muda, Mura ou Muri. Une attente de kit de 20 minutes a reçu deux étiquettes : gaspillage et irrégularité.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Observer d'abord",
+            "icon": "search"
+          },
+          {
+            "label": "Le noter",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Demander aux opérateurs",
+            "icon": "person"
+          },
+          {
+            "label": "Vérifier les données",
+            "icon": "chartUp"
+          }
+        ]
+      },
+      "bullets": [
+        "Observer avant de changer quoi que ce soit",
+        "Noter temps, attentes, marches, WIP, retouches",
+        "Demander aux opérateurs ce qui est difficile",
+        "Vérifier les données avant de choisir une solution"
+      ],
+      "at": [
+        1.595,
+        8.412,
+        14.6,
+        36.25
+      ],
+      "exampleAt": 23.321
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Outils pour supprimer le Muda",
+      "example": "Étiquettes et vis déplacées sur des racks à chaque poste : la marche est passée de 40 m à 8 m.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "5S",
+            "icon": "tray",
+            "with": 0
+          },
+          {
+            "label": "Travail standard",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key",
+            "with": 2
+          },
+          {
+            "label": "SMED + TPM",
+            "icon": "wrench",
+            "with": 3
+          },
+          {
+            "label": "Cause racine",
+            "icon": "search",
+            "with": 4
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 40
+          },
+          "after": {
+            "label": "Après",
+            "value": 8
+          },
+          "suffix": " m",
+          "unit": "marche par caméra",
+          "note": "80 % de marche en moins",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "5S : moins de recherches et de marches",
+        "Travail standard : la meilleure méthode, la plus sûre",
+        "Poka Yoke : arrêter les erreurs à la source",
+        "SMED et TPM : changements de série, fiabilité",
+        "Analyse des causes racines : pas de défauts répétés",
+        "N'automatisez pas un gaspillage"
+      ],
+      "at": [
+        3.293,
+        6.689,
+        11.112,
+        14.703,
+        20.16,
+        34.98
+      ],
+      "exampleAt": 24.072
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Outils pour lisser le Mura",
+      "example": "TAKT = 27 000 s ÷ 450 caméras = une caméra toutes les 60 secondes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Heijunka",
+            "sub": "Lisser le volume et le mix",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Rythme fixé par la demande",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 60,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "une caméra toutes les 60 secondes",
+          "unit": "27 000 s de temps de travail ÷ 450 caméras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Heijunka : lisser le volume et le mix",
+        "Le TAKT relie votre rythme à la demande",
+        "Lancer à chaque pitch, pas par vagues",
+        "Tirer et couloirs premier entré, premier sorti"
+      ],
+      "at": [
+        2.832,
+        6.719,
+        22.999,
+        27.501
+      ],
+      "exampleAt": 10.574
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Outils pour soulager le Muri",
+      "example": "Un gabarit tient maintenant la caméra pendant le vissage ; le bac haut est descendu à portée de main.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Équilibrer au TAKT",
+            "icon": "scale"
+          },
+          {
+            "label": "Zone de gestes sûre",
+            "icon": "person"
+          },
+          {
+            "label": "Gabarits et montages",
+            "icon": "wrench"
+          },
+          {
+            "label": "Limites des machines",
+            "icon": "gear"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Les mains tiennent la caméra",
+              "sub": "Bac haut au-dessus de l'épaule",
+              "icon": "hand"
+            },
+            {
+              "label": "Un gabarit la tient",
+              "sub": "Bac à portée de main",
+              "icon": "wrench"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Équilibrer chaque poste au TAKT",
+        "Gestes et levages dans une zone sûre",
+        "Des gabarits là où les mains tiennent les pièces",
+        "Respecter les limites des machines et la maintenance"
+      ],
+      "at": [
+        4.549,
+        9.243,
+        12.765,
+        17.202
+      ],
+      "exampleAt": 23.565
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Une méthode 3M en 8 étapes",
+      "example": "La référence de Sanjay : production horaire très irrégulière, 2,5 heures supplémentaires par jour.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Définir",
+            "with": 0
+          },
+          {
+            "label": "Observer",
+            "with": 0
+          },
+          {
+            "label": "Classer 3M",
+            "with": 1
+          },
+          {
+            "label": "Mesurer",
+            "with": 2
+          },
+          {
+            "label": "Trouver les causes",
+            "with": 2
+          },
+          {
+            "label": "Tester (PDCA)",
+            "with": 3
+          },
+          {
+            "label": "Standardiser",
+            "with": 4
+          },
+          {
+            "label": "Auditer",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Définir, puis observer au Gemba",
+        "Classer selon les trois M",
+        "Mesurer une référence, trouver les causes racines",
+        "Tester de petits changements avec le PDCA",
+        "Standardiser, continuer à auditer"
+      ],
+      "at": [
+        3.467,
+        7.441,
+        10.704,
+        14.808,
+        20.149
+      ],
+      "exampleAt": 25.773
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Cas pratique : ligne CCTV",
+      "example": "Après 6 semaines : écarts horaires presque disparus, heures supplémentaires proches de zéro, rendement au premier passage jusqu'à 98 %.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Lancements petits et réguliers",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Pièces au point d'utilisation",
+            "icon": "tray",
+            "tone": "good"
+          },
+          {
+            "label": "Lancement = capacité de test",
+            "icon": "test",
+            "tone": "good"
+          },
+          {
+            "label": "Tableau horaire",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "rendement au premier passage après 6 semaines",
+          "unit": "Heures supplémentaires proches de zéro. Personne n'a travaillé plus vite.",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Des lancements petits et réguliers + couloir premier entré, premier sorti",
+        "Pièces et étiquettes au point d'utilisation",
+        "Lancement aligné sur la capacité de test",
+        "Tableau horaire, problèmes remontés tôt"
+      ],
+      "at": [
+        2.977,
+        9.543,
+        13.081,
+        16.739
+      ],
+      "exampleAt": 22.052
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPI et pérennité",
+      "example": "Plus d'unités par heure, mais moins de qualité et plus d'heures supplémentaires ? Vous n'avez fait que déplacer la perte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Flux",
+            "sub": "Délai, WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "Mura",
+            "sub": "Amplitude horaire",
+            "icon": "wave"
+          },
+          {
+            "label": "Qualité",
+            "sub": "FPY, retouches",
+            "icon": "check"
+          },
+          {
+            "label": "Muri",
+            "sub": "Heures supplémentaires, ergonomie",
+            "icon": "weight"
+          }
+        ]
+      },
+      "bullets": [
+        "Flux : délai, WIP",
+        "Mura : amplitude de la production horaire",
+        "Qualité : FPY, retouches",
+        "Muri : heures supplémentaires, risque ergonomique"
+      ],
+      "at": [
+        3.997,
+        7.849,
+        13.734,
+        18.537
+      ],
+      "exampleAt": 26.639
+    }
+  ]
+}

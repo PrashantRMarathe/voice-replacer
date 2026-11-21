@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Hourly output on a line reads 60, 105, 70, 110. Which M does this show most clearly?",
+      "options": [
+        "Muda — waste",
+        "Mura — unevenness",
+        "Muri — overburden"
+      ],
+      "correct": 1,
+      "explanation": "Output swinging hour to hour is Mura: unevenness in load and flow. Left alone, it usually creates Muri (rushing) and then Muda (defects, overtime).",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A supervisor hits the daily plan by adding two hours of overtime every day. What should the team do FIRST?",
+      "options": [
+        "Ask operators to work faster",
+        "Add more overtime to build a buffer",
+        "Observe the flow and find the Mura and Muri behind the shortfall",
+        "Buy another tester"
+      ],
+      "correct": 2,
+      "explanation": "Overtime hides the problem. Go to the gemba and find the unevenness and overburden causing the loss, then level and rebalance. Speed-ups, buffers or new machines just move the loss.",
+      "think": 14
+    }
+  ]
+}

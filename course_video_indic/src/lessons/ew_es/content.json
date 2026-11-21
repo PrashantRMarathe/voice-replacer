@@ -1,0 +1,683 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es de verdad el desperdicio",
+      "example": "La línea de Deepak: 1,500 barras de sonido retrabajadas cada mes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Sin valor para el cliente",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "No son recortes de una vez",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Elimina la causa",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1500,
+          "icon": "wave",
+          "label": "barras de sonido retrabajadas cada mes",
+          "unit": "La línea de Deepak",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Usa recursos, no agrega valor al cliente",
+        "No es un recorte de costos de una vez",
+        "Elimina la causa, evita que regrese"
+      ],
+      "at": [
+        2.975,
+        11.835,
+        17.217
+      ],
+      "exampleAt": 21.262
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "La prueba del valor",
+      "example": "Colocar la bocina: valor. Volver a colocarla después de un zumbido: puro desperdicio.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Cambia el producto",
+            "with": 0
+          },
+          {
+            "label": "El cliente pagaría",
+            "with": 1
+          },
+          {
+            "label": "Bien a la primera",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Volver a colocar tras un zumbido",
+              "sub": "Puro desperdicio",
+              "icon": "wrench",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Colocar la bocina",
+              "sub": "Valor",
+              "icon": "wave",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Cambia el producto",
+        "El cliente pagaría por ello",
+        "Hecho bien, a la primera",
+        "Si no: necesario, o puro desperdicio"
+      ],
+      "at": [
+        7.974,
+        10.0,
+        13.076,
+        15.817
+      ],
+      "exampleAt": 21.359
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Por qué importa",
+      "example": "La meta de Deepak: liberar capacidad para un modelo nuevo, sin agregar un turno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Flujo más rápido",
+            "icon": "chartDown",
+            "with": 0
+          },
+          {
+            "label": "Menos defectos",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Capacidad liberada",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Ideas de la gente",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Flujo más rápido, menor tiempo de entrega",
+        "Menos defectos y menos retrabajo",
+        "Capacidad liberada, sin gastar más",
+        "Ideas de quienes hacen el trabajo"
+      ],
+      "at": [
+        6.828,
+        11.666,
+        16.452,
+        22.218
+      ],
+      "exampleAt": 25.123
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Tres reglas de protección",
+      "example": "La prueba final de audio se queda. Protege al cliente.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Conserva las revisiones de seguridad y calidad",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "No pases el desperdicio",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Las personas no son desperdicio",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Las revisiones de seguridad y calidad no son desperdicio",
+        "No le pases el desperdicio a otro",
+        "Las personas nunca son el desperdicio"
+      ],
+      "at": [
+        4.379,
+        11.636,
+        19.664
+      ],
+      "exampleAt": 25.917
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Los ocho desperdicios",
+      "example": "Recuérdalos como TIMWOODS.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Transporte",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Inventario",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Movimiento",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Espera",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Sobreproducción",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Sobreproceso",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Defectos",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Habilidades sin usar",
+            "icon": "person",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transporte, inventario, movimiento, espera",
+        "Sobreproducción, sobreproceso",
+        "Defectos, habilidades sin usar"
+      ],
+      "at": [
+        6.927,
+        11.631,
+        19.033
+      ],
+      "exampleAt": 21.989
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "El recorrido de desperdicios",
+      "example": "Hecho: “Cuatro operadores esperaron 12 minutos por rejillas faltantes.” Opinión: “Almacén siempre llega tarde.”",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Producción normal",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Hechos, sin culpa",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Dónde · cuánto tiempo · qué tan seguido",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "“Almacén siempre llega tarde”",
+              "sub": "Opinión",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "“4 esperaron 12 min por rejillas”",
+              "sub": "Hecho",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ve al Gemba durante el trabajo normal",
+        "Anota hechos, nunca culpes",
+        "Dónde, qué, cuánto tiempo, qué tan seguido"
+      ],
+      "at": [
+        3.133,
+        8.08,
+        12.155
+      ],
+      "exampleAt": 21.53
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Lo que encontró Deepak",
+      "example": "El retrabajo fue el más grande: 1,500 barras de sonido con zumbido al mes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kits tardíos",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Estirarse por herramientas",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Doble escaneo",
+            "icon": "barcode",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Barras de sonido con zumbido",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Esperar kits que llegan tarde",
+        "Estirarse y caminar por herramientas",
+        "Un escaneo de código de barras duplicado",
+        "Retrabajo: barras de sonido con zumbido"
+      ],
+      "at": [
+        4.553,
+        8.35,
+        13.51,
+        18.75
+      ],
+      "exampleAt": 18.75
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Medir el flujo",
+      "example": "Una barra de sonido pasa 4 horas en la planta. Solo 18 minutos la cambian.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Tiempo de entrega",
+          "value": 240
+        },
+        "after": {
+          "label": "Agrega valor",
+          "value": 18
+        },
+        "unit": "minutos por barra de sonido",
+        "note": "Eficiencia de flujo 7.5%",
+        "with": 1
+      },
+      "bullets": [
+        "Eficiencia de flujo = tiempo de valor ÷ tiempo de entrega",
+        "18 min de valor en 240 min",
+        "Solo 7.5% del tiempo agrega valor"
+      ],
+      "at": [
+        2.285,
+        13.67,
+        18.955
+      ],
+      "exampleAt": 8.619
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Encontrar la causa raíz",
+      "example": "Causa raíz: el cable de la bocina no tenía una ruta fija, así que tocaba el cono.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Las barras de sonido zumban",
+            "with": 1
+          },
+          {
+            "label": "El cable toca el cono",
+            "with": 1
+          },
+          {
+            "label": "El cable no tiene ruta fija",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pareto: elige la pérdida más grande",
+        "Pregunta por qué, con evidencia",
+        "Corrige la causa, no el síntoma"
+      ],
+      "at": [
+        0.201,
+        8.118,
+        29.662
+      ],
+      "exampleAt": 19.413
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Contramedidas: ECRS",
+      "example": "Un clip para guiar el cable, carritos de kits en la línea, un escaneo en lugar de dos.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminar",
+            "with": 0
+          },
+          {
+            "label": "Combinar",
+            "with": 1
+          },
+          {
+            "label": "Reordenar",
+            "with": 2
+          },
+          {
+            "label": "Simplificar",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Clip para guiar el cable",
+              "icon": "shape",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Carritos de kits cada hora",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Un escaneo, no dos",
+              "icon": "barcode",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Elimina lo innecesario",
+        "Combina tareas o revisiones",
+        "Reordena la secuencia o el acomodo",
+        "Simplifica lo que queda"
+      ],
+      "at": [
+        2.962,
+        5.825,
+        9.497,
+        12.605
+      ],
+      "exampleAt": 16.09
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "El costo de los defectos",
+      "example": "Retrabajo: ₹42 por barra de sonido, 1,500 al mes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Internos",
+            "sub": "Desecho, retrabajo, reprueba",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Externos",
+            "sub": "Devoluciones, garantía",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Ocultos",
+            "sub": "Manejo, espera, papeleo",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 42,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "por retrabajo",
+          "unit": "1,500 retrabajos al mes",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Internos: desecho, retrabajo, reprueba",
+        "Externos: devoluciones, garantía, fletes",
+        "Cada reparación esconde más desperdicio"
+      ],
+      "at": [
+        3.491,
+        9.758,
+        16.266
+      ],
+      "exampleAt": 30.535
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Los resultados",
+      "example": "Misma gente, mismo turno. Espacio para el modelo nuevo.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Antes",
+          "value": 1500
+        },
+        "after": {
+          "label": "Después",
+          "value": 300
+        },
+        "unit": "barras de sonido retrabajadas al mes",
+        "note": "FPY 99% · alcance de herramientas 22 s → 13 s",
+        "with": 0
+      },
+      "bullets": [
+        "Retrabajo: de 1,500 a 300 al mes",
+        "Rendimiento a la primera hasta 99%",
+        "Estirarse por herramientas: de 22 s a 13 s"
+      ],
+      "at": [
+        4.559,
+        9.754,
+        16.608
+      ],
+      "exampleAt": 21.557
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Comprobar el dinero",
+      "example": "1,200 retrabajos menos × ₹42 × 12 meses ≈ ₹6 lakh. Menos ₹1.2 lakh de la solución: ≈ ₹4.8 lakh netos.",
+      "visual": {
+        "type": "stat",
+        "value": 4.8,
+        "decimals": 1,
+        "prefix": "₹",
+        "suffix": " lakh",
+        "icon": "chartUp",
+        "label": "beneficio neto, primer año",
+        "unit": "₹6 lakh evitados − ₹1.2 lakh de la solución",
+        "with": "example"
+      },
+      "bullets": [
+        "Ahorro = costo evitado − costo de la solución",
+        "Separa el ahorro duro de la capacidad",
+        "Finanzas confirma los números"
+      ],
+      "at": [
+        0.213,
+        25.398,
+        29.356
+      ],
+      "exampleAt": 5.133
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Hacer que se quede",
+      "example": "La auditoría de Deepak en el día 30: un turno había dejado de usar el clip. Se corrigió el mismo día.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Estándar actualizado",
+            "sub": "Día 0",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Auditoría",
+            "sub": "Día 7",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Desviación detectada",
+            "sub": "Día 30",
+            "icon": "warning",
+            "with": "example"
+          },
+          {
+            "label": "Auditoría",
+            "sub": "Día 90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Actualiza el SOP, el acomodo, el entrenamiento",
+        "Tablero diario: meta, real, brecha, acción",
+        "Audita a los 7, 30 y 90 días"
+      ],
+      "at": [
+        3.576,
+        8.141,
+        14.775
+      ],
+      "exampleAt": 20.676
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Tu plan de 30 días",
+      "example": "Luego compártelo: otras líneas copian lo que funcionó, después de revisar que encaja.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Recorrer y mapear",
+            "sub": "Días 1–7",
+            "icon": "walk",
+            "with": 0
+          },
+          {
+            "label": "Causa y piloto",
+            "sub": "Días 8–18",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Comprobar y sostener",
+            "sub": "Días 19–30",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Días 1–7: elige un producto, recorre, mapea",
+        "Días 8–18: Pareto, causa raíz, piloto",
+        "Días 19–30: mide, estandariza, audita"
+      ],
+      "at": [
+        4.106,
+        10.836,
+        17.898
+      ],
+      "exampleAt": 24.35
+    }
+  ]
+}

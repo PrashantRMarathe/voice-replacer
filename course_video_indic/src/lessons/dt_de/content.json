@@ -1,0 +1,685 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Design Thinking ist",
+      "example": "Poojas Packstation: Infusionspumpen, Etiketten, und Packer, die niemand gefragt hatte.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Verstehen",
+            "with": 1
+          },
+          {
+            "label": "Definieren",
+            "with": 1
+          },
+          {
+            "label": "Ideen finden",
+            "with": 1
+          },
+          {
+            "label": "Prototyp",
+            "with": 2
+          },
+          {
+            "label": "Test",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Bei den Menschen im Prozess beginnen",
+        "Verstehen, definieren, Ideen finden",
+        "Prototyp bauen und testen, dann wiederholen"
+      ],
+      "at": [
+        3.975,
+        12.82,
+        22.424
+      ],
+      "exampleAt": 30.019
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Design Thinking und Lean",
+      "example": "Die neue Packmethode vom letzten Jahr hielt zwei Wochen. Die Packer kehrten zur alten Art zurück.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Lean-Werkzeuge bleiben",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Zuerst das richtige Problem",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Von den Nutzern getragen",
+            "icon": "hand",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Verordnete Methode",
+              "sub": "Nach zwei Wochen weg",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Gemeinsam gestaltete Methode",
+              "sub": "Menschen behalten sie",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ersetzt keine Lean-Werkzeuge",
+        "Findet zuerst das richtige Problem",
+        "Menschen übernehmen, was sie mitgestalten"
+      ],
+      "at": [
+        0.237,
+        5.233,
+        23.151
+      ],
+      "exampleAt": 27.184
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Arbeitsprinzipien",
+      "example": "Poojas Regel: „Zeig es mir“ vor „Erzähl es mir“.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Beobachten",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Zuerst Fakten",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Kleine Versuche",
+            "icon": "shape",
+            "with": 2
+          },
+          {
+            "label": "Akzeptanz",
+            "icon": "person",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Beobachten, ohne anzunehmen",
+        "Fakten von Meinungen trennen",
+        "Klein testen vor großen Änderungen",
+        "Ergebnisse und Akzeptanz messen"
+      ],
+      "at": [
+        3.799,
+        9.169,
+        18.833,
+        24.215
+      ],
+      "exampleAt": 30.196
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Was es verhindert",
+      "example": "Der schnellere Drucker: viel Geld, für ein Problem, das niemand geprüft hatte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Chaos automatisieren",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Nur das Symptom",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Nicht umsetzbar",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Viel Geld, kein Test",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Einen kaputten Prozess automatisieren",
+        "Nur das sichtbare Symptom beheben",
+        "Lösungen, denen niemand folgen kann",
+        "Viel Geld vor jedem Test"
+      ],
+      "at": [
+        5.914,
+        11.199,
+        14.668,
+        20.433
+      ],
+      "exampleAt": 25.281
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Fünf Phasen, eine Schleife",
+      "example": "Poojas Schranke: keine Ideen ohne echte Beobachtungen und eine Ausgangslage.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Verstehen",
+            "with": 0
+          },
+          {
+            "label": "Definieren",
+            "with": 0
+          },
+          {
+            "label": "Ideen finden",
+            "with": 0
+          },
+          {
+            "label": "Prototyp",
+            "with": 1
+          },
+          {
+            "label": "Test",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": 2,
+          "items": [
+            {
+              "label": "Erwünscht",
+              "sub": "Nutzer brauchen es",
+              "icon": "person",
+              "with": 2
+            },
+            {
+              "label": "Machbar",
+              "sub": "Wir können es",
+              "icon": "wrench",
+              "with": 2
+            },
+            {
+              "label": "Wirtschaftlich",
+              "sub": "Den Preis wert",
+              "icon": "scale",
+              "tone": "good",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Verstehen · Definieren · Ideen finden",
+        "Prototyp · Test",
+        "Erwünscht, machbar, wirtschaftlich",
+        "Mit Belegen weitergehen, nicht mit Meetings"
+      ],
+      "at": [
+        4.308,
+        15.903,
+        23.527,
+        28.842
+      ],
+      "exampleAt": 34.013
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Einfühlen am Gemba",
+      "example": "Pooja beobachtete zehn Zyklen in jeder Schicht und sprach dann mit fünf Packern.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Beobachten",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Befragen",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Begleiten",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Sagt · denkt · tut · fühlt",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Über Schichten hinweg beobachten",
+        "Nach dem Beobachten befragen",
+        "Eine Rolle von Anfang bis Ende begleiten",
+        "Empathiekarte: sagt, denkt, tut, fühlt"
+      ],
+      "at": [
+        3.076,
+        8.679,
+        14.006,
+        19.713
+      ],
+      "exampleAt": 27.663
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Was Pooja sah",
+      "example": "„Ich bin nicht langsam. Ich suche.“ Ein Packer aus der Nachtschicht.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Zum Regal laufen",
+            "icon": "walk",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Ähnliche Etiketten",
+            "icon": "label",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Auf den Drucker warten",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Laufen, um Etiketten zu holen",
+        "Zwei ähnliche Etiketten nebeneinander",
+        "Auf den Drucker warten"
+      ],
+      "at": [
+        3.017,
+        7.73,
+        13.587
+      ],
+      "exampleAt": 18.093
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Den Bedarf definieren",
+      "example": "Packer brauchen das richtige Etikett griffbereit, weil ähnliche Etiketten und Laufwege Fehler verursachen. Jetzt: 52 s gegenüber TAKT 45 s, 12 Fehler pro 1.000.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Nutzer: die Packer",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Bedarf: das richtige Etikett griffbereit",
+            "icon": "label",
+            "with": "example"
+          },
+          {
+            "label": "Erkenntnis: ähnliche Etiketten und Laufwege",
+            "icon": "search",
+            "with": "example"
+          },
+          {
+            "label": "Ausgangslage: 52 s gegenüber 45 s, 12 pro 1.000",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Nutzer · Bedarf · Erkenntnis",
+        "Keine Lösung in der Aussage",
+        "Eine messbare Ausgangslage"
+      ],
+      "at": [
+        5.455,
+        9.428,
+        22.78
+      ],
+      "exampleAt": 11.972
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Ideen finden: zuerst breit",
+      "example": "Poojas Team: 23 Ideen in 30 Minuten, von Packern, Qualität und Lager.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Brainwriting",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Wie könnten wir…?",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "SCAMPER, 8 Verschwendungsarten",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "key",
+          "label": "Ideen in 30 Minuten",
+          "unit": "Packer, Qualität und Lager",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Erst schreiben, dann diskutieren",
+        "„Wie könnten wir…?“ fragen",
+        "SCAMPER und der Blick auf Verschwendung"
+      ],
+      "at": [
+        4.008,
+        14.012,
+        19.647
+      ],
+      "exampleAt": 25.164
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Mit einer Bewertungsmatrix wählen",
+      "example": "Etikettenfächer + Scanprüfung: 4,15. Neuer Drucker an der Station: 4,10.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Neuer Drucker",
+            "sub": "Bewertung 4,10 von 5",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Etikettenfächer + Scanprüfung",
+            "sub": "Bewertung 4,15 von 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Jedes Kriterium gewichten",
+        "Jedes Konzept bewerten, Punkte addieren",
+        "Sicherheit und Qualität sind K.-o.-Kriterien"
+      ],
+      "at": [
+        4.281,
+        12.495,
+        17.061
+      ],
+      "exampleAt": 24.453
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Prototyp: klein und günstig",
+      "example": "Etikettenfächer aus Karton, eines pro Modell, neben dem Packer festgeklebt.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM GÜNSTIGSTEN",
+        "bottom": "AM GRÖSSTEN",
+        "items": [
+          {
+            "label": "Papier, Karton, Klebeband",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Pilot an einer Station",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Linienversuch",
+            "icon": "sequence",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1,
+          "suffix": " Fach pro Modell",
+          "icon": "label",
+          "label": "aus Karton, neben dem Packer festgeklebt",
+          "unit": "Scanner griffbereit",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Zuerst Papier, Karton oder Klebeband",
+        "Eine Station vor der Linie",
+        "Stunden, nicht Monate"
+      ],
+      "at": [
+        4.279,
+        9.804,
+        15.054
+      ],
+      "exampleAt": 19.101
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Den Test planen",
+      "example": "Hypothese: Fächer + Scanprüfung bringen die Zykluszeit unter den TAKT und senken Etikettenfehler um mindestens 75 %.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Hypothese",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Umfang und Kennzahlen",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Übernehmen · anpassen · stoppen",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Eine klare Hypothese",
+        "Umfang, Kennzahlen und Vergleich",
+        "Eine vorab vereinbarte Entscheidungsregel"
+      ],
+      "at": [
+        4.117,
+        10.648,
+        16.075
+      ],
+      "exampleAt": 23.686
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Die Ergebnisse",
+      "example": "18 von 20 Packern nutzten die neue Methode: 90 % Akzeptanz.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 12
+        },
+        "after": {
+          "label": "Versuch",
+          "value": 2
+        },
+        "unit": "Etikettenfehler pro 1.000 Pumpen",
+        "note": "Zyklus 52 s → 44 s · 500 → 610 gute Pumpen",
+        "with": 2,
+        "then": {
+          "type": "stat",
+          "value": 90,
+          "suffix": "%",
+          "icon": "person",
+          "label": "Akzeptanz",
+          "unit": "18 von 20 Packern",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Zykluszeit: von 52 s auf 44 s",
+        "Gute Pumpen pro Schicht: von 500 auf 610",
+        "Etikettenfehler: von 12 auf 2 pro 1.000",
+        "Laufweg: von 4 m auf 1,2 m"
+      ],
+      "at": [
+        4.204,
+        12.721,
+        18.026,
+        22.967
+      ],
+      "exampleAt": 26.815
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Anpassen vor dem Ausrollen",
+      "example": "Die zwei Packer waren Linkshänder. Die Fächer waren rechts. Spiegeln Sie das Layout.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Fragen, warum",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Layout spiegeln",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Modellmix prüfen",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Dann standardisieren",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Keine 100 % Akzeptanz? Fragen Sie, warum",
+        "Den schweren Schritt vereinfachen, neu testen",
+        "Prüfen, dass nichts anderes es verursacht hat"
+      ],
+      "at": [
+        1.916,
+        14.756,
+        20.036
+      ],
+      "exampleAt": 8.342
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Messen, standardisieren, starten",
+      "example": "Poojas 90-Tage-Prüfung: Fehler hielten bei 2 pro 1.000, Akzeptanz bei 100 %.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Standardisieren, schulen",
+            "sub": "Tag 0",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Prüfung",
+            "sub": "30 · 60",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Fehler hielten bei 2",
+            "sub": "90 Tage",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ergebnis, Prozess, Akzeptanz, Ausgewogenheit",
+        "Standardisieren, schulen, nach 30/60/90 prüfen",
+        "Morgen starten: 10 Zyklen, 3 Menschen"
+      ],
+      "at": [
+        0.244,
+        12.15,
+        28.292
+      ],
+      "exampleAt": 20.364
+    }
+  ]
+}

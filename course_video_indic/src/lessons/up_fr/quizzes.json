@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p06",
+      "question": "Kavya a besoin de 3 000 téléphones, 2 000 décodeurs et 1 000 appareils audio. Quelle séquence a un mix lissé ?",
+      "options": [
+        "Tous les téléphones, puis tous les décodeurs, puis tout l'audio",
+        "Téléphone–Décodeur–Téléphone–Audio–Décodeur–Téléphone, répété",
+        "Un de chaque produit, à tour de rôle"
+      ],
+      "correct": 1,
+      "explanation": "Le schéma répété suit le ratio de demande 3 : 2 : 1. Les gros lots créent des pics ; les quantités égales ignorent le mix réel.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un client veut soudain 500 appareils audio plus tôt. Que doit faire Kavya EN PREMIER ?",
+      "options": [
+        "Les mettre dans le tout prochain créneau",
+        "Vérifier les échéances, le stock, les pièces et la capacité de test, puis modifier les créneaux",
+        "Refuser — le planning est gelé",
+        "Ajouter des heures supplémentaires et tout fabriquer aujourd'hui"
+      ],
+      "correct": 1,
+      "explanation": "Vérifiez d'abord l'impact, puis modifiez les prochains créneaux de lancement selon les règles convenues. Passer devant à l'aveugle, ou refuser d'emblée, crée des problèmes.",
+      "think": 12
+    }
+  ]
+}

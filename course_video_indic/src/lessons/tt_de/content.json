@@ -1,0 +1,694 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was die TAKT Zeit ist",
+      "example": "420 Netto-Minuten ÷ 840 Kameras = eine Kamera alle 30 Sekunden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Takt = Schlag",
+            "icon": "wave",
+            "with": 0
+          },
+          {
+            "label": "Das Tempo, das der Bedarf vorgibt",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Nettozeit ÷ Bedarf",
+            "icon": "count",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "eine Kamera alle 30 Sekunden",
+          "unit": "420 Netto-Minuten ÷ 840 Kameras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Takt: Schlag oder Rhythmus",
+        "Das Tempo, das den Kundenbedarf deckt",
+        "TAKT = netto verfügbare Zeit ÷ Bedarf"
+      ],
+      "at": [
+        2.751,
+        7.215,
+        16.936
+      ],
+      "exampleAt": 21.562
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum die TAKT Zeit zählt",
+      "example": "Rohans Montage baute 1.000 Kameras vor dem Test auf Vorrat. Die Auslastung sah toll aus; die Lkw fuhren trotzdem zu spät.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "1.000 vor dem Test gebaut",
+            "sub": "Beschäftigte Stationen, späte Lkw",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "Ein gemeinsames Tempo",
+            "sub": "Personal, Abstimmung, Material",
+            "icon": "clock",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Verbindet Ihren Kunden mit der Fertigung",
+        "Kein gemeinsames Tempo → Überproduktion, WIP",
+        "Personal planen, Arbeit abstimmen, Material takten"
+      ],
+      "at": [
+        0.236,
+        4.111,
+        31.417
+      ],
+      "exampleAt": 18.923
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Netto verfügbare Zeit",
+      "example": "480 Min. Schicht − Pausen − kurze Besprechung = 420 Netto-Minuten.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "480 Min. Schicht",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "− Pausen, Besprechung, Reinigung",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "= 420 Netto-Minuten",
+            "sub": "Zufälliger Stillstand wird hier nicht abgezogen",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Mit der Schichtlänge beginnen",
+        "Geplante Pausen, Besprechungen, Reinigung abziehen",
+        "Zufällige Stillstände hier nicht abziehen",
+        "Ihre Annahmen aufschreiben"
+      ],
+      "at": [
+        4.146,
+        6.764,
+        23.471,
+        34.915
+      ],
+      "exampleAt": 12.834
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Kundenbedarf",
+      "example": "Tagesbedarf mit der Zeit einer Schicht = Unsinn.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Tagesbedarf ÷ eine Schicht",
+            "sub": "Ergibt Unsinn",
+            "icon": "cross",
+            "with": "example"
+          },
+          {
+            "label": "Gleicher Zeitraum für beide",
+            "sub": "Gute Einheiten, nicht gestartete",
+            "icon": "calendar",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Bedarf und Zeit: gleicher Zeitraum",
+        "Benötigte gute Einheiten, nicht gestartete",
+        "Gemischte Modelle: jedes prüfen",
+        "Neu berechnen, wenn Bedarf oder Schichten sich ändern"
+      ],
+      "at": [
+        0.244,
+        14.699,
+        20.616,
+        31.149
+      ],
+      "exampleAt": 10.348
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "TAKT, Zykluszeit, Durchlaufzeit",
+      "example": "Eine von Rohans Linien: Endtest 38 s gegen TAKT 30 s. Er brauchte Verbesserung, oder einen zweiten Tester.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Das nötige Tempo",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Zykluszeit",
+            "sub": "Was eine Station braucht",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Durchlaufzeit",
+            "sub": "Der ganze Weg",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Test hält nicht mit: verbessern, oder einen Tester ergänzen",
+          "unit": "Sekunden pro Kamera",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Endtest",
+              "value": 38,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT: das nötige Tempo",
+        "Zykluszeit: was eine Station braucht",
+        "Durchlaufzeit: der ganze Weg",
+        "Zyklus > TAKT = hält nicht mit"
+      ],
+      "at": [
+        3.493,
+        6.439,
+        13.134,
+        18.661
+      ],
+      "exampleAt": 24.528
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Pitch, UPH und UPPH",
+      "example": "TAKT 24 s → 150 Einheiten pro Stunde. Packung zu 20 → ein Pitch von 8 Minuten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "UPH",
+            "sub": "Nötige Stundenrate",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Pitch",
+            "sub": "Zeit für eine volle Packung",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "UPPH",
+            "sub": "Gute Leistung pro Personenstunde",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "TAKT 24 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "= 150 Einheiten pro Stunde",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Packung zu 20 = Pitch von 8 Min.",
+              "icon": "box",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "UPH: die nötige Stundenrate",
+        "Pitch: Zeit für eine volle Packung",
+        "UPPH: gute Leistung pro Personenstunde",
+        "Theorie ist keine Leistung"
+      ],
+      "at": [
+        4.285,
+        10.224,
+        27.428,
+        33.972
+      ],
+      "exampleAt": 15.094
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Abstimmen mit Yamazumi",
+      "example": "TAKT 40 s: Werker A hat 52 s Arbeit, Werker B nur 25 s.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Jedes Element messen",
+            "icon": "clock"
+          },
+          {
+            "label": "Jeden Werker stapeln",
+            "icon": "stack"
+          },
+          {
+            "label": "Die TAKT Linie ziehen",
+            "icon": "sequence"
+          },
+          {
+            "label": "Arbeit sicher verlegen",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 40,
+          "suffix": " s",
+          "note": "A ist überlastet",
+          "unit": "Sekunden Arbeit pro Werker",
+          "with": "example",
+          "items": [
+            {
+              "label": "Werker A",
+              "value": 52,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Werker B",
+              "value": 25,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Jedes Arbeitselement messen",
+        "Die Arbeit jedes Werkers als Balken stapeln",
+        "Die TAKT Linie quer ziehen",
+        "Verlegen oder umgestalten, im Rahmen von Sicherheit und Können"
+      ],
+      "at": [
+        3.507,
+        9.353,
+        13.659,
+        33.701
+      ],
+      "exampleAt": 21.201
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Mindestzahl an Werkern",
+      "example": "310 s Arbeit ÷ 40 s TAKT = 7,75 → mindestens 8 Werker.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Arbeit ÷ TAKT, aufrunden",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "Ein Ausgangspunkt",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Stabile Zeitstudie",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 8,
+          "icon": "person",
+          "label": "Werker, mindestens",
+          "unit": "310 s Arbeit ÷ 40 s TAKT = 7,75, aufgerundet",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Arbeitsinhalt ÷ TAKT, aufrunden",
+        "Nur ein Ausgangspunkt",
+        "Eine stabile Zeitstudie nutzen"
+      ],
+      "at": [
+        2.803,
+        23.618,
+        32.537
+      ],
+      "exampleAt": 9.576
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Engpässe und parallele Stationen",
+      "example": "Zwei Tester zu 50 s = 144 Versuche pro Stunde → etwa 127 gute Einheiten nach Verfügbarkeit und Ausbeute.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Der Engpass",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "3.600 ÷ Zykluszeit",
+            "icon": "count"
+          },
+          {
+            "label": "Verfügbarkeit × Ausbeute",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Zuerst Belege",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "2 Tester zu 50 s",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "144 Versuche pro Stunde",
+              "icon": "count",
+              "with": "example"
+            },
+            {
+              "label": "≈ 127 gute nach Verfügbarkeit, Ausbeute",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Der Engpass begrenzt die gute Leistung",
+        "Kapazität = 3.600 ÷ Zykluszeit",
+        "Verfügbarkeit und Erstdurchlaufquote anwenden",
+        "Belege vor dem Maschinenkauf"
+      ],
+      "at": [
+        2.088,
+        6.53,
+        26.176,
+        35.002
+      ],
+      "exampleAt": 14.627
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Gemischte Modelle und Heijunka",
+      "example": "60 % Modell A, 40 % Modell B mit längerem Test: alle B zusammen einplanen, und der Test ertrinkt.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Alle B zusammen",
+            "sub": "Der Test ertrinkt",
+            "icon": "stack",
+            "with": "example"
+          },
+          {
+            "label": "Den Mix glätten",
+            "sub": "Heijunka + SMED",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ein TAKT passt nicht für jedes Modell",
+        "Stationszeiten jedes Modells prüfen",
+        "Heijunka: Menge und Mix glätten",
+        "SMED: Rüstverluste senken"
+      ],
+      "at": [
+        0.251,
+        23.663,
+        28.037,
+        33.132
+      ],
+      "exampleAt": 5.731
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Materialfluss und Kanban",
+      "example": "TAKT 30 s, Kiste mit 40 → reicht 20 Minuten; der Nachschub muss schneller sein.",
+      "visual": {
+        "type": "stat",
+        "value": 20,
+        "suffix": " Min.",
+        "icon": "box",
+        "label": "eine Kiste mit 40 Teilen reicht",
+        "unit": "bei TAKT 30 s: der Nachschub muss schneller sein",
+        "with": "example"
+      },
+      "bullets": [
+        "TAKT gibt den Materialrhythmus vor",
+        "Kanban: Wiederbeschaffungszeit, Behältergröße",
+        "WIP-Grenzen zwischen Prozessen",
+        "Keine Arbeit freigeben, nur um beschäftigt zu sein"
+      ],
+      "at": [
+        0.239,
+        16.996,
+        22.732,
+        29.413
+      ],
+      "exampleAt": 4.215
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Stündlich Plan gegen Ist",
+      "example": "TAKT 30 s → 120 geplant pro Stunde. 108 geschafft = 90 %, eine Lücke von 12.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "90 %: eine Lücke von 12. Grund erfassen.",
+        "unit": "gute Kameras in einer Stunde, TAKT 30 s",
+        "items": [
+          {
+            "label": "Geplant",
+            "value": 120,
+            "with": "example"
+          },
+          {
+            "label": "Geschafft",
+            "value": 108,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Plan = Nettosekunden ÷ TAKT",
+        "Ist mit Plan vergleichen",
+        "Grund erfassen: Stillstand, Ausschuss, Material",
+        "Nicht das Werkertempo beschuldigen"
+      ],
+      "at": [
+        4.591,
+        16.647,
+        25.048,
+        32.912
+      ],
+      "exampleAt": 10.618
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fallstudie: Kamerawerk",
+      "example": "2 Tester = 400 Versuche/Stunde auf dem Papier → ≈ 353 gute bei echter Verfügbarkeit und Ausbeute. Ziel: 360.",
+      "visual": {
+        "type": "stat",
+        "value": 10,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "TAKT für 7.200 gute Kameras pro Tag",
+        "unit": "1.200 Netto-Minuten ÷ 7.200 Kameras",
+        "with": 1,
+        "then": {
+          "type": "bars",
+          "label": "Ziel",
+          "value": 360,
+          "unit": "gute Kameras pro Stunde, zwei Tester",
+          "with": 3,
+          "items": [
+            {
+              "label": "Auf dem Papier",
+              "value": 400,
+              "with": 3
+            },
+            {
+              "label": "Echt",
+              "value": 353,
+              "tone": "bad",
+              "with": 3
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "7.200 gute Kameras pro Tag, 1.200 Netto-Min.",
+        "TAKT = 10 Sekunden",
+        "Test braucht 18 s: der Engpass",
+        "Zwei Tester ≈ 353 gute/Stunde gegen 360"
+      ],
+      "at": [
+        0.24,
+        11.175,
+        18.74,
+        22.438
+      ],
+      "exampleAt": 27.414
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Häufige Fehler",
+      "example": "Rohan verbesserte die Verfügbarkeit der Tester und kürzte den Testzyklus, bevor er einen dritten Tester kaufte.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Freigegebener Bedarf + Nettozeit",
+            "icon": "check",
+            "tone": "good"
+          },
+          {
+            "label": "Bei Änderungen anpassen",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Nicht die Zykluszeit",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Nie Tests oder Pausen auslassen",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "JA: freigegebener Bedarf und Nettozeit",
+        "JA: TAKT bei Änderungen anpassen",
+        "NEIN: mit Zykluszeit verwechseln",
+        "NEIN: Tests, Schritte oder Pausen auslassen"
+      ],
+      "at": [
+        12.067,
+        16.982,
+        22.479,
+        31.864
+      ],
+      "exampleAt": 0.249
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan für 90 Tage",
+      "example": "Verlässliche gute Leistung im Tempo des Kunden, nicht jede Station beschäftigt halten.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Bedarf, Nettozeit, Zykluszeiten",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Yamazumi, Stundentafeln",
+            "sub": "31–60",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Leistung und Ausbeute bestätigen, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tag 1–30: Bedarf, Nettozeit, Zykluszeiten",
+        "Tag 31–60: Yamazumi, Stundentafeln",
+        "Tag 61–90: Leistung und Ausbeute bestätigen, ausweiten",
+        "Ziel: verlässliche gute Leistung"
+      ],
+      "at": [
+        4.537,
+        13.716,
+        23.146,
+        30.538
+      ],
+      "exampleAt": 32.937
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "La prueba final no detectó un conector de batería medio asentado. ¿Qué tipo de causa es esa?",
+      "options": [
+        "Causa de ocurrencia",
+        "Causa de fuga",
+        "Causa de sistema"
+      ],
+      "correct": 1,
+      "explanation": "El defecto se hizo antes (ocurrencia). La causa de fuga explica por qué la barrera de detección — aquí, la prueba final — no lo atrapó.",
+      "think": 12
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "30 cajas salieron con etiquetas equivocadas y alguien dice “error del operador”. ¿Qué debe hacer PRIMERO el equipo?",
+      "options": [
+        "Volver a entrenar al operador y cerrarlo",
+        "Contener las cajas sospechosas, y luego preguntar por qué el proceso lo permitió",
+        "Poner un letrero de recordatorio en empaque"
+      ],
+      "correct": 1,
+      "explanation": "Primero contén, luego averigua por qué el proceso permitió una etiqueta equivocada. Volver a entrenar o un letrero dependen de la memoria, así que casi nunca evitan que se repita.",
+      "think": 14
+    }
+  ]
+}

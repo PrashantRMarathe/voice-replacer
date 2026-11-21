@@ -1,0 +1,647 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Low Cost Automation Is",
+      "example": "Gaurav's target: grille seating, done by hand with a rubber mallet.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Simple devices",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Less repetition, fewer errors",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "No full robot line",
+            "icon": "scale",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 400,
+          "icon": "hand",
+          "label": "mallet taps an hour",
+          "unit": "per operator",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Simple, reliable, economical devices",
+        "Remove repetitive work and errors",
+        "No full automation needed"
+      ],
+      "at": [
+        4.379,
+        9.491,
+        16.194
+      ],
+      "exampleAt": 25.948
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "The Core Philosophy",
+      "example": "A fancy robot was quoted at ₹18 lakh. Gaurav asked: what does the job really need?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Need, not complexity",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Simplify first",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "People in the loop",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Measure, maintain",
+            "icon": "wrench",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Automate the need, not the complexity",
+        "Simplify before automating",
+        "Keep people in the loop",
+        "Measure it, maintain it"
+      ],
+      "at": [
+        4.515,
+        12.668,
+        15.934,
+        21.22
+      ],
+      "exampleAt": 24.895
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "When LCA Makes Sense",
+      "example": "Grille seating: every cycle, wrist strain, and uneven seating. All four boxes ticked.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Repetitive",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Ergonomic risk",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Missed steps",
+            "icon": "cross",
+            "with": 2
+          },
+          {
+            "label": "Bottleneck",
+            "icon": "clock",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Frequent, repetitive motions",
+        "Ergonomic or safety risk",
+        "Steps missed or done the wrong way",
+        "Bottleneck, but no case for a robot"
+      ],
+      "at": [
+        3.663,
+        8.692,
+        13.163,
+        17.912
+      ],
+      "exampleAt": 27.277
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Low Cost, Never Low Safety",
+      "example": "Gaurav's rule: no device runs until the safety team signs the risk assessment.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Safety gate first",
+            "icon": "shield",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Guards, e-stops, risk review",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Signed before it runs",
+            "icon": "clipboard",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Safety is the first design gate",
+        "Guards, stops, risk assessment",
+        "A normal sensor isn't a safety device"
+      ],
+      "at": [
+        5.922,
+        12.027,
+        20.638
+      ],
+      "exampleAt": 25.705
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Levels of LCA",
+      "example": "Manual → assisted → semi-automatic → automatic.",
+      "visual": {
+        "type": "ladder",
+        "top": "AUTOMATIC",
+        "bottom": "MANUAL",
+        "items": [
+          {
+            "label": "Sensors and simple controls",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Pneumatic assist",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Mechanical assist",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Manual",
+            "icon": "hand",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Mechanical: gravity, springs, guides",
+        "Pneumatic: clamps, presses, grippers",
+        "Sensors and simple controls",
+        "Pick the lowest level that works"
+      ],
+      "at": [
+        3.216,
+        10.72,
+        15.861,
+        28.215
+      ],
+      "exampleAt": 23.933
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "The LCA Method",
+      "example": "Gaurav's baseline: 28 s cycle, 18 loose grilles per 1,000 speakers.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Observe, measure",
+            "with": 0
+          },
+          {
+            "label": "Simplify, define",
+            "with": 1
+          },
+          {
+            "label": "Concept, risk, prototype",
+            "with": 2
+          },
+          {
+            "label": "Validate, standardize, copy",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Observe and measure",
+        "Simplify, then define the function",
+        "Concept, risk review, prototype",
+        "Validate, standardize, replicate"
+      ],
+      "at": [
+        3.155,
+        9.259,
+        16.108,
+        22.869
+      ],
+      "exampleAt": 27.715
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "ECRS Before Automation",
+      "example": "Gaurav eliminated a separate tap-test step: the new press would confirm seating itself.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Eliminate",
+            "with": 0
+          },
+          {
+            "label": "Combine",
+            "with": 0
+          },
+          {
+            "label": "Rearrange",
+            "with": 0
+          },
+          {
+            "label": "Simplify",
+            "with": 0
+          },
+          {
+            "label": "Then automate",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Re-tap every grille",
+              "sub": "Eliminated",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Press confirms seating",
+              "sub": "Built in",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eliminate, combine, rearrange, simplify",
+        "Only then automate",
+        "Automated waste is still waste"
+      ],
+      "at": [
+        2.44,
+        7.231,
+        11.672
+      ],
+      "exampleAt": 20.359
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Gaurav's Opportunity",
+      "example": "Loose grilles: 18 per 1,000 speakers, all found at the rattle test.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Same motion every cycle",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Uneven force",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Wrist strain",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 18,
+          "icon": "wave",
+          "label": "loose grilles per 1,000",
+          "unit": "found at the rattle test",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Repeated motion every cycle",
+        "Uneven force, uneven seating",
+        "Wrist strain, every shift"
+      ],
+      "at": [
+        2.79,
+        13.143,
+        22.634
+      ],
+      "exampleAt": 26.042
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Choose Simple Technology",
+      "example": "Gaurav's choice: a small air cylinder, a locating nest and one presence sensor.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Air cylinder",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Locating nest",
+            "icon": "shape",
+            "with": "example"
+          },
+          {
+            "label": "Presence sensor",
+            "icon": "sensor",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Match technology to the function",
+        "Fewest parts, standard parts",
+        "Easy to clean, adjust and fix"
+      ],
+      "at": [
+        1.358,
+        12.937,
+        17.857
+      ],
+      "exampleAt": 25.267
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Design It Safe",
+      "example": "A two-hand start keeps both hands out of the press zone. Air pressure releases on stop.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Pinch points",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Two-hand start",
+            "icon": "hand",
+            "with": 1
+          },
+          {
+            "label": "Air released on stop",
+            "icon": "lock",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Find pinch points and stored energy",
+        "Guards and two-hand start",
+        "Safe stop, safe restart"
+      ],
+      "at": [
+        0.841,
+        6.86,
+        13.227
+      ],
+      "exampleAt": 21.362
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Gaurav's Press",
+      "example": "No grille, no press. Wrong position, no press. Seated: green lamp.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Nest locates",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Sensor confirms",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Controlled press",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Green: seated",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nest locates the speaker",
+        "Sensor confirms the grille is present",
+        "Controlled force, OK or not-OK lamp"
+      ],
+      "at": [
+        3.071,
+        7.8,
+        14.916
+      ],
+      "exampleAt": 19.626
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Count the Real Gain",
+      "example": "Real-world check: two short jams a shift, one minute each. The gain held.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Mallet",
+          "value": 28
+        },
+        "after": {
+          "label": "Press",
+          "value": 22
+        },
+        "suffix": " s",
+        "unit": "cycle time per speaker",
+        "note": "About 35 more an hour, in theory",
+        "with": 0
+      },
+      "bullets": [
+        "Cycle time: 28 s down to 22 s",
+        "Theoretical output: about 35 more an hour",
+        "Include stops and recovery"
+      ],
+      "at": [
+        1.224,
+        8.103,
+        18.97
+      ],
+      "exampleAt": 26.018
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Cost and Payback",
+      "example": "₹1.2 lakh invested ÷ ₹30,000 net benefit a month = 4-month payback.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Savings so far, ₹ thousand: paid back in month 4",
+        "with": "example",
+        "items": [
+          {
+            "label": "Month 1",
+            "value": 30,
+            "with": "example"
+          },
+          {
+            "label": "Month 2",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Month 3",
+            "value": 90,
+            "with": "example"
+          },
+          {
+            "label": "Month 4",
+            "value": 120,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Total cost of ownership",
+        "Net benefit, validated",
+        "Payback = investment ÷ monthly benefit"
+      ],
+      "at": [
+        1.291,
+        11.063,
+        17.789
+      ],
+      "exampleAt": 23.532
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Validate and Maintain",
+      "example": "Loose grilles: 18 → 2 per 1,000. Wrist complaints: none in 60 days.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Mallet",
+          "value": 18
+        },
+        "after": {
+          "label": "Press",
+          "value": 2
+        },
+        "unit": "loose grilles per 1,000 speakers",
+        "note": "No wrist complaints in 60 days",
+        "with": "example"
+      },
+      "bullets": [
+        "Trial all models and shifts",
+        "Preventive maintenance and spares",
+        "Clear fault codes and recovery"
+      ],
+      "at": [
+        0.921,
+        14.48,
+        19.93
+      ],
+      "exampleAt": 25.724
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Mistakes and Your Next Step",
+      "example": "Gaurav's press now runs on three lines, copied after checking each one fits.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Automating the unknown",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Technology first",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "No spares, no PM",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Copied to 3 lines",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Automating a process you don't understand",
+        "Choosing technology first",
+        "Forgetting maintenance and spares"
+      ],
+      "at": [
+        3.491,
+        7.64,
+        11.804
+      ],
+      "exampleAt": 27.959
+    }
+  ]
+}

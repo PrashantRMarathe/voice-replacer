@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Jidoka ist",
+      "example": "Anjalis Dosierer versiegelt die Frontblende jedes Patientenmonitors.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Erkennen",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Stoppen",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Korrigieren",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Verhindern",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Eine Abweichung erkennen",
+        "Stoppen oder eindämmen",
+        "Korrigieren, dann verhindern"
+      ],
+      "at": [
+        7.753,
+        11.683,
+        17.197
+      ],
+      "exampleAt": 21.637
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Ohne Jidoka und mit",
+      "example": "Ohne es: 140 dünne Dichtungen, am nächsten Morgen beim Dichtheitstest gefunden.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Ohne Jidoka",
+            "sub": "Fehler wandern, spät gefunden",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Mit Jidoka",
+            "sub": "An der Quelle gefangen",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 140,
+          "icon": "warning",
+          "label": "dünne Dichtungen am Morgen",
+          "unit": "beim Dichtheitstest gefunden",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Fehler wandern weiter oder werden an der Quelle gefangen",
+        "Zögern oder klare Stopp-Regeln",
+        "Prüfung oder eingebaute Qualität"
+      ],
+      "at": [
+        0.238,
+        6.803,
+        13.693
+      ],
+      "exampleAt": 26.229
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Woher es kommt",
+      "example": "Just-in-Time bewegt Material gut. Jidoka sorgt dafür, dass es Fehler nicht gut bewegt.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Webstuhl stoppt bei gerissenem Faden",
+            "sub": "Anfang der 1900er",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Säule des TPS",
+            "sub": "TPS",
+            "icon": "stack",
+            "with": 2
+          },
+          {
+            "label": "Keine Fehler weitergegeben",
+            "sub": "Heute",
+            "icon": "shield",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Der automatische Webstuhl von Sakichi Toyoda",
+        "Er stoppte, wenn ein Faden riss",
+        "Eine der zwei Säulen des TPS"
+      ],
+      "at": [
+        0.22,
+        9.567,
+        17.275
+      ],
+      "exampleAt": 21.213
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Menschen bleiben wichtig",
+      "example": "Anjalis Werkerin starrte die ganze Schicht auf die Raupe. Jetzt betreut sie zwei Stationen.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Eine Maschine beobachten",
+            "sub": "Ganze Schicht",
+            "icon": "search",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Zwei Stationen betreuen",
+            "sub": "Und Probleme lösen",
+            "icon": "person",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Maschinen beobachten, Menschen denken",
+        "Eine Person kann mehrere Maschinen betreuen",
+        "Urteil, Reparatur, Verbesserung"
+      ],
+      "at": [
+        4.844,
+        11.934,
+        16.584
+      ],
+      "exampleAt": 21.689
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Schritt 1: Erkennen",
+      "example": "Normale Raupe: 2,0 bis 2,4 mm breit, ohne Lücken.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Normal definieren",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Abdrift erfassen",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Tests, Überwachung",
+            "icon": "test",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2.0,
+          "decimals": 1,
+          "suffix": "–2.4 mm",
+          "icon": "pin",
+          "label": "normale Raupenbreite",
+          "unit": "keine Lücken",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Zuerst das Normale definieren",
+        "Dann die Abweichung erfassen",
+        "Sensoren, Prüfungen, Tests, Überwachung"
+      ],
+      "at": [
+        9.142,
+        17.775,
+        22.185
+      ],
+      "exampleAt": 27.994
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Schritte 2 bis 4: Stoppen, Korrigieren, Verhindern",
+      "example": "Korrigieren ist nicht Verhindern. Eine gereinigte Düse kann wieder verstopfen.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Stoppen oder eindämmen",
+            "with": 0
+          },
+          {
+            "label": "Korrigieren",
+            "with": 1
+          },
+          {
+            "label": "Verhindern",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Je nach Risiko stoppen oder eindämmen",
+        "Korrigieren: Standard wiederherstellen",
+        "Verhindern: Grundursache beseitigen"
+      ],
+      "at": [
+        0.251,
+        12.533,
+        20.658
+      ],
+      "exampleAt": 27.407
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Jidoka gegenüber reiner Automatisierung",
+      "example": "Anjalis Dosierer: vollautomatisch, aber blind. Er dosierte die ganze Nacht weiter.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Reine Automatisierung",
+            "sub": "Dosierte die ganze Nacht",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Jidoka",
+            "sub": "Stoppt und ruft",
+            "icon": "sensor",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Automatisierung macht die Arbeit",
+        "Jidoka beurteilt die Arbeit auch",
+        "Schnelle Maschinen machen schnelle Fehler"
+      ],
+      "at": [
+        0.255,
+        4.094,
+        22.213
+      ],
+      "exampleAt": 25.677
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Kernprinzipien",
+      "example": "Drei Fragen: Was ist normal? Wie erkennen wir eine Abweichung? Was passiert dann?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kein Fehler weitergegeben",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Keine Abweichung versteckt",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Keine Wiederholung ohne Maßnahme",
+            "icon": "key",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kein Fehler wird weitergegeben",
+        "Keine Abweichung wird versteckt",
+        "Keine Wiederholung ohne Maßnahme"
+      ],
+      "at": [
+        3.635,
+        6.521,
+        9.59
+      ],
+      "exampleAt": 27.961
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Andon",
+      "example": "Anjalis Regel: der Teamleiter beantwortet ein Gelb innerhalb von zwei Minuten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Grün: normal",
+            "sub": "Nach Standard weiter",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Gelb: Hilfe",
+            "sub": "Führungskraft kommt schnell",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Rot: Stopp",
+            "sub": "Eindämmen, eskalieren",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Grün: normal",
+        "Gelb: Hilfe nötig",
+        "Rot: stoppen, eindämmen, eskalieren"
+      ],
+      "at": [
+        5.742,
+        10.55,
+        16.432
+      ],
+      "exampleAt": 27.728
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Eine Andon-Kultur",
+      "example": "Andon-Rufe verdoppelten sich im ersten Monat und halbierten sich bis zum dritten.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Andon-Rufe pro Woche",
+        "with": 2,
+        "items": [
+          {
+            "label": "Vorher",
+            "value": 10,
+            "with": 2
+          },
+          {
+            "label": "Monat 1",
+            "value": 20,
+            "with": "example"
+          },
+          {
+            "label": "Monat 3",
+            "value": 10,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Ruf ist eine nützliche Information",
+        "Nie einen Stopp bestrafen",
+        "Rufe können zuerst steigen"
+      ],
+      "at": [
+        4.747,
+        10.284,
+        22.172
+      ],
+      "exampleAt": 25.614
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Die stärksten Maßnahmen zuerst",
+      "example": "Gutes Poka Yoke: einfach, nah an der Quelle, schwer zu umgehen, leicht zu prüfen.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM STÄRKSTEN",
+        "bottom": "AM SCHWÄCHSTEN",
+        "items": [
+          {
+            "label": "Beseitigen oder verhindern",
+            "icon": "shape",
+            "with": 0
+          },
+          {
+            "label": "Erkennen und stoppen",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Warnen",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Später prüfen",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Beseitigen, oder konstruktiv verhindern",
+        "Sofort erkennen und stoppen",
+        "Warnungen und Prüfung zuletzt"
+      ],
+      "at": [
+        3.985,
+        10.35,
+        15.168
+      ],
+      "exampleAt": 21.479
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Anjalis Jidoka-Station",
+      "example": "Erster echter Stopp: ein Monitor betroffen, nicht 140.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Sensor prüft jede Raupe",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Dosierer stoppt",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Andon, Sperre bis zum letzten Gutteil",
+            "icon": "warning",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 140
+          },
+          "after": {
+            "label": "Mit Jidoka",
+            "value": 1
+          },
+          "unit": "betroffene Monitore pro Düsenproblem",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Ein Sensor misst jede Raupe",
+        "Außerhalb der Grenzen: Dosierer stoppt",
+        "Andon, und Sperre bis zum letzten Gutteil"
+      ],
+      "at": [
+        3.067,
+        9.646,
+        13.839
+      ],
+      "exampleAt": 20.626
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Grundursache nach dem Stopp",
+      "example": "Klebstoff härtete in Pausen in der Düse aus. Kein Spülschritt im Standard.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Düse verstopft",
+            "with": 1
+          },
+          {
+            "label": "Klebstoff in Pausen ausgehärtet",
+            "with": "example"
+          },
+          {
+            "label": "Kein Spülschritt",
+            "with": "example"
+          },
+          {
+            "label": "Autospülung + Drucküberwachung",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Stoppen zeigt; Analyse verbessert",
+        "Warum fragen, mit Belegen",
+        "Beheben, dann standardisieren"
+      ],
+      "at": [
+        0.235,
+        7.337,
+        24.202
+      ],
+      "exampleAt": 10.167
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Das Richtige messen",
+      "example": "Erstdurchlaufquote: 97,5 % → 99,0 %. Durchschlupf: null in 90 Tagen.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 97.5
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 99.0
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "Erstdurchlaufquote",
+        "note": "Null Durchschlupf in 90 Tagen",
+        "with": "example"
+      },
+      "bullets": [
+        "Erstdurchlaufquote und Durchschlupf",
+        "Andon-Reaktionszeit",
+        "Wiederholte Abweichungen"
+      ],
+      "at": [
+        5.632,
+        12.129,
+        17.753
+      ],
+      "exampleAt": 23.422
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Rollen und Fahrplan",
+      "example": "Tage 0–30: Abweichung definieren. 31–60: erkennen und schulen. 61–90: Hauptwiederholungen beheben.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Abweichung definieren, Pilot",
+            "sub": "Tage 0–30",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Erkennen, schulen",
+            "sub": "31–60",
+            "icon": "sensor",
+            "with": 2
+          },
+          {
+            "label": "Hauptwiederholungen beheben",
+            "sub": "61–90",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Werker erkennen, rufen und stoppen",
+        "Führungskräfte reagieren und stellen wieder her",
+        "Eine Einführung in 30-60-90 Tagen"
+      ],
+      "at": [
+        2.633,
+        6.506,
+        18.118
+      ],
+      "exampleAt": 21.663
+    }
+  ]
+}

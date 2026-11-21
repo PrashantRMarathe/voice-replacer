@@ -227,14 +227,52 @@ class _F5Backend:  # pragma: no cover - requires the f5-tts model download
         # F5-TTS infers the reference transcript itself when ref_text is "".
         # It is reference-driven rather than language-coded, so ``language`` is
         # not passed; coverage depends on the loaded model. Pass the soft speed
-        # setting when the installed F5 version supports it.
+        # setting when the installed F5 version supports it, and the fixed seed
+        # so the same text always comes out the same way.
         model = self._load()
-        kwargs = dict(ref_file=speaker_wav, ref_text="", gen_text=text,
-                      file_wave=out_path)
+        kwargs = dict(ref_file=speaker_wav, ref_text="", gen_text=text)
+        seed = getattr(config, "F5_SEED", None)
+        if seed is not None:
+            kwargs["seed"] = seed
         try:
-            model.infer(speed=getattr(config, "XTTS_SPEED", 1.0), **kwargs)
+            wav, sr, _ = model.infer(speed=getattr(config, "XTTS_SPEED", 1.0), **kwargs)
         except TypeError:
-            model.infer(**kwargs)  # older F5 without a speed arg
+            wav, sr, _ = model.infer(**kwargs)  # older F5 without a speed arg
+
+        # F5 boosts a quiet reference to RMS 0.1 to generate, and is meant to
+        # scale the result back to the reference's loudness. Some versions skip
+        # that, leaving the voice ~11 dB hot and clipped ("spiky"). Do it here,
+        # BEFORE writing, so every version gives the reference's level.
+        import numpy as np
+        import soundfile as sf
+
+        wav = np.asarray(wav, dtype=np.float32)
+        ref_rms = _rms(_load_mono(speaker_wav, sr))
+        out_rms = float(np.sqrt(np.mean(wav ** 2))) if wav.size else 0.0
+        if ref_rms > 0 and out_rms > ref_rms * 1.12:
+            wav *= ref_rms / out_rms
+        peak = float(np.abs(wav).max()) if wav.size else 0.0
+        if peak > 0.89:  # keep peaks under -1 dBFS: no clipping on write
+            wav *= 0.89 / peak
+        sf.write(out_path, wav, sr, subtype="PCM_16")
+
+
+def _load_mono(path: str, sr: int):
+    """Decode any audio file to mono float32 at ``sr`` via ffmpeg."""
+    import subprocess
+
+    import numpy as np
+
+    raw = subprocess.run(
+        ["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(sr),
+         "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(raw, dtype=np.float32)
+
+
+def _rms(x) -> float:
+    import numpy as np
+
+    return float(np.sqrt(np.mean(np.square(x)))) if len(x) else 0.0
 
 
 # --------------------------------------------------------------------------- #

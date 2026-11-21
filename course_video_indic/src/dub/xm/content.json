@@ -1,0 +1,715 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "X-Matrix & Hoshin Kanri",
+      "example": "Arjun wants reliable delivery and fewer defects. Can he trace that goal to work on the floor?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Long-term objectives",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "This year's goals",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Improvement projects",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Targets and owners",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Your whole strategy on one page",
+        "Objectives → goals → projects → targets → owners",
+        "A short list of real actions",
+        "Not a chart for the wall"
+      ],
+      "at": [
+        3.941,
+        7.048,
+        18.504,
+        24.137
+      ],
+      "exampleAt": 27.961
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Origins & Alignment",
+      "example": "Arjun's site ran dozens of local Kaizens — only a few truly helped customer delivery.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Direction management",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Strategy meets daily work",
+            "icon": "calendar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Dozens of local Kaizens",
+              "sub": "Few helped delivery",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "A few resourced priorities",
+              "sub": "Two-way, not top-down",
+              "icon": "key",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Hoshin Kanri: direction management",
+        "Aligns direction with daily work",
+        "Limit priorities to what you can resource",
+        "Two-way, not top-down"
+      ],
+      "at": [
+        5.029,
+        8.613,
+        29.529,
+        33.294
+      ],
+      "exampleAt": 21.297
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Four Core Quadrants",
+      "example": "Arjun's chain runs from world-class quality down to one yield target.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Breakthrough",
+            "sub": "3–5 years",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Annual",
+            "sub": "This year",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Projects",
+            "sub": "The work",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "KPIs & targets",
+            "sub": "The proof",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Breakthrough objectives: 3–5 years",
+        "Annual objectives: this year",
+        "Improvement projects",
+        "KPIs and targets: the proof"
+      ],
+      "at": [
+        4.879,
+        10.764,
+        15.287,
+        21.215
+      ],
+      "exampleAt": 34.688
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Breakthrough Objectives",
+      "example": "Arjun's outcome: cut customer returns by two thirds, while output grows.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "3 to 5 big outcomes",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Result, horizon, baseline",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Goals that fight",
+            "sub": "Speed vs safety",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "suffix": "/3",
+          "icon": "chartDown",
+          "label": "fewer customer returns",
+          "unit": "While output grows: a result, not an activity",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "A few big outcomes: 3 to 5",
+        "Result, horizon, today's baseline",
+        "Check for goals that fight"
+      ],
+      "at": [
+        8.422,
+        12.956,
+        17.948
+      ],
+      "exampleAt": 23.368
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Annual Objectives",
+      "example": "Year one: part of the returns drop, agreed after studying field failures.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Annual objective · Year 1",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Baseline · target · period",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Data source named",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Catchball: is it feasible?",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Agreed from field failures",
+            "icon": "check",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Measurable results for this year",
+        "Baseline, target, period, data source",
+        "Catchball: test feasibility together"
+      ],
+      "at": [
+        1.613,
+        11.346,
+        18.97
+      ],
+      "exampleAt": 27.689
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Improvement Projects",
+      "example": "A barcode-to-BOM interlock blocks wrong components — success claimed only when tests and defect data agree.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Problem, scope, owner",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "More inspection",
+            "sub": "Rarely a breakthrough",
+            "icon": "search",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Impact vs effort",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Scan the part barcode",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Check against the BOM",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Wrong part? Blocked",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problem, scope, owner, milestones, check",
+        "More inspection rarely = breakthrough",
+        "Choose on evidence: impact vs effort"
+      ],
+      "at": [
+        5.951,
+        17.825,
+        21.758
+      ],
+      "exampleAt": 28.338
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Leading & Lagging KPIs",
+      "example": "On Arjun's line, 98% of units pass first time.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Lagging",
+            "sub": "Yield, returns, delivery",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Leading",
+            "sub": "Audits, setups, training",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "pass first time",
+          "unit": "First-pass yield on Arjun's line",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Lagging: results already got",
+        "Leading: conditions that predict them",
+        "Define denominator and data source",
+        "Don't reward redefined numbers"
+      ],
+      "at": [
+        4.211,
+        14.349,
+        23.897,
+        27.715
+      ],
+      "exampleAt": 34.502
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Correlation Strength",
+      "example": "Arjun's fixture interlock strongly cuts wrong parts — and barely touches energy use.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Wrong parts",
+          "Yield",
+          "Energy"
+        ],
+        "note": "Score the link, not the importance",
+        "items": [
+          {
+            "label": "Interlock",
+            "cells": [
+              3,
+              3,
+              null
+            ],
+            "with": "example"
+          },
+          {
+            "label": "SMED pilot",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Symbols show link strength",
+        "Agree the legend first",
+        "Score the link, not importance",
+        "Look for gaps and over-claims"
+      ],
+      "at": [
+        1.224,
+        15.544,
+        17.884,
+        23.065
+      ],
+      "exampleAt": 33.032
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Ownership & Catchball",
+      "example": "Set-top box test automation: Engineering, Production, Quality and IT help — one project leader stays accountable.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Responsible",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Accountable",
+            "sub": "One owner",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Consulted",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Informed",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "One accountable owner each",
+        "Name supporting teams",
+        "RACI: responsible, accountable, consulted, informed",
+        "Owner needs budget and authority"
+      ],
+      "at": [
+        4.99,
+        9.121,
+        14.919,
+        21.736
+      ],
+      "exampleAt": 27.691
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Construction Workshop",
+      "example": "In Arjun's workshop, three departments linked projects to one delivery target.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Evidence",
+            "with": 0
+          },
+          {
+            "label": "Scope, baseline",
+            "with": 1
+          },
+          {
+            "label": "Objectives",
+            "with": 1
+          },
+          {
+            "label": "Projects + KPI",
+            "with": 2
+          },
+          {
+            "label": "Links, owners",
+            "with": 3
+          },
+          {
+            "label": "Review rhythm",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Gather evidence first",
+        "Scope, baseline, objectives, outcomes",
+        "High-impact projects, each with a KPI",
+        "Score links, assign owners, set reviews"
+      ],
+      "at": [
+        5.622,
+        15.95,
+        23.997,
+        28.648
+      ],
+      "exampleAt": 34.724
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Worked Example",
+      "example": "Projects: a readiness dashboard, a barcode interlock and a SMED pilot.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Today",
+          "value": 90
+        },
+        "after": {
+          "label": "This year",
+          "value": 98
+        },
+        "suffix": "%",
+        "unit": "on-time delivery",
+        "note": "Planning owns it",
+        "with": 0,
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Readiness dashboard",
+              "sub": "Delivery",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Barcode interlock",
+              "sub": "Yield to 99%",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "SMED pilot",
+              "sub": "Changeover 50 → 20 min",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Delivery 90% → 98%",
+        "First-pass yield → 99%",
+        "Changeover 50 → 20 minutes",
+        "Planning, Quality, Engineering own one each"
+      ],
+      "at": [
+        15.672,
+        20.805,
+        24.942,
+        35.807
+      ],
+      "exampleAt": 28.663
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Review Cadence — PDCA",
+      "example": "Yield stalled even after training — so Arjun checked whether the process control really changed.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Exceptions, milestones",
+            "sub": "Daily / weekly",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "KPI trends, risks",
+            "sub": "Monthly",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Still on strategy?",
+            "sub": "Quarterly",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A living tool: Plan, Do, Check, Act",
+        "Daily / weekly: exceptions, milestones",
+        "Monthly: KPI trends and risks",
+        "Quarterly: still supports strategy?"
+      ],
+      "at": [
+        5.332,
+        14.169,
+        19.589,
+        23.248
+      ],
+      "exampleAt": 30.814
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Do's & Don'ts",
+      "example": "One project was marked complete, yet complaints held steady.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Few outcomes, clear owners",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Check links + resources",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Everything 'strong'",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Finished ≠ delivered",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "A few measurable outcomes, clear owners",
+        "Check causal links and resources",
+        "Not everything 'strongly linked'",
+        "Finished project ≠ delivered benefit"
+      ],
+      "at": [
+        10.482,
+        15.469,
+        20.717,
+        26.612
+      ],
+      "exampleAt": 34.668
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Cost–Benefit Math",
+      "example": "Defects 2% → 1.2% sounds small — it's a 40% relative drop. The interlock pays back in 6 months.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 2
+        },
+        "after": {
+          "label": "After",
+          "value": 1.2
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "defect rate",
+        "note": "A 40% relative drop · 6-month payback",
+        "with": "example"
+      },
+      "bullets": [
+        "On-time delivery = on time ÷ total due",
+        "Relative drop = drop ÷ old rate",
+        "Payback = investment ÷ monthly savings"
+      ],
+      "at": [
+        6.162,
+        11.679,
+        16.871
+      ],
+      "exampleAt": 24.852
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Roadmap",
+      "example": "What outcome? Which target? Which project? Which KPI? Who owns the result?",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Baselines, draft matrix",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Catchball, projects, owners",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Check links, review, audit",
+            "sub": "61–90",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–30: baselines, draft matrix",
+        "Days 31–60: catchball, projects, owners",
+        "Days 61–90: check links, review, audit"
+      ],
+      "at": [
+        8.182,
+        14.205,
+        20.533
+      ],
+      "exampleAt": 29.657
+    }
+  ]
+}

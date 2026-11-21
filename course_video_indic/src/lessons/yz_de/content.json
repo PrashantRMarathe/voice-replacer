@@ -1,0 +1,782 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Yamazumi ist",
+      "example": "Meeras Set-Top-Box-Zelle: vier Werker, vier gestapelte Balken, eine TAKT Linie.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gestapelte Balken",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "„Aufstapeln\"",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Die Aufgaben eines Werkers",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Über dem TAKT: hält nicht mit",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "B hält nicht mit",
+          "unit": "Meeras Zelle: Sekunden Arbeit je Station",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station B",
+              "value": 35,
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Station C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station D",
+              "value": 20,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ein gestapeltes Balkendiagramm der Arbeit je Station",
+        "Japanisch: „aufstapeln\"",
+        "Jeder Balken: die Aufgaben eines Werkers",
+        "Über der TAKT Linie = hält nicht mit"
+      ],
+      "at": [
+        2.918,
+        8.654,
+        12.295,
+        24.351
+      ],
+      "exampleAt": 32.931
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Zweck und Nutzen",
+      "example": "Ein Werker wartet, während ein anderer mit langem Verschrauben kämpft. Eine kleine Aufgabe zu verlegen könnte den Fluss glätten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ungleichgewicht auf einen Blick",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Besetzung auf Faktenbasis",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Wo Mehrfachqualifizierung hilft",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Technische Prüfungen bleiben nötig",
+            "icon": "wrench",
+            "tone": "bad",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Langes Verschrauben",
+              "sub": "Überlast",
+              "icon": "screw",
+              "with": "example"
+            },
+            {
+              "label": "Eine kleine Aufgabe verlegen",
+              "sub": "Glatter Fluss",
+              "icon": "sequence",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ungleichgewicht, Warten, Überlast auf einen Blick",
+        "Objektive Grundlage für die Besetzung",
+        "Zeigt, wo Mehrfachqualifizierung hilft",
+        "Ersetzt nie technische Prüfungen"
+      ],
+      "at": [
+        6.513,
+        12.089,
+        18.337,
+        33.89
+      ],
+      "exampleAt": 22.877
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "TAKT, Zykluszeit und Arbeitsinhalt",
+      "example": "420 Netto-Minuten ÷ 840 Einheiten = TAKT von 30 Sekunden. Station B braucht 35.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Nettozeit ÷ gute Einheiten",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Zykluszeit",
+            "sub": "Wie oft eine Einheit geht",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Arbeitsinhalt",
+            "sub": "Summe der Handarbeit",
+            "icon": "hand",
+            "with": 2
+          },
+          {
+            "label": "Maschinenzeit",
+            "sub": "Getrennt",
+            "icon": "gear",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 30,
+          "suffix": " s",
+          "icon": "clock",
+          "label": "TAKT Zeit",
+          "unit": "420 Netto-Minuten ÷ 840 Einheiten",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "TAKT: Nettozeit ÷ benötigte gute Einheiten",
+        "Zykluszeit: wie oft eine Einheit geht",
+        "Arbeitsinhalt: Summe der Handarbeit",
+        "Maschinenzeit getrennt halten"
+      ],
+      "at": [
+        2.859,
+        9.976,
+        16.053,
+        21.195
+      ],
+      "exampleAt": 24.207
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Aufbau des Diagramms",
+      "example": "Station A stapelt sich auf 22 Sekunden; Station B erreicht 35, deutlich über der Linie.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B liegt über der Linie",
+        "unit": "Ein Balken je Station, TAKT Linie waagrecht",
+        "with": 0,
+        "items": [
+          {
+            "label": "Station A",
+            "value": 22,
+            "tone": null,
+            "with": 0
+          },
+          {
+            "label": "Station B",
+            "value": 35,
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Balken je Werker oder Station",
+        "Sekunden an der Seite, TAKT Linie quer",
+        "Jeder Block = eine Aufgabe, in Folge",
+        "Farben zeigen Aufgabenarten, keine Noten"
+      ],
+      "at": [
+        3.059,
+        8.135,
+        15.563,
+        22.407
+      ],
+      "exampleAt": 31.335
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Verlässliche Zeitstudie",
+      "example": "Das Aufspielen der Firmware läuft, während der Werker schraubt, also misst Meera jedes Element getrennt.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Start und Ende festlegen",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Viele Zyklen, jede Schicht",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Wege, Stopps, Umrüstungen",
+            "icon": "walk",
+            "with": 2
+          },
+          {
+            "label": "Maschine, getrennt von Hand",
+            "icon": "gear",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Start und Ende jeder Aufgabe festlegen",
+        "Viele Zyklen, über Schichten",
+        "Wege, Kurzstopps, Umrüstungen erfassen",
+        "Maschinenzeit von Handzeit trennen"
+      ],
+      "at": [
+        8.133,
+        13.07,
+        18.88,
+        23.77
+      ],
+      "exampleAt": 27.448
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Die Arbeit einordnen",
+      "example": "Meeras Werker geht 5 Sekunden, um Schrauben zu holen. Behälter am Verwendungsort beseitigen diese Verschwendung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wertschöpfend",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Nötig: Prüfungen, Rückverfolgbarkeit",
+            "icon": "shield",
+            "with": 1
+          },
+          {
+            "label": "Verschwendung: Suchen, Gehen, Warten",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "ECRS, Prüfungen behalten",
+            "icon": "wrench",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "5 s Weg für Schrauben",
+              "sub": "Verschwendung",
+              "icon": "walk",
+              "with": "example"
+            },
+            {
+              "label": "Behälter am Verwendungsort",
+              "sub": "Weg beseitigt",
+              "icon": "tray",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Wertschöpfend: was der Kunde will",
+        "Nötig, aber ohne Wert: Prüfungen, Rückverfolgbarkeit",
+        "Verschwendung: Suchen, Gehen, Warten",
+        "ECRS, aber Qualitäts- und Sicherheitsprüfungen behalten"
+      ],
+      "at": [
+        3.623,
+        9.105,
+        15.71,
+        19.896
+      ],
+      "exampleAt": 34.514
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Den Ist-Zustand aufbauen",
+      "example": "TAKT 30 s: A = 22, B = 35, C = 27, D = 20. B liegt 5 Sekunden darüber, die erste Priorität.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "B liegt 5 s darüber: erste Priorität",
+        "unit": "Meeras Ist-Zustand",
+        "with": "example",
+        "items": [
+          {
+            "label": "Station A",
+            "value": 22,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "Station B",
+            "value": 35,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Station C",
+            "value": 27,
+            "tone": null,
+            "with": "example"
+          },
+          {
+            "label": "Station D",
+            "value": 20,
+            "tone": null,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Freigegebener Bedarf → TAKT",
+        "Ein Balken je Station, TAKT Linie gezogen",
+        "Das Diagramm mit der Wirklichkeit prüfen",
+        "Ein kurzer Balken ≠ freie Kapazität"
+      ],
+      "at": [
+        0.228,
+        6.032,
+        13.596,
+        39.806
+      ],
+      "exampleAt": 19.022
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Linienabstimmung",
+      "example": "Eine Etikettieraufgabe von 5 Sekunden wandert von B zu D: B = 30, D = 25. Dann pilotieren und neu messen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Arbeit verlegen, Methode verbessern",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Nicht exakt gleich",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Layout, Folge, Können, Prüfungen",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "ECRS vor zusätzlichen Leuten",
+            "icon": "person",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 30,
+          "suffix": " s",
+          "note": "Etikettieren 5 s von B → D",
+          "unit": "Nach der Änderung: pilotieren, neu messen",
+          "with": "example",
+          "items": [
+            {
+              "label": "Station A",
+              "value": 22,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station B",
+              "value": 30,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Station C",
+              "value": 27,
+              "tone": null,
+              "with": "example"
+            },
+            {
+              "label": "Station D",
+              "value": 25,
+              "tone": null,
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Aufgaben verlegen oder Methoden verbessern",
+        "Keine exakt gleichen Balken",
+        "Layout, Folge, Können, Prüfungen achten",
+        "ECRS vor zusätzlichen Leuten"
+      ],
+      "at": [
+        0.228,
+        9.079,
+        13.003,
+        20.666
+      ],
+      "exampleAt": 25.079
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Personal und Effizienz",
+      "example": "104 Sekunden Arbeit bei einem TAKT von 30 Sekunden = 4 Werker; Effizienz etwa 87 %.",
+      "visual": {
+        "type": "stat",
+        "value": 4,
+        "suffix": " Werker",
+        "icon": "person",
+        "label": "104 s Arbeit ÷ TAKT 30 s, aufgerundet",
+        "unit": "Abstimmungseffizienz etwa 87 %",
+        "with": "example"
+      },
+      "bullets": [
+        "Handarbeit ÷ TAKT, aufrunden",
+        "Abstimmungseffizienz: Arbeit gegen Kapazität",
+        "Eine Planungsuntergrenze, kein Versprechen",
+        "Leistung beweisen, bevor Personal sinkt"
+      ],
+      "at": [
+        3.514,
+        18.907,
+        29.207,
+        34.277
+      ],
+      "exampleAt": 9.849
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Engpässe und Maschinen",
+      "example": "Zwei Audiotester: 160 Einheiten/Stunde auf dem Papier, in Wahrheit etwa 140 gute.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Langer Balken ≠ Werkerproblem",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Gemeinsame Maschinen",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Hand · Automatik · Laden · Warten",
+            "icon": "clock",
+            "with": 2
+          },
+          {
+            "label": "Verfügbarkeit, Umrüstung, Ausbeute",
+            "icon": "chartDown",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Auf dem Papier",
+            "value": 160
+          },
+          "after": {
+            "label": "Echt, gut",
+            "value": 140
+          },
+          "unit": "Einheiten pro Stunde, zwei Audiotester",
+          "note": "Mit der echten Zahl planen",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Nicht jeder lange Balken ist ein Werker-Engpass",
+        "Gemeinsame Maschinen brauchen eine eigene Prüfung",
+        "Hand, Automatik, Laden, Warten trennen",
+        "Verfügbarkeit, Umrüstung, Ausbeute einrechnen"
+      ],
+      "at": [
+        2.589,
+        6.597,
+        15.445,
+        21.336
+      ],
+      "exampleAt": 27.385
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Linien mit gemischten Modellen",
+      "example": "Im Mix 27 s im Schnitt, beim Audiomodell aber 42 s: eine lange Charge stapelt Arbeit schnell.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 30,
+        "suffix": " s",
+        "note": "Der Durchschnitt verbirgt es",
+        "unit": "Eine Station, Sekunden pro Einheit",
+        "with": "example",
+        "items": [
+          {
+            "label": "Durchschnitt im Mix",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Audiomodell",
+            "value": 42,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Diagramm kann Ärger verbergen",
+        "Balken je Modell, schlimmster Fall",
+        "Flexibles, qualifiziertes Personal",
+        "Heijunka und SMED glätten den Mix"
+      ],
+      "at": [
+        4.335,
+        23.501,
+        28.823,
+        33.519
+      ],
+      "exampleAt": 8.023
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI und Bestätigung",
+      "example": "Planerfüllung zählt gute Einheiten gegen den Plan; die Erstdurchlaufquote zählt Einheiten, die beim ersten Mal bestehen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Eine Hypothese zum Beweisen",
+            "icon": "test",
+            "with": 0
+          },
+          {
+            "label": "Früh: Standardarbeit",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Spät: Leistung, Fehler, UPPH",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Ergonomie mit den Werkern",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein abgestimmtes Diagramm ist eine Hypothese",
+        "Früh: Einhaltung der Standardarbeit",
+        "Spät: gute Leistung, Fehler, UPPH",
+        "Ergonomie mit den Werkern prüfen"
+      ],
+      "at": [
+        0.253,
+        7.698,
+        13.618,
+        42.462
+      ],
+      "exampleAt": 30.796
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fall: Set-Top-Box-Zelle",
+      "example": "Unter 120 ist normal: Verfügbarkeit und Ausbeute kosten immer etwas.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 103
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 116
+        },
+        "unit": "gute Einheiten pro Stunde (Theorie: 120)",
+        "note": "Fertig nach zwei stabilen Wochen",
+        "with": 2
+      },
+      "bullets": [
+        "Vorher: B begrenzte die Leistung auf etwa 103/Stunde",
+        "Nachher: B auf 30 Sekunden",
+        "Etwa 116 gute/Stunde gegen 120 theoretisch",
+        "Erst nach zwei stabilen Wochen fertig"
+      ],
+      "at": [
+        4.43,
+        10.582,
+        15.342,
+        31.333
+      ],
+      "exampleAt": 24.964
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Was tun, was lassen",
+      "example": "Eine Barcode-Prüfung zu streichen sieht nach 6 gesparten Sekunden aus. Das ist keine Abstimmung, sondern ein Rückverfolgbarkeitsrisiko.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Echte Arbeit, aktuelle Daten",
+            "icon": "clock",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Werker, Qualität, Technik",
+            "icon": "person",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Sicherheit, ESD, Tests, Rückverfolgbarkeit",
+            "icon": "shield",
+            "tone": "good",
+            "with": 2
+          },
+          {
+            "label": "Bestfall, Personalabbau",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Echte Arbeit messen, Daten aktuell halten",
+        "Werker, Qualität, Technik einbeziehen",
+        "Sicherheit, ESD, Tests, Rückverfolgbarkeit schützen",
+        "Keine Bestfallzeiten, kein Personalabbau"
+      ],
+      "at": [
+        2.827,
+        7.625,
+        12.166,
+        17.8
+      ],
+      "exampleAt": 28.23
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan für 90 Tage",
+      "example": "Ein veraltetes Diagramm ist schlimmer als gar keins.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Pilotlinie, Zeitstudien, Ausgangswert",
+            "sub": "Tag 1–30",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "ECRS, neu abstimmen, qualifizieren",
+            "sub": "31–60",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "Bestätigen, SOP aktualisieren, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tag 1–30: Pilotlinie, Zeitstudien, Ausgangswert",
+        "Tag 31–60: ECRS, neu abstimmen, qualifizieren",
+        "Tag 61–90: bestätigen, SOP aktualisieren, ausweiten",
+        "Diagramme aktuell halten"
+      ],
+      "at": [
+        5.084,
+        14.113,
+        21.722,
+        31.314
+      ],
+      "exampleAt": 38.54
+    }
+  ]
+}

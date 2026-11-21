@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Was unterscheidet Jidoka von gewöhnlicher Automatisierung?",
+      "options": [
+        "Es läuft schneller",
+        "Es erkennt eine definierte Abweichung, stoppt und ruft einen Menschen",
+        "Es braucht keine Menschen"
+      ],
+      "correct": 1,
+      "explanation": "Automatisierung macht die Arbeit; Jidoka beurteilt sie auch. Es stoppt bei einer definierten Abweichung und ruft menschliche Hilfe, damit sich Fehler nicht vervielfachen.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Eine Werkerin sieht eine abweichende Dichtung, aber die Linie liegt hinter dem Ziel. Was sollte sie tun?",
+      "options": [
+        "Weitermachen und es am Schichtende melden",
+        "Andon rufen und das Teil sperren, wie es die Stopp-Regeln sagen",
+        "Es still selbst beheben und weitermachen"
+      ],
+      "correct": 1,
+      "explanation": "Kein Fehler weitergegeben, keine Abweichung versteckt. Andon rufen und das Teil sperren schützt den Kunden, auch wenn die Menge zurückliegt.",
+      "think": 15
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Ein Sensor stoppt die falsche Steckerausrichtung, bevor das Teil eingebaut wird. Welche Prüfebene ist das?",
+      "options": [
+        "Quellenprüfung",
+        "Selbstprüfung",
+        "Prüfung im nächsten Prozess"
+      ],
+      "correct": 0,
+      "explanation": "Sie prüft die Bedingung, die den Fehler erzeugen würde, bevor er entsteht. Das ist die Quellenprüfung, die stärkste Ebene.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Der Test findet immer wieder denselben lockeren Stecker aus der Montage, also setzt ein Manager einen Prüfer nach die Montage. Was ist besser?",
+      "options": [
+        "Sicherheitshalber einen zweiten Prüfer ergänzen",
+        "Den Prüfer behalten und die Ursache in der Montage beheben",
+        "Alle Prüfungen streichen, um Kosten zu sparen",
+        "Den Test bitten, es nicht mehr zu melden"
+      ],
+      "correct": 1,
+      "explanation": "Ein zusätzlicher Prüfer kann das Risiko vorerst eingrenzen, aber ein Wiederholfehler heißt, der Prozess muss an der Quelle behoben werden. Dann kann die vorläufige Prüfung weg.",
+      "think": 18
+    }
+  ]
+}

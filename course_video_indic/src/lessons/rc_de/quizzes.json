@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Das Fischgrätendiagramm eines Teams listet sechs mögliche Ursachen. Was beweist es?",
+      "options": [
+        "Der größte Ast ist die Grundursache",
+        "Noch nichts: jede Ursache muss getestet werden",
+        "Alle sechs Ursachen stimmen"
+      ],
+      "correct": 1,
+      "explanation": "Eine Fischgräte ordnet Hypothesen. Sie beweist nichts, bis jede Kandidatin durch einen Test bestätigt oder verworfen ist.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Ein Fehler mit falscher PCB wird gefunden. Die neue MES-Verriegelung ist bestellt, aber nicht eingebaut. Darf der gesperrte WIP freigegeben werden?",
+      "options": [
+        "Ja, die Lösung ist unterwegs",
+        "Nein, erst nach Prüfung und autorisierter Entscheidung freigeben",
+        "Ja, wenn der Werker neu geschult ist",
+        "Ja, wenn die nächste Schicht informiert ist"
+      ],
+      "correct": 1,
+      "explanation": "Eine bestellte Lösung schützt den Kunden nicht. Gesperrter Bestand wird erst nach Prüfung und Entscheidung im Qualitätsprozess freigegeben.",
+      "think": 19
+    }
+  ]
+}

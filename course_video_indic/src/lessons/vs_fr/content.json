@@ -1,0 +1,700 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce que montre une VSM",
+      "example": "Rahul suit un décodeur des cartes reçues jusqu'à l'expédition — signaux de planification et libération entrepôt compris.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Une famille de produits",
+            "icon": "box"
+          },
+          {
+            "label": "Matière + information",
+            "icon": "sequence"
+          },
+          {
+            "label": "Travail face à l'attente",
+            "icon": "clock"
+          },
+          {
+            "label": "Une image partagée",
+            "icon": "person"
+          }
+        ]
+      },
+      "bullets": [
+        "Une famille de produits, de la commande à la livraison",
+        "La matière et l'information qui la pilote",
+        "Travail à valeur ajoutée, attente, stock",
+        "Une image partagée de la réalité"
+      ],
+      "at": [
+        4.434,
+        10.054,
+        14.319,
+        20.673
+      ],
+      "exampleAt": 25.894
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Valeur, flux et gaspillage",
+      "example": "Le décodeur de Rahul : 15 minutes de fabrication et de test contre 2 jours d'attente de libération matière.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "2 jours d'attente",
+            "sub": "pour la libération matière",
+            "icon": "clock",
+            "with": "example"
+          },
+          {
+            "label": "15 minutes de vrai travail",
+            "sub": "fabriqué et testé",
+            "icon": "wrench",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Valeur : ce que le client paierait",
+        "Nécessaire aujourd'hui, mais sans valeur",
+        "Pur gaspillage : attente, transport, retouche"
+      ],
+      "at": [
+        0.227,
+        9.846,
+        16.503
+      ],
+      "exampleAt": 21.782
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Familles de produits et périmètre",
+      "example": "Les téléphones et les appareils audio partagent l'emballage mais sont testés très différemment — ils ont donc des cartes séparées.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Assemblage",
+          "Test téléphone",
+          "Test audio",
+          "Emballage"
+        ],
+        "note": "Même emballage, test différent : cartes séparées",
+        "items": [
+          {
+            "label": "Téléphones",
+            "cells": [
+              3,
+              3,
+              null,
+              3
+            ],
+            "with": 2
+          },
+          {
+            "label": "Audio",
+            "cells": [
+              3,
+              null,
+              3,
+              3
+            ],
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ne pas tout cartographier d'un coup",
+        "Famille : mêmes étapes et équipements",
+        "Grille produits × processus",
+        "Regrouper les produits qui partagent un parcours"
+      ],
+      "at": [
+        0.0,
+        2.987,
+        14.284,
+        19.879
+      ],
+      "exampleAt": 23.389
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Symboles et conventions",
+      "example": "Les éclairs Kaizen marquent les idées ; une ligne de temps sépare le traitement de l'attente. Ajoutez toujours une légende.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Client, fournisseur",
+            "icon": "box"
+          },
+          {
+            "label": "Boîtes de processus + de données",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Triangles : stock",
+            "icon": "stack"
+          },
+          {
+            "label": "Matière et information",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Icônes d'usine : client et fournisseur",
+        "Boîtes de processus + boîtes de données",
+        "Triangles : stock en attente",
+        "Flèches matière et flèches information"
+      ],
+      "at": [
+        5.155,
+        9.554,
+        20.874,
+        24.119
+      ],
+      "exampleAt": 29.596
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Tournée Gemba et données",
+      "example": "Le système de Rahul affichait un chiffre pour le WIP du test, son comptage physique un autre. Il les a réconciliés avant tout calcul.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Allez au Gemba",
+            "icon": "walk"
+          },
+          {
+            "label": "Remontez depuis l'expédition",
+            "icon": "sequence"
+          },
+          {
+            "label": "Chronométrez de vrais cycles",
+            "icon": "clock"
+          },
+          {
+            "label": "Comptez chaque stock tampon",
+            "sub": "Réconciliez avec le système",
+            "icon": "count",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Commencer au Gemba",
+        "Marcher de l'expédition vers le fournisseur",
+        "Chronométrer vous-même de vrais cycles",
+        "Compter le WIP à chaque stock tampon"
+      ],
+      "at": [
+        0.231,
+        5.066,
+        12.995,
+        19.019
+      ],
+      "exampleAt": 22.513
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Demande client et TAKT",
+      "example": "1 200 bons décodeurs en une équipe → TAKT de 21 secondes, environ 170 par heure. Un poste à 24 secondes ne peut pas suivre seul.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Le rythme du client",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Temps net ÷ bonnes unités",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Comparer chaque poste",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "TAKT",
+          "value": 21,
+          "suffix": " s",
+          "note": "ne peut pas suivre seul",
+          "unit": "1 200 bons décodeurs par équipe ≈ 170 par heure",
+          "with": "example",
+          "items": [
+            {
+              "label": "Un poste",
+              "value": 24,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT : le rythme dont votre client a besoin",
+        "Temps net ÷ bonnes unités, même période",
+        "Comparer chaque poste à lui"
+      ],
+      "at": [
+        0.222,
+        4.105,
+        25.533
+      ],
+      "exampleAt": 13.348
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La carte de l'état actuel",
+      "example": "La planification lançait des lots hebdomadaires ; le test ne pouvait suivre qu'un rythme journalier — les décodeurs s'accumulaient entre les deux.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Planification : lots hebdomadaires",
+            "icon": "calendar",
+            "with": "example"
+          },
+          {
+            "label": "Les décodeurs s'accumulent",
+            "sub": "Semi-finis, en attente",
+            "icon": "stack",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Test : un rythme journalier",
+            "icon": "test",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "La demande à droite, le travail vers l'amont",
+        "Des données sous chaque boîte",
+        "Dessiner le flux d'information",
+        "Le vérifier avec vos opérateurs"
+      ],
+      "at": [
+        2.994,
+        9.498,
+        12.458,
+        36.268
+      ],
+      "exampleAt": 21.098
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Délai et stocks",
+      "example": "Trois stocks tampons à 1 200 par jour = 3,5 jours d'attente contre 15 minutes de traitement.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Travail face à l'attente",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Stock tampon ÷ demande journalière",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Ratio de valeur ajoutée",
+            "sub": "Un signal, pas une preuve",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 3.5,
+          "decimals": 1,
+          "suffix": " jours",
+          "icon": "clock",
+          "label": "d'attente",
+          "unit": "contre seulement 15 minutes de traitement",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Ligne de temps : travail face à l'attente",
+        "Attente = stock tampon ÷ demande journalière",
+        "Ratio de valeur ajoutée : un signal, pas une preuve"
+      ],
+      "at": [
+        0.0,
+        4.223,
+        23.612
+      ],
+      "exampleAt": 10.027
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Contraintes et causes",
+      "example": "2 000 décodeurs en attente au test : trop peu de testeurs, des arrêts, le firmware ou des lancements en lots ? Vérifiez avant d'acheter.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Une carte montre où, pas pourquoi",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Files, urgences, retouches",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Pareto, cinq pourquoi, arête de poisson",
+            "icon": "gear",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Trop peu de testeurs ?",
+              "icon": "test",
+              "with": "example"
+            },
+            {
+              "label": "Des arrêts ?",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "Le firmware ?",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Des lancements en lots ?",
+              "icon": "stack",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Une carte montre où, pas pourquoi",
+        "Longues files, urgences, boucles de retouche",
+        "Creuser : Pareto, cinq pourquoi, arête de poisson"
+      ],
+      "at": [
+        0.212,
+        4.358,
+        9.496
+      ],
+      "exampleAt": 15.306
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "État futur : flux et flux tiré",
+      "example": "La conception de Rahul : l'assemblage et l'emballage partagent un couloir plafonné ; les cartes sont tirées d'un supermarché.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Cartes tirées d'un supermarché",
+            "icon": "tray"
+          },
+          {
+            "label": "Assemblage",
+            "icon": "wrench"
+          },
+          {
+            "label": "Un couloir FIFO plafonné",
+            "icon": "sequence"
+          },
+          {
+            "label": "Emballage : le stimulateur",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Flux continu au TAKT ou en dessous",
+        "Couloirs premier entré, premier sorti plafonnés",
+        "Supermarché avec signaux de tirage",
+        "Un seul processus stimulateur"
+      ],
+      "at": [
+        6.658,
+        13.549,
+        21.263,
+        25.111
+      ],
+      "exampleAt": 30.182
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Pitch, Kanban et réapprovisionnement",
+      "example": "Conditionnements de 20 → un pitch de 7 minutes. Un kit dure 6 minutes mais un réapprovisionnement en prend 12 : plus de kits, ou un réapprovisionnement plus rapide.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Pitch = TAKT × conditionnement",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "Taille du Kanban",
+            "icon": "label",
+            "with": 1
+          },
+          {
+            "label": "Prouvez le réapprovisionnement",
+            "icon": "check",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Conditionnements de 20 : un pitch de 7 minutes",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Un kit dure 6 min ; un réapprovisionnement en prend 12",
+              "icon": "clock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Plus de kits, ou un réapprovisionnement plus rapide",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Pitch = TAKT × quantité du conditionnement",
+        "Taille du Kanban : délai et demande",
+        "Prouver le réapprovisionnement avant de réduire le stock"
+      ],
+      "at": [
+        3.843,
+        18.306,
+        35.293
+      ],
+      "exampleAt": 12.364
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Cas pratique détaillé",
+      "example": "Le temps de file tombe sous deux jours — une baisse de 50 %. Mais il n'appuie pas encore sur le bouton.",
+      "visual": {
+        "type": "stat",
+        "value": 3.5,
+        "decimals": 1,
+        "suffix": " jours",
+        "icon": "clock",
+        "label": "de file d'attente aujourd'hui",
+        "unit": "4 200 unités en attente ÷ 1 200 par jour",
+        "with": 1,
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Aujourd'hui",
+            "value": 4200
+          },
+          "after": {
+            "label": "État futur",
+            "value": 2100
+          },
+          "unit": "unités en attente dans trois stocks tampons",
+          "note": "Temps de file divisé par deux (prévu)",
+          "with": 2
+        }
+      },
+      "bullets": [
+        "1 200 décodeurs par jour ; 4 200 en attente",
+        "3,5 jours de file d'attente",
+        "État futur : stocks tampons divisés par deux",
+        "Valider d'abord capacité, matière, qualité"
+      ],
+      "at": [
+        4.448,
+        13.033,
+        16.514,
+        30.542
+      ],
+      "exampleAt": 21.9
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI et bénéfices réels",
+      "example": "Moins de WIP libère environ ₹31 lakh de stock — de la trésorerie libérée une fois, pas un profit chaque année.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Tout le flux",
+            "icon": "sequence"
+          },
+          {
+            "label": "Délai, WIP, livraison, FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Référence, puis semaines",
+            "icon": "calendar"
+          },
+          {
+            "label": "Stock qui a seulement bougé",
+            "icon": "stack",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 31,
+          "prefix": "₹",
+          "suffix": " lakh",
+          "icon": "box",
+          "label": "de stock libéré",
+          "unit": "Trésorerie libérée une fois : pas un profit chaque année",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Mesurer tout le flux",
+        "Délai, WIP, livraison, FPY",
+        "Référence, puis vérifier sur des semaines",
+        "Méfiez-vous du stock qui a seulement bougé"
+      ],
+      "at": [
+        0.226,
+        4.329,
+        10.581,
+        16.006
+      ],
+      "exampleAt": 22.409
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Gouvernance et 90 jours",
+      "example": "Rahul a corrigé le goulot du test avant de réduire son stock tampon — sinon la ligne manque de matière.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Choisir la famille, cartographier l'actuel",
+            "sub": "Jours 1–30",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Concevoir le futur, piloter le flux tiré",
+            "sub": "31–60",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Stabiliser, auditer, élargir",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque fonction a un rôle",
+        "Jours 1–30 : choisir la famille, cartographier l'actuel",
+        "Jours 31–60 : concevoir le futur, piloter le flux tiré",
+        "Jours 61–90 : stabiliser, auditer, élargir"
+      ],
+      "at": [
+        0.227,
+        17.472,
+        23.177,
+        28.29
+      ],
+      "exampleAt": 33.262
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "À faire, à éviter et modèle",
+      "example": "Une carte avec seulement des boîtes de processus n'est pas une cartographie de la chaîne de valeur. C'est juste un organigramme.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mettre à jour quand ça change",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Flux réel, avec les opérateurs",
+            "icon": "person",
+            "tone": "good"
+          },
+          {
+            "label": "Cycle ≠ délai",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Capacité avant de réduire les tampons",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Mettre à jour quand la demande ou le parcours change",
+        "Cartographier le flux réel, avec les opérateurs",
+        "Temps de cycle ≠ délai",
+        "Vérifier la capacité avant de supprimer des tampons"
+      ],
+      "at": [
+        3.532,
+        8.634,
+        19.471,
+        27.377
+      ],
+      "exampleAt": 32.953
+    }
+  ]
+}

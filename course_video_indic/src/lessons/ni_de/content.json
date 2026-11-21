@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was Next Inspection ist",
+      "example": "Anitas Gehäusestation prüft jetzt zuerst die Steckerverriegelung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Keinen",
+            "sub": "Fehler machen",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Keinen",
+            "sub": "Fehler weitergeben",
+            "icon": "lock",
+            "with": 3
+          },
+          {
+            "label": "Keinen",
+            "sub": "Fehler annehmen",
+            "icon": "shield",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Jeder Prozess schützt den nächsten",
+        "Kritische Punkte vor der Übergabe bestätigen",
+        "Keinen Fehler machen",
+        "Keinen Fehler weitergeben",
+        "Keinen Fehler annehmen"
+      ],
+      "at": [
+        5.004,
+        8.121,
+        25.38,
+        27.68,
+        30.3
+      ],
+      "exampleAt": 32.864
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Warum früh fangen",
+      "example": "Lockerer Stecker: Sekunden in der Montage → öffnen, reparieren, neu testen nach dem Test → eine Rücksendung beim Kunden.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "In der Montage",
+            "sub": "Sekunden zum Beheben",
+            "icon": "wrench",
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Nach dem Test",
+            "sub": "Öffnen, reparieren, neu testen",
+            "icon": "test",
+            "with": "example"
+          },
+          {
+            "label": "Beim Kunden",
+            "sub": "Eine Rücksendung, und ein Schaden für den Ruf",
+            "icon": "box",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Fehler kosten bei jedem Schritt mehr",
+        "Früh erkennen = schnelle Rückmeldung",
+        "Mehr Prüfung ≠ Qualität"
+      ],
+      "at": [
+        0.254,
+        20.779,
+        30.856
+      ],
+      "exampleAt": 5.269
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Drei Prüfebenen",
+      "example": "Anitas Linie: ein Sensor prüft die Ausrichtung, der Monteur bestätigt die Verriegelung, der Tester das Modell.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM STÄRKSTEN: NAH AN DER QUELLE",
+        "bottom": "LETZTE VERTEIDIGUNGSLINIE",
+        "items": [
+          {
+            "label": "Quelle",
+            "icon": "sensor"
+          },
+          {
+            "label": "Selbst",
+            "icon": "hand"
+          },
+          {
+            "label": "Nächster Prozess",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Quelle: zuerst die Bedingung prüfen",
+        "Selbst: die eigene Arbeit prüfen",
+        "Nächster Prozess: vor der Annahme prüfen"
+      ],
+      "at": [
+        3.257,
+        10.309,
+        17.551
+      ],
+      "exampleAt": 24.207
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Der nächste Prozess ist mein Kunde",
+      "example": "Anitas Monteure fragten das Firmware-Team: Was braucht ihr von uns?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Ihre Station",
+            "sub": "Der SOP folgen",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Kritische Punkte prüfen",
+            "sub": "Produkt, Menge, Etikett, Zeitpunkt",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Nächster Prozess",
+            "sub": "Ihr Kunde",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Der nächste Prozess ist Ihr Kunde",
+        "Richtiges Produkt, Menge, Qualität, Etikett, Zeitpunkt",
+        "Nie wissentlich ein abweichendes Teil weitergeben",
+        "Über Andon melden"
+      ],
+      "at": [
+        4.022,
+        7.242,
+        22.162,
+        26.592
+      ],
+      "exampleAt": 29.464
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Führung macht es echt",
+      "example": "Eine Werkerin stoppte Anitas Linie wegen einer gesprungenen Linse. Ihr Manager dankte ihr vor dem Team.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Den Stopp stärken",
+            "icon": "shield"
+          },
+          {
+            "label": "Schnell reagieren",
+            "icon": "clock"
+          },
+          {
+            "label": "Lernen, nie beschuldigen",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Führung stärkt jeden, der für Qualität stoppt",
+        "Schnell reagieren, wenn gerufen",
+        "Fehler erfassen, um zu lernen, nie um zu beschuldigen"
+      ],
+      "at": [
+        12.046,
+        17.384,
+        22.02
+      ],
+      "exampleAt": 27.587
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Was prüfen?",
+      "example": "Anita wählte vier: Steckerverriegelung, Firmware-Version, Gehäusedichtung und Etikett.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kunden-CTQ",
+            "sub": "Funktion, Sicherheit, Passung",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "FMEA + Durchschlupfe",
+            "sub": "Was immer wieder durchrutscht",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Einschleichpunkte",
+            "sub": "Falsches Teil, Einstellung, Etikett",
+            "icon": "label",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Steckerverriegelung",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Firmware-Version",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Gehäusedichtung",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Etikett",
+              "icon": "label",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Prüfungen nach Risiko wählen",
+        "Kunden-CTQ: Funktion, Sicherheit, Passung",
+        "FMEA und wiederholte Durchschlupfe",
+        "Wo kann ein falsches Teil oder Etikett hineinrutschen?"
+      ],
+      "at": [
+        4.332,
+        7.301,
+        16.891,
+        23.462
+      ],
+      "exampleAt": 30.367
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Ein Prüftor gestalten",
+      "example": "Anitas Dichtungstor: Grenzmuster auf dem Tisch und eine rote Kiste für Ausschuss.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Gut- und Schlechtmuster",
+            "icon": "shape"
+          },
+          {
+            "label": "Die Methode",
+            "icon": "sensor"
+          },
+          {
+            "label": "Wie oft",
+            "icon": "clock"
+          },
+          {
+            "label": "Die Reaktion",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Gut und schlecht festlegen, mit Mustern",
+        "Die Methode wählen",
+        "Die Prüfhäufigkeit festlegen",
+        "Die Reaktion vorab festlegen"
+      ],
+      "at": [
+        5.283,
+        12.247,
+        19.835,
+        23.577
+      ],
+      "exampleAt": 29.247
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Der Reaktionsplan",
+      "example": "Falsche Firmware im Test: jede Einheit seit der letzten guten Prüfung wurde gesperrt.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Stopp: Andon",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Erfassen",
+            "sub": "Fehler, Modell, Seriennummer",
+            "icon": "search"
+          },
+          {
+            "label": "Eingrenzen",
+            "sub": "Bis zur letzten guten Einheit",
+            "icon": "lock"
+          },
+          {
+            "label": "Korrigieren, bestätigen, vorbeugen",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Stoppen oder mit Andon melden",
+        "Fehler, Modell, Seriennummer erfassen",
+        "Bis zur letzten guten Einheit eingrenzen",
+        "Korrigieren, bestätigen, vorbeugen"
+      ],
+      "at": [
+        4.477,
+        7.937,
+        12.729,
+        17.62
+      ],
+      "exampleAt": 29.221
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Hilfreiche Lean-Werkzeuge",
+      "example": "Anita ersetzte eine Sichtprüfung des Etiketts durch einen Scan-Abgleich. Jetzt kann das falsche Etikett nicht drucken.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "Jidoka + Andon",
+            "icon": "warning"
+          },
+          {
+            "label": "Standardarbeit",
+            "icon": "clipboard"
+          },
+          {
+            "label": "FMEA + Audits",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Sichtprüfung des Etiketts",
+              "sub": "Leicht zu übersehen",
+              "icon": "search"
+            },
+            {
+              "label": "Scan-Abgleich",
+              "sub": "Falsches Etikett druckt nicht",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Poka Yoke stoppt das falsche Teil oder den falschen Schritt",
+        "Jidoka und Andon stoppen und rufen Hilfe",
+        "Standardarbeit macht gut und schlecht sichtbar",
+        "FMEA legt Risiken fest, Audits prüfen Kontrollen"
+      ],
+      "at": [
+        5.138,
+        10.385,
+        14.969,
+        20.575
+      ],
+      "exampleAt": 28.115
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Beispiele aus der Elektronik",
+      "example": "Jede Prüfung sitzt direkt nach dem Schritt, den sie schützt. Die Endprüfung ist das letzte Sicherheitsnetz.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "SMT",
+            "sub": "Optische Prüfung, geprüfte Feeder",
+            "icon": "chip"
+          },
+          {
+            "label": "Montage",
+            "sub": "PCB-Barcode, Schraubenzähler",
+            "icon": "barcode"
+          },
+          {
+            "label": "Firmware",
+            "sub": "Versionsverriegelung",
+            "icon": "lock"
+          },
+          {
+            "label": "Verpackung",
+            "sub": "Gewichtsprüfung und Scans",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "SMT: optische Prüfung, geprüfte Feeder",
+        "Montage: Barcode für die PCB, Schraubenzähler",
+        "Firmware: Versionsverriegelung",
+        "Verpackung: Gewichtsprüfung und Scans"
+      ],
+      "at": [
+        2.754,
+        10.696,
+        18.023,
+        23.445
+      ],
+      "exampleAt": 31.007
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Qualität an der Quelle",
+      "example": "Anitas Linie hatte einst nach jeder Station einen Prüfer. Sie setzte drei in Vorbeugeprojekte.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Vorn wird nach Standard gebaut",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Hinten wird nur Gutes angenommen",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Probleme gehen zurück zur Quelle",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Ein Prüfer nach jeder Station",
+              "sub": "Teuer; verbirgt schwache Prozesse",
+              "icon": "person"
+            },
+            {
+              "label": "3 in die Vorbeugung",
+              "sub": "Qualität an der Quelle",
+              "icon": "shield"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Vorn wird nach Standard gebaut",
+        "Hinten wird nur Gutes angenommen",
+        "Probleme gehen zurück zur Station, die sie verursacht hat",
+        "Vorsicht vor der Prüffalle"
+      ],
+      "at": [
+        4.561,
+        7.578,
+        11.264,
+        19.94
+      ],
+      "exampleAt": 28.213
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Können Sie der Prüfung trauen?",
+      "example": "Anitas zwei Prüfer waren sich bei einer von fünf Dichtungen uneinig. Bessere Muster lösten das.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Falsche Annahme",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Falsche Ablehnung",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Klare Definitionen",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Geschulte Prüfer",
+            "icon": "person"
+          },
+          {
+            "label": "Kalibrieren, MSA",
+            "icon": "gear"
+          },
+          {
+            "label": "Licht",
+            "icon": "sensor"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "prefix": "1 / ",
+          "icon": "search",
+          "label": "Dichtungen, bei denen die Prüfer uneinig waren",
+          "unit": "Bessere Grenzmuster lösten es",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Falsche Annahmen lassen Fehler durch",
+        "Falsche Ablehnungen verleiten zum Umgehen",
+        "Klare Definitionen, Fotos, Grenzmuster",
+        "Prüfer schulen",
+        "Lehren kalibrieren, MSA durchführen",
+        "Licht und Sichtabstand steuern"
+      ],
+      "at": [
+        4.409,
+        8.205,
+        14.888,
+        20.564,
+        23.078,
+        27.677
+      ],
+      "exampleAt": 31.855
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI für Next Inspection",
+      "example": "Quote steigt, Prüfaufwand sinkt = Sie gewinnen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Erstdurchlaufquote",
+            "sub": "Hoch",
+            "icon": "chartUp",
+            "tone": "good"
+          },
+          {
+            "label": "Durchschlupfquote",
+            "sub": "Runter",
+            "icon": "chartDown",
+            "tone": "good"
+          },
+          {
+            "label": "Nacharbeit, Reaktionszeit",
+            "icon": "clock"
+          },
+          {
+            "label": "Fehlalarme",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Erstdurchlaufquote steigt",
+        "Durchschlupfquote sinkt",
+        "Nacharbeit, Wiederholfehler, Reaktionszeit",
+        "Fehlalarme erfasst"
+      ],
+      "at": [
+        3.566,
+        7.272,
+        15.977,
+        25.71
+      ],
+      "exampleAt": 32.503
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Fallstudie: Kameralinie",
+      "example": "Nach 8 Wochen: Durchschlupfe 18 → 3 pro Woche, Nacharbeit mehr als halbiert, Erstdurchlaufquote 98,5 %.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Prüfungen an 4 Risikopunkten",
+            "icon": "search",
+            "tone": "good"
+          },
+          {
+            "label": "Reaktionsplan an jedem Tor",
+            "icon": "clipboard",
+            "tone": "good"
+          },
+          {
+            "label": "Dichtung + Etikett verriegelt",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Wöchentliche Durchschlupfprüfung",
+            "icon": "calendar",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 18
+          },
+          "after": {
+            "label": "Nach 8 Wochen",
+            "value": 3
+          },
+          "unit": "Durchschlupfe pro Woche",
+          "note": "Erstdurchlaufquote 98,5 %",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Übergabeprüfungen an 4 Risikopunkten",
+        "Reaktionsplan an jedem Tor",
+        "Dichtungs- und Etikettprüfung wurden Verriegelungen",
+        "Wöchentliche Durchschlupfprüfung mit der Quelle"
+      ],
+      "at": [
+        2.37,
+        7.091,
+        11.663,
+        16.553
+      ],
+      "exampleAt": 22.373
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan und tägliche Checkliste",
+      "example": "Tägliche Fragen: Sind die Kriterien sichtbar? Können Ihre Werker den Reaktionsplan erklären?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Nach Risiko wählen",
+            "with": 0
+          },
+          {
+            "label": "Fluss abbilden",
+            "with": 0
+          },
+          {
+            "label": "Prüfungen gestalten",
+            "with": 1
+          },
+          {
+            "label": "Pilot an einer Linie",
+            "with": 2
+          },
+          {
+            "label": "Standardisieren",
+            "with": 3
+          },
+          {
+            "label": "Täglich fragen",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nach Risiko und Pareto wählen, den Fluss abbilden",
+        "Prüfungen mit Reaktionsplänen gestalten",
+        "Pilot an einer Linie, vorher / nachher vergleichen",
+        "SOP, FMEA, Schulung standardisieren"
+      ],
+      "at": [
+        3.386,
+        12.718,
+        20.194,
+        26.211
+      ],
+      "exampleAt": 31.751
+    }
+  ]
+}

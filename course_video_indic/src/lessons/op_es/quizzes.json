@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un borrador de OPL cubre inserción del conector, torque de tornillos, revisión de etiquetas y ESD en una hoja. ¿Cuál es el problema?",
+      "options": [
+        "Necesita más texto",
+        "Tiene demasiados puntos — divídelo en varias OPL",
+        "Debería ir solo a color"
+      ],
+      "correct": 1,
+      "explanation": "Una OPL enseña UN punto. Cuatro temas en una hoja diluyen el mensaje — mejor haz cuatro OPL enfocadas.",
+      "think": 16
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Todos firmaron la OPL hace dos semanas, pero el mismo defecto regresó. ¿Qué debe hacer PRIMERO el supervisor?",
+      "options": [
+        "Hacer que todos vuelvan a firmar",
+        "Observar el trabajo y revisar el estándar, el método y la lección",
+        "Culpar a los operadores que firmaron",
+        "Quitar la OPL de la línea"
+      ],
+      "correct": 1,
+      "explanation": "Las firmas no prueban el aprendizaje. Ve a observar: ¿se sigue el método, el estándar está bien, la OPL es clara? Luego corrige la causa.",
+      "think": 14
+    }
+  ]
+}

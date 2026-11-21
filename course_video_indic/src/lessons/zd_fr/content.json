@@ -1,0 +1,772 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Sens et philosophie",
+      "example": "La ligne de Priya : un poste confirme maintenant que le connecteur est enfoncé avant le test électrique.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Chaque défaut évitable",
+            "icon": "shield",
+            "with": 0
+          },
+          {
+            "label": "Bien du premier coup",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Concevoir le processus",
+            "icon": "gear",
+            "with": 2
+          },
+          {
+            "label": "Une discipline",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Connecteur enfoncé ?",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Puis le test électrique",
+              "icon": "test",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Chaque défaut peut être évité",
+        "Bien du premier coup",
+        "Concevoir et maîtriser le processus",
+        "Une discipline, pas une promesse"
+      ],
+      "at": [
+        3.224,
+        8.529,
+        12.358,
+        15.473
+      ],
+      "exampleAt": 20.653
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Histoire et valeur pour l'entreprise",
+      "example": "Pour gagner le soutien des dirigeants, il faut montrer l'argent.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Qualité = conformité aux exigences",
+            "sub": "Crosby, 1960s",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Qualité intégrée, détrompage",
+            "sub": "Le Lean moderne",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Corriger le système, pas la personne",
+            "sub": "Aujourd'hui",
+            "icon": "gear",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Crosby, années 1960 : qualité = conformité aux exigences",
+        "Le Lean ajoute la qualité intégrée et le détrompage",
+        "Corriger le système, pas la personne",
+        "Les responsables lèvent les obstacles ; les opérateurs arrêtent et réagissent"
+      ],
+      "at": [
+        0.238,
+        12.853,
+        22.578,
+        26.742
+      ],
+      "exampleAt": 33.629
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Le coût de la non-qualité",
+      "example": "La ligne de Priya : 400 téléphones retouchés = ₹32 000 de retouche directe — avant même une seule expédition en retard.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Interne",
+            "sub": "Rebut, retouche, retest",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Externe",
+            "sub": "Garantie, retours",
+            "icon": "box",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Caché",
+            "sub": "Retards, manutention, capacité",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 32000,
+          "prefix": "₹",
+          "icon": "wrench",
+          "label": "de retouche directe",
+          "unit": "400 téléphones retouchés en un mois",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Défaillance interne : rebut, retouche, retest",
+        "Défaillance externe : garantie, retours",
+        "Cachés : retards, manutention, capacité perdue",
+        "Prévenir coûte bien moins cher"
+      ],
+      "at": [
+        3.89,
+        8.864,
+        14.077,
+        31.975
+      ],
+      "exampleAt": 20.676
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "FTR, FPY et RTY",
+      "example": "Trois étapes à 98 % chacune ne donnent qu'environ 94 % ensemble.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bien du premier coup",
+            "sub": "Aucune correction",
+            "icon": "check",
+            "with": 0
+          },
+          {
+            "label": "Rendement au premier passage",
+            "sub": "Réussir une étape du premier coup",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Rendement cumulé",
+            "sub": "Multiplier chaque étape",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "98% × 98% × 98% ≈ 94%",
+          "suffix": "%",
+          "with": "example",
+          "items": [
+            {
+              "label": "Étape 1",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Étape 2",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Étape 3",
+              "value": 98,
+              "with": "example"
+            },
+            {
+              "label": "Ensemble",
+              "value": 94,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Bien du premier coup : aucune correction",
+        "Rendement au premier passage : réussir une étape du premier coup",
+        "Rendement cumulé : multiplier chaque étape"
+      ],
+      "at": [
+        3.188,
+        8.285,
+        13.844
+      ],
+      "exampleAt": 19.921
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "PPM, DPMO et cibles",
+      "example": "Priya a trouvé 25 mauvais téléphones sur 50 000 = 500 PPM.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "PPM",
+            "sub": "Unités défectueuses par million",
+            "icon": "count",
+            "with": 0
+          },
+          {
+            "label": "DPMO",
+            "sub": "Défauts par million d'opportunités",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 500,
+          "suffix": " PPM",
+          "icon": "count",
+          "label": "25 mauvais téléphones sur 50 000",
+          "unit": "Indiquez toujours la taille d'échantillon et le périmètre",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "PPM : unités défectueuses par million",
+        "DPMO : défauts par million d'opportunités",
+        "Indiquer la taille d'échantillon et le périmètre",
+        "Ne jamais comparer PPM et DPMO"
+      ],
+      "at": [
+        4.267,
+        8.159,
+        23.719,
+        27.615
+      ],
+      "exampleAt": 16.954
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "La qualité à la source",
+      "example": "Ligne de décodeurs : les opérateurs vérifient le pad thermique et le couple des vis avant qu'une unité avance.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Responsable de sa production",
+            "icon": "hand",
+            "with": 0
+          },
+          {
+            "label": "Poste suivant = client",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Entrées, réglage, SOP",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Arrêter, isoler, escalader",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque opération est responsable de sa production",
+        "Poste suivant = votre client",
+        "Vérifier entrées et réglage, suivre le SOP",
+        "Anormal ? Arrêter, isoler, escalader"
+      ],
+      "at": [
+        2.159,
+        6.297,
+        9.55,
+        15.325
+      ],
+      "exampleAt": 22.725
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Poka Yoke",
+      "example": "Le gabarit du connecteur de batterie de Priya ne rentre que dans un sens ; le téléphone n'avance pas tant que le contrôle n'est pas enregistré.",
+      "visual": {
+        "type": "ladder",
+        "top": "LE PLUS FORT",
+        "bottom": "LE PLUS FAIBLE",
+        "items": [
+          {
+            "label": "Le rendre impossible",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "L'attraper immédiatement",
+            "icon": "sensor",
+            "with": 1
+          },
+          {
+            "label": "Étiquette d'avertissement",
+            "icon": "warning",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Le gabarit ne rentre que dans un sens",
+              "icon": "shape",
+              "with": "example"
+            },
+            {
+              "label": "Contrôle enregistré",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Alors seulement le téléphone avance",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Poka Yoke = détrompage",
+        "Rendre les erreurs impossibles, ou les attraper",
+        "La prévention bat une étiquette d'avertissement",
+        "Tester avec de bons et de mauvais échantillons"
+      ],
+      "at": [
+        3.128,
+        5.451,
+        11.742,
+        27.33
+      ],
+      "exampleAt": 17.366
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Jidoka, Andon et réaction",
+      "example": "Un testeur audio signale un déséquilibre de canal répété : la ligne s'arrête et les unités suspectes sont bloquées.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Anomalie détectée",
+            "sub": "Jidoka",
+            "icon": "sensor",
+            "with": 0
+          },
+          {
+            "label": "Andon : la rendre visible",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Arrêter, bloquer les suspects",
+            "icon": "lock",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Redémarrer quand c'est maîtrisé",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Jidoka : le processus s'arrête de lui-même",
+        "L'Andon rend le problème visible",
+        "Des critères d'arrêt clairs, un responsable nommé",
+        "Redémarrer seulement quand la cause est maîtrisée"
+      ],
+      "at": [
+        0.215,
+        5.574,
+        11.24,
+        28.366
+      ],
+      "exampleAt": 16.992
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Travail standard et audits",
+      "example": "La libération du firmware exige l'image approuvée, une recette correspondante et une somme de contrôle.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Travail standard · Poste firmware",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Première unité vérifiée après changement",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Image approuvée + recette correspondante",
+            "icon": "chip",
+            "with": "example"
+          },
+          {
+            "label": "Somme de contrôle avant libération",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "Audit par couches : les contrôles, pas les papiers",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Travail standard : la meilleure méthode, la plus sûre",
+        "Vérifier la première unité après un changement de série",
+        "Les audits par couches confirment les contrôles",
+        "Auditer les contrôles, pas les papiers"
+      ],
+      "at": [
+        2.722,
+        14.396,
+        17.13,
+        22.853
+      ],
+      "exampleAt": 26.118
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "SPC et capabilité du processus",
+      "example": "Couple de vissage sur la ligne de Priya : une variation serrée et centrée donne un Cpk ≈ 1,33. C'est capable.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bruit ou vrai signal",
+            "icon": "wave",
+            "with": 0
+          },
+          {
+            "label": "Cp : dispersion face à la spécification",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Cpk : centré aussi",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Processus stable, jauge étalonnée",
+            "icon": "gear",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 1.33,
+          "decimals": 2,
+          "icon": "screw",
+          "label": "Cpk du couple de vissage",
+          "unit": "Variation serrée et centrée : capable",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "SPC : variation normale ou vrais signaux",
+        "Cp : dispersion face à la spécification",
+        "Cpk : vérifie aussi le centrage",
+        "Seulement avec un processus stable et une jauge étalonnée"
+      ],
+      "at": [
+        4.146,
+        8.724,
+        13.644,
+        17.764
+      ],
+      "exampleAt": 22.506
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "PFMEA et plans de contrôle",
+      "example": "Un isolant manquant peut causer un court-circuit → verrouillage de présence + règle d'arrêt et de blocage.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "PFMEA : comment ça peut échouer",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Plan de contrôle : de vrais contrôles",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Méthode · fréquence · responsable · réaction",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Isolant manquant",
+              "sub": "Peut causer un court-circuit",
+              "icon": "warning",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Verrouillage de présence",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Règle d'arrêt et de blocage",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "PFMEA : comment chaque étape peut échouer, et pourquoi",
+        "Le plan de contrôle en fait de vrais contrôles",
+        "Méthode · fréquence · responsable · réaction",
+        "Mettre les deux à jour après de vraies défaillances"
+      ],
+      "at": [
+        4.766,
+        10.935,
+        14.439,
+        30.999
+      ],
+      "exampleAt": 20.043
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Analyse des causes racines",
+      "example": "L'équipe de Priya a remonté ses échecs de charge jusqu'à un connecteur mal enfoncé.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Définir avec précision",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Confiner le stock suspect",
+            "icon": "lock",
+            "with": 1
+          },
+          {
+            "label": "Faits, cinq pourquoi, tests",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Pourquoi créé ? Pourquoi pas arrêté ?",
+            "icon": "search",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Définir le problème avec précision",
+        "Confiner d'abord le stock suspect",
+        "Faits, cinq pourquoi, tests contrôlés",
+        "Pourquoi est-ce arrivé ? Pourquoi n'a-t-on pas arrêté ?"
+      ],
+      "at": [
+        6.407,
+        10.059,
+        13.039,
+        19.338
+      ],
+      "exampleAt": 27.234
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Cas pratique : téléphone mobile",
+      "example": "Les échecs sont tombés à 0,5 % — une réduction de 83 %.",
+      "visual": {
+        "type": "stat",
+        "value": 3,
+        "suffix": "%",
+        "icon": "power",
+        "label": "ont échoué au premier test de charge",
+        "unit": "1 200 téléphones sur 40 000",
+        "with": 0,
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 3
+          },
+          "after": {
+            "label": "Après",
+            "value": 0.5
+          },
+          "decimals": 1,
+          "suffix": "%",
+          "unit": "téléphones échouant au premier test de charge",
+          "note": "Une réduction de 83 %",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "1 200 sur 40 000 en échec : 3 %",
+        "Données découpées par lot, gabarit, poste, équipe",
+        "Gabarit détrompé + contrôle automatique de mise en place",
+        "FMEA et SOP mis à jour"
+      ],
+      "at": [
+        2.427,
+        10.184,
+        18.733,
+        32.25
+      ],
+      "exampleAt": 24.545
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Décodeur et audio",
+      "example": "Décodeur : firmware, alimentation, étiquettes. Audio : polarité, étanchéité, équilibre des canaux.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Décodeur",
+            "sub": "Firmware lié au SKU",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Audio",
+            "sub": "Connecteurs détrompés, unités étalons",
+            "icon": "wave",
+            "with": 2
+          },
+          {
+            "label": "Emballage",
+            "sub": "Numéro de série lié au carton",
+            "icon": "barcode",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Même logique, contrôles adaptés",
+        "Décodeur : firmware lié au SKU",
+        "Audio : connecteurs détrompés, unités étalons",
+        "Emballage : numéro de série lié au carton"
+      ],
+      "at": [
+        3.986,
+        13.008,
+        25.357,
+        30.191
+      ],
+      "exampleAt": 6.975
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPI et feuille de route sur 90 jours",
+      "example": "Les 30 derniers jours : vérifiez les gains et déployez-les sur chaque ligne.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Référence et confinement",
+            "sub": "Jours 1–30",
+            "icon": "lock",
+            "with": 2
+          },
+          {
+            "label": "Causes racines, pilote Poka Yoke",
+            "sub": "31–60",
+            "icon": "search",
+            "with": 3
+          },
+          {
+            "label": "Vérifier les gains, déployer partout",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Retardés : FPY, PPM, coût de la non-qualité",
+        "Avancés : mises à l'épreuve, notes d'audit",
+        "Jours 1–30 : référence et confinement",
+        "Jours 31–60 : causes racines, pilote Poka Yoke",
+        "Jours 61–90 : vérifier les gains, déployer partout"
+      ],
+      "at": [
+        4.157,
+        10.638,
+        20.457,
+        25.246,
+        30.944
+      ],
+      "exampleAt": 30.944
+    }
+  ]
+}

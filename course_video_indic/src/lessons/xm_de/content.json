@@ -1,0 +1,715 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "X-Matrix und Hoshin Kanri",
+      "example": "Arjun will verlässliche Lieferung und weniger Fehler. Kann er dieses Ziel bis zur Arbeit in der Fertigung verfolgen?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Langfristige Ziele",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Ziele dieses Jahres",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Verbesserungsprojekte",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Zielwerte und Eigentümer",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ihre ganze Strategie auf einer Seite",
+        "Ziele → Jahresziele → Projekte → Zielwerte → Verantwortliche",
+        "Eine kurze Liste echter Maßnahmen",
+        "Kein Diagramm für die Wand"
+      ],
+      "at": [
+        3.627,
+        7.625,
+        17.252,
+        23.985
+      ],
+      "exampleAt": 27.433
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Ursprung und Ausrichtung",
+      "example": "Arjuns Werk lief Dutzende lokale Kaizen-Projekte. Nur wenige halfen der Lieferung wirklich.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Richtungsmanagement",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Strategie trifft tägliche Arbeit",
+            "icon": "calendar",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Dutzende lokale Kaizen-Projekte",
+              "sub": "Wenige halfen der Lieferung",
+              "icon": "stack",
+              "with": "example"
+            },
+            {
+              "label": "Wenige ausgestattete Prioritäten",
+              "sub": "In beide Richtungen, nicht von oben",
+              "icon": "key",
+              "with": 2
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Hoshin Kanri: Richtungsmanagement",
+        "Richtung und tägliche Arbeit ausrichten",
+        "Prioritäten auf das Machbare begrenzen",
+        "In beide Richtungen, nicht von oben"
+      ],
+      "at": [
+        4.058,
+        7.294,
+        30.542,
+        36.394
+      ],
+      "exampleAt": 21.762
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Vier Kernbereiche",
+      "example": "Arjuns Kette reicht von Weltklasse-Qualität bis zu einem Ausbeute-Zielwert.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Durchbruch",
+            "sub": "3–5 Jahre",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Jährlich",
+            "sub": "Dieses Jahr",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "Projekte",
+            "sub": "Die Arbeit",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "KPI und Zielwerte",
+            "sub": "Der Beweis",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Durchbruchsziele: 3–5 Jahre",
+        "Jahresziele: dieses Jahr",
+        "Verbesserungsprojekte",
+        "KPI und Zielwerte: der Beweis"
+      ],
+      "at": [
+        5.002,
+        10.516,
+        16.455,
+        22.742
+      ],
+      "exampleAt": 40.082
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Durchbruchsziele",
+      "example": "Arjuns Ergebnis: Kundenrücksendungen um zwei Drittel senken, bei wachsender Leistung.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "3 bis 5 große Ergebnisse",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Ergebnis, Horizont, Ausgangswert",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Ziele im Widerspruch",
+            "sub": "Tempo gegen Sicherheit",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "suffix": "/3",
+          "icon": "chartDown",
+          "label": "weniger Kundenrücksendungen",
+          "unit": "Bei wachsender Leistung: ein Ergebnis, keine Tätigkeit",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Wenige große Ergebnisse: 3 bis 5",
+        "Ergebnis, Horizont, heutiger Ausgangswert",
+        "Auf Ziele achten, die sich widersprechen"
+      ],
+      "at": [
+        7.495,
+        11.678,
+        17.783
+      ],
+      "exampleAt": 24.239
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Jahresziele",
+      "example": "Jahr eins: ein Teil des Rückgangs, vereinbart nach Analyse der Feldausfälle.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Jahresziel · Jahr 1",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Ausgangswert · Zielwert · Zeitraum",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Datenquelle benannt",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Catchball: ist es machbar?",
+            "icon": "sequence",
+            "with": 2
+          },
+          {
+            "label": "Aus Feldausfällen vereinbart",
+            "icon": "check",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Messbare Ergebnisse für dieses Jahr",
+        "Ausgangswert, Zielwert, Zeitraum, Datenquelle",
+        "Catchball: Machbarkeit gemeinsam prüfen"
+      ],
+      "at": [
+        0.236,
+        10.392,
+        20.018
+      ],
+      "exampleAt": 29.897
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Verbesserungsprojekte",
+      "example": "Eine Verriegelung Barcode gegen BOM blockiert falsche Bauteile; Erfolg erst, wenn Tests und Fehlerdaten übereinstimmen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Problem, Umfang, Eigentümer",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Mehr Prüfung",
+            "sub": "Selten ein Durchbruch",
+            "icon": "search",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Wirkung gegen Aufwand",
+            "icon": "scale",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Teile-Barcode scannen",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "Gegen die BOM prüfen",
+              "icon": "clipboard",
+              "with": "example"
+            },
+            {
+              "label": "Falsches Teil? Blockiert",
+              "icon": "lock",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Problem, Umfang, Verantwortlicher, Meilensteine, Prüfung",
+        "Mehr Prüfung = selten ein Durchbruch",
+        "Nach Belegen wählen: Wirkung gegen Aufwand"
+      ],
+      "at": [
+        5.292,
+        17.583,
+        21.459
+      ],
+      "exampleAt": 28.558
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "KPI: Früh- und Spätindikatoren",
+      "example": "An Arjuns Linie bestehen 98 % der Einheiten beim ersten Mal.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Spät",
+            "sub": "Ausbeute, Rücksendungen, Lieferung",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Früh",
+            "sub": "Audits, Rüsten, Schulung",
+            "icon": "search",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "beim ersten Mal bestanden",
+          "unit": "Erstdurchlaufquote an Arjuns Linie",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Spätindikatoren: erreichte Ergebnisse",
+        "Frühindikatoren: Bedingungen, die sie vorhersagen",
+        "Nenner und Datenquelle festlegen",
+        "Keine umdefinierten Zahlen belohnen"
+      ],
+      "at": [
+        2.362,
+        11.168,
+        21.763,
+        26.161
+      ],
+      "exampleAt": 33.394
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Stärke der Verknüpfung",
+      "example": "Arjuns Vorrichtungsverriegelung senkt falsche Teile stark und berührt den Energieverbrauch kaum.",
+      "visual": {
+        "type": "matrix",
+        "prefix": "check",
+        "cols": [
+          "Falsche Teile",
+          "Ausbeute",
+          "Energie"
+        ],
+        "note": "Die Verknüpfung bewerten, nicht die Wichtigkeit",
+        "items": [
+          {
+            "label": "Verriegelung",
+            "cells": [
+              3,
+              3,
+              null
+            ],
+            "with": "example"
+          },
+          {
+            "label": "SMED-Pilot",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Symbole zeigen die Stärke",
+        "Zuerst die Legende vereinbaren",
+        "Die Verknüpfung bewerten, nicht die Wichtigkeit",
+        "Nach Lücken und Übertreibungen suchen"
+      ],
+      "at": [
+        0.267,
+        14.868,
+        18.558,
+        23.565
+      ],
+      "exampleAt": 35.026
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Verantwortung und Catchball",
+      "example": "Testautomatisierung der Set-Top-Box: Technik, Produktion, Qualität und IT helfen; ein Projektleiter bleibt verantwortlich.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Durchführend",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "Verantwortlich",
+            "sub": "Ein Eigentümer",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Befragt",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Informiert",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Je ein verantwortlicher Eigentümer",
+        "Unterstützende Teams benennen",
+        "RACI: durchführend, verantwortlich, befragt, informiert",
+        "Der Eigentümer braucht Budget und Befugnis"
+      ],
+      "at": [
+        4.826,
+        10.289,
+        16.992,
+        23.976
+      ],
+      "exampleAt": 31.232
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Der Aufbau-Workshop",
+      "example": "In Arjuns Workshop verknüpften drei Abteilungen Projekte mit einem Lieferziel.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Belege",
+            "with": 0
+          },
+          {
+            "label": "Umfang, Ausgangswert",
+            "with": 1
+          },
+          {
+            "label": "Ziele",
+            "with": 1
+          },
+          {
+            "label": "Projekte + KPI",
+            "with": 2
+          },
+          {
+            "label": "Verknüpfungen, Eigentümer",
+            "with": 3
+          },
+          {
+            "label": "Prüfrhythmus",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Zuerst Belege sammeln",
+        "Umfang, Ausgangswert, Ziele, Ergebnisse",
+        "Wirksame Projekte, jedes mit einem KPI",
+        "Verknüpfungen bewerten, Eigentümer benennen, Prüfungen planen"
+      ],
+      "at": [
+        5.232,
+        14.292,
+        25.516,
+        31.576
+      ],
+      "exampleAt": 38.69
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Durchgerechnetes Beispiel",
+      "example": "Projekte: ein Bereitschafts-Dashboard, eine Barcode-Verriegelung und ein SMED-Pilot.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Heute",
+          "value": 90
+        },
+        "after": {
+          "label": "Dieses Jahr",
+          "value": 98
+        },
+        "suffix": "%",
+        "unit": "Liefertreue",
+        "note": "Die Planung verantwortet sie",
+        "with": 0,
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Bereitschafts-Dashboard",
+              "sub": "Lieferung",
+              "icon": "chartUp",
+              "with": "example"
+            },
+            {
+              "label": "Barcode-Verriegelung",
+              "sub": "Ausbeute auf 99 %",
+              "icon": "barcode",
+              "with": "example"
+            },
+            {
+              "label": "SMED-Pilot",
+              "sub": "Umrüstung 50 → 20 Min.",
+              "icon": "clock",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Liefertreue 90 % → 98 %",
+        "Erstdurchlaufquote → 99 %",
+        "Umrüstung 50 → 20 Minuten",
+        "Planung, Qualität, Technik verantworten je eines"
+      ],
+      "at": [
+        12.671,
+        17.604,
+        22.233,
+        34.892
+      ],
+      "exampleAt": 27.882
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Prüfrhythmus: PDCA",
+      "example": "Die Ausbeute stockte trotz Schulung, also prüfte Arjun, ob sich die Prozesskontrolle wirklich änderte.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Ausnahmen, Meilensteine",
+            "sub": "Täglich / wöchentlich",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "KPI-Trends, Risiken",
+            "sub": "Monatlich",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Noch auf Strategie?",
+            "sub": "Quartalsweise",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ein lebendes Werkzeug: Plan, Do, Check, Act",
+        "Täglich / wöchentlich: Ausnahmen, Meilensteine",
+        "Monatlich: KPI-Trends und Risiken",
+        "Quartalsweise: stützt es noch die Strategie?"
+      ],
+      "at": [
+        7.098,
+        17.504,
+        22.867,
+        27.582
+      ],
+      "exampleAt": 35.496
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Was tun, was lassen",
+      "example": "Ein Projekt wurde als fertig markiert, doch die Beschwerden blieben gleich.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wenige Ergebnisse, klare Eigentümer",
+            "icon": "person",
+            "tone": "good",
+            "with": 0
+          },
+          {
+            "label": "Verknüpfungen + Mittel prüfen",
+            "icon": "check",
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Alles „stark\"",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Fertig ≠ geliefert",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Wenige messbare Ergebnisse, klare Eigentümer",
+        "Ursachenketten und Mittel prüfen",
+        "Nicht alles „stark verknüpft\"",
+        "Fertiges Projekt ≠ gelieferter Nutzen"
+      ],
+      "at": [
+        10.369,
+        15.803,
+        20.518,
+        26.801
+      ],
+      "exampleAt": 35.539
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Kosten-Nutzen-Rechnung",
+      "example": "Fehler 2 % → 1,2 % klingt klein, ist aber ein relativer Rückgang um 40 %. Die Verriegelung amortisiert sich in 6 Monaten.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 2
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 1.2
+        },
+        "decimals": 1,
+        "suffix": "%",
+        "unit": "Fehlerrate",
+        "note": "Relativer Rückgang 40 % · Amortisation in 6 Monaten",
+        "with": "example"
+      },
+      "bullets": [
+        "Liefertreue = pünktlich ÷ gesamt fällig",
+        "Relativer Rückgang = Rückgang ÷ alte Rate",
+        "Amortisation = Investition ÷ monatliche Einsparung"
+      ],
+      "at": [
+        5.561,
+        10.945,
+        16.136
+      ],
+      "exampleAt": 26.28
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fahrplan für 90 Tage",
+      "example": "Welches Ergebnis? Welcher Zielwert? Welches Projekt? Welcher KPI? Wem gehört das Ergebnis?",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Ausgangswerte, Matrix-Entwurf",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Catchball, Projekte, Eigentümer",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Verknüpfungen prüfen, bewerten, auditieren",
+            "sub": "61–90",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tag 1–30: Ausgangswerte, Matrix-Entwurf",
+        "Tag 31–60: Catchball, Projekte, Eigentümer",
+        "Tag 61–90: Verknüpfungen prüfen, bewerten, auditieren"
+      ],
+      "at": [
+        8.008,
+        14.314,
+        20.972
+      ],
+      "exampleAt": 32.139
+    }
+  ]
+}

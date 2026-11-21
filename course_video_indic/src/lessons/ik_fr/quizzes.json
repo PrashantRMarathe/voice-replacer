@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Quel est le meilleur effet à mettre dans la tête d'une arête de poisson ?",
+      "options": [
+        "« Problèmes de qualité sur la ligne de switchs »",
+        "« Les échecs de liaison des ports sur la ligne 3 sont passés de 5 à 32 pour 1 000 cette semaine »",
+        "« Le testeur est mauvais »"
+      ],
+      "correct": 1,
+      "explanation": "Une bonne tête nomme un défaut, le lieu, la période et l'ampleur, avec une référence. « Le testeur est mauvais » est déjà une cause.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Après le brainstorming, l'équipe vote « négligence de l'opérateur » comme cause principale. Et ensuite ?",
+      "options": [
+        "Reformer les opérateurs : l'équipe est d'accord",
+        "Demander ce qui a rendu l'erreur possible, et tester les causes avec des preuves",
+        "Mettre un panneau d'avertissement au poste"
+      ],
+      "correct": 1,
+      "explanation": "Un vote n'est pas une preuve, et la négligence n'est pas une cause maîtrisable. Demandez quelle condition du processus a rendu l'erreur possible, puis prouvez-la.",
+      "think": 15
+    }
+  ]
+}

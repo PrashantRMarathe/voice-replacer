@@ -1,0 +1,721 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Die 3M kennenlernen",
+      "example": "Sanjays Linie, in einer Stunde: Werker warten auf Kits (Muda), die Leistung schwankt (Mura), dann hetzen alle (Muri).",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Muda",
+            "sub": "Verschwendung: Warten auf Kits",
+            "icon": "trash",
+            "tone": "bad"
+          },
+          {
+            "label": "Mura",
+            "sub": "Unausgeglichenheit: Leistung schwankt",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "Muri",
+            "sub": "Überlastung: alle hetzen",
+            "icon": "weight",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Muda: Verschwendung, kein Wert für den Kunden",
+        "Mura: Unausgeglichenheit, die Last schwankt",
+        "Muri: Überlastung, über die sichere Kapazität"
+      ],
+      "at": [
+        6.826,
+        11.838,
+        18.114
+      ],
+      "exampleAt": 25.577
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Wie die 3M zusammenhängen",
+      "example": "Riesige Charge am Montag (Mura) → Werker und Tester gehetzt (Muri) → Fehler, Nacharbeit, Überstunden (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Eine riesige Montagscharge",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muri",
+            "sub": "Hetze; der Tester ruht nie",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Muda",
+            "sub": "Fehler, Nacharbeit, Überstunden",
+            "icon": "trash",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nicht eines nach dem anderen lösbar",
+        "Mura erzeugt Muri, Muri erzeugt Muda",
+        "Nur die Verschwendung jagen, und sie kehrt zurück"
+      ],
+      "at": [
+        2.83,
+        6.012,
+        32.423
+      ],
+      "exampleAt": 11.0
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Muda: der Werttest",
+      "example": "Die Linse einsetzen schafft Wert. Etiketten holen, auf ein Kit warten und zweimal testen nicht.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Wege für Etiketten",
+            "sub": "Kein Wert (auch Warten, Doppeltest nicht)",
+            "icon": "walk",
+            "with": "example"
+          },
+          {
+            "label": "Linse einsetzen",
+            "sub": "Schafft Wert",
+            "icon": "camera",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Verändert es das Produkt, wie der Kunde es braucht?",
+        "Wird es beim ersten Mal richtig gemacht?",
+        "Würde der Kunde dafür zahlen?",
+        "Wenn nicht: hinterfragen"
+      ],
+      "at": [
+        6.231,
+        11.181,
+        14.838,
+        18.165
+      ],
+      "exampleAt": 22.688
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Notwendig oder reine Verschwendung",
+      "example": "Typ 1: eine vorgeschriebene Sicherheitsprüfung. Typ 2: dieselbe Seriennummer in zwei Systeme tippen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Typ 1: vereinfachen",
+            "sub": "Eine vorgeschriebene Sicherheitsprüfung",
+            "icon": "shield"
+          },
+          {
+            "label": "Typ 2: entfernen",
+            "sub": "Eine Seriennummer doppelt getippt",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Menschen sind nie Verschwendung",
+            "sub": "Verschwendung steckt im Prozess",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Typ 1: heute nötig, vereinfachen",
+        "Typ 2: reine Verschwendung, entfernen",
+        "Nie einen Menschen Verschwendung nennen"
+      ],
+      "at": [
+        1.911,
+        19.217,
+        30.523
+      ],
+      "exampleAt": 7.534
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die 8 Verschwendungen: TIMWOODS",
+      "example": "Sanjays Rundgang: 3 Kit-Wartezeiten in 2 Stunden, weite Wege für Etiketten, eine Wand aus WIP vor dem Test.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Transport",
+            "sub": "T",
+            "with": 0
+          },
+          {
+            "label": "Bestand",
+            "sub": "I",
+            "with": 0
+          },
+          {
+            "label": "Bewegung",
+            "sub": "M",
+            "with": 0
+          },
+          {
+            "label": "Warten",
+            "sub": "W",
+            "with": 0
+          },
+          {
+            "label": "Überproduktion",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Überbearbeitung",
+            "sub": "O",
+            "with": 1
+          },
+          {
+            "label": "Fehler",
+            "sub": "D",
+            "with": 2
+          },
+          {
+            "label": "Ungenutzte Fähigkeiten",
+            "sub": "S",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Transport · Bestand · Bewegung · Warten",
+        "Überproduktion · Überbearbeitung",
+        "Fehler · ungenutzte Fähigkeiten",
+        "Verschwendungsrundgang: einem Produkt folgen"
+      ],
+      "at": [
+        5.398,
+        10.012,
+        13.863,
+        17.657
+      ],
+      "exampleAt": 26.358
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Mura: Unausgeglichenheit",
+      "example": "Sanjays Stundentafel: 60, dann 105, dann 70. Der Durchschnitt sieht gut aus, die Linie nicht.",
+      "visual": {
+        "type": "bars",
+        "label": "Durchschnitt",
+        "note": "sieht gut aus, verbirgt Schwankungen",
+        "unit": "Sanjays Stundentafel: Kameras pro Stunde",
+        "items": [
+          {
+            "label": "Stunde 1",
+            "value": 60,
+            "with": "example"
+          },
+          {
+            "label": "Stunde 2",
+            "value": 105,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Stunde 3",
+            "value": 70,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Große Chargen, dann nichts",
+        "Material kommt stoßweise",
+        "Gleiche Arbeit, andere Methoden",
+        "Durchschnitte verbergen Spitzen und Täler"
+      ],
+      "at": [
+        8.093,
+        11.666,
+        14.716,
+        26.363
+      ],
+      "exampleAt": 18.74
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Muri: Überlastung",
+      "example": "Eine Werkerin greift 120 Mal pro Stunde über Schulterhöhe; der Tester läuft durch jede Pause.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Menschen",
+            "sub": "Heben, Strecken, Alarme",
+            "icon": "person",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Maschinen",
+            "sub": "Über Nennlast",
+            "icon": "gear",
+            "tone": "bad",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 120,
+          "icon": "hand",
+          "label": "Griffe über Schulterhöhe",
+          "unit": "pro Stunde, bei einer Werkerin",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Menschen: Heben, Strecken, Alarme, zu wenig Schulung",
+        "Maschinen: über Nennlast, ausgelassene Wartung",
+        "Führt zu Ermüdung, Fehlern, Ausfällen"
+      ],
+      "at": [
+        6.605,
+        14.573,
+        31.111
+      ],
+      "exampleAt": 21.013
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Wenn alle drei zusammenstoßen",
+      "example": "Sah aus wie „zu wenig Testkapazität\". In Wahrheit: ungleiche Freigabe (Mura) + Hetze (Muri) + Nacharbeit (Muda).",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "4 Stunden Bedarf auf einmal",
+            "icon": "wave",
+            "tone": "bad"
+          },
+          {
+            "label": "WIP stapelt sich",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Test wird zum Engpass",
+            "icon": "test",
+            "tone": "bad"
+          },
+          {
+            "label": "Überstunden, Hetze, Nacharbeit",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "4 Stunden Bedarf in einer Freigabe",
+        "Stationen arbeiten vor, WIP stapelt sich",
+        "Der Test wurde zum Engpass",
+        "Überstunden, Hetze, Fehler, Nacharbeit"
+      ],
+      "at": [
+        2.85,
+        6.896,
+        12.748,
+        15.704
+      ],
+      "exampleAt": 26.247
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Die 3M am Gemba finden",
+      "example": "Sanjay markierte jeden Befund als Muda, Mura oder Muri. 20 Minuten Warten auf ein Kit bekamen zwei: Verschwendung und Unausgeglichenheit.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Zuerst beobachten",
+            "icon": "search"
+          },
+          {
+            "label": "Erfassen",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Werker fragen",
+            "icon": "person"
+          },
+          {
+            "label": "Daten prüfen",
+            "icon": "chartUp"
+          }
+        ]
+      },
+      "bullets": [
+        "Beobachten, bevor Sie etwas ändern",
+        "Zeiten, Warten, Wege, WIP, Nacharbeit erfassen",
+        "Werker fragen, was schwer ist",
+        "Daten prüfen, bevor Sie eine Lösung wählen"
+      ],
+      "at": [
+        2.082,
+        9.336,
+        16.501,
+        34.243
+      ],
+      "exampleAt": 22.21
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Werkzeuge gegen Muda",
+      "example": "Etiketten und Schrauben in Regale an jeder Station: der Weg sank von 40 m auf 8 m.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "5S",
+            "icon": "tray",
+            "with": 0
+          },
+          {
+            "label": "Standardarbeit",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key",
+            "with": 2
+          },
+          {
+            "label": "SMED + TPM",
+            "icon": "wrench",
+            "with": 3
+          },
+          {
+            "label": "Grundursache",
+            "icon": "search",
+            "with": 4
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 40
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 8
+          },
+          "suffix": " m",
+          "unit": "Weg pro Kamera",
+          "note": "80 % weniger Gehen",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "5S: weniger Suchen und Gehen",
+        "Standardarbeit: die beste, sicherste Methode",
+        "Poka Yoke: Fehler an der Quelle stoppen",
+        "SMED und TPM: Rüsten, Zuverlässigkeit",
+        "Ursachenanalyse: keine Wiederholfehler",
+        "Keine Verschwendung automatisieren"
+      ],
+      "at": [
+        4.208,
+        7.629,
+        12.779,
+        16.303,
+        22.06,
+        37.191
+      ],
+      "exampleAt": 26.011
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Werkzeuge gegen Mura",
+      "example": "TAKT = 27.000 s ÷ 450 Kameras = eine Kamera alle 60 Sekunden.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Heijunka",
+            "sub": "Menge und Mix glätten",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "TAKT",
+            "sub": "Tempo nach Bedarf",
+            "icon": "clock",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 60,
+          "suffix": " s",
+          "icon": "camera",
+          "label": "eine Kamera alle 60 Sekunden",
+          "unit": "27.000 s Arbeitszeit ÷ 450 Kameras",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Heijunka: Menge und Mix glätten",
+        "TAKT verbindet Ihr Tempo mit dem Bedarf",
+        "Freigabe in jedem Pitch, nicht in Wellen",
+        "Pull und First-in-first-out-Bahnen"
+      ],
+      "at": [
+        3.285,
+        6.77,
+        24.726,
+        30.218
+      ],
+      "exampleAt": 11.194
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Werkzeuge gegen Muri",
+      "example": "Eine Vorrichtung hält jetzt die Kamera beim Schrauben; der hohe Behälter kam in leichte Reichweite.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Auf TAKT abstimmen",
+            "icon": "scale"
+          },
+          {
+            "label": "Sicherer Greifbereich",
+            "icon": "person"
+          },
+          {
+            "label": "Vorrichtungen",
+            "icon": "wrench"
+          },
+          {
+            "label": "Maschinengrenzen",
+            "icon": "gear"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Hände halten die Kamera",
+              "sub": "Hoher Behälter über der Schulter",
+              "icon": "hand"
+            },
+            {
+              "label": "Eine Vorrichtung hält sie",
+              "sub": "Behälter in leichter Reichweite",
+              "icon": "wrench"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Jede Station auf TAKT abstimmen",
+        "Greifen und Heben im sicheren Bereich",
+        "Vorrichtungen, wo Hände Teile halten",
+        "Maschinengrenzen und Wartung achten"
+      ],
+      "at": [
+        4.696,
+        10.104,
+        14.384,
+        19.004
+      ],
+      "exampleAt": 24.36
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Eine 3M-Methode in 8 Schritten",
+      "example": "Sanjays Ausgangswert: stark schwankende Stundenleistung, 2,5 Stunden Überstunden pro Tag.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definieren",
+            "with": 0
+          },
+          {
+            "label": "Beobachten",
+            "with": 0
+          },
+          {
+            "label": "3M einordnen",
+            "with": 1
+          },
+          {
+            "label": "Messen",
+            "with": 2
+          },
+          {
+            "label": "Ursachen finden",
+            "with": 2
+          },
+          {
+            "label": "Testen (PDCA)",
+            "with": 3
+          },
+          {
+            "label": "Standardisieren",
+            "with": 4
+          },
+          {
+            "label": "Auditieren",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Definieren, dann am Gemba beobachten",
+        "In die drei M einordnen",
+        "Ausgangswert messen, Ursachen finden",
+        "Kleine Änderungen mit PDCA testen",
+        "Standardisieren, weiter auditieren"
+      ],
+      "at": [
+        4.548,
+        9.468,
+        13.475,
+        18.572,
+        23.843
+      ],
+      "exampleAt": 30.402
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Fallstudie: CCTV-Linie",
+      "example": "Nach 6 Wochen: Stundenschwankung fast weg, Überstunden nahe null, Erstdurchlaufquote auf 98 %.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Kleine, stetige Freigaben",
+            "icon": "sequence",
+            "tone": "good"
+          },
+          {
+            "label": "Teile am Verwendungsort",
+            "icon": "tray",
+            "tone": "good"
+          },
+          {
+            "label": "Freigabe = Testkapazität",
+            "icon": "test",
+            "tone": "good"
+          },
+          {
+            "label": "Stundentafel",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 98,
+          "suffix": "%",
+          "icon": "check",
+          "label": "Erstdurchlaufquote nach 6 Wochen",
+          "unit": "Überstunden nahe null. Niemand arbeitete schneller.",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Kleinere, stetige Freigaben + First-in-first-out-Bahn",
+        "Teile und Etiketten am Verwendungsort",
+        "Freigabe passend zur Testkapazität",
+        "Stundentafel, Probleme früh gemeldet"
+      ],
+      "at": [
+        2.9,
+        9.472,
+        13.265,
+        17.873
+      ],
+      "exampleAt": 24.473
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "KPI und Nachhaltigkeit",
+      "example": "Mehr Einheiten pro Stunde, aber weniger Qualität und mehr Überstunden? Dann haben Sie den Verlust nur verschoben.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fluss",
+            "sub": "Durchlaufzeit, WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "Mura",
+            "sub": "Stundenspanne",
+            "icon": "wave"
+          },
+          {
+            "label": "Qualität",
+            "sub": "FPY, Nacharbeit",
+            "icon": "check"
+          },
+          {
+            "label": "Muri",
+            "sub": "Überstunden, Ergonomie",
+            "icon": "weight"
+          }
+        ]
+      },
+      "bullets": [
+        "Fluss: Durchlaufzeit, WIP",
+        "Mura: Spanne der Stundenleistung",
+        "Qualität: FPY, Nacharbeit",
+        "Muri: Überstunden, ergonomisches Risiko"
+      ],
+      "at": [
+        4.658,
+        9.272,
+        15.238,
+        20.405
+      ],
+      "exampleAt": 28.39
+    }
+  ]
+}

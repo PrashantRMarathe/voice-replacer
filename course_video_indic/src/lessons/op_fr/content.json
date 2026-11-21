@@ -1,0 +1,662 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est une One Point Lesson",
+      "example": "La première OPL de Ravi, l'insertion du connecteur : la bonne prise, la mauvaise prise, et le clic à écouter.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Une chose",
+            "icon": "check"
+          },
+          {
+            "label": "Quelques minutes pour apprendre",
+            "icon": "clock"
+          },
+          {
+            "label": "Visuelle",
+            "icon": "camera"
+          },
+          {
+            "label": "Sur le lieu de travail",
+            "icon": "wrench"
+          }
+        ]
+      },
+      "bullets": [
+        "Une chose, sur une page",
+        "Courte : apprise en quelques minutes",
+        "Visuelle : bons et mauvais exemples",
+        "Enseignée sur le lieu de travail"
+      ],
+      "at": [
+        5.155,
+        8.407,
+        12.384,
+        17.69
+      ],
+      "exampleAt": 21.296
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Ce qu'une OPL n'est pas",
+      "example": "La leçon sur le connecteur de Ravi est placée à côté du SOP et désigne l'étape exacte qu'elle soutient.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Remplacer le SOP",
+            "sub": "ou tasser un gros sujet",
+            "icon": "cross",
+            "with": 0
+          },
+          {
+            "label": "À côté du SOP",
+            "sub": "Désigne l'étape exacte",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Ne remplace jamais votre SOP",
+        "Pas un gros sujet tassé sur une page",
+        "Renforce un point critique"
+      ],
+      "at": [
+        0.241,
+        9.782,
+        14.971
+      ],
+      "exampleAt": 19.121
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Pourquoi les OPL sont rentables",
+      "example": "L'équipe de nuit fissurait 14 connecteurs par semaine ; l'équipe de jour, 2. Même SOP, savoir-faire différent.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Équipe de nuit",
+          "value": 14
+        },
+        "after": {
+          "label": "Équipe de jour",
+          "value": 2
+        },
+        "unit": "connecteurs fissurés par semaine",
+        "note": "Même SOP, savoir-faire différent",
+        "with": "example"
+      },
+      "bullets": [
+        "Ferme les écarts de compétence entre équipes",
+        "Les nouveaux apprennent plus vite",
+        "Les leçons des défauts partagées vite",
+        "Les opérateurs expérimentés deviennent formateurs"
+      ],
+      "at": [
+        0.219,
+        20.541,
+        23.127,
+        27.21
+      ],
+      "exampleAt": 5.188
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Types d'OPL",
+      "example": "La leçon de Ravi sur le connecteur fissuré est de type problème.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Connaissance de base",
+            "icon": "chip",
+            "with": 0
+          },
+          {
+            "label": "Problème",
+            "icon": "warning",
+            "with": 1
+          },
+          {
+            "label": "Amélioration",
+            "icon": "chartUp",
+            "with": 2
+          },
+          {
+            "label": "Sécurité",
+            "icon": "shield",
+            "with": 3
+          },
+          {
+            "label": "Qualité",
+            "icon": "check",
+            "with": 3
+          },
+          {
+            "label": "Maintenance",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Connaissance de base, par ex. la manipulation ESD",
+        "Problème : défaut, cause et correction",
+        "Amélioration : une meilleure méthode issue d'un Kaizen",
+        "Sécurité · Qualité · Maintenance"
+      ],
+      "at": [
+        2.761,
+        9.467,
+        14.091,
+        18.825
+      ],
+      "exampleAt": 23.456
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Quand en créer une",
+      "example": "Le déclencheur de Ravi : la cause des connecteurs fissurés était trouvée — la correction devait maintenant atteindre chaque équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Défaut répété résolu",
+            "icon": "check"
+          },
+          {
+            "label": "Nouveau produit ou gabarit",
+            "icon": "box"
+          },
+          {
+            "label": "Étape mal comprise",
+            "icon": "search"
+          },
+          {
+            "label": "Presque-accident, ou astuce",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Un défaut répété vient d'être résolu",
+        "Nouveau produit, nouvelle machine ou nouveau gabarit",
+        "Une étape toujours mal comprise",
+        "Un presque-accident ou l'astuce d'un expert"
+      ],
+      "at": [
+        4.173,
+        7.231,
+        11.884,
+        15.312
+      ],
+      "exampleAt": 22.937
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "La structure d'une bonne OPL",
+      "example": "La page doit se comprendre d'un coup d'œil — votre opérateur le plus récent pourrait-il la lire en une minute ?",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "OPL-012 · Insertion du connecteur · Rev B",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Point clé : poussez jusqu'au clic",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "",
+            "icon": "goodbad",
+            "with": 2
+          },
+          {
+            "label": "Attention : ne forcez jamais",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Responsable · approuvée · formés",
+            "icon": "person",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Numéro, titre, révision, date",
+        "Pourquoi c'est important + le seul point clé",
+        "Visuels, étapes, mise en garde",
+        "Responsable, approbation, enregistrement de formation"
+      ],
+      "at": [
+        5.023,
+        10.196,
+        14.729,
+        21.208
+      ],
+      "exampleAt": 26.742
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Comment la préparer",
+      "example": "Ravi a photographié le vrai connecteur, au vrai poste.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Un objectif d'apprentissage",
+            "icon": "search"
+          },
+          {
+            "label": "Allez au Gemba",
+            "sub": "Vérifiez le standard",
+            "icon": "walk"
+          },
+          {
+            "label": "Mots simples, vraies photos",
+            "icon": "camera"
+          },
+          {
+            "label": "Vérifier, puis approuver",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Définir un objectif d'apprentissage",
+        "Aller au Gemba, vérifier le standard",
+        "Mots simples, vraies photos, bon contre mauvais",
+        "Vérifier, puis approuver"
+      ],
+      "at": [
+        0.853,
+        4.173,
+        11.928,
+        24.317
+      ],
+      "exampleAt": 28.735
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Communication visuelle",
+      "example": "L'OPL de Ravi montre une coche, une croix, et les mots bon et pas bon.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vraies photos, flèches",
+            "icon": "camera",
+            "with": 0
+          },
+          {
+            "label": "Bon et mauvais côte à côte",
+            "icon": "shape",
+            "with": 1
+          },
+          {
+            "label": "Grand texte, espace",
+            "icon": "label",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Couleur seule",
+              "sub": "Tout le monde ne la voit pas",
+              "icon": "warning"
+            },
+            {
+              "label": "Coche, croix + mots",
+              "sub": "Bon / pas bon",
+              "icon": "check"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Vraies photos, flèches sur l'endroit exact",
+        "Bon et mauvais côte à côte",
+        "Grand texte, beaucoup d'espace",
+        "Ne jamais utiliser la couleur comme seul signal"
+      ],
+      "at": [
+        7.534,
+        12.899,
+        15.978,
+        22.319
+      ],
+      "exampleAt": 25.835
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Enseigner au Gemba",
+      "example": "Ravi enseigne chaque leçon en 5 minutes en début d'équipe, puis observe chaque opérateur la faire.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Expliquer pourquoi c'est important",
+            "icon": "person"
+          },
+          {
+            "label": "Montrer, démontrer, comparer",
+            "icon": "camera"
+          },
+          {
+            "label": "Questionner, puis laisser essayer",
+            "icon": "hand"
+          },
+          {
+            "label": "Une signature ne prouve rien",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Expliquer pourquoi c'est important",
+        "Montrer, démontrer, comparer",
+        "Poser des questions, laisser essayer",
+        "Une signature seule ne prouve rien"
+      ],
+      "at": [
+        3.173,
+        8.485,
+        14.625,
+        30.595
+      ],
+      "exampleAt": 23.043
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Les OPL pour l'assemblage final et la qualité",
+      "example": "Éviter le mauvais PCB : où lire le numéro de la carte, comment vérifier le modèle, que faire en cas d'écart.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Cartes",
+            "sub": "Fausse alerte AOI ou vrai défaut",
+            "icon": "chip"
+          },
+          {
+            "label": "Assemblage",
+            "sub": "Séquence de vissage, verrouillage des connecteurs",
+            "icon": "screw"
+          },
+          {
+            "label": "Test",
+            "sub": "Contrôle de version du firmware",
+            "icon": "test"
+          },
+          {
+            "label": "Emballage",
+            "sub": "Étiquette et accessoires",
+            "icon": "label"
+          }
+        ]
+      },
+      "bullets": [
+        "Cartes : fausse alerte AOI ou vrai défaut",
+        "Assemblage : séquence de vissage, verrouillage des connecteurs",
+        "Test : contrôle de la version du firmware",
+        "Emballage : contrôles d'étiquette et d'accessoires"
+      ],
+      "at": [
+        3.988,
+        9.147,
+        14.66,
+        18.964
+      ],
+      "exampleAt": 23.679
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Les OPL et les autres outils Lean",
+      "example": "Nouveau gabarit → une OPL sur la façon de le charger, et ce que veut dire le voyant rouge.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kaizen",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "5S + TPM",
+            "icon": "tray"
+          },
+          {
+            "label": "Cause racine",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Après un Kaizen : la nouvelle méthode",
+        "Après un Poka Yoke : ce que veut dire son alarme",
+        "Standards 5S et entretien des machines",
+        "Les leçons de l'analyse des causes racines"
+      ],
+      "at": [
+        4.517,
+        8.953,
+        16.684,
+        22.087
+      ],
+      "exampleAt": 25.936
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Maîtrise et révisions",
+      "example": "Quand le fournisseur du connecteur a changé, Ravi a révisé la leçon et retiré chaque ancienne copie.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Numéro, responsable, approbateur",
+            "icon": "label"
+          },
+          {
+            "label": "Liée à son SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Revue à chaque changement",
+            "icon": "sequence"
+          },
+          {
+            "label": "Anciennes copies retirées",
+            "icon": "trash",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Numéro, responsable, approbateur",
+        "Liée au SOP qu'elle soutient",
+        "Revue à chaque changement",
+        "Anciennes copies retirées de la ligne"
+      ],
+      "at": [
+        4.558,
+        9.287,
+        12.06,
+        17.229
+      ],
+      "exampleAt": 20.407
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Mesurer l'efficacité",
+      "example": "Équipe de nuit : 14 connecteurs fissurés par semaine → 1 par semaine, six semaines après la leçon.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Comportement changé",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Quelques questions",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Observer, quelques jours après",
+            "icon": "clock",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 14
+          },
+          "after": {
+            "label": "6 semaines après",
+            "value": 1
+          },
+          "unit": "connecteurs fissurés par semaine, équipe de nuit",
+          "note": "La leçon a changé le comportement",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Le résultat, c'est un comportement changé",
+        "Vérifier les connaissances par des questions",
+        "Observer la méthode quelques jours après",
+        "Suivre le défaut ciblé"
+      ],
+      "at": [
+        5.808,
+        8.951,
+        12.972,
+        16.899
+      ],
+      "exampleAt": 19.684
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Erreurs fréquentes",
+      "example": "Le premier brouillon de Ravi couvrait quatre sujets. Il l'a divisé en quatre leçons.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trop ?",
+            "sub": "Divisez-le",
+            "icon": "stack"
+          },
+          {
+            "label": "Que du texte ?",
+            "sub": "Ajoutez de vraies photos",
+            "icon": "camera"
+          },
+          {
+            "label": "Que des signatures ?",
+            "sub": "Observez le travail",
+            "icon": "hand"
+          },
+          {
+            "label": "Ancienne version ?",
+            "sub": "Maîtrise des révisions",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Trop de contenu → divisez",
+        "Que du texte → ajoutez de vraies photos",
+        "Que des signatures → démontrez et observez",
+        "Ancienne version au mur → maîtrise des révisions"
+      ],
+      "at": [
+        3.243,
+        5.756,
+        9.743,
+        14.494
+      ],
+      "exampleAt": 27.655
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Feuille de route et check-list du rédacteur",
+      "example": "Avant la diffusion, demandez : est-elle juste ? Le point est-il évident ?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Modèle + numérotation",
+            "with": 0
+          },
+          {
+            "label": "Pilote sur les gros défauts",
+            "with": 1
+          },
+          {
+            "label": "Former les formateurs",
+            "with": 2
+          },
+          {
+            "label": "Utiliser au Gemba",
+            "with": 2
+          },
+          {
+            "label": "Mesurer l'effet",
+            "with": 3
+          },
+          {
+            "label": "Construire une bibliothèque",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Planifier le modèle, la numérotation, l'approbation",
+        "Piloter sur les plus gros défauts ou risques",
+        "Former les formateurs, utiliser au Gemba",
+        "Mesurer l'effet, construire une bibliothèque"
+      ],
+      "at": [
+        2.972,
+        8.201,
+        13.609,
+        22.197
+      ],
+      "exampleAt": 26.636
+    }
+  ]
+}

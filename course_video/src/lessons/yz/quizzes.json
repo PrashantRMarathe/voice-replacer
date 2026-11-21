@@ -1,0 +1,34 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Station 4 runs 33 s against a 30-second TAKT; Station 1 runs 22 s. What should you try first?",
+      "options": [
+        "Ask station 4's operator to work faster",
+        "Move a feasible task from station 4 to station 1, or improve its method, then pilot and re-measure",
+        "Remove a quality check at station 4",
+        "Change the TAKT to 33 seconds"
+      ],
+      "correct": 1,
+      "explanation": "Balancing moves feasible work or improves the method. Pushing people, dropping checks or redefining TAKT hides the problem instead of fixing it.",
+      "think": 16
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "420 net minutes serve demand of 840 good units. What is the TAKT time?",
+      "options": [
+        "20 seconds per unit",
+        "30 seconds per unit",
+        "2 seconds per unit",
+        "60 seconds per unit"
+      ],
+      "correct": 1,
+      "explanation": "TAKT = net time ÷ demand = 420 × 60 ÷ 840 = 30 seconds per unit.",
+      "think": 13
+    }
+  ]
+}

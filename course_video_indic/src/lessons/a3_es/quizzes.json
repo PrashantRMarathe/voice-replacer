@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál es el mejor planteamiento de problema para un A3?",
+      "options": [
+        "Los operadores son descuidados al poner la memoria",
+        "Las fallas en la primera prueba de arranque de la Línea 2 promediaron 4.8% contra 1.5% en 4 semanas",
+        "Necesitamos dos inspectores más en prueba"
+      ],
+      "correct": 1,
+      "explanation": "Nombra la línea, el periodo y la medida, con una referencia, y no afirma ninguna causa. Las otras son una culpa y una solución.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "El piloto de Karthik cumple la meta, pero la tasa de repruebas se duplica. ¿Qué debe hacer?",
+      "options": [
+        "Estandarizar de todos modos: la meta se cumplió",
+        "Investigar el límite antes de estandarizar",
+        "Subir la meta a 3% por seguridad"
+      ],
+      "correct": 1,
+      "explanation": "Un límite se movió, así que el cambio puede estar ocultando fallas en las repruebas en lugar de eliminarlas. Entiéndelo antes de estandarizar.",
+      "think": 13
+    }
+  ]
+}

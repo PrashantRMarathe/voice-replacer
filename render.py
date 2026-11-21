@@ -48,7 +48,11 @@ def html_to_png(
         from playwright.sync_api import sync_playwright
 
         with sync_playwright() as p:
-            browser = p.chromium.launch(args=["--no-sandbox"])
+            try:
+                browser = p.chromium.launch(args=["--no-sandbox"])
+            except Exception:
+                # Bundled Chromium missing (e.g. download blocked): use installed Edge.
+                browser = p.chromium.launch(channel="msedge", args=["--no-sandbox"])
             page = browser.new_page(viewport={"width": width, "height": 900},
                                     device_scale_factor=scale)
             page.goto(url, wait_until="networkidle")

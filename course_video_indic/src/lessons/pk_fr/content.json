@@ -1,0 +1,628 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est le Poka Yoke",
+      "example": "Divya a remplacé un autocollant « vérifier l'orientation » par un connecteur détrompé. Un autocollant avertit. Un détrompeur empêche.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Un autocollant avertit",
+            "sub": "« Vérifier l'orientation »",
+            "icon": "sticker",
+            "with": "example"
+          },
+          {
+            "label": "Un détrompeur empêche",
+            "sub": "Ne rentre que dans un sens",
+            "icon": "key",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "En japonais : à l'épreuve des erreurs",
+        "Ne comptez pas sur la mémoire",
+        "Mauvaise action impossible, ou vue immédiatement"
+      ],
+      "at": [
+        2.601,
+        7.447,
+        11.699
+      ],
+      "exampleAt": 17.618
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Erreur ou défaut",
+      "example": "L'inspection en fin de ligne trouve les problèmes une fois la main-d'œuvre et les pièces dépensées.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 0,
+          "label": "STOP ICI",
+          "with": 3
+        },
+        "items": [
+          {
+            "label": "Erreur",
+            "sub": "La mauvaise action",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Défaut",
+            "sub": "Le mauvais produit",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Trouvé en fin de ligne",
+            "sub": "Main-d'œuvre et pièces déjà dépensées",
+            "icon": "search",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Du système de production Toyota",
+        "Erreur : la mauvaise action",
+        "Défaut : le mauvais produit qui en résulte",
+        "Arrêtez l'erreur avant qu'elle devienne un défaut"
+      ],
+      "at": [
+        0.234,
+        11.895,
+        16.109,
+        19.507
+      ],
+      "exampleAt": 22.992
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "La hiérarchie des contrôles",
+      "example": "Choisissez les contrôles selon leur fiabilité à arrêter les erreurs — pas selon leur facilité d'installation.",
+      "visual": {
+        "type": "ladder",
+        "items": [
+          {
+            "label": "Éliminer",
+            "icon": "pin"
+          },
+          {
+            "label": "Empêcher",
+            "icon": "barcode"
+          },
+          {
+            "label": "Détecter et arrêter",
+            "icon": "sensor"
+          },
+          {
+            "label": "Avertir",
+            "icon": "warning"
+          },
+          {
+            "label": "Inspecter plus tard",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "1 Éliminer : pions de centrage asymétriques",
+        "2 Empêcher : verrouillage par code-barres",
+        "3 Détecter et arrêter : capteur de vis manquante",
+        "4 Avertir : une alarme",
+        "5 Inspecter plus tard — le plus faible"
+      ],
+      "at": [
+        4.951,
+        10.65,
+        15.825,
+        21.027,
+        24.616
+      ],
+      "exampleAt": 27.799
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Règles d'ingénierie",
+      "example": "Divya a débranché le câble du capteur pendant un essai. Le gabarit est resté verrouillé.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Signal positif",
+            "icon": "check"
+          },
+          {
+            "label": "Sécurité intrinsèque",
+            "icon": "power"
+          },
+          {
+            "label": "Contournement enregistré",
+            "icon": "lock"
+          },
+          {
+            "label": "Tester les mauvais cas",
+            "icon": "test"
+          }
+        ]
+      },
+      "bullets": [
+        "Un signal positif de conformité, pas « pas d'alarme »",
+        "Sécurité intrinsèque en cas de perte d'alimentation ou de capteur",
+        "Contournement : rare, enregistré, limité dans le temps",
+        "Testez-le avec de mauvaises conditions"
+      ],
+      "at": [
+        2.991,
+        9.163,
+        17.681,
+        23.248
+      ],
+      "exampleAt": 29.401
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Trois méthodes",
+      "example": "Problème d'orientation → contact. Pièce manquante → valeur fixe. Scanner, programmer, tester, étiqueter dans l'ordre → étapes de mouvement.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Contact",
+            "sub": "Forme, taille, position",
+            "icon": "shape"
+          },
+          {
+            "label": "Valeur fixe",
+            "sub": "Le bon nombre",
+            "icon": "count"
+          },
+          {
+            "label": "Étapes de mouvement",
+            "sub": "Le bon ordre",
+            "icon": "sequence"
+          }
+        ]
+      },
+      "bullets": [
+        "Contact : forme, taille, position",
+        "Valeur fixe : le bon nombre",
+        "Étapes de mouvement : la bonne séquence"
+      ],
+      "at": [
+        3.312,
+        12.69,
+        18.462
+      ],
+      "exampleAt": 30.386
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "L'erreur humaine est prévisible",
+      "example": "Mauvais firmware → noms de recettes similaires → modèle choisi à la main → scan MES non relié au programmateur.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Noms de recettes similaires",
+            "icon": "sticker",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Modèle choisi à la main",
+            "icon": "hand",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Mauvais firmware",
+            "icon": "chip",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Solution : relier le scan MES",
+            "sub": "au programmateur",
+            "icon": "barcode",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Les erreurs humaines sont prévisibles",
+        "Oubli, mauvaise pièce, inversion, désordre",
+        "Demandez ce qui l'a rendu possible, pas qui"
+      ],
+      "at": [
+        0.228,
+        5.821,
+        17.385
+      ],
+      "exampleAt": 22.003
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Une méthode de conception en 8 étapes",
+      "example": "Convenez du succès avant d'installer : mauvaises pièces rejetées, bonnes pièces acceptées, cadence tenue.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Définir",
+            "with": 0
+          },
+          {
+            "label": "Observer",
+            "with": 0
+          },
+          {
+            "label": "Mesurer",
+            "with": 0
+          },
+          {
+            "label": "Trouver la cause",
+            "with": 0
+          },
+          {
+            "label": "Choisir une idée",
+            "with": 1
+          },
+          {
+            "label": "Prototyper",
+            "with": 2
+          },
+          {
+            "label": "La mettre à l'épreuve",
+            "with": 2
+          },
+          {
+            "label": "Standardiser",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Définir, observer, mesurer, trouver la cause",
+        "Choisir l'idée robuste la plus simple",
+        "Prototyper et tester avec de mauvaises pièces",
+        "Mettre à jour le SOP, former, surveiller"
+      ],
+      "at": [
+        4.359,
+        15.436,
+        18.637,
+        23.726
+      ],
+      "exampleAt": 28.721
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Applications en assemblage",
+      "example": "Vis manquantes : 18 sur 10 000 → 1 sur 10 000, environ 94 % de moins.",
+      "visual": {
+        "type": "assembly",
+        "label": "La ligne NVR de Divya : le gabarit compte chaque vis",
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 18
+          },
+          "after": {
+            "label": "Après",
+            "value": 1
+          },
+          "unit": "vis manquantes pour 10 000 unités",
+          "note": "environ 94 % de moins"
+        }
+      },
+      "bullets": [
+        "Signal de couple relié à l'ordre de fabrication",
+        "Le gabarit ne se libère que si chaque vis est bonne",
+        "Connecteurs détrompés, capteur de joint"
+      ],
+      "at": [
+        6.839,
+        11.606,
+        27.215
+      ],
+      "exampleAt": 19.667
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Applications en SMT et en test",
+      "example": "Le testeur de Divya ne peut pas imprimer d'étiquette sans enregistrement de réussite pour ce numéro de série.",
+      "visual": {
+        "type": "flow",
+        "stop": {
+          "after": 2,
+          "label": "PAS DE RÉUSSITE, PAS D'ÉTIQUETTE",
+          "with": "example"
+        },
+        "items": [
+          {
+            "label": "Bobine scannée contre la BOM",
+            "icon": "barcode",
+            "with": 0
+          },
+          {
+            "label": "Version du programme vérifiée",
+            "icon": "chip",
+            "with": 1
+          },
+          {
+            "label": "Enregistrement de réussite par numéro de série",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "L'étiquette s'imprime",
+            "icon": "label",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque bobine scannée contre la BOM",
+        "Version du programme vérifiée avant le démarrage",
+        "Numéro de série lié au modèle, au firmware et à l'enregistrement de réussite",
+        "Une coupure réseau ne doit jamais donner « réussi »"
+      ],
+      "at": [
+        5.873,
+        9.682,
+        14.221,
+        26.09
+      ],
+      "exampleAt": 21.236
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Emballage et expédition",
+      "example": "Un mauvais adaptateur pesait autant que le bon — un plateau de kit profilé l'a détecté.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Contrôle de poids",
+            "sub": "Mauvais adaptateur, même poids",
+            "icon": "scale",
+            "with": "example"
+          },
+          {
+            "label": "Plateau de kit profilé",
+            "sub": "Le mauvais adaptateur ne rentre pas",
+            "icon": "tray",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Scan du numéro de série + correspondance avec l'étiquette du carton",
+        "Accessoires comptés avant la fermeture",
+        "Les contrôles de poids ont des angles morts",
+        "Les codes-barres peuvent être contournés"
+      ],
+      "at": [
+        4.833,
+        9.224,
+        13.026,
+        26.47
+      ],
+      "exampleAt": 17.017
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Peu coûteux et sûr",
+      "example": "Le meilleur dispositif de Divya a coûté ₹1 200 : deux pions qui empêchent de monter le panneau arrière à l'envers.",
+      "visual": {
+        "type": "stat",
+        "value": 1200,
+        "prefix": "₹",
+        "icon": "pin",
+        "label": "Deux pions de centrage",
+        "unit": "Plus aucun panneau arrière monté à l'envers"
+      },
+      "bullets": [
+        "Simple : pions, guides, contacts, plateaux",
+        "Ne jamais créer de point de pincement",
+        "Les capteurs qualité ne sont pas des systèmes de sécurité",
+        "Prévoir nettoyage et étalonnage"
+      ],
+      "at": [
+        5.025,
+        23.69,
+        27.807,
+        31.979
+      ],
+      "exampleAt": 12.116
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "FMEA, plan de contrôle et audits",
+      "example": "Divya présente à chaque dispositif un mauvais échantillon connu, à chaque équipe.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "FMEA",
+            "sub": "Le mode de défaillance",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Plan de contrôle",
+            "sub": "Méthode et réaction",
+            "icon": "shield"
+          },
+          {
+            "label": "Travail standard",
+            "sub": "Signal de conformité, qui réarme",
+            "icon": "person"
+          },
+          {
+            "label": "Audit",
+            "sub": "Un mauvais échantillon connu",
+            "icon": "test",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "FMEA : lien avec le mode de défaillance",
+        "Plan de contrôle : méthode et réaction",
+        "Travail standard : signal de conformité, qui réarme",
+        "Auditer avec un mauvais échantillon connu"
+      ],
+      "at": [
+        4.258,
+        9.122,
+        13.378,
+        26.158
+      ],
+      "exampleAt": 31.27
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI et économies",
+      "example": "60 000 unités/mois, défauts réduits de 0,8 % à 0,2 % ≈ ₹65 000 économisées par mois, moins le coût de fonctionnement.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Avant",
+          "value": 0.8
+        },
+        "after": {
+          "label": "Après",
+          "value": 0.2
+        },
+        "suffix": "%",
+        "decimals": 1,
+        "unit": "taux de défauts, 60 000 unités par mois",
+        "note": "≈ ₹65 000 économisées par mois"
+      },
+      "bullets": [
+        "PPM de défauts et fuites en baisse",
+        "Rendement au premier passage en hausse",
+        "Surveillez les faux rejets"
+      ],
+      "at": [
+        4.675,
+        8.897,
+        12.123
+      ],
+      "exampleAt": 19.498
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Feuille de route sur 90 jours",
+      "example": "Testez chaque mauvaise condition connue pendant le pilote.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Modes de défaillance + situation de départ",
+            "sub": "W1–2",
+            "span": 2,
+            "icon": "search"
+          },
+          {
+            "label": "Options de conception, logique validée",
+            "sub": "W3–4",
+            "span": 2,
+            "icon": "gear"
+          },
+          {
+            "label": "Pilote sur un poste",
+            "sub": "Mois 2",
+            "span": 4,
+            "icon": "test"
+          },
+          {
+            "label": "Documenter, former, dupliquer",
+            "sub": "Mois 3",
+            "span": 4,
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Semaines 1–2 : principaux modes de défaillance + situation de départ",
+        "Semaines 3–4 : options de conception, logique validée",
+        "Mois 2 : pilote sur un poste",
+        "Mois 3 : documenter, former, dupliquer"
+      ],
+      "at": [
+        3.629,
+        12.527,
+        17.814,
+        23.864
+      ],
+      "exampleAt": 20.928
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Liste de vérification avant mise en service",
+      "example": "La production est responsable du poste. L'ingénierie le conçoit. La qualité le met à l'épreuve.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Production",
+            "sub": "Responsable du poste",
+            "icon": "person",
+            "with": "example"
+          },
+          {
+            "label": "Ingénierie",
+            "sub": "Le conçoit",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Qualité",
+            "sub": "Le met à l'épreuve",
+            "icon": "shield",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Mode de défaillance clair, avec une situation de départ",
+        "Sécurité et ergonomie revues",
+        "Mauvais échantillons testés sur chaque modèle",
+        "Perte d'alimentation, mode hors ligne, contournement gérés"
+      ],
+      "at": [
+        13.795,
+        17.592,
+        21.072,
+        24.952
+      ],
+      "exampleAt": 0.227
+    }
+  ]
+}

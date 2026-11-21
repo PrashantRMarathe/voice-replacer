@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "1 900 des 2 000 unités suspectes ont été retrouvées et triées. Le confinement est-il terminé ?",
+      "options": [
+        "Oui — 95 %, c'est suffisant",
+        "Non — 100 unités suspectes ne sont toujours pas retrouvées",
+        "Oui, si la solution est installée"
+      ],
+      "correct": 1,
+      "explanation": "Une couverture de confinement de 95 % veut dire que 5 % de la population suspecte est encore dehors. Le confinement n'est terminé que quand chaque unité est retrouvée.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Les échecs de mise au point bondissent au test juste après un changement de gabarit. On réinitialise le testeur et il passe. Que faut-il faire EN PREMIER ?",
+      "options": [
+        "Continuer — le testeur passe",
+        "Isoler les unités depuis le dernier bon réglage et enregistrer les preuves",
+        "Remettre l'ancien gabarit sans rien dire",
+        "Attendre la réunion de fin de journée"
+      ],
+      "correct": 1,
+      "explanation": "Protégez d'abord le client : bloquez tout depuis le dernier réglage vérifié, gardez échantillons et enregistrements, puis enquêtez. Réinitialiser le testeur cache l'anomalie.",
+      "think": 17
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Cuál es el mejor planteamiento de reto en Design Thinking?",
+      "options": [
+        "Necesitamos una impresora de etiquetas más rápida en empaque",
+        "Los empacadores necesitan la etiqueta correcta a la mano, porque las etiquetas parecidas y las caminatas causan errores",
+        "Los empacadores deben tener más cuidado con las etiquetas"
+      ],
+      "correct": 1,
+      "explanation": "Nombra al usuario, la necesidad y el hallazgo, sin elegir una solución ni culpar a nadie. Los otros son una solución y una culpa.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un piloto baja el tiempo de ciclo, pero solo 6 de 10 operadores usan el método nuevo. ¿Qué sigue?",
+      "options": [
+        "Extenderlo: los números mejoraron",
+        "Preguntarles a los otros cuatro por qué, simplificar, y probar otra vez",
+        "Hacerlo obligatorio y auditar a diario"
+      ],
+      "correct": 1,
+      "explanation": "La baja adopción también es evidencia. Averigua qué hace difícil el método para esos usuarios, mejóralo, y vuelve a probar antes de estandarizar.",
+      "think": 15
+    }
+  ]
+}

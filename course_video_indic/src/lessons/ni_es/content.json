@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué es Next Inspection",
+      "example": "La estación de carcasa de Anita ahora revisa primero el seguro del conector.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "No hagas",
+            "sub": "un defecto",
+            "icon": "wrench",
+            "with": 2
+          },
+          {
+            "label": "No pases",
+            "sub": "un defecto",
+            "icon": "lock",
+            "with": 3
+          },
+          {
+            "label": "No aceptes",
+            "sub": "un defecto",
+            "icon": "shield",
+            "with": 4
+          }
+        ]
+      },
+      "bullets": [
+        "Cada proceso protege al siguiente",
+        "Confirma los puntos críticos antes de entregar",
+        "No hagas un defecto",
+        "No pases un defecto",
+        "No aceptes un defecto"
+      ],
+      "at": [
+        4.393,
+        7.456,
+        20.987,
+        23.281,
+        25.579
+      ],
+      "exampleAt": 28.149
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué atraparlo temprano",
+      "example": "Conector flojo: segundos para corregir en ensamble → abrir, reparar, volver a probar después de la prueba → una devolución en el cliente.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "En ensamble",
+            "sub": "Segundos para corregir",
+            "icon": "wrench",
+            "tone": "good",
+            "with": "example"
+          },
+          {
+            "label": "Después de la prueba",
+            "sub": "Abrir, reparar, volver a probar",
+            "icon": "test",
+            "with": "example"
+          },
+          {
+            "label": "En el cliente",
+            "sub": "Una devolución, y un golpe a tu nombre",
+            "icon": "box",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Los defectos cuestan más en cada paso",
+        "Detección temprana = retroalimentación rápida",
+        "Más inspección ≠ calidad"
+      ],
+      "at": [
+        0.0,
+        18.772,
+        30.136
+      ],
+      "exampleAt": 4.305
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Tres niveles de inspección",
+      "example": "La línea de Anita: un sensor revisa la orientación, el ensamblador confirma el seguro, el probador confirma el modelo.",
+      "visual": {
+        "type": "ladder",
+        "top": "LO MÁS FUERTE: LO MÁS CERCA DEL ORIGEN",
+        "bottom": "ÚLTIMA LÍNEA DE DEFENSA",
+        "items": [
+          {
+            "label": "Origen",
+            "icon": "sensor"
+          },
+          {
+            "label": "Propia",
+            "icon": "hand"
+          },
+          {
+            "label": "Siguiente proceso",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "En el origen: revisa primero la condición",
+        "Autoinspección: revisa tu propio trabajo",
+        "Siguiente proceso: revisa antes de aceptar"
+      ],
+      "at": [
+        2.491,
+        8.738,
+        14.541
+      ],
+      "exampleAt": 20.599
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "El siguiente proceso es mi cliente",
+      "example": "Los ensambladores de Anita le preguntaron al equipo de firmware: ¿qué necesitan de nosotros?",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Tu estación",
+            "sub": "Sigue el SOP",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "Revisa los puntos críticos",
+            "sub": "Producto, cantidad, etiqueta, tiempo",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Siguiente proceso",
+            "sub": "Tu cliente",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "El siguiente proceso es tu cliente",
+        "Producto, cantidad, calidad, etiqueta y tiempo correctos",
+        "Nunca pases a sabiendas una unidad anormal",
+        "Levántalo con el Andon"
+      ],
+      "at": [
+        3.417,
+        6.398,
+        18.683,
+        22.644
+      ],
+      "exampleAt": 25.057
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Los líderes lo hacen real",
+      "example": "Una operadora paró la línea de Anita por un lente estrellado — su gerente le dio las gracias frente al equipo.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Respalda el paro",
+            "icon": "shield"
+          },
+          {
+            "label": "Responde rápido",
+            "icon": "clock"
+          },
+          {
+            "label": "Aprende, nunca culpes",
+            "icon": "person",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Los líderes respaldan a quien para por calidad",
+        "Responder rápido cuando los llaman",
+        "Registrar defectos para aprender, nunca para culpar"
+      ],
+      "at": [
+        12.607,
+        16.262,
+        19.47
+      ],
+      "exampleAt": 24.351
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Elegir qué inspeccionar",
+      "example": "Anita eligió cuatro: seguro del conector, versión de firmware, sello de la carcasa y etiqueta.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "CTQ del cliente",
+            "sub": "Función, seguridad, ajuste",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "FMEA + fugas",
+            "sub": "Lo que se sigue escapando",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Puntos donde se cuela",
+            "sub": "Pieza, ajuste, etiqueta equivocados",
+            "icon": "label",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Seguro del conector",
+              "icon": "lock",
+              "with": "example"
+            },
+            {
+              "label": "Versión de firmware",
+              "icon": "chip",
+              "with": "example"
+            },
+            {
+              "label": "Sello de la carcasa",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Etiqueta",
+              "icon": "label",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Elige las revisiones por riesgo",
+        "CTQ del cliente: función, seguridad, ajuste",
+        "FMEA y fugas repetidas",
+        "¿Dónde puede colarse una pieza o etiqueta equivocada?"
+      ],
+      "at": [
+        3.748,
+        6.393,
+        15.386,
+        20.582
+      ],
+      "exampleAt": 26.327
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Diseñar una puerta de inspección",
+      "example": "La puerta del sello de Anita: muestras límite en el banco y un contenedor rojo para rechazos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Muestras buenas contra malas",
+            "icon": "shape"
+          },
+          {
+            "label": "El método",
+            "icon": "sensor"
+          },
+          {
+            "label": "Cada cuánto",
+            "icon": "clock"
+          },
+          {
+            "label": "La reacción",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Define bueno y malo, con muestras",
+        "Elige el método",
+        "Fija cada cuánto revisas",
+        "Decide la reacción por adelantado"
+      ],
+      "at": [
+        4.527,
+        10.643,
+        17.23,
+        19.993
+      ],
+      "exampleAt": 23.824
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "El plan de reacción",
+      "example": "Firmware equivocado en la prueba: se retuvo cada unidad desde la última revisión buena.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detener: Andon",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Identificar",
+            "sub": "Defecto, modelo, número de serie",
+            "icon": "search"
+          },
+          {
+            "label": "Contener",
+            "sub": "Hasta la última unidad buena",
+            "icon": "lock"
+          },
+          {
+            "label": "Corregir, verificar, prevenir",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Detén o avisa con el Andon",
+        "Identifica defecto, modelo, número de serie",
+        "Contén hasta la última unidad buena",
+        "Corrige, verifica, previene"
+      ],
+      "at": [
+        3.564,
+        6.184,
+        10.616,
+        14.595
+      ],
+      "exampleAt": 24.798
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Herramientas Lean que ayudan",
+      "example": "Anita cambió una revisión visual de etiqueta por una comparación con escáner — ahora la etiqueta equivocada no se puede imprimir.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Poka Yoke",
+            "icon": "key"
+          },
+          {
+            "label": "Jidoka + Andon",
+            "icon": "warning"
+          },
+          {
+            "label": "Trabajo estándar",
+            "icon": "clipboard"
+          },
+          {
+            "label": "FMEA + auditorías",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Revisión visual de etiqueta",
+              "sub": "Fácil de pasar por alto",
+              "icon": "search"
+            },
+            {
+              "label": "Comparación con escáner",
+              "sub": "La etiqueta equivocada no se puede imprimir",
+              "icon": "barcode"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "El Poka Yoke detiene la pieza o el paso equivocado",
+        "Jidoka y Andon detienen y piden ayuda",
+        "El trabajo estándar hace obvio lo bueno y lo malo",
+        "El FMEA define riesgos, las auditorías revisan controles"
+      ],
+      "at": [
+        4.693,
+        9.846,
+        13.711,
+        18.767
+      ],
+      "exampleAt": 25.359
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Ejemplos en electrónica",
+      "example": "Cada revisión va justo después del paso que protege. La inspección final es la última red de seguridad.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "SMT",
+            "sub": "Inspección óptica, alimentadores verificados",
+            "icon": "chip"
+          },
+          {
+            "label": "Ensamble",
+            "sub": "Código de barras del PCB, contador de tornillos",
+            "icon": "barcode"
+          },
+          {
+            "label": "Firmware",
+            "sub": "Interbloqueo de versión",
+            "icon": "lock"
+          },
+          {
+            "label": "Empaque",
+            "sub": "Revisión de peso y escaneos",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "SMT: inspección óptica, alimentadores verificados",
+        "Ensamble: código de barras para el PCB, contador de tornillos",
+        "Firmware: interbloqueo de versión",
+        "Empaque: revisión de peso y escaneos"
+      ],
+      "at": [
+        2.47,
+        9.955,
+        17.549,
+        22.313
+      ],
+      "exampleAt": 29.978
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Calidad en el origen",
+      "example": "La línea de Anita tenía un inspector después de cada estación. Ella pasó a tres a proyectos de prevención.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "El proceso anterior construye al estándar",
+            "icon": "wrench",
+            "with": 0
+          },
+          {
+            "label": "El proceso siguiente acepta solo lo bueno",
+            "icon": "check",
+            "with": 1
+          },
+          {
+            "label": "Los problemas regresan al origen",
+            "icon": "sequence",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Un inspector después de cada estación",
+              "sub": "Costoso; esconde procesos débiles",
+              "icon": "person"
+            },
+            {
+              "label": "3 pasaron a prevención",
+              "sub": "Calidad en el origen",
+              "icon": "shield"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "El proceso anterior construye al estándar",
+        "El proceso siguiente acepta solo lo bueno",
+        "Los problemas regresan a la estación que los hizo",
+        "Cuidado con la trampa de la inspección"
+      ],
+      "at": [
+        3.962,
+        7.473,
+        10.924,
+        17.441
+      ],
+      "exampleAt": 26.339
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "¿Puedes confiar en la revisión?",
+      "example": "Los dos inspectores de Anita no coincidían en uno de cada cinco sellos. Mejores muestras lo corrigieron.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Aceptación falsa",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Rechazo falso",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Definiciones claras",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Revisores entrenados",
+            "icon": "person"
+          },
+          {
+            "label": "Calibrar, MSA",
+            "icon": "gear"
+          },
+          {
+            "label": "Iluminación",
+            "icon": "sensor"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 5,
+          "prefix": "1 / ",
+          "icon": "search",
+          "label": "sellos en los que no coincidían los dos inspectores",
+          "unit": "Mejores muestras límite lo corrigieron",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Las aceptaciones falsas dejan escapar defectos",
+        "Los rechazos falsos invitan a brincar la revisión",
+        "Definiciones claras, fotos, muestras límite",
+        "Entrena a quienes revisan",
+        "Calibra los calibradores, haz un MSA",
+        "Controla la iluminación y la distancia de vista"
+      ],
+      "at": [
+        3.977,
+        7.581,
+        13.814,
+        19.175,
+        22.236,
+        25.803
+      ],
+      "exampleAt": 30.866
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "KPI de Next Inspection",
+      "example": "El rendimiento sube mientras el esfuerzo de inspección baja = vas ganando.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Rendimiento a la primera",
+            "sub": "Arriba",
+            "icon": "chartUp",
+            "tone": "good"
+          },
+          {
+            "label": "Tasa de fugas",
+            "sub": "Abajo",
+            "icon": "chartDown",
+            "tone": "good"
+          },
+          {
+            "label": "Retrabajo, tiempo de respuesta",
+            "icon": "clock"
+          },
+          {
+            "label": "Llamadas falsas",
+            "icon": "warning"
+          }
+        ]
+      },
+      "bullets": [
+        "Rendimiento a la primera arriba",
+        "Tasa de fugas abajo",
+        "Retrabajo, defectos repetidos, tiempo de respuesta",
+        "Llamadas falsas registradas"
+      ],
+      "at": [
+        3.656,
+        6.856,
+        14.393,
+        24.089
+      ],
+      "exampleAt": 29.737
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Caso práctico: línea de cámaras",
+      "example": "Después de 8 semanas: fugas de 18 a 3 por semana, retrabajo reducido a menos de la mitad, rendimiento a la primera de 98.5%.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Revisiones en 4 puntos de riesgo",
+            "icon": "search",
+            "tone": "good"
+          },
+          {
+            "label": "Plan de reacción en cada puerta",
+            "icon": "clipboard",
+            "tone": "good"
+          },
+          {
+            "label": "Interbloqueos de sello + etiqueta",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Revisión semanal de fugas",
+            "icon": "calendar",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Antes",
+            "value": 18
+          },
+          "after": {
+            "label": "Después de 8 semanas",
+            "value": 3
+          },
+          "unit": "fugas por semana",
+          "note": "Rendimiento a la primera de 98.5%",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Revisiones de entrega en 4 puntos de riesgo",
+        "Plan de reacción publicado en cada puerta",
+        "Las revisiones de sello y etiqueta se volvieron interbloqueos",
+        "Revisión semanal de fugas con el origen"
+      ],
+      "at": [
+        2.819,
+        6.665,
+        10.159,
+        14.501
+      ],
+      "exampleAt": 19.151
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Ruta y lista diaria",
+      "example": "Preguntas diarias: ¿Los criterios están visibles? ¿Tus operadores pueden explicar el plan de reacción?",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Elegir por riesgo",
+            "with": 0
+          },
+          {
+            "label": "Mapear el flujo",
+            "with": 0
+          },
+          {
+            "label": "Diseñar revisiones",
+            "with": 1
+          },
+          {
+            "label": "Piloto en una línea",
+            "with": 2
+          },
+          {
+            "label": "Estandarizar",
+            "with": 3
+          },
+          {
+            "label": "Preguntar a diario",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Elige por riesgo y Pareto, mapea el flujo",
+        "Diseña revisiones con planes de reacción",
+        "Piloto en una línea, compara antes y después",
+        "Estandariza el SOP, el FMEA, el entrenamiento"
+      ],
+      "at": [
+        2.753,
+        10.839,
+        17.35,
+        21.868
+      ],
+      "exampleAt": 27.067
+    }
+  ]
+}

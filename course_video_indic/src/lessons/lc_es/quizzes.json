@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Antes de agregar automatización a un paso manual, ¿qué debes hacer primero?",
+      "options": [
+        "Comprar la máquina más rápida que haya",
+        "Simplificarlo con ECRS, y eliminar el desperdicio",
+        "Pedirles a los operadores que trabajen más rápido"
+      ],
+      "correct": 1,
+      "explanation": "Primero simplifica: eliminar, combinar, reordenar y simplificar. El desperdicio automatizado sigue siendo desperdicio, solo más rápido y más difícil de cambiar.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Una estación LCA nueva ahorra 6 segundos en papel, pero se atora diez veces por turno. ¿Qué debe hacer el equipo?",
+      "options": [
+        "Extenderla: el tiempo de ciclo es mejor",
+        "Medir la producción real con los paros, y corregir primero la confiabilidad",
+        "Quitar el sensor para que se atore menos"
+      ],
+      "correct": 1,
+      "explanation": "El tiempo de ciclo teórico no es capacidad real. Incluye los atoramientos y la recuperación, corrige la confiabilidad, y solo entonces extiéndela. Quitar un sensor debilitaría el control de calidad.",
+      "think": 15
+    }
+  ]
+}

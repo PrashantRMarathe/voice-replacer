@@ -1,0 +1,741 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was RCA ist",
+      "example": "Unscharfes Bild = das Symptom. Ein falscher Abstandshalter könnte die Ursache sein, unbestätigt, bis er getestet ist.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Symptom",
+            "sub": "Ein unscharfes Bild",
+            "icon": "camera",
+            "tone": "bad"
+          },
+          {
+            "label": "Mechanismus",
+            "sub": "Wie es geschah",
+            "icon": "gear"
+          },
+          {
+            "label": "Grundursache",
+            "sub": "Ein falscher Abstandshalter? Erst testen",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Symptom: was Sie beobachten",
+        "Mechanismus: wie es geschah",
+        "Grundursache: steuerbar, mit Belegen"
+      ],
+      "at": [
+        11.711,
+        15.276,
+        18.866
+      ],
+      "exampleAt": 25.365
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "RCA im Qualitätssystem",
+      "example": "Ein erfolgreiches Sortieren schützt den Kunden, beweist aber nicht, dass die Ursache weg ist.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Erkennen",
+            "icon": "sensor"
+          },
+          {
+            "label": "Eingrenzen",
+            "icon": "lock"
+          },
+          {
+            "label": "Mit Daten untersuchen",
+            "icon": "search"
+          },
+          {
+            "label": "Korrigieren, über Zeit bestätigen",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Eine Abweichung erkennen",
+        "Eingrenzen, um den Kunden zu schützen",
+        "Mit echten Daten untersuchen",
+        "Korrigieren, dann über Zeit bestätigen"
+      ],
+      "at": [
+        4.526,
+        8.16,
+        12.53,
+        16.108
+      ],
+      "exampleAt": 31.801
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Definieren: 5W2H und Is / Is Not",
+      "example": "Linie 3: 36 von 1.200 Kameras fielen nach dem Wechsel um 10:00 im Fokus durch. Linie 2, andere Vorrichtung: keine.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Linie 3",
+          "value": 36
+        },
+        "after": {
+          "label": "Linie 2",
+          "value": 0
+        },
+        "unit": "Fokusfehler nach dem Wechsel (Linie 2 hat eine andere Vorrichtung)",
+        "note": "Is / Is Not zeigt auf die Vorrichtung",
+        "with": "example"
+      },
+      "bullets": [
+        "Scharfes, messbares Problem",
+        "5W2H erfasst die Fakten",
+        "Is / Is Not: wo es auftritt, und wo nicht"
+      ],
+      "at": [
+        1.19,
+        5.399,
+        13.043
+      ],
+      "exampleAt": 19.367
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Belege und Rückverfolgbarkeit",
+      "example": "Lakshmi verpackte zehn defekte und zehn gute Kameras, bevor jemand die Vorrichtung anfasste.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Zuerst Belege",
+            "icon": "search"
+          },
+          {
+            "label": "Defekte + gute Muster",
+            "icon": "box"
+          },
+          {
+            "label": "Protokolle und Alarme",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Kürzliche Änderungen",
+            "icon": "sequence"
+          },
+          {
+            "label": "Kalibrierung",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Belege sammeln, bevor Einstellungen sich ändern",
+        "Defekte und gute Muster aufheben",
+        "MES-Daten, Testprotokolle, Alarme holen",
+        "Jede kürzliche Änderung erfassen",
+        "Kalibrierung der Messmittel prüfen"
+      ],
+      "at": [
+        3.517,
+        8.814,
+        13.204,
+        18.999,
+        27.131
+      ],
+      "exampleAt": 34.378
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Pareto: den Kampf wählen",
+      "example": "Falsche PCB 40 · fehlende Schraube 25 · Fokus 20 · Etikett 10 · Sonstige 5 → die drei größten = 85 %.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Die drei größten = 85 % der Fehler",
+        "items": [
+          {
+            "label": "Falsche PCB",
+            "value": 40,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Fehlende Schraube",
+            "value": 25,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Fokus",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Etikett",
+            "value": 10,
+            "with": "example"
+          },
+          {
+            "label": "Sonstige",
+            "value": 5,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Nach Anzahl, Kosten oder Risiko ordnen",
+        "Sortieren und kumulierte % addieren",
+        "Den größten nach Schicht, Station, Lieferant aufteilen",
+        "Schwere Risiken haben Vorrang"
+      ],
+      "at": [
+        4.326,
+        9.778,
+        25.449,
+        33.059
+      ],
+      "exampleAt": 19.779
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "5 Why: die Kette testen",
+      "example": "Fehlende Schraube → Zyklus endete ohne Bestätigung → Drehmomentsignal nicht mit MES verknüpft.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Fünf ist keine Regel",
+            "icon": "count"
+          },
+          {
+            "label": "Belege pro Glied",
+            "icon": "search"
+          },
+          {
+            "label": "Bei Bedarf verzweigen",
+            "icon": "sequence"
+          },
+          {
+            "label": "Nie „Bedienfehler\"",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Eine fehlende Schraube",
+              "icon": "screw",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Warum? Der Zyklus endete trotzdem",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Warum? Drehmoment nicht mit MES verknüpft",
+              "icon": "chip",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Fünf ist keine Regel",
+        "Belege für jedes Glied",
+        "Verzweigen, wenn es mehr als eine Ursache gibt",
+        "Nie bei „Bedienfehler\" aufhören"
+      ],
+      "at": [
+        4.987,
+        7.461,
+        10.325,
+        13.844
+      ],
+      "exampleAt": 21.498
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Fischgräte und die 6M",
+      "example": "Lakshmis Fischgräte: Vorrichtungsverschleiß, falsches Rezept, Linsentoleranz, Testerwiederholbarkeit, Handhabung, Hitze.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mensch",
+            "sub": "Handhabung",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Maschine",
+            "sub": "Vorrichtungsverschleiß",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Methode",
+            "sub": "Falsches Rezept",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "Linsentoleranz",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Messung",
+            "sub": "Testerwiederholbarkeit",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Umwelt",
+            "sub": "Hitze",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Fischgräte = Ishikawa-Diagramm",
+        "Mensch · Maschine · Methode",
+        "Material · Messung · Umwelt",
+        "Sie beweist nicht, welche Ursache stimmt"
+      ],
+      "at": [
+        0.28,
+        8.627,
+        11.15,
+        32.48
+      ],
+      "exampleAt": 14.783
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Änderungsanalyse und Fehlerbäume",
+      "example": "Kein Bild rutscht nur durch, wenn die Firmware falsch ist AND die Verriegelung fehlt.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Änderungsanalyse",
+            "sub": "Fehlerhaft gegen zuletzt stabil",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Fehlerbaum",
+            "sub": "AND / OR, rückwärts",
+            "icon": "gear",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Firmware ist falsch",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "AND die Verriegelung fehlt",
+              "icon": "lock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Eine Einheit ohne Bild rutscht durch",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Änderungsanalyse: fehlerhaft gegen zuletzt stabil",
+        "Fehlerbaum: rückwärts mit AND / OR",
+        "Gleichzeitig ≠ Ursache"
+      ],
+      "at": [
+        0.234,
+        12.002,
+        29.863
+      ],
+      "exampleAt": 20.232
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Die Hypothese testen",
+      "example": "Freigegebene gegen verdächtige Abstandshalter, mit gleicher Kamera, gleichem Rezept, gleichem Raum.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vorhersage aufschreiben",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Ein Faktor, oder ein DOE",
+            "icon": "gear"
+          },
+          {
+            "label": "Genug Muster",
+            "icon": "stack"
+          },
+          {
+            "label": "Messmittel prüfen",
+            "icon": "scale"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Verdächtiger Abstandshalter",
+              "sub": "Gleiche Kamera, Rezept, Raum",
+              "icon": "shape"
+            },
+            {
+              "label": "Freigegebener Abstandshalter",
+              "sub": "Gleiche Kamera, Rezept, Raum",
+              "icon": "shape"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Eine Vorhersage aufschreiben",
+        "Ein Faktor auf einmal, oder ein DOE",
+        "Genug Muster, wiederholt",
+        "Zuerst das Messmittel prüfen"
+      ],
+      "at": [
+        0.204,
+        10.572,
+        20.147,
+        34.196
+      ],
+      "exampleAt": 24.778
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Eingrenzen, korrigieren, vorbeugen",
+      "example": "Falsche Platine: gesperrten Bestand scannen → MES-Abgleich ergänzen → auf andere Varianten übertragen.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Eingrenzen",
+            "sub": "Gesperrten Bestand scannen",
+            "icon": "lock"
+          },
+          {
+            "label": "Korrigieren",
+            "sub": "MES-Abgleich ergänzen",
+            "icon": "barcode"
+          },
+          {
+            "label": "Vorbeugen",
+            "sub": "Auf andere Varianten übertragen",
+            "icon": "sequence",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Eingrenzen: den Kunden jetzt schützen",
+        "Korrigieren: die bestätigte Ursache beseitigen",
+        "Vorbeugen: auf ähnliche Linien übertragen",
+        "Auch die Durchschlupfursache beheben"
+      ],
+      "at": [
+        3.582,
+        7.393,
+        12.094,
+        17.369
+      ],
+      "exampleAt": 24.416
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Verknüpfung mit FMEA und Poka Yoke",
+      "example": "Fragen Sie: Verhindert die neue Kontrolle den Fehler, erkennt sie ihn, oder macht sie ihn nur sichtbar?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "FMEA",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Kontrollplan",
+            "icon": "shield"
+          },
+          {
+            "label": "Poka Yoke validieren",
+            "icon": "test"
+          },
+          {
+            "label": "SOP, Schulung, Audits",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "ladder",
+          "top": "AM BESTEN",
+          "bottom": "AM SCHWÄCHSTEN",
+          "with": "example",
+          "items": [
+            {
+              "label": "Verhindert den Fehler",
+              "icon": "key",
+              "with": "example"
+            },
+            {
+              "label": "Erkennt ihn",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Macht ihn nur sichtbar",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Jede Ursache mit einer Fehlerart verknüpfen",
+        "Den Kontrollplan aktualisieren",
+        "Poka Yoke validieren: gut, schlecht, grenzwertig",
+        "SOP, Schulung, Audits aktualisieren"
+      ],
+      "at": [
+        4.023,
+        12.498,
+        19.479,
+        26.926
+      ],
+      "exampleAt": 35.363
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "RCA-Kennzahlen",
+      "example": "60 → 12 Fehler pro 20.000: 80 % weniger. ₹90.000 Kontrolle spart ₹15.000/Monat = Amortisation in 6 Monaten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Geschlossenes Formular ≠ Erfolg",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Fehlerrate gegen FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Wiederholungen nach Abschluss",
+            "icon": "sequence"
+          },
+          {
+            "label": "Kosten und Amortisation",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Vorher",
+            "value": 60
+          },
+          "after": {
+            "label": "Nachher",
+            "value": 12
+          },
+          "unit": "Fehler pro 20.000 Kameras",
+          "note": "80 % weniger, Amortisation in 6 Monaten",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Geschlossene Formulare sind kein Erfolg",
+        "Fehlerrate ≠ Erstdurchlaufquote",
+        "Wiederholungen nach Abschluss verfolgen",
+        "Kosten und Amortisation"
+      ],
+      "at": [
+        6.0,
+        11.259,
+        17.943,
+        28.492
+      ],
+      "exampleAt": 22.839
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Fallstudie: Fokusfehler",
+      "example": "Tausch der Abstandshalter verschob die Fehler. Tausch der Tester nicht. Das war der Beweis.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Sperren seit dem letzten guten Erstteil",
+            "icon": "lock"
+          },
+          {
+            "label": "Vier Verdächtige gelistet",
+            "icon": "search"
+          },
+          {
+            "label": "Kreuztausch-Test",
+            "sub": "Abstandshalter verschoben es, Tester nicht",
+            "icon": "test"
+          },
+          {
+            "label": "Codierter Abstandshalter + Vorrichtungs-Scan",
+            "icon": "key",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Jede Kamera seit dem letzten guten Erstteil gesperrt",
+        "Vier Verdächtige: Abstandshalter, Rezept, Sitz, Tester",
+        "Gemessen, Protokolle verglichen, Kreuztausch-Test",
+        "Codierter Abstandshalter + Vorrichtungs-Scan mit Rezept verknüpft"
+      ],
+      "at": [
+        0.225,
+        5.842,
+        16.225,
+        32.997
+      ],
+      "exampleAt": 23.624
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Zwei weitere Fälle: SMT und Etikett",
+      "example": "Beide Lösungen wurden vor dem Abschluss herausgefordert.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Falsches Bauteil",
+            "sub": "Platinenlinie",
+            "icon": "chip",
+            "tone": "bad"
+          },
+          {
+            "label": "Feeder-Verriegelung",
+            "sub": "Gegen die BOM geprüft",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Etikett ≠ Gerät",
+            "sub": "Verpackung",
+            "icon": "label",
+            "tone": "bad"
+          },
+          {
+            "label": "Karton schließt nicht",
+            "sub": "Bis alle drei passen",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Platinenlinie: falsches Bauteil bestückt",
+        "Lösung: Feeder-Verriegelung gegen die BOM",
+        "Verpackung: Kartonetikett ≠ Gerät",
+        "Lösung: Karton schließt erst, wenn alles passt"
+      ],
+      "at": [
+        4.089,
+        15.597,
+        20.271,
+        25.059
+      ],
+      "exampleAt": 33.655
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Einführung in 90 Tagen",
+      "example": "Machen Sie RCA zur Routine, nicht zu einem einmaligen Workshop.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Auslöser, Rollen, Formulare, Piloten",
+            "sub": "Tag 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Schulen, echte Untersuchungen führen",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Auditieren, FMEA aktualisieren, ausweiten",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Tag 1–30: Auslöser, Rollen, Formulare, Piloten",
+        "Tag 31–60: schulen, untersuchen",
+        "Tag 61–90: auditieren, FMEA aktualisieren, ausweiten",
+        "Abschluss: abgeglichen, bestätigt, getestet"
+      ],
+      "at": [
+        5.758,
+        13.582,
+        19.04,
+        28.045
+      ],
+      "exampleAt": 0.24
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Le travail d'un Hancho consiste surtout à…",
+      "options": [
+        "Remplir le rapport d'équipe en fin de journée",
+        "Diriger au Gemba : tenir le standard, réagir aux écarts, faire grandir les personnes",
+        "Faire lui-même le poste le plus difficile, à chaque équipe"
+      ],
+      "correct": 1,
+      "explanation": "Un Hancho dirige là où la valeur est créée : il protège le standard, réagit vite aux anomalies et développe les compétences de l'équipe. Les rapports et le remplacement aux postes ne sont pas le cœur du rôle.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Le tableau horaire passe au rouge et les unités suspectes peuvent présenter un risque sécurité. Quel niveau de réaction ?",
+      "options": [
+        "Niveau 1 : l'équipe corrige discrètement",
+        "Niveau 2 : appeler la maintenance quand elle est libre",
+        "Niveau 3 : confiner et escalader immédiatement à la direction"
+      ],
+      "correct": 2,
+      "explanation": "Un risque sécurité ou client, c'est le niveau 3 : confinez les unités et escaladez immédiatement. N'attendez pas de voir si l'équipe peut s'en charger.",
+      "think": 15
+    }
+  ]
+}

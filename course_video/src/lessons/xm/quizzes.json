@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which of these belongs in the KPIs / targets dimension, not the breakthrough objectives?",
+      "options": [
+        "Become world-class in product quality",
+        "Raise first-pass yield to 99% this year",
+        "Delight every customer"
+      ],
+      "correct": 1,
+      "explanation": "A target is measurable, with a number and a date. The others are directional objectives, not measures.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A plant's annual on-time delivery goal has no project linked to it. What should the team do FIRST?",
+      "options": [
+        "Mark a strong link to the nearest project",
+        "Find or launch a project that can move delivery — or rethink the goal",
+        "Leave it; the KPI will improve on its own"
+      ],
+      "correct": 1,
+      "explanation": "A goal with no supporting project is a gap. Close it with real work, or revise the goal; never fill the box with a link that has no mechanism.",
+      "think": 13
+    }
+  ]
+}

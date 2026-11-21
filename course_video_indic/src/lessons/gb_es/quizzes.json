@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "¿Qué frase es un hecho real (Genjitsu)?",
+      "options": [
+        "“El turno B siempre es descuidado.”",
+        "“El proveedor lo causó.”",
+        "“18 de 24 fallas vinieron del lote B.”"
+      ],
+      "correct": 2,
+      "explanation": "Un hecho tiene conteos, un denominador y un alcance que puedes revisar. Las otras son opiniones, y lo del proveedor todavía no está comprobado.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "El tablero muestra un turno con el doble de defectos. El gerente quiere volver a entrenar a ese turno. ¿Qué va primero?",
+      "options": [
+        "Entrenarlos hoy: los datos son claros",
+        "Ir a la estación, tomar las unidades con falla, y revisar los hechos",
+        "Intercambiar a los operadores de los dos turnos"
+      ],
+      "correct": 1,
+      "explanation": "Una diferencia entre turnos es una señal, no una prueba. Ve a ver: el lugar real, la cosa real y los hechos reales, antes de decidir cualquier solución.",
+      "think": 15
+    }
+  ]
+}

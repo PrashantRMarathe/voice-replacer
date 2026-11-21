@@ -1,0 +1,612 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Was eine Fischgräte ist",
+      "example": "Nikhils Problem: Netzwerk-Switches fallen beim Port-Link-Test durch.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mögliche Ursachen",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Ursachenfamilien",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Das Problem",
+            "sub": "Im Kopf",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Problem im Kopf",
+        "Mögliche Ursachen auf den Gräten",
+        "Ein Denkwerkzeug fürs Team"
+      ],
+      "at": [
+        5.109,
+        7.899,
+        13.791
+      ],
+      "exampleAt": 23.536
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Herkunft und Grenzen",
+      "example": "Einen Tester zu kaufen war eine Vermutung. Die Fischgräte macht daraus eine Vermutung unter vielen.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Beweis",
+            "sub": "Nicht aus der Fischgräte",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Mögliche Ursachen",
+            "sub": "Was sie zeigt",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kaoru Ishikawa, Qualitätspionier",
+        "Eines der sieben Qualitätswerkzeuge",
+        "Zeigt mögliche Ursachen, beweist nichts"
+      ],
+      "at": [
+        1.957,
+        7.866,
+        14.609
+      ],
+      "exampleAt": 23.09
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Aufbau des Fisches",
+      "example": "Eine Ursache gilt als „vermutet“, bis sie bewiesen ist.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Kopf",
+            "sub": "Die Wirkung",
+            "icon": "warning",
+            "with": 0
+          },
+          {
+            "label": "Hauptgräten",
+            "sub": "Ursachenfamilien",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Nebengräten",
+            "sub": "Konkrete Ursachen",
+            "icon": "search",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Kopf: die Wirkung",
+        "Wirbelsäule und Hauptgräten: Ursachenfamilien",
+        "Nebengräten: konkrete Ursachen"
+      ],
+      "at": [
+        3.32,
+        8.419,
+        17.757
+      ],
+      "exampleAt": 24.014
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Eine scharfe Wirkung",
+      "example": "„Port-Link-Fehler an Switch-Linie 3 stiegen diese Woche von 5 auf 32 pro 1.000.“",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "„Die Qualität ist schlecht“",
+            "sub": "Vage",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "5 → 32 pro 1.000",
+            "sub": "Linie 3, Port-Link, diese Woche",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Was, wo, wann, wie viel",
+        "Eine Ausgangslage und ein Nenner",
+        "Ein Fehlerbild auf einmal"
+      ],
+      "at": [
+        7.923,
+        13.02,
+        17.687
+      ],
+      "exampleAt": 21.329
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Die 6M: Mensch, Maschine, Methode",
+      "example": "Nutzen Sie die Familien als Denkanstöße, nicht als starre Kästen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Mensch",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Maschine",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Methode",
+            "icon": "clipboard",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Mensch: Können, Belastung, Übergabe",
+        "Maschine: Verschleiß, Einstellungen, Wartung",
+        "Methode: Ablauf, SOP, Umrüsten"
+      ],
+      "at": [
+        3.103,
+        8.875,
+        15.675
+      ],
+      "exampleAt": 28.549
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Material, Messung, Mitwelt",
+      "example": "Messung vergessen Teams am häufigsten. Sagt der Tester selbst die Wahrheit?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Material",
+            "icon": "box",
+            "with": 0
+          },
+          {
+            "label": "Messung",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Mitwelt",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Material: Lieferant, Charge, Handling",
+        "Messung: Lehren, Testgrenzen, Fehlabweisungen",
+        "Mitwelt: ESD, Feuchte, Staub, Wärme"
+      ],
+      "at": [
+        0.228,
+        7.183,
+        13.805
+      ],
+      "exampleAt": 19.829
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Zuerst Belege sammeln",
+      "example": "Die Fehler häuften sich an zwei der vier Teststationen.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Port-Link-Fehler nach Teststation",
+        "with": "example",
+        "items": [
+          {
+            "label": "T1",
+            "value": 14,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T2",
+            "value": 3,
+            "with": "example"
+          },
+          {
+            "label": "T3",
+            "value": 12,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "T4",
+            "value": 3,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ein Pareto der Fehlerarten",
+        "Nach Schicht, Charge, Station, Tester aufteilen",
+        "Gute mit schlechten Einheiten vergleichen"
+      ],
+      "at": [
+        4.348,
+        9.297,
+        15.119
+      ],
+      "exampleAt": 19.765
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Erstellen: acht Schritte",
+      "example": "Nikhils Team: Produktion, Qualität, Test, Instandhaltung und Lager.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Definieren, Team",
+            "with": 0
+          },
+          {
+            "label": "Zeichnen, sammeln",
+            "with": 1
+          },
+          {
+            "label": "Warum? Zusammenfassen, ordnen",
+            "with": 2
+          },
+          {
+            "label": "Verantwortliche testen",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Wirkung definieren, Team holen",
+        "Gräten zeichnen, sammeln, ohne Schuld",
+        "Warum fragen, zusammenfassen, priorisieren",
+        "Verantwortliche zum Testen der Ursachen"
+      ],
+      "at": [
+        3.475,
+        8.963,
+        16.69,
+        25.428
+      ],
+      "exampleAt": 29.681
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Nikhils Fischgräte",
+      "example": "Dreiundzwanzig mögliche Ursachen in vierzig Minuten.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Maschine",
+            "sub": "Einpresshöhe driftet",
+            "icon": "gear",
+            "with": 0
+          },
+          {
+            "label": "Messung",
+            "sub": "Verschlissene Testkabel",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "Neue Port-Charge",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Methode",
+            "sub": "Keine Steckprüfung",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Mensch",
+            "sub": "Leiharbeitsgruppe",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Mitwelt",
+            "sub": "ESD-Aufzeichnungen",
+            "icon": "wave",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 23,
+          "icon": "search",
+          "label": "mögliche Ursachen in 40 Minuten",
+          "unit": "jede noch eine Vermutung",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Maschine: Einpresshöhe driftet",
+        "Messung: verschlissene Testkabel",
+        "Material, Methode, Mensch, Mitwelt"
+      ],
+      "at": [
+        6.466,
+        12.413,
+        17.37
+      ],
+      "exampleAt": 26.959
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Fischgräte, dann fünf Warum",
+      "example": "Warum verschlissene Kabel? Kein Wechselgrenzwert. Warum? Die Kabel standen in keinem Wartungsplan.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Kabel verschlissen",
+            "with": "example"
+          },
+          {
+            "label": "Nie getauscht",
+            "with": "example"
+          },
+          {
+            "label": "Nicht im Wartungsplan",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Die Fischgräte geht in die Breite",
+        "Fünf Warum gehen in die Tiefe",
+        "Nie bei Werkerfehler aufhören"
+      ],
+      "at": [
+        3.755,
+        7.013,
+        23.235
+      ],
+      "exampleAt": 10.15
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Beweisen: die Belegleiter",
+      "example": "Abstimmungen zählen nicht. Ein einzelner guter Versuch ist auch kein Beweis.",
+      "visual": {
+        "type": "ladder",
+        "top": "AM STÄRKSTEN",
+        "bottom": "AM SCHWÄCHSTEN",
+        "items": [
+          {
+            "label": "Wiederholen",
+            "icon": "check",
+            "with": 2
+          },
+          {
+            "label": "Experimentieren",
+            "icon": "test",
+            "with": 2
+          },
+          {
+            "label": "Verfolgen und messen",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Beobachten",
+            "icon": "search",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Am Gemba beobachten",
+        "Zurückverfolgen und messen",
+        "Experimentieren, dann wiederholen"
+      ],
+      "at": [
+        3.718,
+        7.334,
+        15.872
+      ],
+      "exampleAt": 23.203
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Zwei Ursachen, beide echt",
+      "example": "Nachtest mit neuen Kabeln: 6 von 10 „fehlerhaften“ Switches bestanden. Die anderen 4 hatten zu flache Ports.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "10 fehlerhafte Switches mit neuen Kabeln nachgetestet: 6 bestanden, 4 hatten zu flache Ports",
+        "with": "example",
+        "items": [
+          {
+            "label": "Scheinfehler",
+            "value": 6,
+            "with": "example"
+          },
+          {
+            "label": "Echte Fehler",
+            "value": 4,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Verschlissene Kabel: Scheinfehler",
+        "Höhendrift: echte Fehler",
+        "Ursachen können gleichzeitig wirken"
+      ],
+      "at": [
+        8.318,
+        18.621,
+        21.771
+      ],
+      "exampleAt": 0.246
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Starke Korrekturmaßnahmen",
+      "example": "Steckzähler am Kabel mit Wechselgrenzwert. Höhenprüfung und Sperre zu jedem Schichtbeginn.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Steckzähler am Kabel",
+            "icon": "count",
+            "with": "example"
+          },
+          {
+            "label": "Höhensperre beim Einpressen",
+            "icon": "lock",
+            "with": "example"
+          },
+          {
+            "label": "SOP, PFMEA, Kontrollplan",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Konstruktiv beseitigen, bevor Sie nachschulen",
+        "Sperren, Verriegelungen, Zähler",
+        "SOP, PFMEA, Kontrollplan aktualisieren"
+      ],
+      "at": [
+        0.246,
+        7.314,
+        13.265
+      ],
+      "exampleAt": 21.884
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Wirkung beweisen",
+      "example": "Null Scheinfehler durch verschlissene Kabel, über 30 Produktionstage.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Vorher",
+          "value": 32
+        },
+        "after": {
+          "label": "Nachher",
+          "value": 4
+        },
+        "unit": "Port-Link-Fehler pro 1.000 Switches",
+        "note": "Über 30 Produktionstage gehalten",
+        "with": 2
+      },
+      "bullets": [
+        "Ziel vor dem Start festlegen",
+        "Ein festes Zeitfenster und eine Stichprobe",
+        "32 → 4 pro 1.000, gehalten über 30 Tage"
+      ],
+      "at": [
+        0.225,
+        6.578,
+        20.871
+      ],
+      "exampleAt": 26.719
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fehler und gute Praxis",
+      "example": "Lassen Sie verworfene Ursachen im Diagramm, mit dem Beleg, der sie ausschloss.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Vage Wirkung",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Fehlende Bereiche",
+            "icon": "person",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Keine Prüfung",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Verworfene Ursachen behalten",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Vage Wirkungen und gemischte Fehler",
+        "Fehlende Bereiche im Raum",
+        "Keine Prüfung nach der Sitzung"
+      ],
+      "at": [
+        3.019,
+        7.48,
+        17.507
+      ],
+      "exampleAt": 22.835
+    }
+  ]
+}

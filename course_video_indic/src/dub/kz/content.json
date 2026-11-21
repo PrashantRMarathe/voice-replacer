@@ -1,0 +1,630 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What Kaizen Means",
+      "example": "Suresh's line: two flips of every monitor, every unit, every shift.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Change for the better",
+            "icon": "chartUp",
+            "with": 0
+          },
+          {
+            "label": "Small steps",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "By the team",
+            "icon": "person",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 2,
+          "icon": "weight",
+          "label": "flips of every monitor",
+          "unit": "every unit, every shift",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Change for the better",
+        "Many small, disciplined changes",
+        "Made by the people closest to the work"
+      ],
+      "at": [
+        3.418,
+        10.597,
+        13.854
+      ],
+      "exampleAt": 21.303
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "What Makes It Kaizen",
+      "example": "Each improved standard is the baseline for the next Kaizen.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Continuous",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Gemba-based",
+            "icon": "walk",
+            "with": 1
+          },
+          {
+            "label": "Low cost, data",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "New standard",
+            "icon": "clipboard",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Continuous and people-driven",
+        "Starts at the gemba",
+        "Low cost first, backed by data",
+        "Ends in a new standard"
+      ],
+      "at": [
+        3.402,
+        8.549,
+        13.349,
+        18.95
+      ],
+      "exampleAt": 24.623
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "The Kaizen Mindset",
+      "example": "“We've always flipped it” is exactly the sentence Kaizen questions.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "“We've always done it”",
+            "sub": "Accept the loss",
+            "icon": "cross",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "“Every process can improve”",
+            "sub": "Kaizen",
+            "icon": "check",
+            "tone": "good",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Every process can improve",
+        "Problems are for learning, not blame",
+        "Creativity before capital"
+      ],
+      "at": [
+        3.398,
+        7.41,
+        15.594
+      ],
+      "exampleAt": 22.571
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Types of Kaizen",
+      "example": "The double flip: a point Kaizen, owned by Suresh's own team.",
+      "visual": {
+        "type": "ladder",
+        "top": "BIGGEST",
+        "bottom": "SMALLEST",
+        "items": [
+          {
+            "label": "System Kaizen",
+            "sub": "Weeks",
+            "icon": "stack",
+            "with": 3
+          },
+          {
+            "label": "Kaizen event",
+            "sub": "3–5 days",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Point Kaizen",
+            "sub": "Hours to days",
+            "icon": "pin",
+            "with": 1
+          },
+          {
+            "label": "Daily Kaizen",
+            "sub": "Minutes",
+            "icon": "hand",
+            "with": 0
+          }
+        ]
+      },
+      "bullets": [
+        "Daily Kaizen: minutes to days",
+        "Point Kaizen: one specific loss",
+        "Kaizen event: three to five days",
+        "System Kaizen: end-to-end flow"
+      ],
+      "at": [
+        4.163,
+        9.201,
+        14.567,
+        21.437
+      ],
+      "exampleAt": 26.831
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Kaizen Runs on PDCA",
+      "example": "SDCA holds the standard. PDCA improves it.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Plan",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Do",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Check",
+            "icon": "search",
+            "with": 2
+          },
+          {
+            "label": "Act",
+            "icon": "check",
+            "tone": "good",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Plan: observe, define, find the cause",
+        "Do: a small, safe trial",
+        "Check: compare with the baseline",
+        "Act: standardize, or learn and repeat"
+      ],
+      "at": [
+        4.163,
+        8.457,
+        11.803,
+        16.729
+      ],
+      "exampleAt": 22.412
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "See It at the Gemba",
+      "example": "Flip face down to fit the stand, flip face up to test. Two lifts of a 6 kg monitor.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Face down: fit stand",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Face up: test",
+            "icon": "weight",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Two 6 kg lifts",
+            "icon": "warning",
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Watch the work as it really is",
+        "Count walking, reaching, flipping",
+        "Ask what makes the job hard"
+      ],
+      "at": [
+        3.035,
+        7.228,
+        13.583
+      ],
+      "exampleAt": 17.18
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Define the Problem",
+      "example": "Cycle 38 s vs 35 s TAKT. 2 flips per unit. 15 panel scratches per 1,000.",
+      "visual": {
+        "type": "bars",
+        "label": "TAKT",
+        "value": 35,
+        "suffix": " s",
+        "with": "example",
+        "items": [
+          {
+            "label": "Cycle time",
+            "value": 38,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Symptom, then the facts",
+        "Measure the loss",
+        "A target with a deadline"
+      ],
+      "at": [
+        0.988,
+        7.723,
+        28.464
+      ],
+      "exampleAt": 12.635
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Generate Ideas",
+      "example": "Leela, an operator: “Why not fit the stand while the monitor's still in its tray?”",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Ask operators",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "ECRS",
+            "icon": "key",
+            "with": 1
+          },
+          {
+            "label": "Other lines",
+            "icon": "search",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Flip twice",
+              "sub": "Today",
+              "icon": "weight",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Fit stand in the tray",
+              "sub": "Leela's idea",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Ask the operators first",
+        "Use ECRS",
+        "Look at other lines"
+      ],
+      "at": [
+        4.582,
+        11.079,
+        16.903
+      ],
+      "exampleAt": 21.31
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Choose the Idea",
+      "example": "Leela's idea: high on impact, ease and cost. It won.",
+      "visual": {
+        "type": "icons",
+        "with": "example",
+        "items": [
+          {
+            "label": "Robot arm",
+            "sub": "Score 2.4",
+            "icon": "gear",
+            "with": "example"
+          },
+          {
+            "label": "Lifting aid",
+            "sub": "Score 3.6",
+            "icon": "weight",
+            "with": "example"
+          },
+          {
+            "label": "Leela's idea",
+            "sub": "Score 4.7 of 5",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Safety and quality are gates",
+        "Score impact, ease, cost, speed",
+        "It must fix a verified cause"
+      ],
+      "at": [
+        3.383,
+        11.199,
+        17.18
+      ],
+      "exampleAt": 24.98
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Trial It Small",
+      "example": "One station, one shift: re-sequenced steps and a foam pad in the tray. Cost: almost nothing.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Hypothesis: both flips disappear",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Scope: one station, one shift",
+            "icon": "pin",
+            "with": 0
+          },
+          {
+            "label": "Same measures as baseline",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Foam pad + new sequence",
+            "icon": "shape",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "A hypothesis and a scope",
+        "Same measures as the baseline",
+        "Watch the people, not just the numbers"
+      ],
+      "at": [
+        3.272,
+        13.745,
+        17.976
+      ],
+      "exampleAt": 21.541
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Check the Results",
+      "example": "Balanced rule: the target improves, and safety, quality and delivery don't suffer.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Before",
+          "value": 15
+        },
+        "after": {
+          "label": "Trial",
+          "value": 3
+        },
+        "unit": "panel scratches per 1,000 monitors",
+        "note": "Cycle 38 s → 33 s · flips 2 → 0",
+        "with": 2
+      },
+      "bullets": [
+        "Cycle time: 38 s down to 33 s",
+        "Flips per unit: 2 down to 0",
+        "Scratches: 15 down to 3 per 1,000",
+        "Nothing else got worse"
+      ],
+      "at": [
+        1.242,
+        5.967,
+        9.02,
+        15.239
+      ],
+      "exampleAt": 27.586
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Measure Honestly",
+      "example": "Day 30: still 33 s. Day 90: still 33 s, and 3 scratches per 1,000.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Baseline",
+            "sub": "Before",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Still 33 s",
+            "sub": "Day 30",
+            "icon": "check",
+            "with": "example"
+          },
+          {
+            "label": "Still 33 s",
+            "sub": "Day 90",
+            "icon": "check",
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Same definitions, before and after",
+        "Count good output, not gross",
+        "Check again at 30, 60, 90 days"
+      ],
+      "at": [
+        2.779,
+        6.534,
+        21.293
+      ],
+      "exampleAt": 25.425
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Standardize the Gain",
+      "example": "The old flip instructions were removed from every station the same week.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Update SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Train, remove old way",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Owner and audit",
+            "icon": "search",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Update the SOP and standard work",
+        "Train everyone, remove the old way",
+        "Name an owner and audit it"
+      ],
+      "at": [
+        4.639,
+        8.124,
+        16.922
+      ],
+      "exampleAt": 19.813
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Make It a Habit",
+      "example": "Suresh's team: 40 ideas in 3 months, 27 tested, 19 standardized.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Suresh's team, first three months",
+        "with": "example",
+        "items": [
+          {
+            "label": "Ideas",
+            "value": 40,
+            "with": "example"
+          },
+          {
+            "label": "Tested",
+            "value": 27,
+            "with": "example"
+          },
+          {
+            "label": "Standardized",
+            "value": 19,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "A visible idea board",
+        "Quick replies to every idea",
+        "Recognize the people"
+      ],
+      "at": [
+        3.763,
+        8.539,
+        14.56
+      ],
+      "exampleAt": 21.341
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Start Tomorrow",
+      "example": "Kaizen = small improvements × disciplined repetition × ownership.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "One recurring pain",
+            "with": 0
+          },
+          {
+            "label": "Ten cycles, talk to the team",
+            "with": 1
+          },
+          {
+            "label": "Smallest safe fix",
+            "with": 2
+          },
+          {
+            "label": "Standardize",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Pick one recurring pain",
+        "Watch ten cycles, talk to the team",
+        "Test the smallest safe fix"
+      ],
+      "at": [
+        3.941,
+        7.254,
+        16.516
+      ],
+      "exampleAt": 23.368
+    }
+  ]
+}

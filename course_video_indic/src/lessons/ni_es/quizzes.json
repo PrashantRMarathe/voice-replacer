@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Un sensor detiene la orientación equivocada del conector antes de colocar la pieza. ¿Qué nivel de inspección es este?",
+      "options": [
+        "Inspección en el origen",
+        "Autoinspección",
+        "Inspección del siguiente proceso"
+      ],
+      "correct": 0,
+      "explanation": "Revisa la condición que crearía el defecto, antes de que pase. Eso es inspección en el origen — el nivel más fuerte.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "La prueba sigue encontrando el mismo conector flojo que viene de ensamble, así que un gerente pone un inspector después de ensamble. ¿Cuál es la mejor jugada?",
+      "options": [
+        "Agregar un segundo inspector por seguridad",
+        "Conservar el inspector y también corregir la causa en ensamble",
+        "Quitar todas las revisiones para ahorrar",
+        "Pedirle a prueba que deje de reportarlo"
+      ],
+      "correct": 1,
+      "explanation": "Un inspector extra puede contener el riesgo por ahora, pero un defecto repetido significa que hay que corregir el proceso en el origen — luego se puede quitar la revisión temporal.",
+      "think": 16
+    }
+  ]
+}

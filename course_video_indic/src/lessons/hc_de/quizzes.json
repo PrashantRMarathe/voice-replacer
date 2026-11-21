@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Die Aufgabe eines Hancho ist vor allem…",
+      "options": [
+        "Am Tagesende den Schichtbericht ausfüllen",
+        "Am Gemba führen: den Standard halten, auf Lücken reagieren, Menschen entwickeln",
+        "Selbst die schwerste Station übernehmen, jede Schicht"
+      ],
+      "correct": 1,
+      "explanation": "Ein Hancho führt dort, wo Wert entsteht: er schützt den Standard, reagiert schnell auf Abweichungen und baut die Fähigkeiten des Teams auf. Berichte und Stationsvertretung sind nicht der Kern der Rolle.",
+      "think": 9
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Die Stundentafel wird rot, und verdächtige Einheiten könnten ein Sicherheitsrisiko haben. Welche Reaktionsstufe?",
+      "options": [
+        "Stufe 1: das Team behebt es still",
+        "Stufe 2: die Instandhaltung rufen, wenn sie Zeit hat",
+        "Stufe 3: eindämmen und sofort an die Leitung eskalieren"
+      ],
+      "correct": 2,
+      "explanation": "Sicherheits- oder Kundenrisiko ist Stufe 3: Einheiten eindämmen und sofort eskalieren. Warten Sie nicht, ob das Team es schafft.",
+      "think": 17
+    }
+  ]
+}

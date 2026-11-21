@@ -1,0 +1,741 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "What RCA Is",
+      "example": "Blurry image = the symptom. A wrong spacer might be the cause — not confirmed until it's tested.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Symptom",
+            "sub": "A blurry image",
+            "icon": "camera",
+            "tone": "bad"
+          },
+          {
+            "label": "Mechanism",
+            "sub": "How it happened",
+            "icon": "gear"
+          },
+          {
+            "label": "Root cause",
+            "sub": "A wrong spacer? Test it first",
+            "icon": "search"
+          }
+        ]
+      },
+      "bullets": [
+        "Symptom: what you observe",
+        "Mechanism: how it happened",
+        "Root cause: controllable, with evidence"
+      ],
+      "at": [
+        13.359,
+        16.181,
+        19.206
+      ],
+      "exampleAt": 25.173
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "RCA in the Quality System",
+      "example": "A successful sort protects the customer — it doesn't prove the cause is gone.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Detect",
+            "icon": "sensor"
+          },
+          {
+            "label": "Contain",
+            "icon": "lock"
+          },
+          {
+            "label": "Investigate with data",
+            "icon": "search"
+          },
+          {
+            "label": "Correct, verify over time",
+            "icon": "check",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Detect a deviation",
+        "Contain to protect the customer",
+        "Investigate with real data",
+        "Correct, then verify over time"
+      ],
+      "at": [
+        4.508,
+        6.933,
+        11.606,
+        14.985
+      ],
+      "exampleAt": 28.786
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Define: 5W2H & Is / Is Not",
+      "example": "Line 3: 36 of 1,200 cameras failed focus after the 10:00 changeover. Line 2, another fixture: none.",
+      "visual": {
+        "type": "compare",
+        "before": {
+          "label": "Line 3",
+          "value": 36
+        },
+        "after": {
+          "label": "Line 2",
+          "value": 0
+        },
+        "unit": "focus failures after the changeover (Line 2 has another fixture)",
+        "note": "Is / Is Not points at the fixture",
+        "with": "example"
+      },
+      "bullets": [
+        "Sharp, measurable problem",
+        "5W2H captures the facts",
+        "Is / Is Not: where it occurs, and doesn't"
+      ],
+      "at": [
+        2.148,
+        5.957,
+        12.359
+      ],
+      "exampleAt": 18.703
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Evidence & Traceability",
+      "example": "Lakshmi bagged ten failed and ten good cameras before anyone touched the fixture.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Evidence first",
+            "icon": "search"
+          },
+          {
+            "label": "Failed + good samples",
+            "icon": "box"
+          },
+          {
+            "label": "Logs and alarms",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Recent changes",
+            "icon": "sequence"
+          },
+          {
+            "label": "Calibration",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Gather evidence before changing settings",
+        "Keep failed and known-good samples",
+        "Pull MES records, test logs, alarms",
+        "Record every recent change",
+        "Check gauge calibration"
+      ],
+      "at": [
+        4.968,
+        9.463,
+        13.298,
+        17.604,
+        24.771
+      ],
+      "exampleAt": 31.622
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Pareto: Pick Your Battle",
+      "example": "Wrong PCB 40 · missing screw 25 · focus 20 · label 10 · other 5 → top three = 85%.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Top three = 85% of defects",
+        "items": [
+          {
+            "label": "Wrong PCB",
+            "value": 40,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Missing screw",
+            "value": 25,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Focus",
+            "value": 20,
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Label",
+            "value": 10,
+            "with": "example"
+          },
+          {
+            "label": "Other",
+            "value": 5,
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Rank by count, cost or risk",
+        "Sort and add the running %",
+        "Split the top one by shift, station, supplier",
+        "Severe risks jump the queue"
+      ],
+      "at": [
+        5.679,
+        9.455,
+        23.826,
+        30.224
+      ],
+      "exampleAt": 17.425
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "5 Why: Test the Chain",
+      "example": "Missing screw → cycle finished without confirming it → torque signal not linked to MES.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Five isn't a rule",
+            "icon": "count"
+          },
+          {
+            "label": "Evidence per link",
+            "icon": "search"
+          },
+          {
+            "label": "Branch when needed",
+            "icon": "sequence"
+          },
+          {
+            "label": "Never 'operator error'",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "A missing screw",
+              "icon": "screw",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Why? The cycle finished anyway",
+              "icon": "sequence",
+              "with": "example"
+            },
+            {
+              "label": "Why? Torque not linked to MES",
+              "icon": "chip",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Five isn't a rule",
+        "Evidence for every link",
+        "Branch when there's more than one cause",
+        "Never stop at 'operator error'"
+      ],
+      "at": [
+        5.776,
+        7.643,
+        10.59,
+        14.253
+      ],
+      "exampleAt": 22.125
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Fishbone & the 6M",
+      "example": "Lakshmi's fishbone: fixture wear, wrong recipe, lens tolerance, tester repeatability, handling, heat.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "People",
+            "sub": "Handling",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Machine",
+            "sub": "Fixture wear",
+            "icon": "gear",
+            "with": 1
+          },
+          {
+            "label": "Method",
+            "sub": "Wrong recipe",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Material",
+            "sub": "Lens tolerance",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Measurement",
+            "sub": "Tester repeatability",
+            "icon": "scale",
+            "with": 2
+          },
+          {
+            "label": "Environment",
+            "sub": "Heat",
+            "icon": "wave",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Fishbone = Ishikawa diagram",
+        "People · machine · method",
+        "Material · measurement · environment",
+        "It doesn't prove which cause is true"
+      ],
+      "at": [
+        0.87,
+        7.611,
+        9.525,
+        29.645
+      ],
+      "exampleAt": 13.464
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Change Analysis & Fault Trees",
+      "example": "No picture escapes only if the firmware is wrong AND the interlock is missing.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Change analysis",
+            "sub": "Failing vs last stable",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Fault tree",
+            "sub": "AND / OR, worked backward",
+            "icon": "gear",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Firmware is wrong",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "AND the interlock is missing",
+              "icon": "lock",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "A no-picture unit escapes",
+              "icon": "box",
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Change analysis: failing vs last stable",
+        "Fault tree: work back with AND / OR",
+        "Together ≠ cause"
+      ],
+      "at": [
+        1.469,
+        13.442,
+        30.553
+      ],
+      "exampleAt": 20.383
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Test Your Hypothesis",
+      "example": "Approved vs suspect spacers, with the same camera, recipe and room.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Write a prediction",
+            "icon": "clipboard"
+          },
+          {
+            "label": "One factor, or a DOE",
+            "icon": "gear"
+          },
+          {
+            "label": "Enough samples",
+            "icon": "stack"
+          },
+          {
+            "label": "Check the gauge",
+            "icon": "scale"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Suspect spacer",
+              "sub": "Same camera, recipe, room",
+              "icon": "shape"
+            },
+            {
+              "label": "Approved spacer",
+              "sub": "Same camera, recipe, room",
+              "icon": "shape"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Write a prediction",
+        "One factor at a time, or a DOE",
+        "Enough samples, repeated",
+        "Check the gauge first"
+      ],
+      "at": [
+        1.07,
+        8.758,
+        17.155,
+        29.215
+      ],
+      "exampleAt": 21.447
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Contain vs Correct vs Prevent",
+      "example": "Wrong board: scan the held stock → add an MES match → copy it to other variants.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Contain",
+            "sub": "Scan the held stock",
+            "icon": "lock"
+          },
+          {
+            "label": "Correct",
+            "sub": "Add an MES match",
+            "icon": "barcode"
+          },
+          {
+            "label": "Prevent",
+            "sub": "Copy it to other variants",
+            "icon": "sequence",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Contain: protect the customer now",
+        "Correct: remove the verified cause",
+        "Prevent: spread to similar lines",
+        "Fix the escape cause too"
+      ],
+      "at": [
+        3.84,
+        7.258,
+        11.116,
+        15.933
+      ],
+      "exampleAt": 21.788
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Link to FMEA & Poka Yoke",
+      "example": "Ask: does the new control prevent the error, detect it, or only make it visible?",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "FMEA",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Control plan",
+            "icon": "shield"
+          },
+          {
+            "label": "Validate Poka Yoke",
+            "icon": "test"
+          },
+          {
+            "label": "SOP, training, audits",
+            "icon": "person"
+          }
+        ],
+        "then": {
+          "type": "ladder",
+          "top": "BEST",
+          "bottom": "WEAKEST",
+          "with": "example",
+          "items": [
+            {
+              "label": "Prevents the error",
+              "icon": "key",
+              "with": "example"
+            },
+            {
+              "label": "Detects it",
+              "icon": "sensor",
+              "with": "example"
+            },
+            {
+              "label": "Only makes it visible",
+              "icon": "search",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Link each cause to a failure mode",
+        "Update the control plan",
+        "Validate Poka Yoke: good, bad, borderline",
+        "Update SOP, training, audits"
+      ],
+      "at": [
+        4.665,
+        13.19,
+        18.713,
+        24.333
+      ],
+      "exampleAt": 32.865
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "RCA Metrics",
+      "example": "60 → 12 defects per 20,000: an 80% cut. ₹90,000 control saving ₹15,000/month = 6-month payback.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Closed form ≠ success",
+            "icon": "cross",
+            "tone": "bad"
+          },
+          {
+            "label": "Defect rate vs FPY",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Repeats after closure",
+            "icon": "sequence"
+          },
+          {
+            "label": "Cost and payback",
+            "icon": "calendar"
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Before",
+            "value": 60
+          },
+          "after": {
+            "label": "After",
+            "value": 12
+          },
+          "unit": "defects per 20,000 cameras",
+          "note": "80% fewer, 6-month payback",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Don't count closed forms as success",
+        "Defect rate ≠ first pass yield",
+        "Track repeats after closure",
+        "Cost and payback"
+      ],
+      "at": [
+        8.326,
+        12.898,
+        18.75,
+        28.317
+      ],
+      "exampleAt": 23.217
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Case Study: Focus Failure",
+      "example": "Swapping spacers moved the failures. Swapping testers didn't. That was the proof.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Hold since the last good first-off",
+            "icon": "lock"
+          },
+          {
+            "label": "Four suspects listed",
+            "icon": "search"
+          },
+          {
+            "label": "Cross-over test",
+            "sub": "Spacers moved it; testers didn't",
+            "icon": "test"
+          },
+          {
+            "label": "Keyed spacer + fixture scan",
+            "icon": "key",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Held every camera since the last good first-off",
+        "Four suspects: spacer, recipe, seating, tester",
+        "Measured, compared logs, cross-over test",
+        "Keyed spacer + fixture scan linked to recipe"
+      ],
+      "at": [
+        1.359,
+        6.903,
+        16.314,
+        29.994
+      ],
+      "exampleAt": 22.505
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Two More Cases: SMT & Label",
+      "example": "Both fixes were challenge-tested before closure.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Wrong component",
+            "sub": "Board line",
+            "icon": "chip",
+            "tone": "bad"
+          },
+          {
+            "label": "Feeder interlock",
+            "sub": "Checked against the BOM",
+            "icon": "lock",
+            "tone": "good"
+          },
+          {
+            "label": "Label ≠ device",
+            "sub": "Packing",
+            "icon": "label",
+            "tone": "bad"
+          },
+          {
+            "label": "Box can't close",
+            "sub": "Until all three match",
+            "icon": "box",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Board line: wrong component placed",
+        "Fix: feeder interlock against the BOM",
+        "Packing: carton label ≠ device",
+        "Fix: box can't close until all match"
+      ],
+      "at": [
+        4.706,
+        17.598,
+        21.586,
+        25.916
+      ],
+      "exampleAt": 33.123
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "90-Day Deployment",
+      "example": "Make RCA a routine, not a one-time workshop.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Triggers, roles, forms, pilots",
+            "sub": "Days 1–30",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Train, run real investigations",
+            "sub": "31–60",
+            "icon": "person",
+            "with": 1
+          },
+          {
+            "label": "Audit, update FMEA, expand",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Days 1–30: triggers, roles, forms, pilots",
+        "Days 31–60: train, investigate",
+        "Days 61–90: audit, update FMEA, expand",
+        "Closure: reconciled, verified, tested"
+      ],
+      "at": [
+        5.469,
+        12.337,
+        17.496,
+        25.975
+      ],
+      "exampleAt": 0.877
+    }
+  ]
+}

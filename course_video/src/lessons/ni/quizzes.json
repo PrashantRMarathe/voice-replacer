@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "A sensor stops the wrong connector orientation before the part is fitted. Which level of inspection is this?",
+      "options": [
+        "Source inspection",
+        "Self inspection",
+        "Next-process inspection"
+      ],
+      "correct": 0,
+      "explanation": "It checks the condition that would create the defect, before it happens. That is source inspection — the strongest level.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Test keeps finding the same loose connector from assembly, so a manager adds an inspector after assembly. What's the better move?",
+      "options": [
+        "Add a second inspector to be safe",
+        "Keep the inspector and also fix the cause at assembly",
+        "Remove all checks to save cost",
+        "Ask test to stop reporting it"
+      ],
+      "correct": 1,
+      "explanation": "An extra inspector can contain the risk for now, but a repeat defect means the process must be fixed at the source — then the temporary check can be removed.",
+      "think": 16
+    }
+  ]
+}

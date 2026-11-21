@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p06",
+      "question": "Kavya needs 3,000 phones, 2,000 boxes and 1,000 audio devices. Which sequence is mix-leveled?",
+      "options": [
+        "All phones, then all boxes, then all audio",
+        "Phone–Box–Phone–Audio–Box–Phone, repeated",
+        "One of each product, in turn"
+      ],
+      "correct": 1,
+      "explanation": "The repeating pattern follows the 3 : 2 : 1 demand ratio. Big batches create peaks; equal quantities ignore the real mix.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "A customer suddenly wants 500 audio devices early. What should Kavya do FIRST?",
+      "options": [
+        "Insert them in the very next slot",
+        "Check due dates, stock, parts and test capacity, then change the slots",
+        "Refuse — the schedule is frozen",
+        "Add overtime and build them all today"
+      ],
+      "correct": 1,
+      "explanation": "Check the impact first, then change the next release slots using the agreed rules. Jumping the queue blindly, or refusing outright, both cause trouble.",
+      "think": 13
+    }
+  ]
+}

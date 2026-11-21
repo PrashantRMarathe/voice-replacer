@@ -1,0 +1,653 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Qué muestra la gráfica",
+      "example": "La gráfica de Sneha: un pizarrón junto a la línea, visible para cada turno.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trabajo pendiente",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Tiempo disponible",
+            "icon": "clock",
+            "with": 1
+          },
+          {
+            "label": "Baja a cero",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Trabajo pendiente contra tiempo disponible",
+        "Arriba: trabajo pendiente. A lo ancho: tiempo",
+        "La línea baja hacia cero"
+      ],
+      "at": [
+        4.434,
+        8.429,
+        16.535
+      ],
+      "exampleAt": 23.957
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Por qué Lean la usa",
+      "example": "El mes pasado: solo una fecha límite. La brecha apareció el viernes en la tarde.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Solo una fecha límite",
+            "sub": "Brecha encontrada el viernes",
+            "icon": "calendar",
+            "tone": "bad",
+            "with": "example"
+          },
+          {
+            "label": "Una gráfica de trabajo pendiente",
+            "sub": "Brecha vista mientras es pequeña",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Una meta se vuelve un camino visible",
+        "Ve una brecha mientras es pequeña",
+        "Enfócate en la restricción"
+      ],
+      "at": [
+        0.584,
+        12.648,
+        16.55
+      ],
+      "exampleAt": 20.992
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Para qué sirve",
+      "example": "La meta: cada unidad planeada llega a cero en la fecha límite.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Visible para todos",
+            "icon": "search",
+            "with": 0
+          },
+          {
+            "label": "Real contra ritmo",
+            "icon": "scale",
+            "with": 1
+          },
+          {
+            "label": "Alerta temprana",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Hechos, no sensaciones",
+            "icon": "clipboard",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Trabajo pendiente visible para todos",
+        "Avance real contra el ritmo necesario",
+        "Detecta retrasos a tiempo",
+        "Recuperación respaldada por hechos"
+      ],
+      "at": [
+        3.599,
+        9.11,
+        13.182,
+        18.46
+      ],
+      "exampleAt": 23.589
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Los cinco elementos",
+      "example": "Sneha sigue los routers que faltan por terminar, día con día.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trabajo pendiente",
+            "sub": "Eje vertical",
+            "icon": "stack",
+            "with": 0
+          },
+          {
+            "label": "Tiempo",
+            "sub": "Eje horizontal",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "Línea ideal",
+            "icon": "chartDown",
+            "with": 1
+          },
+          {
+            "label": "Línea real",
+            "icon": "pin",
+            "with": 2
+          },
+          {
+            "label": "Brecha",
+            "icon": "scale",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Ejes: trabajo pendiente, tiempo",
+        "Línea ideal: el ritmo que necesitas",
+        "Línea real: lo que de verdad pasó",
+        "Brecha: real menos ideal"
+      ],
+      "at": [
+        3.211,
+        14.888,
+        18.378,
+        21.659
+      ],
+      "exampleAt": 24.862
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "El reto de Sneha",
+      "example": "Día 0: nada terminado, quedan 1,000 routers.",
+      "visual": {
+        "type": "stat",
+        "value": 1000,
+        "icon": "box",
+        "label": "routers en trabajo en proceso",
+        "unit": "5 días hábiles para el camión",
+        "with": 0
+      },
+      "bullets": [
+        "1,000 routers en trabajo en proceso",
+        "5 días hábiles para el camión",
+        "Pendiente = planeado − terminado"
+      ],
+      "at": [
+        3.504,
+        13.007,
+        18.914
+      ],
+      "exampleAt": 24.896
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "El ritmo ideal",
+      "example": "Línea ideal: 1,000 → 800 → 600 → 400 → 200 → 0",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Línea ideal: 200 routers menos cada día",
+        "with": "example",
+        "items": [
+          {
+            "label": "Día 0",
+            "value": 1000,
+            "with": "example"
+          },
+          {
+            "label": "Día 1",
+            "value": 800,
+            "with": "example"
+          },
+          {
+            "label": "Día 2",
+            "value": 600,
+            "with": "example"
+          },
+          {
+            "label": "Día 3",
+            "value": 400,
+            "with": "example"
+          },
+          {
+            "label": "Día 4",
+            "value": 200,
+            "with": "example"
+          },
+          {
+            "label": "Día 5",
+            "value": 0,
+            "tone": "good",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Ritmo = trabajo total ÷ periodos",
+        "1,000 ÷ 5 = 200 al día",
+        "Dibújala primero, nunca la redibujes"
+      ],
+      "at": [
+        1.339,
+        9.37,
+        18.925
+      ],
+      "exampleAt": 11.607
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Día dos: encontrar la brecha",
+      "example": "Detectado el martes, no el viernes.",
+      "visual": {
+        "type": "bars",
+        "label": "",
+        "note": "Routers pendientes, final del día 2: 80 atrás del plan",
+        "items": [
+          {
+            "label": "Ideal",
+            "value": 600,
+            "tone": "good",
+            "with": 1
+          },
+          {
+            "label": "Real",
+            "value": 680,
+            "tone": "bad",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Terminados: 320",
+        "Pendientes: 680. Ideal: 600",
+        "Brecha: 80 atrás del plan",
+        "Tres días para recuperarse, sin tocar la calidad"
+      ],
+      "at": [
+        4.547,
+        8.565,
+        15.945,
+        24.371
+      ],
+      "exampleAt": 29.585
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Leer las líneas",
+      "example": "La línea de Sneha está arriba de la ideal. ¿Qué impide que los routers se terminen?",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Arriba de la ideal",
+            "sub": "Atrasado: busca la restricción",
+            "icon": "chartUp",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Abajo de la ideal",
+            "sub": "Adelantado: confirma la calidad",
+            "icon": "chartDown",
+            "tone": "good",
+            "with": 1
+          }
+        ]
+      },
+      "bullets": [
+        "Arriba de la ideal: atrasado. Busca la restricción",
+        "Abajo de la ideal: adelantado. Confirma la calidad",
+        "Ir adelante con unidades malas no es ir adelante"
+      ],
+      "at": [
+        3.101,
+        12.971,
+        20.755
+      ],
+      "exampleAt": 24.728
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Líneas planas y llegar a cero",
+      "example": "Miércoles: la línea de Sneha se quedó plana un turno completo.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Línea plana",
+            "sub": "Nada se cerró",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "¿Paro? ¿Responsable? ¿Datos?",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "En cero: verifica, cierra",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Línea plana: nada se cerró",
+        "Revisa paro, responsable, datos",
+        "En cero: verifica, luego cierra"
+      ],
+      "at": [
+        3.058,
+        13.63,
+        19.534
+      ],
+      "exampleAt": 30.949
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "La revisión diaria",
+      "example": "Sneha hace la revisión en 10 minutos, al inicio de cada turno.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Actualiza",
+            "with": 0
+          },
+          {
+            "label": "Compara",
+            "with": 0
+          },
+          {
+            "label": "Explica",
+            "with": 1
+          },
+          {
+            "label": "Actúa",
+            "with": 2
+          },
+          {
+            "label": "Confirma",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Actualiza y compara",
+        "Explica la causa principal",
+        "Actúa: un responsable y una hora límite",
+        "Confirma en la siguiente actualización"
+      ],
+      "at": [
+        8.605,
+        16.176,
+        20.09,
+        24.137
+      ],
+      "exampleAt": 29.667
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "La recuperación de Sneha",
+      "example": "Viernes: cero routers pendientes, unas horas antes del camión.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Probador RF parado",
+            "icon": "test",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Segundo probador en marcha",
+            "icon": "wrench",
+            "with": 1
+          },
+          {
+            "label": "Un responsable de la gráfica",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 0,
+          "icon": "check",
+          "label": "routers pendientes el viernes",
+          "unit": "unas horas antes del camión",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Restricción: un probador RF parado",
+        "Segundo probador, personal prioritario",
+        "Un solo responsable actualiza la gráfica"
+      ],
+      "at": [
+        4.418,
+        19.642,
+        25.995
+      ],
+      "exampleAt": 30.84
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Dónde usarla",
+      "example": "El equipo de calidad de Sneha ahora baja a cero los defectos abiertos antes del embarque.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Trabajo en proceso",
+            "icon": "box",
+            "with": 1
+          },
+          {
+            "label": "Recuperar faltantes",
+            "icon": "chartUp",
+            "with": 1
+          },
+          {
+            "label": "Defectos críticos",
+            "icon": "warning",
+            "with": 2
+          },
+          {
+            "label": "Mantenimiento, Kaizen",
+            "icon": "wrench",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un inicio claro, un final claro, una fecha límite",
+        "Producción: trabajo en proceso, recuperación",
+        "Calidad: defectos críticos a cero",
+        "Acciones de mantenimiento y de Kaizen"
+      ],
+      "at": [
+        3.726,
+        10.057,
+        17.847,
+        21.521
+      ],
+      "exampleAt": 28.004
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Datos honestos",
+      "example": "Routers esperando reprueba: no cuentan como completos.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Una unidad, inicio congelado",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "“Completo” definido",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Solo producción buena",
+            "icon": "check",
+            "tone": "good",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Esperando reprueba",
+              "sub": "No completo",
+              "icon": "cross",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Aprobado y empacado",
+              "sub": "Cuenta",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Una unidad, una cantidad inicial congelada",
+        "Define “completo” antes de empezar",
+        "Cuenta solo la producción buena"
+      ],
+      "at": [
+        3.727,
+        13.182,
+        17.198
+      ],
+      "exampleAt": 20.695
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Errores comunes",
+      "example": "Sneha anota los cambios de alcance aprobados en un recuadro aparte junto a su gráfica.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Cantidad inicial movida",
+            "icon": "stack",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Actualizaciones tardías",
+            "icon": "clock",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Parcial o rechazado",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          },
+          {
+            "label": "Sin acciones",
+            "icon": "cross",
+            "tone": "bad",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Cambiar la cantidad inicial",
+        "Actualizaciones tardías o irregulares",
+        "Contar unidades parciales o rechazadas",
+        "Una gráfica sin acciones"
+      ],
+      "at": [
+        3.426,
+        7.442,
+        12.448,
+        19.353
+      ],
+      "exampleAt": 22.947
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Fortalezas, límites y lista de revisión",
+      "example": "Sneha pega esta lista junto a cada gráfica nueva.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Define el trabajo y “completo”",
+            "icon": "clipboard",
+            "with": 2
+          },
+          {
+            "label": "Confirma la cantidad inicial y la fecha",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Ritmo ideal, un responsable",
+            "icon": "person",
+            "with": 2
+          },
+          {
+            "label": "Actualiza, actúa, cierra solo en cero",
+            "icon": "check",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Simple, rápida, una alerta temprana",
+        "No encuentra la causa raíz por sí sola",
+        "Define, confirma, calcula, nombra un responsable",
+        "Actualiza, actúa, cierra solo en cero"
+      ],
+      "at": [
+        2.578,
+        8.785,
+        15.958,
+        30.044
+      ],
+      "exampleAt": 34.422
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Un opérateur a terminé le cours de formation mais n'a pas encore été évalué. Peut-on le compter comme L3 ?",
+      "options": [
+        "Oui — le cours est terminé",
+        "Non — le L3 demande une performance démontrée et évaluée",
+        "Oui, s'il est là depuis longtemps"
+      ],
+      "correct": 1,
+      "explanation": "La présence et l'ancienneté ne sont pas de la compétence. Le niveau 3 veut dire une performance autonome prouvée par une évaluation avec preuves.",
+      "think": 14
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Une seule personne de l'équipe est qualifiée sur la mise au point des objectifs, et la production en dépend. Que doit faire le chef de cellule EN PREMIER ?",
+      "options": [
+        "Former tout le monde sur toutes les compétences",
+        "Qualifier un remplaçant en mise au point comme priorité absolue",
+        "Demander à l'expert de ne jamais prendre de congé",
+        "Former d'abord les compétences à faible risque car c'est plus rapide"
+      ],
+      "correct": 1,
+      "explanation": "Dépendre d'une seule personne sur une compétence critique est le plus grand risque. Qualifiez d'abord un remplaçant là, puis élargissez la polyvalence.",
+      "think": 15
+    }
+  ]
+}

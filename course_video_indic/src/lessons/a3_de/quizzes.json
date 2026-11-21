@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Welche ist die beste A3-Problembeschreibung?",
+      "options": [
+        "Die Werker sind beim Einsetzen des Speichers nachlässig",
+        "Die Fehler beim ersten Boot-Test an Linie 2 lagen über 4 Wochen im Schnitt bei 4,8 % gegenüber 1,5 %",
+        "Wir brauchen zwei Prüfer mehr am Test"
+      ],
+      "correct": 1,
+      "explanation": "Sie nennt Linie, Zeitraum und Messgröße, mit einer Referenz, und behauptet keine Ursache. Die anderen sind eine Schuldzuweisung und eine Lösung.",
+      "think": 10
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Karthiks Pilot erreicht das Ziel, aber die Nachtestquote verdoppelt sich. Was sollte er tun?",
+      "options": [
+        "Trotzdem standardisieren: das Ziel ist erreicht",
+        "Die Leitplanke untersuchen, bevor er standardisiert",
+        "Das Ziel sicherheitshalber auf 3 % anheben"
+      ],
+      "correct": 1,
+      "explanation": "Eine Leitplanke hat sich bewegt, also versteckt die Änderung vielleicht Fehler in Nachtests, statt sie zu beseitigen. Verstehen Sie das, bevor Sie standardisieren.",
+      "think": 16
+    }
+  ]
+}

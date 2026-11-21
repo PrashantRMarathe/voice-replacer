@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Was sollten Sie zuerst tun, bevor Sie einen manuellen Schritt automatisieren?",
+      "options": [
+        "Die schnellste verfügbare Maschine kaufen",
+        "Ihn mit ECRS vereinfachen und Verschwendung beseitigen",
+        "Die Werker bitten, schneller zu arbeiten"
+      ],
+      "correct": 1,
+      "explanation": "Zuerst vereinfachen: eliminieren, kombinieren, umordnen und vereinfachen. Automatisierte Verschwendung bleibt Verschwendung, nur schneller und schwerer zu ändern.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Eine neue LCA-Station spart auf dem Papier 6 Sekunden, klemmt aber zehnmal pro Schicht. Was sollte das Team tun?",
+      "options": [
+        "Ausrollen: die Zykluszeit ist besser",
+        "Die echte Leistung mit den Stopps messen und zuerst die Zuverlässigkeit beheben",
+        "Den Sensor entfernen, damit sie weniger klemmt"
+      ],
+      "correct": 1,
+      "explanation": "Theoretische Zykluszeit ist keine echte Kapazität. Rechnen Sie Klemmer und Wiederanlauf ein, beheben Sie die Zuverlässigkeit, und rollen Sie erst dann aus. Einen Sensor zu entfernen schwächt die Qualitätskontrolle.",
+      "think": 17
+    }
+  ]
+}

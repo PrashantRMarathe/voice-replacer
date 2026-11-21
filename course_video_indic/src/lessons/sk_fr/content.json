@@ -1,0 +1,743 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce qu'est une matrice de compétences",
+      "example": "La cellule de Vikram : assemblage des cartes, mise au point des objectifs, test et emballage — avec des remplaçants approuvés pour chacun.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Qui fait quel travail",
+            "icon": "person"
+          },
+          {
+            "label": "Niveau prouvé",
+            "icon": "check"
+          },
+          {
+            "label": "Les écarts",
+            "icon": "warning",
+            "tone": "bad"
+          },
+          {
+            "label": "Pas la présence",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Qui peut faire quel travail, et à quel niveau",
+        "Le niveau prouvé de chaque personne",
+        "Les écarts",
+        "Pas une feuille de présence"
+      ],
+      "at": [
+        5.318,
+        8.981,
+        13.708,
+        16.063
+      ],
+      "exampleAt": 20.298
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Pourquoi c'est important",
+      "example": "Compétent pour régler les chargeurs ≠ autorisé à libérer un programme. Deux compétences différentes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Effectif, absences",
+            "icon": "calendar"
+          },
+          {
+            "label": "Compétence sur les étapes critiques",
+            "icon": "shield"
+          },
+          {
+            "label": "Un chemin pour progresser",
+            "icon": "chartUp",
+            "tone": "good"
+          }
+        ]
+      },
+      "bullets": [
+        "Planifier l'effectif, couvrir les absences, équilibrer",
+        "Confirmer la compétence sur les étapes critiques",
+        "Un chemin clair pour progresser"
+      ],
+      "at": [
+        3.447,
+        10.467,
+        15.64
+      ],
+      "exampleAt": 21.8
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Structure de la matrice",
+      "example": "La production la tient à jour ; les formateurs évaluent ; la qualité valide les compétences critiques.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Objectif",
+          "Vissage",
+          "Test",
+          "Emballage"
+        ],
+        "note": "Illustration : chaque case est un niveau prouvé",
+        "items": [
+          {
+            "label": "Personne A",
+            "cells": [
+              3,
+              4,
+              2,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Personne B",
+            "cells": [
+              1,
+              3,
+              3,
+              2
+            ],
+            "with": 1
+          },
+          {
+            "label": "Personne C",
+            "cells": [
+              null,
+              2,
+              4,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Lignes : les personnes",
+        "Colonnes : les compétences",
+        "Chaque case : niveau + dernière évaluation",
+        "Chaque compétence liée à son SOP",
+        "Ne pas regrouper plusieurs tâches en une compétence"
+      ],
+      "at": [
+        2.575,
+        4.956,
+        7.654,
+        13.267,
+        28.551
+      ],
+      "exampleAt": 18.26
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Niveaux de maîtrise L0–L4",
+      "example": "Un niveau n'est pas une habilitation : l'autorisation machine et sécurité est enregistrée à part.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Non formé",
+            "sub": "L0"
+          },
+          {
+            "label": "Comprend",
+            "sub": "L1"
+          },
+          {
+            "label": "Supervisé",
+            "sub": "L2"
+          },
+          {
+            "label": "Travaille seul",
+            "sub": "L3"
+          },
+          {
+            "label": "Forme les autres",
+            "sub": "L4"
+          }
+        ]
+      },
+      "bullets": [
+        "L0 non formé",
+        "L1 comprend la sécurité et la séquence",
+        "L2 travaille sous supervision",
+        "L3 qualifié pour travailler seul",
+        "L4 forme les autres, dépanne"
+      ],
+      "at": [
+        3.095,
+        6.012,
+        11.821,
+        15.912,
+        22.642
+      ],
+      "exampleAt": 27.087
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Trouver les compétences critiques",
+      "example": "La cellule de Vikram : la mise au point des objectifs et le flashage du firmware sont en tête ; la manutention des cartons, plus bas.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Cartographier chaque étape + SOP",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Repérer sécurité, qualité, client",
+            "icon": "warning"
+          },
+          {
+            "label": "Noter impact, difficulté, remplaçants",
+            "icon": "scale"
+          },
+          {
+            "label": "Minimum qualifié par équipe",
+            "icon": "person",
+            "tone": "good"
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Mise au point des objectifs",
+              "sub": "Risque le plus élevé",
+              "icon": "camera",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Flashage du firmware",
+              "sub": "Risque le plus élevé",
+              "icon": "chip",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Manutention des cartons",
+              "sub": "Plus bas",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Cartographier chaque étape et son SOP",
+        "Repérer l'impact sécurité, qualité, client",
+        "Noter impact, difficulté, remplaçants",
+        "Effectif qualifié minimum par équipe"
+      ],
+      "at": [
+        3.557,
+        7.405,
+        13.146,
+        34.49
+      ],
+      "exampleAt": 19.608
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Évaluer la vraie compétence",
+      "example": "Une opératrice de test a réussi la théorie mais ratait encore des scans de séries défaillantes — elle reste au niveau deux.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Bref contrôle théorique",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Vrais cycles + une situation anormale",
+            "icon": "search",
+            "with": 1
+          },
+          {
+            "label": "Date, évaluateur, résultat",
+            "icon": "calendar",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Théorie : réussie",
+              "icon": "clipboard",
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Travail réel : scans défaillants ratés",
+              "icon": "search",
+              "tone": "bad",
+              "with": "example"
+            },
+            {
+              "label": "Elle reste au niveau 2",
+              "icon": "person",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Bref contrôle théorique",
+        "Observer de vrais cycles + une situation anormale",
+        "Noter la date, l'évaluateur, les résultats"
+      ],
+      "at": [
+        6.144,
+        10.799,
+        15.531
+      ],
+      "exampleAt": 19.201
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "Besoins de formation et écarts",
+      "example": "L'équipe de Vikram a besoin de 4 opérateurs firmware qualifiés et en a 2 : un écart de 2.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Réévaluer après un changement",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "Besoin = requis − prouvé",
+            "icon": "count",
+            "with": 1
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Un écart de 2",
+          "unit": "opérateurs firmware qualifiés par équipe",
+          "with": "example",
+          "items": [
+            {
+              "label": "Nécessaires",
+              "value": 4,
+              "with": "example"
+            },
+            {
+              "label": "Disponibles",
+              "value": 2,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Réévaluer après une absence ou un changement",
+        "Besoin = niveau requis − niveau prouvé",
+        "Compter les personnes qualifiées face aux postes",
+        "Trouver les points de défaillance uniques"
+      ],
+      "at": [
+        0.224,
+        9.406,
+        13.859,
+        26.202
+      ],
+      "exampleAt": 17.676
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "Méthodes de formation",
+      "example": "Le Dojo d'emballage de Vikram utilise exprès de mauvaises étiquettes et des accessoires manquants.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Formation au poste",
+            "icon": "person"
+          },
+          {
+            "label": "Évaluateur indépendant",
+            "icon": "shield"
+          },
+          {
+            "label": "Dojo",
+            "sub": "Pratique sûre hors ligne",
+            "icon": "tray"
+          },
+          {
+            "label": "One Point Lesson",
+            "icon": "clipboard"
+          }
+        ]
+      },
+      "bullets": [
+        "Formation structurée au poste",
+        "Un évaluateur indépendant vérifie le résultat",
+        "Dojo : pratique sûre hors ligne",
+        "One Point Lesson pour les points clés"
+      ],
+      "at": [
+        1.628,
+        10.747,
+        14.536,
+        26.195
+      ],
+      "exampleAt": 20.056
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Le plan de formation sur 90 jours",
+      "example": "La première priorité de Vikram : qualifier un deuxième expert en mise au point des objectifs.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Cartographier les compétences, définir les niveaux, évaluer",
+            "sub": "Jours 1–30",
+            "icon": "clipboard"
+          },
+          {
+            "label": "Former sur les écarts critiques",
+            "sub": "31–60",
+            "icon": "person"
+          },
+          {
+            "label": "Certifier les remplaçants, élargir",
+            "sub": "61–90",
+            "icon": "check"
+          }
+        ]
+      },
+      "bullets": [
+        "Jours 1–30 : cartographier, définir les niveaux, évaluer",
+        "Jours 31–60 : former sur les écarts critiques",
+        "Jours 61–90 : certifier les remplaçants, élargir"
+      ],
+      "at": [
+        8.976,
+        16.677,
+        23.121
+      ],
+      "exampleAt": 27.928
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "KPI de la matrice",
+      "example": "18 postes critiques couverts sur 24 = 75 %. Calculez-le par équipe.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Couverture de qualification",
+            "icon": "count"
+          },
+          {
+            "label": "Atteinte des compétences",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Taux de polyvalence",
+            "icon": "sequence"
+          },
+          {
+            "label": "Qualifications expirées",
+            "icon": "clock",
+            "tone": "bad"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 75,
+          "suffix": "%",
+          "icon": "person",
+          "label": "des postes critiques couverts",
+          "unit": "18 sur 24 : calculez-le par équipe",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Couverture de qualification",
+        "Atteinte des compétences",
+        "Taux de polyvalence",
+        "Qualifications expirées"
+      ],
+      "at": [
+        4.602,
+        10.408,
+        15.344,
+        20.481
+      ],
+      "exampleAt": 23.435
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Exemple concret : la cellule de Vikram",
+      "example": "Mise au point + test en même temps : Bala à la mise au point, Deepa au test. Chitra ne peut pas faire les deux.",
+      "visual": {
+        "type": "matrix",
+        "cols": [
+          "Cartes",
+          "Mise au point",
+          "Test"
+        ],
+        "note": "Après 90 jours. Mise au point + test en même temps : Bala et Deepa. Ensuite : un autre remplaçant en mise au point.",
+        "items": [
+          {
+            "label": "Asha",
+            "cells": [
+              4,
+              null,
+              null
+            ],
+            "with": 0
+          },
+          {
+            "label": "Bala",
+            "cells": [
+              null,
+              3,
+              null
+            ],
+            "with": 1
+          },
+          {
+            "label": "Chitra",
+            "cells": [
+              null,
+              3,
+              3
+            ],
+            "with": 1
+          },
+          {
+            "label": "Deepa",
+            "cells": [
+              null,
+              null,
+              3
+            ],
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Asha : assemblage des cartes L4",
+        "Chitra rejoint maintenant Bala : mise au point des objectifs L3",
+        "Chitra, Deepa : test L3+",
+        "Prochaine priorité : un autre remplaçant en mise au point"
+      ],
+      "at": [
+        4.096,
+        7.684,
+        12.727,
+        29.67
+      ],
+      "exampleAt": 16.109
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "Lien avec la qualité et la sécurité",
+      "example": "Le technicien firmware de Vikram était L3 sur l'ancienne recette — la nouvelle a changé des étapes critiques, il a donc été réévalué.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Niveau",
+            "icon": "person",
+            "with": 0
+          },
+          {
+            "label": "Autorisation",
+            "icon": "key",
+            "with": 0
+          },
+          {
+            "label": "Formation au SOP",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Changement de processus : réévaluer",
+            "icon": "sequence",
+            "with": 2
+          }
+        ]
+      },
+      "bullets": [
+        "Niveau + autorisation + formation au SOP",
+        "Chaque compétence liée à la révision de son SOP",
+        "Changement de processus → réévaluer",
+        "La formation ne remplace jamais la conception du processus"
+      ],
+      "at": [
+        6.733,
+        14.31,
+        18.161,
+        32.996
+      ],
+      "exampleAt": 21.804
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Matrice numérique et tableau visuel",
+      "example": "Le tableau de bord de Vikram l'avertit quand une autorisation va expirer.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Codes uniques",
+            "icon": "barcode"
+          },
+          {
+            "label": "Traçabilité",
+            "icon": "sequence"
+          },
+          {
+            "label": "Rappels d'expiration",
+            "icon": "clock"
+          },
+          {
+            "label": "Pas d'auto-approbation",
+            "icon": "cross",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Codes uniques pour les personnes et les compétences",
+        "Traçabilité de chaque modification",
+        "Rappels pour les qualifications qui expirent",
+        "Pas d'auto-approbation des compétences critiques"
+      ],
+      "at": [
+        9.065,
+        12.709,
+        15.726,
+        19.615
+      ],
+      "exampleAt": 24.12
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Gouvernance et revue",
+      "example": "L'ancienneté et la présence ne valent pas qualification.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Effectif qualifié au démarrage",
+            "sub": "Chaque jour",
+            "icon": "person"
+          },
+          {
+            "label": "Écarts, polyvalence, retards",
+            "sub": "Chaque semaine",
+            "icon": "calendar"
+          },
+          {
+            "label": "Couverture, départs",
+            "sub": "Chaque mois",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Cohérence des évaluateurs",
+            "sub": "Chaque trimestre",
+            "icon": "scale"
+          }
+        ]
+      },
+      "bullets": [
+        "Chaque jour : effectif qualifié au démarrage",
+        "Chaque semaine : écarts, polyvalence, retards",
+        "Chaque mois : couverture, départs",
+        "Chaque trimestre : cohérence des évaluateurs"
+      ],
+      "at": [
+        4.344,
+        10.621,
+        16.506,
+        20.934
+      ],
+      "exampleAt": 31.782
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Modèles et audit",
+      "example": "Un autre superviseur doit voir d'un coup d'œil qui est qualifié aujourd'hui.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Matrice de compétences · Cellule 2 · Rev C",
+            "icon": "label",
+            "with": 0
+          },
+          {
+            "label": "Compétence · rév. du SOP · niveau · expiration",
+            "icon": "clipboard",
+            "with": 0
+          },
+          {
+            "label": "Évaluation : théorie, cycles, sécurité",
+            "icon": "test",
+            "with": 1
+          },
+          {
+            "label": "Un plan de formation pour chaque écart",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Auditée face au travail réel",
+            "icon": "search",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Matrice : compétence, rév. du SOP, niveau, expiration",
+        "Fiche d'évaluation : théorie, cycles, sécurité",
+        "Un plan de formation pour chaque écart",
+        "Auditer les cases face au travail réel"
+      ],
+      "at": [
+        3.766,
+        12.382,
+        20.069,
+        23.254
+      ],
+      "exampleAt": 30.76
+    }
+  ]
+}

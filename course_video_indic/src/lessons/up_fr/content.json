@@ -1,0 +1,780 @@
+{
+  "pages": [
+    {
+      "key": "p01",
+      "num": 1,
+      "title": "Ce que veut dire la production uniforme",
+      "example": "L'usine de Kavya fabrique des téléphones, des décodeurs et des appareils audio — en petites séquences qui se répètent, pas tous les téléphones d'abord.",
+      "visual": {
+        "type": "versus",
+        "items": [
+          {
+            "label": "Tous les téléphones d'abord",
+            "sub": "Puis les décodeurs, puis l'audio",
+            "icon": "stack",
+            "with": 1
+          },
+          {
+            "label": "Petites séquences répétées",
+            "sub": "Calées sur la demande réelle",
+            "icon": "sequence",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le lissage — Heijunka",
+        "Lisser le volume et le mix",
+        "Un schéma de lancement régulier",
+        "Suivre la demande réelle, pas des quantités égales"
+      ],
+      "at": [
+        2.601,
+        8.716,
+        14.602,
+        20.721
+      ],
+      "exampleAt": 29.157
+    },
+    {
+      "key": "p02",
+      "num": 2,
+      "title": "Pourquoi lisser compte",
+      "example": "Une grosse commande de téléphones est arrivée le lundi. Kavya l'a étalée sur la semaine, comme la date de livraison le permettait.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "La demande est irrégulière",
+            "icon": "wave"
+          },
+          {
+            "label": "Courir après les pics",
+            "sub": "Heures supplémentaires, stock",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Lisser les lancements",
+            "icon": "sequence"
+          },
+          {
+            "label": "Un peu de tampon",
+            "icon": "box"
+          }
+        ],
+        "then": {
+          "type": "versus",
+          "with": "example",
+          "items": [
+            {
+              "label": "Tout fabriquer le lundi",
+              "sub": "Heures supplémentaires, test bousculé",
+              "icon": "stack"
+            },
+            {
+              "label": "Étalé sur la semaine",
+              "sub": "La date de livraison le permettait",
+              "icon": "calendar"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "La demande n'arrive jamais régulièrement",
+        "Courir après les pics : heures supplémentaires, stock, qualité fragile",
+        "Le lissage lisse dans une fenêtre de planification",
+        "Il faut encore un peu de tampon"
+      ],
+      "at": [
+        0.225,
+        3.742,
+        13.382,
+        21.103
+      ],
+      "exampleAt": 23.948
+    },
+    {
+      "key": "p03",
+      "num": 3,
+      "title": "Mura, Muri et Muda",
+      "example": "Le testeur traite ~2 000 unités par jour ; l'assemblage en a lancé plus de 3 000 au test en un jour — une file s'est formée.",
+      "visual": {
+        "type": "flow",
+        "items": [
+          {
+            "label": "Mura",
+            "sub": "Les lancements irréguliers créent des pics",
+            "icon": "wave",
+            "tone": "bad",
+            "with": 0
+          },
+          {
+            "label": "Muri",
+            "sub": "Les pics surchargent personnes et machines",
+            "icon": "weight",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Muda",
+            "sub": "Défauts, attente, stock",
+            "icon": "trash",
+            "tone": "bad",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Une file se forme au test",
+          "unit": "unités en un jour",
+          "with": "example",
+          "items": [
+            {
+              "label": "Le testeur peut faire",
+              "value": 2000,
+              "tone": "good",
+              "with": "example"
+            },
+            {
+              "label": "Lancées",
+              "value": 3200,
+              "tone": "bad",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mura : l'irrégularité",
+        "Muri : la surcharge",
+        "Muda : le gaspillage"
+      ],
+      "at": [
+        2.939,
+        5.914,
+        8.638
+      ],
+      "exampleAt": 25.437
+    },
+    {
+      "key": "p04",
+      "num": 4,
+      "title": "Lisser le volume",
+      "example": "30 000 unités de besoin net sur 5 jours = 6 000 bonnes unités par jour, régulièrement.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Un horizon raisonnable",
+            "icon": "calendar"
+          },
+          {
+            "label": "Demande nette",
+            "icon": "count"
+          },
+          {
+            "label": "÷ jours de production",
+            "icon": "sequence"
+          },
+          {
+            "label": "Vérifier que ça tient",
+            "icon": "search"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 6000,
+          "icon": "chartUp",
+          "label": "bonnes unités par jour, chaque jour",
+          "unit": "30 000 unités de besoin net ÷ 5 jours",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Étaler la production sur un horizon",
+        "Demande nette = demande + stock final − stock",
+        "Diviser par les jours de production",
+        "Vérifier matières, rendement, disponibilité, effectif"
+      ],
+      "at": [
+        2.488,
+        7.714,
+        17.807,
+        33.198
+      ],
+      "exampleAt": 21.554
+    },
+    {
+      "key": "p05",
+      "num": 5,
+      "title": "Lisser le mix",
+      "example": "3 000 téléphones, 2 000 décodeurs, 1 000 audio → 3 : 2 : 1 → Téléphone–Décodeur–Téléphone–Audio–Décodeur–Téléphone.",
+      "visual": {
+        "type": "steps",
+        "items": [
+          {
+            "label": "Téléphone",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Décodeur",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Téléphone",
+            "sub": "P",
+            "with": "example"
+          },
+          {
+            "label": "Audio",
+            "sub": "A",
+            "with": "example"
+          },
+          {
+            "label": "Décodeur",
+            "sub": "B",
+            "with": "example"
+          },
+          {
+            "label": "Téléphone",
+            "sub": "P",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "De petits schémas répétés qui suivent la demande",
+        "Le ratio vient de la demande",
+        "Vérifier changements de série, gabarits, pièces"
+      ],
+      "at": [
+        2.269,
+        14.638,
+        32.498
+      ],
+      "exampleAt": 8.562
+    },
+    {
+      "key": "p06",
+      "num": 6,
+      "title": "Temps TAKT et pitch",
+      "example": "Une unité toutes les 4,2 secondes → un pitch de 100 unités de 7 minutes.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "TAKT",
+            "sub": "Le rythme du client",
+            "icon": "clock",
+            "with": 0
+          },
+          {
+            "label": "Temps net ÷ bonnes unités",
+            "icon": "count",
+            "with": 1
+          },
+          {
+            "label": "Pitch",
+            "sub": "Temps pour lancer un lot",
+            "icon": "box",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "Une unité toutes les 4,2 s",
+              "icon": "clock",
+              "with": "example"
+            },
+            {
+              "label": "× un lot de 100 unités",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "= un pitch de 7 minutes",
+              "icon": "check",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "TAKT : le rythme exigé par le client",
+        "Temps net ÷ bonnes unités nécessaires",
+        "Pitch : le temps pour lancer un lot",
+        "TAKT moyen ≠ chaque modèle suit"
+      ],
+      "at": [
+        2.768,
+        6.14,
+        15.317,
+        29.942
+      ],
+      "exampleAt": 19.513
+    },
+    {
+      "key": "p07",
+      "num": 7,
+      "title": "La boîte de lissage",
+      "example": "Toutes les 30 minutes, le tableau de Kavya lance le lot suivant ; les kits sont préparés dans cet ordre.",
+      "visual": {
+        "type": "doc",
+        "items": [
+          {
+            "label": "Boîte de lissage · ligne partagée",
+            "icon": "calendar",
+            "with": 0
+          },
+          {
+            "label": "08:00  Téléphone · Décodeur · Téléphone",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "08:30  Audio · Décodeur · Téléphone",
+            "icon": "sequence",
+            "with": 1
+          },
+          {
+            "label": "09:00  Lot suivant : kits prêts",
+            "icon": "box",
+            "with": 2
+          },
+          {
+            "label": "Créneau manqué ? Visible tout de suite",
+            "icon": "warning",
+            "with": 3
+          }
+        ]
+      },
+      "bullets": [
+        "Un planning visuel",
+        "Créneaux horaires en colonnes, produits en lignes",
+        "Cartes : quoi lancer, combien",
+        "Créneaux manqués et manques visibles"
+      ],
+      "at": [
+        2.754,
+        5.187,
+        9.441,
+        22.516
+      ],
+      "exampleAt": 13.758
+    },
+    {
+      "key": "p08",
+      "num": 8,
+      "title": "EPEI et changement de série",
+      "example": "6 changements par jour : de 20 à 8 minutes = 72 minutes regagnées chaque jour.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Plus de changements de série",
+            "icon": "sequence",
+            "with": 0
+          },
+          {
+            "label": "EPEI",
+            "sub": "Chaque pièce à chaque intervalle",
+            "icon": "calendar",
+            "with": 1
+          },
+          {
+            "label": "SMED",
+            "sub": "Réglage hors temps d'arrêt",
+            "icon": "wrench",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "compare",
+          "before": {
+            "label": "Avant",
+            "value": 20
+          },
+          "after": {
+            "label": "Après le SMED",
+            "value": 8
+          },
+          "suffix": " min",
+          "unit": "par changement de série, six par jour",
+          "note": "72 minutes regagnées chaque jour",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Petits schémas = plus de changements de série",
+        "EPEI : chaque pièce à chaque intervalle",
+        "SMED : réglage hors temps d'arrêt"
+      ],
+      "at": [
+        0.236,
+        4.001,
+        22.577
+      ],
+      "exampleAt": 28.672
+    },
+    {
+      "key": "p09",
+      "num": 9,
+      "title": "Goulots et modèles mélangés",
+      "example": "40 % des unités demandent un test de 12 secondes = environ 340 tests/heure contre ~300 pour un testeur. Ajoutez un deuxième testeur.",
+      "visual": {
+        "type": "bars",
+        "label": "Un testeur",
+        "value": 300,
+        "note": "insuffisant avant même les pertes : ajoutez un deuxième testeur",
+        "unit": "tests par heure (40 % des unités demandent un test de 12 s)",
+        "items": [
+          {
+            "label": "Tests nécessaires",
+            "value": 343,
+            "tone": "bad",
+            "with": "example"
+          }
+        ]
+      },
+      "bullets": [
+        "Le lissage ne bat pas une limite de capacité",
+        "Charger les postes avec le mix réel",
+        "Ne pas bloquer le modèle le plus lent"
+      ],
+      "at": [
+        2.536,
+        7.021,
+        32.38
+      ],
+      "exampleAt": 15.318
+    },
+    {
+      "key": "p10",
+      "num": 10,
+      "title": "Kanban et maîtrise du WIP",
+      "example": "Un kit de décodeur manquait — l'équipe l'a noté et a suivi la règle de replanification approuvée.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Signaux Kanban",
+            "icon": "label"
+          },
+          {
+            "label": "Couloirs FIFO",
+            "icon": "sequence"
+          },
+          {
+            "label": "Limites de WIP",
+            "icon": "stack"
+          },
+          {
+            "label": "Kits au rythme du pitch",
+            "icon": "tray"
+          }
+        ]
+      },
+      "bullets": [
+        "Kanban : quoi réapprovisionner, quand",
+        "Contenants standard, couloirs premier entré, premier sorti",
+        "Les limites de WIP arrêtent la surproduction",
+        "Kits calés sur le pitch et le mix"
+      ],
+      "at": [
+        3.92,
+        8.747,
+        15.304,
+        19.767
+      ],
+      "exampleAt": 23.449
+    },
+    {
+      "key": "p11",
+      "num": 11,
+      "title": "Gérer les changements de demande",
+      "example": "500 appareils audio demandés plus tôt : Kavya a d'abord vérifié échéances, stock, pièces et capacité de test.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Une fenêtre gelée",
+            "icon": "lock",
+            "with": 0
+          },
+          {
+            "label": "Replanification au poste",
+            "sub": "Crée le chaos",
+            "icon": "warning",
+            "tone": "bad",
+            "with": 1
+          },
+          {
+            "label": "Qui approuve",
+            "icon": "person",
+            "with": 2
+          }
+        ],
+        "then": {
+          "type": "flow",
+          "with": "example",
+          "items": [
+            {
+              "label": "500 audio demandés plus tôt",
+              "icon": "box",
+              "with": "example"
+            },
+            {
+              "label": "Vérifier dates, stock, pièces, test",
+              "icon": "search",
+              "with": "example"
+            },
+            {
+              "label": "Puis modifier les créneaux suivants",
+              "icon": "sequence",
+              "tone": "good",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Une fenêtre proche gelée",
+        "La replanification au poste crée le chaos",
+        "Décider qui approuve les changements"
+      ],
+      "at": [
+        2.82,
+        9.001,
+        12.818
+      ],
+      "exampleAt": 17.408
+    },
+    {
+      "key": "p12",
+      "num": 12,
+      "title": "KPI de lissage",
+      "example": "95 % des unités planifiées faites. 12 000 unités de WIP = 2 jours de production.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Production + stabilité",
+            "icon": "chartUp"
+          },
+          {
+            "label": "Respect du planning",
+            "icon": "check"
+          },
+          {
+            "label": "Jours de WIP",
+            "icon": "clock"
+          },
+          {
+            "label": "FPY, arrêts, heures supplémentaires",
+            "icon": "shield"
+          }
+        ],
+        "then": {
+          "type": "stat",
+          "value": 95,
+          "suffix": "%",
+          "icon": "check",
+          "label": "des unités planifiées terminées",
+          "unit": "12 000 unités de WIP = 2 jours de production",
+          "with": "example"
+        }
+      },
+      "bullets": [
+        "Suivre production et stabilité ensemble",
+        "Respect du planning",
+        "Jours de WIP",
+        "Plus FPY, arrêts, heures supplémentaires"
+      ],
+      "at": [
+        1.862,
+        5.128,
+        15.575,
+        24.783
+      ],
+      "exampleAt": 10.549
+    },
+    {
+      "key": "p13",
+      "num": 13,
+      "title": "Cas pratique : ligne partagée",
+      "example": "Un schéma environ toutes les quatre minutes en théorie — mais ses réglages étaient trop lents pour ce rythme.",
+      "visual": {
+        "type": "stat",
+        "value": 4.2,
+        "decimals": 1,
+        "suffix": " s",
+        "icon": "clock",
+        "label": "TAKT moyen, mix 3 : 2 : 1",
+        "unit": "téléphones : décodeurs : audio",
+        "with": 0,
+        "then": {
+          "type": "bars",
+          "label": "",
+          "note": "Un schéma toutes les 4 minutes environ",
+          "unit": "unités dans un schéma de 60 unités",
+          "with": 1,
+          "items": [
+            {
+              "label": "Téléphones",
+              "value": 30,
+              "with": 1
+            },
+            {
+              "label": "Décodeurs",
+              "value": 20,
+              "with": 1
+            },
+            {
+              "label": "Audio",
+              "value": 10,
+              "with": 1
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Mix 3 : 2 : 1, TAKT de 4,2 s",
+        "Schéma de 60 unités : 30 · 20 · 10",
+        "Vérifier gamme, outillage, limites de test",
+        "Changements plus rapides, sans raccourcis"
+      ],
+      "at": [
+        3.556,
+        10.309,
+        22.683,
+        34.909
+      ],
+      "exampleAt": 18.053
+    },
+    {
+      "key": "p14",
+      "num": 14,
+      "title": "Erreurs fréquentes",
+      "example": "Testeurs firmware en panne pendant que le tableau demandait des décodeurs : plus de WIP ne fait que déplacer le goulot. Escaladez.",
+      "visual": {
+        "type": "icons",
+        "items": [
+          {
+            "label": "Temps brut",
+            "icon": "clock",
+            "tone": "bad"
+          },
+          {
+            "label": "Quantités égales",
+            "icon": "scale",
+            "tone": "bad"
+          },
+          {
+            "label": "Surplanification",
+            "icon": "stack",
+            "tone": "bad"
+          },
+          {
+            "label": "Sauter la première pièce",
+            "icon": "warning",
+            "tone": "bad"
+          }
+        ]
+      },
+      "bullets": [
+        "Lisser sur le temps brut",
+        "Des quantités égales pour un mix inégal",
+        "Plus de production que la ligne ne peut faire",
+        "Sauter les contrôles de première pièce pour rattraper"
+      ],
+      "at": [
+        7.607,
+        11.803,
+        15.243,
+        34.159
+      ],
+      "exampleAt": 20.095
+    },
+    {
+      "key": "p15",
+      "num": 15,
+      "title": "Feuille de route sur 90 jours",
+      "example": "La planification fixe les lancements, la production fabrique, l'ingénierie vérifie la capacité, la qualité protège les contrôles, les matières gardent les kits prêts.",
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Demande, mix, TAKT, réglages",
+            "sub": "Jours 1–30",
+            "icon": "clipboard",
+            "with": 1
+          },
+          {
+            "label": "Tableau pilote, kits, changements de série",
+            "sub": "31–60",
+            "icon": "calendar",
+            "with": 2
+          },
+          {
+            "label": "Vérifier, standardiser, étendre",
+            "sub": "61–90",
+            "icon": "chartUp",
+            "with": 3
+          }
+        ],
+        "then": {
+          "type": "icons",
+          "with": "example",
+          "items": [
+            {
+              "label": "Planification",
+              "icon": "calendar",
+              "with": "example"
+            },
+            {
+              "label": "Production",
+              "icon": "wrench",
+              "with": "example"
+            },
+            {
+              "label": "Ingénierie",
+              "icon": "gear",
+              "with": "example"
+            },
+            {
+              "label": "Qualité",
+              "icon": "shield",
+              "with": "example"
+            },
+            {
+              "label": "Matières",
+              "icon": "box",
+              "with": "example"
+            }
+          ]
+        }
+      },
+      "bullets": [
+        "Une famille, un horizon",
+        "Jours 1–30 : demande, mix, TAKT, réglages",
+        "Jours 31–60 : tableau pilote, kits, changements de série",
+        "Jours 61–90 : vérifier, standardiser, étendre"
+      ],
+      "at": [
+        0.201,
+        5.78,
+        13.222,
+        21.214
+      ],
+      "exampleAt": 32.787
+    }
+  ]
+}

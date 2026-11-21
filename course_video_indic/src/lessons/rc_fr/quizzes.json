@@ -1,0 +1,33 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "L'arête de poisson d'une équipe liste six causes possibles. Que prouve-t-elle ?",
+      "options": [
+        "La plus grosse branche est la cause racine",
+        "Rien encore — chaque cause doit être testée",
+        "Les six causes sont vraies"
+      ],
+      "correct": 1,
+      "explanation": "Une arête de poisson organise des hypothèses. Elle ne prouve rien tant que chaque candidate n'est pas confirmée ou rejetée par un test.",
+      "think": 11
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Un défaut de mauvais PCB est trouvé. Le nouveau verrouillage MES est commandé mais pas installé. Le WIP bloqué peut-il être libéré ?",
+      "options": [
+        "Oui — la solution arrive",
+        "Non — seulement après tri et décision autorisée",
+        "Oui, si l'opérateur est reformé",
+        "Oui, si l'équipe suivante est prévenue"
+      ],
+      "correct": 1,
+      "explanation": "Commander une solution ne protège pas le client. Le stock bloqué n'est libéré qu'après avoir été trié et tranché par le processus qualité.",
+      "think": 16
+    }
+  ]
+}

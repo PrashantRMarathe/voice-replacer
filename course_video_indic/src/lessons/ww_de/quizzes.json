@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p07",
+      "question": "Der Endtest erkannte einen halb sitzenden Akkustecker nicht. Welche Art Ursache ist das?",
+      "options": [
+        "Entstehungsursache",
+        "Durchschlupfursache",
+        "Systemursache"
+      ],
+      "correct": 1,
+      "explanation": "Der Fehler entstand früher (Entstehung). Die Durchschlupfursache erklärt, warum die Prüfbarriere, hier der Endtest, ihn nicht fing.",
+      "think": 13
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "30 Kartons bekamen falsche Etiketten, und jemand sagt „Bedienfehler\". Was sollte das Team ZUERST tun?",
+      "options": [
+        "Den Werker nachschulen und abschließen",
+        "Verdächtige Kartons eingrenzen, dann fragen, warum der Prozess es zuließ",
+        "Ein Erinnerungsschild an der Verpackung anbringen"
+      ],
+      "correct": 1,
+      "explanation": "Zuerst eingrenzen, dann klären, warum der Prozess überhaupt ein falsches Etikett zuließ. Nachschulung oder ein Schild bauen auf Gedächtnis, und stoppen Wiederholungen selten.",
+      "think": 15
+    }
+  ]
+}

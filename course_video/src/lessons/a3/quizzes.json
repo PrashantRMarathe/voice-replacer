@@ -1,0 +1,32 @@
+{
+  "quizzes": [
+    {
+      "key": "quiz1",
+      "num": 1,
+      "after": "p08",
+      "question": "Which is the best A3 problem statement?",
+      "options": [
+        "Operators are careless when fitting memory",
+        "Line 2 first boot-test failures averaged 4.8% vs 1.5% over 4 weeks",
+        "We need two more inspectors at test"
+      ],
+      "correct": 1,
+      "explanation": "It names the line, period and measure, with a reference, and claims no cause. The others are a blame and a solution.",
+      "think": 8
+    },
+    {
+      "key": "quiz2",
+      "num": 2,
+      "after": "p15",
+      "question": "Karthik's pilot meets the target, but the retest rate doubles. What should he do?",
+      "options": [
+        "Standardize anyway: the target is met",
+        "Investigate the guardrail before standardizing",
+        "Raise the target to 3% to be safe"
+      ],
+      "correct": 1,
+      "explanation": "A guardrail moved, so the change may be hiding failures in retests instead of removing them. Understand it before you standardize.",
+      "think": 12
+    }
+  ]
+}
